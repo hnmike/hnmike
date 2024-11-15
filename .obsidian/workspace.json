@@ -1124,7 +1124,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -1155,7 +1155,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "b3e36bafaf964447",
   "lastOpenFiles": [
     "00-09 system/project/data engineer.md",
     "cài đặt docker engine & desktop.md",
