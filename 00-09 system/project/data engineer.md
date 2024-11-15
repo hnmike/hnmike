@@ -90,5 +90,5 @@ sort file.mtime DESC
 >[!hidden]+ Tasks
 - [ ] test
 - [x] cai ubuntu + workflow ✅ 2024-11-15
-- [ ] Cai dat [[dc]]
+- [ ]  [[cài đặt docker engine & desktop]] 📅 2024-11-15 
 ## reference 
