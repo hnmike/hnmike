@@ -1124,6 +1124,27 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "b5c993dba463ad5a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "20-30 technical knowledge hub/data engineer/docker.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for docker"
+            }
           }
         ],
         "currentTab": 1
@@ -1157,7 +1178,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d06b9c08a9da47c5",
+  "active": "c73acbf79430f06b",
   "lastOpenFiles": [
     "git (202411152107).md",
     "2nd lesson of data engineer.md",
