@@ -89,5 +89,6 @@ sort file.mtime DESC
 
 >[!hidden]+ Tasks
 - [ ] test
-- [ ] cai ubuntu + workflow
+- [x] cai ubuntu + workflow ✅ 2024-11-15
+- [ ] Cai dat [[dc]]
 ## reference 
