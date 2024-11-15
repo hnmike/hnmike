@@ -742,18 +742,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "git (202411152107)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git (202411152107).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"git (202411152107)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git (202411152107).md",
+                "file": "20-30 technical knowledge hub/data engineer/docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git (202411152107)"
+              "title": "docker"
             }
           }
         ],
@@ -865,12 +871,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git (202411152107).md",
+                "file": "20-30 technical knowledge hub/data engineer/docker.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from git (202411152107)"
+              "title": "Outgoing links from docker"
             }
           },
           {
@@ -888,7 +894,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git (202411152107).md",
+                "file": "20-30 technical knowledge hub/data engineer/docker.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -898,7 +904,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for git (202411152107)"
+              "title": "Backlinks for docker"
             }
           },
           {
@@ -1153,8 +1159,8 @@
   },
   "active": "d06b9c08a9da47c5",
   "lastOpenFiles": [
-    "2nd lesson of data engineer.md",
     "git (202411152107).md",
+    "2nd lesson of data engineer.md",
     "(202411131711).md",
     "2024-08-12.md",
     "00-09 system/homepage/DASHBOARD.md",
