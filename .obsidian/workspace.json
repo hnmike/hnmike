@@ -110,7 +110,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":7,\"ch\":4}},\"scroll\":0}"
                 },
                 {
@@ -395,7 +395,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":7,\"ch\":4}},\"scroll\":0}"
                 },
                 {
@@ -567,7 +567,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":11}"
                 },
                 {
@@ -579,7 +579,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":10}"
                 },
                 {
@@ -597,7 +597,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
                 },
                 {
@@ -609,7 +609,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
                 },
                 {
@@ -633,7 +633,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":9}"
                 },
                 {
@@ -645,7 +645,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"scroll\":0}"
                 },
                 {
@@ -657,7 +657,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -669,7 +669,7 @@
                 {
                   "title": "another",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/another.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -1090,10 +1090,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1118,15 +1118,34 @@
           {
             "id": "77656cc84c767e7e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "69b00f8ab0693172",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -1157,7 +1176,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "77656cc84c767e7e",
+  "active": "69b00f8ab0693172",
   "lastOpenFiles": [
     "2nd lesson of data engineer.md",
     "(202411131711).md",
