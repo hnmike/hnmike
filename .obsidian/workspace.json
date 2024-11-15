@@ -540,17 +540,17 @@
             "id": "2792026737ca1959",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "docker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":21},\"to\":{\"line\":19,\"ch\":21}},\"scroll\":11}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "cài đặt docker engine & desktop",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":3},\"to\":{\"line\":18,\"ch\":3}},\"scroll\":10}"
                 },
                 {
                   "title": "data engineer",
@@ -737,12 +737,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/docker.md",
+                "file": "cài đặt docker engine & desktop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker"
+              "title": "cài đặt docker engine & desktop"
             }
           }
         ],
@@ -1163,22 +1163,22 @@
   },
   "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/docker.md",
+    "00-09 system/homepage/DASHBOARD.md",
+    "docker compose.md",
     "cài đặt docker engine & desktop.md",
     "00-09 system/project/data engineer.md",
     "Dockers.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2nd lesson of data engineer.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "git (202411152107).md",
     "(202411131711).md",
     "2024-08-12.md",
-    "00-09 system/homepage/DASHBOARD.md",
     "().md",
     "conflict-files-obsidian-git.md",
     "Untitled 2.md",
     "demo_vault",
-    "docker compose.md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
