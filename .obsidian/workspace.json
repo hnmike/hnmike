@@ -540,8 +540,14 @@
             "id": "2792026737ca1959",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "()",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"().md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"()\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1055,8 +1061,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1077,9 +1083,28 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "723272cc43aaacce",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -1087,6 +1112,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-memos:Thino": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -1111,6 +1137,9 @@
   },
   "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "().md",
+    "00-09 system/project/data engineer.md",
+    "Untitled 2.md",
     "demo_vault",
     "00-09 system/homepage/DASHBOARD.md",
     "2024-08-12.md",
@@ -1124,7 +1153,6 @@
     "00-09 system/template/knowledge base template.md",
     "courses.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
-    "00-09 system/project/data engineer.md",
     "basic.thino.md",
     "requirements for data engineer project (202411121714).md",
     "2024-11-13.md",
@@ -1141,7 +1169,6 @@
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
     "coding project.md",
     "00-09 system/journal/daily/2024/09/2024-09-25.md",
-    "k8s.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/project/hn",
     "00-09 system/canvas/DE_project.canvas",
