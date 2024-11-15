@@ -1065,25 +1065,6 @@
             }
           },
           {
-            "id": "a08469a3c77235ae",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
             "id": "b5c993dba463ad5a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1103,14 +1084,32 @@
               "icon": "lucide-info",
               "title": "File properties for data engineer"
             }
+          },
+          {
+            "id": "b3e36bafaf964447",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 550.5,
-    "collapsed": true
+    "width": 550.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1137,7 +1136,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "b3e36bafaf964447",
   "lastOpenFiles": [
     "Dockers.md",
     "00-09 system/project/data engineer.md",
