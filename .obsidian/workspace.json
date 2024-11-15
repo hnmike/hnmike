@@ -720,9 +720,32 @@
               "icon": "lucide-file",
               "title": "data engineer"
             }
+          },
+          {
+            "id": "c89b1d73c2384265",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1135,10 +1158,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "c89b1d73c2384265",
   "lastOpenFiles": [
-    "().md",
     "00-09 system/project/data engineer.md",
+    "conflict-files-obsidian-git.md",
+    "().md",
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/homepage/DASHBOARD.md",
@@ -1168,7 +1192,6 @@
     "IMG-20241114084754746.png",
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
     "coding project.md",
-    "00-09 system/journal/daily/2024/09/2024-09-25.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/project/hn",
     "00-09 system/canvas/DE_project.canvas",
