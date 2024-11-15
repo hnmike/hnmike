@@ -540,17 +540,29 @@
             "id": "2792026737ca1959",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "()",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"().md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"()\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2nd lesson of data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "(202411131711)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"(202411131711).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"(202411131711)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":0},\"to\":{\"line\":93,\"ch\":0}},\"scroll\":4}"
                 },
                 {
                   "title": "another",
@@ -713,39 +725,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/project/data engineer.md",
+                "file": "(202411131711).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer"
-            }
-          },
-          {
-            "id": "c89b1d73c2384265",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "(202411131711)"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1158,11 +1147,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c89b1d73c2384265",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "2nd lesson of data engineer.md",
+    "(202411131711).md",
     "00-09 system/project/data engineer.md",
-    "conflict-files-obsidian-git.md",
     "().md",
+    "conflict-files-obsidian-git.md",
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/homepage/DASHBOARD.md",
@@ -1180,7 +1171,6 @@
     "basic.thino.md",
     "requirements for data engineer project (202411121714).md",
     "2024-11-13.md",
-    "(202411131711).md",
     "00-09 system/template/new zettel note.md",
     "Invalid date.md",
     "recap khóa học.md",
@@ -1191,7 +1181,6 @@
     "IMG-20241114084755540.png",
     "IMG-20241114084754746.png",
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
-    "coding project.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/project/hn",
     "00-09 system/canvas/DE_project.canvas",
