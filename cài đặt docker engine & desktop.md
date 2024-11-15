@@ -13,8 +13,10 @@ summary:
 [Complete Docker Compose in one Video - YouTube](https://www.youtube.com/watch?v=S8f5B8-BtzU&list=LL&index=2&t=520s) Khóa học về cài đặt và sử dụng docker 
 
 - Jfjfj 	- 
-\
-		- Jfjdjf
+
+		- Jfjdj 
+		- fdf  fndijf not find it helpful
+		- 
 ## See also 
 
 [[docker]]
