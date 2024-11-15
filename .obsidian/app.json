@@ -1,0 +1,10 @@
+{
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "vimMode": false,
+  "promptDelete": false,
+  "livePreview": true,
+  "newFileLocation": "root",
+  "defaultViewMode": "source",
+  "showUnsupportedFiles": true
+}

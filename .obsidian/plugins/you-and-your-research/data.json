@@ -1,0 +1,7 @@
+{
+  "openAIAPIKey": "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",
+  "openAIAPIEndpoint": "https://api.groq.com/openai/v1",
+  "openAIModel": "llama3-70b-8192",
+  "jinaAIAPIKey": "",
+  "savedLocation": "90-100 resource archives"
+}

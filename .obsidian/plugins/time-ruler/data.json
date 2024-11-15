@@ -1,0 +1,46 @@
+{
+  "calendars": [],
+  "fieldFormat": "dataview",
+  "muted": false,
+  "timerEvent": "notification",
+  "inbox": null,
+  "search": "",
+  "taskSearch": "",
+  "fileOrder": [
+    "00-09 system/journal/daily/2024/09/2024-09-03",
+    "00-09 system/journal/daily/2024/09/2024-09-07",
+    "00-09 system/journal/daily/2024/09/2024-09-08",
+    "00-09 system/journal/daily/2024/09/2024-09-09",
+    "00-09 system/journal/daily/2024/09/2024-09-16",
+    "00-09 system/project/data engineer",
+    "00-09 system/project/project template",
+    "00-09 system/template",
+    "00-09 system/template/checkbox types",
+    "00-09 system/template/project template 1",
+    "20-30 technical knowledge hub/mlops mle",
+    "20-30 technical knowledge hub/mlops mle/fundamental mlops1",
+    "20-30 technical knowledge hub/mlops mle/fundamental mlops1/4th lesson of mlops 1",
+    "4th lesson of mlops 1",
+    "Inbox",
+    "TASK TEMPLATE",
+    "demo tasks"
+  ],
+  "customStatus": {
+    "include": false,
+    "statuses": "-"
+  },
+  "showCompleted": false,
+  "groupBy": "path",
+  "dayStartEnd": [
+    0,
+    24
+  ],
+  "twentyFourHourFormat": false,
+  "filterFunction": "",
+  "addTaskToEnd": false,
+  "extendBlocks": false,
+  "hideTimes": false,
+  "borders": true,
+  "viewMode": "day",
+  "scheduledSubtasks": true
+}

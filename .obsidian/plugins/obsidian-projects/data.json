@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "tags": {
+          "options": [
+            "box "
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "00-09 system/template/project template 1.md",
+        "00-09 system/template/project template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "20-30 technical knowledge hub/mlops mle",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [],
+            "fieldConfig": {}
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "a559917b-8e87-46e8-9294-cf149d3f5c3e",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "records": [
+                  "20-30 technical knowledge hub/mlops mle/learning .md",
+                  "20-30 technical knowledge hub/mlops mle/mle.md",
+                  "20-30 technical knowledge hub/mlops mle/hugi.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6b94dede-5ce6-45c5-8974-b3b587a86d20",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "7e607a69-40c5-4e01-839d-fa0741f64be8",
+      "name": "mlops "
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "00-09 system/template/project template1.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "20-30 technical knowledge hub/mlops mle",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "db6f8509-a51c-40c5-9799-100cde4146ae",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "c48c02e8-7419-4f99-ba00-064060102e1c",
+      "name": "my new note in mlops"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "20-30 technical knowledge hub/mlops mle/fundamental mlops1",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "alias",
+              "aliases",
+              "Completed",
+              "CompletionDate",
+              "CoverImg",
+              "created-date",
+              "Department",
+              "due",
+              "kanban_plugin",
+              "Limbo",
+              "obsidianUIMode",
+              "QuickFind",
+              "related",
+              "reviewed",
+              "status",
+              "summary",
+              "tags",
+              "Type",
+              "url"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8bf6602a-4301-43d2-b269-4bce6d88b850",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "00c52edd-e180-4572-9b78-026cca766128",
+      "name": "fundamental mlops1"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "20-30 technical knowledge hub/data engineer",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "40743b86-60e4-441e-9c1d-a59f083f91c6",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "bf47e3dd-3163-4509-bc00-515984db2c19",
+      "name": "data engineer"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

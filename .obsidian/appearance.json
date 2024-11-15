@@ -1,0 +1,25 @@
+{
+  "enabledCssSnippets": [
+    "clean-embeds",
+    "hide_file_in_filetree",
+    "Cards",
+    "Tabs_plugin",
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "nyan-progress",
+    "Highlight",
+    "textfontsize",
+    "mermaid",
+    "custom_kanagawa",
+    "callout",
+    "bulleththreading",
+    "Indent headings"
+  ],
+  "theme": "obsidian",
+  "cssTheme": "🔔 Chime",
+  "accentColor": "#5c82f5",
+  "baseFontSize": 13,
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
+}

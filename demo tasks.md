@@ -1,0 +1,20 @@
+- [ ] Complete Summer Reading Assignment #task  📅 2024-09-04
+- [ ] Meet with Academic Advisor to Discuss Fall Schedule  📅 2024-09-05 
+- [ ] Pay Tuition Fees for Fall Semester 📅 2024-08-07
+- [ ] Attend Orientation for New Students 📅 2024-08-07
+- [x] Complete A∂ƒssignment 1 for Psychology Class 📅 2024-08-12 ✅ 2024-11-13
+- [ ] Study for Biology Midterm 📅 2024-08-15
+- [ ] Attend Math Tutoring Session 📅 2024-08-17
+- [ ] Finish Reading Chapter 5 for English Class 📅 2024-08-06
+- [ ] Meet with Professor to Discuss Research Paper 📅 2024-08-22
+- [ ] Take Online Quiz for Computer Science Class 📅 2024-08-24
+- [ ] Write Reflection Paper for Philosophy Class 
+- [ ] Attend Career Fair 📅 2024-08-29
+- [ ] Complete Lab Report for Chemistry Class 📅 2024-08-31
+- [ ] Study for Statistics Exam 📅 2024-09-02
+- [ ] Meet with Professor to Discuss Midterm Grades 📅 2024-09-05
+- [ ] Finish Watching Lecture Videos for Online Course 📅 2024-09-07
+- [ ] Attend Campus Event: Guest Speaker 📅 2024-09-09
+- [ ] Complete Practice Problems for Math Homework 📅 2024-09-12
+- [ ] Start Working on Final Project for Graphic Design Class 📅 2024-09-14
+- [ ] Take Practice Quiz for Upcoming Exam 📅 2024-09-16

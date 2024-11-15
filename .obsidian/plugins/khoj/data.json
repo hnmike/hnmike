@@ -1,0 +1,15 @@
+{
+  "resultsCount": 10,
+  "khojUrl": "https://app.khoj.dev",
+  "khojApiKey": "kk-tyCuz83uHSbrCsiL25D3hoJ1DuXOBJNss4PSTozXWVE",
+  "connectedToBackend": true,
+  "autoConfigure": true,
+  "lastSync": {},
+  "userInfo": {
+    "email": "nnamno2612@gmail.com",
+    "username": "nnamno2612@gmail.com",
+    "photo": "https://lh3.googleusercontent.com/a/ACg8ocJOV6za9U66xSr5wW5m0ExOe9mUJySE-R6UGZahpePRG2Y5ww=s96-c",
+    "is_active": true,
+    "has_documents": true
+  }
+}

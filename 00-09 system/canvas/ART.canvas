@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "494c3c4f0c22d0e2",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -116,
+      "y": -142,
+      "width": 1116,
+      "height": 1202,
+      "color": "3",
+      "label": "notes and questions"
+    },
+    {
+      "id": "5948eec0f7a3424f",
+      "type": "text",
+      "text": "ARITST/INSPIRATION\n\nnovelance \nYYB\nRED NULL \n",
+      "styleAttributes": {},
+      "x": -320,
+      "y": 72,
+      "width": 356,
+      "height": 320
+    },
+    {
+      "id": "73a5e8386cf98f29",
+      "type": "text",
+      "text": "# goal: \n theo hướng 2D + 3D \n",
+      "styleAttributes": {},
+      "x": 380,
+      "y": -180,
+      "width": 260,
+      "height": 260
+    },
+    {
+      "id": "113513e9e99f9661",
+      "type": "text",
+      "text": "IMPROVEMENTS ",
+      "styleAttributes": {},
+      "x": 60,
+      "y": 232,
+      "width": 360,
+      "height": 236
+    },
+    {
+      "id": "dc813cb4094500ce",
+      "type": "text",
+      "text": "2D COURSE ",
+      "styleAttributes": {},
+      "x": 460,
+      "y": 60,
+      "width": 266,
+      "height": 226
+    },
+    {
+      "id": "4705208c782bb6dc",
+      "type": "text",
+      "text": "stacks for 3d learning",
+      "styleAttributes": {},
+      "x": 900,
+      "y": 34,
+      "width": 260,
+      "height": 293
+    },
+    {
+      "id": "1eff84ea7ad4f368",
+      "type": "file",
+      "file": "3D COURSES.md",
+      "styleAttributes": {},
+      "x": 1386,
+      "y": -180,
+      "width": 460,
+      "height": 680
+    },
+    {
+      "id": "14dcc6eff6d362c0",
+      "type": "text",
+      "text": "# how to use the source to product\n\n\nxem lại mỗi course sẽ dạy cái \noverview of the course\n\nblender + ps \n\n",
+      "styleAttributes": {},
+      "x": 2091,
+      "y": -85,
+      "width": 269,
+      "height": 503
+    },
+    {
+      "id": "4ce288dde3b88dab",
+      "type": "text",
+      "text": "BRUSH/ SOFTWARE",
+      "styleAttributes": {},
+      "x": 680,
+      "y": 520,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "509f72024a1586d2",
+      "type": "text",
+      "text": "BLENDER \n\nTHAM KHẢO REF TỪ NHỮNG CÁI COURSE\nREDNULL\nNOVELANCE ",
+      "styleAttributes": {},
+      "x": 1891,
+      "y": -383,
+      "width": 260,
+      "height": 203
+    },
+    {
+      "id": "3c13372206a923a4",
+      "type": "text",
+      "text": "3D YOUTUBE CHANNE;LS",
+      "styleAttributes": {},
+      "x": 2283,
+      "y": -291,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

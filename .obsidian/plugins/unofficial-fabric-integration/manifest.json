@@ -1,0 +1,12 @@
+{
+  "id": "unofficial-fabric-integration",
+  "name": "Unofficial Fabric Integration",
+  "version": "1.3.3",
+  "minAppVersion": "1.6.5",
+  "description": "Integrates Fabric into your vault",
+  "author": "Chasebank87",
+  "authorUrl": "https://chaseelder.com",
+  "fundingUrl": "https://buymeacoffee.com/chasebank87",
+  "isDesktopOnly": true
+}
+

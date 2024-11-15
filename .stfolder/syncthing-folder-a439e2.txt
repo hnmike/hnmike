@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: rgs2b-5redd
+created: 2024-11-13T22:21:29+07:00

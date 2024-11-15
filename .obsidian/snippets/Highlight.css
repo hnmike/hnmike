@@ -1,0 +1,16 @@
+.markdown-rendered mark, .cm-s-obsidian span.cm-highlight {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px var(--color-accent-2) var(--line-style);
+}
+.underlined-highlight .markdown-rendered mark, .underlined-highlight .cm-s-obsidian span.cm-highlight {
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 0px;
+    border-bottom: 3px var(--color-accent-2) var(--line-style);
+    font-weight: bold;
+}
+.theme-dark.underlined-highlight .markdown-rendered mark, .theme-dark.underlined-highlight .cm-s-obsidian span.cm-highlight {
+    color: var(--color-accent-2);
+}

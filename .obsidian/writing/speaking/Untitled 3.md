@@ -1,0 +1,9 @@
+some of people claim that adding addition in wealth condition in a rich country could not make the citizen's lives happier. While acknowledge the merits it holds, in this essay I will explain further why I agree with this perspectives.
+
+on the other hand, there are some reasons behind this notion that people's lives happier in a wealth country .As the burgeoning population, along with the substainable changing in environment, any changes in subsidizing money to people is crucial.For example, in US, one of a well known country of highest GDP, is now facing a lot of issues related to the financial statement. By adding some initiative change of allocated more money to homeless people or cut down the tax free, it could not only decrease in the rate of unemployment but also increase the overall conditions of people 
+
+
+on the other hand, I side with the view that any supplements in economic progress could not make people's lives happier in a wealth country. In this day and light, where the materialism is accentuated, people lavishly consume money into redundant things, like shopping or travelling for their satisfaction If no policy in tighten the nation budget, this  overconsumption lead to a decrease in money savings  and economic stagnant.Besides,resources and attention of a nation should be divert into many sections of fields more concisely.For example, many developed countries in europe now crucially aim for their citizen's healthcare by building many free medical services, opening many charity to help people without their background.  This could be potentially increase the living conditions of people and the satisfactions overall.
+
+in conclusion, though there are mixed option that whether adding changes in wealth conditions for people in rich countries. I contend that any initiations in making changes in wealth conditions is a waste of time and money, while there are some sectors of a nation need to be considered. 
+

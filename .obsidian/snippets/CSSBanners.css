@@ -1,0 +1,327 @@
+/*
+MIT License
+
+Copyright (c) 2024 HandaArchitect
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=============================================================================
+
+Obsidian Banner Snippet
+https://github.com/HandaArchitect/obsidian-banner-snippet
+
+v1.2.2
+- Bug fixes.
+- Fixed banner icons not positioned in front of the banner.
+- Fixed title background shadow cannot change text colour and shadow colour.
+- Fixed banner icon image not positioned correctly.
+- Removed box shadow setting, use title background colour alpha setting to change background transparency.
+*/
+
+/* === Banners === */
+
+body:has(*.banner) {
+    --banner-height: 200px;
+
+    --banner-title-color: #000000;
+    --banner-title-background-color: rgba(255, 255, 255, 0.7);
+    --banner-title-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    --banner-title-padding: 0.2em 0.4em;
+    --banner-title-top: 70;
+    --banner-title-left: 50;
+    --banner-title-max-width: 500px;
+    --banner-title-border-radius: 10px;
+
+    --banner-icon-size: 40px;
+    --banner-icon-top: 100;
+    --banner-icon-left: 5;
+    --banner-icon-border-radius: 25%;
+
+    --banner-gradient-mask-webkit: -webkit-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.3) 10%, black 40%);
+    --banner-gradient-mask: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3) 10%, black 40%);
+}
+
+/* Margin above inline title and frontmatter. */
+.banner.is-live-preview .cm-sizer,
+.banner.markdown-preview-view .markdown-preview-pusher {
+    padding-top: calc( var(--banner-height) + var(--banner-icon-size) / 1.5 );
+}
+
+/* --- Banner Image --- */
+
+/* Fixes text selection issue. */
+.banner.is-live-preview .image-embed:has(img[alt="banner"]:first-child),
+.banner.markdown-preview-view span[alt="banner"]:first-child {
+    display: contents;
+}
+
+/* Positions banner image fix to the top. */
+.banner.is-live-preview .image-embed img[alt="banner"]:first-child,
+.banner.markdown-preview-view img[alt="banner"]:first-child {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: var(--banner-height);
+    margin: 0 auto;
+    width: 100%;
+    pointer-events: auto;
+}
+
+/* --- Banner Fade --- */
+
+.banner.banner-fade.markdown-preview-view img[alt='banner']:first-child,
+.banner.banner-fade.is-live-preview img[alt='banner']:first-child {
+    -webkit-mask-image: var(--banner-gradient-mask-webkit) !important;
+    mask-image: var(--banner-gradient-mask) !important;
+}
+
+/* --- Banner Inline Title --- */
+
+/* Inline title enabled on max screen size only. */
+@media screen and (min-width: 800px) {
+
+    .banner.banner-inline-title.markdown-preview-view .inline-title,
+    .banner.banner-inline-title.is-live-preview .inline-title {
+        background-color: var(--banner-title-background-color);
+        border-radius: var(--banner-title-border-radius);
+        --inline-title-color: var(--banner-title-color);
+        padding: var(--banner-title-padding);
+        position: absolute;
+        top: calc( var(--banner-title-top) / 100 * var(--banner-height) );
+        left: calc( ( var(--banner-title-left) ) / 100 * ( 100% - var(--banner-title-max-width) / 1 ) );
+        z-index: 1;
+        max-width: var(--banner-title-max-width);
+		width: auto !important;
+        text-wrap: nowrap;
+        overflow-x: hidden;
+    }
+
+    .banner.banner-inline-title.markdown-preview-view .inline-title:hover,
+    .banner.banner-inline-title.is-live-preview .inline-title:hover,
+    .banner.banner-inline-title.markdown-preview-view .inline-title:focus,
+    .banner.banner-inline-title.is-live-preview .inline-title:focus {
+        overflow-x: auto;
+    }
+
+    /* --- Banner Title Box Shadow --- */
+
+    .banner-title-box-shadow .banner.banner-inline-title.is-live-preview .inline-title,
+    .banner-title-box-shadow .banner.banner-inline-title.markdown-preview-view .inline-title,
+    .banner-title-box-shadow .banner.banner-inline-title:not(.banner-inline-title) [data-callout="banner-title"].callout:first-child .callout-title-inner {
+        box-shadow: var(--banner-title-box-shadow);
+    }
+
+}
+
+/* --- Banner Callout Title: EXPERIMENTAL --- */
+
+/* .banner:not(.banner-inline-title) .cm-callout:has([data-callout="banner-title"].callout:first-child),
+.banner:not(.banner-inline-title) [data-callout="banner-title"].callout:first-child,
+.banner:not(.banner-inline-title) [data-callout="banner-title"].callout:first-child .callout-title {
+    display: contents;
+}
+
+.banner:not(.banner-inline-title) [data-callout="banner-title"].callout:first-child .callout-icon {
+    display: none;
+}
+
+.banner:not(.banner-inline-title) [data-callout="banner-title"].callout:first-child .callout-title-inner {
+    background-color: var(--banner-title-background-color);
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: var(--banner-title-top);
+    left: var(--banner-title-left);
+    padding: var(--banner-title-padding);
+    color: var(--banner-title-color);
+    font-weight: var(--inline-title-weight);
+    font-size: var(--inline-title-size);
+    line-height: var(--inline-title-line-height);
+    font-style: var(--inline-title-style);
+    font-variant: var(--inline-title-variant);
+    font-family: var(--inline-title-font);
+    letter-spacing: -0.015em;
+    max-width: var(--banner-title-max-width);
+} */
+
+/* --- Banner Icon --- */
+
+.banner .cm-callout:has([data-callout="banner-icon"].callout:first-child),
+.banner [data-callout="banner-icon"].callout:first-child,
+.banner [data-callout="banner-icon"].callout:first-child .callout-title {
+    display: contents;
+	z-index: 1;
+}
+
+.banner [data-callout="banner-icon"].callout:first-child .callout-icon {
+    display: none;
+}
+
+.banner [data-callout="banner-icon"].callout:first-child .callout-title-inner {
+    font-size: var(--banner-icon-size);
+    position: absolute;
+    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.7 ) );
+    left: calc( var(--banner-icon-left) / 100 * ( 100% - var(--banner-icon-size) * 1.5 ) );
+}
+
+/* --- Banner Image Icons --- */
+
+.banner.is-live-preview .image-embed:has(img[alt="banner-icon"]:first-child),
+.banner.markdown-preview-view span[alt="banner-icon"]:first-child,
+.banner.is-live-preview .HyperMD-quote:has(img[alt="banner-icon"]:first-child) {
+    display: contents;
+	z-index: 1;
+}
+
+.banner.is-live-preview .image-embed img[alt="banner-icon"]:first-child,
+.banner.markdown-preview-view img[alt="banner-icon"]:first-child {
+    display: block;
+    position: absolute;
+    top: calc( var(--banner-icon-top) / 100 * ( var(--banner-height) - var(--banner-icon-size) * 0.7 ) );
+    left: calc( var(--banner-icon-left) / 100 * ( 100% - var(--banner-icon-size) * 1.5 ) );
+    object-fit: cover;
+    height: var(--banner-height);
+    margin: 0;
+    height: var(--banner-icon-size);
+    width: var(--banner-icon-size);
+    border-radius: var(--banner-icon-border-radius);
+}
+
+/*
+
+Removed settings.
+
+    -
+        id: banner-title-box-shadow
+        title: Box Shadow
+        type: class-toggle
+        default: true
+
+*/
+
+/* @settings
+
+name: Banner Settings
+id: css-banner-settings
+description: Change the banner settings.
+settings:
+    - 
+        id: banner-height
+        title: Banner Height
+        type: variable-number
+        default: 200
+        format: px
+    -
+        id: banner-title-settings
+        title: Banner Title
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: banner-title-info
+        title: Note
+        description: "*The horizontal position setting of the banner title takes into account the title's max width. This means, when the horizontal position is set to 100, the value is also reduced by the title's max width to prevent the title going out of the page.*"
+        type: info-text
+        markdown: true;
+    -
+        id: banner-title-color
+        title: Color
+        type: variable-color
+        opacity: true
+        format: hex
+        default: #000000
+    -
+        id: banner-title-background-color
+        title: Background Color
+        type: variable-color
+        opacity: true
+        format: rgb
+        default: rgba(255, 255, 255, 0.7)
+    -
+        id: banner-title-max-width
+        title: Max Width
+        type: variable-number
+        default: 500
+        format: px
+    -
+        id: banner-title-top
+        title: Vertical Position
+        type: variable-number-slider
+        min: 0
+        max: 100
+        default: 70
+        format: ""
+    -
+        id: banner-title-left
+        title: Horizontal Position
+        type: variable-number-slider
+        min: 0
+        max: 100
+        default: 50
+        format: ""
+    -
+        id: banner-icon-settings
+        title: Banner Icon
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: banner-icon-border-radius
+        title: Border Radius
+        description: Border radius only applies to image border icons.
+        type: variable-select
+        default: 25%
+        options:
+            -
+                label: Square
+                value: 0%
+            -
+                label: Rounded
+                value: 25%
+            -
+                label: Circle
+                value: 100%
+    -
+        id: banner-icon-size
+        title: Icon Size
+        type: variable-number-slider
+        default: 40
+        min: 40
+        max: 80
+        format: px
+    -
+        id: banner-icon-top
+        title: Vertical Position
+        type: variable-number-slider
+        min: 0
+        max: 100
+        default: 100
+        format: ""
+    -
+        id: banner-icon-left
+        title: Horizontal Position
+        type: variable-number-slider
+        min: 0
+        max: 100
+        default: 5
+        format: ""
+*/

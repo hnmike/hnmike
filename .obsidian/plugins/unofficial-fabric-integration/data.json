@@ -1,0 +1,13 @@
+{
+  "fabricConnectorApiUrl": "http://0.0.0.0:49152",
+  "fabricConnectorApiKey": "",
+  "outputFolder": "",
+  "customPatternsFolder": "",
+  "youtubeAutodetectEnabled": true,
+  "audioFileAutodetectEnabled": true,
+  "defaultModel": "gpt-4o",
+  "defaultPostProcessingPattern": "",
+  "debug": false,
+  "fabric2": false,
+  "tavilyApiKey": ""
+}

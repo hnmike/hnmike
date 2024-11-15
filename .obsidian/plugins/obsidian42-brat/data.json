@@ -1,0 +1,25 @@
+{
+  "pluginList": [
+    "open-spaced-repetition/obsidian-spaced-repetition-recall",
+    "vasilecampeanu/obsidian-weaver",
+    "any-block/obsidian-any-block",
+    "nothingislost/obsidian-query-control",
+    "platers/obsidian-linter"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [
+    {
+      "repo": "ElsaTam/obsidian-fancy-a-story",
+      "lastUpdate": "1054766344"
+    }
+  ],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
+}

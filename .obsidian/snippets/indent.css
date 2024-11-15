@@ -1,0 +1,18 @@
+.cm-hmd-list-indent > .cm-tab:after{
+    content: "";
+    display: block;
+    position: absolute;
+    opacity: .35;
+    top: .25em;
+    left: .5em;
+    border-left: 1px solid var(--text-faint);
+    height: 100%;
+}
+
+.CodeMirror-activeline-background{
+  background-color: #e3e7ef;
+}
+
+.CodeMirror-activeline .cm-hmd-list-indent > .cm-tab:after{
+  border-left: 4px solid #0000ff;
+}
