@@ -575,7 +575,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -927,9 +928,9 @@
   },
   "active": "2792026737ca1959",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/11/2024-11-11.md",
-    "cài đặt docker engine & desktop.md",
     "data engineer lab 1 (202411160846).md",
+    "cài đặt docker engine & desktop.md",
+    "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "postgres (202411162120).md",
     "git (202411152107).md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
