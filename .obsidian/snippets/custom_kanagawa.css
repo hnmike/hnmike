@@ -3,8 +3,8 @@
     /* Kanagawa from https://github.com/rebelot/kanagawa.nvim */
     /* Bg Shades*/
     --sumiInk0      : #16161D;
-    --sumiInk1b     : #181820;
-    --sumiInk1      : #2A2A37;
+    --sumiInk1b     : #22222d;
+    --sumiInk1      : #1F1F28;
     --sumiInk2      : #2A2A37;
     --sumiInk3      : #363646;
     --sumiInk4      : #54546D;
@@ -623,7 +623,7 @@ input.task-list-item-checkbox:checked
 }
 
 .cm-line .cm-strong {
-    color: var(--) !important;
+    color: var(--crystalBlue) !important;
     opacity: 0.95;
 }
 
