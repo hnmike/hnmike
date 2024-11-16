@@ -761,6 +761,15 @@
           {
             "id": "7b23e4060b5e7107",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -773,7 +782,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 550.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -800,7 +810,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "7b23e4060b5e7107",
+  "active": "fcd4dc942e167f94",
   "lastOpenFiles": [
     "2024-08-12.md",
     "data engineer lab 1 (202411160846).md",
