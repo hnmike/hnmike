@@ -746,7 +746,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1218,33 +1218,33 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "0d1eeebad2d74cd4",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+    "20-30 technical knowledge hub/data engineer/tag hub.md",
+    "docker compose.md",
+    "2024-08-12.md",
     "00-09 system/homepage/DASHBOARD.md",
+    "00-09 system/template/knowledge base template.md",
     "cài đặt docker engine & desktop.md",
+    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "data engineer lab 1 (202411160846).md",
     "conflict-files-obsidian-git.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "data warehouse.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
-    "docker compose.md",
     "00-09 system/project/data engineer.md",
     "Dockers.md",
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2nd lesson of data engineer.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
     "git (202411152107).md",
     "(202411131711).md",
-    "2024-08-12.md",
     "().md",
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "00-09 system/template/knowledge base template.md",
     "courses.md",
     "basic.thino.md",
     "IMG-20241114090915849.png",
