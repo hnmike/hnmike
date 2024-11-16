@@ -140,10 +140,9 @@ There are two methods to get Postgres running locally.
 3. Enter your credentials for postgres (described in the connect to postgres section)
     - → If the above worked, you should now be inside a psql REPL (It looks like `postgres=#`)
 4. Run:
-    
-    ```bash
-    postgres=# \\i data.dump
-    ```
+```bash
+postgres=# \\i data.dump
+```
     
     - → This will run the file `data.dump` from inside your psql REPL.
 
