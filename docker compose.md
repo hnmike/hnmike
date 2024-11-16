@@ -4,9 +4,8 @@ url:
 related: 
 aliases:
   - docker
-  - hoc
+  - apple
 tags: 
 summary:
 ---
-Jfdof docker 
-K
+Docker 
