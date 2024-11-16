@@ -624,7 +624,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -733,12 +733,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from data engineer lab 1 (202411160846)"
+              "title": "Outgoing links from cài đặt docker engine & desktop"
             }
           },
           {
@@ -756,7 +756,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -766,7 +766,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer lab 1 (202411160846)"
+              "title": "Backlinks for cài đặt docker engine & desktop"
             }
           },
           {
@@ -1058,10 +1058,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e298bf947f399e98",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
-    "GNU/Linux.md",
     "data engineer lab 1 (202411160846).md",
+    "cài đặt docker engine & desktop.md",
+    "GNU/Linux.md",
     "postgres (202411162120).md",
     "Postgres.md",
     "docker compose.md",
@@ -1073,7 +1074,6 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "k8s.md",
     "postgres (202411162120) 1.md",
-    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",

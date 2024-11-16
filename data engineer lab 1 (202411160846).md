@@ -24,7 +24,7 @@ This repository contains the setup for the data modeling modules in Weeks 1 and 
 3. [Connect to Postgres](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#threeconnect-to-postgres-in-database-client) using your preferred database management tool.
 
 For detailed instructions and more information, please refer to the step-by-step instructions below.
-- ! First, [[cài đặt docker engine & desktop]] tren linux 
+- ? First, [[cài đặt docker engine & desktop]] tren linux 
 ## 1️⃣ **Clone the repository**
 
 - Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
