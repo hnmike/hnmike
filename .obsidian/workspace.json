@@ -776,9 +776,28 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "a1ebd423287f75e8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Smart Connections Chat"
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "horizontal",
@@ -806,10 +825,12 @@
       "modalforms:Edit forms": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "fcd4dc942e167f94",
+  "active": "a1ebd423287f75e8",
   "lastOpenFiles": [
     "2024-08-12.md",
     "data engineer lab 1 (202411160846).md",
