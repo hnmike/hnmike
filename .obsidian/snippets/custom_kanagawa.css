@@ -623,7 +623,7 @@ input.task-list-item-checkbox:checked
 }
 
 .cm-line .cm-strong {
-    color: var(--bright-aqua) !important;
+    color: var(--crystalBlue) !important;
     opacity: 0.95;
 }
 
