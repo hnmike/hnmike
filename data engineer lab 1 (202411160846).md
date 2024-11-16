@@ -162,3 +162,4 @@ postgres=# \\i data.dump
 - To inspect the Postgres container, run **`make inspect`**.
 - To find the port Postgres is running on, run **`make ip`*
 
+Docker compose 

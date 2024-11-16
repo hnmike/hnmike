@@ -524,8 +524,7 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -633,12 +632,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-12.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-08-12"
+              "title": "Outgoing links from data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -656,7 +655,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-12.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -666,7 +665,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-08-12"
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -921,10 +920,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0d1eeebad2d74cd4",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
-    "00-09 system/template/knowledge base template.md",
+    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
+    "00-09 system/template/knowledge base template.md",
     "cài đặt docker engine & desktop.md",
     "docker compose.md",
     "GNU/Linux.md",
@@ -934,7 +934,6 @@
     "k8s.md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "00-09 system/homepage/DASHBOARD.md",
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "conflict-files-obsidian-git.md",
     "data warehouse.md",
