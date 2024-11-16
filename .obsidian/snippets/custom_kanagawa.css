@@ -180,12 +180,14 @@ html,
 body
 {
     .markdown-live-preview {
-        font-family:  monospace !important;
-     ew
-      
-    .markdown-source-view {
-        font-family: Lora, sans-serif !important;
-
+        font-family: 'Lora', 'Georgia', serif !important;
+    }
+    
+    /* Source/Edit mode font */
+    .markdown-source-view,
+    .cm-editor {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
+    }
 }
 
 strong
@@ -302,10 +304,6 @@ thead
     /* background-color: var(--pre-code) !important; */
 }
 
-.HyperMD-table-row-0
-{
-    /* padding-top: 4px !important; */
-}
 
 .CodeMirror-foldgutter-folded,
 .is-collapsed .nav-folder-collapse-indicator
