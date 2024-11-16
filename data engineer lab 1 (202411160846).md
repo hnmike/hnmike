@@ -127,10 +127,9 @@ There are two methods to get Postgres running locally.
 2. Run:
     ```bash
     psql \
-        -v ON_ERROR_STOP=1 \
-        --username $POSTGRES_USER \
-        --dbname $POSTGRES_DB \
-        < /docker-entrypoint-initdb.d/data.dump>
+       -v ON_ERROR_STOP=1 \
+       --username $POSTGRES_USER \
+      --dbname $POSTGRES_DB \       < /docker-entrypoint-initdb.d/data.dump>
     ```
     - → This will run the file `data.dump` from inside your docker container.
 

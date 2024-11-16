@@ -633,7 +633,7 @@ input.task-list-item-checkbox:checked
 .nav-folder-title.is-active,
 .view-header-title:hover,
 .workspace-tab-header.is-active {
-    color: var(--bright-aqua) !important;
+    color: var(--accent-color) !important;
     opacity: 0.95;
 }
 
@@ -641,7 +641,7 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--bright-aqua) !important;
+    color: var(--accent-color) !important;
     opacity: 0.95;
 }
 
