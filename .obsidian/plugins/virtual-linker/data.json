@@ -32,6 +32,6 @@
   "excludeLinksInCurrentLine": false,
   "onlyLinkOnce": true,
   "excludeLinksToRealLinkedFiles": true,
-  "includeAliases": true,
+  "includeAliases": false,
   "alwaysShowMultipleReferences": false
 }
