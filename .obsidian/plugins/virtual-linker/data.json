@@ -19,7 +19,7 @@
   "useDefaultLinkStyleForConversion": true,
   "applyDefaultLinkStyling": true,
   "includeHeaders": true,
-  "matchCaseSensitive": true,
+  "matchCaseSensitive": false,
   "capitalLetterProportionForAutomaticMatchCase": 0.75,
   "tagToIgnoreCase": "linker-ignore-case",
   "tagToMatchCase": "linker-match-case",
