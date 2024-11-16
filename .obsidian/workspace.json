@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "2024-08-12",
+                  "title": "cài đặt docker engine & desktop",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-08-12.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-12\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":1},\"to\":{\"line\":15,\"ch\":1}},\"scroll\":2.66189595225828}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":10}"
                 },
                 {
                   "state": "{}",
@@ -841,13 +841,15 @@
   },
   "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "k8s.md",
+    "docker compose.md",
+    "cài đặt docker engine & desktop.md",
     "00-09 system/scripts/project task.js",
     "00-09 system/scripts/add files to project.js",
     "data engineer lab 1 (202411160846).md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "2024-08-12.md",
-    "docker compose.md",
     "new code file.js",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "conflict-files-obsidian-git.md",
@@ -863,7 +865,6 @@
     "().md",
     "Untitled 2.md",
     "demo_vault",
-    "cài đặt docker engine & desktop.md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
