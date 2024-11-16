@@ -156,7 +156,7 @@ There are two methods to get Postgres running locally.
 
 ---
 
-#### 💡 Additional Docker Make commands
+## 💡 Additional Docker Make commands
 
 -  To restart the Postgres instance, you can run **`make restart`**.
 - To see logs from the Postgres container, run **`make logs`**.
