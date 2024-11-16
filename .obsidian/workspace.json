@@ -283,7 +283,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "virtual lim",
+                "query": "apple",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -783,7 +783,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "0d1eeebad2d74cd4",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "2024-08-12.md",
     "docker compose.md",
