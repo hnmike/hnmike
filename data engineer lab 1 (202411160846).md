@@ -18,7 +18,7 @@ This repository contains the setup for the data modeling modules in Weeks 1 and 
 - PSQL CLI
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
 - Docker, Docker Compose, and Docker Desktop
-
+- Docker 
 1. [Clone the repository](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md).
 2. [Start Postgres instance](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#2%EF%B8%8F%E2%83%A3run-postgres).
 3. [Connect to Postgres](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#threeconnect-to-postgres-in-database-client) using your preferred database management tool.

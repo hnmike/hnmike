@@ -14,9 +14,9 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "cài đặt docker engine & desktop",
+                  "title": "git (202411152107)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git (202411152107).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"git (202411152107)\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
                 },
                 {
@@ -570,7 +570,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -678,12 +679,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "git (202411152107).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from data engineer lab 1 (202411160846)"
+              "title": "Outgoing links from git (202411152107)"
             }
           },
           {
@@ -701,7 +702,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "git (202411152107).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -711,7 +712,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer lab 1 (202411160846)"
+              "title": "Backlinks for git (202411152107)"
             }
           },
           {
@@ -1003,12 +1004,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "1347b244688d1453",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
-    "data engineer lab 1 (202411160846).md",
-    "git (202411152107).md",
     "postgres (202411162120).md",
+    "git (202411152107).md",
+    "data engineer lab 1 (202411160846).md",
+    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
