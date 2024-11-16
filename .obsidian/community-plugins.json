@@ -18,7 +18,6 @@
   "obsidian-charts",
   "journals",
   "obsidian-hover-editor",
-  "smart-second-brain",
   "task-list-kanban",
   "obsidian-tasks-plugin",
   "obsidian-auto-link-title",
@@ -53,6 +52,10 @@
   "obsidian-advanced-uri",
   "link-with-alias",
   "vscode-editor",
+  "graph-analysis",
   "obsidian-git",
-  "graph-analysis"
+  "lapel",
+  "tabout",
+  "remember-cursor-position",
+  "virtual-linker"
 ]

@@ -8,7 +8,8 @@ tags:
   - data_engineer
   - "#project"
   - "#reference_note"
-summary:
+  - linker-exclude
+summary: 
 ---
 ## Building data project template 
 - Define some [[requirements for data engineer project (202411121714)]]

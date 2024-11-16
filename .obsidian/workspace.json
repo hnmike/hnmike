@@ -767,9 +767,32 @@
               "icon": "lucide-file",
               "title": "data engineer lab 1 (202411160846)"
             }
+          },
+          {
+            "id": "b553f96eb79536c3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1241,10 +1264,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "9ba1f68d29e7520f",
+  "active": "b553f96eb79536c3",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
     "data engineer lab 1 (202411160846).md",
+    "conflict-files-obsidian-git.md",
+    "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
+    "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
+    "data warehouse.md",
+    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/homepage/DASHBOARD.md",
     "docker compose.md",
@@ -1257,7 +1284,6 @@
     "(202411131711).md",
     "2024-08-12.md",
     "().md",
-    "conflict-files-obsidian-git.md",
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
@@ -1267,9 +1293,6 @@
     "00-09 system/template/knowledge base template.md",
     "courses.md",
     "basic.thino.md",
-    "requirements for data engineer project (202411121714).md",
-    "2024-11-13.md",
-    "00-09 system/template/new zettel note.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",

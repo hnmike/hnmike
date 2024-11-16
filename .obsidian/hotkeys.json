@@ -66,5 +66,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "tabout:tabout-add-rule-here": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
   ]
 }

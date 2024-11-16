@@ -3,9 +3,9 @@
     /* Kanagawa from https://github.com/rebelot/kanagawa.nvim */
     /* Bg Shades*/
     --sumiInk0      : #16161D;
-    --sumiInk1b     : #181820;
-    --sumiInk1      : #1F1F28;
-    --sumiInk2      : #2A2A37;
+    --sumiInk1b     : #1d1b27;
+    --sumiInk1      : #1d1b25;
+    --sumiInk2      : #242436;
     --sumiInk3      : #363646;
     --sumiInk4      : #54546D;
     --sumiInk5      : #2c2c2c;
@@ -117,15 +117,15 @@
     --text-a-hover:               var(--peachRed);
     --text-a-url:                 var(--dragonBlue); /*hover internal link, graph view link and standalone links*. External Links no*/
     --text-mark:                  rgba(34, 50, 73, 0.4); /* waveBlue1 */
-    --pre-code:                   var(--sumiInk5);
+    --pre-code:                   var(--sumiInk2);
     --text-highlight-bg:          var(--waveBlue1);
     --interactive-accent:         var(--dragonBlue); /* vim cursor background AND highilight on right*/
     --interactive-before:         var(--sumiInk4);
     --background-modifier-border: var(--dragonBlue);
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
-    --inline-code:                var(--bright-aqua);
-    --code-block:                 var(--fujiGray);
+    --inline-code:                var(--);
+    --code-block:                 var(--bright-aqua);
     --vim-cursor-backgroung:      var(--fujiWhite);
     --vim-cursor-color:           var(--sumiInk1);
     --text-selection:             rgba(34, 50, 73, 0.5); /* waveBlue1 */
@@ -179,8 +179,20 @@ body {
 html,
 body
 {
-    /* font-size: 16px !important; */
+ 
+.markdown-source-preview {
+  font-family: -apple-system !important;
+  font-size: 16px !important;
 }
+
+.markdown-prepreviewew {
+  font-family:  -apple-system !important;
+  font-size: 16px !important;
+}
+}
+
+
+   
 
 strong
 {
@@ -296,10 +308,6 @@ thead
     /* background-color: var(--pre-code) !important; */
 }
 
-.HyperMD-table-row-0
-{
-    /* padding-top: 4px !important; */
-}
 
 .CodeMirror-foldgutter-folded,
 .is-collapsed .nav-folder-collapse-indicator
@@ -623,7 +631,7 @@ input.task-list-item-checkbox:checked
 }
 
 .cm-line .cm-strong {
-    color: var(--accent-color) !important;
+    color: var(--bright-aqua) !important;
     opacity: 0.95;
 }
 
