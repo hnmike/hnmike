@@ -61,7 +61,7 @@ There are two methods to get Postgres running locally.
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.
 4. Have fun querying!
 
-## 🐳 **Option 2: Run [[postgres (202411162120)#Postgres in docker]]**
+## 🐳 **Option 2: Run progress in docker 
 
 - Install Docker Desktop from **[here](https://www.docker.com/products/docker-desktop/)**.
 - Copy **`example.env`** to **`.env`**:
@@ -85,9 +85,9 @@ There are two methods to get Postgres running locally.
     - Going into Docker Desktop: you should see an entry there with a drop-down for each of the containers running in your Docker Compose stack.
     - Running **`docker ps -a`** and looking for the containers with the name **`postgres`**.
 - When you're finished with your Postgres instance, you can stop the Docker Compose containers with:
-  ```bash  
-      make down   
-   ```
+	  ```bash  
+	  make down   
+	   ```
 
     Or if you're on Windows:
     
