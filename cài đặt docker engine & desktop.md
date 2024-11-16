@@ -6,8 +6,7 @@ aliases:
   - docker
 tags:
   - "#reference_note"
-  - linker-exclude
-summary: 
+summary:
 ---
 ## Reference 
 [[2024-11-11#^fa9d35]] link cài đặt docker trên ubuntu desktop & engine 

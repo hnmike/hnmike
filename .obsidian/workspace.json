@@ -751,7 +751,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1147,11 +1148,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c52a61f038938e6a",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "GNU/Linux.md",
+    "cài đặt docker engine & desktop.md",
     "data engineer lab 1 (202411160846).md",
     "2024-08-12.md",
-    "cài đặt docker engine & desktop.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "k8s.md",
@@ -1175,7 +1177,6 @@
     "demo_vault",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "20-30 technical knowledge hub/data engineer project.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
