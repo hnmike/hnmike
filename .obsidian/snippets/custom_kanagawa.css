@@ -179,7 +179,13 @@ body {
 html,
 body
 {
-   
+    .markdown-source-view {
+        font-family: 'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace !important;
+      }
+      
+      .markdown-preview-view {
+        font-family: Lora, sans-serif !important;
+      }
 }
 
 strong
