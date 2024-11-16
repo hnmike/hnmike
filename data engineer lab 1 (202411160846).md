@@ -13,7 +13,7 @@ This repository contains the setup for the data modeling modules in Weeks 1 and 
  
 **Tech Stack**
 
--  [[g]]
+-  [[git (202411152107)]]
 - Postgres
 - PSQL CLI
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
