@@ -54,5 +54,6 @@
   "link-with-alias",
   "vscode-editor",
   "obsidian-git",
-  "graph-analysis"
+  "graph-analysis",
+  "virtual-linker"
 ]
