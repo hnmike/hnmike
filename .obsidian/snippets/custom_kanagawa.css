@@ -180,12 +180,12 @@ html,
 body
 {
  
-.markdown-source-view {
-  font-family: 'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace !important;
+.markdown-live-preview {
+  font-family: monospace !important;
 }
 
 .markdown-preview-view {
-  font-family: Lora, sans-serif !important;
+  font-family:  ui-monospace !important;
 }
 }
 
