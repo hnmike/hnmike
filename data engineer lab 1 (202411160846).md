@@ -110,7 +110,7 @@ There are two methods to get Postgres running locally.
     - VSCode built-in extension (there are a few of these).
     - PGAdmin.
     - Postbird.
-- Using your client of choice, follow the instructions to establish a new PostgreSQL connection.
+	- Using your client of choice, follow the instructions to establish a new PostgreSQL connection.
     - The default username is **`postgres`** and corresponds to **`$POSTGRES_USER`** in your **`.env`**.
     - The default password is **`postgres`** and corresponds to **`$POSTGRES_PASSWORD`** in your **`.env`**.
     - The default database is **`postgres`** and corresponds to **`$POSTGRES_DB`** in your **`.env`**.
