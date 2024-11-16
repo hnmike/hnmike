@@ -272,8 +272,7 @@
               "title": "2024-08-12"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -840,8 +839,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "fcd4dc942e167f94",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "00-09 system/scripts/project task.js",
     "00-09 system/scripts/add files to project.js",
     "data engineer lab 1 (202411160846).md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
