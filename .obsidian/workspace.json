@@ -876,7 +876,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/project/data engineer.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -886,7 +886,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer"
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -1185,7 +1185,8 @@
               "title": "Graph Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1216,7 +1217,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "c73acbf79430f06b",
   "lastOpenFiles": [
     "k8s.md",
     "data engineer lab 1 (202411160846).md",
