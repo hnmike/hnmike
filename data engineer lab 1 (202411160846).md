@@ -163,4 +163,3 @@ There are two methods to get Postgres running locally.
 - To inspect the Postgres container, run **`make inspect`**.
 - To find the port Postgres is running on, run **`make ip`*
 
-	Tiepes den la phan học của  
