@@ -161,4 +161,4 @@ There are two methods to get Postgres running locally.
 -  To restart the Postgres instance, you can run **`make restart`**.
 - To see logs from the Postgres container, run **`make logs`**.
 - To inspect the Postgres container, run **`make inspect`**.
-- To find the port Postgres is running on, run **`make ip`**.
+- To find the port Postgres is running on, run **`make ip`*
