@@ -9,7 +9,8 @@
   },
   {
     "color": "255, 23, 68",
-    "char": "!"
+    "char": "!",
+    "icon": "lucide-corner-down-right"
   },
   {
     "color": "124, 77, 255",
