@@ -16,8 +16,10 @@ summary:
 		 - Create the keyring directory to "-p /etc/apt/keyrings '' and check the docker repository " docker.list"
 		 - Add the gpg key 
 		 - Remember to update the package " sudp apt-get update"
-		 - Installl docker from ubuntu's official package 
+		 - Installl docker from ubuntu's official package
+- ? Docker desktop  version for docker desktop 
 Khóa học về cài đặt và sử dụng 
+
 ## See also 
 [[docker]]
 [[docker compose]]
