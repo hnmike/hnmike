@@ -93,9 +93,9 @@ There are two methods to get Postgres running locally.
 
     Or if you're on Windows:
     
-    ```bash
-    docker compose down -v
-    ```
+	    ```bash
+	    docker compose down -v
+	    ```
 
 ### :rotating_light: **Need help loading tables?** :rotating_light:
 
@@ -129,7 +129,8 @@ There are two methods to get Postgres running locally.
 		-v ON_ERROR_STOP=1 \
 		--username $POSTGRES_USER \
 		--dbname $POSTGRES_DB \
-		< /docker-entrypoint-initdb.d/data.dump>		```
+		< /docker-entrypoint-initdb.d/data.dump>		
+		```
     - → This will run the file `data.dump` from inside your docker container.
 
 - If the tables don't come with the loaded data, follow these steps with manual installation of postgres:
