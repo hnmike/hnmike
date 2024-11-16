@@ -180,12 +180,12 @@ html,
 body
 {
  
-.markdown-editing-live {
-  font-family: ui-monospace !important;
+.markdown-source-preview {
+  font-family: -apple-system !important;
 }
 
-.markdown-preview-view {
-  font-family:  ui-monospace !important;
+.markdown-prepreviewew {
+  font-family:  -apple-system !important;
 }
 }
 
