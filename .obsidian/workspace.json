@@ -697,12 +697,50 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "b4ff5f12958362a1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "65a4d67729a2c7bd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9b54a57a8f21d3df",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -721,17 +759,8 @@
             }
           },
           {
-            "id": "65a4d67729a2c7bd",
+            "id": "7b23e4060b5e7107",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -740,7 +769,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 20
       }
     ],
     "direction": "horizontal",
@@ -771,7 +800,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "fcd4dc942e167f94",
+  "active": "7b23e4060b5e7107",
   "lastOpenFiles": [
     "2024-08-12.md",
     "data engineer lab 1 (202411160846).md",
