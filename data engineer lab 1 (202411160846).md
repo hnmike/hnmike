@@ -30,7 +30,8 @@ For detailed instructions and more information, please refer to the step-by-step
 - Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
     
 	    ```bash
-	    git clone git@github.com:DataExpert-io/data-engineer-handbook.git
+	    git clone git@github.com:DataExpert-io/data-engineer- 
+        handbook.git
 	    ```
     
 	
