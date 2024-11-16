@@ -205,6 +205,29 @@
             }
           },
           {
+            "id": "7b6a9ea7808ca746",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "postgres (202411162120).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "postgres (202411162120)"
+            }
+          },
+          {
             "id": "fcd4dc942e167f94",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -632,12 +655,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cài đặt docker engine & desktop"
+              "title": "Outgoing links from data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -927,7 +950,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -959,8 +982,9 @@
   },
   "active": "abdab83729e5d082",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
+    "postgres (202411162120).md",
     "data engineer lab 1 (202411160846).md",
+    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
@@ -985,7 +1009,6 @@
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
-    "20-30 technical knowledge hub/data engineer project.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
