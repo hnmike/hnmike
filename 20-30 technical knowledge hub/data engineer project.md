@@ -20,3 +20,6 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 	- [[ Capstone project for my course]]
 		 other data engineer projects 
 	- [[ end-to-end data engineer projects]] 
+
+
+Data warehouse 
