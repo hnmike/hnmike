@@ -641,7 +641,7 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--accent-color) !important;
+    color: var(--bright-aqua) !important;
     opacity: 0.95;
 }
 
