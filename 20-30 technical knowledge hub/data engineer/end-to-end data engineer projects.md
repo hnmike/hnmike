@@ -44,8 +44,7 @@ summary:
 	    **[Github Actions](https://github.com/features/actions)** for CI/CD
 	
 - mg 
-	- JFJFJNF 
-		- FFF
+	- JFJFJNF
 			- FFD
 				- VFDVVDV
 

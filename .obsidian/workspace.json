@@ -229,6 +229,29 @@
             }
           },
           {
+            "id": "e298bf947f399e98",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data engineer lab 1 (202411160846).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "data engineer lab 1 (202411160846)"
+            }
+          },
+          {
             "id": "1347b244688d1453",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -249,29 +272,6 @@
               },
               "icon": "lucide-file",
               "title": "git (202411152107)"
-            }
-          },
-          {
-            "id": "7b6a9ea7808ca746",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgres (202411162120).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "postgres (202411162120)"
             }
           },
           {
@@ -594,7 +594,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -703,12 +704,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from end-to-end data engineer projects"
+              "title": "Outgoing links from data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -726,7 +727,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -736,7 +737,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for end-to-end data engineer projects"
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -1028,17 +1029,19 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "e298bf947f399e98",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/docker.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+    "git (202411152107).md",
+    "postgres (202411162120).md",
+    "00-09 system/project/data engineer/fff.md",
+    "Button.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "k8s.md",
     "docker compose.md",
-    "data engineer lab 1 (202411160846).md",
-    "postgres (202411162120).md",
     "postgres (202411162120) 1.md",
-    "git (202411152107).md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
@@ -1054,8 +1057,6 @@
     "Dockers.md",
     "2nd lesson of data engineer.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
-    "(202411131711).md",
-    "().md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
