@@ -78,9 +78,9 @@ There are two methods to get Postgres running locally.
     
     
     - If you're on Windows:
-`	```bash
-	docker compose up -d
-	``
+		`	```bash
+		docker compose up -d
+		``
      
 - A folder named **`postgres-data`** will be created in the root of the repo. The data backing your Postgres instance will be saved here.
 - You can check that your Docker Compose stack is running by either:
