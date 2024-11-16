@@ -738,7 +738,7 @@
               "type": "markdown",
               "state": {
                 "file": "cài đặt docker engine & desktop.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -746,7 +746,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1218,13 +1218,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0d1eeebad2d74cd4",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
-    "docker compose.md",
-    "2024-08-12.md",
     "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/template/knowledge base template.md",
+    "2024-08-12.md",
+    "20-30 technical knowledge hub/data engineer/tag hub.md",
+    "docker compose.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "data engineer lab 1 (202411160846).md",
