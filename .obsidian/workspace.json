@@ -524,8 +524,7 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -656,7 +655,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -666,7 +665,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cài đặt docker engine & desktop"
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -883,6 +882,44 @@
               ]
             },
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4a3311edcc8a2e99",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "852da396017b0195",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -890,7 +927,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
@@ -920,13 +957,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
     "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
-    "cài đặt docker engine & desktop.md",
     "docker compose.md",
     "GNU/Linux.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
