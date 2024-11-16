@@ -179,16 +179,18 @@ body {
 html,
 body
 {
-    .markdown-live-preview {
-        font-family: 'Lora', 'Georgia', serif !important;
-    }
-    
-    /* Source/Edit mode font */
-    .markdown-source-view,
-    .cm-editor {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
-    }
+ 
+.markdown-source-view {
+  font-family: 'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace !important;
 }
+
+.markdown-preview-view {
+  font-family: Lora, sans-serif !important;
+}
+}
+
+
+   
 
 strong
 {
