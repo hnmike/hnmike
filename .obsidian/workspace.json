@@ -209,6 +209,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag hub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag hub\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
                   "title": "end-to-end data engineer projects",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"end-to-end data engineer projects\"}",
@@ -219,12 +225,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/tag hub.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag hub"
+              "title": "data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -767,8 +773,8 @@
   },
   "active": "fcd4dc942e167f94",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
+    "conflict-files-obsidian-git.md",
     "git (202411152107).md",
     "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/another.md",
