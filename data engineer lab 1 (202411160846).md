@@ -11,7 +11,7 @@ summary:
 
 This repository contains the setup for the data modeling modules in Weeks 1 and 2.
  
-:wrench: **Tech Stack**
+**Tech Stack**
 
 - Git 
 - Postgres
@@ -19,7 +19,6 @@ This repository contains the setup for the data modeling modules in Weeks 1 and 
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
 - Docker, Docker Compose, and Docker Desktop
 
-:pencil: **TL;DR**
 
 1. [Clone the repository](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md).
 2. [Start Postgres instance](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#2%EF%B8%8F%E2%83%A3run-postgres).
@@ -31,9 +30,9 @@ For detailed instructions and more information, please refer to the step-by-step
 
 - Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
     
-    ```bash
-    git clone git@github.com:DataExpert-io/data-engineer-handbook.git
-    ```
+	    ```bash
+	    git clone git@github.com:DataExpert-io/data-engineer-handbook.git
+	    ```
     
 	
 ℹ️ To securely interact with GitHub repositories, it is recommended to use SSH keys. Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
