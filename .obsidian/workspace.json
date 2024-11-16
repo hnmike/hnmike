@@ -209,6 +209,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "add files to project",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/scripts/add files to project.js\"},\"icon\":\"lucide-file\",\"title\":\"add files to project\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "data engineer lab 1 (202411160846)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":0},\"to\":{\"line\":164,\"ch\":0}},\"scroll\":113.76945067008437}"
+                },
+                {
                   "title": "tag hub",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag hub\"}",
@@ -223,14 +235,12 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
-                "mode": "source",
-                "source": false
+                "file": "00-09 system/scripts/project task.js"
               },
               "icon": "lucide-file",
-              "title": "data engineer lab 1 (202411160846)"
+              "title": "project task"
             }
           },
           {
@@ -830,12 +840,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "a1ebd423287f75e8",
+  "active": "fcd4dc942e167f94",
   "lastOpenFiles": [
+    "00-09 system/scripts/add files to project.js",
+    "data engineer lab 1 (202411160846).md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "2024-08-12.md",
-    "data engineer lab 1 (202411160846).md",
     "docker compose.md",
     "new code file.js",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
@@ -859,7 +870,6 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "courses.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
-    "basic.thino.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
