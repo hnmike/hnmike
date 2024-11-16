@@ -228,29 +228,6 @@
             }
           },
           {
-            "id": "c4b6acaa3db00d03",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "0d1eeebad2d74cd4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -280,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -788,10 +765,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c4b6acaa3db00d03",
+  "active": "fcd4dc942e167f94",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "conflict-files-obsidian-git.md",
+    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "git (202411152107).md",
     "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/another.md",
