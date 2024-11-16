@@ -4,7 +4,8 @@ url:
 related: 
 aliases:
   - docker
-tags: 
-summary:
+tags:
+  - linker-exclude
+summary: 
 ---
 
