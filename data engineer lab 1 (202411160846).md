@@ -69,7 +69,7 @@ There are two methods to get Postgres running locally.
 - Copy **`example.env`** to **`.env`**:
     
     ```bash
-    cp example.env .env
+        cp example.env .env
     ```
 
 - Start the Docker Compose container:
@@ -90,11 +90,10 @@ There are two methods to get Postgres running locally.
     - Going into Docker Desktop: you should see an entry there with a drop-down for each of the containers running in your Docker Compose stack.
     - Running **`docker ps -a`** and looking for the containers with the name **`postgres`**.
 - When you're finished with your Postgres instance, you can stop the Docker Compose containers with:
-    
-    ```bash
-    make down
-    ```
-    
+  ```bash  
+  make down   
+   ```
+
     Or if you're on Windows:
     
     ```bash
