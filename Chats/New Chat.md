@@ -29,3 +29,10 @@ review note created today
 Assistant
 Failed to run Smart Second Brain (Error: ,TypeError: Cannot read properties of undefined (reading 'content'),). Please retry.
 - - - - -
+User
+review this note [[docker compose]]
+- - - - -
+Assistant
+Failed to run Smart Second Brain (Error: ,Error: Expected a Runnable, function or object.
+Instead got an unsupported type.,). Please retry.
+- - - - -

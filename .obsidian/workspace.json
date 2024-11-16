@@ -395,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer project.md",
+                "file": "Chats/New Chat.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -405,7 +405,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer project"
+              "title": "Backlinks for New Chat"
             }
           },
           {
@@ -606,9 +606,30 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "69c0fc93dc039363",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "chat-view",
+              "state": {
+                "file": "Chats/New Chat.md"
+              },
+              "icon": "message-square",
+              "title": "New Chat"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -641,10 +662,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5c959753536f6237",
+  "active": "69c0fc93dc039363",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer project.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "data warehouse.md",
