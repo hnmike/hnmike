@@ -125,7 +125,7 @@
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
     --inline-code:                var(--bright-aqua);
-    --code-block:                 var(--fujiGray);
+    --code-block:                 var(--accent-color);
     --vim-cursor-backgroung:      var(--fujiWhite);
     --vim-cursor-color:           var(--sumiInk1);
     --text-selection:             rgba(34, 50, 73, 0.5); /* waveBlue1 */
