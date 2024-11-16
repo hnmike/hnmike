@@ -100,7 +100,7 @@ There are two methods to get Postgres running locally.
 > Refer to the instructions below to resolve the issue when the data dump fails to load tables, displaying the message `PostgreSQL Database directory appears to contain a database; Skipping initialization.`
 > 
 
-## :three: **Connect to [[postgres (202411162120) #Postgres in Database Client]]**
+## :three: **Connect to postgres in database**
 
 - Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.
