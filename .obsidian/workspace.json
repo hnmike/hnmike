@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "git (202411152107)",
+                  "title": "postgres (202411162120) 1",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"git (202411152107).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"git (202411152107)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":10}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"postgres (202411162120) 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"postgres (202411162120) 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -1005,9 +1005,10 @@
   },
   "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "postgres (202411162120) 1.md",
+    "data engineer lab 1 (202411160846).md",
     "postgres (202411162120).md",
     "git (202411152107).md",
-    "data engineer lab 1 (202411160846).md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
@@ -1031,7 +1032,6 @@
     "().md",
     "Untitled 2.md",
     "demo_vault",
-    "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
