@@ -3,8 +3,8 @@
     /* Kanagawa from https://github.com/rebelot/kanagawa.nvim */
     /* Bg Shades*/
     --sumiInk0      : #16161D;
-    --sumiInk1b     : #22222b;
-    --sumiInk1      : #262633;
+    --sumiInk1b     : #181820;
+    --sumiInk1      : #1F1F28;
     --sumiInk2      : #2A2A37;
     --sumiInk3      : #363646;
     --sumiInk4      : #54546D;
@@ -124,7 +124,7 @@
     --background-modifier-border: var(--dragonBlue);
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
-    --inline-code:                var(--bright-aqua);
+    --inline-code:                var(--);
     --code-block:                 var(--bright-aqua);
     --vim-cursor-backgroung:      var(--fujiWhite);
     --vim-cursor-color:           var(--sumiInk1);
