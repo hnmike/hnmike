@@ -12,7 +12,7 @@ summary:
 [link cài đặt docker trên ubuntu desktop & engine](https://docs.docker.com/engine/install/ubuntu/ ) 
 [Complete Docker Compose in one Video - YouTube](https://www.youtube.com/watch?v=S8f5B8-BtzU&list=LL&index=2&t=520s) 
  - ! Docker bugs  [E: Package ‘docker-ce’ has no installation candidateix](https://forums.docker.com/t/installing-docker-on-buster-e-package-docker-ce-has-no-installation-candidate/108397)
-	 - Fix :
+	 - Fix : 
 Khóa học về cài đặt và sử dụng docker 
 ## See also 
 [[docker]]
