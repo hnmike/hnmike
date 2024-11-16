@@ -255,7 +255,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 technical knowledge hub/data engineer project.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -395,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+                "file": "20-30 technical knowledge hub/data engineer project.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -405,7 +405,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for end-to-end data engineer projects"
+              "title": "Backlinks for data engineer project"
             }
           },
           {
@@ -641,10 +641,10 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "94f3e5f370053b21",
+  "active": "5c959753536f6237",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+    "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "data warehouse.md",
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
