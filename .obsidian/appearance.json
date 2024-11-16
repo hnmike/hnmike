@@ -21,5 +21,6 @@
   "baseFontSize": 13,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "monospaceFontFamily": ""
 }
