@@ -11,11 +11,35 @@
             "id": "abdab83729e5d082",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
+                {
+                  "title": "Capstone project for my course",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "docker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "k8s",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"k8s.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"k8s\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "docker compose",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docker compose.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker compose\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":10}"
                 },
                 {
                   "title": "data engineer lab 1 (202411160846)",
@@ -196,12 +220,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker compose.md",
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker compose"
+              "title": "end-to-end data engineer projects"
             }
           },
           {
@@ -679,12 +703,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker compose.md",
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from docker compose"
+              "title": "Outgoing links from end-to-end data engineer projects"
             }
           },
           {
@@ -702,7 +726,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker compose.md",
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -712,7 +736,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for docker compose"
+              "title": "Backlinks for end-to-end data engineer projects"
             }
           },
           {
@@ -1004,8 +1028,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/docker.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+    "k8s.md",
+    "docker compose.md",
     "data engineer lab 1 (202411160846).md",
     "postgres (202411162120).md",
     "postgres (202411162120) 1.md",
@@ -1014,24 +1043,19 @@
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
-    "docker compose.md",
     "GNU/Linux.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
-    "k8s.md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "00-09 system/homepage/DASHBOARD.md",
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "conflict-files-obsidian-git.md",
     "data warehouse.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/project/data engineer.md",
     "Dockers.md",
     "2nd lesson of data engineer.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
     "(202411131711).md",
     "().md",
-    "Untitled 2.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",

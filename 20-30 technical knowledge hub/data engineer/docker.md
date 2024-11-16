@@ -7,8 +7,7 @@ aliases:
 tags:
   - data_engineer
   - fleeting_note
-  - linker-exclude
-summary: 
+summary:
 ---
 ## Virtual machine vs docker 
 
