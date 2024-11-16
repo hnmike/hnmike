@@ -786,28 +786,9 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
-          },
-          {
-            "id": "a1ebd423287f75e8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Smart Connections Chat"
-            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 20
       }
     ],
     "direction": "horizontal",
@@ -845,6 +826,8 @@
     "k8s.md",
     "docker compose.md",
     "cài đặt docker engine & desktop.md",
+    "20-30 technical knowledge hub/data engineer/docker.md",
+    "git (202411152107).md",
     "00-09 system/scripts/project task.js",
     "00-09 system/scripts/add files to project.js",
     "data engineer lab 1 (202411160846).md",
@@ -854,7 +837,6 @@
     "new code file.js",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "conflict-files-obsidian-git.md",
-    "git (202411152107).md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
     "00-09 system/template/knowledge base template.md",
@@ -871,7 +853,6 @@
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "courses.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",

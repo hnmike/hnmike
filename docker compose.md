@@ -4,9 +4,9 @@ url:
 related: 
 aliases:
   - docker
+  - hoc
 tags: 
 summary:
 ---
 Jfdof docker 
 K
-K 8 s mfd
