@@ -180,8 +180,8 @@ html,
 body
 {
  
-.markdown-live-preview {
-  font-family: monospace !important;
+.markdown-source-view {
+  font-family: ui-monospace !important;
 }
 
 .markdown-preview-view {
