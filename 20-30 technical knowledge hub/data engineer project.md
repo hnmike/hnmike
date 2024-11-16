@@ -10,7 +10,7 @@ tags:
 summary:
 ---
 ## Reference 
-Một số kênh youtube về data engineer:
+Một số kênh youtube về [[end-to-end data engineer projects|data engineer]]:
 [[basic.thino#^8bac10]] 
 [[basic.thino^]]
 [[courses|course về data]]
