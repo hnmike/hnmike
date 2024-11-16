@@ -4,7 +4,7 @@
     /* Bg Shades*/
     --sumiInk0      : #16161D;
     --sumiInk1b     : #1d1b27;
-    --sumiInk1      : #211f2a;
+    --sumiInk1      : #1d1b25;
     --sumiInk2      : #242436;
     --sumiInk3      : #363646;
     --sumiInk4      : #54546D;
@@ -183,9 +183,9 @@ body
         font-family:  monospace !important;
      ew
       
-    .markdown-preview-view {
+    .markdown-source-view {
         font-family: Lora, sans-serif !important;
-      }
+
 }
 
 strong
