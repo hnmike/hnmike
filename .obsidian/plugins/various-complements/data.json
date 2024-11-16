@@ -8,7 +8,7 @@
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "treatUnderscoreAsPartOfWord": false,
   "maxNumberOfSuggestions": 203,
-  "maxNumberOfWordsAsPhrase": 3,
+  "maxNumberOfWordsAsPhrase": 10,
   "minNumberOfCharactersTriggered": 0,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
