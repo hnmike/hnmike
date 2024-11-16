@@ -91,7 +91,7 @@ There are two methods to get Postgres running locally.
     - Running **`docker ps -a`** and looking for the containers with the name **`postgres`**.
 - When you're finished with your Postgres instance, you can stop the Docker Compose containers with:
   ```bash  
-  make down   
+      make down   
    ```
 
     Or if you're on Windows:
