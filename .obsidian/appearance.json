@@ -15,8 +15,8 @@
     "bulleththreading",
     "Indent headings"
   ],
-  "theme": "moonstone",
-  "cssTheme": "🔔 Chime",
+  "theme": "obsidian",
+  "cssTheme": "Border",
   "accentColor": "#5c82f5",
   "baseFontSize": 13,
   "baseFontSizeAction": true,
