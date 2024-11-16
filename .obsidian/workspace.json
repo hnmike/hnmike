@@ -744,38 +744,9 @@
               "icon": "lucide-file",
               "title": "cài đặt docker engine & desktop"
             }
-          },
-          {
-            "id": "a607b73c95e123e2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "data engineer lab 1 (202411160846)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":3},\"to\":{\"line\":164,\"ch\":3}},\"scroll\":97.73645981650967}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "end-to-end data engineer projects"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1247,11 +1218,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a607b73c95e123e2",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "00-09 system/homepage/DASHBOARD.md",
     "cài đặt docker engine & desktop.md",
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "data engineer lab 1 (202411160846).md",
     "conflict-files-obsidian-git.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
