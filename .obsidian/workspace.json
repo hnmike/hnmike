@@ -524,7 +524,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -632,12 +633,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from data engineer lab 1 (202411160846)"
+              "title": "Outgoing links from cài đặt docker engine & desktop"
             }
           },
           {
@@ -655,7 +656,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -665,7 +666,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer lab 1 (202411160846)"
+              "title": "Backlinks for cài đặt docker engine & desktop"
             }
           },
           {
@@ -846,8 +847,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -865,8 +866,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -909,7 +910,6 @@
       "obsidian42-brat:BRAT": false,
       "omnisearch:Omnisearch": false,
       "callout-manager:Insert Callout": false,
-      "smart-second-brain:Open S2B Chat": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
@@ -920,15 +920,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
     "cài đặt docker engine & desktop.md",
     "docker compose.md",
     "GNU/Linux.md",
-    "data engineer lab 1 (202411160846).md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "k8s.md",
