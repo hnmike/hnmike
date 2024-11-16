@@ -623,7 +623,7 @@ input.task-list-item-checkbox:checked
 }
 
 .cm-line .cm-strong {
-    color: var(--accent-color) !important;
+    color: var(--bright-aqua) !important;
     opacity: 0.95;
 }
 
@@ -633,7 +633,7 @@ input.task-list-item-checkbox:checked
 .nav-folder-title.is-active,
 .view-header-title:hover,
 .workspace-tab-header.is-active {
-    color: var(--accent-color) !important;
+    color: var(--bright-aqua) !important;
     opacity: 0.95;
 }
 
