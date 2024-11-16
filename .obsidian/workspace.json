@@ -744,9 +744,32 @@
               "icon": "lucide-file",
               "title": "cài đặt docker engine & desktop"
             }
+          },
+          {
+            "id": "a607b73c95e123e2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab 1"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1128,9 +1151,28 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "00108fdc2652e3fa",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
@@ -1161,12 +1203,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "a607b73c95e123e2",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
+    "lab 1.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/homepage/DASHBOARD.md",
     "docker compose.md",
-    "cài đặt docker engine & desktop.md",
     "00-09 system/project/data engineer.md",
     "Dockers.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
@@ -1189,7 +1232,6 @@
     "requirements for data engineer project (202411121714).md",
     "2024-11-13.md",
     "00-09 system/template/new zettel note.md",
-    "Invalid date.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
