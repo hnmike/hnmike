@@ -33,7 +33,7 @@
                   "title": "docker",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":16},\"to\":{\"line\":25,\"ch\":16}},\"scroll\":13.998521755631312}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":11}"
                 },
                 {
                   "title": "docker compose",
@@ -233,7 +233,8 @@
               "title": "2024-08-12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -782,13 +783,14 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "0d1eeebad2d74cd4",
   "lastOpenFiles": [
     "2024-08-12.md",
     "docker compose.md",
+    "20-30 technical knowledge hub/data engineer project.md",
+    "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/scripts/project task.js",
     "k8s.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "cài đặt docker engine & desktop.md",
     "git (202411152107).md",
     "00-09 system/scripts/add files to project.js",
@@ -810,7 +812,6 @@
     "Untitled 2.md",
     "demo_vault",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
-    "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "IMG-20241114090915849.png",

@@ -4,9 +4,6 @@ url:
 related: 
 aliases:
   - docker
-  - apple
 tags: 
 summary:
 ---
-Docker 
-Apple 
