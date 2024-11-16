@@ -229,6 +229,29 @@
             }
           },
           {
+            "id": "56053a16ca67a0ba",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "postgres (202411162120).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "postgres (202411162120)"
+            }
+          },
+          {
             "id": "e298bf947f399e98",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -255,163 +278,6 @@
               },
               "icon": "lucide-file",
               "title": "data engineer lab 1 (202411160846)"
-            }
-          },
-          {
-            "id": "56053a16ca67a0ba",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postgres (202411162120).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "postgres (202411162120)"
-            }
-          },
-          {
-            "id": "1347b244688d1453",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git (202411152107).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git (202411152107)"
-            }
-          },
-          {
-            "id": "fcd4dc942e167f94",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "end-to-end data engineer projects",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"end-to-end data engineer projects\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":12}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/tag hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tag hub"
-            }
-          },
-          {
-            "id": "0d1eeebad2d74cd4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "k8s",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"k8s.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"k8s\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-08-12.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-08-12"
-            }
-          },
-          {
-            "id": "730985d3875d4059",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "data engineer project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer project.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "end-to-end data engineer projects",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"end-to-end data engineer projects\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":0},\"to\":{\"line\":43,\"ch\":0}},\"scroll\":12}"
-                },
-                {
-                  "title": "requirements for data engineer project (202411121714)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"requirements for data engineer project (202411121714).md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"requirements for data engineer project (202411121714)\"}",
-                  "eState": "{\"scroll\":5.5491329479768785}"
-                },
-                {
-                  "title": "end-to-end data engineer projects",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"end-to-end data engineer projects\"}",
-                  "eState": "{\"scroll\":28.942185983923313}"
-                },
-                {
-                  "title": "requirements for data engineer project (202411121714)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"requirements for data engineer project (202411121714).md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"requirements for data engineer project (202411121714)\"}",
-                  "eState": "{\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/homepage/DASHBOARD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DASHBOARD"
             }
           },
           {
@@ -624,7 +490,8 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -1032,7 +899,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1061,26 +928,26 @@
   "active": "2792026737ca1959",
   "lastOpenFiles": [
     "data engineer lab 1 (202411160846).md",
+    "postgres (202411162120).md",
+    "git (202411152107).md",
+    "20-30 technical knowledge hub/data engineer/tag hub.md",
+    "2024-08-12.md",
+    "00-09 system/homepage/DASHBOARD.md",
     "cài đặt docker engine & desktop.md",
     "GNU/Linux.md",
-    "postgres (202411162120).md",
     "Postgres.md",
     "docker compose.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "git (202411152107).md",
     "00-09 system/project/data engineer/fff.md",
     "Button.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "k8s.md",
     "postgres (202411162120) 1.md",
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
-    "2024-08-12.md",
     "00-09 system/template/knowledge base template.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "20-30 technical knowledge hub/data engineer/another.md",
-    "00-09 system/homepage/DASHBOARD.md",
     "conflict-files-obsidian-git.md",
     "data warehouse.md",
     "00-09 system/project/data engineer.md",
