@@ -1110,25 +1110,6 @@
             }
           },
           {
-            "id": "56c365200172743e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "00108fdc2652e3fa",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1186,7 +1167,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -1217,13 +1198,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c73acbf79430f06b",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
-    "k8s.md",
+    "cài đặt docker engine & desktop.md",
     "data engineer lab 1 (202411160846).md",
+    "k8s.md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "docker compose.md",
-    "cài đặt docker engine & desktop.md",
     "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/template/knowledge base template.md",
     "2024-08-12.md",
