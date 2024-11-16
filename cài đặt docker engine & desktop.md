@@ -15,7 +15,7 @@ summary:
 	 - <mark style="background: #FFF3A3A6;">Fix</mark> : 
 		 - Create the keyring directory to "-p /etc/apt/keyrings '' and check the docker repository " docker.list"
 		 - Add the gpg key 
-		 - 
+		 - Remember to update the package " sudp apt-get update"
 Khóa học về cài đặt và sử dụng docker 
 ## See also 
 [[docker]]
