@@ -1,5 +1,5 @@
 {
-  "highlighterStyle": "none",
+  "highlighterStyle": "floating",
   "highlighterMethods": "inline-styles",
   "highlighters": {
     "Pink": "#FFB8EBA6",
