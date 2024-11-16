@@ -74,10 +74,9 @@ There are two methods to get Postgres running locally.
 
 - Start the Docker Compose container:
     - If you're on Mac:
-        
-        ```bash
-        make up
-        ```
+    
+    ```bash
+	        make up        ```
         
     - If you're on Windows:
         
