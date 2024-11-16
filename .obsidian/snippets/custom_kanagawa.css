@@ -117,7 +117,7 @@
     --text-a-hover:               var(--peachRed);
     --text-a-url:                 var(--dragonBlue); /*hover internal link, graph view link and standalone links*. External Links no*/
     --text-mark:                  rgba(34, 50, 73, 0.4); /* waveBlue1 */
-    --pre-code:                   var(--sumiInk5);
+    --pre-code:                   var(--faded-aqua);
     --text-highlight-bg:          var(--waveBlue1);
     --interactive-accent:         var(--dragonBlue); /* vim cursor background AND highilight on right*/
     --interactive-before:         var(--sumiInk4);
@@ -125,7 +125,7 @@
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
     --inline-code:                var(--bright-aqua);
-    --code-block:                 var(--lightBlue);
+    --code-block:                 var(--fujiGray);
     --vim-cursor-backgroung:      var(--fujiWhite);
     --vim-cursor-color:           var(--sumiInk1);
     --text-selection:             rgba(34, 50, 73, 0.5); /* waveBlue1 */
