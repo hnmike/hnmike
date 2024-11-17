@@ -488,32 +488,9 @@
               "icon": "lucide-file",
               "title": "cài đặt docker engine & desktop"
             }
-          },
-          {
-            "id": "2ecb4b5dbd99aa76",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1117,10 +1094,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2ecb4b5dbd99aa76",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
     "conflict-files-obsidian-git.md",
+    "cài đặt docker engine & desktop.md",
     "souce system.md",
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "20-30 technical knowledge hub/data engineer/docker.md",
