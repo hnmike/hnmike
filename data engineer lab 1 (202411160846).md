@@ -7,7 +7,7 @@ aliases:
 tags: 
 summary:
 ---
-# Learning about dataa
+# Learning about data set and prequ
 
 ## Data Modeling
 
