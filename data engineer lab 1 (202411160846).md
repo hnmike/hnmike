@@ -50,7 +50,7 @@ There are two methods to get Postgres running locally.
 
 ### 💻 **Option 1: Run on local machine**
 
-1. Install Postgres
+>[!1 ] 1. Install Postgres
     - For Mac: Follow this **[tutorial](https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/)** (Homebrew is really nice for installing on Mac)
     - For Windows: Follow this **[tutorial](https://www.sqlshack.com/how-to-install-postgresql-on-windows/)**
 2. Run this command after replacing **`<computer-username>`** with your computer's username:
