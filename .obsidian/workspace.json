@@ -512,8 +512,7 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -614,10 +613,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "postgres (202411162120).md"
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of postgres (202411162120)"
+              "title": "Outline of end-to-end data engineer projects"
             }
           }
         ]
@@ -649,12 +648,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "postgres (202411162120).md",
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from postgres (202411162120)"
+              "title": "Outgoing links from end-to-end data engineer projects"
             }
           },
           {
@@ -897,7 +896,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postgres (202411162120).md",
+                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -907,7 +906,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for postgres (202411162120)"
+              "title": "Backlinks for end-to-end data engineer projects"
             }
           }
         ]
@@ -940,8 +939,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "56053a16ca67a0ba",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
+    "postgres (202411162120).md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Postgres.md",
     "git (202411152107).md",
@@ -954,7 +954,6 @@
     "souce system.md",
     "Welcome.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
-    "postgres (202411162120).md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "2024-08-12.md",
