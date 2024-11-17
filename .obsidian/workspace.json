@@ -261,9 +261,32 @@
               "icon": "lucide-file",
               "title": "data engineer project"
             }
+          },
+          {
+            "id": "51e546258e0921ce",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -657,10 +680,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5c959753536f6237",
+  "active": "51e546258e0921ce",
   "lastOpenFiles": [
-    "Chats/New Chat.md",
     "20-30 technical knowledge hub/data engineer project.md",
+    "conflict-files-obsidian-git.md",
+    "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
+    "postgres (202411162120).md",
+    "postgres (202411162120) 1.md",
+    "Postgres.md",
+    "Chats/New Chat.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
@@ -679,15 +707,10 @@
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "new code file.js",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
-    "conflict-files-obsidian-git.md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/homepage/DASHBOARD.md",
-    "h202410180652.md",
-    "(202411131711).md",
-    "2nd lesson of data engineer.md",
-    "().md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",

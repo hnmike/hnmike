@@ -7,8 +7,7 @@ aliases:
 tags:
   - "#data_engineer"
   - "#project"
-  - linker-exclude
-summary: 
+summary:
 ---
 ## Reference 
  Tham khảo một số project 

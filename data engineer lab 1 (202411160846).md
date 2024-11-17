@@ -11,29 +11,28 @@ summary:
 
 This repository contains the setup for the data modeling modules in Weeks 1 and 2.
  
-:wrench: **Tech Stack**
+**Tech Stack**
 
-- Git
-- Postgres
+-  [[git (202411152107)]]
+ - [[postgres (202411162120)]]
 - PSQL CLI
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
 - Docker, Docker Compose, and Docker Desktop
-
-:pencil: **TL;DR**
 
 1. [Clone the repository](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md).
 2. [Start Postgres instance](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#2%EF%B8%8F%E2%83%A3run-postgres).
 3. [Connect to Postgres](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#threeconnect-to-postgres-in-database-client) using your preferred database management tool.
 
 For detailed instructions and more information, please refer to the step-by-step instructions below.
-
+- ? First, [[cài đặt docker engine & desktop]] tren linux 
 ## 1️⃣ **Clone the repository**
 
 - Clone the repo using the SSH link. This will create a new folder in the current directory on your local machine.
     
-    ```bash
-    git clone git@github.com:DataExpert-io/data-engineer-handbook.git
-    ```
+	    ```bash
+	    git clone git@github.com:DataExpert-io/data-engineer- 
+        handbook.git
+	    ```
     
 	
 ℹ️ To securely interact with GitHub repositories, it is recommended to use SSH keys. Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
@@ -63,7 +62,7 @@ There are two methods to get Postgres running locally.
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.
 4. Have fun querying!
 
-## 🐳 **Option 2: Run Postgres in Docker**
+## 🐳 **Option 2: Run postgres in docker 
 
 - Install Docker Desktop from **[here](https://www.docker.com/products/docker-desktop/)**.
 - Copy **`example.env`** to **`.env`**:
@@ -87,9 +86,9 @@ There are two methods to get Postgres running locally.
     - Going into Docker Desktop: you should see an entry there with a drop-down for each of the containers running in your Docker Compose stack.
     - Running **`docker ps -a`** and looking for the containers with the name **`postgres`**.
 - When you're finished with your Postgres instance, you can stop the Docker Compose containers with:
-  ```bash  
-      make down   
-   ```
+	  ```bash  
+	  make down   
+	   ```
 
     Or if you're on Windows:
     
@@ -102,7 +101,7 @@ There are two methods to get Postgres running locally.
 > Refer to the instructions below to resolve the issue when the data dump fails to load tables, displaying the message `PostgreSQL Database directory appears to contain a database; Skipping initialization.`
 > 
 
-## :three: **Connect to Postgres in Database Client**
+## :three: **Connect to postgres in database**
 
 - Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.
@@ -121,7 +120,7 @@ There are two methods to get Postgres running locally.
 - If the test connection is successful, click "Finish" or "Save" to save the connection. You should now be able to use the database client to manage your PostgreSQL database locally.
 
 ## **🚨 Tables not loading!? 🚨**
-- If you are on Windows and used **`docker compose up`**, table creation and data load will not take place with container creation. Once you have docker container up and verified that you are able to connect to empty postgres database with your own choice of client, follow the following steps:
+- If you are on Windows and used[[ docker compose]], table creation and data load will not take place with container creation. Once you have docker container up and verified that you are able to connect to empty postgres database with your own choice of client, follow the following steps:
 1. On Docker desktop, connect to my-postgres-container terminal.
 	1. Run:
 		1. 
