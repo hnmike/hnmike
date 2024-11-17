@@ -8,6 +8,6 @@ summary:
 ---
 chua bai homework
 ## source systems
-![[IMG-20241023202611255.png|550]]
+![[IMG-20241023202611255.png|800]]
 
 types of source system : 
