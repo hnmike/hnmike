@@ -90,7 +90,7 @@ There are two methods to get Postgres running locally.
 	  make down   
 	   ```
 
-    Or if you're on Windows:
+Or if you're on Windows:
     
 	    ```bash
 	    docker compose down -v

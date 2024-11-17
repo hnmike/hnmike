@@ -11,17 +11,17 @@
             "id": "5c959753536f6237",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "2nd lesson of data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":8}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "data engineer lab 1 (202411160846)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":114,\"ch\":63},\"to\":{\"line\":114,\"ch\":63}},\"scroll\":9}"
                 },
                 {
                   "title": "data engineer project",
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2nd lesson of data engineer.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2nd lesson of data engineer"
+              "title": "data engineer lab 1 (202411160846)"
             }
           }
         ]
@@ -437,6 +437,7 @@
   },
   "active": "5c959753536f6237",
   "lastOpenFiles": [
+    "2nd lesson of data engineer.md",
     "data engineer lab 1 (202411160846).md",
     "docker compose.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
