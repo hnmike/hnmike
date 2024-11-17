@@ -969,11 +969,11 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 17
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 809.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1001,8 +1001,9 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "bf9ed9b439c30486",
   "lastOpenFiles": [
+    "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "cài đặt docker engine & desktop.md",
@@ -1028,7 +1029,6 @@
     "conflict-files-obsidian-git.md",
     "data warehouse.md",
     "00-09 system/project/data engineer.md",
-    "Dockers.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
