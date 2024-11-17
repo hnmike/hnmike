@@ -490,7 +490,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1056,8 +1056,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e298bf947f399e98",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "data engineer lab 1 (202411160846).md",
     "cài đặt docker engine & desktop.md",
     "conflict-files-obsidian-git.md",
     "Welcome.md",
@@ -1065,7 +1066,6 @@
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "git (202411152107).md",
