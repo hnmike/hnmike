@@ -74,7 +74,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 	    ```bash
 		  cp example.env .env
 	    ```
-
+- ? Change the port 5432 to 5431 
 - Start the Docker Compose container:
     - If you're on Mac:
     
