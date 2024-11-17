@@ -490,7 +490,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1056,10 +1056,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "e298bf947f399e98",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "cài đặt docker engine & desktop.md",
+    "conflict-files-obsidian-git.md",
     "Welcome.md",
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
