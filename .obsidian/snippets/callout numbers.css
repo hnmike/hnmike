@@ -1,0 +1,36 @@
+.callout[data-callout="step"] {
+  --callout-border-width: 0;
+  --callout-radius: 0;
+  --callout-title-color: var(--text-normal);
+  padding: 0;
+  padding-inline-start: 20px;
+  background: transparent;
+  position: relative;
+  margin: 0;
+
+  & .callout-icon {
+    display: none;
+  }
+
+  & .callout-title {
+    position: absolute;
+  }
+
+  & .callout-title-inner {
+    margin-block-start: var(--p-spacing);
+    background: var(--background-secondary);
+    border: 1px solid var(--indentation-guide-color);
+    margin-inline-start: -16px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  & .callout-content {
+    padding-inline-start: 24px;
+    border-inline-start: 1px solid var(--indentation-guide-color);
+  }
+}
