@@ -482,7 +482,7 @@
               "type": "markdown",
               "state": {
                 "file": "cài đặt docker engine & desktop.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1058,15 +1058,15 @@
   },
   "active": "2792026737ca1959",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
+    "20-30 technical knowledge hub/data engineer/docker.md",
     "cài đặt docker engine & desktop.md",
+    "Welcome.md",
+    "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "data engineer lab 1 (202411160846).md",
     "conflict-files-obsidian-git.md",
-    "Welcome.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "git (202411152107).md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
