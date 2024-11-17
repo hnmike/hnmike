@@ -725,7 +725,7 @@ font-weight: 300;
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    border-bottom: 2px var(--color-accent-2) var(--line-style);
+    border-bottom: 2px var() var();
 }
 .theme-dark.theme-default .markdown-rendered mark, .theme-dark.theme-default .cm-s-obsidian span.cm highlight,
 .theme-dark.theme-celestial .markdown-rendered mark, .theme-dark.theme-celestial .cm-s-obsidian span.cm highlight,
@@ -737,11 +737,11 @@ font-weight: 300;
     background-color: transparent;
     border-radius: 0px;
     padding: 0px;
-    border-bottom: 3px var(--color-accent-2) var(--line-style);
+    border-bottom: 3px var() var();
     font-weight: bold;
 }
 .theme-dark.underlined-highlight .markdown-rendered mark, .theme-dark.underlined-highlight .cm-s-obsidian span.cm-highlight {
-    color: var(--color-accent-2);
+    color: var();
 }
 
 

@@ -6,7 +6,7 @@ alias:
 tags:
 summary:
 ---
-chua bai homework
+<mark class="hltr-green">chua bai homework</mark>
 ## source systems
 
 ![[IMG-20241023202611255.png|600]]
