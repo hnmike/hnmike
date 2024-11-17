@@ -19,11 +19,12 @@ summary:
 		 - Installl docker from ubuntu's official package
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 Basic task for learning docker container 
-	- Push the image of the container
-	- Create file for 
+
+	- Create dockerfile for your project 
+	- docker build -t welcome-to-docker .
 		- 
 Khóa học về cài đặt và sử dụng 
-
+-
 ## See also 
 [[docker]]
 [[docker compose]]
