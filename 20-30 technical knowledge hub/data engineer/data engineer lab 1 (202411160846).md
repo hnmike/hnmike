@@ -3,7 +3,7 @@ created-date: 2024-11-16 08:46
 id: 
 url: 
 related: 
-aliases: []
+aliases: 
 tags:
   - "#project_note"
   - "#data_engineer"
