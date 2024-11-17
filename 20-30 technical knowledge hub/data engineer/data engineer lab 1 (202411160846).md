@@ -94,7 +94,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 	  make down   
 	   ```
 
-	Or if you're on Windows:
+- Or if you're on Windows:
     
 	    ```bash
 	    docker compose down -v
