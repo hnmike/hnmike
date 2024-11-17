@@ -737,6 +737,25 @@
             }
           },
           {
+            "id": "2ba7f905e652d2af",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Tasks Timeline"
+            }
+          },
+          {
             "id": "b5c993dba463ad5a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -834,7 +853,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -898,51 +917,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "floating": {
-    "id": "2fc4a56c2ba4a070",
-    "type": "floating",
-    "children": [
-      {
-        "id": "697a7fc915892f2b",
-        "type": "window",
-        "children": [
-          {
-            "id": "f3031ffe7e7b9774",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2ba7f905e652d2af",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "tasks_timeline_view",
-                  "state": {},
-                  "icon": "calendar-clock",
-                  "title": "Tasks Timeline"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 218,
-        "y": 18,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "2a1f968c61760117",
+  "active": "2ba7f905e652d2af",
   "lastOpenFiles": [
     "Postgres.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
