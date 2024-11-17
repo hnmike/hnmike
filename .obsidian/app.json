@@ -6,5 +6,6 @@
   "livePreview": true,
   "newFileLocation": "root",
   "defaultViewMode": "source",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "90-100 resource archives/attachment"
 }
