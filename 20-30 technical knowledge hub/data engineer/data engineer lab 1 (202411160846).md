@@ -127,7 +127,6 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 - If you are on Windows and used [[ docker compose]], table creation and data load will not take place with container creation. Once you have docker container up and verified that you are able to connect to empty postgres database with your own choice of client, follow the following steps:
 1. On Docker desktop, connect to my-postgres-container terminal.
 	1. Run:
-		1. 
 		```bash
 			psql \
 			-v ON_ERROR_STOP=1 \
