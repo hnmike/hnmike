@@ -273,7 +273,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -512,7 +512,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -613,10 +614,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md"
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of end-to-end data engineer projects"
+              "title": "Outline of data engineer lab 1 (202411160846)"
             }
           }
         ]
@@ -648,12 +649,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from end-to-end data engineer projects"
+              "title": "Outgoing links from data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -896,7 +897,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -906,7 +907,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for end-to-end data engineer projects"
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
             }
           }
         ]
@@ -939,8 +940,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "e298bf947f399e98",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "postgres (202411162120).md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Postgres.md",
@@ -948,7 +950,6 @@
     "20-30 technical knowledge hub/data engineer/docker.md",
     "docker compose.md",
     "cài đặt docker engine & desktop.md",
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "conflict-files-obsidian-git.md",
     "souce system.md",

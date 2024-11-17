@@ -39,7 +39,7 @@ For detailed instructions and more information, please refer to the step-by-step
 	    ```
     
 	
-ℹ️ To securely interact with GitHub repositories, it is recommended to use SSH keys. Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
+ℹ️ To securely interact with GitHub repositories, it is recommended to use <mark class="hltr-purple">SSH keys.</mark> Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
 
 
 - Navigate into the cloned repo using the command line:
