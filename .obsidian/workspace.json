@@ -872,12 +872,50 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "852da396017b0195",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a5d0a0a2e37ba681",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           },
           {
-            "id": "852da396017b0195",
+            "id": "74c232f83469db25",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -896,7 +934,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
