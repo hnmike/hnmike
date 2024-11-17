@@ -16,18 +16,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "data engineer lab 1 (202411160846)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":9.818965490309436}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "2nd lesson of data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer lab 1 (202411160846)"
+              "title": "2nd lesson of data engineer"
             }
           }
         ]
@@ -425,8 +431,8 @@
   },
   "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "Postgres.md",
     "data engineer lab 1 (202411160846).md",
+    "Postgres.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "docker compose.md",
