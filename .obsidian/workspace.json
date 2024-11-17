@@ -524,7 +524,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 550.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -552,8 +553,8 @@
   },
   "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "h202410180652.md",
     "2nd lesson of data engineer.md",
+    "h202410180652.md",
     "data engineer lab 1 (202411160846).md",
     "Postgres.md",
     "cài đặt docker engine & desktop.md",
