@@ -273,7 +273,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -914,7 +914,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -942,10 +942,10 @@
   },
   "active": "e298bf947f399e98",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/docker.md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "git (202411152107).md",
     "Postgres.md",
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+    "20-30 technical knowledge hub/data engineer/docker.md",
+    "git (202411152107).md",
     "docker compose.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",

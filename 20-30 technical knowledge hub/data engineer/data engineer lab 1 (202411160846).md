@@ -59,9 +59,9 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
     - For Windows: Follow this **[tutorial](https://www.sqlshack.com/how-to-install-postgresql-on-windows/)**
 2. Run this command after replacing **`<computer-username>`** with your computer's username:
     
-    ```bash
-    psql -U <computer-username> postgres < data.dump 
-    ```
+	    ```bash
+	    psql -U <computer-username> postgres < data.dump 
+	    ```
     
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.
 4. Have fun querying!
@@ -71,9 +71,9 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 - Install Docker Desktop from **[here](https://www.docker.com/products/docker-desktop/)**.
 - Copy **`example.env`** to **`.env`**:
     
-    ```bash
-          cp example.env .env
-    ```
+	    ```bash
+		  cp example.env .env
+	    ```
 
 - Start the Docker Compose container:
     - If you're on Mac:
