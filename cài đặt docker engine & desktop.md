@@ -20,6 +20,7 @@ summary:
 		 - Installl docker from ubuntu's official package
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 
+
 Basic task for learning docker container 
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
