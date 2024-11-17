@@ -55,5 +55,6 @@
   "vscode-editor",
   "obsidian-git",
   "graph-analysis",
-  "virtual-linker"
+  "virtual-linker",
+  "smart-connections"
 ]
