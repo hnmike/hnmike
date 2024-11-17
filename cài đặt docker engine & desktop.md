@@ -18,7 +18,10 @@ summary:
 		 - Remember to update the package " sudp apt-get update"
 		 - Installl docker from ubuntu's official package
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
-Basic task 
+Basic task for learning docker container 
+	- Fdfjf
+		-  fkf
+		- 
 Khóa học về cài đặt và sử dụng 
 
 ## See also 
