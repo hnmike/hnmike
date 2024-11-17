@@ -10,6 +10,7 @@ summary:
 ---
 # Cai dat docker 
 ---
+## Reference
 [link cài đặt docker trên ubuntu desktop & engine](https://docs.docker.com/engine/install/ubuntu/ ) 
 
 [Complete Docker Compose in one Video - YouTube](https://www.youtube.com/watch?v=S8f5B8-BtzU&list=LL&index=2&t=520s) 
@@ -23,7 +24,7 @@ summary:
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 
 
-- @ EBasic task for learning docker container 
+- @ Basic task for learning docker container 
 	- Rea dd
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
