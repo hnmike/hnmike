@@ -973,7 +973,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 809.5
+    "width": 809.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1001,7 +1002,7 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "bf9ed9b439c30486",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
