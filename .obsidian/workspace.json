@@ -262,8 +262,7 @@
               "title": "data engineer project"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -657,12 +656,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5c959753536f6237",
+  "active": "abdab83729e5d082",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer project.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "00-09 system/project/data engineer.md",
     "conflict-files-obsidian-git.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
