@@ -570,7 +570,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "9c073d976d8a84c7",
@@ -765,25 +765,6 @@
             }
           },
           {
-            "id": "2ba7f905e652d2af",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "tasks_timeline_view",
-              "state": {},
-              "icon": "calendar-clock",
-              "title": "Tasks Timeline"
-            }
-          },
-          {
             "id": "b5c993dba463ad5a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -819,50 +800,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
             "id": "a04ce5312b4068a5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "9ba1f68d29e7520f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4a3311edcc8a2e99",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1071,7 +1014,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -1101,7 +1044,51 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "76e00f65728bb98b",
+  "floating": {
+    "id": "2fc4a56c2ba4a070",
+    "type": "floating",
+    "children": [
+      {
+        "id": "697a7fc915892f2b",
+        "type": "window",
+        "children": [
+          {
+            "id": "f3031ffe7e7b9774",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2ba7f905e652d2af",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {},
+                  "icon": "calendar-clock",
+                  "title": "Tasks Timeline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 218,
+        "y": 18,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "00108fdc2652e3fa",
   "lastOpenFiles": [
     "Postgres.md",
     "data engineer lab 1 (202411160846).md",
