@@ -8,197 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abdab83729e5d082",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "cài đặt docker engine & desktop",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":10}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "data engineer project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":32},\"to\":{\"line\":20,\"ch\":32}},\"scroll\":11}"
-                },
-                {
-                  "title": "docker",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":11}"
-                },
-                {
-                  "title": "docker compose",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docker compose.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker compose\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "docker",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":47},\"to\":{\"line\":9,\"ch\":47}},\"scroll\":10}"
-                },
-                {
-                  "title": "2024-09-25",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/09/2024-09-25.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-09-25\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":7},\"to\":{\"line\":84,\"ch\":7}},\"scroll\":50.75609701703844}"
-                },
-                {
-                  "title": "docker",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "docker compose",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docker compose.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker compose\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "docker",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "docker compose",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docker compose.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker compose\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":9}"
-                },
-                {
-                  "title": "docker",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"docker\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":12.227604652751081}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":7},\"to\":{\"line\":100,\"ch\":7}},\"scroll\":85.05092020670573}"
-                },
-                {
-                  "title": "projeccct",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":9.71500322627059}"
-                },
-                {
-                  "title": "2024-11-10",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/11/2024-11-10.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-11-10\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":95,\"ch\":0}},\"scroll\":83.5887879384172}"
-                },
-                {
-                  "title": "New tab",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"beautitab-react-view\",\"state\":{},\"title\":\"New tab\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "another",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer/another.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"another\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":7,\"ch\":4}},\"scroll\":0}"
-                },
-                {
-                  "title": "2024-11",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-11.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-11\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "tag hub",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag hub\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}},\"scroll\":0}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":27},\"to\":{\"line\":51,\"ch\":27}},\"scroll\":7.583047100992408}"
-                },
-                {
-                  "title": "projeccct",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":3}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":46},\"to\":{\"line\":11,\"ch\":46}},\"scroll\":8.710259274143258}"
-                },
-                {
-                  "title": "projeccct",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":3}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":543},\"to\":{\"line\":14,\"ch\":543}},\"scroll\":9.902936075274033}"
-                },
-                {
-                  "title": "Inbox",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Inbox.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Inbox\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":8},\"to\":{\"line\":0,\"ch\":8}},\"scroll\":0}"
-                },
-                {
-                  "title": "TASK TEMPLATE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TASK TEMPLATE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TASK TEMPLATE\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":42},\"to\":{\"line\":49,\"ch\":42}},\"scroll\":30.037458273198986}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":19},\"to\":{\"line\":35,\"ch\":19}},\"scroll\":7}"
-                },
-                {
-                  "title": "TASK TEMPLATE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TASK TEMPLATE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TASK TEMPLATE\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":1},\"to\":{\"line\":9,\"ch\":1}},\"scroll\":8}"
-                },
-                {
-                  "title": "2024-09-26",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/09/2024-09-26.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-09-26\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":20.56645368672563}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker compose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "docker compose"
-            }
-          },
-          {
             "id": "0d1eeebad2d74cd4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -656,8 +465,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "0d1eeebad2d74cd4",
   "lastOpenFiles": [
+    "docker compose.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -671,7 +481,6 @@
     "data warehouse.md",
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
     "2024-08-12.md",
-    "docker compose.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/scripts/project task.js",
     "k8s.md",
