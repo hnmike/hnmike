@@ -22,7 +22,7 @@ summary:
 
 
 Basic task for learning docker container 
-	- Create dockerfile for your project 
+	- <mark style="background: #BBFABBA6;">Create dockerfile for your project </mark>
 	- docker build -t welcome-to-docker .
 	- push the image, create the container will show up in docker desktop 
 
