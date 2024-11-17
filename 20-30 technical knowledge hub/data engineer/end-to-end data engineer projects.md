@@ -10,14 +10,14 @@ tags:
   - "#reference_note"
 summary:
 ---
-## Building data project template 
+#Building data project template 
 - Define some [[requirements for data engineer project (202411121714)]]
 	![[IMG-20241113171737544.png]]
 ## Set up data infrastructure
 ---
 -  The setup environment for DE project, development workflow 
 	1. `Airflow`: To schedule and orchestrate DAGs
-	1. `[[Postgres]]`: To store Airflow’s details (which you can see via Airflow UI) and also has a schema to represent upstream databases.
+	1. `postgres`: To store Airflow’s details (which you can see via Airflow UI) and also has a schema to represent upstream databases.
 	2. `DuckDB` To act as our warehouse
 	
 	1. `Quarto with Plotly`: To convert code in markdown format to html files that can be embedded in your app or servered as is.
