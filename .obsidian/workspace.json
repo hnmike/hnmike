@@ -490,7 +490,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1095,9 +1095,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "e298bf947f399e98",
   "lastOpenFiles": [
+    "Postgres.md",
     "data engineer lab 1 (202411160846).md",
+    "docker compose.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
@@ -1113,8 +1115,6 @@
     "2024-08-12.md",
     "00-09 system/homepage/DASHBOARD.md",
     "GNU/Linux.md",
-    "Postgres.md",
-    "docker compose.md",
     "00-09 system/project/data engineer/fff.md",
     "Button.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",

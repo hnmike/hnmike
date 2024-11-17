@@ -106,7 +106,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 
 ## :three: **Connect to postgres in database**
 
-- Some options for interacting with your Postgres instance:
+- @ Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.
     - VSCode built-in extension (there are a few of these).
     - PGAdmin.
