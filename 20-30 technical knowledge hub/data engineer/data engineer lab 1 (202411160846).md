@@ -77,7 +77,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 - ! Change the port 5432 to 5431 
 - ? How to [ run postgres and pgadmin locally](https://www.youtube.com/watch?v=UGfteFq_6Co)
 	- Download from https://www.postgresql.org/download/ setup manually the apt repository 
-	- ! BUGS
+	- ! BUGS: [pgadmin4 not working after upgrade to Ubuntu 24.04 Noble · Issue #7437 · pgadmin-org/pgadmin4 · GitHub](https://github.com/pgadmin-org/pgadmin4/issues/7437)
 - Start the Docker Compose container:
     - If you're on Mac:
     
