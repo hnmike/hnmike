@@ -18,7 +18,7 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 ## Overview of data engineer  project
 - Các project sẽ thực hiện 
 	- [[ Capstone project for my course]]
-		 other data engineer <mark class="hltr-green">projects </mark>
+		 other data engineer <mark class="hltr-pink"><mark class="hltr-green">projects </mark></mark>
 	- [[ end-to-end data engineer projects]] 
 
 

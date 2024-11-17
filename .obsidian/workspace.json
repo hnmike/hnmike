@@ -67,18 +67,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "data engineer project",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":11}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer project.md",
+                "file": "data engineer lab 1 (202411160846).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer project"
+              "title": "data engineer lab 1 (202411160846)"
             }
           }
         ],
@@ -477,13 +483,13 @@
   },
   "active": "5c959753536f6237",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer project.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/scripts/project files.js",
     "mew.py",
     "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "docker compose.md",
-    "20-30 technical knowledge hub/data engineer project.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
     "conflict-files-obsidian-git.md",
