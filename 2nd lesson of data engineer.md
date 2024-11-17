@@ -9,6 +9,6 @@ summary:
 chua bai homework
 ## source systems
 
-![[IMG-20241023202611255.png|500]]
+![[IMG-20241023202611255.png|]]
 
 types of source system : 
