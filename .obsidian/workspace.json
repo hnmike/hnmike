@@ -1024,9 +1024,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "4fe49e60b77d22d1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "horizontal",
@@ -1056,7 +1066,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2792026737ca1959",
+  "active": "4fe49e60b77d22d1",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "cài đặt docker engine & desktop.md",
