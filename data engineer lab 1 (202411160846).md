@@ -56,7 +56,7 @@ There are two methods to get Postgres running locally.
 2. Run this command after replacing **`<computer-username>`** with your computer's username:
     
     ```bash
-    psql -U <computer-username> postgres < data.dump
+    psql -U <computer-username> postgres < data.dump 
     ```
     
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.

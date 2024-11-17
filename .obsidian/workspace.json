@@ -80,7 +80,7 @@
               "type": "markdown",
               "state": {
                 "file": "data engineer lab 1 (202411160846).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -483,15 +483,15 @@
   },
   "active": "5c959753536f6237",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/docker.md",
+    "docker compose.md",
     "data engineer lab 1 (202411160846).md",
+    "20-30 technical knowledge hub/data engineer/docker.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/scripts/project files.js",
     "mew.py",
     "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "docker compose.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
     "conflict-files-obsidian-git.md",
