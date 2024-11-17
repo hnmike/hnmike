@@ -22,9 +22,10 @@ Basic task for learning docker container
 
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
-		- 
+	- push the image, create the container will show up in desktop 
 Khóa học về cài đặt và sử dụng 
--
+	- F
+	- F
 ## See also 
 [[docker]]
 [[docker compose]]
