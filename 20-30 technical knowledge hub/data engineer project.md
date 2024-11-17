@@ -15,7 +15,7 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 [[basic.thino^]]
 [[courses|course về data]]
 
-## <mark class="hltr-cyan">Overview of data engineer project </mark>
+## Overview of data engineer  project
 - Các project sẽ thực hiện 
 	- [[ Capstone project for my course]]
 		 other data engineer <mark class="hltr-green">projects </mark>
