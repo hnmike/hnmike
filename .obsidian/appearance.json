@@ -17,8 +17,8 @@
     "callout numbers",
     "Headings"
   ],
-  "theme": "moonstone",
-  "cssTheme": "Maple",
+  "theme": "obsidian",
+  "cssTheme": "🔔 Chime",
   "accentColor": "#5c82f5",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
