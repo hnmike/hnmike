@@ -75,7 +75,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 		  cp example.env .env
 	    ```
 - ! Change the port 5432 to 5431 
-- ? How to run postg
+- ? How to run postgres in vscode 
 - Start the Docker Compose container:
     - If you're on Mac:
     
