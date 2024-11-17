@@ -75,7 +75,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 		  cp example.env .env
 	    ```
 - ! Change the port 5432 to 5431 
-	- Use command docker stop or 
+	- Use command `docker rm` to stop the docker 
 - ? How to [ run postgres and pgadmin locally](https://www.youtube.com/watch?v=UGfteFq_6Co)
 	- Download from https://www.postgresql.org/download/ setup manually the apt repository 
 	- ! BUGS: [pgadmin4 not working after upgrade to Ubuntu 24.04 Noble · Issue #7437 · pgadmin-org/pgadmin4 · GitHub](https://github.com/pgadmin-org/pgadmin4/issues/7437) fix download .deb version for ubuntu 24
