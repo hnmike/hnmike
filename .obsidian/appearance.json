@@ -15,7 +15,8 @@
     "bulleththreading",
     "Indent headings",
     "highlights",
-    "Headings"
+    "Headings",
+    "callout numbers"
   ],
   "theme": "obsidian",
   "cssTheme": "🔔 Chime",
