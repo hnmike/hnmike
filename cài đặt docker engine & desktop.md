@@ -19,8 +19,8 @@ summary:
 		 - Installl docker from ubuntu's official package
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 Basic task for learning docker container 
-	- Fdfjf
-		- fkffdnf df
+	- Push the image of the container
+	- Create file for 
 		- 
 Khóa học về cài đặt và sử dụng 
 
