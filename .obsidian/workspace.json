@@ -482,7 +482,7 @@
               "type": "markdown",
               "state": {
                 "file": "cài đặt docker engine & desktop.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -973,8 +973,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 809.5,
-    "collapsed": true
+    "width": 371.5
   },
   "left-ribbon": {
     "hiddenItems": {
