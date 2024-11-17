@@ -9,7 +9,7 @@
   },
   {
     "color": "255, 23, 68",
-    "char": "!",
+    "char": "@",
     "icon": "lucide-outdent"
   },
   {
@@ -18,7 +18,7 @@
   },
   {
     "color": "0, 184, 212",
-    "char": "@",
+    "char": "!",
     "icon": "lucide-corner-down-right"
   },
   {
