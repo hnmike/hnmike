@@ -53,8 +53,8 @@ There are two methods to get Postgres running locally.
 > [!step] 1
 >  Install Postgres
 >   For Mac: Follow this **[tutorial](https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/)** (Homebrew is really nice for installing on Mac)
-    - For Windows: Follow this **[tutorial](https://www.sqlshack.com/how-to-install-postgresql-on-windows/)**
-2. Run this command after replacing **`<computer-username>`** with your computer's username:
+>   For Windows: Follow this **[tutorial](https://www.sqlshack.com/how-to-install-postgresql-on-windows/)**
+1. Run this command after replacing **`<computer-username>`** with your computer's username:
     
     ```bash
     psql -U <computer-username> postgres < data.dump 
