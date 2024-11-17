@@ -23,3 +23,5 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 
 
 Data warehouse 
+
+
