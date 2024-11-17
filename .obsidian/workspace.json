@@ -11,29 +11,29 @@
             "id": "ff23ede75bc0ec5a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "h202410180652",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"h202410180652.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"h202410180652\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":0},\"to\":{\"line\":39,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "2nd lesson of data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":8}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "h202410180652.md",
+                "file": "2nd lesson of data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "h202410180652"
+              "title": "2nd lesson of data engineer"
             }
           },
           {
@@ -552,6 +552,7 @@
   },
   "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
+    "h202410180652.md",
     "2nd lesson of data engineer.md",
     "data engineer lab 1 (202411160846).md",
     "Postgres.md",
@@ -582,7 +583,6 @@
     "new code file.js",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "20-30 technical knowledge hub/data engineer/another.md",
-    "00-09 system/journal/daily/2024/11/2024-11-15.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
