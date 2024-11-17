@@ -4,30 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e2b7da91f2112028",
+        "id": "56a63d37b1422af0",
         "type": "tabs",
         "children": [
           {
-            "id": "5c959753536f6237",
+            "id": "ff23ede75bc0ec5a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "2nd lesson of data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":8}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "data engineer project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":11}"
                 }
               ]
             },
@@ -35,7 +23,7 @@
               "type": "markdown",
               "state": {
                 "file": "data engineer lab 1 (202411160846).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -435,10 +423,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5c959753536f6237",
+  "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "2nd lesson of data engineer.md",
     "data engineer lab 1 (202411160846).md",
+    "2nd lesson of data engineer.md",
     "docker compose.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "20-30 technical knowledge hub/data engineer project.md",
