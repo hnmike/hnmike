@@ -513,7 +513,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -614,10 +614,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Postgres.md"
+                "file": "postgres (202411162120).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Postgres"
+              "title": "Outline of postgres (202411162120)"
             }
           }
         ]
@@ -649,12 +649,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Postgres.md",
+                "file": "postgres (202411162120).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Postgres"
+              "title": "Outgoing links from postgres (202411162120)"
             }
           },
           {
@@ -897,7 +897,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Postgres.md",
+                "file": "postgres (202411162120).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -907,7 +907,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Postgres"
+              "title": "Backlinks for postgres (202411162120)"
             }
           }
         ]
@@ -940,11 +940,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "417c69d2ed2e78f3",
+  "active": "56053a16ca67a0ba",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "git (202411152107).md",
     "Postgres.md",
+    "git (202411152107).md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "docker compose.md",
     "cài đặt docker engine & desktop.md",
