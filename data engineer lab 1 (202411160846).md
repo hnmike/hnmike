@@ -7,13 +7,12 @@ aliases:
 tags: 
 summary:
 ---
-# Simple learning prerequisite for settings and basic tech stacks 
+# Simple prerequisite for settings and basic tech stacks 
 
 ## Data Modeling
-
-
+---
 This repository contains the setup for the data modeling modules in Weeks 1 and 2.
- 
+
 **Tech Stack**
 
 -  [[git (202411152107)]]
