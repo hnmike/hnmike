@@ -1,0 +1,5 @@
+
+.markdown-preview-view mark[class^="hltr-"],
+.cm-s-obsidian mark[class^="hltr-"] {
+    color: inherit !important;
+}

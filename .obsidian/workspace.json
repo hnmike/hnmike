@@ -584,8 +584,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -606,9 +606,28 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "b244a7d76d6736ff",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -628,7 +647,6 @@
       "obsidian42-brat:BRAT": false,
       "omnisearch:Omnisearch": false,
       "callout-manager:Insert Callout": false,
-      "smart-second-brain:Open S2B Chat": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
@@ -636,12 +654,10 @@
       "modalforms:Edit forms": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "vscode-editor:Create Code File": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "7b23e4060b5e7107",
+  "active": "b244a7d76d6736ff",
   "lastOpenFiles": [
     "Chats/New Chat.md",
     "20-30 technical knowledge hub/data engineer project.md",
