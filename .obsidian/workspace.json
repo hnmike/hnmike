@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "data engineer lab 1 (202411160846)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":114,\"ch\":63},\"to\":{\"line\":114,\"ch\":63}},\"scroll\":9}"
+                },
+                {
                   "title": "data engineer project",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
@@ -28,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "2nd lesson of data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer lab 1 (202411160846)"
+              "title": "2nd lesson of data engineer"
             }
           }
         ]
@@ -431,8 +437,8 @@
   },
   "active": "5c959753536f6237",
   "lastOpenFiles": [
-    "docker compose.md",
     "data engineer lab 1 (202411160846).md",
+    "docker compose.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "20-30 technical knowledge hub/data engineer project.md",
     "00-09 system/scripts/add files to project.js",
