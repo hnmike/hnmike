@@ -4,7 +4,8 @@ id:
 url: 
 related: 
 aliases: 
-tags: 
+tags:
+  - "#project_note"
 summary:
 ---
 # Simple prerequisite for settings and basic tech stacks 
