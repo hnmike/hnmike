@@ -7,7 +7,7 @@ aliases:
 tags: 
 summary:
 ---
-# Simple prerequisite setup and basic 
+# Simple prerequisite for settings and basic tech stacks 
 
 ## Data Modeling
 
