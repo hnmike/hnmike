@@ -46,7 +46,7 @@ For detailed instructions and more information, please refer to the step-by-step
 
 ## 2️⃣ **Run Postgres**
 
-There are two methods to get Postgres running locally.
+There are <mark class="hltr-purple">two methods </mark>to get Postgres running locally.
 
 ### 💻 **Option 1: Run on local machine**
 
