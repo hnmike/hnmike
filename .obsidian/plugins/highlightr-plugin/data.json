@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
+  "highlighterStyle": "floating",
+  "highlighterMethods": "css-classes",
+=======
   "highlighterStyle": "lowlight",
   "highlighterMethods": "inline-styles",
+>>>>>>> origin/main
   "highlighters": {
     "Pink": "#FFB8EBA6",
     "Red": "#FF5582A6",

@@ -56,7 +56,7 @@ There are two methods to get Postgres running locally.
 2. Run this command after replacing **`<computer-username>`** with your computer's username:
     
     ```bash
-    psql -U <computer-username> postgres < data.dump
+    psql -U <computer-username> postgres < data.dump 
     ```
     
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.
@@ -68,7 +68,7 @@ There are two methods to get Postgres running locally.
 - Copy **`example.env`** to **`.env`**:
     
     ```bash
-        cp example.env .env
+          cp example.env .env
     ```
 
 - Start the Docker Compose container:
@@ -90,7 +90,7 @@ There are two methods to get Postgres running locally.
 	  make down   
 	   ```
 
-    Or if you're on Windows:
+	Or if you're on Windows:
     
 	    ```bash
 	    docker compose down -v
@@ -111,7 +111,7 @@ There are two methods to get Postgres running locally.
 	- Using your client of choice, follow the instructions to establish a new PostgreSQL connection.
     - The default username is **`postgres`** and corresponds to **`$POSTGRES_USER`** in your **`.env`**.
     - The default password is **`postgres`** and corresponds to **`$POSTGRES_PASSWORD`** in your **`.env`**.
-    - The default database is **`postgres`** and corresponds to **`$POSTGRES_DB`** in your **`.env`**.
+    - The default database is `postgres` and corresponds to **`$POSTGRES_DB`** in your **`.env`**.
     - The default host is **`localhost`** or **`0.0.0.0`.** This is the IP address of the Docker container running the PostgreSQL instance.
     - The default port for Postgres is **`5432` .** This corresponds to the **`$CONTAINER_PORT`** variable in the **`.env`** file.
     

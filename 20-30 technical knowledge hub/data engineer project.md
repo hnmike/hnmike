@@ -15,11 +15,13 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 [[basic.thino^]]
 [[courses|course về data]]
 
-## Overview of data engineer project 
+## Overview of data engineer  project
 - Các project sẽ thực hiện 
 	- [[ Capstone project for my course]]
-		 other data engineer projects 
+		 other data engineer <mark class="hltr-pink"><mark class="hltr-green">projects </mark></mark>
 	- [[ end-to-end data engineer projects]] 
 
 
 Data warehouse 
+
+

@@ -1,0 +1,19 @@
+.cm-s-obsidian img,
+.markdown-rendered img {
+    max-height: 100px;
+    /* Adjust this value to your preferred maximum height */
+    width: 100%;
+    /* Make images full width */
+    display: block;
+
+    object-fit: cover;
+    object-position: 50% 5%;
+    /* I didn't like a fully centered cover "preview" position -> offset by 5% from the top */
+    margin: 5px auto;
+    /* center image horizontally (if not 100% width) */
+}
+
+img {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+    /* very subtle styling; works in "Image Toolkit" plugin too */
+}

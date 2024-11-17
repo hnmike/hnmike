@@ -488,9 +488,32 @@
               "icon": "lucide-file",
               "title": "cài đặt docker engine & desktop"
             }
+          },
+          {
+            "id": "b366f6c4ca9f6712",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1039,10 +1062,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "dacb6a54f8cac788",
+  "active": "b366f6c4ca9f6712",
   "lastOpenFiles": [
-    "Welcome.md",
     "cài đặt docker engine & desktop.md",
+    "conflict-files-obsidian-git.md",
+    "Welcome.md",
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
@@ -1066,7 +1090,6 @@
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "20-30 technical knowledge hub/data engineer/another.md",
-    "conflict-files-obsidian-git.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
