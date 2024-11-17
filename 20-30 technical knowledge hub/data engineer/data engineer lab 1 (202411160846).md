@@ -75,7 +75,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 		  cp example.env .env
 	    ```
 - ! Change the port 5432 to 5431 
-- ? How to run postgres and pgadmin locally
+- ? How to [ run postgres and pgadmin locally](https://www.youtube.com/watch?v=UGfteFq_6Co)
 - Start the Docker Compose container:
     - If you're on Mac:
     
