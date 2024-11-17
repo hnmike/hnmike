@@ -21,7 +21,7 @@ summary:
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 
 
-<mark class="hltr-pink">Basic task for learning docker container </mark>
+<mark class="hltr-green">Basic task for learning docker container </mark>
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
 	- push the image, create the container will show up in docker desktop 
