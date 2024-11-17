@@ -221,7 +221,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -489,7 +489,8 @@
               "title": "cài đặt docker engine & desktop"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1094,8 +1095,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abdab83729e5d082",
+  "active": "2792026737ca1959",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "cài đặt docker engine & desktop.md",
@@ -1105,7 +1107,6 @@
     "Welcome.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "00-09 system/journal/daily/2024/11/2024-11-11.md",
     "git (202411152107).md",
     "20-30 technical knowledge hub/data engineer/tag hub.md",
