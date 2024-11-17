@@ -44,7 +44,7 @@
                 {
                   "title": "data engineer lab 1 (202411160846)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":121,\"ch\":40},\"to\":{\"line\":121,\"ch\":40}},\"scroll\":115.48068758289307}"
                 },
                 {
@@ -272,7 +272,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md",
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "mode": "source",
                 "source": false
               },
@@ -591,7 +591,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data engineer lab 1 (202411160846).md"
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
               },
               "icon": "lucide-list",
               "title": "Outline of data engineer lab 1 (202411160846)"
@@ -626,40 +626,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cài đặt docker engine & desktop"
-            }
-          },
-          {
-            "id": "c73acbf79430f06b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "cài đặt docker engine & desktop.md",
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for cài đặt docker engine & desktop"
+              "title": "Outgoing links from data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -805,158 +777,6 @@
             }
           },
           {
-            "id": "a04ce5312b4068a5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "852da396017b0195",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a5d0a0a2e37ba681",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "74c232f83469db25",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "bf9ed9b439c30486",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0d511c83c859a10f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a89e735abc5ffea4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "dacb6a54f8cac788",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "6df90696664c8652",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1014,7 +834,41 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
+      },
+      {
+        "id": "3ddec1ce2b88068b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c73acbf79430f06b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1088,10 +942,10 @@
       }
     ]
   },
-  "active": "00108fdc2652e3fa",
+  "active": "2a1f968c61760117",
   "lastOpenFiles": [
     "Postgres.md",
-    "data engineer lab 1 (202411160846).md",
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "docker compose.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/docker.md",

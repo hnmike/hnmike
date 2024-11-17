@@ -6,6 +6,7 @@ related:
 aliases: 
 tags:
   - "#project_note"
+  - "#data_engineer"
 summary:
 ---
 # Simple prerequisite for settings and basic tech stacks 
