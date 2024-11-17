@@ -103,7 +103,7 @@ There are <mark class="hltr-purple">two methods </mark>to get Postgres running l
 > Refer to the instructions below to resolve the issue when the data dump fails to load tables, displaying the message `PostgreSQL Database directory appears to contain a database; Skipping initialization.`
 > 
 
-## :three: **Connect to postgres in database**
+##  **Connect to postgres in database**
 
 - @ Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.

@@ -571,6 +571,33 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "9c073d976d8a84c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76e00f65728bb98b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "data engineer lab 1 (202411160846).md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of data engineer lab 1 (202411160846)"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -678,27 +705,6 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
-            }
-          },
-          {
-            "id": "76e00f65728bb98b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-09 system/journal/daily/2024/11/2024-11-10.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2024-11-10"
             }
           },
           {
@@ -1065,7 +1071,7 @@
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1095,7 +1101,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e298bf947f399e98",
+  "active": "76e00f65728bb98b",
   "lastOpenFiles": [
     "Postgres.md",
     "data engineer lab 1 (202411160846).md",
