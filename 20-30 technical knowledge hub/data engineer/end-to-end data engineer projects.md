@@ -7,10 +7,10 @@ aliases:
 tags:
   - data_engineer
   - "#project"
-  - "#reference_note"
+  - project_note
 summary:
 ---
-#Building data project template 
+# Building data project template 
 - Define some [[requirements for data engineer project (202411121714)]]
 	![[IMG-20241113171737544.png]]
 ## Set up data infrastructure
@@ -25,7 +25,7 @@ summary:
 	3. `minio`: To provide an S3 compatible open source storage system.
 > Learn how to run all this in one container 
 ## Running projects on codespaces
-- The code availabe at **[data_engineering_project_template](https://github.com/josephmachado/data_engineering_project_template/tree/main?tab=readme-ov-file#data-engineering-project-template)**  git repository
+- @ The code availabe at **[data_engineering_project_template](https://github.com/josephmachado/data_engineering_project_template/tree/main?tab=readme-ov-file#data-engineering-project-template)**  git repository
 	1. Create codespaces by going to the repository, cloning it(or click `Use this template` button) and then clicking on `Create codespaces on main` button.
 	2. Wait for codespaces to start, then in the terminal type `make up`.
 	 
