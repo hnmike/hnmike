@@ -29,36 +29,11 @@
               "type": "markdown",
               "state": {
                 "file": "2nd lesson of data engineer.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2nd lesson of data engineer"
-            }
-          },
-          {
-            "id": "7e3b39de448cc544",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "2nd lesson of data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
             }
           }
         ]
@@ -589,10 +564,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5967fdc0726598c8",
+  "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "souce system.md",
+    "conflict-files-obsidian-git.md",
     "2nd lesson of data engineer.md",
+    "souce system.md",
     "h202410180652.md",
     "data engineer lab 1 (202411160846).md",
     "Postgres.md",
@@ -607,7 +583,6 @@
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
-    "conflict-files-obsidian-git.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "postgres (202411162120) 1.md",
