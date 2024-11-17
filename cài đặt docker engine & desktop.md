@@ -19,10 +19,10 @@ summary:
 		 - Remember to update the package " sudp apt-get update"
 		 - Installl docker from ubuntu's official package
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
-	- Jfijd f
 
 
 - @ EBasic task for learning docker container 
+	- Rea dd
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
 	- push the image, create the container will show up in docker desktop 

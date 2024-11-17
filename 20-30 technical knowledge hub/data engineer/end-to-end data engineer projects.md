@@ -26,7 +26,7 @@ summary:
 > Learn how to run all this in one container 
 ## Running projects on codespaces
 ---
-- ?  The code availabe at **[data_engineering_project_template](https://github.com/josephmachado/data_engineering_project_template/tree/main?tab=readme-ov-file#data-engineering-project-template)**  git repository
+-  The code availabe at **[data_engineering_project_template](https://github.com/josephmachado/data_engineering_project_template/tree/main?tab=readme-ov-file#data-engineering-project-template)**  git repository
 	1. Create codespaces by going to the repository, cloning it(or click `Use this template` button) and then clicking on `Create codespaces on main` button.
 	2. Wait for codespaces to start, then in the terminal type `make up`.
 	 
