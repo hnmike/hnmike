@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project files",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/scripts/project files.js\"},\"icon\":\"lucide-file\",\"title\":\"project files\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "end-to-end data engineer projects",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"end-to-end data engineer projects\"}",
@@ -46,10 +52,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "00-09 system/scripts/project files.js"
+                "file": "00-09 system/scripts/add files to project.js"
               },
               "icon": "lucide-file",
-              "title": "project files"
+              "title": "add files to project"
             }
           },
           {
@@ -470,6 +476,9 @@
   },
   "active": "0d1eeebad2d74cd4",
   "lastOpenFiles": [
+    "00-09 system/scripts/project files.js",
+    "mew.py",
+    "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "docker compose.md",
     "20-30 technical knowledge hub/data engineer project.md",
@@ -497,8 +506,6 @@
     "20-30 technical knowledge hub/data engineer/tag hub.md",
     "20-30 technical knowledge hub/data engineer/another.md",
     "00-09 system/journal/daily/2024/11/2024-11-15.md",
-    "00-09 system/template/knowledge base template.md",
-    "00-09 system/homepage/DASHBOARD.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
