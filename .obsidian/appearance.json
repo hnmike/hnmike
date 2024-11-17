@@ -7,6 +7,7 @@
     "MCL Wide Views",
     "MCL Multi Column",
     "nyan-progress",
+    "Highlight",
     "textfontsize",
     "mermaid",
     "custom_kanagawa",
@@ -14,7 +15,8 @@
     "bulleththreading",
     "Indent headings",
     "highlights",
-    "callout numbers"
+    "Headings",
+    "Heading"
   ],
   "theme": "obsidian",
   "cssTheme": "🔔 Chime",
