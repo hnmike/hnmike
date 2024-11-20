@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task/project",
+                "query": "#data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -607,7 +607,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
     "00-09 system/project/data engineer.md",
     "00-09 system/tags/Tag hub.md",
