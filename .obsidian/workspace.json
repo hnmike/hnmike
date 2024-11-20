@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Capstone project for my course",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "Tag hub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/tags/Tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Tag hub\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
                   "title": "data engineer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
@@ -34,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/tags/Tag hub.md",
+                "file": "00-09 system/project/data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tag hub"
+              "title": "data engineer"
             }
           }
         ]
@@ -91,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#data",
+                "query": "tag:#task/project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,8 +133,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -609,8 +620,10 @@
   },
   "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "00-09 system/project/data engineer.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/tags/Tag hub.md",
+    "Inbox.md",
+    "00-09 system/project/data engineer.md",
     "conflict-files-obsidian-git.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "2nd lesson of data engineer.md",
@@ -627,7 +640,6 @@
     "mew.py",
     "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "postgres (202411162120) 1.md",
@@ -638,7 +650,6 @@
     "00-09 system/scripts/project task.js",
     "k8s.md",
     "git (202411152107).md",
-    "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "new code file.js",
     "demo_vault",
     "IMG-20241114090915849.png",
