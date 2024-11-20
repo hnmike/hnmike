@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "projeccct",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":0},\"to\":{\"line\":52,\"ch\":0}},\"scroll\":39.1122}"
+                },
+                {
                   "title": "Capstone project for my course",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
@@ -620,8 +632,10 @@
   },
   "active": "ff23ede75bc0ec5a",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
+    "00-09 system/project/projeccct.md",
     "00-09 system/project/data engineer.md",
+    "00-09 system/project/data engineer/fff.md",
+    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/tags/Tag hub.md",
     "Inbox.md",
@@ -648,8 +662,6 @@
     "00-09 system/journal/daily/2024/10/2024-10-21.md",
     "2024-08-12.md",
     "00-09 system/scripts/project task.js",
-    "k8s.md",
-    "git (202411152107).md",
     "new code file.js",
     "demo_vault",
     "IMG-20241114090915849.png",
