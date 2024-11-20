@@ -4,17 +4,21 @@ id:
 url: 
 related: 
 aliases: 
-tags: 
+tags:
+  - "#project_note"
+  - "#data_engineer"
 summary:
 ---
-# Data Modeling
+# Simple prerequisite for settings and basic tech stacks 
 
+## Data Modeling
+---
 This repository contains the setup for the data modeling modules in Weeks 1 and 2.
- 
+
 **Tech Stack**
 
--  [[git (202411152107)]]
- - [[postgres (202411162120)]]
+-  [[git (202411152107)]] to download the lab 
+ - [[postgres (202411162120)]] using progres and docker 
 - PSQL CLI
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
 - Docker, Docker Compose, and Docker Desktop
@@ -22,7 +26,7 @@ This repository contains the setup for the data modeling modules in Weeks 1 and 
 1. [Clone the repository](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md).
 2. [Start Postgres instance](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#2%EF%B8%8F%E2%83%A3run-postgres).
 3. [Connect to Postgres](https://github.com/DataExpert-io/data-engineer-handbook/edit/main/bootcamp/materials/1-dimensional-data-modeling/README.md#threeconnect-to-postgres-in-database-client) using your preferred database management tool.
-
+- ! Note 
 For detailed instructions and more information, please refer to the step-by-step instructions below.
 - ? First, [[cài đặt docker engine & desktop]] tren linux 
 ## 1️⃣ **Clone the repository**
@@ -35,7 +39,7 @@ For detailed instructions and more information, please refer to the step-by-step
 	    ```
     
 	
-ℹ️ To securely interact with GitHub repositories, it is recommended to use SSH keys. Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
+ℹ️ To securely interact with GitHub repositories, it is recommended to use <mark class="hltr-purple">SSH keys.</mark> Follow theinstructions provided **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)** to set up SSH keys on GitHub.
 
 
 - Navigate into the cloned repo using the command line:
@@ -46,7 +50,7 @@ For detailed instructions and more information, please refer to the step-by-step
 
 ## 2️⃣ **Run Postgres**
 
-There are two methods to get Postgres running locally.
+There are <mark class="hltr-purple">two methods </mark>to get Postgres running locally.
 
 ### 💻 **Option 1: Run on local machine**
 
@@ -55,9 +59,9 @@ There are two methods to get Postgres running locally.
     - For Windows: Follow this **[tutorial](https://www.sqlshack.com/how-to-install-postgresql-on-windows/)**
 2. Run this command after replacing **`<computer-username>`** with your computer's username:
     
-    ```bash
-    psql -U <computer-username> postgres < data.dump 
-    ```
+	    ```bash
+	    psql -U <computer-username> postgres < data.dump 
+	    ```
     
 3. Set up DataGrip, DBeaver, or your VS Code extension to point at your locally running Postgres instance.
 4. Have fun querying!
@@ -67,10 +71,14 @@ There are two methods to get Postgres running locally.
 - Install Docker Desktop from **[here](https://www.docker.com/products/docker-desktop/)**.
 - Copy **`example.env`** to **`.env`**:
     
-    ```bash
-          cp example.env .env
-    ```
-
+	    ```bash
+		  cp example.env .env
+	    ```
+- ! Change the port 5432 to 5431 
+	- Use command `docker rm` to stop the docker 
+- ? How to [ run postgres and pgadmin locally](https://www.youtube.com/watch?v=UGfteFq_6Co)
+	- Download from https://www.postgresql.org/download/ setup manually the apt repository 
+	- ! BUGS: [pgadmin4 not working after upgrade to Ubuntu 24.04 Noble · Issue #7437 · pgadmin-org/pgadmin4 · GitHub](https://github.com/pgadmin-org/pgadmin4/issues/7437) fix download .deb version for ubuntu 24
 - Start the Docker Compose container:
     - If you're on Mac:
     
@@ -90,7 +98,7 @@ There are two methods to get Postgres running locally.
 	  make down   
 	   ```
 
-	Or if you're on Windows:
+- Or if you're on Windows:
     
 	    ```bash
 	    docker compose down -v
@@ -101,9 +109,9 @@ There are two methods to get Postgres running locally.
 > Refer to the instructions below to resolve the issue when the data dump fails to load tables, displaying the message `PostgreSQL Database directory appears to contain a database; Skipping initialization.`
 > 
 
-## :three: **Connect to postgres in database**
+##  **Connect to postgres in database**
 
-- Some options for interacting with your Postgres instance:
+- @ Some options for interacting with your Postgres instance:
     - DataGrip - JetBrains; 30-day free trial or paid version.
     - VSCode built-in extension (there are a few of these).
     - PGAdmin.
@@ -120,10 +128,9 @@ There are two methods to get Postgres running locally.
 - If the test connection is successful, click "Finish" or "Save" to save the connection. You should now be able to use the database client to manage your PostgreSQL database locally.
 
 ## **🚨 Tables not loading!? 🚨**
-- If you are on Windows and used[[ docker compose]], table creation and data load will not take place with container creation. Once you have docker container up and verified that you are able to connect to empty postgres database with your own choice of client, follow the following steps:
+- If you are on Windows and used [[ docker compose]], table creation and data load will not take place with container creation. Once you have docker container up and verified that you are able to connect to empty postgres database with your own choice of client, follow the following steps:
 1. On Docker desktop, connect to my-postgres-container terminal.
 	1. Run:
-		1. 
 		```bash
 			psql \
 			-v ON_ERROR_STOP=1 \

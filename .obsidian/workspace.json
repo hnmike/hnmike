@@ -35,8 +35,32 @@
               "icon": "lucide-file",
               "title": "data engineer"
             }
+          },
+          {
+            "id": "b0aec34e9dd2bcde",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -600,10 +624,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "b0aec34e9dd2bcde",
   "lastOpenFiles": [
-    "2nd lesson of data engineer.md",
+    "00-09 system/project/data engineer.md",
     "conflict-files-obsidian-git.md",
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+    "2nd lesson of data engineer.md",
     "souce system.md",
     "h202410180652.md",
     "data engineer lab 1 (202411160846).md",
@@ -618,7 +644,6 @@
     "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "00-09 system/project/data engineer.md",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "postgres (202411162120).md",
     "postgres (202411162120) 1.md",
@@ -632,7 +657,6 @@
     "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
     "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
     "new code file.js",
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",

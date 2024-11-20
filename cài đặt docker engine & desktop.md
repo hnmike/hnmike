@@ -8,8 +8,11 @@ tags:
   - "#reference_note"
 summary:
 ---
-## Reference 
+# Cai dat docker 
+---
+## Reference
 [link cài đặt docker trên ubuntu desktop & engine](https://docs.docker.com/engine/install/ubuntu/ ) 
+
 [Complete Docker Compose in one Video - YouTube](https://www.youtube.com/watch?v=S8f5B8-BtzU&list=LL&index=2&t=520s) 
  - ? Docker  engine installation bugs in ubuntu 23 version above   [E: Package ‘docker-ce’ has no installation candidate](https://forums.docker.com/t/installing-docker-on-buster-e-package-docker-ce-has-no-installation-candidate/108397)
 	 - <mark class="hltr-purple">Fix:</mark> 
@@ -21,10 +24,11 @@ summary:
 - ? Docker desktop   [version for docker desktop ](https://docs.docker.com/desktop/release-notes/)
 
 
-<mark class="hltr-green">Basic task for learning docker container </mark>
+- @ Basic task for learning docker container 
 	- Create dockerfile for your project 
 	- docker build -t welcome-to-docker .
 	- push the image, create the container will show up in docker desktop 
+	- 
 Khóa học về cài đặt và sử dụng 
 ## See also 
 [[docker]]
