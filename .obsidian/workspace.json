@@ -11,29 +11,29 @@
             "id": "ff23ede75bc0ec5a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "souce system",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"souce system.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"souce system\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2nd lesson of data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2nd lesson of data engineer.md",
+                "file": "00-09 system/project/data engineer.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2nd lesson of data engineer"
+              "title": "data engineer"
             }
           }
         ]
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "image",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +115,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -571,12 +570,11 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 550.5,
-    "collapsed": true
+    "width": 550.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -602,10 +600,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "693efd6c32b921ae",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "2nd lesson of data engineer.md",
+    "conflict-files-obsidian-git.md",
     "souce system.md",
     "h202410180652.md",
     "data engineer lab 1 (202411160846).md",
