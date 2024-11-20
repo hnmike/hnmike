@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#task/project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +121,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -606,7 +607,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ff23ede75bc0ec5a",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "00-09 system/project/data engineer.md",
     "00-09 system/tags/Tag hub.md",
