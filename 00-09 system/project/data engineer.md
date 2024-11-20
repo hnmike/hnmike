@@ -46,7 +46,7 @@ actions:
 >[!summary]+ Files
 >```dataview
 table this.file.ctime as  modified, tags,  aliases
-from "00-09 system/project/data engineer"
+where contains(tags, "#data_engineer") and contains(tags, "#todoproject")
 where file.name != this.file.name
 sort file.mtime DESC
 >```
@@ -90,5 +90,5 @@ sort file.mtime DESC
 >[!hidden]+ Tasks
 - [ ] test
 - [x] cai ubuntu + workflow ✅ 2024-11-15
-- [ ]  [[cài đặt docker engine & desktop]]  
+- [x] [[cài đặt docker engine & desktop]] ✅ 2024-11-20
 ## reference 
