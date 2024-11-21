@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task/project",
+                "query": "tag:#definition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,7 +175,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -698,7 +699,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b1573623375df76a",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "2024-11-21.md",
     "00-09 system/project/projeccct.md",
