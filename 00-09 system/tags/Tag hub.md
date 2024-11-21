@@ -5,5 +5,5 @@
 #data_engineer 
 #definition_note
 #structure_note
-#evergreen_note should be "conceptual note, atomic (ideas)  and linked note"
+#evergreen_note should be "concept-oriented, atomic (ideas) and linked note"
 #project_note 
