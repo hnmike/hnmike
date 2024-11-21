@@ -75,16 +75,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.7.7",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.7.7\"},\"icon\":\"lucide-file\",\"title\":\"Release Notes 1.7.7\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "00-09 system/tags/Tag hub.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Tag hub"
             }
           }
         ],
@@ -690,7 +698,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "bbe9249d797da67d",
+  "active": "b1573623375df76a",
   "lastOpenFiles": [
     "2024-11-21.md",
     "00-09 system/project/projeccct.md",
