@@ -624,10 +624,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -645,8 +645,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -667,9 +667,29 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "6cc099132b6362bc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "2ae04d19a27c3b5e",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 23
+        "currentTab": 25
       }
     ],
     "direction": "horizontal",
@@ -699,7 +719,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "2ae04d19a27c3b5e",
   "lastOpenFiles": [
     "2024-11-21.md",
     "00-09 system/project/projeccct.md",
