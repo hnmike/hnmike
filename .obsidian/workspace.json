@@ -710,10 +710,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -731,8 +731,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -753,9 +753,38 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "95bd4efb34893de6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "20a433e2484b6138",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 27
+        "currentTab": 29
       }
     ],
     "direction": "horizontal",
@@ -785,8 +814,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e741abf32a11570a",
+  "active": "20a433e2484b6138",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "00-09 system/tags/Tag hub.md",
     "2024-11-21.md",
     "00-09 system/project/projeccct.md",
@@ -815,7 +845,6 @@
     "postgres (202411162120) 1.md",
     "Chats/New Chat.md",
     "data warehouse.md",
-    "00-09 system/journal/daily/2024/10/2024-10-21.md",
     "00-09 system/scripts/project task.js",
     "new code file.js",
     "demo_vault",
