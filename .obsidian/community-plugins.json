@@ -10,7 +10,6 @@
   "mrj-jump-to-link",
   "obsidian42-brat",
   "OA-file-hider",
-  "calendar",
   "heatmap-calendar",
   "obsidian-style-settings",
   "omnisearch",
@@ -59,5 +58,6 @@
   "virtual-linker",
   "vscode-editor",
   "image-converter",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "calendar"
 ]
