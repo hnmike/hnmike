@@ -748,10 +748,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -769,8 +769,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -791,9 +791,29 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "732ba237f18a3a9b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "d25274ab5497b900",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 29
+        "currentTab": 31
       }
     ],
     "direction": "horizontal",
@@ -823,10 +843,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e741abf32a11570a",
+  "active": "d25274ab5497b900",
   "lastOpenFiles": [
-    "2024-12-01.md",
     "www.googlecalendar.com.md",
+    "2024-12-01.md",
     "00-09 system/tags/Tag hub.md",
     "2024-11-21.md",
     "00-09 system/project/projeccct.md",
