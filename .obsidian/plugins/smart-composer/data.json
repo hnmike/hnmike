@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "openAIApiKey": "",
+  "anthropicApiKey": "",
+  "geminiApiKey": "",
+  "groqApiKey": "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",
+  "chatModelId": "anthropic/claude-3.5-sonnet-latest",
+  "ollamaChatModel": {
+    "baseUrl": "",
+    "model": ""
+  },
+  "openAICompatibleChatModel": {
+    "baseUrl": "",
+    "apiKey": "",
+    "model": ""
+  },
+  "applyModelId": "openai/gpt-4o-mini",
+  "ollamaApplyModel": {
+    "baseUrl": "",
+    "model": ""
+  },
+  "openAICompatibleApplyModel": {
+    "baseUrl": "",
+    "apiKey": "",
+    "model": ""
+  },
+  "embeddingModelId": "openai/text-embedding-3-small",
+  "ollamaEmbeddingModel": {
+    "baseUrl": "",
+    "model": ""
+  },
+  "systemPrompt": "",
+  "ragOptions": {
+    "chunkSize": 1000,
+    "thresholdTokens": 8192,
+    "minSimilarity": 0,
+    "limit": 10,
+    "excludePatterns": []
+  }
+}
