@@ -10,8 +10,8 @@
     "model": ""
   },
   "openAICompatibleChatModel": {
-    "baseUrl": "",
-    "apiKey": "",
+    "baseUrl": "https://glhf.chat/api/openai/v1",
+    "apiKey": "glhf_e975caf5baf178d16de59608c0ee41d4",
     "model": ""
   },
   "applyModelId": "openai/gpt-4o-mini",
