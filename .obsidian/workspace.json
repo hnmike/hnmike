@@ -94,18 +94,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/journal/daily/2024/12/2024-12-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "2024-12-03"
             }
           }
         ],
@@ -417,6 +423,15 @@
           {
             "id": "bd5a56a23cfd3559",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "journal-calendar",
               "state": {},
@@ -446,6 +461,15 @@
           {
             "id": "3f1500ae7f0ed6f2",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -454,7 +478,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -484,8 +508,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3f1500ae7f0ed6f2",
+  "active": "f97a960e03d61379",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
+    "00-09 system/journal/daily/2024/12/2024-12-03.md",
+    "00-09 system/journal/daily/2024/12",
     "www.googlecalendar.com.md",
     "00-09 system/project/data engineer.md",
     "2024-12-02.md",
@@ -513,8 +540,6 @@
     "mew.py",
     "00-09 system/scripts/Untitled.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
-    "postgres (202411162120).md",
     "00-09 system/scripts/project task.js",
     "new code file.js",
     "demo_vault",
