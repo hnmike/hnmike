@@ -4,7 +4,7 @@
   "anthropicApiKey": "",
   "geminiApiKey": "",
   "groqApiKey": "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",
-  "chatModelId": "openai-compatible",
+  "chatModelId": "groq/llama-3.1-70b-versatile",
   "ollamaChatModel": {
     "baseUrl": "",
     "model": ""
@@ -12,7 +12,7 @@
   "openAICompatibleChatModel": {
     "baseUrl": "https://glhf.chat/api/openai/v1",
     "apiKey": "glhf_e975caf5baf178d16de59608c0ee41d4",
-    "model": "hf:meta-llama/Meta-Llama-3.1-405B-Instruct"
+    "model": "hf:Qwen/Qwen2.5-72B-Instruct"
   },
   "applyModelId": "openai/gpt-4o-mini",
   "ollamaApplyModel": {
