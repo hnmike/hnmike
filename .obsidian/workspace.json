@@ -118,17 +118,17 @@
             "id": "0e7851d68b71153a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "2024-09-04",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-09-04.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-09-04\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "demo tasks",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"demo tasks.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"demo tasks\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":60}},\"scroll\":0}"
                 },
                 {
                   "title": "TASK TEMPLATE",
@@ -147,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-04.md",
+                "file": "demo tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-09-04"
+              "title": "demo tasks"
             }
           }
         ],
@@ -519,6 +519,7 @@
   },
   "active": "0e7851d68b71153a",
   "lastOpenFiles": [
+    "2024-09-04.md",
     "demo tasks.md",
     "TASK TEMPLATE.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
@@ -545,7 +546,6 @@
     "Postgres.md",
     "20-30 technical knowledge hub/data engineer/docker.md",
     "docker compose.md",
-    "20-30 technical knowledge hub/data engineer project.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/scripts/project files.js",
     "mew.py",
