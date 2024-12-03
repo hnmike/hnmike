@@ -210,31 +210,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "886c8aa96a436fb1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bd5a56a23cfd3559",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -404,6 +379,25 @@
             }
           },
           {
+            "id": "bd5a56a23cfd3559",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "d25274ab5497b900",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -461,7 +455,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
