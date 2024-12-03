@@ -59,17 +59,47 @@
             "id": "0e7851d68b71153a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "2024-09",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-09.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-09\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "DASHBOARD",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/DASHBOARD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DASHBOARD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
+                },
+                {
+                  "title": "project template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/project template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "projeccct",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":3}"
+                },
+                {
+                  "title": "data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":7.546511470594563}"
+                },
+                {
+                  "title": "demo tasks",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"demo tasks.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"demo tasks\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":72},\"to\":{\"line\":1,\"ch\":72}},\"scroll\":0}"
                 },
                 {
                   "title": "TASK TEMPLATE",
@@ -86,14 +116,17 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "demo tasks.md",
-                "mode": "source",
-                "source": false
+                "file": "00-09 system/homepage/dashboard.canvas",
+                "viewState": {
+                  "x": 363.5556451688817,
+                  "y": 752.3813737514271,
+                  "zoom": -1.1996693541592995
+                }
               },
-              "icon": "lucide-file",
-              "title": "demo tasks"
+              "icon": "lucide-layout-dashboard",
+              "title": "dashboard"
             }
           }
         ],
@@ -326,10 +359,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "demo tasks.md"
+                "file": "00-09 system/homepage/dashboard.canvas"
               },
               "icon": "lucide-list",
-              "title": "Outline of demo tasks"
+              "title": "Outline of dashboard"
             }
           },
           {
@@ -460,10 +493,13 @@
   },
   "active": "0e7851d68b71153a",
   "lastOpenFiles": [
-    "2024-09.md",
-    "demo tasks.md",
-    "www.googlecalendar.com.md",
+    "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/project/data engineer.md",
+    "00-09 system/project/project template.md",
+    "00-09 system/project/projeccct.md",
+    "demo tasks.md",
+    "2024-09.md",
+    "www.googlecalendar.com.md",
     "2024-09-04.md",
     "TASK TEMPLATE.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
@@ -474,7 +510,6 @@
     "00-09 system/tags/Tag hub.md",
     "2024-12-01.md",
     "2024-11-21.md",
-    "00-09 system/project/projeccct.md",
     "00-09 system/project/data engineer/fff.md",
     "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -485,8 +520,6 @@
     "souce system.md",
     "h202410180652.md",
     "data engineer lab 1 (202411160846).md",
-    "Postgres.md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/scripts/project files.js",
     "mew.py",
