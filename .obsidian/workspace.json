@@ -37,6 +37,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2024-12-03",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/12/2024-12-03.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12-03\"}",
+                  "eState": "{\"scroll\":6.4264}"
+                },
+                {
+                  "title": "2024-W49",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-W49.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W49\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2024-12-03",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/12/2024-12-03.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12-03\"}",
+                  "eState": "{\"scroll\":6.4264465836454026}"
+                },
+                {
                   "title": "daily note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
@@ -47,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2024/12/2024-12-03.md",
+                "file": "2024-12.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-03"
+              "title": "2024-12"
             }
           },
           {
@@ -131,32 +149,9 @@
               "icon": "lucide-file",
               "title": "data engineer lab 1 (202411160846)"
             }
-          },
-          {
-            "id": "a860964eb4b17803",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/weekly/2024/12/2024-W49.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-W49"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -360,10 +355,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/journal/weekly/2024/12/2024-W49.md"
+                "file": "2024-12.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-W49"
+              "title": "Outline of 2024-12"
             }
           },
           {
@@ -534,8 +529,11 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a860964eb4b17803",
+  "active": "f97a960e03d61379",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2024/12/2024-12-03.md",
+    "2024-12.md",
+    "2024-W49.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "00-09 system/journal/weekly/2024/12/2024-W49.md",
     "00-09 system/journal/weekly/2024/12",
@@ -558,11 +556,9 @@
     "2024-09.md",
     "2024-09-04.md",
     "TASK TEMPLATE.md",
-    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2024/12",
     "2024-12-02.md",
-    "2024-W49.md",
     "00-09 system/tags/Tag hub.md",
     "2024-12-01.md",
     "2024-11-21.md",
@@ -572,7 +568,6 @@
     "Inbox.md",
     "conflict-files-obsidian-git.md",
     "2nd lesson of data engineer.md",
-    "souce system.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
