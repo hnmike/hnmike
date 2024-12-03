@@ -8,65 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff23ede75bc0ec5a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "projeccct",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":0},\"to\":{\"line\":52,\"ch\":0}},\"scroll\":39.1122}"
-                },
-                {
-                  "title": "Capstone project for my course",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Tag hub",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/tags/Tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Tag hub\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"scroll\":15.003521126760564}"
-                },
-                {
-                  "title": "2nd lesson of data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
-                  "eState": "{\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/project/data engineer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "data engineer"
-            }
-          },
-          {
             "id": "e741abf32a11570a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -156,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,11 +179,11 @@
         ]
       },
       {
-        "id": "e3b61a6345c41876",
+        "id": "886c8aa96a436fb1",
         "type": "tabs",
         "children": [
           {
-            "id": "ccd020d103ff79b8",
+            "id": "bd5a56a23cfd3559",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -254,10 +195,10 @@
               ]
             },
             "state": {
-              "type": "tasks_timeline_view",
+              "type": "journal-calendar",
               "state": {},
-              "icon": "calendar-clock",
-              "title": "Tasks Timeline"
+              "icon": "calendar-days",
+              "title": "Calendar"
             }
           }
         ]
@@ -411,6 +352,25 @@
             }
           },
           {
+            "id": "ccd020d103ff79b8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Tasks Timeline"
+            }
+          },
+          {
             "id": "d25274ab5497b900",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -449,25 +409,6 @@
             }
           },
           {
-            "id": "bd5a56a23cfd3559",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "3f1500ae7f0ed6f2",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -487,7 +428,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -517,17 +458,17 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "655666d18433a027",
+  "active": "0e7851d68b71153a",
   "lastOpenFiles": [
-    "2024-09.md",
+    "www.googlecalendar.com.md",
+    "00-09 system/project/data engineer.md",
     "demo tasks.md",
+    "2024-09.md",
     "2024-09-04.md",
     "TASK TEMPLATE.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2024/12",
-    "www.googlecalendar.com.md",
-    "00-09 system/project/data engineer.md",
     "2024-12-02.md",
     "2024-W49.md",
     "00-09 system/tags/Tag hub.md",
