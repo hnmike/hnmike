@@ -1,4 +1,4 @@
-- [ ] Complete Summer Reading Assignment #task  📅 2024-09-04
+- [ ] Complete Summer Reading Assignment #task 📅 2024-09-04
 - [ ] Meet with Academic Advisor to Discuss Fall Schedule  📅 2024-09-05 
 - [ ] Pay Tuition Fees for Fall Semester 📅 2024-08-07
 - [ ] Attend Orientation for New Students 📅 2024-08-07
