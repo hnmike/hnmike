@@ -17,7 +17,6 @@
   "obsidian-charts",
   "journals",
   "obsidian-hover-editor",
-  "task-list-kanban",
   "obsidian-tasks-plugin",
   "obsidian-auto-link-title",
   "obsidian-projects",
@@ -59,5 +58,6 @@
   "vscode-editor",
   "image-converter",
   "obsidian-image-toolkit",
-  "calendar"
+  "calendar",
+  "task-list-kanban"
 ]

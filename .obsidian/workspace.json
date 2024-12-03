@@ -154,9 +154,28 @@
               "icon": "lucide-file",
               "title": "demo tasks"
             }
+          },
+          {
+            "id": "8a09fe30e185f61a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -517,10 +536,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0e7851d68b71153a",
+  "active": "8a09fe30e185f61a",
   "lastOpenFiles": [
-    "2024-09-04.md",
     "demo tasks.md",
+    "2024-09-04.md",
     "TASK TEMPLATE.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/daily note template.md",
