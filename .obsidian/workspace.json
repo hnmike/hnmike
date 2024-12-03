@@ -230,10 +230,35 @@
             }
           }
         ]
+      },
+      {
+        "id": "e3b61a6345c41876",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccd020d103ff79b8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Tasks Timeline"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -437,25 +462,6 @@
             }
           },
           {
-            "id": "39d08ed6847c8388",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "3f1500ae7f0ed6f2",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -473,28 +479,9 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
-          },
-          {
-            "id": "ccd020d103ff79b8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "tasks_timeline_view",
-              "state": {},
-              "icon": "calendar-clock",
-              "title": "Tasks Timeline"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
