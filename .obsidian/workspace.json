@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -355,10 +355,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-12.md"
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12"
+              "title": "Outline of data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -495,7 +495,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -529,10 +529,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "f97a960e03d61379",
+  "active": "0e7851d68b71153a",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "2024-12.md",
+    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "2024-W49.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "00-09 system/journal/weekly/2024/12/2024-W49.md",
