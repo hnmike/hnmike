@@ -66,6 +66,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "dashboard",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"00-09 system/homepage/dashboard.canvas\",\"viewState\":{\"x\":363.5556451688817,\"y\":-102.05435501909363,\"zoom\":-1.1996693541592995}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"dashboard\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "DASHBOARD",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/DASHBOARD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DASHBOARD\"}",
@@ -116,17 +122,14 @@
               ]
             },
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/dashboard.canvas",
-                "viewState": {
-                  "x": 363.5556451688817,
-                  "y": -102.05435501909363,
-                  "zoom": -1.1996693541592995
-                }
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "dashboard"
+              "icon": "lucide-file",
+              "title": "data engineer lab 1 (202411160846)"
             }
           }
         ],
@@ -334,10 +337,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/homepage/dashboard.canvas"
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of dashboard"
+              "title": "Outline of data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -510,6 +513,7 @@
   },
   "active": "527a38be471c2288",
   "lastOpenFiles": [
+    "00-09 system/homepage/dashboard.canvas",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "_FileOrganizer2000/Backups",
     "_FileOrganizer2000/Fabric",
@@ -544,14 +548,12 @@
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "2nd lesson of data engineer.md",
     "souce system.md",
-    "h202410180652.md",
     "00-09 system/scripts/add files to project.js",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
     "IMG-20241114084755540.png",
     "IMG-20241114084754746.png",
-    "00-09 system/homepage/dashboard.canvas",
     "00-09 system/canvas/DE_project.canvas",
     "IMG-20241108202153684.png",
     "00-09 system/canvas/ART.canvas",
