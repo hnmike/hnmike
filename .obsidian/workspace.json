@@ -132,8 +132,7 @@
               "title": "data engineer lab 1 (202411160846)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -337,10 +336,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
+                "file": "www.googlecalendar.com.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of data engineer lab 1 (202411160846)"
+              "title": "Outline of www.googlecalendar.com"
             }
           },
           {
@@ -511,8 +510,9 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "527a38be471c2288",
+  "active": "e741abf32a11570a",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "00-09 system/homepage/dashboard.canvas",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "_FileOrganizer2000/Backups",
@@ -545,7 +545,6 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Inbox.md",
     "conflict-files-obsidian-git.md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "2nd lesson of data engineer.md",
     "souce system.md",
     "00-09 system/scripts/add files to project.js",
