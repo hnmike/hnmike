@@ -150,8 +150,7 @@
               "title": "data engineer lab 1 (202411160846)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -561,15 +560,16 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
-      "smart-composer:Open smart composer": false
+      "smart-composer:Open smart composer": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "371c1ebb7fc236c3",
+  "active": "e741abf32a11570a",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "2024-12.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "2024-W49.md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "00-09 system/journal/weekly/2024/12/2024-W49.md",
     "00-09 system/journal/weekly/2024/12",
     "www.googlecalendar.com.md",
