@@ -165,8 +165,7 @@
               "title": "CI CD"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+                "file": "_FileOrganizer2000/Templates/meeting_note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -307,7 +306,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700)"
+              "title": "Backlinks for meeting_note"
             }
           },
           {
@@ -370,10 +369,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md"
+                "file": "_FileOrganizer2000/Templates/meeting_note.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700)"
+              "title": "Outline of meeting_note"
             }
           },
           {
@@ -580,12 +579,12 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "91777db2c6a0e322",
+  "active": "e741abf32a11570a",
   "lastOpenFiles": [
+    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "2024-12.md",
     "CI CD.md",
     "00-09 system/journal/daily/2024/12/2024-12-05.md",
-    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/journal/daily/2024/12/2024-12-04.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
