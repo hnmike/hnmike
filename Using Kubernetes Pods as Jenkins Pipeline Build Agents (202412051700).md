@@ -7,7 +7,7 @@ aliases:
 tags: 
 summary:
 ---
-### Key Highlights from the Transcript:
+# Key Highlights from the Transcript:
 
 1. **Objective and Setup:**
     

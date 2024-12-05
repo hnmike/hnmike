@@ -640,7 +640,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -671,7 +671,7 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "ab21d4744d933974",
+  "active": "527a38be471c2288",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2024/12/2024-12-05.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
