@@ -527,9 +527,28 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "91777db2c6a0e322",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -557,10 +576,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
-      "smart-composer:Open smart composer": false
+      "smart-composer:Open smart composer": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "c73acbf79430f06b",
+  "active": "91777db2c6a0e322",
   "lastOpenFiles": [
     "2024-12.md",
     "CI CD.md",
