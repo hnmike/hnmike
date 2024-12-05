@@ -219,8 +219,7 @@
               "title": "2024-12-05"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -671,10 +670,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "527a38be471c2288",
+  "active": "e741abf32a11570a",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/12/2024-12-05.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+    "00-09 system/journal/daily/2024/12/2024-12-05.md",
     "Untitled.md",
     "00-09 system/homepage/dashboard.canvas",
     "_FileOrganizer2000/Templates/meeting_note.md",
