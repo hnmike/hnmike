@@ -6,7 +6,8 @@ related:
 aliases: 
 tags:
   - todoproject
-summary:
+  - reference_note
+summary: youtube labs ci/cd
 ---
 # **Using Kubernetes Pods as Jenkins Pipeline Build Agents**
 
