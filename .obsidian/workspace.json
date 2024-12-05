@@ -525,7 +525,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -557,7 +557,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "f19e3b4a3f272ec7",
+  "active": "527a38be471c2288",
   "lastOpenFiles": [
     "CI CD.md",
     "GIT.md",

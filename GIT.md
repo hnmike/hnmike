@@ -1,1 +1,1 @@
-- @ how to push the opensource project in local and push it to my main rest
+- @ how to push the opensource project in local and push it to my main git repository without forking it  
