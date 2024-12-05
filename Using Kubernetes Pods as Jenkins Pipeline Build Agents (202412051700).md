@@ -4,38 +4,113 @@ id:
 url: https://www.youtube.com/watch?v=wQxahZUwYoM&list=LL&index=6&t=1546s
 related: 
 aliases: 
-tags: 
+tags:
+  - todoproject
 summary:
 ---
-# Key Highlights from the Transcript:
+# **Using Kubernetes Pods as Jenkins Pipeline Build Agents**
 
-1. **Objective and Setup:**
-    
-    - This video updates a previous guide on using Kubernetes clusters as Jenkins build agents. The setup starts by creating an AWS EC2 instance with Ubuntu and configuring it for Kubernetes and Jenkins integration.
-2. **Installing Docker:**
-    
-    - Docker is installed and configured to run without `sudo` by adding the user to the Docker group. Docker is also set to start on boot to ensure availability.
-3. **Setting up Minikube:**
-    
-    - Minikube is installed as a Kubernetes cluster with Docker as the driver. Commands are provided to verify Minikube's status and Kubernetes cluster information.
-4. **Jenkins Container Setup:**
-    
-    - A Jenkins container is deployed on the Minikube network using the Jenkins LTS Docker image. Ports for Jenkins UI (8080) and agents (50000) are exposed.
-5. **Jenkins UI Configuration:**
-    
-    - The Jenkins UI is set up by copying the initial password from Docker logs. Plugins for Docker, Docker Pipeline, and Kubernetes are installed.
-6. **Kubernetes Integration:**
-    
-    - A service account and a cluster role binding are created in Kubernetes for Jenkins. A token is generated to securely authenticate Jenkins with Kubernetes.
-7. **Configuring Jenkins Agents:**
-    
-    - A Kubernetes cloud is configured in Jenkins. A pod template using the `jenkins/inbound-agent` image is set up to serve as a Jenkins build agent.
-8. **Freestyle Project Demonstration:**
-    
-    - A freestyle Jenkins job is created and demonstrated. Initially, it uses the default executors, but after adjustments, it deploys pods dynamically on Kubernetes.
-9. **Pipeline Job Demonstration:**
-    
-    - A pipeline job is created using a simple pipeline script. The script demonstrates how to reference the configured Kubernetes cloud and dynamically spin up agents.
-10. **Key Observations:**
-    
-    - Jenkins agents run as containers in Kubernetes, with logs and events visible in both Jenkins UI and the Kubernetes cluster. Adjustments are made to ensure optimal configuration for agent usage.
+## **Takeaway Notes**
+
+### 1. Create an instance on AWS
+
+- Create an instance on AWS with a suitable instance type (e.g., T3 medium) and a key pair.
+
+### 2. Install Docker
+
+- Install Docker on the instance using the APT repository.
+
+### 3. Create a Kubernetes cluster
+
+- Create a Kubernetes cluster using Minikube with Docker as the driver.
+
+### 4. Install kubectl
+
+- Install kubectl on the instance to interact with the Kubernetes cluster.
+
+### 5. Create a Jenkins container
+
+- Create a Jenkins container using the Jenkins LTS image and expose ports 8080 and 50000.
+
+### 6. Configure Jenkins
+
+- Configure Jenkins to use the Kubernetes cluster as a build agent.
+
+### 7. Create a service account
+
+- Create a service account in the Kubernetes cluster to use as credentials for Jenkins.
+
+### 8. Create a token
+
+- Create a token for the service account to use as a secret text in Jenkins.
+
+### 9. Configure the Kubernetes cloud
+
+- Configure the Kubernetes cloud in Jenkins to use the service account and token.
+
+### 10. Create a pipeline job
+
+- Create a pipeline job in Jenkins to test the integration with the Kubernetes cluster.
+
+## **Instructions**
+
+### Step 1: Create an instance on AWS
+
+1. Go to the AWS Management Console and create a new instance.
+2. Choose a suitable instance type (e.g., T3 medium) and a key pair.
+3. Launch the instance and wait for it to become available.
+
+### Step 2: Install Docker
+
+1. Connect to the instance using SSH.
+2. Install Docker using the APT repository: `sudo apt-get update && sudo apt-get install docker.io`
+3. Start the Docker service: `sudo systemctl start docker`
+
+### Step 3: Create a Kubernetes cluster
+
+1. Install Minikube: `curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube`
+2. Start Minikube: `minikube start --driver=docker`
+3. Verify the cluster is running: `kubectl get nodes`
+
+### Step 4: Install kubectl
+
+1. Install kubectl: `sudo apt-get update && sudo apt-get install kubectl`
+2. Verify kubectl is working: `kubectl version`
+
+### Step 5: Create a Jenkins container
+
+1. Pull the Jenkins LTS image: `docker pull jenkins/jenkins:lts`
+2. Create a Jenkins container: `docker run -d -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts`
+3. Verify the container is running: `docker ps`
+
+### Step 6: Configure Jenkins
+
+1. Access the Jenkins UI: `http://<instance-ip>:8080`
+2. Configure Jenkins to use the Kubernetes cluster as a build agent.
+
+### Step 7: Create a service account
+
+1. Create a service account: `kubectl create sa jenkins`
+2. Verify the service account is created: `kubectl get sa`
+
+### Step 8: Create a token
+
+1. Create a token for the service account: `kubectl create token jenkins`
+2. Verify the token is created: `kubectl get secret`
+
+### Step 9: Configure the Kubernetes cloud
+
+1. Configure the Kubernetes cloud in Jenkins to use the service account and token.
+2. Verify the cloud is configured correctly.
+
+### Step 10: Create a pipeline job
+
+1. Create a pipeline job in Jenkins to test the integration with the Kubernetes cluster.
+2. Verify the job is running correctly.
+
+## **Relevant Links**
+
+- Minikube installation instructions
+- kubectl installation instructions
+- Jenkins installation instructions
+- Kubernetes cluster creation instructions
