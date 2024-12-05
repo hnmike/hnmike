@@ -163,16 +163,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "GIT"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Git push and create new repository from a project (202412052057).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -313,7 +313,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 1"
+              "title": "Backlinks for Git push and create new repository from a project (202412052057)"
             }
           },
           {
@@ -376,10 +376,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Git push and create new repository from a project (202412052057).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 1"
+              "title": "Outline of Git push and create new repository from a project (202412052057)"
             }
           },
           {
@@ -586,10 +586,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "650020b6977e1893",
+  "active": "f19e3b4a3f272ec7",
   "lastOpenFiles": [
+    "GIT.md",
     "Git push and create new repository from a project (202412052057).md",
-    "Untitled 1.md",
     "GIT Push new repository from git.md",
     "CI CD.md",
     "2024-12.md",
