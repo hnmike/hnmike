@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT.md",
+                "file": "GIT push and pull projec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT"
+              "title": "GIT push and pull projec"
             }
           }
         ],
@@ -274,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT.md",
+                "file": "GIT push and pull projec.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GIT"
+              "title": "Backlinks for GIT push and pull projec"
             }
           },
           {
@@ -347,10 +347,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT.md"
+                "file": "GIT push and pull projec.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of GIT"
+              "title": "Outline of GIT push and pull projec"
             }
           },
           {
@@ -557,10 +557,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "527a38be471c2288",
+  "active": "f19e3b4a3f272ec7",
   "lastOpenFiles": [
     "CI CD.md",
-    "GIT.md",
+    "GIT push and pull projec.md",
     "2024-12.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/journal/daily/2024/12/2024-12-04.md",
