@@ -13,7 +13,7 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gpt-4o-mini|openai",
+  "defaultModelKey": "hf: meta-llama/Meta-Llama-3.1-405B-Instruct|3rd party (openai-format)",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
@@ -42,63 +42,93 @@
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true
+      "core": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "gpt-4o-mini",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true
+      "core": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-sonnet-latest",
       "provider": "anthropic",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true
+      "core": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "gpt-4-turbo",
       "provider": "openai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-haiku-latest",
       "provider": "anthropic",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "command-r",
       "provider": "cohereai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "command-r-plus",
       "provider": "cohereai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "gemini-1.5-pro",
       "provider": "google",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "gemini-1.5-flash",
       "provider": "google",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
     },
     {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "baseUrl": "",
+      "apiKey": ""
+    },
+    {
+      "name": "hf: meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "provider": "3rd party (openai-format)",
+      "baseUrl": "https://glhf.chat/api/openai/v1",
+      "apiKey": "glhf_e975caf5baf178d16de59608c0ee41d4",
+      "enabled": true,
+      "isBuiltIn": false,
+      "enableCors": false,
+      "isEmbeddingModel": false
     }
   ],
   "activeEmbeddingModels": [

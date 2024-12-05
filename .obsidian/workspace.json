@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -580,12 +580,12 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "e75086df6642619d",
+  "active": "9ebb54dd0fd445e0",
   "lastOpenFiles": [
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+    "CI CD.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12.md",
-    "CI CD.md",
     "00-09 system/journal/daily/2024/12/2024-12-05.md",
     "00-09 system/journal/daily/2024/12/2024-12-04.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
