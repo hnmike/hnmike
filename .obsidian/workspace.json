@@ -31,6 +31,25 @@
             }
           },
           {
+            "id": "e75086df6642619d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
             "id": "f97a960e03d61379",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -146,7 +165,8 @@
               "title": "CI CD"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -277,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+                "file": "CI CD.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -287,7 +307,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700)"
+              "title": "Backlinks for CI CD"
             }
           },
           {
@@ -350,10 +370,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md"
+                "file": "CI CD.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700)"
+              "title": "Outline of CI CD"
             }
           },
           {
@@ -560,10 +580,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "ab21d4744d933974",
+  "active": "e75086df6642619d",
   "lastOpenFiles": [
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12.md",
     "CI CD.md",
     "00-09 system/journal/daily/2024/12/2024-12-05.md",
