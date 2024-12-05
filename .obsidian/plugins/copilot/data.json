@@ -13,7 +13,7 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "hf: meta-llama/Meta-Llama-3.1-405B-Instruct|3rd party (openai-format)",
+  "defaultModelKey": "meta-llama/Meta-Llama-3.1-405B-Instruct|openai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
@@ -121,11 +121,11 @@
       "apiKey": ""
     },
     {
-      "name": "hf: meta-llama/Meta-Llama-3.1-405B-Instruct",
-      "provider": "3rd party (openai-format)",
+      "name": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "provider": "openai",
       "baseUrl": "https://glhf.chat/api/openai/v1",
       "apiKey": "glhf_e975caf5baf178d16de59608c0ee41d4",
-      "enabled": false,
+      "enabled": true,
       "isBuiltIn": false,
       "enableCors": false,
       "isEmbeddingModel": false
