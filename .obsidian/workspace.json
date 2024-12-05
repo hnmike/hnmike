@@ -128,18 +128,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "GIT Push new repository from git",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GIT Push new repository from git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"GIT Push new repository from git\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":89},\"to\":{\"line\":3,\"ch\":89}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT push and pull projec.md",
+                "file": "(202412052057).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT push and pull projec"
+              "title": "(202412052057)"
             }
           }
         ],
@@ -274,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT push and pull projec.md",
+                "file": "(202412052057).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -284,7 +290,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GIT push and pull projec"
+              "title": "Backlinks for (202412052057)"
             }
           },
           {
@@ -347,10 +353,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT push and pull projec.md"
+                "file": "(202412052057).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of GIT push and pull projec"
+              "title": "Outline of (202412052057)"
             }
           },
           {
@@ -559,8 +565,9 @@
   },
   "active": "f19e3b4a3f272ec7",
   "lastOpenFiles": [
+    "GIT Push new repository from git.md",
+    "(202412052057).md",
     "CI CD.md",
-    "GIT push and pull projec.md",
     "2024-12.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/journal/daily/2024/12/2024-12-04.md",
@@ -595,7 +602,6 @@
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2024/12",
     "2024-12-02.md",
-    "00-09 system/tags/Tag hub.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
