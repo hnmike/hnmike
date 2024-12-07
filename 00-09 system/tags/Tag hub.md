@@ -4,7 +4,7 @@
 #mlops 
 #data_engineer 
 #definition_note những khái niệm hoặc giải thích một cái vấn đề nào đó 
-#structure_note một cái ti
+#structure_note một cái topic lớn 
 #evergreen_note should be "concept-oriented, atomic (ideas) and linked note"
 #project_note 
 #goal
