@@ -135,6 +135,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Lab opensource data engineer mlops devops",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer mlops devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer mlops devops\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "2024-12",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-12.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12\"}",
@@ -151,12 +157,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab opensource data engineer mlops devops.md",
+                "file": "2024-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab opensource data engineer mlops devops"
+              "title": "2024-12"
             }
           },
           {
@@ -189,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -651,8 +657,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -679,8 +684,14 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "d44114d041106e70",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "CI CD.md",
+    "00-09 system/tags/Tag hub.md",
+    "2024-12.md",
+    "Lab opensource data engineer mlops devops.md",
+    "Khóa học DE Zach Wilson.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "MMT3/js/jquery-3.4.1.min.js",
     "MMT3/js/custom.js",
     "MMT3/js/bootstrap.js",
@@ -701,14 +712,7 @@
     "MMT3/css/style.css.map",
     "MMT3/css/style.css",
     "MMT3/css/responsive.css",
-    "MMT3/css/bootstrap.css",
-    "2024-12.md",
-    "Lab opensource data engineer mlops devops.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
-    "Khóa học DE Zach Wilson.md",
-    "00-09 system/tags/Tag hub.md",
-    "CI CD.md",
     "(202412072044).md",
     "2024-12-07.md",
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
