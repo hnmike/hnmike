@@ -592,7 +592,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -623,10 +623,11 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "ccd020d103ff79b8",
   "lastOpenFiles": [
-    "2024-12-07.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "Git push and create new repository from a project (202412052057).md",
+    "2024-12-07.md",
     "GIT.md",
     "GIT Push new repository from git.md",
     "CI CD.md",
@@ -634,7 +635,6 @@
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/journal/daily/2024/12/2024-12-04.md",
     "00-09 system/journal/daily/2024/12/2024-12-05.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Untitled.md",
     "00-09 system/homepage/dashboard.canvas",
