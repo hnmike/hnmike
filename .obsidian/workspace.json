@@ -490,10 +490,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -511,8 +511,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -549,12 +549,41 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9963875c7d5bff5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "a83494f60de983fe",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -582,11 +611,10 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
-      "smart-composer:Open smart composer": false,
-      "copilot:Copilot Chat": false
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "f19e3b4a3f272ec7",
+  "active": "a83494f60de983fe",
   "lastOpenFiles": [
     "GIT.md",
     "Git push and create new repository from a project (202412052057).md",
