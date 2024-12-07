@@ -31,25 +31,6 @@
             }
           },
           {
-            "id": "e75086df6642619d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
             "id": "f97a960e03d61379",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -146,6 +127,25 @@
               },
               "icon": "lucide-file",
               "title": "Git push and create new repository from a project (202412052057)"
+            }
+          },
+          {
+            "id": "1814986886c01a54",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
@@ -575,6 +575,15 @@
           {
             "id": "a83494f60de983fe",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -614,10 +623,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a83494f60de983fe",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
-    "GIT.md",
     "Git push and create new repository from a project (202412052057).md",
+    "GIT.md",
     "GIT Push new repository from git.md",
     "CI CD.md",
     "2024-12.md",
