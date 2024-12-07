@@ -128,17 +128,17 @@
             "id": "0111a2b56f3f50a3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": " devops",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab/ opensource liên quan đến data engineer/ mlops/ devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"devops\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2024-12",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-12.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":28},\"to\":{\"line\":6,\"ch\":28}}}"
                 },
                 {
                   "title": "2024-12-07",
@@ -151,12 +151,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-12.md",
+                "file": "Lab opensource data engineer mlops devops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12"
+              "title": "Lab opensource data engineer mlops devops"
             }
           },
           {
@@ -643,8 +643,9 @@
   },
   "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
-    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "2024-12.md",
+    "Lab opensource data engineer mlops devops.md",
+    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "Lab/ opensource liên quan đến data engineer/ mlops",
     "Lab/ opensource liên quan đến data engineer",
     "Lab",
@@ -679,7 +680,6 @@
     "_FileOrganizer2000/Processed",
     "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/project/data engineer.md",
-    "00-09 system/project/project template.md",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",
