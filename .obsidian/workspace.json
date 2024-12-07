@@ -603,7 +603,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -634,7 +634,7 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0111a2b56f3f50a3",
+  "active": "ccd020d103ff79b8",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
     "2024-12.md",
