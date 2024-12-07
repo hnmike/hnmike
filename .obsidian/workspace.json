@@ -130,25 +130,6 @@
             }
           },
           {
-            "id": "1814986886c01a54",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
             "id": "2e852dbd04c0ca9c",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -278,6 +259,31 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "21f975f8c961132b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1814986886c01a54",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
             }
           }
         ]
@@ -654,10 +660,10 @@
   },
   "active": "f97a960e03d61379",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/12/2024-12-07.md",
-    "2024-12.md",
-    "Git push and create new repository from a project (202412052057).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
+    "2024-12.md",
+    "00-09 system/journal/daily/2024/12/2024-12-07.md",
+    "Git push and create new repository from a project (202412052057).md",
     "2024-12-07.md",
     "CI CD.md",
     "00-09 system/tags/Tag hub.md",
