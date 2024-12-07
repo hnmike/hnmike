@@ -158,9 +158,32 @@
               "icon": "lucide-file",
               "title": "2024-12"
             }
+          },
+          {
+            "id": "aaa978ec7782e79e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Khóa học DE Zach Wilson.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Khóa học DE Zach Wilson"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -611,16 +634,17 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0111a2b56f3f50a3",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
-    "(202412072044).md",
+    "CI CD.md",
+    "Khóa học DE Zach Wilson.md",
     "2024-12.md",
+    "(202412072044).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12-07.md",
     "00-09 system/tags/Tag hub.md",
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
     "Git push and create new repository from a project (202412052057).md",
-    "CI CD.md",
     "GIT.md",
     "GIT Push new repository from git.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -648,7 +672,6 @@
     "00-09 system/project/data engineer.md",
     "00-09 system/project/project template.md",
     "00-09 system/project/projeccct.md",
-    "demo tasks.md",
     "00-09 system/journal/daily/2024/12",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
