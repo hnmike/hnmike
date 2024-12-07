@@ -193,9 +193,32 @@
               "icon": "lucide-file",
               "title": "2024-12-07"
             }
+          },
+          {
+            "id": "2e852dbd04c0ca9c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/tags/Tag hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tag hub"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -646,10 +669,11 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0e3906e778589c1d",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
-    "_FileOrganizer2000/Templates/meeting_note.md",
+    "00-09 system/tags/Tag hub.md",
     "2024-12-07.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "Git push and create new repository from a project (202412052057).md",
     "GIT.md",
     "GIT Push new repository from git.md",
@@ -683,7 +707,6 @@
     "demo tasks.md",
     "2024-09.md",
     "2024-09-04.md",
-    "TASK TEMPLATE.md",
     "00-09 system/journal/daily/2024/12",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
