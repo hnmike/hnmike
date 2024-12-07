@@ -163,8 +163,14 @@
             "id": "aaa978ec7782e79e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Tag hub",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/tags/Tag hub.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Tag hub\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -266,8 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -638,13 +643,13 @@
   },
   "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
-    "CI CD.md",
+    "00-09 system/tags/Tag hub.md",
     "Khóa học DE Zach Wilson.md",
+    "CI CD.md",
     "2024-12.md",
     "(202412072044).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12-07.md",
-    "00-09 system/tags/Tag hub.md",
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
     "Git push and create new repository from a project (202412052057).md",
     "GIT.md",
