@@ -170,6 +170,29 @@
               "icon": "lucide-file",
               "title": "GIT"
             }
+          },
+          {
+            "id": "0e3906e778589c1d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-12-07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-07"
+            }
           }
         ],
         "currentTab": 4
@@ -625,9 +648,9 @@
   },
   "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "2024-12-07.md",
     "Git push and create new repository from a project (202412052057).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
-    "2024-12-07.md",
     "GIT.md",
     "GIT Push new repository from git.md",
     "CI CD.md",
