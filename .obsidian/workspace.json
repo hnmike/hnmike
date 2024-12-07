@@ -31,6 +31,25 @@
             }
           },
           {
+            "id": "1814986886c01a54",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
             "id": "0edf78b8be6f6b23",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -158,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -235,31 +254,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "21f975f8c961132b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1814986886c01a54",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
             }
           }
         ]
@@ -634,12 +628,12 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12.md",
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
     "2024-12-07.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "Git push and create new repository from a project (202412052057).md",
     "CI CD.md",
     "00-09 system/tags/Tag hub.md",
