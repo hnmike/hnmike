@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -646,11 +646,11 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "0e3906e778589c1d",
   "lastOpenFiles": [
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "2024-12-07.md",
     "Git push and create new repository from a project (202412052057).md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "GIT.md",
     "GIT Push new repository from git.md",
     "CI CD.md",
