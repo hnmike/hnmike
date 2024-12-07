@@ -50,29 +50,6 @@
             }
           },
           {
-            "id": "0edf78b8be6f6b23",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-12-07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-12-07"
-            }
-          },
-          {
             "id": "9ebb54dd0fd445e0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -183,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -634,12 +611,12 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
-    "2024-12-07.md",
-    "00-09 system/tags/Tag hub.md",
-    "2024-12.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
+    "2024-12-07.md",
+    "2024-12.md",
+    "00-09 system/tags/Tag hub.md",
     "00-09 system/journal/daily/2024/12/2024-12-07.md",
     "Git push and create new repository from a project (202412052057).md",
     "CI CD.md",
