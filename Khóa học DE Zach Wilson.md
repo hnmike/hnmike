@@ -2,5 +2,5 @@
 
 ---
 1 [[Dimensional data modelling]]
-2 Fact Data Modeling 
-3 Spark Fundamental 
+2 [[Fact Data Modeling]] 
+3 [[Spark Fundamental]] 

@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -641,10 +641,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "aaa978ec7782e79e",
+  "active": "2e852dbd04c0ca9c",
   "lastOpenFiles": [
-    "00-09 system/tags/Tag hub.md",
     "Khóa học DE Zach Wilson.md",
+    "00-09 system/tags/Tag hub.md",
     "CI CD.md",
     "2024-12.md",
     "(202412072044).md",
