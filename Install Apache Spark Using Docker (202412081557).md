@@ -4,7 +4,8 @@ id:
 url: https://youtu.be/jrv7J40Qs9A?si=Je1Lm4LKLE2YyBd8
 related: 
 aliases: 
-tags: 
+tags:
+  - "#reference_note"
 summary:
 ---
 # Install Apache Spark Using Docker
