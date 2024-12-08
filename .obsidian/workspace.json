@@ -50,29 +50,6 @@
             }
           },
           {
-            "id": "5b2ce518518afcf1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
             "id": "9ebb54dd0fd445e0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -264,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -791,16 +768,16 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a158d6c4f0fb2569",
+  "active": "9ebb54dd0fd445e0",
   "lastOpenFiles": [
-    "lab opensource.md",
-    "Lab opensource mlops devops.md",
-    "Lab opensource data engineer.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
+    "Untitled 1.md",
     "Building Real-Time Data Pipelines (202412081512).md",
+    "Lab opensource mlops devops.md",
+    "lab opensource.md",
+    "Lab opensource data engineer.md",
     "Khóa học DE Zach Wilson.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
-    "Untitled 1.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "CI CD.md",
     "00-09 system/tags/Tag hub.md",
     "2024-12.md",
