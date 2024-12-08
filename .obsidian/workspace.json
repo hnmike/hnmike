@@ -216,32 +216,9 @@
               "icon": "lucide-file",
               "title": "Lab opensource mlops devops"
             }
-          },
-          {
-            "id": "ed6553059263a443",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Install Apache Spark Using Docker (202412081557).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Install Apache Spark Using Docker (202412081557)"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -768,11 +745,11 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "ed6553059263a443",
+  "active": "a158d6c4f0fb2569",
   "lastOpenFiles": [
+    "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
-    "Install Apache Spark Using Docker (202412081557).md",
     "Lab opensource mlops devops.md",
     "Lab opensource data engineer.md",
     "CI CD.md",
