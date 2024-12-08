@@ -199,9 +199,9 @@ flume-
 
 14.Flume Troubleshooting | Flume Known Issues & Its Compatibility
 
-spark ->(spark core ,sql,Streaming,mysql integration,Mongodb,Cassandra,snowflakes,ElasticSearch,Sparkkafka streaming,Hbase integration)
+## spark ->(spark core ,sql,Streaming,mysql integration,Mongodb,Cassandra,snowflakes,ElasticSearch,Sparkkafka streaming,Hbase integration)
 
-Spark-Spark Core
+### Spark-Spark Core
 
 1.Spark Introduction
 
@@ -243,7 +243,7 @@ Spark-Spark Core
 
 20.Spark Performance Tuning-Learn to Tune Apache Spark Job
 
-Spark-Spark SQL
+### Spark-Spark SQL
 
 1.Apache Spark SQL Tutorial – Quick Introduction Guide
 
@@ -277,7 +277,7 @@ Spark-Spark SQL
 
 17.spark sql api
 
-Spark-Spark Streaming
+### Spark-Spark Streaming
 
 1.Spark streaming introduction
 
@@ -293,9 +293,9 @@ Spark-Spark Streaming
 
   
 
-aws data engineer -> (lambda,glue,emr, kinesis,dynamodb,RDS,EC2,S3,Redshift)
+## aws data engineer -> (lambda,glue,emr, kinesis,dynamodb,RDS,EC2,S3,Redshift)
 
-Aws big data engineer
+### Aws big data engineer
 
 =====================
 
