@@ -1,15 +1,15 @@
 ---
 created-date: 2024-12-08 15:57
 id: 
-url: 
+url: https://youtu.be/jrv7J40Qs9A?si=Je1Lm4LKLE2YyBd8
 related: 
 aliases: 
 tags: 
 summary:
 ---
-# **Install Apache Spark Using Docker**
+# Install Apache Spark Using Docker
 
-## **Step 1: Download Docker Image**
+## Step 1: Download Docker Image
 
 - Go to spark.apache.org and click on "Convenient Docker images"
 - Search for "bitnami Apache Spark" and select the verified publisher image
