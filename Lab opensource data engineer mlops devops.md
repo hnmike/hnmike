@@ -325,7 +325,7 @@ DynamoDB, Machine Learning, and Lambda
 
 ElasticSearch Services and EC2
 
-3.Big Data on AWS - Collection
+## .Big Data on AWS - Collection
 
 Amazon Kinesis and Kinesis Stream
 
@@ -355,7 +355,7 @@ Activity, Pre-Condition, and Schedule
 
 Demo - Importing Data from S3 into DynamoDB Using Data Pipeline
 
-4.Big Data on AWS - Storage
+##   Big Data on AWS - Storage
 
 Amazon Glacier and Big Data
 
@@ -381,7 +381,7 @@ Demo - Amazon Athena Interactive SQL Queries for Data in Amazon S3 Part I
 
 Demo - Amazon Athena Interactive SQL Queries for Data in Amazon S3 Part II
 
-5.Big Data on AWS - Processing
+## Big Data on AWS - Processing
 
 Amazon EMR
 
@@ -411,7 +411,7 @@ Demo - Analyzing Large Datasets Using Hive and Spark
 
 AWS Lambda
 
-6.Big Data on AWS - Analysis
+##   Big Data on AWS - Analysis
 
 Redshift Intro and Use Cases
 
@@ -453,7 +453,7 @@ Demo - Creating a Redshift Cluster and Loading the Datasets into it from S3 - Pa
 
 Demo - Creating a Redshift Cluster and Loading the Datasets into it from S3 - Part II
 
-7.Big Data on AWS - Visualization
+## Big Data on AWS - Visualization
 
 Amazon QuickSight
 
@@ -481,7 +481,7 @@ Limit Data Access
 
 azure data engineer  -> (azure functions, azure blob storage, azure data factory ,azure databricks and azure synapse ,azure event hub)
 
-Azure Big Data engineer
+## Azure Big Data engineer
 
 ======================
 
