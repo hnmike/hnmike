@@ -1,7 +1,7 @@
 ---
 created-date: 2024-12-08 17:48
 id: 
-url: 
+url: https://www.youtube.com/watch?v=C4UiqIc_gWA&t=840s
 related: 
 aliases: 
 tags: 
@@ -42,3 +42,4 @@ We can create an internal Delta table using the `delta` format. We can specify
 `val deltaTable = spark.read.format("delta")   .option("header", "true")   .option("inferSchema", "true")   .load("s3a://data-lake/raw-data/bitcoin.csv")   .write.format("delta")   .save("s3a://data-lake/delta-tables/bitcoin")`
 
 ## Running Queries on Delta Tables
+
