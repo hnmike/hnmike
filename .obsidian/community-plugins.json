@@ -10,7 +10,6 @@
   "mrj-jump-to-link",
   "obsidian42-brat",
   "OA-file-hider",
-  "calendar",
   "heatmap-calendar",
   "obsidian-style-settings",
   "omnisearch",
@@ -18,7 +17,6 @@
   "obsidian-charts",
   "journals",
   "obsidian-hover-editor",
-  "task-list-kanban",
   "obsidian-tasks-plugin",
   "obsidian-auto-link-title",
   "obsidian-projects",
@@ -56,8 +54,10 @@
   "lapel",
   "tabout",
   "remember-cursor-position",
-  "virtual-linker",
   "vscode-editor",
   "image-converter",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "calendar",
+  "task-list-kanban",
+  "smart-composer"
 ]

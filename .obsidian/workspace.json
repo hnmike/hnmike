@@ -532,9 +532,32 @@
               "icon": "lucide-file",
               "title": "Release Notes 1.7.7"
             }
+          },
+          {
+            "id": "dbfc77d1d8cb422f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -633,9 +656,11 @@
             },
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           }
         ]
@@ -991,6 +1016,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1000,7 +1026,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           }
         ]
@@ -1033,34 +1059,43 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "dbfc77d1d8cb422f",
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "postgres (202411162120).md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "Postgres.md",
-    "git (202411152107).md",
-    "20-30 technical knowledge hub/data engineer/docker.md",
-    "docker compose.md",
-    "cài đặt docker engine & desktop.md",
-    "20-30 technical knowledge hub/mlops mle/fundamental mlops1/learning .md",
     "conflict-files-obsidian-git.md",
-    "souce system.md",
-    "Welcome.md",
-    "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
-    "00-09 system/journal/daily/2024/11/2024-11-11.md",
-    "20-30 technical knowledge hub/data engineer/tag hub.md",
-    "2024-08-12.md",
-    "00-09 system/homepage/DASHBOARD.md",
-    "GNU/Linux.md",
-    "00-09 system/project/data engineer/fff.md",
-    "Button.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "k8s.md",
-    "postgres (202411162120) 1.md",
-    "00-09 system/template/knowledge base template.md",
-    "smart-chats/UNTITLED CHAT 2024-11-16 08 36 40.md",
-    "smart-chats/UNTITLED CHAT 2024-11-16 08 34 45.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
+    "_FileOrganizer2000/Templates",
+    "_FileOrganizer2000",
+    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
+    "MMT3",
+    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
+    "Lab/ opensource liên quan đến data engineer/ mlops",
+    "Lab/ opensource liên quan đến data engineer",
+    "Lab",
+    "Lab opensource mlops devops.md",
+    "Lab opensource data engineer.md",
+    "Khóa học DE Zach Wilson.md",
+    "Install Apache Spark Using Docker (202412081557).md",
+    "Git push and create new repository from a project (202412052057).md",
+    "GIT.md",
+    "GIT Push new repository from git.md",
+    "FASTAPI LAB(202412081602).md",
+    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "CI CD.md",
+    "Building Real-Time Data Pipelines (202412081512).md",
+    "2024-W49.md",
+    "2024-12.md",
+    "2024-12-07.md",
+    "2024-12-04.md",
+    "2024-12-01.md",
+    "2024-11-21.md",
+    "20-30 technical knowledge hub/data engineer/Tag hub.md",
+    "00-09 system/tags",
+    "00-09 system/journal/weekly/2024/12",
+    "00-09 system/journal/daily/2024/12",
     "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
@@ -1068,13 +1103,10 @@
     "IMG-20241114084755540.png",
     "IMG-20241114084754746.png",
     "00-09 system/homepage/dashboard.canvas",
-    "00-09 system/project/hn",
     "00-09 system/canvas/DE_project.canvas",
     "IMG-20241108202153684.png",
-    "00-09 system/journal/daily/2024/11",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
-    "boot-repair-disk-64bit.iso",
     "00-09 system/canvas/SCHOOL PROJECT.canvas",
     "00-09 system/canvas/MLOP.canvas"
   ]

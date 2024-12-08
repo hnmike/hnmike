@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "logancyang/obsidian-copilot",
     "open-spaced-repetition/obsidian-spaced-repetition-recall",
     "vasilecampeanu/obsidian-weaver",
     "any-block/obsidian-any-block",
@@ -10,7 +11,7 @@
   "themesList": [
     {
       "repo": "ElsaTam/obsidian-fancy-a-story",
-      "lastUpdate": "1054957474"
+      "lastUpdate": "1058199340"
     }
   ],
   "updateAtStartup": true,
