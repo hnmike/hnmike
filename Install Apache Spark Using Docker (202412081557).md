@@ -15,23 +15,23 @@ summary:
 - Search for "bitnami Apache Spark" and select the verified publisher image
 - Copy the Docker Compose YAML file link and paste it in your terminal to download the file
 
-## **Step 2: Edit Docker Compose YAML File**
+## Step 2: Edit Docker Compose YAML File
 
 - Open the downloaded YAML file in a code editor
 - Add a volume to map the current working directory to the container: `volume: .:/opt/spark`
 - Save the file
 
-## **Step 3: Run Docker Compose**
+## Step 3: Run Docker Compose
 
 - Run the command `docker-compose up -d` to start the container in the background
 - Wait for the container to start and install Apache Spark
 
-## **Step 4: Exec into Container**
+## Step 4: Exec into Container
 
 - Run the command `docker ps` to find the container ID
 - Run the command `docker exec -it <container_id> bash` to exec into the container
 
-## **Step 5: Verify Apache Spark Installation**
+## Step 5: Verify Apache Spark Installation
 
 - Check the file system to verify that Apache Spark is installed
 - Run the command `spark-shell` to start the Spark shell
