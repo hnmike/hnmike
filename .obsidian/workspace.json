@@ -41,8 +41,28 @@
               "icon": "lucide-file",
               "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
             }
+          },
+          {
+            "id": "b3f043571f39b551",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +193,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md"
+                "file": "_FileOrganizer2000/Templates/meeting_note.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
+              "title": "Outline of meeting_note"
             }
           },
           {
@@ -495,7 +515,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+                "file": "_FileOrganizer2000/Templates/meeting_note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -505,7 +525,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
+              "title": "Backlinks for meeting_note"
             }
           }
         ]
@@ -538,8 +558,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38a8ea283e5b6bf5",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
     "FASTAPI LAB(202412081602).md",
     "conflict-files-obsidian-git.md",
@@ -562,7 +583,6 @@
     "GIT.md",
     "GIT Push new repository from git.md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "CI CD.md",
     "Building Real-Time Data Pipelines (202412081512).md",
     "2024-W49.md",
