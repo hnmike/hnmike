@@ -50,6 +50,29 @@
             }
           },
           {
+            "id": "5b2ce518518afcf1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
             "id": "9ebb54dd0fd445e0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -195,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -722,9 +745,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "d8ac700411aeb803",
+  "active": "5b2ce518518afcf1",
   "lastOpenFiles": [
     "_FileOrganizer2000/Templates/meeting_note.md",
+    "Untitled 1.md",
     "CI CD.md",
     "00-09 system/tags/Tag hub.md",
     "2024-12.md",
