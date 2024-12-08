@@ -3,7 +3,7 @@
 ---
 # data engineer
 
-## hadoop- >(HDFS,mapreduce,hive,sqoop,hbase,Flume)
+### hadoop- >(HDFS,mapreduce,hive,sqoop,hbase,Flume)
 
 HDFS-
 
@@ -27,7 +27,7 @@ HDFS-
 
 10. hdfs Federation
 
-## MapReduce-
+### MapReduce-
 
 1.Introduction
 
@@ -47,7 +47,7 @@ HDFS-
 
 9.performance tuning in mapreduce
 
-## Hive-
+### Hive-
 
 1.Introduction
 
@@ -97,7 +97,7 @@ Inner,Left Outer Join,Right Outer Join,Full Outer Join,Self join,Cross Join,Map 
 
 21 Hive Transaction management
 
-Sqoop-
+### Sqoop-
 
 1.sqoop architecture
 
@@ -137,7 +137,7 @@ Sqoop-
 
 19.sqoop performance tuning
 
-Hbase-
+### Hbase-
 
 1.Hbase Architecture
 
