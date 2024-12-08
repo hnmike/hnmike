@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Lab week 3 de(202412082116)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab week 3 de(202412082116).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab week 3 de(202412082116)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":48},\"to\":{\"line\":20,\"ch\":48}},\"scroll\":10.147312394087132}"
+                },
+                {
                   "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
@@ -40,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab week 3 de(202412082116).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab week 3 de(202412082116)"
+              "title": "cài đặt docker engine & desktop"
             }
           },
           {
@@ -198,10 +204,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab week 3 de(202412082116).md"
+                "file": "cài đặt docker engine & desktop.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lab week 3 de(202412082116)"
+              "title": "Outline of cài đặt docker engine & desktop"
             }
           },
           {
@@ -558,7 +564,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab week 3 de(202412082116).md",
+                "file": "cài đặt docker engine & desktop.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -568,7 +574,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lab week 3 de(202412082116)"
+              "title": "Backlinks for cài đặt docker engine & desktop"
             }
           }
         ]
@@ -601,11 +607,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3367041ddb1ec0df",
+  "active": "38a8ea283e5b6bf5",
   "lastOpenFiles": [
+    "Lab week 3 de(202412082116).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
-    "Lab week 3 de(202412082116).md",
     "Lab opensource data engineer.md",
     "FASTAPI LAB(202412081602).md",
     "conflict-files-obsidian-git.md",
