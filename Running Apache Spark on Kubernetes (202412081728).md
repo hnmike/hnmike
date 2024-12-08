@@ -1,7 +1,7 @@
 ---
 created-date: 2024-12-08 17:28
 id: 
-url: 
+url: https://www.youtube.com/watch?v=Vwhaq4ezmaw
 related: 
 aliases: 
 tags: 
