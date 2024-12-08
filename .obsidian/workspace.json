@@ -60,9 +60,32 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "abf852edd9eba9f0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,10 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_FileOrganizer2000/Templates/meeting_note.md"
+                "file": "Untitled 2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of meeting_note"
+              "title": "Outline of Untitled 2"
             }
           },
           {
@@ -515,7 +538,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_FileOrganizer2000/Templates/meeting_note.md",
+                "file": "Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -525,7 +548,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for meeting_note"
+              "title": "Backlinks for Untitled 2"
             }
           }
         ]
@@ -558,13 +581,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "abf852edd9eba9f0",
   "lastOpenFiles": [
+    "_FileOrganizer2000/Templates/meeting_note.md",
+    "Untitled 2.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
     "FASTAPI LAB(202412081602).md",
     "conflict-files-obsidian-git.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "_FileOrganizer2000/Templates",
     "_FileOrganizer2000",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -591,7 +615,6 @@
     "2024-12-04.md",
     "2024-12-01.md",
     "2024-11-21.md",
-    "20-30 technical knowledge hub/data engineer/Tag hub.md",
     "00-09 system/tags",
     "00-09 system/journal/weekly/2024/12",
     "00-09 system/journal/daily/2024/12",
