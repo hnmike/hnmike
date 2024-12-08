@@ -11,7 +11,22 @@ summary:
 
 ## Introduction
 
-In this tutorial, we will walk through the design and implementation of a data warehouse using Spark and Data Lake. We will use MinIO, an open-source object storage, as our storage solution. We will also use Presto, a distributed query engine, to run queries on our data.
+## rchitecture Overview
+
+- **MinIO**: Acts as the data lake storage
+- **Spark**: Distributed data processing
+- **Airflow**: Workflow orchestration
+- **Hive**: Metadata store and SQL interface
+- **Presto**: Distributed SQL query engine
+- **Superset**: Data visualization and exploration
+- **MariaDB**: Metadata storage for Hive
+
+## Important Notes
+
+1. The system uses Delta Lake format for data storage, which provides ACID transactions on Spark
+2. All necessary JAR files for S3 and Delta Lake support are included in the Hive and Spark images
+3. The system is configured to use MinIO as the S3-compatible storage
+4. Presto is configured to work with both Hive tables and Delta Lake format
 
 ## Setting up MinIO
 
