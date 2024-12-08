@@ -613,8 +613,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "9c073d976d8a84c7",
@@ -634,11 +633,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of data engineer lab 1 (202411160846)"
+              "title": "Outline"
             }
           }
         ]
@@ -928,6 +925,44 @@
               ]
             },
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d271aa2c7892064f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "1fe3d1f6ee4fbd8d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -935,7 +970,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 15
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -956,7 +991,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -966,7 +1000,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer lab 1 (202411160846)"
+              "title": "Backlinks"
             }
           }
         ]
@@ -999,7 +1033,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c28ff4b55b0ca2e1",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "postgres (202411162120).md",
