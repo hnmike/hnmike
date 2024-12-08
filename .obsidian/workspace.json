@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -768,14 +768,14 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "07f5fc979c74de48",
+  "active": "a158d6c4f0fb2569",
   "lastOpenFiles": [
-    "Lab opensource mlops devops.md",
+    "Lab opensource data engineer.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
+    "Lab opensource mlops devops.md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
-    "Lab opensource data engineer.md",
     "CI CD.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "Untitled 1.md",
