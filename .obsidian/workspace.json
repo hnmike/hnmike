@@ -241,35 +241,6 @@
             }
           },
           {
-            "id": "33971dbc5d719e37",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":134},\"to\":{\"line\":44,\"ch\":134}},\"scroll\":9}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/daily/2024/12/2024-12-08.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-12-08"
-            }
-          },
-          {
             "id": "07f5fc979c74de48",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -293,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -782,19 +753,19 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
+    "Lab opensource mlops devops.md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/journal/daily/2024/12/2024-12-08.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "Lab opensource mlops devops.md",
     "Lab opensource data engineer.md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
     "CI CD.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "Untitled 1.md",
     "lab opensource.md",
     "Khóa học DE Zach Wilson.md",
