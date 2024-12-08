@@ -43,3 +43,4 @@ We can create an internal Delta table using the `delta` format. We can specify
 
 ## Running Queries on Delta Tables
 
+## 
