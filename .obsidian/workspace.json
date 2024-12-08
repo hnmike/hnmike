@@ -492,6 +492,44 @@
               ]
             },
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "42bde088f69101c0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "3367041ddb1ec0df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -499,7 +537,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 18
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -563,7 +601,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38a8ea283e5b6bf5",
+  "active": "3367041ddb1ec0df",
   "lastOpenFiles": [
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
