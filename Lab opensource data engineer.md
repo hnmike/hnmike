@@ -937,8 +937,7 @@ Processing data with PySpark
 **
 
 
-# mlops 
-3 devops
+
 
 
 
