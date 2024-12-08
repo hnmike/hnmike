@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":103.78093043865698}"
+                },
+                {
                   "title": "Lab opensource data engineer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
@@ -34,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+                "file": "Lab week 3 de(202412082116).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
+              "title": "Lab week 3 de(202412082116)"
             }
           },
           {
@@ -60,32 +66,8 @@
               "icon": "Memos",
               "title": "Thino"
             }
-          },
-          {
-            "id": "abf852edd9eba9f0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lab week 3 de(202412082116).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lab week 3 de(202412082116)"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -581,11 +563,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "abf852edd9eba9f0",
+  "active": "38a8ea283e5b6bf5",
   "lastOpenFiles": [
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "Lab week 3 de(202412082116).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
     "FASTAPI LAB(202412081602).md",
     "conflict-files-obsidian-git.md",
