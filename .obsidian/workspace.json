@@ -511,9 +511,30 @@
               "icon": "lucide-file",
               "title": "cài đặt docker engine & desktop"
             }
+          },
+          {
+            "id": "c28ff4b55b0ca2e1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -793,10 +814,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-09 system/project/data engineer.md"
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
               },
               "icon": "lucide-info",
-              "title": "File properties for data engineer"
+              "title": "File properties for data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -869,6 +890,44 @@
               ]
             },
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "cfdf89bcc52d8a7b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1786d6ad87b74725",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -876,7 +935,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -914,8 +973,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -941,7 +999,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e298bf947f399e98",
+  "active": "c28ff4b55b0ca2e1",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "postgres (202411162120).md",
