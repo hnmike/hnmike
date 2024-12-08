@@ -218,6 +218,29 @@
             }
           },
           {
+            "id": "e0763ffd1bf222d5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
+            }
+          },
+          {
             "id": "07f5fc979c74de48",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -241,7 +264,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -768,11 +791,12 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a158d6c4f0fb2569",
+  "active": "e0763ffd1bf222d5",
   "lastOpenFiles": [
+    "Lab opensource mlops devops.md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
-    "Lab opensource mlops devops.md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
@@ -816,7 +840,6 @@
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Untitled.md",
     "00-09 system/homepage/dashboard.canvas",
-    "recent note.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
