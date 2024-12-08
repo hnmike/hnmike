@@ -579,7 +579,7 @@ Processing structured streaming data with Azure Databricks
 
 GCP data engineer  -> (Gcp data proc, pub sub, apache beam , composer,Gcp sql data storages, Big query and nosql database)
 
-GCP Big Data engineer
+## GCP Big Data engineer
 
 ====================
 
@@ -676,7 +676,7 @@ Exercise – deploying Cloud Composer jobs using Cloud Build
   
   
 
-snowflakes
+## snowflakes
 
 ===========
 
@@ -822,7 +822,7 @@ Connecting Snowflake with Apache Spark
 
 Using Apache Spark to prepare data for storage on Snowflake
 
-airflow
+## airflow
 
 ==========
 
