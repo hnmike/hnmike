@@ -1,10 +1,11 @@
 ---
 created-date: 2024-12-08 15:12
 id: 
-url: 
+url: https://www.youtube.com/watch?v=RlNb_-R4Iho&list=LL&index=17&t=1775s
 related: 
 aliases: 
-tags: 
+tags:
+  - "#reference_note"
 summary:
 ---
 ## **Instructions**
@@ -43,4 +44,4 @@ summary:
 
 - GitHub repository: [insert link]
 - Book: "Data Engineering Process Fundamentals" by Oscar Garcia
-- YouTube channel: [insert link]
+- YouTube channel: [Building Real-Time Data Pipelines: A Practical Guide - Data Engineering Process Fundamentals - YouTube](https://www.youtube.com/watch?v=RlNb_-R4Iho&list=LL&index=17&t=1775s)
