@@ -532,32 +532,9 @@
               "icon": "lucide-file",
               "title": "Release Notes 1.7.7"
             }
-          },
-          {
-            "id": "dbfc77d1d8cb422f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -656,11 +633,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline"
             }
           }
         ]
@@ -1016,7 +991,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1026,7 +1000,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks"
             }
           }
         ]
@@ -1059,7 +1033,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dbfc77d1d8cb422f",
+  "active": "c28ff4b55b0ca2e1",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
