@@ -216,9 +216,32 @@
               "icon": "lucide-file",
               "title": "Lab opensource mlops devops"
             }
+          },
+          {
+            "id": "07f5fc979c74de48",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Running Apache Spark on Kubernetes (202412081728).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Running Apache Spark on Kubernetes (202412081728)"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -745,12 +768,13 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a158d6c4f0fb2569",
+  "active": "07f5fc979c74de48",
   "lastOpenFiles": [
+    "Lab opensource mlops devops.md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
-    "Lab opensource mlops devops.md",
     "Lab opensource data engineer.md",
     "CI CD.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
@@ -793,7 +817,6 @@
     "Untitled.md",
     "00-09 system/homepage/dashboard.canvas",
     "recent note.md",
-    "2024-12-04.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
