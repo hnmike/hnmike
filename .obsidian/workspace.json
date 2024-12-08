@@ -255,12 +255,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "(202412081825).md",
+                "file": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(202412081825)"
+              "title": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)"
             }
           },
           {
@@ -817,7 +817,7 @@
   "active": "33971dbc5d719e37",
   "lastOpenFiles": [
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "(202412081825).md",
+    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "Lab opensource mlops devops.md",
     "Lab opensource data engineer.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
