@@ -16,18 +16,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "FASTAPI LAB(202412081602)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"FASTAPI LAB(202412081602).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"FASTAPI LAB(202412081602)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FASTAPI LAB(202412081602).md",
+                "file": "Lab opensource data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FASTAPI LAB(202412081602)"
+              "title": "Lab opensource data engineer"
             }
           }
         ]
@@ -161,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FASTAPI LAB(202412081602).md"
+                "file": "Lab opensource data engineer.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of FASTAPI LAB(202412081602)"
+              "title": "Outline of Lab opensource data engineer"
             }
           },
           {
@@ -483,7 +489,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FASTAPI LAB(202412081602).md",
+                "file": "Lab opensource data engineer.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -493,7 +499,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FASTAPI LAB(202412081602)"
+              "title": "Backlinks for Lab opensource data engineer"
             }
           }
         ]
@@ -528,6 +534,7 @@
   },
   "active": "38a8ea283e5b6bf5",
   "lastOpenFiles": [
+    "FASTAPI LAB(202412081602).md",
     "conflict-files-obsidian-git.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "_FileOrganizer2000/Templates",
@@ -548,7 +555,6 @@
     "Git push and create new repository from a project (202412052057).md",
     "GIT.md",
     "GIT Push new repository from git.md",
-    "FASTAPI LAB(202412081602).md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "CI CD.md",
