@@ -152,4 +152,4 @@ ZF: Unfold the current block
 : set mouse=a: Enable mouse support for all modes
 : set mouse=n: Disable mouse support
 : set mousemodel=extend: Extend mouse support to all modes
-: set mousemodel=normal: Disable mouse support in normal mode '';;.
+: set mousemodel=normal: Disable mouse support in normal mode '
