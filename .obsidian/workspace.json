@@ -55,6 +55,29 @@
             }
           },
           {
+            "id": "be272041c4d55381",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vim motion key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vim motion key"
+            }
+          },
+          {
             "id": "b3f043571f39b551",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -73,7 +96,8 @@
               "title": "Thino"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -541,9 +565,28 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "c3e8647cd4525cf5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -564,7 +607,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "vim motion key.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -574,7 +617,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cài đặt docker engine & desktop"
+              "title": "Backlinks for vim motion key"
             }
           }
         ]
@@ -607,8 +650,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "38a8ea283e5b6bf5",
+  "active": "be272041c4d55381",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
+    "vim motion key.md",
     "Lab week 3 de(202412082116).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "_FileOrganizer2000/Templates/meeting_note.md",
@@ -639,8 +684,6 @@
     "2024-12.md",
     "2024-12-07.md",
     "2024-12-04.md",
-    "2024-12-01.md",
-    "2024-11-21.md",
     "00-09 system/tags",
     "00-09 system/journal/weekly/2024/12",
     "00-09 system/journal/daily/2024/12",
