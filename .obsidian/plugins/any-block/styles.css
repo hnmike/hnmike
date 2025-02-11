@@ -191,6 +191,7 @@ html[data-theme="dark"] #app {
   color: var(--ab-tab-root-tx-color);
   border-bottom: none;
   border-radius: 10px 10px 0 0;
+  padding-right: 60px;
 }
 
 .ab-note .ab-tab-root .ab-tab-nav .ab-tab-nav-item {
@@ -470,6 +471,12 @@ html[data-theme="dark"] #app {
   border-bottom: none;
 }
 
+.ab-note table.ab-list-table .ab-table-fold {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .ab-note table.ab-table-timeline td {
   border-right: none;
   padding-left: 20px;
@@ -558,11 +565,11 @@ html[data-theme="dark"] #app {
 }
 
 .ab-note .ab-deco-fold .ab-deco-fold-button {
-  background-color: var(--ab-bright-color);
+  color: var(--ab-bright-color);
+  border-bottom: 1px solid var(--ab-bright-color);
   height: 30px;
   line-height: 30px;
   padding-left: 6px;
-  border-radius: 5px;
   width: 100%;
 }
 
@@ -668,7 +675,7 @@ html[data-theme="dark"] #app {
 .ab-note .ab-items.ab-col {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0rem;
 }
 
 .ab-note .ab-items.ab-col .ab-items-item {

@@ -377,63 +377,6 @@
             }
           },
           {
-            "id": "00108fdc2652e3fa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "6df90696664c8652",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "4fe49e60b77d22d1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "f70e4007b3f4c440",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -450,25 +393,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-            }
-          },
-          {
-            "id": "cfdf89bcc52d8a7b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           },
           {
@@ -491,25 +415,6 @@
             }
           },
           {
-            "id": "d271aa2c7892064f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "1fe3d1f6ee4fbd8d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -526,25 +431,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-            }
-          },
-          {
-            "id": "42bde088f69101c0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           },
           {
@@ -567,7 +453,7 @@
             }
           },
           {
-            "id": "c3e8647cd4525cf5",
+            "id": "8387557aa0a67db8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -586,7 +472,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 13
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -650,7 +536,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "be272041c4d55381",
+  "active": "8387557aa0a67db8",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "vim motion key.md",
