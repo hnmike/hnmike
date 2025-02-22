@@ -14,8 +14,8 @@
     "highlights",
     "mermaid",
     "bulleththreading",
-    "custom_kanagawa",
-    "removehighlight"
+    "removehighlight",
+    "custom_kanagawa"
   ],
   "theme": "obsidian",
   "cssTheme": "🔔 Chime",

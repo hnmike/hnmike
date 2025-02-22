@@ -95,9 +95,30 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "a0e166306124e0d1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +146,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -453,7 +475,7 @@
             }
           },
           {
-            "id": "8387557aa0a67db8",
+            "id": "177073d28857e803",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -536,7 +558,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "8387557aa0a67db8",
+  "active": "177073d28857e803",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "vim motion key.md",
