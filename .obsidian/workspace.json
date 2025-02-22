@@ -106,14 +106,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/tags/Tag hub.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tag hub"
+              "title": "New tab"
             }
           },
           {
@@ -184,29 +180,6 @@
               },
               "icon": "lucide-file",
               "title": "Lab opensource data engineer"
-            }
-          },
-          {
-            "id": "1b98af8b0f28cb8b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
             }
           },
           {
@@ -369,7 +342,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -671,8 +644,8 @@
             "state": {
               "type": "smtcmp-chat-view",
               "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -983,29 +956,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "27e5108808b616bc",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1026,9 +980,38 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "ecc0ee1e1a58fd7d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "2062dae8679e2b66",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       }
     ],
     "direction": "horizontal",
@@ -1055,18 +1038,17 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "smart-composer:Open smart composer": false
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "1b98af8b0f28cb8b",
+  "active": "2062dae8679e2b66",
   "lastOpenFiles": [
+    "2024-12.md",
     "Lab opensource data engineer.md",
     "conflict-files-obsidian-git.md",
     "vim motion key.md",
     "Lab week 3 de(202412082116).md",
     "20-30 technical knowledge hub/data engineer/Tag hub.md",
-    "2024-12.md",
     "CI CD.md",
     "Git push and create new repository from a project (202412052057).md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
