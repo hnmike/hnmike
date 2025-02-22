@@ -116,9 +116,30 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.4"
             }
+          },
+          {
+            "id": "468297bb672f56b0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -475,7 +496,7 @@
             }
           },
           {
-            "id": "177073d28857e803",
+            "id": "affa420457324f25",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -558,7 +579,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "177073d28857e803",
+  "active": "affa420457324f25",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "vim motion key.md",
