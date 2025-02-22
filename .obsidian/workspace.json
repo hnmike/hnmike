@@ -536,7 +536,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim motion key.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -546,7 +545,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vim motion key"
+              "title": "Backlinks"
             }
           }
         ]
@@ -579,8 +578,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "affa420457324f25",
+  "active": "468297bb672f56b0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2025-01-08.md",
+    "2024-12-11.md",
+    "00-09 system/journal/daily/2025/01/2025-01-08.md",
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
+    "00-09 system/journal/daily/2025/01",
+    "00-09 system/journal/daily/2025",
     "cài đặt docker engine & desktop.md",
     "vim motion key.md",
     "Lab week 3 de(202412082116).md",
@@ -588,7 +594,6 @@
     "_FileOrganizer2000/Templates/meeting_note.md",
     "Lab opensource data engineer.md",
     "FASTAPI LAB(202412081602).md",
-    "conflict-files-obsidian-git.md",
     "_FileOrganizer2000/Templates",
     "_FileOrganizer2000",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -609,14 +614,8 @@
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "CI CD.md",
     "Building Real-Time Data Pipelines (202412081512).md",
-    "2024-W49.md",
-    "2024-12.md",
-    "2024-12-07.md",
-    "2024-12-04.md",
     "00-09 system/tags",
     "00-09 system/journal/weekly/2024/12",
-    "00-09 system/journal/daily/2024/12",
-    "demo_vault",
     "IMG-20241114090915849.png",
     "IMG-20241114090914865.png",
     "IMG-20241114090913093.png",

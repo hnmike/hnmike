@@ -1,4 +1,5 @@
 {
+  "isPlusUser": false,
   "plusLicenseKey": "",
   "openAIApiKey": "",
   "openAIOrgId": "",
@@ -32,17 +33,31 @@
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
+  "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
   "maxSourceChunks": 3,
   "groqApiKey": "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",
   "activeModels": [
     {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
       "name": "gpt-4o",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "capabilities": [
+        "vision"
+      ],
       "baseUrl": "",
       "apiKey": ""
     },
@@ -52,6 +67,9 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "capabilities": [
+        "vision"
+      ],
       "baseUrl": "",
       "apiKey": ""
     },
@@ -61,6 +79,9 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "capabilities": [
+        "vision"
+      ],
       "baseUrl": "",
       "apiKey": ""
     },
@@ -133,12 +154,48 @@
   ],
   "activeEmbeddingModels": [
     {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "believerExclusive": true,
+      "dimensions": 1024
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "dimensions": 512
+    },
+    {
       "name": "text-embedding-3-small",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "believerExclusive": true
     },
     {
       "name": "text-embedding-3-large",
@@ -163,7 +220,7 @@
     },
     {
       "name": "azure-openai",
-      "provider": "azure_openai",
+      "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
@@ -172,6 +229,8 @@
   "embeddingRequestsPerSecond": 10,
   "disableIndexOnMobile": true,
   "showSuggestedPrompts": true,
+  "showRelevantNotes": true,
+  "numPartitions": 1,
   "enabledCommands": {
     "fix-grammar-prompt": {
       "enabled": true,
@@ -234,5 +293,8 @@
       "name": "Change tone of selection"
     }
   },
-  "promptUsageTimestamps": {}
+  "promptUsageTimestamps": {},
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "embeddingRequestsPerMin": 90,
+  "embeddingBatchSize": 16
 }
