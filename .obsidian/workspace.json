@@ -50,6 +50,27 @@
             }
           },
           {
+            "id": "18161314325315e0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
             "id": "9ebb54dd0fd445e0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -70,35 +91,6 @@
               },
               "icon": "lucide-file",
               "title": "CI CD"
-            }
-          },
-          {
-            "id": "f19e3b4a3f272ec7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "GIT Push new repository from git",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GIT Push new repository from git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"GIT Push new repository from git\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":89},\"to\":{\"line\":3,\"ch\":89}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git push and create new repository from a project (202412052057).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git push and create new repository from a project (202412052057)"
             }
           },
           {
@@ -262,6 +254,96 @@
               "icon": "lucide-file",
               "title": "Running Apache Spark on Kubernetes (202412081728)"
             }
+          },
+          {
+            "id": "a1e06c5da87a077e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capstone project for my course"
+            }
+          },
+          {
+            "id": "054905cc42ba9797",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/01/2025-01-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-08"
+            }
+          },
+          {
+            "id": "aa4d1ed323dcfa1d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-05"
+            }
+          },
+          {
+            "id": "409293c08461d4ba",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
         "currentTab": 6
@@ -292,7 +374,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -608,25 +691,6 @@
             }
           },
           {
-            "id": "9963875c7d5bff5b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "a83494f60de983fe",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -646,7 +710,7 @@
             }
           },
           {
-            "id": "a00c02023a0c8faa",
+            "id": "d44114d041106e70",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -658,14 +722,233 @@
               ]
             },
             "state": {
-              "type": "review-queue-list-view",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
-            "id": "d44114d041106e70",
+            "id": "d8ac700411aeb803",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c94e8587cada420d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ae6512985400b49a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b209238370cdbf3c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "eae27b88c87f6934",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e662dbb4aa561fc8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d22fe3bb071c24df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "6c5b4505059afbc6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a06128f3d9fc0ae4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c574cb2f1685360b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ee752c7863eead7b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b3539f31acfc88ae",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "892405f223b8cf91",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -684,7 +967,7 @@
             }
           },
           {
-            "id": "1ae8ef18611825f0",
+            "id": "27e5108808b616bc",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -703,7 +986,7 @@
             }
           },
           {
-            "id": "d8ac700411aeb803",
+            "id": "a737ce3b04eae5d6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -722,11 +1005,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 28
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -755,23 +1038,34 @@
   },
   "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
-    "Lab opensource mlops devops.md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
-    "00-09 system/journal/daily/2024/12/2024-12-08.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
-    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
+    "2024-12.md",
+    "CI CD.md",
+    "Git push and create new repository from a project (202412052057).md",
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
+    "what is GNU LINUX.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "00-09 system/journal/daily/2025/01/2025-01-08.md",
+    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
+    "2025-01-08.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
+    "00-09 system/journal/daily/2025/01",
+    "00-09 system/journal/daily/2025",
+    "Solving ambiguous problems on your own.md",
+    "_FileOrganizer2000/Templates/meeting_note.md",
+    "2024-12-11.md",
     "Lab opensource data engineer.md",
+    "Lab opensource mlops devops.md",
+    "00-09 system/journal/daily/2024/12/2024-12-08.md",
+    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
     "Building Real-Time Data Pipelines (202412081512).md",
-    "CI CD.md",
     "Untitled 1.md",
     "lab opensource.md",
     "Khóa học DE Zach Wilson.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/tags/Tag hub.md",
-    "2024-12.md",
     "MMT3/js/jquery-3.4.1.min.js",
     "MMT3/js/custom.js",
     "MMT3/js/bootstrap.js",
@@ -790,17 +1084,6 @@
     "MMT3/d41d8cd9.dockerignore",
     "MMT3/css/style.scss",
     "MMT3/css/style.css.map",
-    "MMT3/css/style.css",
-    "MMT3/css/responsive.css",
-    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
-    "(202412072044).md",
-    "2024-12-07.md",
-    "00-09 system/journal/daily/2024/12/2024-12-07.md",
-    "Git push and create new repository from a project (202412052057).md",
-    "GIT.md",
-    "GIT Push new repository from git.md",
-    "00-09 system/journal/daily/2024/12/2024-12-04.md",
-    "00-09 system/journal/daily/2024/12/2024-12-05.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",

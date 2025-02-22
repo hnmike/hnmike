@@ -1,0 +1,55 @@
+body {
+  --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.25);
+  --background-primary: transparent;
+  --tab-background-active: transparent;
+  --titlebar-background: transparent;
+  --tab-outline-color: transparent;
+  --text-normal: #f1f1f1;
+  --tab-font-size: 0.85em;
+}
+
+.workspace-tab-header.mod-active.is-active,
+.workspace-split.mod-root,
+.workspace-split.mod-root .view-content,
+.workspace-split.mod-root .view-header,
+.workspace-tab-container,
+.view-header-title-container:not(.mod-at-end):after,
+.custom-frames-frame,
+.is-focused .workspace-leaf.mod-active .view-header {
+  background: transparent !important;
+  color: #fff;
+}
+
+/* Additional styles to ensure transparency */
+.workspace-leaf,
+.workspace-leaf-content,
+.workspace-leaf-content .view-content,
+.workspace-leaf-content .view-header {
+  background: transparent !important;
+}
+
+/* Ensure the sidebar is transparent */
+.sidebar,
+.sidebar .view-content,
+.sidebar .view-header {
+  background: transparent !important;
+}
+
+/* Ensure the status bar is transparent */
+.status-bar {
+  background: transparent !important;
+}
+
+/* Ensure the title bar is transparent */
+.titlebar {
+  background: transparent !important;
+}
+
+/* Ensure the scrollbar is transparent */
+::-webkit-scrollbar {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2) !important;
+}

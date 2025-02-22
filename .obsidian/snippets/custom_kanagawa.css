@@ -100,10 +100,10 @@
 
 .theme-dark
 {
-    --background-primary:         var(--sumiInk1);
-    --background-primary-alt:     var(--sumiInk1);
-    --background-secondary:       var(--sumiInk1b);
-    --background-secondary-alt:   var(--sumiInk2);
+    --background-primary: rgba(29, 27, 37, 0.7);
+    --background-primary-alt: rgba(29, 27, 37, 0.6);
+    --background-secondary: rgba(22, 22, 29, 0.7);
+    --background-secondary-alt: rgba(36, 36, 54, 0.6);
     --text-normal:                var(--fujiWhite);
     --text-faint:                 var(--fujiGray);
     --text-title-h1:              var(--neutral-red);
@@ -672,4 +672,53 @@ a:hover,
 .cm-indent + .cm-indent + .cm-indent::before { left: 2.5em; }
 .cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 3.5em; }
 .cm-indent + .cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 4.5em; }
+
+/* Make main containers transparent */
+.workspace-split.mod-root,
+.workspace-leaf,
+.workspace-tabs,
+.workspace-tab-container,
+.workspace-ribbon,
+.view-content,
+.markdown-source-view,
+.markdown-preview-view {
+    background: transparent !important;
+}
+
+/* Style sidebars and panels */
+.side-dock-ribbon,
+.side-dock,
+.sidebar,
+.nav-folder-title,
+.nav-file-title {
+    background: transparent !important;
+}
+
+/* Transparent titlebar and status bar */
+.titlebar,
+.status-bar {
+    background: transparent !important;
+}
+
+/* Semi-transparent scrollbars */
+::-webkit-scrollbar {
+    background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Add subtle backgrounds to important UI elements */
+.suggestion-container,
+.menu,
+.dropdown {
+    background-color: rgba(29, 27, 37, 0.8) !important;
+}
+
+/* Ensure code blocks remain readable */
+pre[class*="language-"],
+code[class*="language-"] {
+    background-color: rgba(36, 36, 54, 0.6) !important;
+}
 
