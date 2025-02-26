@@ -94,25 +94,6 @@
             }
           },
           {
-            "id": "2e852dbd04c0ca9c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "0111a2b56f3f50a3",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -340,9 +321,38 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
+          },
+          {
+            "id": "280b5f3b59bc3661",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "conflict-files-obsidian-git",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"conflict-files-obsidian-git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"conflict-files-obsidian-git\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "devops"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -975,6 +985,63 @@
               ]
             },
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2062dae8679e2b66",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "14cb0f4aea8fed5b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "6166cca8e9b746ed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -982,7 +1049,7 @@
             }
           },
           {
-            "id": "ecc0ee1e1a58fd7d",
+            "id": "e42a5a56486860d9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1001,8 +1068,17 @@
             }
           },
           {
-            "id": "2062dae8679e2b66",
+            "id": "3a6ce679119818af",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1011,7 +1087,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 32
       }
     ],
     "direction": "horizontal",
@@ -1041,11 +1117,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2062dae8679e2b66",
+  "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "2024-12.md",
     "Lab opensource data engineer.md",
-    "conflict-files-obsidian-git.md",
     "vim motion key.md",
     "Lab week 3 de(202412082116).md",
     "20-30 technical knowledge hub/data engineer/Tag hub.md",
@@ -1055,7 +1132,6 @@
     "what is GNU LINUX.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
-    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "2025-01-08.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
@@ -1096,4 +1172,4 @@
     "00-09 system/canvas/SCHOOL PROJECT.canvas",
     "00-09 system/canvas/MLOP.canvas"
   ]
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
