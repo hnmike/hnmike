@@ -333,6 +333,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":8.337209243011065}"
+                },
+                {
                   "title": " devops",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab/ opensource liên quan đến data engineer/ mlops/ devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"devops\"}",
@@ -349,12 +355,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/MOC/knowledge moc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "knowledge moc"
             }
           }
         ],
@@ -1125,6 +1131,7 @@
   },
   "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "conflict-files-obsidian-git.md",
     "Untitled 2.md",
@@ -1152,7 +1159,6 @@
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "Install Apache Spark Using Docker (202412081557).md",
     "FASTAPI LAB(202412081602).md",
-    "Building Real-Time Data Pipelines (202412081512).md",
     "MMT3/js/jquery-3.4.1.min.js",
     "MMT3/js/custom.js",
     "MMT3/js/bootstrap.js",
