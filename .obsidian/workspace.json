@@ -350,9 +350,32 @@
               "icon": "lucide-file",
               "title": "devops"
             }
+          },
+          {
+            "id": "b7b4274825c66720",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -1117,11 +1140,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "280b5f3b59bc3661",
+  "active": "b7b4274825c66720",
   "lastOpenFiles": [
-    "Untitled 2.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "conflict-files-obsidian-git.md",
+    "Untitled 2.md",
     "2024-12.md",
     "Lab opensource data engineer.md",
     "vim motion key.md",
