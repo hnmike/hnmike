@@ -326,11 +326,23 @@
             "id": "280b5f3b59bc3661",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Linux",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GNU/Linux.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Linux\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "GNU Operating System",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/GNU Operating System.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"GNU Operating System\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 },
                 {
                   "title": "America Fantastica",
@@ -499,12 +511,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-100 resource archives/GNU Operating System.md",
+                "file": "Chats/New Chat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GNU Operating System"
+              "title": "New Chat"
             }
           }
         ],
@@ -1313,6 +1325,9 @@
   },
   "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "GNU/Linux.md",
+    "Chats/New Chat.md",
+    "90-100 resource archives/GNU Operating System.md",
     "90-100 resource archives/book resources/America Fantastica.md",
     "90-100 resource archives/book resources/book metadata.md",
     "90-100 resource archives/book resources/Norwegian Wood.md",
@@ -1338,9 +1353,6 @@
     "2024-12.md",
     "Lab opensource data engineer.md",
     "vim motion key.md",
-    "Lab week 3 de(202412082116).md",
-    "20-30 technical knowledge hub/data engineer/Tag hub.md",
-    "CI CD.md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
     "MMT3/js/jquery-3.4.1.min.js",
