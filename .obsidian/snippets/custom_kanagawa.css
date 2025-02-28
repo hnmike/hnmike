@@ -169,38 +169,69 @@
     --inky-selection: rgba(189, 174, 147, 0.2);  /* Selection with low opacity */
     --inky-highlight: rgba(146, 131, 116, 0.2);  /* Highlight with low opacity */
     --inky-border: #504945;       /* Subtle borders */
+
+    /* Misty Amber Theme - Combining Halcyon, Evergreen and Inky with blur effects */
+    --misty-bg: #282521ee;         /* Slightly transparent dark amber */
+    --misty-darker: #1d1b16f2;     /* Deeper transparent background */
+    --misty-lighter: #32302af0;    /* Lighter transparent shade */
+    --misty-deep: #1a1814f5;       /* Deep transparent background */
+    
+    /* Text Colors with soft glow effect */
+    --misty-text: #d5c4a1ee;       /* Soft amber text */
+    --misty-text-bright: #ebdbb2f0; /* Brighter text with glow */
+    --misty-text-muted: #a89984cc; /* Muted text with transparency */
+    
+    /* Warm Accent Colors with soft blur */
+    --misty-yellow: #d79921ee;     /* Muted yellow with glow */
+    --misty-gold: #b8994fdd;       /* Soft gold */
+    --misty-amber: #e6b455ee;      /* Warm amber */
+    --misty-orange: #d65d0ef0;     /* Soft orange */
+    --misty-peach: #ffa066dd;      /* Peachy tone */
+    --misty-brown: #a89070ee;      /* Warm brown */
+    
+    /* Cool Accent Colors for contrast */
+    --misty-green: #98971acc;      /* Muted green */
+    --misty-blue: #458588dd;       /* Soft blue */
+    --misty-purple: #b16286ee;     /* Muted purple */
+    --misty-aqua: #689d6add;       /* Soft aqua */
+    
+    /* UI Elements with blur effects */
+    --misty-selection: rgba(189, 174, 147, 0.25);
+    --misty-highlight: rgba(146, 131, 116, 0.2);
+    --misty-border: rgba(80, 73, 69, 0.6);
+    --misty-shadow: rgba(26, 24, 20, 0.4);
 }
 
 .theme-dark
 {
-    --background-primary: var(--inky-bg);
-    --background-primary-alt: var(--inky-darker);
-    --background-secondary: var(--inky-darker);
-    --background-secondary-alt: var(--inky-lighter);
-    --text-normal: var(--inky-text);
-    --text-faint: var(--inky-text-muted);
-    --text-title-h1: var(--inky-red);
-    --text-title-h2: var(--inky-orange);
-    --text-title-h3: var(--inky-yellow);
-    --text-title-h4: var(--inky-green);
-    --text-title-h5: var(--inky-aqua);
-    --text-title-h6: var(--inky-blue);
-    --text-link: var(--inky-yellow);
-    --text-a: var(--inky-yellow);
-    --text-a-hover: var(--inky-orange);
-    --text-mark: var(--inky-highlight);
-    --pre-code: var(--inky-deep);
-    --text-highlight-bg: var(--inky-highlight);
-    --interactive-accent: var(--inky-yellow);
-    --interactive-before: var(--inky-text-muted);
-    --background-modifier-border: var(--inky-border);
-    --text-accent: var(--inky-yellow);
-    --interactive-accent-rgb: var(--inky-orange);
-    --text-selection: var(--inky-selection);
-    --text-tag: var(--inky-purple);
-    --task-checkbox: var(--inky-text-muted);
-    --code-block: var(--inky-text-bright);
-    --bold-color: var(--inky-text-bright);
+    --background-primary: var(--misty-bg);
+    --background-primary-alt: var(--misty-darker);
+    --background-secondary: var(--misty-darker);
+    --background-secondary-alt: var(--misty-lighter);
+    --text-normal: var(--misty-text);
+    --text-faint: var(--misty-text-muted);
+    --text-title-h1: var(--misty-orange);
+    --text-title-h2: var(--misty-amber);
+    --text-title-h3: var(--misty-yellow);
+    --text-title-h4: var(--misty-gold);
+    --text-title-h5: var(--misty-brown);
+    --text-title-h6: var(--misty-peach);
+    --text-link: var(--misty-yellow);
+    --text-a: var(--misty-yellow);
+    --text-a-hover: var(--misty-orange);
+    --text-mark: var(--misty-highlight);
+    --pre-code: var(--misty-deep);
+    --text-highlight-bg: var(--misty-highlight);
+    --interactive-accent: var(--misty-yellow);
+    --interactive-before: var(--misty-text-muted);
+    --background-modifier-border: var(--misty-border);
+    --text-accent: var(--misty-gold);
+    --interactive-accent-rgb: var(--misty-amber);
+    --text-selection: var(--misty-selection);
+    --text-tag: var(--misty-purple);
+    --task-checkbox: var(--misty-text-muted);
+    --code-block: var(--misty-text-bright);
+    --bold-color: var(--misty-text-bright);
     --table-header: hsl(0, 0%, 14%);
     --table-row-even: hsl(0, 0%, 17%);
     --table-row-odd: hsl(0, 0%, 20%);
@@ -852,4 +883,98 @@ input.task-list-item-checkbox:checked {
 .cm-indent::before {
     border-left: 2px solid var(--inky-border);
     opacity: 0.3;
+}
+
+/* Add blur effects to UI elements */
+.markdown-preview-section pre code,
+.markdown-preview-section code {
+    background-color: var(--misty-deep) !important;
+    color: var(--misty-text-bright) !important;
+    backdrop-filter: blur(2px);
+}
+
+.cm-inline-code {
+    color: var(--misty-text-bright) !important;
+    background-color: var(--misty-deep) !important;
+    backdrop-filter: blur(2px);
+}
+
+/* Soft glow effect for links */
+a,
+.internal-link,
+.external-link {
+    color: var(--misty-yellow) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 2px rgba(215, 153, 33, 0.2);
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--misty-orange) !important;
+    opacity: 0.95;
+    text-shadow: 0 0 4px rgba(214, 93, 14, 0.3);
+}
+
+/* Blur effect for tags */
+a.tag, a.tag:hover {
+    color: var(--misty-purple) !important;
+    background-color: var(--misty-deep);
+    backdrop-filter: blur(2px);
+    opacity: 0.9;
+}
+
+/* Soft shadows for tables */
+table {
+    border: 1px solid var(--misty-border) !important;
+    box-shadow: 0 2px 4px var(--misty-shadow);
+}
+
+th {
+    background-color: var(--misty-deep);
+    color: var(--misty-text-bright);
+    backdrop-filter: blur(2px);
+}
+
+tr:hover { 
+    background-color: var(--misty-lighter);
+    backdrop-filter: blur(1px);
+}
+
+/* Subtle transitions for interactive elements */
+.nav-file-title,
+.nav-folder-title,
+.side-dock-ribbon-tab,
+.workspace-tab-header {
+    transition: all 0.2s ease;
+}
+
+/* Soft glow for headings */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    text-shadow: 0 0 2px rgba(235, 219, 178, 0.2);
+}
+
+/* Checkbox styling with glow */
+input.task-list-item-checkbox {
+    border: 1px solid var(--misty-yellow);
+    transition: all 0.2s ease;
+}
+
+input.task-list-item-checkbox:checked {
+    background-color: var(--misty-yellow);
+    box-shadow: inset 0 0 0 2px var(--misty-bg),
+                0 0 4px var(--misty-yellow);
+}
+
+/* Soft indent guides */
+.cm-indent::before {
+    border-left: 2px solid var(--misty-border);
+    opacity: 0.25;
+    filter: blur(0.3px);
 }
