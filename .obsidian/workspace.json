@@ -517,7 +517,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1320,10 +1320,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "280b5f3b59bc3661",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/01/2025-01-05.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/homepage/Homepage.md",
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "Chats/New Chat.md",
     "90-100 resource archives/Image",
@@ -1353,8 +1355,6 @@
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "conflict-files-obsidian-git.md",
     "Untitled 2.md",
-    "2024-12.md",
-    "Lab opensource data engineer.md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
     "MMT3/js/jquery-3.4.1.min.js",
