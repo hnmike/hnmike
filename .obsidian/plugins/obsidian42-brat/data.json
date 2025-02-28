@@ -9,6 +9,10 @@
   "pluginSubListFrozenVersion": [],
   "themesList": [
     {
+      "repo": "bladeacer/flexcyon",
+      "lastUpdate": "5822491"
+    },
+    {
       "repo": "ElsaTam/obsidian-fancy-a-story",
       "lastUpdate": "1059029149"
     }
