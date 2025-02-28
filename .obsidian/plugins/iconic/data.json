@@ -17,6 +17,12 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "00-09 system": {
+      "icon": "lucide-pin",
+      "unsynced": [
+        "d2cabb56fefd0520"
+      ]
+    },
     "10-20 zettelkasten": {
       "icon": "lucide-sprout",
       "unsynced": [
