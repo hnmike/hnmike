@@ -517,7 +517,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1320,8 +1320,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aa4d1ed323dcfa1d",
+  "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "Chats/New Chat.md",
