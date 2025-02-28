@@ -16,7 +16,14 @@
   "rememberDeletedItems": false,
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "60-70 PARA": {
+      "icon": "lucide-archive",
+      "unsynced": [
+        "d2cabb56fefd0520"
+      ]
+    }
+  },
   "bookmarkIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {}
