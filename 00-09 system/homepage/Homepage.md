@@ -1,9 +1,3 @@
----
-cssclasses:
-  - no-inline
-  - hide-properties_editing
-  - hide-properties_reading
----
 >[!blank-container|no-margin]
 > `BUTTON[open_moc]` `BUTTON[open_daily_note]` `BUTTON[create_new_note]` `BUTTON[quick_switcher]` `BUTTON[open_inbox]`  
 ```dataviewjs
