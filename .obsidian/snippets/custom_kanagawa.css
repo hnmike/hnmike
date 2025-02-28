@@ -200,6 +200,15 @@
     --misty-highlight: rgba(146, 131, 116, 0.2);
     --misty-border: rgba(80, 73, 69, 0.6);
     --misty-shadow: rgba(26, 24, 20, 0.4);
+
+    /* Halcyon Accent Colors with Blur Effects */
+    --hal-accent-primary: rgba(95, 126, 151, 0.9);      /* Muted blue */
+    --hal-accent-secondary: rgba(134, 179, 209, 0.85);  /* Lighter blue */
+    --hal-accent-tertiary: rgba(108, 153, 187, 0.8);    /* Medium blue */
+    --hal-accent-hover: rgba(160, 200, 225, 0.75);      /* Bright blue for hover */
+    --hal-text-accent: rgba(200, 215, 230, 0.9);        /* Light text */
+    --hal-blur-bg: rgba(40, 44, 52, 0.85);             /* Background with transparency */
+    --hal-blur-accent: rgba(95, 126, 151, 0.2);        /* Accent with high transparency */
 }
 
 .theme-dark
@@ -977,4 +986,58 @@ input.task-list-item-checkbox:checked {
     border-left: 2px solid var(--misty-border);
     opacity: 0.25;
     filter: blur(0.3px);
+}
+
+/* Update accent elements with blur effects */
+.is-active,
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+    color: var(--hal-accent-primary) !important;
+    backdrop-filter: blur(1px);
+    text-shadow: 0 0 2px rgba(95, 126, 151, 0.2);
+}
+
+.view-header-title:hover,
+.workspace-tab-header.is-active {
+    color: var(--hal-accent-secondary) !important;
+    backdrop-filter: blur(1.5px);
+    transition: all 0.3s ease;
+}
+
+/* Links with soft glow and blur */
+.internal-link,
+.external-link {
+    color: var(--hal-accent-tertiary) !important;
+    text-shadow: 0 0 3px rgba(108, 153, 187, 0.2);
+    transition: all 0.2s ease;
+}
+
+.internal-link:hover,
+.external-link:hover {
+    color: var(--hal-accent-hover) !important;
+    text-shadow: 0 0 4px rgba(160, 200, 225, 0.3);
+    backdrop-filter: blur(0.5px);
+}
+
+/* Active elements with blur effect */
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+    background-color: var(--hal-blur-bg) !important;
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+}
+
+/* Accent elements with subtle glow */
+.workspace-leaf.mod-active .view-header {
+    background-color: var(--hal-blur-bg) !important;
+    border-bottom: 1px solid var(--hal-blur-accent);
+    backdrop-filter: blur(1px);
+}
+
+/* Headers with soft glow */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3 {
+    color: var(--hal-text-accent) !important;
+    text-shadow: 0 0 2px rgba(200, 215, 230, 0.2);
 }

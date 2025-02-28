@@ -305,7 +305,7 @@
             "id": "280b5f3b59bc3661",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
                   "title": "2025-02-28",
@@ -314,14 +314,14 @@
                   "eState": "{\"scroll\":0}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":227,\"ch\":28},\"to\":{\"line\":227,\"ch\":28}},\"scroll\":0}"
                 },
                 {
-                  "title": "2025-02-28",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/02/2025-02-28.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-02-28\"}",
-                  "eState": "{\"scroll\":7.362}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "Homepage",
@@ -508,12 +508,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
-                "mode": "source",
+                "file": "00-09 system/journal/daily/2025/02/2025-02-28.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "2025-02-28"
             }
           }
         ],
@@ -1322,10 +1322,10 @@
   },
   "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "Chats/New Chat.md",
