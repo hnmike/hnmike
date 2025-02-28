@@ -333,6 +333,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2025-02-28",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/02/2025-02-28.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-02-28\"}",
+                  "eState": "{\"scroll\":7.362}"
+                },
+                {
                   "title": "Homepage",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
@@ -517,12 +523,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2025/02/2025-02-28.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-28"
+              "title": "Homepage"
             }
           }
         ],
@@ -1331,6 +1337,7 @@
   },
   "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "00-09 system/homepage/Homepage.md",
     "Chats/New Chat.md",
     "90-100 resource archives/Image",
@@ -1351,7 +1358,6 @@
     "00-09 system/MOC/knowledge moc.md",
     "Note-Templates.md",
     "PKM-Structure.md",
-    "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "00-09 system/journal/daily/2025/02",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "00-09 system/homepage/dashboard.canvas",
