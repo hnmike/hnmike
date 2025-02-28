@@ -152,34 +152,34 @@
 
 .theme-dark
 {
-    --background-primary: var(--warm-bg);
-    --background-primary-alt: var(--warm-darker);
-    --background-secondary: var(--warm-darker);
-    --background-secondary-alt: var(--warm-lighter);
-    --text-normal: var(--warm-text);
-    --text-faint: var(--warm-muted);
-    --text-title-h1: var(--warm-rust);
-    --text-title-h2: var(--warm-orange);
-    --text-title-h3: var(--warm-gold);
-    --text-title-h4: var(--warm-yellow);
-    --text-title-h5: var(--warm-amber);
-    --text-title-h6: var(--warm-peach);
-    --text-link: var(--warm-yellow);
-    --text-a: var(--warm-yellow);
-    --text-a-hover: var(--warm-orange);
-    --text-mark: var(--warm-highlight);
-    --pre-code: var(--warm-darker);
-    --text-highlight-bg: var(--warm-highlight);
-    --interactive-accent: var(--warm-yellow);
-    --interactive-before: var(--warm-muted);
-    --background-modifier-border: var(--warm-highlight);
-    --text-accent: var(--warm-gold);
-    --interactive-accent-rgb: var(--warm-amber);
-    --text-selection: var(--warm-selection);
-    --text-tag: var(--warm-peach);
-    --task-checkbox: var(--warm-muted);
-    --code-block: var(--warm-cream);
-    --bold-color: var(--warm-yellow);
+    --background-primary: var(--halcyon-bg);
+    --background-primary-alt: var(--halcyon-darker);
+    --background-secondary: var(--halcyon-darker);
+    --background-secondary-alt: var(--halcyon-lighter);
+    --text-normal: var(--halcyon-text);
+    --text-faint: var(--halcyon-muted);
+    --text-title-h1: var(--hal-gruvbox-red);
+    --text-title-h2: var(--hal-gruvbox-orange);
+    --text-title-h3: var(--hal-gruvbox-yellow);
+    --text-title-h4: var(--hal-gruvbox-green);
+    --text-title-h5: var(--hal-gruvbox-aqua);
+    --text-title-h6: var(--hal-gruvbox-blue);
+    --text-link: var(--hal-gruvbox-blue);
+    --text-a: var(--hal-gruvbox-blue);
+    --text-a-hover: var(--hal-gruvbox-purple);
+    --text-mark: var(--halcyon-highlight);
+    --pre-code: var(--halcyon-darker);
+    --text-highlight-bg: var(--halcyon-highlight);
+    --interactive-accent: var(--hal-gruvbox-blue);
+    --interactive-before: var(--halcyon-muted);
+    --background-modifier-border: var(--halcyon-border);
+    --text-accent: var(--hal-gruvbox-green);
+    --interactive-accent-rgb: var(--hal-gruvbox-green);
+    --text-selection: var(--halcyon-selection);
+    --text-tag: var(--hal-gruvbox-purple);
+    --task-checkbox: var(--halcyon-muted);
+    --code-block: var(--hal-gruvbox-aqua);
+    --bold-color: var(--hal-gruvbox-yellow);
     --table-header: hsl(0, 0%, 14%);
     --table-row-even: hsl(0, 0%, 17%);
     --table-row-odd: hsl(0, 0%, 20%);
@@ -316,7 +316,7 @@ mark
 }
 
 table {
-    border: 1px solid var(--warm-highlight) !important;
+    border: 1px solid var(--halcyon-border) !important;
     border-collapse: collapse;
 }
   
@@ -324,19 +324,19 @@ th {
     font-weight: 600 !important;
     border: 0px !important;
     text-align: left;
-    background-color: var(--warm-highlight);
-    color: var(--warm-text);
+    background-color: var(--halcyon-highlight);
+    color: var(--halcyon-text);
 }
 
 td {
     border-left: 0px !important;
     border-right: 0px !important;
-    border-bottom: 1px solid var(--warm-highlight) !important;
+    border-bottom: 1px solid var(--halcyon-border) !important;
 }
 
-tr:nth-child(even){ background-color: var(--warm-bg) }
-tr:nth-child(odd){ background-color: var(--warm-darker) }
-tr:hover { background-color: var(--warm-highlight); }
+tr:nth-child(even){ background-color: var(--halcyon-bg) }
+tr:nth-child(odd){ background-color: var(--halcyon-darker) }
+tr:hover { background-color: var(--halcyon-highlight); }
   
 thead
 {
@@ -411,8 +411,8 @@ thead
 .markdown-preview-section code
 {
     font-size: 0.9em !important;
-    background-color: var(--warm-darker) !important;
-    color: var(--warm-cream) !important;
+    background-color: var(--halcyon-darker) !important;
+    color: var(--hal-gruvbox-aqua) !important;
 }
 
 .markdown-preview-section pre code
@@ -435,8 +435,8 @@ thead
 
 .cm-inline-code
 {
-    color: var(--warm-cream) !important;
-    background-color: var(--warm-darker) !important;
+    color: var(--hal-gruvbox-aqua) !important;
+    background-color: var(--halcyon-darker) !important;
     padding: 1px !important;
 }
 
@@ -641,21 +641,21 @@ h6 a
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--warm-yellow);
+    border: 1px solid var(--hal-gruvbox-blue);
     appearance: none;
     -webkit-appearance: none;
 }
 
 input.task-list-item-checkbox:checked
 {
-    background-color: var(--warm-gold);
+    background-color: var(--hal-gruvbox-green);
     box-shadow: inset 0 0 0 2px var(--background-primary);
 }
 
 ::selection
 {
-    background-color: var(--warm-selection) !important;
-    color: var(--warm-text) !important;
+    background-color: var(--halcyon-selection) !important;
+    color: var(--halcyon-text) !important;
 }
 
 .mermaid .note
@@ -665,7 +665,7 @@ input.task-list-item-checkbox:checked
 
 .cm-line .cm-strong
 {
-    color: var(--warm-yellow) !important;
+    color: var(--hal-gruvbox-yellow) !important;
     opacity: 0.95;
 }                
 
@@ -694,14 +694,14 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--warm-yellow) !important;
+    color: var(--hal-gruvbox-blue) !important;
     opacity: 0.95;
 }
 
 a:hover,
 .internal-link:hover,
 .external-link:hover {
-    color: var(--warm-orange) !important;
+    color: var(--hal-gruvbox-purple) !important;
 }
 
 
@@ -715,7 +715,7 @@ a:hover,
     opacity: 0.4;
     top: 0;
     height: 100%;
-    border-left: 2px solid var(--evergreen-border);
+    border-left: 2px solid var(--halcyon-border);
 }
 
 .cm-indent::before { left: 0.5em; }
@@ -735,34 +735,34 @@ a:hover,
 
 /* Update table styles */
 table {
-    border: 1px solid var(--warm-highlight) !important;
+    border: 1px solid var(--halcyon-border) !important;
 }
 
 th {
-    background-color: var(--warm-highlight);
-    color: var(--warm-text);
+    background-color: var(--halcyon-highlight);
+    color: var(--halcyon-text);
 }
 
 td {
-    border-bottom: 1px solid var(--warm-highlight) !important;
+    border-bottom: 1px solid var(--halcyon-border) !important;
 }
 
 tr:nth-child(even) { 
-    background-color: var(--warm-bg);
+    background-color: var(--halcyon-bg);
 }
 
 tr:nth-child(odd) { 
-    background-color: var(--warm-darker);
+    background-color: var(--halcyon-darker);
 }
 
 tr:hover { 
-    background-color: var(--warm-highlight);
+    background-color: var(--halcyon-highlight);
 }
 
 /* Update selection color */
 ::selection {
-    background-color: var(--warm-selection) !important;
-    color: var(--warm-text) !important;
+    background-color: var(--halcyon-selection) !important;
+    color: var(--halcyon-text) !important;
 }
 
 /* Update accent colors */
@@ -771,13 +771,13 @@ tr:hover {
 }
 
 .cm-line .cm-strong {
-    color: var(--evergreen-accent) !important;
+    color: var(--hal-gruvbox-yellow) !important;
     opacity: 0.95;
 }
 
 /* Update indent guides */
 .cm-indent::before {
-    border-left: 2px solid var(--warm-highlight);
+    border-left: 2px solid var(--halcyon-border);
     opacity: 0.4;
 }
 
@@ -786,46 +786,46 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--warm-yellow) !important;
+    color: var(--hal-gruvbox-blue) !important;
     opacity: 0.95;
 }
 
 a:hover,
 .internal-link:hover,
 .external-link:hover {
-    color: var(--warm-orange) !important;
+    color: var(--hal-gruvbox-purple) !important;
 }
 
 /* Update code blocks */
 .markdown-preview-section pre code,
 .markdown-preview-section code {
-    background-color: var(--warm-darker) !important;
-    color: var(--warm-cream) !important;
+    background-color: var(--halcyon-darker) !important;
+    color: var(--hal-gruvbox-aqua) !important;
 }
 
 .cm-inline-code {
-    color: var(--warm-cream) !important;
-    background-color: var(--warm-darker) !important;
+    color: var(--hal-gruvbox-aqua) !important;
+    background-color: var(--halcyon-darker) !important;
 }
 
 /* Update tags */
 a.tag, a.tag:hover {
-    color: var(--warm-peach) !important;
-    background-color: var(--warm-lighter);
+    color: var(--hal-gruvbox-purple) !important;
+    background-color: var(--halcyon-lighter);
 }
 
 /* Update checkboxes */
 input.task-list-item-checkbox {
-    border: 1px solid var(--warm-yellow);
+    border: 1px solid var(--hal-gruvbox-blue);
 }
 
 input.task-list-item-checkbox:checked {
-    background-color: var(--warm-gold);
+    background-color: var(--hal-gruvbox-green);
     box-shadow: inset 0 0 0 2px var(--background-primary);
 }
 
 /* Update indent guides */
 .cm-indent::before {
-    border-left: 2px solid var(--warm-highlight);
+    border-left: 2px solid var(--halcyon-border);
     opacity: 0.4;
 }
