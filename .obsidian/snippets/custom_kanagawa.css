@@ -259,7 +259,7 @@ mark
 .HyperMD-codeblock
 {
     line-height: 1.4em !important;
-    color: var(--code-block) !important;
+    color: var(--evergreen-text) !important;
 }
 
 .HyperMD-codeblock-begin
@@ -275,7 +275,7 @@ mark
 }
 
 table {
-    border: 1px solid var(--background-secondary) !important;
+    border: 1px solid var(--evergreen-border) !important;
     border-collapse: collapse;
 }
   
@@ -283,19 +283,19 @@ th {
     font-weight: 600 !important;
     border: 0px !important;
     text-align: left;
-    background-color: var(--table-header);
-    color: var(--neutral-green);
+    background-color: var(--evergreen-highlight);
+    color: var(--evergreen-text);
 }
 
 td {
     border-left: 0px !important;
     border-right: 0px !important;
-    border-bottom: 1px solid var(--background-secondary) !important;
+    border-bottom: 1px solid var(--evergreen-border) !important;
 }
 
-tr:nth-child(even){ background-color: var(--table-row-even) }
-tr:nth-child(odd){ background-color: var(--table-row-odd) }
-tr:hover { background-color: var(--table-hover); }
+tr:nth-child(even){ background-color: var(--evergreen-bg) }
+tr:nth-child(odd){ background-color: var(--evergreen-darker) }
+tr:hover { background-color: var(--evergreen-highlight); }
   
 thead
 {
@@ -370,7 +370,8 @@ thead
 .markdown-preview-section code
 {
     font-size: 0.9em !important;
-    background-color: var(--pre-code) !important;
+    background-color: var(--evergreen-darker) !important;
+    color: var(--evergreen-text) !important;
 }
 
 .markdown-preview-section pre code
@@ -378,7 +379,6 @@ thead
     padding: 4px !important;
     line-height: 1.4em !important;
     display: block !important;
-    color: var(--code-block) !important;
 }
 
 .markdown-preview-section code
@@ -394,8 +394,8 @@ thead
 
 .cm-inline-code
 {
-    color: var(--inline-code) !important;
-    background-color: var(--pre-code) !important;
+    color: var(--evergreen-text) !important;
+    background-color: var(--evergreen-darker) !important;
     padding: 1px !important;
 }
 
@@ -613,7 +613,8 @@ input.task-list-item-checkbox:checked
 
 ::selection
 {
-    background-color: var(--text-selection) !important;
+    background-color: var(--evergreen-selection) !important;
+    color: var(--evergreen-text) !important;
 }
 
 .mermaid .note
@@ -623,17 +624,18 @@ input.task-list-item-checkbox:checked
 
 .cm-line .cm-strong
 {
-    color: var(--bold-color) !important;
+    color: var(--evergreen-accent) !important;
+    opacity: 0.95;
 }                
 
 
 :root {
-    --accent-color: #5C82F5; /* Purple with 80% opacity */
+    --accent-color: var(--evergreen-link);
     --Yellow : #ffde37;
 }
 
 .cm-line .cm-strong {
-    color: var(--bright-aqua) !important;
+    color: var(--evergreen-accent) !important;
     opacity: 0.95;
 }
 
@@ -651,8 +653,14 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--accent-color) !important;
+    color: var(--evergreen-link) !important;
     opacity: 0.95;
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--evergreen-hover) !important;
 }
 
 
@@ -663,10 +671,10 @@ a:hover,
     content: "";
     display: block;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.4;
     top: 0;
     height: 100%;
-    border-left: 2px solid var(--accent-color);
+    border-left: 2px solid var(--evergreen-border);
 }
 
 .cm-indent::before { left: 0.5em; }
@@ -674,3 +682,87 @@ a:hover,
 .cm-indent + .cm-indent + .cm-indent::before { left: 2.5em; }
 .cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 3.5em; }
 .cm-indent + .cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 4.5em; }
+
+.HyperMD-codeblock-bg {
+    background-color: var(--evergreen-darker) !important;
+}
+
+.HyperMD-codeblock {
+    line-height: 1.4em !important;
+    color: var(--evergreen-text) !important;
+}
+
+/* Update table styles */
+table {
+    border: 1px solid var(--evergreen-border) !important;
+}
+
+th {
+    background-color: var(--evergreen-highlight);
+    color: var(--evergreen-text);
+}
+
+td {
+    border-bottom: 1px solid var(--evergreen-border) !important;
+}
+
+tr:nth-child(even) { 
+    background-color: var(--evergreen-bg);
+}
+
+tr:nth-child(odd) { 
+    background-color: var(--evergreen-darker);
+}
+
+tr:hover { 
+    background-color: var(--evergreen-highlight);
+}
+
+/* Update selection color */
+::selection {
+    background-color: var(--evergreen-selection) !important;
+    color: var(--evergreen-text) !important;
+}
+
+/* Update accent colors */
+:root {
+    --accent-color: var(--evergreen-link);
+}
+
+.cm-line .cm-strong {
+    color: var(--evergreen-accent) !important;
+    opacity: 0.95;
+}
+
+/* Update indent guides */
+.cm-indent::before {
+    border-left: 2px solid var(--evergreen-border);
+    opacity: 0.4;
+}
+
+/* Update link colors */
+a,
+a:hover,
+.internal-link,
+.external-link {
+    color: var(--evergreen-link) !important;
+    opacity: 0.95;
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--evergreen-hover) !important;
+}
+
+/* Update code blocks */
+.markdown-preview-section pre code,
+.markdown-preview-section code {
+    background-color: var(--evergreen-darker) !important;
+    color: var(--evergreen-text) !important;
+}
+
+.cm-inline-code {
+    color: var(--evergreen-text) !important;
+    background-color: var(--evergreen-darker) !important;
+}
