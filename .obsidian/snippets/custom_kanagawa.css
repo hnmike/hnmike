@@ -144,38 +144,63 @@
     --hal-gruv-bg-hover: #3c3836;
     --hal-gruv-border: #504945;
     --hal-gruv-selection: rgba(251, 184, 108, 0.2);
+
+    /* Inky Yellow Theme Colors - Combining Halcyon and Gruvbox */
+    --inky-bg: #282521;           /* Darker yellow-tinted background */
+    --inky-darker: #1d1b16;       /* Even darker for contrast */
+    --inky-lighter: #32302a;      /* Lighter shade for highlights */
+    --inky-deep: #1a1814;         /* Deepest shade for special elements */
+    
+    /* Text Colors */
+    --inky-text: #d5c4a1;         /* Main text - muted yellow */
+    --inky-text-bright: #ebdbb2;  /* Brighter text for emphasis */
+    --inky-text-muted: #a89984;   /* Muted text for less emphasis */
+    
+    /* Accent Colors */
+    --inky-yellow: #d79921;       /* Muted yellow */
+    --inky-orange: #d65d0e;       /* Muted orange */
+    --inky-red: #cc241d;          /* Muted red */
+    --inky-purple: #b16286;       /* Muted purple */
+    --inky-blue: #458588;         /* Muted blue */
+    --inky-aqua: #689d6a;         /* Muted aqua */
+    --inky-green: #98971a;        /* Muted green */
+    
+    /* UI Elements */
+    --inky-selection: rgba(189, 174, 147, 0.2);  /* Selection with low opacity */
+    --inky-highlight: rgba(146, 131, 116, 0.2);  /* Highlight with low opacity */
+    --inky-border: #504945;       /* Subtle borders */
 }
 
 .theme-dark
 {
-    --background-primary: var(--hal-gruv-bg);
-    --background-primary-alt: var(--hal-gruv-bg-dark);
-    --background-secondary: var(--hal-gruv-bg-dark);
-    --background-secondary-alt: var(--hal-gruv-bg-light);
-    --text-normal: var(--hal-gruv-fg);
-    --text-faint: var(--hal-gruv-fg-muted);
-    --text-title-h1: var(--hal-gruv-red);
-    --text-title-h2: var(--hal-gruv-orange);
-    --text-title-h3: var(--hal-gruv-yellow);
-    --text-title-h4: var(--hal-gruv-yellow-soft);
-    --text-title-h5: var(--hal-gruv-yellow-warm);
-    --text-title-h6: var(--hal-gruv-orange-soft);
-    --text-link: var(--hal-gruv-yellow);
-    --text-a: var(--hal-gruv-yellow);
-    --text-a-hover: var(--hal-gruv-orange);
-    --text-mark: var(--hal-gruv-bg-highlight);
-    --pre-code: var(--hal-gruv-bg-dark);
-    --text-highlight-bg: var(--hal-gruv-bg-highlight);
-    --interactive-accent: var(--hal-gruv-yellow);
-    --interactive-before: var(--hal-gruv-fg-muted);
-    --background-modifier-border: var(--hal-gruv-border);
-    --text-accent: var(--hal-gruv-yellow-soft);
-    --interactive-accent-rgb: var(--hal-gruv-yellow);
-    --text-selection: var(--hal-gruv-selection);
-    --text-tag: var(--hal-gruv-orange);
-    --task-checkbox: var(--hal-gruv-fg-muted);
-    --code-block: var(--hal-gruv-aqua);
-    --bold-color: var(--hal-gruv-yellow);
+    --background-primary: var(--inky-bg);
+    --background-primary-alt: var(--inky-darker);
+    --background-secondary: var(--inky-darker);
+    --background-secondary-alt: var(--inky-lighter);
+    --text-normal: var(--inky-text);
+    --text-faint: var(--inky-text-muted);
+    --text-title-h1: var(--inky-red);
+    --text-title-h2: var(--inky-orange);
+    --text-title-h3: var(--inky-yellow);
+    --text-title-h4: var(--inky-green);
+    --text-title-h5: var(--inky-aqua);
+    --text-title-h6: var(--inky-blue);
+    --text-link: var(--inky-yellow);
+    --text-a: var(--inky-yellow);
+    --text-a-hover: var(--inky-orange);
+    --text-mark: var(--inky-highlight);
+    --pre-code: var(--inky-deep);
+    --text-highlight-bg: var(--inky-highlight);
+    --interactive-accent: var(--inky-yellow);
+    --interactive-before: var(--inky-text-muted);
+    --background-modifier-border: var(--inky-border);
+    --text-accent: var(--inky-yellow);
+    --interactive-accent-rgb: var(--inky-orange);
+    --text-selection: var(--inky-selection);
+    --text-tag: var(--inky-purple);
+    --task-checkbox: var(--inky-text-muted);
+    --code-block: var(--inky-text-bright);
+    --bold-color: var(--inky-text-bright);
     --table-header: hsl(0, 0%, 14%);
     --table-row-even: hsl(0, 0%, 17%);
     --table-row-odd: hsl(0, 0%, 20%);
@@ -312,7 +337,7 @@ mark
 }
 
 table {
-    border: 1px solid var(--hal-gruv-border) !important;
+    border: 1px solid var(--inky-border) !important;
     border-collapse: collapse;
 }
   
@@ -320,19 +345,19 @@ th {
     font-weight: 600 !important;
     border: 0px !important;
     text-align: left;
-    background-color: var(--hal-gruv-bg-highlight);
-    color: var(--hal-gruv-fg);
+    background-color: var(--inky-deep);
+    color: var(--inky-text-bright);
 }
 
 td {
     border-left: 0px !important;
     border-right: 0px !important;
-    border-bottom: 1px solid var(--hal-gruv-border) !important;
+    border-bottom: 1px solid var(--inky-border) !important;
 }
 
-tr:nth-child(even){ background-color: var(--hal-gruv-bg) }
-tr:nth-child(odd){ background-color: var(--hal-gruv-bg-dark) }
-tr:hover { background-color: var(--hal-gruv-bg-highlight); }
+tr:nth-child(even){ background-color: var(--inky-bg) }
+tr:nth-child(odd){ background-color: var(--inky-darker) }
+tr:hover { background-color: var(--inky-lighter); }
   
 thead
 {
@@ -407,8 +432,8 @@ thead
 .markdown-preview-section code
 {
     font-size: 0.9em !important;
-    background-color: var(--hal-gruv-bg-dark) !important;
-    color: var(--hal-gruv-aqua) !important;
+    background-color: var(--inky-deep) !important;
+    color: var(--inky-text-bright) !important;
 }
 
 .markdown-preview-section pre code
@@ -431,8 +456,8 @@ thead
 
 .cm-inline-code
 {
-    color: var(--hal-gruv-aqua) !important;
-    background-color: var(--hal-gruv-bg-dark) !important;
+    color: var(--inky-text-bright) !important;
+    background-color: var(--inky-deep) !important;
     padding: 1px !important;
 }
 
@@ -637,21 +662,21 @@ h6 a
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--hal-gruv-yellow);
+    border: 1px solid var(--inky-yellow);
     appearance: none;
     -webkit-appearance: none;
 }
 
 input.task-list-item-checkbox:checked
 {
-    background-color: var(--hal-gruv-yellow-soft);
-    box-shadow: inset 0 0 0 2px var(--background-primary);
+    background-color: var(--inky-yellow);
+    box-shadow: inset 0 0 0 2px var(--inky-bg);
 }
 
 ::selection
 {
-    background-color: var(--hal-gruv-selection) !important;
-    color: var(--hal-gruv-fg) !important;
+    background-color: var(--inky-selection) !important;
+    color: var(--inky-text-bright) !important;
 }
 
 .mermaid .note
@@ -661,7 +686,7 @@ input.task-list-item-checkbox:checked
 
 .cm-line .cm-strong
 {
-    color: var(--hal-gruv-yellow) !important;
+    color: var(--inky-text-bright) !important;
     opacity: 0.95;
 }                
 
@@ -690,14 +715,15 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--hal-gruv-yellow) !important;
-    opacity: 0.95;
+    color: var(--inky-yellow) !important;
+    opacity: 0.9;
 }
 
 a:hover,
 .internal-link:hover,
 .external-link:hover {
-    color: var(--hal-gruv-orange) !important;
+    color: var(--inky-orange) !important;
+    opacity: 0.95;
 }
 
 
@@ -711,7 +737,7 @@ a:hover,
     opacity: 0.4;
     top: 0;
     height: 100%;
-    border-left: 2px solid var(--hal-gruv-border);
+    border-left: 2px solid var(--inky-border);
 }
 
 .cm-indent::before { left: 0.5em; }
@@ -731,34 +757,34 @@ a:hover,
 
 /* Update table styles */
 table {
-    border: 1px solid var(--hal-gruv-border) !important;
+    border: 1px solid var(--inky-border) !important;
 }
 
 th {
-    background-color: var(--hal-gruv-bg-highlight);
-    color: var(--hal-gruv-fg);
+    background-color: var(--inky-deep);
+    color: var(--inky-text-bright);
 }
 
 td {
-    border-bottom: 1px solid var(--hal-gruv-border) !important;
+    border-bottom: 1px solid var(--inky-border) !important;
 }
 
 tr:nth-child(even) { 
-    background-color: var(--hal-gruv-bg);
+    background-color: var(--inky-bg);
 }
 
 tr:nth-child(odd) { 
-    background-color: var(--hal-gruv-bg-dark);
+    background-color: var(--inky-darker);
 }
 
 tr:hover { 
-    background-color: var(--hal-gruv-bg-highlight);
+    background-color: var(--inky-lighter);
 }
 
 /* Update selection color */
 ::selection {
-    background-color: var(--hal-gruv-selection) !important;
-    color: var(--hal-gruv-fg) !important;
+    background-color: var(--inky-selection) !important;
+    color: var(--inky-text-bright) !important;
 }
 
 /* Update accent colors */
@@ -767,14 +793,14 @@ tr:hover {
 }
 
 .cm-line .cm-strong {
-    color: var(--hal-gruv-yellow) !important;
+    color: var(--inky-text-bright) !important;
     opacity: 0.95;
 }
 
 /* Update indent guides */
 .cm-indent::before {
-    border-left: 2px solid var(--hal-gruv-border);
-    opacity: 0.4;
+    border-left: 2px solid var(--inky-border);
+    opacity: 0.3;
 }
 
 /* Update link colors */
@@ -782,46 +808,48 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--hal-gruv-yellow) !important;
-    opacity: 0.95;
+    color: var(--inky-yellow) !important;
+    opacity: 0.9;
 }
 
 a:hover,
 .internal-link:hover,
 .external-link:hover {
-    color: var(--hal-gruv-orange) !important;
+    color: var(--inky-orange) !important;
+    opacity: 0.95;
 }
 
 /* Update code blocks */
 .markdown-preview-section pre code,
 .markdown-preview-section code {
-    background-color: var(--hal-gruv-bg-dark) !important;
-    color: var(--hal-gruv-aqua) !important;
+    background-color: var(--inky-deep) !important;
+    color: var(--inky-text-bright) !important;
 }
 
 .cm-inline-code {
-    color: var(--hal-gruv-aqua) !important;
-    background-color: var(--hal-gruv-bg-dark) !important;
+    color: var(--inky-text-bright) !important;
+    background-color: var(--inky-deep) !important;
 }
 
 /* Update tags */
 a.tag, a.tag:hover {
-    color: var(--hal-gruv-orange) !important;
-    background-color: var(--hal-gruv-bg-light);
+    color: var(--inky-purple) !important;
+    background-color: var(--inky-deep);
+    opacity: 0.9;
 }
 
 /* Update checkboxes */
 input.task-list-item-checkbox {
-    border: 1px solid var(--hal-gruv-yellow);
+    border: 1px solid var(--inky-yellow);
 }
 
 input.task-list-item-checkbox:checked {
-    background-color: var(--hal-gruv-yellow-soft);
-    box-shadow: inset 0 0 0 2px var(--background-primary);
+    background-color: var(--inky-yellow);
+    box-shadow: inset 0 0 0 2px var(--inky-bg);
 }
 
 /* Update indent guides */
 .cm-indent::before {
-    border-left: 2px solid var(--hal-gruv-border);
-    opacity: 0.4;
+    border-left: 2px solid var(--inky-border);
+    opacity: 0.3;
 }
