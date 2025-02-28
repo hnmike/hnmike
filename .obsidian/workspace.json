@@ -1203,8 +1203,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "Note-Templates.md",
+    "PKM-Structure.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/02",
@@ -1233,8 +1235,6 @@
     "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
-    "Solving ambiguous problems on your own.md",
-    "2024-12-11.md",
     "MMT3/js/jquery-3.4.1.min.js",
     "MMT3/js/custom.js",
     "MMT3/js/bootstrap.js",
