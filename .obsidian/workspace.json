@@ -333,6 +333,90 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "America Fantastica",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/America Fantastica.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"America Fantastica\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "book metadata",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book metadata\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "Norwegian Wood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/Norwegian Wood.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Norwegian Wood\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "Omniscient Reader's Viewpoint",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/Omniscient Reader's Viewpoint.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Omniscient Reader's Viewpoint\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}}}"
+                },
+                {
+                  "title": "Norwegian Wood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/Norwegian Wood.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Norwegian Wood\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "book1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "America Fantastica",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/America Fantastica.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"America Fantastica\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "book metadata",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book metadata\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "book1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Norwegian Wood",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/Norwegian Wood.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Norwegian Wood\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "book1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "book metadata",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/book metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book metadata\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "America Fantastica",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"90-100 resource archives/book resources/America Fantastica.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"America Fantastica\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}}}"
+                },
+                {
+                  "title": "Drawing 2024-10-23 20.08.07.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2024-10-23 20.08.07.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Drawing 2024-10-29 16.55.38.excalidraw",
                   "icon": "excalidraw-icon",
                   "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2024-10-29 16.55.38.excalidraw\"}",
@@ -413,12 +497,14 @@
               ]
             },
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md"
+                "file": "90-100 resource archives/GNU Operating System.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-23 20.08.07.excalidraw"
+              "icon": "lucide-file",
+              "title": "GNU Operating System"
             }
           }
         ],
@@ -1227,8 +1313,13 @@
   },
   "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
+    "90-100 resource archives/book resources/America Fantastica.md",
+    "90-100 resource archives/book resources/book metadata.md",
+    "90-100 resource archives/book resources/Norwegian Wood.md",
+    "90-100 resource archives/book resources/Omniscient Reader's Viewpoint.md",
+    "90-100 resource archives/book resources/book1.md",
     "Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
     "Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md",
     "00-09 system/MOC/knowledge moc.md",
     "00-09 system/homepage/Homepage.md",
@@ -1250,11 +1341,6 @@
     "Lab week 3 de(202412082116).md",
     "20-30 technical knowledge hub/data engineer/Tag hub.md",
     "CI CD.md",
-    "Git push and create new repository from a project (202412052057).md",
-    "00-09 system/journal/daily/2025/01/2025-01-05.md",
-    "what is GNU LINUX.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
     "MMT3/js/jquery-3.4.1.min.js",
