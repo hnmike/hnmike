@@ -329,10 +329,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "DASHBOARD",
+                  "title": "UNTITLED CHAT 2024-11-17 07 48 00",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/DASHBOARD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DASHBOARD\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"UNTITLED CHAT 2024-11-17 07 48 00\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.9730230496970564}"
                 },
                 {
                   "state": "{}",
@@ -1196,8 +1196,8 @@
   },
   "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
-    "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/homepage/dashboard.canvas",
+    "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/MOC/knowledge moc.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "00-09 system/template/daily note template.md",
