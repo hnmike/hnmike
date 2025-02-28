@@ -18,7 +18,7 @@
     "custom_kanagawa"
   ],
   "theme": "obsidian",
-  "cssTheme": "",
+  "cssTheme": "Obsidian gruvbox",
   "accentColor": "#ffffff",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
