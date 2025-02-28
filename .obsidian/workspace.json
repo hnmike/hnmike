@@ -441,7 +441,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#definition",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1194,7 +1194,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "280b5f3b59bc3661",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "00-09 system/homepage/DASHBOARD.md",
     "00-09 system/homepage/dashboard.canvas",
