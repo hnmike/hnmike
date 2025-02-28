@@ -14,8 +14,7 @@
     "highlights",
     "mermaid",
     "bulleththreading",
-    "removehighlight",
-    "custom_kanagawa"
+    "removehighlight"
   ],
   "theme": "obsidian",
   "cssTheme": "Obsidian gruvbox",
