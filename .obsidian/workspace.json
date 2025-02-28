@@ -333,6 +333,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Drawing 2024-10-29 16.55.38.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2024-10-29 16.55.38.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2024-10-23 20.08.07.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2024-10-23 20.08.07.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2024-10-21 20.19.50.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2024-10-21 20.19.50.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "2025-02-28",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/02/2025-02-28.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-02-28\"}",
@@ -389,14 +413,12 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
-                "mode": "preview",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Homepage"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-23 20.08.07.excalidraw"
             }
           }
         ],
@@ -1203,17 +1225,20 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "280b5f3b59bc3661",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md",
+    "00-09 system/MOC/knowledge moc.md",
+    "00-09 system/homepage/Homepage.md",
     "Note-Templates.md",
     "PKM-Structure.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/02",
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/homepage/DASHBOARD.md",
-    "00-09 system/MOC/knowledge moc.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "00-09 system/template/daily note template.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
@@ -1230,9 +1255,6 @@
     "what is GNU LINUX.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
-    "2025-01-08.md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
     "MMT3/js/jquery-3.4.1.min.js",
