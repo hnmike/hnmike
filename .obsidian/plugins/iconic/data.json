@@ -17,6 +17,12 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "10-20 zettelkasten": {
+      "icon": "lucide-sprout",
+      "unsynced": [
+        "d2cabb56fefd0520"
+      ]
+    },
     "60-70 PARA": {
       "icon": "lucide-archive",
       "unsynced": [
