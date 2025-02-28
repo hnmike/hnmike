@@ -14,11 +14,10 @@
     "highlights",
     "mermaid",
     "bulleththreading",
-    "removehighlight",
-    "custom_kanagawa"
+    "removehighlight"
   ],
   "theme": "obsidian",
-  "cssTheme": "flexcyon",
+  "cssTheme": "Obsidian gruvbox",
   "accentColor": "#5c82f5",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
