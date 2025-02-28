@@ -326,17 +326,23 @@
             "id": "280b5f3b59bc3661",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Linux",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"GNU/Linux.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Linux\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "New Chat",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Chats/New Chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"New Chat\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "GNU Operating System",
@@ -511,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chats/New Chat.md",
-                "mode": "source",
+                "file": "00-09 system/journal/daily/2025/02/2025-02-28.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New Chat"
+              "title": "2025-02-28"
             }
           }
         ],
@@ -1323,15 +1329,16 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "Chats/New Chat.md",
     "90-100 resource archives/Image",
     "60-70 PARA/Archives",
     "60-70 PARA/Resources",
     "60-70 PARA/Area",
     "60-70 PARA/Project",
     "GNU/Linux.md",
-    "Chats/New Chat.md",
     "90-100 resource archives/GNU Operating System.md",
     "90-100 resource archives/book resources/America Fantastica.md",
     "90-100 resource archives/book resources/book metadata.md",
@@ -1342,7 +1349,6 @@
     "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
     "Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md",
     "00-09 system/MOC/knowledge moc.md",
-    "00-09 system/homepage/Homepage.md",
     "Note-Templates.md",
     "PKM-Structure.md",
     "00-09 system/journal/daily/2025/02/2025-02-28.md",
@@ -1361,7 +1367,6 @@
     "00-09 system/journal/daily/2025",
     "MMT3/js/jquery-3.4.1.min.js",
     "MMT3/js/custom.js",
-    "MMT3/js/bootstrap.js",
     "MMT3/images/youtube.png",
     "MMT3/images/twitter.png",
     "MMT3/images/slider-img.png",
