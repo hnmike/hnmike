@@ -75,46 +75,6 @@
       "height": 445
     },
     {
-      "id": "6012eb1899bf69c3",
-      "type": "file",
-      "file": "90-100 resource archives/book resources/book metadata.md",
-      "styleAttributes": {},
-      "x": 1838,
-      "y": 596,
-      "width": 400,
-      "height": 400
-    },
-    {
-      "id": "81b02f628c809eee",
-      "type": "text",
-      "text": "COURSES TRACK",
-      "styleAttributes": {},
-      "x": 1821,
-      "y": 1160,
-      "width": 217,
-      "height": 200
-    },
-    {
-      "id": "97ac3a6718c62291",
-      "type": "file",
-      "file": "00-09 system/template/note review.md",
-      "styleAttributes": {},
-      "x": 1200,
-      "y": -641,
-      "width": 528,
-      "height": 550
-    },
-    {
-      "id": "b19abd8da15f1f1b",
-      "type": "file",
-      "file": "recent note.md",
-      "styleAttributes": {},
-      "x": 1208,
-      "y": -84,
-      "width": 520,
-      "height": 469
-    },
-    {
       "id": "5abee2ad6f8bf605",
       "type": "file",
       "file": "canvas  moc.md",
@@ -153,6 +113,46 @@
       "y": -478,
       "width": 507,
       "height": 333
+    },
+    {
+      "id": "6012eb1899bf69c3",
+      "type": "file",
+      "file": "90-100 resource archives/book resources/book metadata.md",
+      "styleAttributes": {},
+      "x": 1838,
+      "y": 596,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "81b02f628c809eee",
+      "type": "text",
+      "text": "COURSES TRACK",
+      "styleAttributes": {},
+      "x": 1821,
+      "y": 1160,
+      "width": 217,
+      "height": 200
+    },
+    {
+      "id": "97ac3a6718c62291",
+      "type": "file",
+      "file": "00-09 system/template/note review.md",
+      "styleAttributes": {},
+      "x": 1200,
+      "y": -641,
+      "width": 528,
+      "height": 550
+    },
+    {
+      "id": "b19abd8da15f1f1b",
+      "type": "file",
+      "file": "recent note.md",
+      "styleAttributes": {},
+      "x": 1208,
+      "y": -84,
+      "width": 520,
+      "height": 469
     }
   ],
   "edges": [],
