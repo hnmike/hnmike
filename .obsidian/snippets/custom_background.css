@@ -1,183 +1,141 @@
-/* Everforest Custom Background with Enhanced Blur */
+/* AGPLv3 license
+Custom Background for Everforest Theme
+Based on AnuPpuccin Custom Background
+Modified by: User
+Original author: AnubisNekhet
+*/
 
-/* Root variables */
-:root {
-    --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.5;
-    --ef-custom-bg-blur: 12px;
-    --ef-custom-bg-opacity: 0.8;
-    --ef-accent-color: rgba(137, 156, 64, 0.3);
-    --ef-surface-color: rgba(18, 22, 24, 0.75);
-    --ef-glass-effect: rgba(255, 255, 255, 0.03);
-    --ef-panel-bg: rgba(18, 22, 24, 0.85);
-    --ef-sidebar-bg: rgba(16, 20, 22, 0.9);
+/* @settings
+name: Everforest Custom Background
+id: everforest-custom-background
+settings:
+
+-
+  id: ef-custom-background-header
+  title: Background
+  description: Custom workspace backgrounds for Everforest theme
+  type: heading
+  level: 1
+  collapsed: true
+-
+  id: ef-background-image-toggle
+  title: Enable Custom Background
+  description: Toggle custom background
+  type: class-toggle
+
+-
+  id: ef-custom-background-dark-header
+  title: Dark Mode Settings
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: ef-background-image-dark
+  title: Background Image URL
+  description: 'Default is Everforest wallpaper'
+  type: variable-text
+  default: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png")
+-
+  id: ef-custom-bg-brightness-dark
+  title: Background Brightness
+  type: variable-number-slider
+  min: 0
+  max: 1
+  step: 0.05
+  default: 0.6
+-
+  id: ef-custom-bg-blur-dark
+  title: Background Blur
+  type: variable-number-slider
+  min: 0
+  max: 20
+  step: 1
+  default: 2
+  format: px
+-
+  id: ef-custom-bg-opacity-dark
+  title: Container Opacity
+  type: variable-number-slider
+  min: 0
+  max: 1
+  step: 0.05
+  default: 0.7
+*/
+
+.ef-background-image-toggle {
+    /* Main container background */
+    .app-container {
+        background: var(
+            --ef-background-image-dark,
+            url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png")
+        );
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* Main content area with blur and brightness adjustment */
+    .horizontal-main-container {
+        backdrop-filter: brightness(var(--ef-custom-bg-brightness-dark, 0.6))
+            blur(var(--ef-custom-bg-blur-dark, 2px));
+        background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+    }
+
+    /* Make workspace transparent to show background */
+    .workspace {
+        background: transparent;
+    }
+
+    /* Transparent cards with slight opacity */
+    --card-bg-opacity: 0.7;
+    --card-background-color: transparent;
+    --card-foreground-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+
+    /* Adjust tab colors */
+    --tab-background: rgba(20, 28, 25, 0.8);
+    --tab-background-active: rgba(34, 48, 41, 0.85);
+    --tab-background-inactive: rgba(26, 35, 33, 0.7);
+
+    /* Make specific elements transparent */
+    .workspace-split.mod-root,
+    .workspace-tabs,
+    .workspace-ribbon,
+    .status-bar {
+        background: transparent;
+    }
+
+    /* Add slight opacity to content areas */
+    .view-content {
+        background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+    }
+
+    /* Style the sidebar */
+    .workspace-ribbon.mod-left {
+        background-color: rgba(20, 28, 25, 0.8);
+    }
+
+    /* Style active elements */
+    .workspace-leaf.mod-active .view-header {
+        background-color: rgba(34, 48, 41, 0.85);
+    }
+
+    /* Style code blocks */
+    pre[class*="language-"],
+    code[class*="language-"] {
+        background-color: rgba(20, 28, 25, 0.9) !important;
+    }
+
+    /* Style inline code */
+    .cm-inline-code {
+        background-color: rgba(20, 28, 25, 0.8) !important;
+    }
 }
 
-/* Main background - higher specificity */
-body.theme-dark {
-    background: var(--ef-background-image) !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-}
-
-/* App container - ensure transparency */
-.app-container {
-    background-color: transparent !important;
-}
-
-/* Enhanced glass effect for main content */
-.workspace-split.mod-vertical {
-    background-color: var(--ef-panel-bg) !important;
-    backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
-                    blur(var(--ef-custom-bg-blur)) 
-                    saturate(1.1) !important;
-    -webkit-backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
-                           blur(var(--ef-custom-bg-blur)) 
-                           saturate(1.1) !important;
-    border: 1px solid var(--ef-glass-effect) !important;
-}
-
-/* Clean transparent workspace */
-.workspace {
-    background: transparent !important;
-}
-
-/* Glass effect for UI elements */
-.workspace-split.mod-root {
-    background: transparent !important;
-}
-
-.workspace-tabs {
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-    border-bottom: 1px solid var(--ef-glass-effect) !important;
-}
-
-.workspace-ribbon {
-    background: var(--ef-sidebar-bg) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-    border-right: 1px solid var(--ef-glass-effect) !important;
-}
-
-.status-bar {
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-    border-top: 1px solid var(--ef-glass-effect) !important;
-}
-
-/* Refined content areas */
-.view-content {
-    background: transparent !important;
-}
-
-/* Enhanced sidebar styling */
-.workspace-ribbon.mod-left {
-    background: var(--ef-sidebar-bg) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-}
-
-/* File explorer styling */
-.nav-folder {
-    background: transparent !important;
-}
-
-.nav-file-title,
-.nav-folder-title {
-    background: transparent !important;
-}
-
-.nav-file-title:hover,
-.nav-folder-title:hover {
-    background: var(--ef-glass-effect) !important;
-    backdrop-filter: blur(4px) !important;
-    -webkit-backdrop-filter: blur(4px) !important;
-}
-
-/* Improved active elements */
-.workspace-leaf.mod-active .view-header {
-    background: var(--ef-panel-bg) !important;
-    border-bottom: 1px solid var(--ef-accent-color) !important;
-}
-
-.workspace-tab-header.is-active {
-    background: var(--ef-panel-bg) !important;
-    border-bottom: 2px solid var(--ef-accent-color) !important;
-}
-
-/* Enhanced code blocks */
-pre[class*="language-"],
-code[class*="language-"] {
-    background: var(--ef-sidebar-bg) !important;
-    border: 1px solid rgba(255, 255, 255, 0.03) !important;
-}
-
-/* Refined inline code */
-.cm-inline-code {
-    background: var(--ef-sidebar-bg) !important;
-    padding: 0.2em 0.4em !important;
-    border-radius: 3px !important;
-}
-
-/* Enhanced theme integration */
-.theme-dark {
-    --background-primary: transparent !important;
-    --background-primary-alt: var(--ef-panel-bg) !important;
-    --background-secondary: var(--ef-sidebar-bg) !important;
-    --background-secondary-alt: var(--ef-panel-bg) !important;
-}
-
-/* Editor styling */
-.cm-editor {
-    background: transparent !important;
-}
-
-.cm-line {
-    background: transparent !important;
-}
-
-/* Graph view adjustments */
-.graph-view.color-fill {
-    background: var(--ef-panel-bg) !important;
-}
-
-/* Markdown preview */
-.markdown-preview-view {
-    background: transparent !important;
-    padding: 0 1em !important;
-}
-
-/* Modal styling */
-.modal {
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border: 1px solid var(--ef-glass-effect) !important;
-}
-
-/* Smooth transitions */
-.workspace-leaf,
-.nav-file-title,
-.nav-folder-title,
-.workspace-tab-header {
-    transition: all 0.2s ease-in-out !important;
-}
-
-/* Scrollbar styling */
-::-webkit-scrollbar {
-    width: 8px !important;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--ef-accent-color) !important;
-    border-radius: 4px !important;
+/* Additional styles for better integration with Everforest theme */
+.theme-dark.ef-background-image-toggle {
+    --background-primary: transparent;
+    --background-primary-alt: rgba(20, 28, 25, 0.8);
+    --background-secondary: rgba(26, 35, 33, 0.7);
+    --background-secondary-alt: rgba(34, 48, 41, 0.85);
 }
