@@ -876,25 +876,6 @@
             }
           },
           {
-            "id": "bea646bc292ca1e0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "a83494f60de983fe",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1465,7 +1446,32 @@
             }
           }
         ],
-        "currentTab": 35
+        "currentTab": 34
+      },
+      {
+        "id": "a293fe6cbffe7ac5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bea646bc292ca1e0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
