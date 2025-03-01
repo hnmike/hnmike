@@ -29,7 +29,7 @@
   "Editor@@border-focus-mode": false,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-default-rainbow",
-  "anuppuccin-theme-settings@@anp-layout-select": "none",
+  "anuppuccin-theme-settings@@anp-layout-select": "anp-card-layout",
   "anuppuccin-theme-settings@@anp-hide-borders": true,
   "chime-theme@@theme-settings": "theme-notion",
   "fancy-a-story@@theme-variant-light": "fas-automn",
@@ -61,5 +61,6 @@
   "chime-theme@@hide-tabs": false,
   "chime-theme@@ultra-focus": false,
   "chime-theme@@code-background": "var(--background-primary-alt)",
-  "chime-theme@@callout-style": "callout-normal"
+  "chime-theme@@callout-style": "callout-normal",
+  "anuppuccin-theme-settings@@anp-colorful-frame": true
 }
