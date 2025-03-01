@@ -696,34 +696,6 @@
             }
           },
           {
-            "id": "c73acbf79430f06b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Git push and create new repository from a project (202412052057).md",
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Git push and create new repository from a project (202412052057)"
-            }
-          },
-          {
             "id": "2a1f968c61760117",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1370,6 +1342,34 @@
             }
           },
           {
+            "id": "c73acbf79430f06b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for data engineer lab 1 (202411160846)"
+            }
+          },
+          {
             "id": "ff2d76966a527b7e",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1465,7 +1465,7 @@
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 35
       }
     ],
     "direction": "horizontal",
@@ -1495,7 +1495,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a1e06c5da87a077e",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/homepage/Homepage.md",
