@@ -79,18 +79,20 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CI CD",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CI CD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CI CD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":76},\"to\":{\"line\":0,\"ch\":76}}}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CI CD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CI CD"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -157,6 +159,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2024-08-02",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/inbox/2024-08-02.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-02\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}}}"
+                },
+                {
                   "title": "Lab opensource data engineer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
@@ -171,14 +179,17 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00-09 system/inbox/2024-08-02.md",
-                "mode": "source",
-                "source": false
+                "file": "00-09 system/homepage/dashboard.canvas",
+                "viewState": {
+                  "x": 754.5,
+                  "y": -60,
+                  "zoom": -2.0974260843745998
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-08-02"
+              "icon": "lucide-layout-dashboard",
+              "title": "dashboard"
             }
           },
           {
@@ -535,7 +546,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1407,7 +1418,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 219.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1433,12 +1444,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ef7ad956957b373b",
+  "active": "9ebb54dd0fd445e0",
   "lastOpenFiles": [
-    "Lab opensource mlops devops.md",
-    "00-09 system/inbox/2024-08-02.md",
-    "3D COURSES.md",
+    "CI CD.md",
     "00-09 system/homepage/dashboard.canvas",
+    "00-09 system/inbox/2024-08-02.md",
+    "Lab opensource mlops devops.md",
+    "3D COURSES.md",
     "Lab opensource data engineer.md",
     "2024-12.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -1481,7 +1493,6 @@
     "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
     "Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md",
     "00-09 system/MOC/knowledge moc.md",
-    "Note-Templates.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
