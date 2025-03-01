@@ -1463,7 +1463,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 371.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1489,7 +1489,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "054905cc42ba9797",
+  "active": "ff67fb61f83a16f4",
   "lastOpenFiles": [
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
