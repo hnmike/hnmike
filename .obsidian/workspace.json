@@ -23,7 +23,7 @@
               "type": "markdown",
               "state": {
                 "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1376,7 +1376,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ff2d76966a527b7e",
+  "active": "ab21d4744d933974",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
