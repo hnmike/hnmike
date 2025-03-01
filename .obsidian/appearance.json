@@ -14,11 +14,10 @@
     "removehighlight",
     "callout",
     "bulleththreading",
-    "custom_background",
-    "custom_kanagawa"
+    "custom_background"
   ],
   "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "",
   "accentColor": "#ffffff",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
