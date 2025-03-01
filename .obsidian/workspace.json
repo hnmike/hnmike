@@ -572,7 +572,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1489,11 +1489,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a1e06c5da87a077e",
+  "active": "280b5f3b59bc3661",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "cài đặt docker engine & desktop.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/homepage/dashboard.canvas",
