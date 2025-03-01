@@ -1312,7 +1312,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1338,7 +1338,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ab21d4744d933974",
+  "active": "c230648408b827a3",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
