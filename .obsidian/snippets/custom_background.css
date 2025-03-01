@@ -64,7 +64,7 @@ body.theme-dark {
 .workspace {
     background: transparent !important;
     gap: 8px !important;
-    padding: 8px !important;
+    padding: 0 8px !important;
 }
 
 .workspace-split {
@@ -78,6 +78,7 @@ body.theme-dark {
     background-color: var(--glass-surface) !important;
     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    margin: 4px !important;
 }
 
 /* Remove default borders */
@@ -110,7 +111,7 @@ body.theme-dark {
 
 /* Sidebar styling */
 .workspace-ribbon.mod-left {
-    background: var(--glass-surface) !important;
+    background: transparent !important;
     border: none !important;
     backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
@@ -231,7 +232,7 @@ th, td {
 /* Top icon ribbon styling - Left and Right */
 .workspace-ribbon.mod-left,
 .workspace-ribbon.mod-right {
-    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    background: transparent !important;
     border-radius: 10px !important;
     margin: 8px !important;
     padding: 8px 0 !important;
@@ -240,9 +241,9 @@ th, td {
     -webkit-backdrop-filter: blur(8px) !important;
 }
 
-/* Right sidebar container spacing */
-.workspace-split.mod-right-split {
-    margin-right: 8px !important;
+/* Left sidebar container spacing */
+.workspace-split.mod-left-split {
+    margin-left: 8px !important;
 }
 
 /* Icon buttons in both ribbons */
@@ -256,6 +257,7 @@ th, td {
     color: var(--text-color) !important;
     opacity: 0.7 !important;
     transition: all 0.2s ease !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
 }
 
 .workspace-ribbon.mod-left .workspace-ribbon-collapse-btn:hover,
@@ -267,14 +269,14 @@ th, td {
     opacity: 1 !important;
 }
 
-/* Right sidebar panels */
-.workspace-split.mod-right-split .workspace-leaf {
+/* Left sidebar panels */
+.workspace-split.mod-left-split .workspace-leaf {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
 
-/* Right sidebar tabs and containers */
-.workspace-split.mod-right-split .workspace-tab-header-container {
+/* Left sidebar tabs and containers */
+.workspace-split.mod-left-split .workspace-tab-header-container {
     padding: 0 8px !important;
     margin: 8px !important;
     background: rgba(var(--bg-primary-rgb), 0.3) !important;
@@ -282,12 +284,18 @@ th, td {
     border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Right sidebar content */
-.workspace-split.mod-right-split .workspace-leaf-content {
+/* Left sidebar content */
+.workspace-split.mod-left-split .workspace-leaf-content {
     padding: 0 !important;
     background: transparent !important;
     margin: 8px !important;
     border-radius: 10px !important;
     background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Workspace layout adjustments */
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
 }
