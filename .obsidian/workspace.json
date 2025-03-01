@@ -572,7 +572,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1489,13 +1489,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "280b5f3b59bc3661",
+  "active": "a1e06c5da87a077e",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "cài đặt docker engine & desktop.md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/homepage/dashboard.canvas",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "CI CD.md",
