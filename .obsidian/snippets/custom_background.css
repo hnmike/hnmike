@@ -108,38 +108,144 @@ body.theme-dark {
     color: var(--accent-color) !important;
 }
 
-/* Sidebar styling */
+/* Top icon ribbon styling */
 .workspace-ribbon.mod-left {
-    background: var(--glass-surface) !important;
-    border: none !important;
-    backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
-    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    margin: 8px !important;
+    padding: 8px 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
 }
 
-/* File explorer */
-.nav-folder-children {
-    padding-left: 0 !important;
+/* Icon buttons in the ribbon */
+.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn,
+.workspace-ribbon.mod-left .side-dock-ribbon-action {
+    padding: 6px !important;
+    margin: 4px !important;
+    border-radius: 6px !important;
+    color: var(--text-color) !important;
+    opacity: 0.7 !important;
+    transition: all 0.2s ease !important;
+}
+
+.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn:hover,
+.workspace-ribbon.mod-left .side-dock-ribbon-action:hover {
+    background-color: rgba(var(--accent-rgb), 0.15) !important;
+    color: var(--accent-color) !important;
+    opacity: 1 !important;
+}
+
+/* Left sidebar container */
+.workspace-split.mod-left-split {
     margin-left: 8px !important;
 }
 
+/* File explorer container */
+.nav-folder-children {
+    padding: 8px !important;
+    margin: 8px !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* File explorer items */
 .nav-file-title,
 .nav-folder-title {
-    border-radius: 4px !important;
-    margin: 1px 0 !important;
-    padding: 4px 8px !important;
+    border-radius: 6px !important;
+    margin: 2px 0 !important;
+    padding: 6px 12px !important;
     color: var(--text-color) !important;
+    opacity: 0.8 !important;
     transition: all 0.2s ease !important;
 }
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
-    background-color: var(--glass-accent) !important;
+    background: rgba(var(--accent-rgb), 0.1) !important;
     color: var(--accent-color) !important;
+    opacity: 1 !important;
 }
 
 .nav-file-title.is-active {
-    background-color: var(--glass-accent) !important;
+    background: rgba(var(--accent-rgb), 0.15) !important;
     color: var(--accent-color) !important;
+    opacity: 1 !important;
+}
+
+/* Sidebar scroll container */
+.workspace-leaf-content[data-type="file-explorer"] {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+/* Navigation scroll container */
+.nav-files-container {
+    padding: 8px !important;
+    margin: 8px !important;
+    background: rgba(var(--bg-primary-rgb), 0.2) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Adjust the root folder padding */
+.nav-folder.mod-root > .nav-folder-children {
+    padding: 0 8px !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Total notes counter styling */
+.status-bar {
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+    margin: 8px !important;
+    border-radius: 10px !important;
+    height: 32px !important;
+}
+
+.status-bar-item {
+    padding: 0 12px !important;
+    opacity: 0.8 !important;
+    font-size: 12px !important;
+}
+
+/* Workspace tab header container adjustments */
+.workspace-tab-header-container {
+    padding: 0 8px !important;
+    margin: 8px !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Workspace tab header */
+.workspace-tab-header {
+    padding: 4px 12px !important;
+    margin: 4px !important;
+    border-radius: 6px !important;
+    color: var(--text-color) !important;
+    opacity: 0.8 !important;
+    transition: all 0.2s ease !important;
+}
+
+.workspace-tab-header:hover {
+    background: rgba(var(--accent-rgb), 0.1) !important;
+    color: var(--accent-color) !important;
+    opacity: 1 !important;
+}
+
+.workspace-tab-header.is-active {
+    background: rgba(var(--accent-rgb), 0.15) !important;
+    color: var(--accent-color) !important;
+    opacity: 1 !important;
 }
 
 /* Links */
