@@ -10,7 +10,6 @@
     --ef-glass-effect: rgba(255, 255, 255, 0.05);  /* Slightly more visible glass effect */
     --ef-panel-bg: rgba(18, 22, 24, 0.7);  /* Lighter panels */
     --ef-sidebar-bg: rgba(16, 20, 22, 0.75);  /* Lighter sidebar */
-    --ef-settings-bg: rgba(18, 22, 24, 0.95); /* New solid background for settings */
 }
 
 /* Main background */
@@ -27,176 +26,92 @@ body.theme-dark {
     background-color: transparent !important;
 }
 
-/* Workspace layout adjustments */
-.workspace {
-    background: transparent !important;
-    padding: 0 !important; /* Remove padding */
-}
-
-.workspace-split {
-    margin: 0 !important; /* Remove margins */
-}
-
-/* Main content area */
+/* Enhanced glass effect for main content */
 .workspace-split.mod-vertical {
-    background-color: rgba(26, 35, 33, 0.5) !important;
+    background-color: rgba(26, 35, 33, 0.5) !important;  /* Lighter workspace */
     backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
                     blur(var(--ef-custom-bg-blur)) 
-                    saturate(1.2) !important;
+                    saturate(1.2) !important;  /* Increased saturation */
     -webkit-backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
                            blur(var(--ef-custom-bg-blur)) 
                            saturate(1.2) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;  /* Softer shadow */
 }
 
-/* Remove borders and adjust resize handles */
-.workspace-split.mod-root .workspace-leaf-resize-handle,
-.workspace-split.mod-vertical .workspace-leaf-resize-handle {
-    background-color: transparent !important;
-    border: none !important;
+/* Clean transparent workspace */
+.workspace {
+    background: transparent !important;
 }
 
-/* Hover effect for resize handles */
-.workspace-leaf-resize-handle:hover {
-    background-color: var(--ef-accent-color) !important;
-    transition: background-color 0.2s ease;
-}
-
-/* Settings modal and dialog adjustments */
-.modal-container,
-.prompt-container {
-    background-color: var(--ef-settings-bg) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-.modal,
-.prompt {
-    background-color: var(--ef-settings-bg) !important;
-    border: none !important;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2) !important;
-}
-
-/* Settings panels */
-.vertical-tab-header,
-.vertical-tab-content-container {
-    background-color: var(--ef-settings-bg) !important;
-    border: none !important;
-}
-
-/* Workspace tabs and ribbon */
-.workspace-tab-header-container {
-    padding: 0 !important;
-    border: none !important;
-}
-
-.workspace-tab-container {
-    position: relative !important;
-    padding: 0 !important;
+/* Glass effect for UI elements */
+.workspace-split.mod-root {
+    background: transparent !important;
 }
 
 .workspace-tabs {
-    padding: 0 !important;
-    margin: 0 !important;
     background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;  /* Brighter tabs */
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: none !important;
+    border-bottom: 1px solid var(--ef-glass-effect) !important;
 }
 
-/* Sidebar adjustments */
 .workspace-ribbon {
     background: var(--ef-sidebar-bg) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: none !important;
-    padding: 0 !important;
+    border-right: 1px solid var(--ef-glass-effect) !important;
 }
 
-/* Status bar */
 .status-bar {
     background: var(--ef-panel-bg) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: none !important;
-    padding: 0 4px !important;
+    border-top: 1px solid var(--ef-glass-effect) !important;
 }
 
-/* File explorer and navigation */
+/* Refined content areas */
+.view-content {
+    background: transparent !important;
+}
+
+/* Enhanced sidebar styling */
+.workspace-ribbon.mod-left {
+    background: var(--ef-sidebar-bg) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+}
+
+/* File explorer styling */
 .nav-folder {
-    margin: 0 !important;
-    padding: 0 !important;
+    background: transparent !important;
 }
 
 .nav-file-title,
 .nav-folder-title {
-    margin: 0 !important;
-    padding: 4px 8px !important;
-}
-
-/* Active leaf and tabs */
-.workspace-leaf.mod-active {
-    border: none !important;
-}
-
-.workspace-tab-header.is-active {
-    border-bottom: 2px solid var(--ef-accent-color) !important;
-}
-
-/* Leaf content */
-.workspace-leaf-content {
-    background: transparent !important;
-    padding: 0 !important;
-}
-
-/* Settings specific styles */
-.setting-item {
-    border: none !important;
-    padding: 12px !important;
-}
-
-.setting-item:hover {
-    background-color: rgba(255, 255, 255, 0.03) !important;
-}
-
-/* Plugin browser and theme browser */
-.community-modal-details {
-    background-color: var(--ef-settings-bg) !important;
-}
-
-/* Search and suggestion containers */
-.suggestion-container {
-    border: none !important;
-    background-color: var(--ef-settings-bg) !important;
-}
-
-/* Scrollbars */
-::-webkit-scrollbar {
-    width: 8px !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--ef-accent-color) !important;
-    border-radius: 4px !important;
-}
-
-::-webkit-scrollbar-track {
     background: transparent !important;
 }
 
-/* Remove split padding */
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    margin: 0 !important;
+.nav-file-title:hover,
+.nav-folder-title:hover {
+    background: var(--ef-glass-effect) !important;
+    backdrop-filter: blur(4px) brightness(1.2) !important;  /* Brighter hover state */
+    -webkit-backdrop-filter: blur(4px) brightness(1.2) !important;
 }
 
-/* Adjust leaf spacing */
-.workspace-leaf {
-    padding: 0 !important;
+/* Improved active elements */
+.workspace-leaf.mod-active .view-header {
+    background: var(--ef-panel-bg) !important;
+    border-bottom: 1px solid var(--ef-accent-color) !important;
+    backdrop-filter: brightness(1.2) !important;  /* Brighter active header */
+    -webkit-backdrop-filter: brightness(1.2) !important;
 }
 
-/* Enhanced glass effect for main content */
-.workspace-split.mod-root {
-    background: transparent !important;
+/* Enhanced code blocks */
+pre[class*="language-"],
+code[class*="language-"] {
+    background: rgba(16, 20, 22, 0.7) !important;  /* Lighter code blocks */
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Theme integration */
@@ -218,10 +133,28 @@ body.theme-dark {
     padding: 0 1em !important;
 }
 
+/* Modal styling */
+.modal {
+    background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(12px) brightness(1.1) !important;  /* Brighter modals */
+    -webkit-backdrop-filter: blur(12px) brightness(1.1) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+}
+
 /* Smooth transitions */
 .workspace-leaf,
 .nav-file-title,
 .nav-folder-title,
 .workspace-tab-header {
     transition: all 0.2s ease-in-out !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar-thumb {
+    background: var(--ef-accent-color) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
 }
