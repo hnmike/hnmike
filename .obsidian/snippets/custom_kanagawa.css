@@ -1004,3 +1004,67 @@ input.task-list-item-checkbox:checked {
     color: var(--hal-forest-sage) !important;
     opacity: 0.95;
 }
+
+/* Soft Dark Everforest Theme Colors */
+.theme-dark.anp-theme-ext-dark.ctp-everforest-dark {
+    --ctp-ext-rosewater: 231, 198, 155;
+    --ctp-ext-flamingo: 224, 186, 207;
+    --ctp-ext-pink: 227, 150, 174;
+    --ctp-ext-mauve: 184, 123, 157;
+    --ctp-ext-red: 218, 99, 98;
+    --ctp-ext-maroon: 218, 116, 98;
+    --ctp-ext-peach: 215, 127, 72;
+    --ctp-ext-yellow: 191, 152, 61;
+    --ctp-ext-green: 137, 156, 64;
+    --ctp-ext-teal: 86, 157, 121;
+    --ctp-ext-sky: 86, 157, 144;
+    --ctp-ext-sapphire: 86, 156, 157;
+    --ctp-ext-blue: 90, 147, 162;
+    --ctp-ext-lavender: 180, 144, 202;
+    --ctp-ext-text: 211, 198, 170;
+    --ctp-ext-subtext1: 182, 192, 180;
+    --ctp-ext-subtext0: 154, 167, 157;
+    --ctp-ext-overlay2: 133, 146, 137;
+    --ctp-ext-overlay1: 127, 137, 125;
+    --ctp-ext-overlay0: 81, 91, 97;
+    --ctp-ext-surface2: 74, 85, 91;
+    --ctp-ext-surface1: 64, 76, 81;
+    --ctp-ext-surface0: 55, 66, 71;
+    --ctp-ext-base: 47, 56, 62;
+    --ctp-ext-mantle: 39, 47, 52;
+    --ctp-ext-crust: 34, 40, 44;
+}
+
+/* Update theme colors */
+.theme-dark {
+    --background-primary: rgb(var(--ctp-ext-base));
+    --background-primary-alt: rgb(var(--ctp-ext-mantle));
+    --background-secondary: rgb(var(--ctp-ext-crust));
+    --background-secondary-alt: rgb(var(--ctp-ext-surface0));
+    
+    --text-normal: rgb(var(--ctp-ext-text));
+    --text-faint: rgb(var(--ctp-ext-subtext0));
+    
+    --text-title-h1: rgb(var(--ctp-ext-red));
+    --text-title-h2: rgb(var(--ctp-ext-peach));
+    --text-title-h3: rgb(var(--ctp-ext-yellow));
+    --text-title-h4: rgb(var(--ctp-ext-green));
+    --text-title-h5: rgb(var(--ctp-ext-teal));
+    --text-title-h6: rgb(var(--ctp-ext-sky));
+    
+    --text-link: rgb(var(--ctp-ext-blue));
+    --text-a: rgb(var(--ctp-ext-blue));
+    --text-a-hover: rgb(var(--ctp-ext-sapphire));
+    
+    --text-mark: rgba(var(--ctp-ext-yellow), 0.3);
+    --pre-code: rgb(var(--ctp-ext-mantle));
+    --text-highlight-bg: rgba(var(--ctp-ext-yellow), 0.2);
+    --interactive-accent: rgb(var(--ctp-ext-green));
+    --interactive-before: rgb(var(--ctp-ext-overlay0));
+    --background-modifier-border: rgb(var(--ctp-ext-surface1));
+    --text-accent: rgb(var(--ctp-ext-green));
+    --interactive-accent-rgb: var(--ctp-ext-green);
+    --text-selection: rgba(var(--ctp-ext-surface2), 0.3);
+    --text-tag: rgb(var(--ctp-ext-lavender));
+    --task-checkbox: rgb(var(--ctp-ext-overlay0));
+}
