@@ -662,7 +662,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 330.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -1500,7 +1500,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a83494f60de983fe",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/homepage/dashboard.canvas",
