@@ -1,0 +1,141 @@
+/* AGPLv3 license
+Custom Background for Everforest Theme
+Based on AnuPpuccin Custom Background
+Modified by: User
+Original author: AnubisNekhet
+*/
+
+/* @settings
+name: Everforest Custom Background
+id: everforest-custom-background
+settings:
+
+-
+  id: ef-custom-background-header
+  title: Background
+  description: Custom workspace backgrounds for Everforest theme
+  type: heading
+  level: 1
+  collapsed: true
+-
+  id: ef-background-image-toggle
+  title: Enable Custom Background
+  description: Toggle custom background
+  type: class-toggle
+
+-
+  id: ef-custom-background-dark-header
+  title: Dark Mode Settings
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: ef-background-image-dark
+  title: Background Image URL
+  description: 'Default is Everforest wallpaper'
+  type: variable-text
+  default: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png")
+-
+  id: ef-custom-bg-brightness-dark
+  title: Background Brightness
+  type: variable-number-slider
+  min: 0
+  max: 1
+  step: 0.05
+  default: 0.6
+-
+  id: ef-custom-bg-blur-dark
+  title: Background Blur
+  type: variable-number-slider
+  min: 0
+  max: 20
+  step: 1
+  default: 2
+  format: px
+-
+  id: ef-custom-bg-opacity-dark
+  title: Container Opacity
+  type: variable-number-slider
+  min: 0
+  max: 1
+  step: 0.05
+  default: 0.7
+*/
+
+.ef-background-image-toggle {
+    /* Main container background */
+    .app-container {
+        background: var(
+            --ef-background-image-dark,
+            url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png")
+        );
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* Main content area with blur and brightness adjustment */
+    .horizontal-main-container {
+        backdrop-filter: brightness(var(--ef-custom-bg-brightness-dark, 0.6))
+            blur(var(--ef-custom-bg-blur-dark, 2px));
+        background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+    }
+
+    /* Make workspace transparent to show background */
+    .workspace {
+        background: transparent;
+    }
+
+    /* Transparent cards with slight opacity */
+    --card-bg-opacity: 0.7;
+    --card-background-color: transparent;
+    --card-foreground-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+
+    /* Adjust tab colors */
+    --tab-background: rgba(20, 28, 25, 0.8);
+    --tab-background-active: rgba(34, 48, 41, 0.85);
+    --tab-background-inactive: rgba(26, 35, 33, 0.7);
+
+    /* Make specific elements transparent */
+    .workspace-split.mod-root,
+    .workspace-tabs,
+    .workspace-ribbon,
+    .status-bar {
+        background: transparent;
+    }
+
+    /* Add slight opacity to content areas */
+    .view-content {
+        background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity-dark, 0.7));
+    }
+
+    /* Style the sidebar */
+    .workspace-ribbon.mod-left {
+        background-color: rgba(20, 28, 25, 0.8);
+    }
+
+    /* Style active elements */
+    .workspace-leaf.mod-active .view-header {
+        background-color: rgba(34, 48, 41, 0.85);
+    }
+
+    /* Style code blocks */
+    pre[class*="language-"],
+    code[class*="language-"] {
+        background-color: rgba(20, 28, 25, 0.9) !important;
+    }
+
+    /* Style inline code */
+    .cm-inline-code {
+        background-color: rgba(20, 28, 25, 0.8) !important;
+    }
+}
+
+/* Additional styles for better integration with Everforest theme */
+.theme-dark.ef-background-image-toggle {
+    --background-primary: transparent;
+    --background-primary-alt: rgba(20, 28, 25, 0.8);
+    --background-secondary: rgba(26, 35, 33, 0.7);
+    --background-secondary-alt: rgba(34, 48, 41, 0.85);
+} 
