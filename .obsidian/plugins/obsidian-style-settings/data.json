@@ -71,5 +71,6 @@
   "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
   "anuppuccin-theme-settings@@anp-canvas-dark-bg": false,
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-green",
-  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte"
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anp-translucency-opacity": 0.5
 }
