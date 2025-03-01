@@ -63,24 +63,22 @@
  /* Workspace styling */
  .workspace {
      background: transparent !important;
-     gap: 8px !important;
-     padding: 0 8px !important;
+     gap: 12px !important;
+     padding: 12px !important;
  }
  
  .workspace-split {
-     gap: 8px !important;
-     margin-top: 8px !important;
-     margin-bottom: 8px !important;
+     gap: 12px !important;
+     margin-top: 12px !important;
+     margin-bottom: 12px !important;
  }
  
  /* Workspace cards with glass effect */
  .workspace-leaf {
-     border-radius: 8px !important;
+     border-radius: 10px !important;
      overflow: hidden !important;
-     background-color: var(--glass-surface) !important;
-     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-     margin: 4px !important;
+     background: transparent !important;
+     margin: 0 !important;
  }
  
  /* Remove default borders */
@@ -97,6 +95,7 @@
      background: transparent !important;
      border: none !important;
      padding: 4px 8px !important;
+     margin: 0 !important;
  }
  
  .workspace-tab-header {
@@ -307,12 +306,13 @@
  .workspace-tab-container-before,
  .workspace-tab-container-after {
      background: transparent !important;
+     margin: 8px 12px !important;
  }
  
  .workspace-tab-header-container-inner {
      background: rgba(var(--bg-primary-rgb), 0.3) !important;
      border-radius: 10px !important;
-     margin: 8px !important;
+     margin: 8px 0 !important;
      padding: 4px 8px !important;
      border: 1px solid rgba(255, 255, 255, 0.05) !important;
      backdrop-filter: blur(8px) !important;
@@ -371,12 +371,13 @@
      background: transparent !important;
      border: none !important;
      height: 40px !important;
+     margin: 8px 12px !important;
  }
  
  .view-header-title-container {
      background: rgba(var(--bg-primary-rgb), 0.3) !important;
      border-radius: 10px !important;
-     margin: 8px !important;
+     margin: 0 !important;
      padding: 0 12px !important;
      border: 1px solid rgba(255, 255, 255, 0.05) !important;
      backdrop-filter: blur(8px) !important;
@@ -397,7 +398,7 @@
  /* Navigation arrows */
  .view-header-nav-buttons {
      padding: 4px !important;
-     margin: 8px !important;
+     margin: 0 8px !important;
      background: rgba(var(--bg-primary-rgb), 0.3) !important;
      border-radius: 8px !important;
      border: 1px solid rgba(255, 255, 255, 0.05) !important;
@@ -416,4 +417,19 @@
      background: rgba(var(--accent-rgb), 0.1) !important;
      color: var(--accent-color) !important;
      opacity: 1 !important;
+ }
+
+ /* Content area with glass effect */
+ .workspace-leaf-content {
+     background-color: var(--glass-surface) !important;
+     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     border-radius: 10px !important;
+     margin: 0 !important;
+ }
+
+ /* Adjust spacing for left and right sidebars */
+ .workspace-split.mod-left-split,
+ .workspace-split.mod-right-split {
+     margin: 12px !important;
  }
