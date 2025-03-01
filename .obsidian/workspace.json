@@ -535,7 +535,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1414,12 +1414,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0111a2b56f3f50a3",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
+    "Lab opensource mlops devops.md",
+    "00-09 system/inbox/2024-08-02.md",
+    "3D COURSES.md",
     "00-09 system/homepage/dashboard.canvas",
     "Lab opensource data engineer.md",
     "2024-12.md",
-    "00-09 system/inbox/2024-08-02.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "cài đặt docker engine & desktop.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
@@ -1461,7 +1463,6 @@
     "Excalidraw/Drawing 2024-10-21 20.19.50.excalidraw.md",
     "00-09 system/MOC/knowledge moc.md",
     "Note-Templates.md",
-    "PKM-Structure.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
