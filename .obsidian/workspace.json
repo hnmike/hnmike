@@ -516,7 +516,8 @@
               "title": "Homepage"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1376,8 +1377,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ab21d4744d933974",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
+    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "cài đặt docker engine & desktop.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "20-30 PARA/Area",
@@ -1424,7 +1426,6 @@
     "00-09 system/homepage/DASHBOARD.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "00-09 system/template/daily note template.md",
-    "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
