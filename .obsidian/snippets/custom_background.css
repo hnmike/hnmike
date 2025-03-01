@@ -1,15 +1,29 @@
-/* Everforest Custom Background */
+/* Everforest Custom Background with Soft Color Scheme */
 
 :root {
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.75;  /* Increased brightness */
+    
+    /* Core colors from Soft Everforest */
+    --accent-color: rgb(167, 192, 128);
+    --link-color: rgb(127, 187, 179);
+    --mention-color: rgb(230, 152, 117);
+    --text-color: rgb(211, 198, 170);
+    
+    /* Background colors */
+    --bg-accent: rgb(61, 72, 77);
+    --bg-primary: rgb(52, 63, 68);
+    --bg-secondary: rgb(45, 53, 59);
+    --bg-floating: rgb(52, 63, 68);
+    
+    /* Custom background variables */
+    --ef-custom-bg-brightness: 0.75;
     --ef-custom-bg-blur: 12px;
-    --ef-custom-bg-opacity: 0.6;  /* Reduced opacity for better visibility */
-    --ef-accent-color: rgba(137, 156, 64, 0.4);
-    --ef-surface-color: rgba(18, 22, 24, 0.65);  /* Lighter surface */
-    --ef-glass-effect: rgba(255, 255, 255, 0.05);  /* Slightly more visible glass effect */
-    --ef-panel-bg: rgba(18, 22, 24, 0.7);  /* Lighter panels */
-    --ef-sidebar-bg: rgba(16, 20, 22, 0.85);  /* Darker sidebar for better contrast */
+    --ef-custom-bg-opacity: 0.6;
+    --ef-accent-color: rgba(167, 192, 128, 0.4);
+    --ef-surface-color: rgba(52, 63, 68, 0.65);
+    --ef-glass-effect: rgba(211, 198, 170, 0.05);
+    --ef-panel-bg: rgba(45, 53, 59, 0.7);
+    --ef-sidebar-bg: rgba(45, 53, 59, 0.85);
 }
 
 /* Main background */
@@ -19,154 +33,18 @@ body.theme-dark {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+    font-family: 'Ubuntu Sans', sans-serif !important;
 }
 
-/* App container - ensure transparency */
+/* App container */
 .app-container {
     background-color: transparent !important;
 }
 
-/* Enhanced glass effect for main content */
-.workspace-split.mod-vertical {
-    background-color: rgba(26, 35, 33, 0.5) !important;  /* Lighter workspace */
-    backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
-                    blur(var(--ef-custom-bg-blur)) 
-                    saturate(1.2) !important;  /* Increased saturation */
-    -webkit-backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
-                           blur(var(--ef-custom-bg-blur)) 
-                           saturate(1.2) !important;
-    border: 1px solid var(--ef-glass-effect) !important;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;  /* Softer shadow */
-}
-
-/* Clean transparent workspace */
+/* Workspace styling */
 .workspace {
     background: transparent !important;
-    gap: 8px !important;  /* Add gap between workspace items */
-    padding: 8px !important;
-}
-
-/* Glass effect for UI elements */
-.workspace-split.mod-root {
-    background: transparent !important;
-}
-
-.workspace-tabs {
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;  /* Brighter tabs */
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border-bottom: 1px solid var(--ef-glass-effect) !important;
-}
-
-.workspace-ribbon {
-    background: var(--ef-sidebar-bg) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border-right: 1px solid var(--ef-glass-effect) !important;
-}
-
-.status-bar {
-    background: var(--ef-sidebar-bg) !important;
-    border: none !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    font-size: 12px !important;
-}
-
-/* Refined content areas */
-.view-content {
-    background: transparent !important;
-}
-
-/* Enhanced sidebar styling */
-.workspace-ribbon.mod-left {
-    background: var(--ef-sidebar-bg) !important;
-    border: none !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-}
-
-/* File explorer styling */
-.nav-folder {
-    background: transparent !important;
-}
-
-.nav-file-title,
-.nav-folder-title {
-    background: transparent !important;
-}
-
-.nav-file-title:hover,
-.nav-folder-title:hover {
-    background: var(--ef-glass-effect) !important;
-    backdrop-filter: blur(4px) brightness(1.2) !important;  /* Brighter hover state */
-    -webkit-backdrop-filter: blur(4px) brightness(1.2) !important;
-}
-
-/* Improved active elements */
-.workspace-leaf.mod-active .view-header {
-    background: var(--ef-panel-bg) !important;
-    border-bottom: 1px solid var(--ef-accent-color) !important;
-    backdrop-filter: brightness(1.2) !important;  /* Brighter active header */
-    -webkit-backdrop-filter: brightness(1.2) !important;
-}
-
-/* Enhanced code blocks */
-pre[class*="language-"],
-code[class*="language-"] {
-    background: rgba(16, 20, 22, 0.7) !important;  /* Lighter code blocks */
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
-}
-
-/* Theme integration */
-.theme-dark {
-    --background-primary: transparent !important;
-    --background-primary-alt: rgba(18, 22, 24, 0.7) !important;  /* Lighter backgrounds */
-    --background-secondary: rgba(16, 20, 22, 0.75) !important;
-    --background-secondary-alt: rgba(26, 35, 33, 0.6) !important;
-}
-
-/* Editor styling */
-.cm-editor {
-    background: transparent !important;
-}
-
-/* Markdown preview */
-.markdown-preview-view {
-    background: transparent !important;
-    padding: 0 1em !important;
-}
-
-/* Modal styling */
-.modal {
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(12px) brightness(1.1) !important;  /* Brighter modals */
-    -webkit-backdrop-filter: blur(12px) brightness(1.1) !important;
-    border: 1px solid var(--ef-glass-effect) !important;
-}
-
-/* Smooth transitions */
-.workspace-leaf,
-.nav-file-title,
-.nav-folder-title,
-.workspace-tab-header {
-    transition: all 0.2s ease-in-out !important;
-}
-
-/* Scrollbar styling */
-::-webkit-scrollbar-thumb {
-    background: var(--ef-accent-color) !important;
-    border-radius: 4px !important;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-/* Remove borders and add spacing between workspace items */
-.workspace {
-    background: transparent !important;
-    gap: 8px !important;  /* Add gap between workspace items */
+    gap: 8px !important;
     padding: 8px !important;
 }
 
@@ -174,16 +52,16 @@ code[class*="language-"] {
     gap: 8px !important;
 }
 
-/* Style workspace leaves (cards) */
+/* Workspace cards */
 .workspace-leaf {
     border-radius: 8px !important;
     overflow: hidden !important;
-    background-color: rgba(26, 35, 33, 0.4) !important;
+    background-color: rgba(52, 63, 68, 0.4) !important;
     backdrop-filter: blur(12px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(12px) brightness(1.1) !important;
 }
 
-/* Remove default borders */
+/* Remove borders */
 .workspace-leaf,
 .workspace-tabs,
 .view-header,
@@ -192,7 +70,7 @@ code[class*="language-"] {
     border: none !important;
 }
 
-/* Style tab headers */
+/* Tab headers */
 .workspace-tab-header-container {
     background: transparent !important;
     border: none !important;
@@ -203,14 +81,24 @@ code[class*="language-"] {
     border-radius: 4px !important;
     padding: 2px 8px !important;
     margin: 0 2px !important;
+    color: var(--text-color) !important;
 }
 
 .workspace-tab-header.is-active {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(167, 192, 128, 0.1) !important;
+    color: var(--accent-color) !important;
     border: none !important;
 }
 
-/* Style file explorer */
+/* Sidebar */
+.workspace-ribbon.mod-left {
+    background: var(--ef-sidebar-bg) !important;
+    border: none !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+/* File explorer */
 .nav-folder-children {
     padding-left: 0 !important;
     margin-left: 8px !important;
@@ -221,87 +109,93 @@ code[class*="language-"] {
     border-radius: 4px !important;
     margin: 1px 0 !important;
     padding: 4px 8px !important;
+    color: var(--text-color) !important;
 }
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
-    background-color: rgba(255, 255, 255, 0.05) !important;
+    background-color: rgba(167, 192, 128, 0.1) !important;
+    color: var(--accent-color) !important;
 }
 
 .nav-file-title.is-active {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(167, 192, 128, 0.15) !important;
+    color: var(--accent-color) !important;
+}
+
+/* Links */
+a,
+.internal-link,
+.external-link {
+    color: var(--link-color) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--mention-color) !important;
+    opacity: 0.95;
+}
+
+/* Code blocks */
+pre[class*="language-"],
+code[class*="language-"] {
     border-radius: 4px !important;
-}
-
-/* Style editor and preview */
-.markdown-source-view,
-.markdown-preview-view {
-    padding: 0 16px !important;
-}
-
-/* Style modals */
-.modal {
+    background: rgba(45, 53, 59, 0.6) !important;
     border: none !important;
-    border-radius: 8px !important;
-    background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(20px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(20px) brightness(1.1) !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+    color: var(--text-color) !important;
 }
 
-/* Style scrollbars */
+/* Inline code */
+.cm-inline-code {
+    border-radius: 4px !important;
+    padding: 2px 4px !important;
+    background: rgba(45, 53, 59, 0.6) !important;
+    color: var(--text-color) !important;
+}
+
+/* Headers */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    color: var(--accent-color) !important;
+}
+
+/* Theme integration */
+.theme-dark {
+    --background-primary: transparent !important;
+    --background-primary-alt: var(--bg-primary) !important;
+    --background-secondary: var(--bg-secondary) !important;
+    --background-secondary-alt: var(--bg-secondary) !important;
+    --text-normal: var(--text-color) !important;
+    --text-muted: rgba(211, 198, 170, 0.8) !important;
+    --text-accent: var(--accent-color) !important;
+}
+
+/* Scrollbars */
 ::-webkit-scrollbar {
     width: 6px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.2) !important;
+    background: rgba(167, 192, 128, 0.2) !important;
     border-radius: 3px !important;
 }
 
-/* Remove resize handles */
-.workspace-leaf-resize-handle {
-    display: none !important;
-}
-
-/* Style markdown editor */
-.cm-editor {
-    border-radius: 4px !important;
-}
-
-.cm-line {
-    padding: 2px 0 !important;
-}
-
-/* Style code blocks */
-pre[class*="language-"],
-code[class*="language-"] {
-    border-radius: 4px !important;
-    background: rgba(16, 20, 22, 0.6) !important;
-    border: none !important;
-}
-
-/* Style inline code */
-.cm-inline-code {
-    border-radius: 4px !important;
-    padding: 2px 4px !important;
-    background: rgba(16, 20, 22, 0.6) !important;
-}
-
-/* Style headings */
-.inline-title {
-    border-bottom: none !important;
-    padding: 8px 0 !important;
-}
-
-/* Remove borders from tables */
+/* Tables */
 table {
     border: none !important;
-    background: rgba(16, 20, 22, 0.4) !important;
+    background: rgba(45, 53, 59, 0.4) !important;
     border-radius: 4px !important;
 }
 
 th, td {
     border: none !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(211, 198, 170, 0.1) !important;
+    color: var(--text-color) !important;
 }
