@@ -516,8 +516,7 @@
               "title": "Homepage"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -1339,8 +1338,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c230648408b827a3",
+  "active": "ab21d4744d933974",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "20-30 PARA/Area",
     "20-30 PARA/Archives",
     "20-30 PARA/Resources",
@@ -1351,7 +1352,6 @@
     "10-20 zettelkasten - Copy/Resources",
     "10-20 zettelkasten - Copy/Project",
     "10-20 zettelkasten - Copy/Area",
-    "10-20 zettelkasten - Copy/Archives",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
     "90-100 resource archives/Image/IMG-20241114090913093.png",
@@ -1367,7 +1367,6 @@
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "Chats/New Chat.md",
     "GNU/Linux.md",
     "90-100 resource archives/GNU Operating System.md",
