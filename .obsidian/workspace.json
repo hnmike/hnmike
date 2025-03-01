@@ -1337,7 +1337,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab opensource mlops devops.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1347,7 +1346,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lab opensource mlops devops"
+              "title": "Backlinks"
             }
           },
           {
@@ -1446,7 +1445,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       },
       {
         "id": "fcfdd6d3ec2368f6",
@@ -1501,8 +1500,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "371c1ebb7fc236c3",
   "lastOpenFiles": [
+    "Lab opensource mlops devops.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/homepage/Homepage.md",
@@ -1513,7 +1513,6 @@
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "CI CD.md",
     "00-09 system/inbox/2024-08-02.md",
-    "Lab opensource mlops devops.md",
     "3D COURSES.md",
     "Lab opensource data engineer.md",
     "2024-12.md",
