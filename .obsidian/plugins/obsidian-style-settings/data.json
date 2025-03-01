@@ -64,5 +64,6 @@
   "chime-theme@@callout-style": "callout-normal",
   "anuppuccin-theme-settings@@anp-colorful-frame": true,
   "anuppuccin-theme-settings@@anp-status-bar-select": "anp-fixed-status-bar",
-  "anuppuccin-theme-settings@@anp-alt-tab-custom-height": 20
+  "anuppuccin-theme-settings@@anp-alt-tab-custom-height": 35,
+  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-depth-tab-toggle"
 }
