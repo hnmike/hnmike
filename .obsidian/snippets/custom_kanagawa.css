@@ -243,42 +243,67 @@
 
     --accent-color: var(--hal-gruv-aqua);
     --Yellow: #8ec07c;  /* Changed to a green tone */
+
+    /* Halcyon + Everforest Combined Theme Colors */
+    --hal-forest-bg: #1d2433;           /* Halcyon dark background */
+    --hal-forest-darker: #141c19;       /* Everforest darker shade */
+    --hal-forest-lighter: #2f3b54;      /* Halcyon lighter blue */
+    --hal-forest-deep: #1a2321;         /* Everforest base */
+    
+    /* Text colors */
+    --hal-forest-text: #d7dce2;         /* Halcyon text */
+    --hal-forest-text-bright: #d3e1d9;  /* Everforest text */
+    --hal-forest-text-muted: #8695b7;   /* Halcyon muted */
+    
+    /* Accent colors - combining both themes */
+    --hal-forest-green: #bae67e;        /* Halcyon green */
+    --hal-forest-sage: #7fa98f;         /* Everforest link */
+    --hal-forest-aqua: #95e6cb;         /* Halcyon aqua */
+    --hal-forest-blue: #5ccfe6;         /* Halcyon blue */
+    --hal-forest-purple: #d4bfff;       /* Halcyon purple */
+    --hal-forest-red: #ef6b73;          /* Halcyon red */
+    
+    /* UI elements */
+    --hal-forest-border: #2f3b54;       /* Halcyon border */
+    --hal-forest-selection: rgba(77, 94, 84, 0.6);  /* Everforest selection */
+    --hal-forest-highlight: #2d3832;    /* Everforest highlight */
+    --hal-forest-shadow: rgba(20, 28, 25, 0.4);    /* Dark shadow */
 }
 
 .theme-dark
 {
-    --background-primary: var(--halcyon-bg);
-    --background-primary-alt: var(--halcyon-darker);
-    --background-secondary: var(--halcyon-darker);
-    --background-secondary-alt: var(--halcyon-lighter);
+    --background-primary: var(--hal-forest-bg);
+    --background-primary-alt: var(--hal-forest-darker);
+    --background-secondary: var(--hal-forest-darker);
+    --background-secondary-alt: var(--hal-forest-lighter);
     
-    --text-normal: var(--halcyon-text);
-    --text-faint: var(--halcyon-muted);
+    --text-normal: var(--hal-forest-text);
+    --text-faint: var(--hal-forest-text-muted);
     
-    --text-title-h1: var(--hal-gruvbox-red);
-    --text-title-h2: var(--hal-gruvbox-orange);
-    --text-title-h3: var(--hal-gruvbox-yellow);
-    --text-title-h4: var(--hal-gruvbox-green);
-    --text-title-h5: var(--hal-gruvbox-aqua);
-    --text-title-h6: var(--hal-gruvbox-blue);
+    --text-title-h1: var(--hal-forest-red);
+    --text-title-h2: var(--hal-forest-purple);
+    --text-title-h3: var(--hal-forest-blue);
+    --text-title-h4: var(--hal-forest-aqua);
+    --text-title-h5: var(--hal-forest-sage);
+    --text-title-h6: var(--hal-forest-green);
     
-    --text-link: var(--hal-gruvbox-blue);
-    --text-a: var(--hal-gruvbox-blue);
-    --text-a-hover: var(--hal-gruvbox-purple);
+    --text-link: var(--hal-forest-sage);
+    --text-a: var(--hal-forest-sage);
+    --text-a-hover: var(--hal-forest-aqua);
     
-    --text-mark: var(--halcyon-highlight);
-    --pre-code: var(--halcyon-darker);
-    --text-highlight-bg: var(--halcyon-highlight);
-    --interactive-accent: var(--hal-gruvbox-blue);
-    --interactive-before: var(--halcyon-muted);
-    --background-modifier-border: var(--halcyon-border);
-    --text-accent: var(--hal-gruvbox-green);
-    --interactive-accent-rgb: var(--hal-gruvbox-green);
-    --text-selection: var(--halcyon-selection);
-    --text-tag: var(--hal-gruvbox-purple);
-    --task-checkbox: var(--halcyon-muted);
-    --code-block: var(--hal-gruvbox-aqua);
-    --bold-color: var(--hal-gruvbox-yellow);
+    --text-mark: var(--hal-forest-highlight);
+    --pre-code: var(--hal-forest-darker);
+    --text-highlight-bg: var(--hal-forest-highlight);
+    --interactive-accent: var(--hal-forest-sage);
+    --interactive-before: var(--hal-forest-text-muted);
+    --background-modifier-border: var(--hal-forest-border);
+    --text-accent: var(--hal-forest-green);
+    --interactive-accent-rgb: var(--hal-forest-green);
+    --text-selection: var(--hal-forest-selection);
+    --text-tag: var(--hal-forest-purple);
+    --task-checkbox: var(--hal-forest-text-muted);
+    --code-block: var(--hal-forest-aqua);
+    --bold-color: var(--hal-forest-text-bright);
     --table-header: hsl(0, 0%, 14%);
     --table-row-even: hsl(0, 0%, 17%);
     --table-row-odd: hsl(0, 0%, 20%);
@@ -349,19 +374,19 @@ strong
 a,
 .cm-hmd-internal-link
 {
-    color: var(--hal-gruv-aqua) !important;
+    color: var(--hal-forest-sage) !important;
     opacity: 0.9;
     transition: all 0.2s ease;
-    text-shadow: 0 0 2px rgba(142, 192, 124, 0.2);
+    text-shadow: 0 0 2px rgba(127, 169, 143, 0.2);
 }
 
 a:hover,
 .cm-hmd-internal-link:hover,
 .cm-url
 {
-    color: var(--hal-gruv-aqua-soft) !important;
+    color: var(--hal-forest-aqua) !important;
     opacity: 0.95;
-    text-shadow: 0 0 4px rgba(104, 157, 106, 0.3);
+    text-shadow: 0 0 4px rgba(149, 230, 203, 0.3);
 }
 
 a.tag, a.tag:hover {
@@ -743,21 +768,21 @@ h6 a
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--hal-gruv-aqua);
+    border: 1px solid var(--hal-forest-sage);
     transition: all 0.2s ease;
 }
 
 input.task-list-item-checkbox:checked
 {
-    background-color: var(--hal-gruv-aqua);
-    box-shadow: inset 0 0 0 2px var(--misty-bg),
-                0 0 4px var(--hal-gruv-aqua);
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
 }
 
 ::selection
 {
-    background-color: var(--warm-selection) !important;
-    color: var(--warm-text) !important;
+    background-color: var(--hal-forest-selection) !important;
+    color: var(--hal-forest-text-bright) !important;
 }
 
 .mermaid .note
@@ -767,7 +792,7 @@ input.task-list-item-checkbox:checked
 
 .cm-line .cm-strong
 {
-    color: var(--hal-gruv-aqua) !important;
+    color: var(--hal-forest-sage) !important;
     opacity: 0.95;
 }                
 
@@ -823,54 +848,57 @@ a,
 a:hover,
 .internal-link,
 .external-link {
-    color: var(--hal-gruv-aqua) !important;
+    color: var(--hal-forest-sage) !important;
     opacity: 0.9;
     transition: all 0.2s ease;
-    text-shadow: 0 0 2px rgba(142, 192, 124, 0.2);
+    text-shadow: 0 0 2px rgba(127, 169, 143, 0.2);
 }
 
 a:hover,
 .internal-link:hover,
 .external-link:hover {
-    color: var(--hal-gruv-aqua-soft) !important;
+    color: var(--hal-forest-aqua) !important;
     opacity: 0.95;
-    text-shadow: 0 0 4px rgba(104, 157, 106, 0.3);
+    text-shadow: 0 0 4px rgba(149, 230, 203, 0.3);
 }
 
 /* Update code blocks */
 .markdown-preview-section pre code,
 .markdown-preview-section code {
-    background-color: var(--halcyon-darker) !important;
-    color: var(--hal-gruvbox-aqua) !important;
+    background-color: var(--hal-forest-darker) !important;
+    color: var(--hal-forest-text-bright) !important;
+    backdrop-filter: blur(2px);
 }
 
 .cm-inline-code {
-    color: var(--hal-gruvbox-aqua) !important;
-    background-color: var(--halcyon-darker) !important;
+    color: var(--hal-forest-text-bright) !important;
+    background-color: var(--hal-forest-darker) !important;
 }
 
 /* Update tags */
 a.tag, a.tag:hover {
-    color: var(--hal-gruvbox-purple) !important;
-    background-color: var(--halcyon-lighter);
+    color: var(--hal-forest-purple) !important;
+    background-color: var(--hal-forest-darker);
+    backdrop-filter: blur(2px);
 }
 
 /* Update checkboxes */
 input.task-list-item-checkbox {
-    border: 1px solid var(--hal-gruv-aqua);
+    border: 1px solid var(--hal-forest-sage);
     transition: all 0.2s ease;
 }
 
 input.task-list-item-checkbox:checked {
-    background-color: var(--hal-gruv-aqua);
-    box-shadow: inset 0 0 0 2px var(--misty-bg),
-                0 0 4px var(--hal-gruv-aqua);
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
 }
 
 /* Update indent guides */
 .cm-indent::before {
-    border-left: 2px solid var(--halcyon-border);
-    opacity: 0.4;
+    border-left: 2px solid var(--hal-forest-border);
+    opacity: 0.25;
+    filter: blur(0.3px);
 }
 
 /* Add blur effects to UI elements */
@@ -950,14 +978,14 @@ tr:hover {
 
 /* Checkbox styling with glow */
 input.task-list-item-checkbox {
-    border: 1px solid var(--hal-gruv-aqua);
+    border: 1px solid var(--hal-forest-sage);
     transition: all 0.2s ease;
 }
 
 input.task-list-item-checkbox:checked {
-    background-color: var(--hal-gruv-aqua);
-    box-shadow: inset 0 0 0 2px var(--misty-bg),
-                0 0 4px var(--hal-gruv-aqua);
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
 }
 
 /* Soft indent guides */
@@ -973,6 +1001,6 @@ input.task-list-item-checkbox:checked {
 .nav-folder-title.is-active,
 .view-header-title:hover,
 .workspace-tab-header.is-active {
-    color: var(--hal-gruv-aqua) !important;
+    color: var(--hal-forest-sage) !important;
     opacity: 0.95;
 }
