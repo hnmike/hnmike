@@ -14,7 +14,8 @@
     "highlights",
     "mermaid",
     "bulleththreading",
-    "removehighlight"
+    "removehighlight",
+    "custom_background"
   ],
   "theme": "obsidian",
   "cssTheme": "AnuPpuccin",
