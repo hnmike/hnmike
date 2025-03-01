@@ -152,7 +152,7 @@
             "id": "aaa978ec7782e79e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
                   "title": "Homepage",
@@ -161,14 +161,14 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "state": "{}",
+                  "title": "dashboard",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"00-09 system/homepage/dashboard.canvas\",\"viewState\":{\"x\":754.5,\"y\":-60,\"zoom\":-2.0974260843745998}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"dashboard\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "2024-08-02",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/inbox/2024-08-02.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-02\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}}}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "Lab opensource data engineer",
@@ -185,17 +185,14 @@
               ]
             },
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/dashboard.canvas",
-                "viewState": {
-                  "x": 754.5,
-                  "y": -60,
-                  "zoom": -2.0974260843745998
-                }
+                "file": "00-09 system/inbox/2024-08-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "dashboard"
+              "icon": "lucide-file",
+              "title": "2024-08-02"
             }
           },
           {
@@ -1522,8 +1519,9 @@
   },
   "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/homepage/dashboard.canvas",
+    "00-09 system/inbox/2024-08-02.md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource mlops devops.md",
     "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
@@ -1534,7 +1532,6 @@
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "cài đặt docker engine & desktop.md",
     "CI CD.md",
-    "00-09 system/inbox/2024-08-02.md",
     "Lab opensource data engineer.md",
     "2024-12.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
