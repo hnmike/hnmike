@@ -282,18 +282,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Capstone project for my course",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capstone project for my course"
+              "title": "data engineer lab 1 (202411160846)"
             }
           },
           {
@@ -1491,8 +1497,8 @@
   },
   "active": "a1e06c5da87a077e",
   "lastOpenFiles": [
-    "00-09 system/homepage/Homepage.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "00-09 system/homepage/Homepage.md",
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
     "cài đặt docker engine & desktop.md",
