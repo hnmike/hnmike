@@ -10,9 +10,6 @@
     --ef-glass-effect: rgba(255, 255, 255, 0.05);  /* Slightly more visible glass effect */
     --ef-panel-bg: rgba(18, 22, 24, 0.7);  /* Lighter panels */
     --ef-sidebar-bg: rgba(16, 20, 22, 0.75);  /* Lighter sidebar */
-    --ef-workspace-card-bg: rgba(26, 35, 33, 0.4);  /* New: Lighter card background */
-    --ef-card-border: rgba(255, 255, 255, 0.03);    /* New: Subtle card border */
-    --ef-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* New: Soft shadow for cards */
 }
 
 /* Main background */
@@ -45,82 +42,54 @@ body.theme-dark {
 /* Clean transparent workspace */
 .workspace {
     background: transparent !important;
-    padding: 4px !important;  /* Add padding to workspace */
-}
-
-/* Remove all default borders */
-.workspace-split,
-.workspace-tabs,
-.workspace-leaf,
-.view-header,
-.status-bar {
-    border: none !important;
 }
 
 /* Glass effect for UI elements */
 .workspace-split.mod-root {
     background: transparent !important;
-    gap: 8px !important;  /* Add gap between splits */
 }
 
-/* Customize workspace cards */
-.workspace-leaf {
-    background: var(--ef-workspace-card-bg) !important;
-    border-radius: 8px !important;
-    margin: 0 !important;
-    overflow: hidden !important;  /* Ensure content doesn't overflow rounded corners */
+.workspace-tabs {
+    background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;  /* Brighter tabs */
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    border-bottom: 1px solid var(--ef-glass-effect) !important;
 }
 
-/* Card header styling */
-.view-header {
-    background: rgba(0, 0, 0, 0.2) !important;
-    border-bottom: 1px solid var(--ef-card-border) !important;
-    padding: 4px 8px !important;
-}
-
-.view-header-title {
-    color: rgba(255, 255, 255, 0.9) !important;
-    font-size: 14px !important;
-    font-weight: 500 !important;
-}
-
-/* Tabs styling */
-.workspace-tab-header-container {
-    background: transparent !important;
-    padding: 4px 4px 0 4px !important;
-}
-
-.workspace-tab-header {
-    border-radius: 4px 4px 0 0 !important;
-    border: none !important;
-    margin-right: 2px !important;
-}
-
-.workspace-tab-header.is-active {
-    background: var(--ef-workspace-card-bg) !important;
-    border-bottom: 2px solid var(--ef-accent-color) !important;
-}
-
-/* Sidebar styling */
 .workspace-ribbon {
     background: var(--ef-sidebar-bg) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
     border-right: 1px solid var(--ef-glass-effect) !important;
-    margin: 4px 0 4px 4px !important;
-    border-radius: 8px 0 0 8px !important;
 }
 
-/* File explorer */
+.status-bar {
+    background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    border-top: 1px solid var(--ef-glass-effect) !important;
+}
+
+/* Refined content areas */
+.view-content {
+    background: transparent !important;
+}
+
+/* Enhanced sidebar styling */
+.workspace-ribbon.mod-left {
+    background: var(--ef-sidebar-bg) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+}
+
+/* File explorer styling */
 .nav-folder {
-    margin: 4px 0 !important;
+    background: transparent !important;
 }
 
 .nav-file-title,
 .nav-folder-title {
-    margin: 0 4px !important;
-    border-radius: 4px !important;
-    padding: 4px 8px !important;
+    background: transparent !important;
 }
 
 .nav-file-title:hover,
@@ -130,57 +99,19 @@ body.theme-dark {
     -webkit-backdrop-filter: blur(4px) brightness(1.2) !important;
 }
 
-/* Status bar */
-.status-bar {
+/* Improved active elements */
+.workspace-leaf.mod-active .view-header {
     background: var(--ef-panel-bg) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border-top: 1px solid var(--ef-glass-effect) !important;
-    height: 24px !important;
-    padding: 0 8px !important;
-    font-size: 12px !important;
-    margin: 0 4px 4px 4px !important;
-    border-radius: 0 0 8px 8px !important;
+    border-bottom: 1px solid var(--ef-accent-color) !important;
+    backdrop-filter: brightness(1.2) !important;  /* Brighter active header */
+    -webkit-backdrop-filter: brightness(1.2) !important;
 }
 
-/* Resize handles */
-.workspace-leaf-resize-handle {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-/* Markdown content */
-.markdown-preview-view,
-.markdown-source-view {
-    padding: 16px !important;
-}
-
-/* Code blocks */
+/* Enhanced code blocks */
 pre[class*="language-"],
 code[class*="language-"] {
     background: rgba(16, 20, 22, 0.7) !important;  /* Lighter code blocks */
     border: 1px solid rgba(255, 255, 255, 0.05) !important;
-    border-radius: 4px !important;
-}
-
-/* Scrollbars */
-::-webkit-scrollbar {
-    width: 8px !important;
-    height: 8px !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--ef-accent-color) !important;
-    border-radius: 4px !important;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-/* Active leaf highlighting */
-.workspace-leaf.mod-active {
-    box-shadow: 0 0 0 2px var(--ef-accent-color) !important;
 }
 
 /* Theme integration */
@@ -196,10 +127,34 @@ code[class*="language-"] {
     background: transparent !important;
 }
 
+/* Markdown preview */
+.markdown-preview-view {
+    background: transparent !important;
+    padding: 0 1em !important;
+}
+
+/* Modal styling */
+.modal {
+    background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(12px) brightness(1.1) !important;  /* Brighter modals */
+    -webkit-backdrop-filter: blur(12px) brightness(1.1) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+}
+
 /* Smooth transitions */
 .workspace-leaf,
 .nav-file-title,
 .nav-folder-title,
 .workspace-tab-header {
     transition: all 0.2s ease-in-out !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar-thumb {
+    background: var(--ef-accent-color) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
 }
