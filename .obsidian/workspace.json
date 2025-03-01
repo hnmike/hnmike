@@ -578,7 +578,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -662,7 +662,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 263.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -858,25 +858,6 @@
           },
           {
             "id": "371c1ebb7fc236c3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a83494f60de983fe",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1356,6 +1337,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lab opensource mlops devops.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1365,7 +1347,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Lab opensource mlops devops"
             }
           },
           {
@@ -1464,11 +1446,36 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
+      },
+      {
+        "id": "fcfdd6d3ec2368f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a83494f60de983fe",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1494,7 +1501,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "a158d6c4f0fb2569",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
