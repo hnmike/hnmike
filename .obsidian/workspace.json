@@ -578,7 +578,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1520,14 +1520,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e0763ffd1bf222d5",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "00-09 system/homepage/dashboard.canvas",
     "Lab opensource mlops devops.md",
     "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "00-09 system/homepage/dashboard.canvas",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/homepage/Homepage.md",
     "Untitled.canvas",
@@ -1569,7 +1569,6 @@
     "90-100 resource archives/book resources/Omniscient Reader's Viewpoint.md",
     "90-100 resource archives/book resources/book1.md",
     "Excalidraw/Drawing 2024-10-23 20.08.07.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-29 16.55.38.excalidraw.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
