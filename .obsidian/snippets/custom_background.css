@@ -108,8 +108,9 @@ body.theme-dark {
     color: var(--accent-color) !important;
 }
 
-/* Top icon ribbon styling */
-.workspace-ribbon.mod-left {
+/* Top icon ribbon styling - Left and Right */
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right {
     background: rgba(var(--bg-primary-rgb), 0.3) !important;
     border-radius: 10px !important;
     margin: 8px !important;
@@ -119,9 +120,16 @@ body.theme-dark {
     -webkit-backdrop-filter: blur(8px) !important;
 }
 
-/* Icon buttons in the ribbon */
+/* Right sidebar container spacing */
+.workspace-split.mod-right-split {
+    margin-right: 8px !important;
+}
+
+/* Icon buttons in both ribbons */
 .workspace-ribbon.mod-left .workspace-ribbon-collapse-btn,
-.workspace-ribbon.mod-left .side-dock-ribbon-action {
+.workspace-ribbon.mod-left .side-dock-ribbon-action,
+.workspace-ribbon.mod-right .workspace-ribbon-collapse-btn,
+.workspace-ribbon.mod-right .side-dock-ribbon-action {
     padding: 6px !important;
     margin: 4px !important;
     border-radius: 6px !important;
@@ -131,10 +139,37 @@ body.theme-dark {
 }
 
 .workspace-ribbon.mod-left .workspace-ribbon-collapse-btn:hover,
-.workspace-ribbon.mod-left .side-dock-ribbon-action:hover {
+.workspace-ribbon.mod-left .side-dock-ribbon-action:hover,
+.workspace-ribbon.mod-right .workspace-ribbon-collapse-btn:hover,
+.workspace-ribbon.mod-right .side-dock-ribbon-action:hover {
     background-color: rgba(var(--accent-rgb), 0.15) !important;
     color: var(--accent-color) !important;
     opacity: 1 !important;
+}
+
+/* Right sidebar panels */
+.workspace-split.mod-right-split .workspace-leaf {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Right sidebar tabs and containers */
+.workspace-split.mod-right-split .workspace-tab-header-container {
+    padding: 0 8px !important;
+    margin: 8px !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Right sidebar content */
+.workspace-split.mod-right-split .workspace-leaf-content {
+    padding: 0 !important;
+    background: transparent !important;
+    margin: 8px !important;
+    border-radius: 10px !important;
+    background: rgba(var(--bg-primary-rgb), 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Left sidebar container */
