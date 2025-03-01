@@ -138,8 +138,13 @@ body.theme-dark {
 
 /* File explorer styling */
 .nav-folder-children {
-    padding: 4px 8px !important;
-    margin: 0 !important;
+    padding: 8px !important;
+    margin: 8px !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
 }
 
 .nav-file-title,
@@ -220,12 +225,18 @@ body.theme-dark {
 
 /* Status bar */
 .status-bar {
-    background: rgba(var(--bg-primary-rgb), 0.4) !important;
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
     border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
-    padding: 0 16px !important;
-    height: 28px !important;
+    margin: 8px !important;
+    border-radius: 10px !important;
+    height: 32px !important;
+}
+
+.status-bar-item {
+    padding: 0 12px !important;
+    opacity: 0.8 !important;
     font-size: 12px !important;
 }
 
@@ -444,23 +455,6 @@ body.theme-dark {
     margin: 0 !important;
     background: transparent !important;
     border: none !important;
-}
-
-/* Total notes counter styling */
-.status-bar {
-    background: rgba(var(--bg-primary-rgb), 0.3) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
-    margin: 8px !important;
-    border-radius: 10px !important;
-    height: 32px !important;
-}
-
-.status-bar-item {
-    padding: 0 12px !important;
-    opacity: 0.8 !important;
-    font-size: 12px !important;
 }
 
 /* Workspace tab header container adjustments */
