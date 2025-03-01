@@ -1,6 +1,7 @@
 /* Everforest Custom Background with Enhanced Blur */
 
-body {
+/* Root variables */
+:root {
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
     --ef-custom-bg-brightness: 0.5;
     --ef-custom-bg-blur: 12px;
@@ -12,8 +13,8 @@ body {
     --ef-sidebar-bg: rgba(16, 20, 22, 0.9);
 }
 
-/* Main container background */
-.app-container {
+/* Main background - higher specificity */
+body.theme-dark {
     background: var(--ef-background-image) !important;
     background-size: cover !important;
     background-position: center !important;
@@ -21,14 +22,21 @@ body {
     background-attachment: fixed !important;
 }
 
+/* App container - ensure transparency */
+.app-container {
+    background-color: transparent !important;
+}
+
 /* Enhanced glass effect for main content */
-.horizontal-main-container {
-    backdrop-filter: brightness(var(--ef-custom-bg-brightness))
-                    blur(var(--ef-custom-bg-blur))
+.workspace-split.mod-vertical {
+    background-color: var(--ef-panel-bg) !important;
+    backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
+                    blur(var(--ef-custom-bg-blur)) 
                     saturate(1.1) !important;
-    background: var(--ef-panel-bg) !important;
+    -webkit-backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
+                           blur(var(--ef-custom-bg-blur)) 
+                           saturate(1.1) !important;
     border: 1px solid var(--ef-glass-effect) !important;
-    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25) !important;
 }
 
 /* Clean transparent workspace */
@@ -43,16 +51,22 @@ body {
 
 .workspace-tabs {
     background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
     border-bottom: 1px solid var(--ef-glass-effect) !important;
 }
 
 .workspace-ribbon {
     background: var(--ef-sidebar-bg) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
     border-right: 1px solid var(--ef-glass-effect) !important;
 }
 
 .status-bar {
     background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
     border-top: 1px solid var(--ef-glass-effect) !important;
 }
 
@@ -65,6 +79,7 @@ body {
 .workspace-ribbon.mod-left {
     background: var(--ef-sidebar-bg) !important;
     backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
 }
 
 /* File explorer styling */
@@ -81,6 +96,7 @@ body {
 .nav-folder-title:hover {
     background: var(--ef-glass-effect) !important;
     backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
 }
 
 /* Improved active elements */
@@ -110,10 +126,10 @@ code[class*="language-"] {
 
 /* Enhanced theme integration */
 .theme-dark {
-    --background-primary: transparent;
-    --background-primary-alt: var(--ef-panel-bg);
-    --background-secondary: var(--ef-sidebar-bg);
-    --background-secondary-alt: var(--ef-panel-bg);
+    --background-primary: transparent !important;
+    --background-primary-alt: var(--ef-panel-bg) !important;
+    --background-secondary: var(--ef-sidebar-bg) !important;
+    --background-secondary-alt: var(--ef-panel-bg) !important;
 }
 
 /* Editor styling */
@@ -140,6 +156,7 @@ code[class*="language-"] {
 .modal {
     background: var(--ef-panel-bg) !important;
     backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
     border: 1px solid var(--ef-glass-effect) !important;
 }
 
