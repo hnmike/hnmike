@@ -31,17 +31,15 @@ body.theme-dark {
 
 /* Enhanced glass effect for main content */
 .workspace-split.mod-vertical {
-    background-color: var(--ef-workspace-card-bg) !important;
+    background-color: rgba(26, 35, 33, 0.5) !important;  /* Lighter workspace */
     backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
                     blur(var(--ef-custom-bg-blur)) 
-                    saturate(1.2) !important;
+                    saturate(1.2) !important;  /* Increased saturation */
     -webkit-backdrop-filter: brightness(var(--ef-custom-bg-brightness)) 
                            blur(var(--ef-custom-bg-blur)) 
                            saturate(1.2) !important;
-    border: none !important;  /* Remove border */
-    margin: 4px !important;  /* Add small margin between splits */
-    border-radius: 8px !important;  /* Rounded corners */
-    box-shadow: var(--ef-card-shadow) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;  /* Softer shadow */
 }
 
 /* Clean transparent workspace */
@@ -106,7 +104,9 @@ body.theme-dark {
 /* Sidebar styling */
 .workspace-ribbon {
     background: var(--ef-sidebar-bg) !important;
-    border: none !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    border-right: 1px solid var(--ef-glass-effect) !important;
     margin: 4px 0 4px 4px !important;
     border-radius: 8px 0 0 8px !important;
 }
@@ -126,13 +126,16 @@ body.theme-dark {
 .nav-file-title:hover,
 .nav-folder-title:hover {
     background: var(--ef-glass-effect) !important;
-    backdrop-filter: blur(4px) brightness(1.2) !important;
+    backdrop-filter: blur(4px) brightness(1.2) !important;  /* Brighter hover state */
     -webkit-backdrop-filter: blur(4px) brightness(1.2) !important;
 }
 
 /* Status bar */
 .status-bar {
     background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(8px) brightness(1.1) !important;
+    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    border-top: 1px solid var(--ef-glass-effect) !important;
     height: 24px !important;
     padding: 0 8px !important;
     font-size: 12px !important;
@@ -155,9 +158,9 @@ body.theme-dark {
 /* Code blocks */
 pre[class*="language-"],
 code[class*="language-"] {
-    background: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(16, 20, 22, 0.7) !important;  /* Lighter code blocks */
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
     border-radius: 4px !important;
-    border: 1px solid var(--ef-card-border) !important;
 }
 
 /* Scrollbars */
