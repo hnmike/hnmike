@@ -572,7 +572,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1489,7 +1489,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ff67fb61f83a16f4",
+  "active": "a1e06c5da87a077e",
   "lastOpenFiles": [
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
