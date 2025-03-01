@@ -268,6 +268,12 @@
     --hal-forest-selection: rgba(77, 94, 84, 0.6);  /* Everforest selection */
     --hal-forest-highlight: #2d3832;    /* Everforest highlight */
     --hal-forest-shadow: rgba(20, 28, 25, 0.4);    /* Dark shadow */
+
+    /* Background settings */
+    --background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
+    --background-brightness-dark: 0.6;
+    --background-blur-dark: 3px;
+    --background-opacity-dark: 0.85;
 }
 
 .theme-dark
@@ -308,6 +314,85 @@
     --table-row-even: hsl(0, 0%, 17%);
     --table-row-odd: hsl(0, 0%, 20%);
     --table-hover: var(--sumiInk2);
+
+    /* Background container */
+    .app-container {
+        background: var(--background-image);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* Main container with blur and brightness */
+    .horizontal-main-container {
+        backdrop-filter: brightness(var(--background-brightness-dark)) 
+                        blur(var(--background-blur-dark));
+        background-color: rgba(29, 36, 51, var(--background-opacity-dark)); /* hal-forest-bg with opacity */
+    }
+
+    /* Transparent workspace */
+    .workspace {
+        background: transparent;
+    }
+
+    /* Transparent elements */
+    .workspace-split.mod-root,
+    .workspace-tabs:not(.mod-stacked),
+    .workspace-ribbon.mod-left:before,
+    .workspace-ribbon.mod-right:before {
+        background-color: transparent;
+    }
+
+    /* Semi-transparent containers */
+    .workspace-tab-container,
+    .view-content,
+    .markdown-preview-view,
+    .markdown-source-view {
+        background-color: rgba(20, 28, 25, 0.4); /* hal-forest-darker with opacity */
+    }
+
+    /* Enhance contrast for active elements */
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .workspace-tab-header.is-active {
+        background-color: rgba(47, 59, 84, 0.6) !important; /* hal-forest-lighter with opacity */
+    }
+
+    /* Code blocks and inline code with enhanced contrast */
+    .markdown-preview-section pre,
+    .markdown-preview-section code {
+        background-color: rgba(20, 28, 25, 0.7) !important; /* Darker background for better readability */
+    }
+
+    /* Tables with semi-transparency */
+    table {
+        background-color: rgba(29, 36, 51, 0.4);
+    }
+
+    th {
+        background-color: rgba(20, 28, 25, 0.6);
+    }
+
+    /* Status bar with blur */
+    .status-bar {
+        background-color: rgba(20, 28, 25, 0.6);
+        backdrop-filter: blur(var(--background-blur-dark));
+    }
+
+    /* Additional blur effects for specific elements */
+    .modal,
+    .suggestion-container,
+    .menu {
+        backdrop-filter: blur(10px);
+        background-color: rgba(20, 28, 25, 0.8);
+    }
+
+    /* Enhanced contrast for active elements */
+    .nav-file-title:hover,
+    .nav-folder-title:hover {
+        background-color: rgba(47, 59, 84, 0.4);
+    }
 }
 
 .theme-light,
