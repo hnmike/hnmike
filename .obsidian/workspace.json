@@ -558,7 +558,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1475,10 +1475,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "00-09 system/homepage/dashboard.canvas",
     "00-09 system/homepage/Homepage.md",
+    "00-09 system/homepage/dashboard.canvas",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "CI CD.md",
     "00-09 system/inbox/2024-08-02.md",
