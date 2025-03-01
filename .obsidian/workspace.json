@@ -1462,7 +1462,7 @@
             }
           }
         ],
-        "currentTab": 40
+        "currentTab": 9
       },
       {
         "id": "fcfdd6d3ec2368f6",
@@ -1517,10 +1517,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aaa978ec7782e79e",
+  "active": "371c1ebb7fc236c3",
   "lastOpenFiles": [
-    "00-09 system/homepage/dashboard.canvas",
     "00-09 system/inbox/2024-08-02.md",
+    "00-09 system/homepage/dashboard.canvas",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource mlops devops.md",
     "3D COURSES.md",
