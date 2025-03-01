@@ -578,7 +578,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -662,7 +662,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 200
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -1520,12 +1520,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3f2bd648fac55222",
+  "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
+    "3D COURSES.md",
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/homepage/dashboard.canvas",
     "Lab opensource mlops devops.md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/homepage/Homepage.md",
     "Untitled.canvas",
@@ -1533,7 +1535,6 @@
     "cài đặt docker engine & desktop.md",
     "CI CD.md",
     "00-09 system/inbox/2024-08-02.md",
-    "3D COURSES.md",
     "Lab opensource data engineer.md",
     "2024-12.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
