@@ -1351,7 +1351,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1377,7 +1377,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aaa978ec7782e79e",
+  "active": "ff2d76966a527b7e",
   "lastOpenFiles": [
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "cài đặt docker engine & desktop.md",
