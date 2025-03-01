@@ -1,10 +1,13 @@
-/* Everforest Custom Background */
+/* Everforest Custom Background with Enhanced Blur */
 
 body {
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.6;
-    --ef-custom-bg-blur: 2px;
-    --ef-custom-bg-opacity: 0.7;
+    --ef-custom-bg-brightness: 0.7;
+    --ef-custom-bg-blur: 8px;
+    --ef-custom-bg-opacity: 0.65;
+    --ef-accent-color: rgba(137, 156, 64, 0.5);
+    --ef-surface-color: rgba(26, 35, 33, 0.55);
+    --ef-glass-effect: rgba(255, 255, 255, 0.05);
 }
 
 /* Main container background */
@@ -16,56 +19,100 @@ body {
     background-attachment: fixed !important;
 }
 
-/* Main content area with blur and brightness adjustment */
+/* Enhanced glass effect for main content */
 .horizontal-main-container {
     backdrop-filter: brightness(var(--ef-custom-bg-brightness))
-        blur(var(--ef-custom-bg-blur)) !important;
-    background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity)) !important;
+                    blur(var(--ef-custom-bg-blur))
+                    saturate(1.2) !important;
+    background: linear-gradient(135deg, 
+                rgba(26, 35, 33, 0.5),
+                rgba(34, 48, 41, 0.4)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15) !important;
 }
 
-/* Make workspace transparent to show background */
+/* Clean transparent workspace */
 .workspace {
     background: transparent !important;
 }
 
-/* Transparent cards with slight opacity */
+/* Glass effect for UI elements */
 .workspace-split.mod-root,
 .workspace-tabs,
 .workspace-ribbon,
 .status-bar {
+    background: var(--ef-surface-color) !important;
+    backdrop-filter: blur(4px) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+}
+
+/* Refined content areas */
+.view-content {
+    background: linear-gradient(160deg, 
+                rgba(26, 35, 33, 0.4),
+                rgba(34, 48, 41, 0.3)) !important;
+    backdrop-filter: blur(6px) !important;
+}
+
+/* Enhanced sidebar styling */
+.workspace-ribbon.mod-left {
+    background: linear-gradient(180deg,
+                rgba(20, 28, 25, 0.7),
+                rgba(20, 28, 25, 0.5)) !important;
+    backdrop-filter: blur(5px) !important;
+    border-right: 1px solid var(--ef-glass-effect) !important;
+}
+
+/* Improved active elements */
+.workspace-leaf.mod-active .view-header {
+    background: linear-gradient(90deg,
+                rgba(34, 48, 41, 0.75),
+                rgba(34, 48, 41, 0.6)) !important;
+    backdrop-filter: blur(4px) !important;
+    border-bottom: 1px solid var(--ef-accent-color) !important;
+}
+
+/* Enhanced code blocks */
+pre[class*="language-"],
+code[class*="language-"] {
+    background: linear-gradient(120deg,
+                rgba(20, 28, 25, 0.85),
+                rgba(20, 28, 25, 0.75)) !important;
+    backdrop-filter: blur(3px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.03) !important;
+}
+
+/* Refined inline code */
+.cm-inline-code {
+    background: rgba(20, 28, 25, 0.7) !important;
+    backdrop-filter: blur(2px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.02) !important;
+}
+
+/* Enhanced theme integration */
+.theme-dark {
+    --background-primary: transparent;
+    --background-primary-alt: rgba(20, 28, 25, 0.6);
+    --background-secondary: rgba(26, 35, 33, 0.5);
+    --background-secondary-alt: rgba(34, 48, 41, 0.7);
+}
+
+/* Additional glass effects */
+.nav-folder-title:hover,
+.nav-file-title:hover {
+    background: var(--ef-glass-effect) !important;
+    backdrop-filter: blur(4px) !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.markdown-preview-view {
     background: transparent !important;
 }
 
-/* Add slight opacity to content areas */
-.view-content {
-    background-color: rgba(26, 35, 33, var(--ef-custom-bg-opacity)) !important;
-}
-
-/* Style the sidebar */
-.workspace-ribbon.mod-left {
-    background-color: rgba(20, 28, 25, 0.8) !important;
-}
-
-/* Style active elements */
-.workspace-leaf.mod-active .view-header {
-    background-color: rgba(34, 48, 41, 0.85) !important;
-}
-
-/* Style code blocks */
-pre[class*="language-"],
-code[class*="language-"] {
-    background-color: rgba(20, 28, 25, 0.9) !important;
-}
-
-/* Style inline code */
-.cm-inline-code {
-    background-color: rgba(20, 28, 25, 0.8) !important;
-}
-
-/* Additional styles for better integration */
-.theme-dark {
-    --background-primary: transparent;
-    --background-primary-alt: rgba(20, 28, 25, 0.8);
-    --background-secondary: rgba(26, 35, 33, 0.7);
-    --background-secondary-alt: rgba(34, 48, 41, 0.85);
+/* Smooth transitions */
+.workspace-leaf,
+.nav-file-title,
+.nav-folder-title,
+.workspace-tab-header {
+    transition: all 0.2s ease-in-out !important;
 }
