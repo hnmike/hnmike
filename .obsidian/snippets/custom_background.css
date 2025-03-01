@@ -2,12 +2,14 @@
 
 body {
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.7;
-    --ef-custom-bg-blur: 8px;
-    --ef-custom-bg-opacity: 0.65;
-    --ef-accent-color: rgba(137, 156, 64, 0.5);
-    --ef-surface-color: rgba(26, 35, 33, 0.55);
-    --ef-glass-effect: rgba(255, 255, 255, 0.05);
+    --ef-custom-bg-brightness: 0.5;
+    --ef-custom-bg-blur: 12px;
+    --ef-custom-bg-opacity: 0.8;
+    --ef-accent-color: rgba(137, 156, 64, 0.3);
+    --ef-surface-color: rgba(18, 22, 24, 0.75);
+    --ef-glass-effect: rgba(255, 255, 255, 0.03);
+    --ef-panel-bg: rgba(18, 22, 24, 0.85);
+    --ef-sidebar-bg: rgba(16, 20, 22, 0.9);
 }
 
 /* Main container background */
@@ -23,12 +25,10 @@ body {
 .horizontal-main-container {
     backdrop-filter: brightness(var(--ef-custom-bg-brightness))
                     blur(var(--ef-custom-bg-blur))
-                    saturate(1.2) !important;
-    background: linear-gradient(135deg, 
-                rgba(26, 35, 33, 0.5),
-                rgba(34, 48, 41, 0.4)) !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15) !important;
+                    saturate(1.1) !important;
+    background: var(--ef-panel-bg) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25) !important;
 }
 
 /* Clean transparent workspace */
@@ -37,76 +37,110 @@ body {
 }
 
 /* Glass effect for UI elements */
-.workspace-split.mod-root,
-.workspace-tabs,
-.workspace-ribbon,
+.workspace-split.mod-root {
+    background: transparent !important;
+}
+
+.workspace-tabs {
+    background: var(--ef-panel-bg) !important;
+    border-bottom: 1px solid var(--ef-glass-effect) !important;
+}
+
+.workspace-ribbon {
+    background: var(--ef-sidebar-bg) !important;
+    border-right: 1px solid var(--ef-glass-effect) !important;
+}
+
 .status-bar {
-    background: var(--ef-surface-color) !important;
-    backdrop-filter: blur(4px) !important;
-    border: 1px solid var(--ef-glass-effect) !important;
+    background: var(--ef-panel-bg) !important;
+    border-top: 1px solid var(--ef-glass-effect) !important;
 }
 
 /* Refined content areas */
 .view-content {
-    background: linear-gradient(160deg, 
-                rgba(26, 35, 33, 0.4),
-                rgba(34, 48, 41, 0.3)) !important;
-    backdrop-filter: blur(6px) !important;
+    background: transparent !important;
 }
 
 /* Enhanced sidebar styling */
 .workspace-ribbon.mod-left {
-    background: linear-gradient(180deg,
-                rgba(20, 28, 25, 0.7),
-                rgba(20, 28, 25, 0.5)) !important;
-    backdrop-filter: blur(5px) !important;
-    border-right: 1px solid var(--ef-glass-effect) !important;
+    background: var(--ef-sidebar-bg) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+/* File explorer styling */
+.nav-folder {
+    background: transparent !important;
+}
+
+.nav-file-title,
+.nav-folder-title {
+    background: transparent !important;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+    background: var(--ef-glass-effect) !important;
+    backdrop-filter: blur(4px) !important;
 }
 
 /* Improved active elements */
 .workspace-leaf.mod-active .view-header {
-    background: linear-gradient(90deg,
-                rgba(34, 48, 41, 0.75),
-                rgba(34, 48, 41, 0.6)) !important;
-    backdrop-filter: blur(4px) !important;
+    background: var(--ef-panel-bg) !important;
     border-bottom: 1px solid var(--ef-accent-color) !important;
+}
+
+.workspace-tab-header.is-active {
+    background: var(--ef-panel-bg) !important;
+    border-bottom: 2px solid var(--ef-accent-color) !important;
 }
 
 /* Enhanced code blocks */
 pre[class*="language-"],
 code[class*="language-"] {
-    background: linear-gradient(120deg,
-                rgba(20, 28, 25, 0.85),
-                rgba(20, 28, 25, 0.75)) !important;
-    backdrop-filter: blur(3px) !important;
+    background: var(--ef-sidebar-bg) !important;
     border: 1px solid rgba(255, 255, 255, 0.03) !important;
 }
 
 /* Refined inline code */
 .cm-inline-code {
-    background: rgba(20, 28, 25, 0.7) !important;
-    backdrop-filter: blur(2px) !important;
-    border: 1px solid rgba(255, 255, 255, 0.02) !important;
+    background: var(--ef-sidebar-bg) !important;
+    padding: 0.2em 0.4em !important;
+    border-radius: 3px !important;
 }
 
 /* Enhanced theme integration */
 .theme-dark {
     --background-primary: transparent;
-    --background-primary-alt: rgba(20, 28, 25, 0.6);
-    --background-secondary: rgba(26, 35, 33, 0.5);
-    --background-secondary-alt: rgba(34, 48, 41, 0.7);
+    --background-primary-alt: var(--ef-panel-bg);
+    --background-secondary: var(--ef-sidebar-bg);
+    --background-secondary-alt: var(--ef-panel-bg);
 }
 
-/* Additional glass effects */
-.nav-folder-title:hover,
-.nav-file-title:hover {
-    background: var(--ef-glass-effect) !important;
-    backdrop-filter: blur(4px) !important;
-    transition: all 0.2s ease-in-out;
+/* Editor styling */
+.cm-editor {
+    background: transparent !important;
 }
 
+.cm-line {
+    background: transparent !important;
+}
+
+/* Graph view adjustments */
+.graph-view.color-fill {
+    background: var(--ef-panel-bg) !important;
+}
+
+/* Markdown preview */
 .markdown-preview-view {
     background: transparent !important;
+    padding: 0 1em !important;
+}
+
+/* Modal styling */
+.modal {
+    background: var(--ef-panel-bg) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid var(--ef-glass-effect) !important;
 }
 
 /* Smooth transitions */
@@ -115,4 +149,18 @@ code[class*="language-"] {
 .nav-folder-title,
 .workspace-tab-header {
     transition: all 0.2s ease-in-out !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ef-accent-color) !important;
+    border-radius: 4px !important;
 }
