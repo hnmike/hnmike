@@ -523,7 +523,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1383,8 +1383,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
+    "00-09 system/inbox/2024-08-02.md",
     "Lab opensource data engineer.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "cài đặt docker engine & desktop.md",
@@ -1431,7 +1432,6 @@
     "smart-chats/UNTITLED CHAT 2024-11-17 07 48 00.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/homepage/DASHBOARD.md",
-    "_FileOrganizer2000/Templates/meeting_note.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
