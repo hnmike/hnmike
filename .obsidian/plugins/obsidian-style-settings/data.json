@@ -67,5 +67,6 @@
   "anuppuccin-theme-settings@@anp-alt-tab-custom-height": 35,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-depth-tab-opacity": 0.6,
-  "anuppuccin-theme-settings@@anp-bg-fix": false
+  "anuppuccin-theme-settings@@anp-bg-fix": false,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false
 }
