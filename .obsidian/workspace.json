@@ -662,7 +662,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 258.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -1464,7 +1464,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -1494,7 +1494,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d8ac700411aeb803",
+  "active": "d44114d041106e70",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
