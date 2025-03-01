@@ -60,172 +60,24 @@ body.theme-dark {
     background-color: transparent !important;
 }
 
-/* Workspace layout and spacing */
+/* Workspace styling */
 .workspace {
     background: transparent !important;
-    padding: 12px !important;
-    gap: 12px !important;
+    gap: 8px !important;
+    padding: 8px !important;
 }
 
 .workspace-split {
-    gap: 12px !important;
+    gap: 8px !important;
 }
 
-.workspace-split.mod-vertical,
-.workspace-split.mod-horizontal {
-    padding: 0 !important;
-}
-
-/* Left sidebar workspace */
-.workspace-split.mod-left-split {
-    margin-left: 8px !important;
-    margin-right: 4px !important;
-    min-width: 250px !important;
-}
-
-/* Right sidebar workspace */
-.workspace-split.mod-right-split {
-    margin-left: 4px !important;
-    margin-right: 8px !important;
-    min-width: 250px !important;
-}
-
-/* Main content workspace */
-.workspace-split.mod-vertical {
-    margin: 0 4px !important;
-}
-
-/* Workspace cards styling */
+/* Workspace cards with glass effect */
 .workspace-leaf {
     border-radius: 8px !important;
     overflow: hidden !important;
     background-color: var(--glass-surface) !important;
     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
-    transition: all 0.2s ease !important;
-}
-
-/* Card header styling */
-.workspace-leaf-header {
-    border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
-    background-color: rgba(var(--bg-primary-rgb), 0.7) !important;
-    height: 40px !important;
-}
-
-.workspace-leaf-header-title {
-    font-size: 14px !important;
-    font-weight: 500 !important;
-    padding: 0 8px !important;
-}
-
-.workspace-leaf-header-title-container {
-    padding: 0 8px !important;
-}
-
-/* Card content styling */
-.workspace-leaf-content {
-    padding: 0 !important;
-    position: relative !important;
-    background-color: transparent !important;
-}
-
-/* Resize handles */
-.workspace-leaf-resize-handle {
-    background-color: transparent !important;
-    transition: background-color 0.2s ease !important;
-}
-
-.workspace-split.mod-root > .workspace-leaf-resize-handle {
-    width: 4px !important;
-}
-
-.workspace-split.mod-vertical > .workspace-leaf-resize-handle {
-    width: 4px !important;
-}
-
-.workspace-leaf-resize-handle:hover {
-    background-color: rgba(var(--accent-rgb), 0.2) !important;
-}
-
-/* Active card styling */
-.workspace-leaf.mod-active {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-}
-
-.workspace-leaf.mod-active .workspace-leaf-header {
-    background-color: rgba(var(--bg-primary-rgb), 0.8) !important;
-    border-bottom: 1px solid rgba(var(--accent-rgb), 0.3) !important;
-}
-
-/* File explorer and sidebar cards */
-.nav-folder-children {
-    padding: 4px 8px !important;
-    margin: 0 !important;
-}
-
-.nav-file-title,
-.nav-folder-title {
-    border-radius: 6px !important;
-    margin: 2px 0 !important;
-    padding: 6px 12px !important;
-    transition: all 0.2s ease !important;
-}
-
-/* Sidebar ribbon */
-.workspace-ribbon.mod-left {
-    border-right: none !important;
-    background-color: rgba(var(--bg-secondary-rgb), 0.7) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-}
-
-.workspace-ribbon.mod-right {
-    border-left: none !important;
-    background-color: rgba(var(--bg-secondary-rgb), 0.7) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-}
-
-/* Ribbon icons */
-.workspace-ribbon-collapse-btn,
-.side-dock-ribbon-action {
-    padding: 8px 0 !important;
-    margin: 4px 0 !important;
-    color: var(--text-muted) !important;
-    transition: all 0.2s ease !important;
-}
-
-.workspace-ribbon-collapse-btn:hover,
-.side-dock-ribbon-action:hover {
-    color: var(--accent-color) !important;
-    background-color: rgba(var(--accent-rgb), 0.1) !important;
-}
-
-/* Status bar */
-.status-bar {
-    background-color: rgba(var(--bg-secondary-rgb), 0.7) !important;
-    border-top: none !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    padding: 4px 8px !important;
-    font-size: 12px !important;
-    height: 28px !important;
-}
-
-/* Improve scrollbars in cards */
-.workspace-leaf ::-webkit-scrollbar {
-    width: 6px !important;
-    height: 6px !important;
-}
-
-.workspace-leaf ::-webkit-scrollbar-thumb {
-    background-color: rgba(var(--accent-rgb), 0.2) !important;
-    border-radius: 3px !important;
-}
-
-.workspace-leaf ::-webkit-scrollbar-track {
-    background-color: transparent !important;
 }
 
 /* Remove default borders */
@@ -252,6 +104,40 @@ body.theme-dark {
 }
 
 .workspace-tab-header.is-active {
+    background-color: var(--glass-accent) !important;
+    color: var(--accent-color) !important;
+}
+
+/* Sidebar styling */
+.workspace-ribbon.mod-left {
+    background: var(--glass-surface) !important;
+    border: none !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+}
+
+/* File explorer */
+.nav-folder-children {
+    padding-left: 0 !important;
+    margin-left: 8px !important;
+}
+
+.nav-file-title,
+.nav-folder-title {
+    border-radius: 4px !important;
+    margin: 1px 0 !important;
+    padding: 4px 8px !important;
+    color: var(--text-color) !important;
+    transition: all 0.2s ease !important;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+    background-color: var(--glass-accent) !important;
+    color: var(--accent-color) !important;
+}
+
+.nav-file-title.is-active {
     background-color: var(--glass-accent) !important;
     color: var(--accent-color) !important;
 }
@@ -329,7 +215,6 @@ th, td {
     border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
     color: var(--text-color) !important;
 }
-
 /* Headers */
 .markdown-preview-section h1,
 .markdown-preview-section h2,
