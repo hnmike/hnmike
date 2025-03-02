@@ -352,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1304,11 +1304,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "07f5fc979c74de48",
+  "active": "e0763ffd1bf222d5",
   "lastOpenFiles": [
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Untitled 1.canvas",
     "Lab opensource mlops devops.md",
