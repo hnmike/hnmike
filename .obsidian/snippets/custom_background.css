@@ -564,11 +564,6 @@ th, td {
     background: rgba(var(--bg-primary-rgb), 0.95) !important;
 }
 
-.modal-bg {
-    opacity: 0.8 !important;
-    background: rgba(0, 0, 0, 0.8) !important;
-}
-
 .suggestion-container {
     background: rgba(var(--bg-primary-rgb), 0.95) !important;
     border: none !important;
