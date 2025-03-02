@@ -35,7 +35,7 @@
      /* Custom background settings */
      --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
      --ef-custom-bg-brightness: 0.85;
-     --ef-custom-bg-blur: 12px;
+     --ef-custom-bg-blur: 24px;
      --ef-custom-bg-opacity: 0.8;
      
      /* Glass effect variables */
@@ -62,7 +62,7 @@
  
  /* Workspace styling */
  .workspace {
-     background: transparent !important;
+    background: rgba(var(--bg-primary-rgb), 0.4) !important;
      gap: 8px !important;
      padding: 8px !important;
  }
@@ -140,12 +140,6 @@
      font-weight: 500 !important;
  }
  
- .workspace-leaf-content {
-    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
-    backdrop-filter: blur(24px) brightness(0.95) !important;
-    -webkit-backdrop-filter: blur(24px) brightness(0.95) !important;
-    border-radius: 10px !important;
-}
  .workspace-tab-header:hover {
      background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
  }
