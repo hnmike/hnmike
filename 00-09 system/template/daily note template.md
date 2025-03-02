@@ -1,9 +1,14 @@
 ---
-created-date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
-aliases: 
+type: daily-note
+date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+aliases:
+  - "<% moment(tp.file.title, 'YYYY-MM-DD').format("DD/MM/YYYY") %>"
+week: <% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>
+month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
 summary: 
 tags:
-  - "#type/daily-note"
+  - type/daily-note
+  - journal/daily
 ---
 
 # Daily Overview
@@ -55,49 +60,75 @@ tags:
 >> hide edit button
 >> ```
 
-## Morning pages
+## 📊 Project Updates
 
->[!journal]- On this day...
->```dataview
->LIST
-FROM "Journal/ Daily"
-WHERE dataformat(file.day,"MM-DD")= dateformat(this.file.day, "MM-dd")
-
->[!calender]- Note Created This Day
->```dataview
-TABLE created, file.mtime AS modified, tags, summary
-FROM ""
-WHERE !contains(file.folder, "journal") 
-AND !contains(file.folder, "template")
-AND dateformat(file.ctime, "YYYY-MM-DD") = dateformat(this.file.day, "YYYY-MM-DD")
-
->[!task]- Tasks
->```dataview
-TASK
-WHERE !completed
-AND contains(text, "[[" + date(today).format("YYYY-MM-DD") + "-") 
-AND contains(text, "#task")
-GROUP BY file.name AS filename
-SORT file.ctime DESC
->```
-
-task
 ```dataview
-Task
-Where !completed
-AND icontains(text, "[[<% moment (tp.file.title, 'YYYY-MM-DD').format("YYYY-MM") %>")
-AND icontains(text, "#task")
-GROUP BY file.name as filename
-SORT rows.file.ctime DESC
+TABLE 
+    status as "Status",
+    priority as "Priority",
+    progress as "Progress"
+FROM "20-30 PARA/Projects"
+WHERE contains(due_date, this.file.name)
+SORT priority DESC
 ```
-```dataviewjs 
+
+## 🧠 Knowledge Management
+
+### 📚 Technical Notes
+```dataview
+LIST
+FROM "10-20 zettelkasten"
+WHERE contains(created, this.file.name)
+AND type = "technical"
 ```
 
+### 💡 Zettelkasten Notes
+```dataview
+LIST
+FROM "10-20 zettelkasten"
+WHERE contains(created, this.file.name)
+AND type = "permanent"
+```
+
+## 📝 Daily Log
+
+### 🌅 Morning Review
+- [ ] Review yesterday's notes
+- [ ] Check calendar for today
+- [ ] Set top 3 priorities
+- [ ] Check email inbox
+
+### 📝 Today's Notes & Activities
 
 
-** Morning brain dump **
+### 🌙 Evening Review
+- [ ] Review completed tasks
+- [ ] Update project status
+- [ ] Plan for tomorrow
+- [ ] Journal reflection
 
-## LOG
+## 🤔 Daily Reflection
 
+### What Went Well
+- 
 
+### Challenges Faced
+- 
 
+### Key Learnings
+- 
+
+### Tomorrow's Priorities
+1. 
+2. 
+3. 
+
+## 🔗 Related Notes
+```dataview
+TABLE 
+    file.mtime as "Modified",
+    summary as "Summary"
+FROM ""
+WHERE file.mtime = date(this.file.name)
+SORT file.mtime DESC
+```
