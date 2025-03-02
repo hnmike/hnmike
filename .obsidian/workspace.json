@@ -257,29 +257,6 @@
             }
           },
           {
-            "id": "e5fc862ea234af4f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "a1e06c5da87a077e",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -375,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1346,10 +1323,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e5fc862ea234af4f",
+  "active": "07f5fc979c74de48",
   "lastOpenFiles": [
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "conflict-files-obsidian-git.md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
