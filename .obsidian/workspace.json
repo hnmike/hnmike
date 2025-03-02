@@ -1156,29 +1156,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "bd8250ca481da2ca",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1199,9 +1180,57 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "1cfcfacecbd380df",
+            "type": "leaf",
+            "state": {
+              "type": "react-view",
+              "state": {},
+              "icon": "microscope",
+              "title": "You and Your Research"
+            }
+          },
+          {
+            "id": "77ca3f2525f7f134",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "961f9bbb0f12e6a5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 40
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1275,7 +1304,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "527a38be471c2288",
+  "active": "961f9bbb0f12e6a5",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
