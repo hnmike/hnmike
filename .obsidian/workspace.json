@@ -430,7 +430,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/daily note template.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -1599,7 +1599,9 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Lab opensource data engineer.md",
     "00-09 system/template/daily note template.md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/project metadata.md",
@@ -1624,11 +1626,9 @@
     "Lab opensource mlops devops.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/03",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "20-30 PARA/Area",
