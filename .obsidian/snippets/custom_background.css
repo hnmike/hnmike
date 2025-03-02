@@ -40,9 +40,9 @@
     
     /* Glass effect variables */
     --glass-opacity: 0.6;
-    --glass-accent: rgba(var(--accent-rgb), 0.1);
+    --glass-accent: rgba(var(--accent-rgb), 0.2);
     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
-    --glass-border: rgba(var(--text-rgb), 0.05);
+    --glass-border: rgba(var(--text-rgb), 0.2);
 }
 
 /* Main background */
