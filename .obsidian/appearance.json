@@ -14,13 +14,12 @@
     "removehighlight",
     "callout",
     "bulleththreading",
-    "custom_background",
-    "custom_kanagawa"
+    "custom_background"
   ],
   "theme": "obsidian",
   "cssTheme": "",
   "accentColor": "#ffffff",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
   "textFontFamily": "",

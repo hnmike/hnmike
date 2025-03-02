@@ -503,3 +503,60 @@ th, td {
 .suggestion-item.is-selected {
     background: rgba(var(--accent-rgb), 0.1) !important;
 }
+
+/* Remove bottom lines from cards */
+.workspace-leaf,
+.workspace-leaf-content,
+.view-content,
+.markdown-preview-view,
+.nav-folder,
+.nav-file,
+.nav-file-title,
+.nav-folder-title,
+.workspace-tab-container,
+.workspace-tab-header-container {
+    border-bottom: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+/* Clean card styling without bottom lines */
+.workspace-leaf {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    background: rgba(52, 63, 68, 0.4) !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.workspace-leaf.mod-active {
+    background: rgba(52, 63, 68, 0.7) !important;
+}
+
+.workspace-leaf-content {
+    background: rgba(45, 53, 59, 0.4) !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
+
+/* Remove any residual borders or shadows */
+.view-header {
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.workspace-tab-container {
+    background: rgba(52, 63, 68, 0.7) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove divider lines */
+.workspace-leaf-resize-handle,
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+    background-color: transparent !important;
+    border: none !important;
+}
