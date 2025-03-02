@@ -493,6 +493,7 @@ th, td {
     background: rgba(var(--bg-primary-rgb), 0.2) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
 }
 
 .suggestion-item {
@@ -543,33 +544,33 @@ th, td {
 .prompt,
 .menu,
 .suggestion-container,
-.dropdown,
-.popover,
-.setting-editor-extra-setting-button,
-.community-modal,
-.community-plugin-details,
-.modal-container,
-.setting-item,
+.vertical-tab-header-group,
 .vertical-tab-content,
 .vertical-tab-nav-item,
-.modal-setting,
+.modal-container,
+.setting-item,
 .setting-item-control,
-.setting-editor-extra-setting-button {
+.dropdown,
+.checkbox-container,
+.community-modal,
+.community-plugin-details,
+.plugin-browser-container {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-    background: rgba(var(--bg-primary-rgb), 0.95) !important;
-}
-
-.modal-container .modal {
-    background: rgba(var(--bg-primary-rgb), 0.95) !important;
-}
-
-.suggestion-container {
-    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+    background: var(--background-secondary) !important;
     border: none !important;
 }
 
-.menu {
-    background: rgba(var(--bg-primary-rgb), 0.95) !important;
-    border: none !important;
+.modal-bg {
+    opacity: 0.8 !important;
+    background: var(--background-secondary) !important;
+}
+
+.vertical-tab-content-container,
+.vertical-tab-header {
+    background: var(--background-secondary) !important;
+}
+
+.setting-editor-extra-setting-button {
+    background: var(--background-secondary-alt) !important;
 }
