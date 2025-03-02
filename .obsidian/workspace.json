@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -586,6 +586,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-09 system/project/data engineer.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -595,7 +596,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for data engineer"
             }
           }
         ]
@@ -628,12 +629,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a0e166306124e0d1",
+  "active": "468297bb672f56b0",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
+    "00-09 system/project/data engineer.md",
     "Untitled 2.md",
     "vim motion key.md",
-    "00-09 system/project/data engineer.md",
-    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "conflict-files-obsidian-git.md",
     "Untitled.canvas",
