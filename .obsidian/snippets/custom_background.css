@@ -35,14 +35,14 @@
     /* Custom background settings */
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
     --ef-custom-bg-brightness: 0.85;
-    --ef-custom-bg-blur: 8px;
-    --ef-custom-bg-opacity: 0.4;
+    --ef-custom-bg-blur: 12px;
+    --ef-custom-bg-opacity: 0.8;
     
     /* Glass effect variables */
-    --glass-opacity: 0.4;
-    --glass-accent: rgba(var(--accent-rgb), 0.15);
-    --glass-surface: rgba(var(--bg-primary-rgb), 0.35);
-    --glass-border: rgba(var(--text-rgb), 0.08);
+    --glass-opacity: 0.6;
+    --glass-accent: rgba(var(--accent-rgb), 0.1);
+    --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+    --glass-border: rgba(var(--text-rgb), 0.2);
 }
 
 /* Main background */
@@ -75,9 +75,9 @@ body.theme-dark {
 .workspace-leaf {
     border-radius: 8px !important;
     overflow: hidden !important;
-    background-color: rgba(var(--bg-primary-rgb), 0.35) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
 }
 
 /* Remove default borders */
@@ -110,10 +110,10 @@ body.theme-dark {
 
 /* Sidebar styling */
 .workspace-ribbon.mod-left {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    background: var(--glass-surface) !important;
     border: none !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
 }
 
 /* File explorer */
@@ -133,12 +133,12 @@ body.theme-dark {
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
-    background-color: rgba(var(--accent-rgb), 0.15) !important;
+    background-color: var(--glass-accent) !important;
     color: var(--accent-color) !important;
 }
 
 .nav-file-title.is-active {
-    background-color: rgba(var(--accent-rgb), 0.15) !important;
+    background-color: var(--glass-accent) !important;
     color: var(--accent-color) !important;
 }
 
@@ -162,7 +162,7 @@ a:hover,
 pre[class*="language-"],
 code[class*="language-"] {
     border-radius: 4px !important;
-    background: rgba(var(--bg-secondary-rgb), 0.4) !important;
+    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
     border: none !important;
     color: var(--text-color) !important;
 }
@@ -171,7 +171,7 @@ code[class*="language-"] {
 .cm-inline-code {
     border-radius: 4px !important;
     padding: 2px 4px !important;
-    background: rgba(var(--bg-secondary-rgb), 0.4) !important;
+    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
     color: var(--text-color) !important;
 }
 
@@ -206,7 +206,7 @@ code[class*="language-"] {
 /* Tables */
 table {
     border: none !important;
-    background: rgba(var(--bg-secondary-rgb), 0.3) !important;
+    background: rgba(var(--bg-secondary-rgb), 0.4) !important;
     border-radius: 4px !important;
 }
 
@@ -250,8 +250,8 @@ th, td {
 
     /* Card and tab colors */
     --card-background-color: transparent;
-    --card-foreground-color: rgba(var(--bg-primary-rgb), 0.35);
-    --tab-inactive-color: rgba(var(--bg-secondary-rgb), 0.25);
+    --card-foreground-color: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+    --tab-inactive-color: rgba(var(--bg-secondary-rgb), 0.4);
     --code-background: var(--card-foreground-color);
 
     /* Card layout settings */
@@ -342,113 +342,13 @@ th, td {
 }
 
 .workspace-leaf-content {
-    background-color: rgba(var(--bg-primary-rgb), 0.35) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
     border-radius: 10px !important;
 }
 
 /* Remove header gradients */
 .view-header-title-container:not(.mod-at-end):after {
     display: none !important;
-}
-
-/* Search bar styling */
-.search-input-container {
-    background: transparent !important;
-}
-
-.search-input {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    border-radius: 6px !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-}
-
-/* Side search bars */
-.workspace-tab-header-container input[type="text"],
-.workspace-tab-header-container input[type="search"],
-.nav-action-button,
-.workspace-tab-header-inner-title {
-    background: transparent !important;
-    border: none !important;
-    color: var(--text-color) !important;
-}
-
-/* Search result container */
-.search-result-container {
-    background: transparent !important;
-}
-
-.search-result-file-title {
-    background: transparent !important;
-    border-radius: 4px !important;
-}
-
-.search-result-file-matches {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    border-radius: 4px !important;
-}
-
-/* Search suggestions */
-.suggestion-container {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-}
-
-.suggestion-item {
-    background: transparent !important;
-    border-radius: 4px !important;
-}
-
-.suggestion-item:hover,
-.suggestion-item.is-selected {
-    background: rgba(var(--accent-rgb), 0.1) !important;
-}
-
-/* Side dock search */
-.side-dock-panels-container {
-    background: transparent !important;
-}
-
-.nav-files-container {
-    background: transparent !important;
-}
-
-/* Search input in file explorer */
-.search-input-container input,
-.nav-action-button {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    border-radius: 4px !important;
-    border: 1px solid rgba(255, 255, 255, 0.05) !important;
-}
-
-/* Workspace leaf adjustments */
-.workspace-leaf {
-    background: transparent !important;
-}
-
-.workspace-leaf-content {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-}
-
-/* File explorer and search results */
-.nav-folder-title,
-.nav-file-title,
-.search-result-file-title,
-.search-result-file-match {
-    background: transparent !important;
-    transition: all 0.2s ease !important;
-}
-
-.nav-folder-title:hover,
-.nav-file-title:hover,
-.search-result-file-title:hover,
-.search-result-file-match:hover {
-    background: rgba(var(--accent-rgb), 0.1) !important;
 }
