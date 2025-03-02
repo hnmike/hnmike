@@ -331,7 +331,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1247,7 +1247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 436.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1273,8 +1273,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aa4d1ed323dcfa1d",
+  "active": "0111a2b56f3f50a3",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
     "what is GNU LINUX.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -1293,7 +1294,6 @@
     "CI CD.md",
     "Lab opensource data engineer.md",
     "2024-12.md",
-    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "20-30 PARA/Area",
     "20-30 PARA/Archives",
     "20-30 PARA/Resources",

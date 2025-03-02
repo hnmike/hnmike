@@ -80,7 +80,7 @@ body.theme-dark {
     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
 }
 
-/* Remove default borders */
+/* Remove container borders and update scrollbar */
 .workspace-leaf,
 .workspace-tabs,
 .view-header,
@@ -93,7 +93,26 @@ body.theme-dark {
     box-shadow: none !important;
 }
 
-/* Tab headers */
+/* Update scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--text-rgb), 0.2) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--text-rgb), 0.3) !important;
+}
+
+/* Make tabs clearer and remove blur */
 .workspace-tab-header-container {
     background: transparent !important;
     padding: 0 8px !important;
@@ -119,6 +138,15 @@ body.theme-dark {
 .workspace-tab-header:hover {
     background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
     color: var(--accent-color) !important;
+}
+
+/* Remove blur from containers */
+.workspace-leaf,
+.workspace-leaf-content,
+.workspace-split.mod-root .view-content {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(var(--bg-primary-rgb), 0.7) !important;
 }
 
 /* Sidebar styling */
@@ -204,25 +232,6 @@ code[class*="language-"] {
     --interactive-normal: var(--text-color) !important;
     --interactive-hover: var(--accent-color) !important;
     --interactive-accent: var(--accent-color) !important;
-}
-
-/* Scrollbars */
-::-webkit-scrollbar {
-    width: 8px !important;
-    height: 8px !important;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgba(var(--text-rgb), 0.2) !important;
-    border-radius: 4px !important;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(var(--text-rgb), 0.3) !important;
 }
 
 /* Tables */
@@ -465,13 +474,4 @@ th, td {
 
 .suggestion-item.is-selected {
     background: rgba(var(--accent-rgb), 0.1) !important;
-}
-
-/* Remove blur from containers */
-.workspace-leaf,
-.workspace-leaf-content,
-.workspace-split.mod-root .view-content {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    background: rgba(var(--bg-primary-rgb), 0.7) !important;
 }
