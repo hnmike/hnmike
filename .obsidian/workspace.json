@@ -370,7 +370,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1342,16 +1342,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "e0763ffd1bf222d5",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": false
+  },
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+    "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "conflict-files-obsidian-git.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Untitled 1.canvas",
     "Lab opensource mlops devops.md",
-    "3D COURSES.md",
     "Chats/New Chat.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
