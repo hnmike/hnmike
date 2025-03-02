@@ -503,3 +503,26 @@ th, td {
 .suggestion-item.is-selected {
     background: rgba(var(--accent-rgb), 0.1) !important;
 }
+
+/* Remove bottom lines from cards */
+.nav-file-title,
+.nav-folder-title,
+.workspace-leaf,
+.workspace-tab-header,
+.workspace-tab-container,
+.view-content,
+.search-result-file-title,
+.suggestion-item {
+    border-bottom: none !important;
+}
+
+.workspace-leaf-content,
+.workspace-tab-container-before,
+.workspace-tab-container-after,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split,
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
