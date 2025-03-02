@@ -174,7 +174,7 @@
  .workspace-split.mod-root .view-content {
      backdrop-filter: none !important;
      -webkit-backdrop-filter: none !important;
-     background: rgba(var(--bg-primary-rgb), 0.85) !important;
+     background: rgba(var(--bg-primary-rgb), 0.82) !important;
  }
  
  /* Sidebar styling */
