@@ -227,3 +227,128 @@ th, td {
     font-family: 'Ubuntu Sans', sans-serif !important;
     font-weight: 500 !important;
 }
+
+/* Background image and container settings */
+.anp-background-image-toggle:not(.anp-colorful-frame) {
+    /* Container backgrounds */
+    .app-container,
+    &.anp-bg-fix .app-container {
+        background: var(--ef-background-image) !important;
+        background-size: cover !important;
+        background-color: transparent !important;
+    }
+
+    .horizontal-main-container,
+    &.anp-bg-fix .horizontal-main-container {
+        backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+        background-color: transparent !important;
+    }
+
+    .workspace {
+        background: transparent !important;
+    }
+
+    /* Card and tab colors */
+    --card-background-color: transparent;
+    --card-foreground-color: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+    --tab-inactive-color: rgba(var(--bg-secondary-rgb), 0.4);
+    --code-background: var(--card-foreground-color);
+
+    /* Card layout settings */
+    &.anp-card-layout .workspace-split.mod-root .view-content {
+        background: transparent !important;
+    }
+
+    /* Tab styling */
+    &.anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked),
+    &.anp-safari-tab-toggle .workspace-tabs:not(.mod-stacked) {
+        --tab-background: var(--tab-inactive-color);
+        --tab-background-active: var(--card-foreground-color);
+        --tab-background-inactive: var(--tab-inactive-color);
+    }
+
+    /* Header and ribbon styling */
+    &.anp-floating-header .nav-folder.mod-root > .nav-folder-title {
+        background-color: var(--tab-inactive-color) !important;
+    }
+
+    /* Transparent backgrounds */
+    &.anp-canvas-dark-bg .canvas-wrapper,
+    .canvas-wrapper,
+    .workspace-ribbon.mod-left:before,
+    .workspace-tab-header-container,
+    .workspace-split.mod-root {
+        background-color: transparent !important;
+    }
+
+    /* Card foreground colors */
+    &:not(.anp-card-layout, .anp-border-layout) {
+        .workspace-tab-header-container,
+        .workspace-tabs .workspace-leaf,
+        .workspace-split.mod-root .view-content,
+        .workspace-ribbon,
+        .workspace-ribbon.mod-left:before,
+        .view-header {
+            background-color: var(--card-foreground-color) !important;
+        }
+    }
+
+    /* Transparent elements */
+    .kanban-plugin__item-title-wrapper,
+    &.anp-card-layout .workspace-ribbon,
+    .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
+    .mod-root .workspace-tabs .workspace-leaf,
+    &.anp-card-layout .view-header {
+        background: transparent !important;
+    }
+
+    /* Border layout */
+    &.anp-border-layout {
+        .workspace-tab-header-container,
+        .workspace-ribbon.mod-left:before {
+            background: transparent !important;
+        }
+
+        &.anp-fixed-status-bar .status-bar {
+            background: transparent !important;
+            backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+        }
+    }
+
+    /* Status bar */
+    &:not(.anp-border-layout, .anp-card-layout) {
+        &.anp-fixed-status-bar .status-bar {
+            background: var(--card-foreground-color) !important;
+            backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+        }
+    }
+}
+
+/* Workspace layout adjustments */
+.workspace {
+    padding: 12px !important;
+    gap: 12px !important;
+}
+
+.workspace-split {
+    gap: 12px !important;
+}
+
+/* Card styling */
+.workspace-leaf {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+}
+
+.workspace-leaf-content {
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    border-radius: 10px !important;
+}
+
+/* Remove header gradients */
+.view-header-title-container:not(.mod-at-end):after {
+    display: none !important;
+}
