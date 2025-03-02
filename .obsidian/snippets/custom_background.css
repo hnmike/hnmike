@@ -504,25 +504,29 @@ th, td {
     background: rgba(var(--accent-rgb), 0.1) !important;
 }
 
-/* Remove bottom lines from cards */
+/* Remove lines from cards */
 .nav-file-title,
 .nav-folder-title,
 .workspace-leaf,
 .workspace-tab-header,
 .workspace-tab-container,
-.view-content,
+.nav-header,
 .search-result-file-title,
-.suggestion-item {
-    border-bottom: none !important;
-}
-
-.workspace-leaf-content,
-.workspace-tab-container-before,
-.workspace-tab-container-after,
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split,
-.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+.tree-item-self,
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title,
+.workspace-leaf-content[data-type="file-explorer"] .nav-file-title {
     border-bottom: none !important;
     box-shadow: none !important;
+}
+
+.workspace-tab-header-container::after,
+.workspace-tab-header-container::before,
+.workspace-tab-container::after,
+.workspace-tab-container::before {
+    display: none !important;
+}
+
+.workspace-split.mod-root .view-content {
+    border-top: none !important;
+    border-bottom: none !important;
 }
