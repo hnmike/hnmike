@@ -493,7 +493,6 @@ th, td {
     background: rgba(var(--bg-primary-rgb), 0.2) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
 }
 
 .suggestion-item {
@@ -536,4 +535,46 @@ th, td {
     border-top: none !important;
     border-bottom: none !important;
     background-color: transparent !important;
+}
+
+/* Remove blur effects from modals and settings */
+.modal,
+.modal-bg,
+.prompt,
+.menu,
+.suggestion-container,
+.dropdown,
+.popover,
+.setting-editor-extra-setting-button,
+.community-modal,
+.community-plugin-details,
+.modal-container,
+.setting-item,
+.vertical-tab-content,
+.vertical-tab-nav-item,
+.modal-setting,
+.setting-item-control,
+.setting-editor-extra-setting-button {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+}
+
+.modal-container .modal {
+    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+}
+
+.modal-bg {
+    opacity: 0.8 !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.suggestion-container {
+    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+    border: none !important;
+}
+
+.menu {
+    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+    border: none !important;
 }
