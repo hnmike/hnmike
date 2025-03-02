@@ -6,49 +6,54 @@ tags:
   - "#type/daily-note"
 ---
 
->**Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
->**Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
->**week::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]], [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD")  %>]]
+# Daily Overview
 
+>[!meta]- Navigation
+>**⬅️ Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
+>**➡️ Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
+>**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
+>**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
-## Tasks
+## 🎯 Today's Focus
+<%tp.file.cursor()%>
+
+## 📋 Tasks & Activities
 
 > [!multi-column]
 > 
->> [!TODO]
->> - **Todo**
->>   - ```tasks
->>    not done
->> (status. Type is not IN_PROGRESS)
->> Short mode
->>      hide due date
->>    hide start date
->>      hide scheduled date
->>    hide recurrence rule
->>    sort by urgency, scheduled```
+>> [!todo]+ To Do
+>> ```tasks
+>> not done
+>> path does not include Daily
+>> (status.type is not IN_PROGRESS)
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
 >
->> [!DOING]
->> - **Doing**
->>   - ```tasks
->>      not done
->>    (status. Type is IN_PROGRESS)
->>      short mode
->>    hide due date
->>      hide start date
->>    hide scheduled date
->>      hide recurrence rule
->>    sort by urgency, due```
+>> [!doing]+ In Progress
+>> ```tasks
+>> not done
+>> path does not include Daily
+>> (status.type is IN_PROGRESS)
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
 >
->> [!DONE]
->> - **Done**
->>   - ```tasks
->>      done
->>    short mode
->>      hide due date
->>    hide start date
->>    hide scheduled date
-
-
+>> [!done]+ Completed Today
+>> ```tasks
+>> done on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> path does not include Daily
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
 
 ## Morning pages
 
