@@ -356,7 +356,6 @@ th, td {
 /* Search container styling */
 .search-input-container {
     background: transparent !important;
-    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
@@ -419,7 +418,6 @@ th, td {
 /* Update tab header container */
 .workspace-tab-header-container {
     background: transparent !important;
-    border: none !important;
 }
 
 /* Update ribbon styling */
@@ -434,7 +432,7 @@ th, td {
     background: rgba(var(--bg-primary-rgb), 0.2) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
+    border: none !important;
 }
 
 .suggestion-item {
@@ -443,4 +441,22 @@ th, td {
 
 .suggestion-item.is-selected {
     background: rgba(var(--accent-rgb), 0.1) !important;
+}
+
+/* Remove container borders */
+.workspace-leaf,
+.workspace-tabs,
+.view-header,
+.workspace-leaf-content,
+.nav-folder-children,
+.search-input-container,
+.workspace-tab-header-container,
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right,
+.side-dock-panels-container,
+.nav-files-container,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+    border: none !important;
+    box-shadow: none !important;
 }

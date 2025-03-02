@@ -886,6 +886,25 @@
             }
           },
           {
+            "id": "a83494f60de983fe",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "d44114d041106e70",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1456,32 +1475,7 @@
             }
           }
         ],
-        "currentTab": 9
-      },
-      {
-        "id": "fcfdd6d3ec2368f6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a83494f60de983fe",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -1511,10 +1505,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aaa978ec7782e79e",
+  "active": "a83494f60de983fe",
   "lastOpenFiles": [
-    "00-09 system/inbox/2024-08-02.md",
     "Chats/New Chat.md",
+    "00-09 system/inbox/2024-08-02.md",
     "Lab opensource mlops devops.md",
     "00-09 system/homepage/dashboard.canvas",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
