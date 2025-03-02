@@ -1,4 +1,36 @@
-/* Workspace styling */
+/* Border layout adjustments */
+.anp-border-layout {
+    .workspace-tab-header-container,
+    .workspace-ribbon.mod-left:before {
+        background: transparent !important;
+    }
+
+    .workspace-split.mod-left-split {
+        margin-left: 12px !important;
+    }
+
+    .workspace-split.mod-right-split {
+        margin-right: 12px !important;
+    }
+
+    .workspace-ribbon.mod-left,
+    .workspace-ribbon.mod-right {
+        background: transparent !important;
+        border: none !important;
+        margin: 12px 8px !important;
+    }
+
+    .workspace-tab-container {
+        background: transparent !important;
+        padding: 0 !important;
+    }
+
+    .workspace-leaf {
+        margin: 8px !important;
+    }
+}
+
+/* Workspace layout spacing */
 .workspace {
     background: transparent !important;
     gap: 12px !important;
@@ -72,16 +104,51 @@
     border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Adjust spacing for left and right sidebars */
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    margin: 12px !important;
-}
-
 /* Remove borders from tabs */
 .workspace-tab-header-container {
     background: transparent !important;
     border: none !important;
     padding: 4px 8px !important;
     margin: 0 !important;
+}
+
+/* Ribbon styling */
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right {
+    background: transparent !important;
+    border-radius: 10px !important;
+    margin: 8px !important;
+    padding: 8px 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Empty state styling */
+.empty-state {
+    background: rgba(var(--bg-primary-rgb), 0.3) !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    padding: 20px !important;
+    margin: 12px !important;
+}
+
+.empty-state-container {
+    background: transparent !important;
+}
+
+.empty-state-action {
+    background: rgba(var(--bg-primary-rgb), 0.4) !important;
+    border-radius: 6px !important;
+    padding: 8px 16px !important;
+    margin: 4px !important;
+    color: var(--text-color) !important;
+    transition: all 0.2s ease !important;
+}
+
+.empty-state-action:hover {
+    background: rgba(var(--accent-rgb), 0.15) !important;
+    color: var(--accent-color) !important;
 }
