@@ -433,6 +433,31 @@
             }
           }
         ]
+      },
+      {
+        "id": "6e014cb29d7f2211",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8ac700411aeb803",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -594,25 +619,6 @@
           },
           {
             "id": "371c1ebb7fc236c3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d8ac700411aeb803",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1275,7 +1281,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "a1e06c5da87a077e",
   "lastOpenFiles": [
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
