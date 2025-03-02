@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -586,7 +586,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim motion key.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -596,7 +595,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vim motion key"
+              "title": "Backlinks"
             }
           }
         ]
@@ -629,10 +628,12 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "be272041c4d55381",
+  "active": "a0e166306124e0d1",
   "lastOpenFiles": [
     "Untitled 2.md",
+    "vim motion key.md",
     "00-09 system/project/data engineer.md",
+    "cài đặt docker engine & desktop.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "conflict-files-obsidian-git.md",
     "Untitled.canvas",
@@ -664,8 +665,6 @@
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/journal/daily/2025/01",
     "00-09 system/journal/daily/2025",
-    "cài đặt docker engine & desktop.md",
-    "vim motion key.md",
     "Lab week 3 de(202412082116).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
