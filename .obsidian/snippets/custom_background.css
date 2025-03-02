@@ -34,12 +34,12 @@
     
     /* Custom background settings */
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 1.2;
+    --ef-custom-bg-brightness: 0.95;
     --ef-custom-bg-blur: 24px;
     --ef-custom-bg-opacity: 0.5;
     
     /* Glass effect variables */
-    --glass-opacity: 0.9;
+    --glass-opacity: 0.85;
     --glass-accent: rgba(var(--accent-rgb), 0.1);
     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
     --glass-border: rgba(var(--text-rgb), 0.2);
@@ -62,23 +62,23 @@ body.theme-dark {
 
 /* Workspace styling */
 .workspace {
-    background: rgba(61, 72, 77, 0.3) !important;
+    background: rgba(var(--bg-primary-rgb), 0.4) !important;
     gap: 8px !important;
     padding: 8px !important;
 }
 
 .workspace-split {
     gap: 8px !important;
-    background: rgba(61, 72, 77, 0.2) !important;
+    background: rgba(var(--bg-primary-rgb), 0.2) !important;
 }
 
 /* Workspace cards with glass effect */
 .workspace-leaf {
     border-radius: 8px !important;
     overflow: hidden !important;
-    background-color: rgba(61, 72, 77, 0.85) !important;
-    backdrop-filter: blur(24px) brightness(1.2) !important;
-    -webkit-backdrop-filter: blur(24px) brightness(1.2) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
 }
 
 /* Remove container borders and update scrollbar */
@@ -122,7 +122,7 @@ body.theme-dark {
 
 .workspace-tab-header {
     position: relative !important;
-    background-color: rgba(61, 72, 77, 0.7) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.4) !important;
     border-radius: 8px 8px 0 0 !important;
     padding: 4px 16px !important;
     margin: 0 2px !important;
@@ -136,12 +136,13 @@ body.theme-dark {
 }
 
 .workspace-tab-header.is-active {
-    background-color: rgba(61, 72, 77, 0.85) !important;
-    color: rgb(211, 198, 170) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+    color: var(--text-color) !important;
+    font-weight: 500 !important;
 }
 
 .workspace-tab-header:hover {
-    background-color: rgba(61, 72, 77, 0.75) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
 }
 
 .workspace-tab-header-inner {
@@ -155,7 +156,7 @@ body.theme-dark {
 }
 
 .workspace-tab-container {
-    background-color: rgba(61, 72, 77, 0.85) !important;
+    background: rgba(var(--bg-primary-rgb), 0.95) !important;
     border-radius: 0 8px 8px 8px !important;
     margin-top: -1px !important;
     padding-top: 4px !important;
@@ -401,9 +402,9 @@ th, td {
 }
 
 .workspace-leaf-content {
-    background-color: rgba(61, 72, 77, 0.85) !important;
-    backdrop-filter: blur(24px) brightness(1.2) !important;
-    -webkit-backdrop-filter: blur(24px) brightness(1.2) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+    backdrop-filter: blur(24px) brightness(0.95) !important;
+    -webkit-backdrop-filter: blur(24px) brightness(0.95) !important;
     border-radius: 10px !important;
 }
 
@@ -536,11 +537,4 @@ th, td {
     border-top: none !important;
     border-bottom: none !important;
     background-color: transparent !important;
-}
-
-/* Update view content brightness */
-.workspace-split.mod-root .view-content {
-    background: rgba(61, 72, 77, 0.85) !important;
-    backdrop-filter: blur(24px) brightness(1.2) !important;
-    -webkit-backdrop-filter: blur(24px) brightness(1.2) !important;
 }
