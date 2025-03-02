@@ -3,413 +3,227 @@
  * Based on Everforest color scheme
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;300;400;500;700&display=swap');
 
- :root {
-     /* Core colors from Soft Everforest */
-     --accent-rgb: 167, 192, 128;
-     --accent2-rgb: 255, 115, 250;
-     --link-rgb: 127, 187, 179;
-     --mention-rgb: 230, 152, 117;
-     --text-rgb: 211, 198, 170;
-     
-     /* Background colors */
-     --bg-accent-rgb: 61, 72, 77;
-     --bg-primary-rgb: 52, 63, 68;
-     --bg-secondary-rgb: 45, 53, 59;
-     --bg-floating-rgb: 52, 63, 68;
-     
-     /* Theme variables */
-     --accent-color: rgb(var(--accent-rgb));
-     --accent-color-2: rgb(var(--accent2-rgb));
-     --link-color: rgb(var(--link-rgb));
-     --mention-color: rgb(var(--mention-rgb));
-     --text-color: rgb(var(--text-rgb));
-     
-     /* Background variables */
-     --bg-accent: rgb(var(--bg-accent-rgb));
-     --bg-primary: rgb(var(--bg-primary-rgb));
-     --bg-secondary: rgb(var(--bg-secondary-rgb));
-     --bg-floating: rgb(var(--bg-floating-rgb));
-     
-     /* Custom background settings */
-     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-     --ef-custom-bg-brightness: 0.75;
-     --ef-custom-bg-blur: 12px;
-     --ef-custom-bg-opacity: 0.6;
-     
-     /* Glass effect variables */
-     --glass-opacity: 0.7;
-     --glass-accent: rgba(var(--accent-rgb), 0.1);
-     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
-     --glass-border: rgba(var(--text-rgb), 0.05);
- }
- 
- /* Main background */
- body.theme-dark {
-     background: var(--ef-background-image) !important;
-     background-size: cover !important;
-     background-position: center !important;
-     background-repeat: no-repeat !important;
-     background-attachment: fixed !important;
-     font-family: 'Ubuntu Sans', sans-serif !important;
- }
- 
- /* App container */
- .app-container {
-     background-color: transparent !important;
- }
- 
- /* Workspace styling */
- .workspace {
-     background: transparent !important;
-     gap: 8px !important;
-     padding: 0 8px !important;
- }
- 
- .workspace-split {
-     gap: 8px !important;
-     margin-top: 8px !important;
-     margin-bottom: 8px !important;
- }
- 
- /* Workspace cards with glass effect */
- .workspace-leaf {
-     border-radius: 8px !important;
-     overflow: hidden !important;
-     background-color: var(--glass-surface) !important;
-     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-     margin: 4px !important;
- }
- 
- /* Remove default borders */
- .workspace-leaf,
- .workspace-tabs,
- .view-header,
- .workspace-leaf-content,
- .nav-folder-children {
-     border: none !important;
- }
- 
- /* Tab headers */
- .workspace-tab-header-container {
-     background: transparent !important;
-     border: none !important;
-     padding: 4px 8px !important;
- }
- 
- .workspace-tab-header {
-     border-radius: 4px !important;
-     padding: 2px 8px !important;
-     margin: 0 2px !important;
-     color: var(--text-color) !important;
- }
- 
- .workspace-tab-header.is-active {
-     background-color: var(--glass-accent) !important;
-     color: var(--accent-color) !important;
- }
- 
- /* Top icon ribbon styling - Left and Right */
- .workspace-ribbon.mod-left,
- .workspace-ribbon.mod-right {
-     background: transparent !important;
-     border-radius: 10px !important;
-     margin: 8px !important;
-     padding: 8px 0 !important;
-     backdrop-filter: blur(8px) !important;
-     -webkit-backdrop-filter: blur(8px) !important;
- }
- 
- /* Left sidebar container spacing */
- .workspace-split.mod-left-split {
-     margin-left: 8px !important;
- }
- 
- /* Icon buttons in both ribbons */
- .workspace-ribbon.mod-left .workspace-ribbon-collapse-btn,
- .workspace-ribbon.mod-left .side-dock-ribbon-action,
- .workspace-ribbon.mod-right .workspace-ribbon-collapse-btn,
- .workspace-ribbon.mod-right .side-dock-ribbon-action {
-     padding: 6px !important;
-     margin: 4px !important;
-     border-radius: 6px !important;
-     color: var(--text-color) !important;
-     opacity: 0.7 !important;
-     transition: all 0.2s ease !important;
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
- }
- 
- .workspace-ribbon.mod-left .workspace-ribbon-collapse-btn:hover,
- .workspace-ribbon.mod-left .side-dock-ribbon-action:hover,
- .workspace-ribbon.mod-right .workspace-ribbon-collapse-btn:hover,
- .workspace-ribbon.mod-right .side-dock-ribbon-action:hover {
-     background-color: rgba(var(--accent-rgb), 0.15) !important;
-     color: var(--accent-color) !important;
-     opacity: 1 !important;
- }
- 
- /* Left sidebar panels */
- .workspace-split.mod-left-split .workspace-leaf {
-     margin-left: 0 !important;
-     margin-right: 0 !important;
- }
- 
- /* Left sidebar tabs and containers */
- .workspace-split.mod-left-split .workspace-tab-header-container {
-     padding: 0 8px !important;
-     margin: 8px !important;
-     border-radius: 10px !important;
- }
- 
- /* Left sidebar content */
- .workspace-split.mod-left-split .workspace-leaf-content {
-     padding: 0 !important;
-     margin: 8px !important;
-     border-radius: 10px !important;
-     
- }
- 
- /* File explorer */
- .nav-folder-children {
-     padding-left: 0 !important;
-     margin-left: 8px !important;
- }
- 
- .nav-file-title,
- .nav-folder-title {
-     border-radius: 4px !important;
-     margin: 1px 0 !important;
-     padding: 4px 8px !important;
-     color: var(--text-color) !important;
-     transition: all 0.2s ease !important;
- }
- 
- .nav-file-title:hover,
- .nav-folder-title:hover {
-     background-color: var(--glass-accent) !important;
-     color: var(--accent-color) !important;
- }
- 
- .nav-file-title.is-active {
-     background-color: var(--glass-accent) !important;
-     color: var(--accent-color) !important;
- }
- 
- /* Links */
- a,
- .internal-link,
- .external-link {
-     color: var(--link-color) !important;
-     opacity: 0.9;
-     transition: all 0.2s ease;
- }
- 
- a:hover,
- .internal-link:hover,
- .external-link:hover {
-     color: var(--mention-color) !important;
-     opacity: 0.95;
- }
- 
- /* Code blocks */
- pre[class*="language-"],
- code[class*="language-"] {
-     border-radius: 4px !important;
-     background: rgba(var(--bg-secondary-rgb), 0.6) !important;
-     border: none !important;
-     color: var(--text-color) !important;
- }
- 
- /* Inline code */
- .cm-inline-code {
-     border-radius: 4px !important;
-     padding: 2px 4px !important;
-     background: rgba(var(--bg-secondary-rgb), 0.6) !important;
-     color: var(--text-color) !important;
- }
- 
- /* Theme integration */
- .theme-dark {
-     --background-primary: transparent !important;
-     --background-primary-alt: var(--bg-primary) !important;
-     --background-secondary: var(--bg-secondary) !important;
-     --background-secondary-alt: var(--bg-secondary) !important;
-     --background-tertiary: var(--bg-secondary) !important;
-     --background-floating: var(--bg-floating) !important;
-     
-     --text-normal: var(--text-color) !important;
-     --text-muted: rgba(var(--text-rgb), 0.8) !important;
-     --text-accent: var(--accent-color) !important;
-     
-     --interactive-normal: var(--text-color) !important;
-     --interactive-hover: var(--accent-color) !important;
-     --interactive-accent: var(--accent-color) !important;
- }
- 
- /* Scrollbars */
- ::-webkit-scrollbar {
-     width: 6px !important;
- }
- 
- ::-webkit-scrollbar-thumb {
-     background: rgba(var(--accent-rgb), 0.2) !important;
-     border-radius: 3px !important;
- }
- 
- /* Tables */
- table {
-     border: none !important;
-     background: rgba(var(--bg-secondary-rgb), 0.4) !important;
-     border-radius: 4px !important;
- }
- 
- th, td {
-     border: none !important;
-     border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
-     color: var(--text-color) !important;
- }
- 
- /* Headers */
- .markdown-preview-section h1,
- .markdown-preview-section h2,
- .markdown-preview-section h3,
- .markdown-preview-section h4,
- .markdown-preview-section h5,
- .markdown-preview-section h6 {
-     color: var(--accent-color) !important;
-     font-family: 'Ubuntu Sans', sans-serif !important;
-     font-weight: 500 !important;
- }
- 
- /* Top title bar and toolbar styling */
- .titlebar {
-     background: transparent !important;
-     border-bottom: none !important;
- }
- 
- .titlebar-inner {
-     color: var(--text-color) !important;
-     opacity: 0.8 !important;
- }
- 
- .top-titlebar {
-     background: transparent !important;
-     height: 40px !important;
- }
- 
- /* Top toolbar container */
- .workspace-tab-container-before,
- .workspace-tab-container-after {
-     background: transparent !important;
- }
- 
- .workspace-tab-header-container-inner {
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
-     border-radius: 10px !important;
-     margin: 8px !important;
-     padding: 4px 8px !important;
-     border: 1px solid rgba(255, 255, 255, 0.05) !important;
-     backdrop-filter: blur(8px) !important;
-     -webkit-backdrop-filter: blur(8px) !important;
- }
- 
- /* Top toolbar buttons */
- .workspace-tab-header-container-inner .workspace-tab-header {
-     padding: 4px 12px !important;
-     margin: 2px !important;
-     border-radius: 6px !important;
-     color: var(--text-color) !important;
-     opacity: 0.8 !important;
-     transition: all 0.2s ease !important;
-     background: transparent !important;
- }
- 
- .workspace-tab-header-container-inner .workspace-tab-header:hover {
-     background: rgba(var(--accent-rgb), 0.1) !important;
-     color: var(--accent-color) !important;
-     opacity: 1 !important;
- }
- 
- .workspace-tab-header-container-inner .workspace-tab-header.is-active {
-     background: rgba(var(--accent-rgb), 0.15) !important;
-     color: var(--accent-color) !important;
-     opacity: 1 !important;
- }
- 
- /* View actions in top bar */
- .view-actions {
-     padding: 4px !important;
-     margin: 4px !important;
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
-     border-radius: 8px !important;
-     border: 1px solid rgba(255, 255, 255, 0.05) !important;
- }
- 
- .view-actions > * {
-     margin: 0 2px !important;
-     padding: 4px 8px !important;
-     border-radius: 4px !important;
-     color: var(--text-color) !important;
-     opacity: 0.8 !important;
-     transition: all 0.2s ease !important;
- }
- 
- .view-actions > *:hover {
-     background: rgba(var(--accent-rgb), 0.1) !important;
-     color: var(--accent-color) !important;
-     opacity: 1 !important;
- }
- 
- /* Top bar navigation arrows and title */
- .view-header {
-     background: transparent !important;
-     border: none !important;
-     height: 40px !important;
- }
- 
- .view-header-title-container {
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
-     border-radius: 10px !important;
-     margin: 8px !important;
-     padding: 0 12px !important;
-     border: 1px solid rgba(255, 255, 255, 0.05) !important;
-     backdrop-filter: blur(8px) !important;
-     -webkit-backdrop-filter: blur(8px) !important;
- }
- 
- .view-header-title {
-     color: var(--text-color) !important;
-     opacity: 0.9 !important;
-     font-size: 14px !important;
- }
- 
- .view-header-icon {
-     color: var(--text-color) !important;
-     opacity: 0.8 !important;
- }
- 
- /* Navigation arrows */
- .view-header-nav-buttons {
-     padding: 4px !important;
-     margin: 8px !important;
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
-     border-radius: 8px !important;
-     border: 1px solid rgba(255, 255, 255, 0.05) !important;
- }
- 
- .view-header-nav-buttons > * {
-     margin: 0 2px !important;
-     padding: 4px 8px !important;
-     border-radius: 4px !important;
-     color: var(--text-color) !important;
-     opacity: 0.8 !important;
-     transition: all 0.2s ease !important;
- }
- 
- .view-header-nav-buttons > *:hover {
-     background: rgba(var(--accent-rgb), 0.1) !important;
-     color: var(--accent-color) !important;
-     opacity: 1 !important;
- }
+:root {
+    /* Core colors from Soft Everforest */
+    --accent-rgb: 167, 192, 128;
+    --accent2-rgb: 255, 115, 250;
+    --link-rgb: 127, 187, 179;
+    --mention-rgb: 230, 152, 117;
+    --text-rgb: 211, 198, 170;
+    
+    /* Background colors */
+    --bg-accent-rgb: 61, 72, 77;
+    --bg-primary-rgb: 52, 63, 68;
+    --bg-secondary-rgb: 45, 53, 59;
+    --bg-floating-rgb: 52, 63, 68;
+    
+    /* Theme variables */
+    --accent-color: rgb(var(--accent-rgb));
+    --accent-color-2: rgb(var(--accent2-rgb));
+    --link-color: rgb(var(--link-rgb));
+    --mention-color: rgb(var(--mention-rgb));
+    --text-color: rgb(var(--text-rgb));
+    
+    /* Background variables */
+    --bg-accent: rgb(var(--bg-accent-rgb));
+    --bg-primary: rgb(var(--bg-primary-rgb));
+    --bg-secondary: rgb(var(--bg-secondary-rgb));
+    --bg-floating: rgb(var(--bg-floating-rgb));
+    
+    /* Custom background settings */
+    --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
+    --ef-custom-bg-brightness: 0.75;
+    --ef-custom-bg-blur: 12px;
+    --ef-custom-bg-opacity: 0.6;
+    
+    /* Glass effect variables */
+    --glass-opacity: 0.7;
+    --glass-accent: rgba(var(--accent-rgb), 0.1);
+    --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+    --glass-border: rgba(var(--text-rgb), 0.05);
+}
+
+/* Main background */
+body.theme-dark {
+    background: var(--ef-background-image) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    font-family: 'Ubuntu Sans', sans-serif !important;
+}
+
+/* App container */
+.app-container {
+    background-color: transparent !important;
+}
+
+/* Workspace styling */
+.workspace {
+    background: transparent !important;
+    gap: 8px !important;
+    padding: 8px !important;
+}
+
+.workspace-split {
+    gap: 8px !important;
+}
+
+/* Workspace cards with glass effect */
+.workspace-leaf {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+}
+
+/* Remove default borders */
+.workspace-leaf,
+.workspace-tabs,
+.view-header,
+.workspace-leaf-content,
+.nav-folder-children {
+    border: none !important;
+}
+
+/* Tab headers */
+.workspace-tab-header-container {
+    background: transparent !important;
+    border: none !important;
+    padding: 4px 8px !important;
+}
+
+.workspace-tab-header {
+    border-radius: 4px !important;
+    padding: 2px 8px !important;
+    margin: 0 2px !important;
+    color: var(--text-color) !important;
+}
+
+.workspace-tab-header.is-active {
+    background-color: var(--glass-accent) !important;
+    color: var(--accent-color) !important;
+}
+
+/* Sidebar styling */
+.workspace-ribbon.mod-left {
+    background: var(--glass-surface) !important;
+    border: none !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+}
+
+/* File explorer */
+.nav-folder-children {
+    padding-left: 0 !important;
+    margin-left: 8px !important;
+}
+
+.nav-file-title,
+.nav-folder-title {
+    border-radius: 4px !important;
+    margin: 1px 0 !important;
+    padding: 4px 8px !important;
+    color: var(--text-color) !important;
+    transition: all 0.2s ease !important;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+    background-color: var(--glass-accent) !important;
+    color: var(--accent-color) !important;
+}
+
+.nav-file-title.is-active {
+    background-color: var(--glass-accent) !important;
+    color: var(--accent-color) !important;
+}
+
+/* Links */
+a,
+.internal-link,
+.external-link {
+    color: var(--link-color) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--mention-color) !important;
+    opacity: 0.95;
+}
+
+/* Code blocks */
+pre[class*="language-"],
+code[class*="language-"] {
+    border-radius: 4px !important;
+    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
+    border: none !important;
+    color: var(--text-color) !important;
+}
+
+/* Inline code */
+.cm-inline-code {
+    border-radius: 4px !important;
+    padding: 2px 4px !important;
+    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
+    color: var(--text-color) !important;
+}
+
+/* Theme integration */
+.theme-dark {
+    --background-primary: transparent !important;
+    --background-primary-alt: var(--bg-primary) !important;
+    --background-secondary: var(--bg-secondary) !important;
+    --background-secondary-alt: var(--bg-secondary) !important;
+    --background-tertiary: var(--bg-secondary) !important;
+    --background-floating: var(--bg-floating) !important;
+    
+    --text-normal: var(--text-color) !important;
+    --text-muted: rgba(var(--text-rgb), 0.8) !important;
+    --text-accent: var(--accent-color) !important;
+    
+    --interactive-normal: var(--text-color) !important;
+    --interactive-hover: var(--accent-color) !important;
+    --interactive-accent: var(--accent-color) !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--accent-rgb), 0.2) !important;
+    border-radius: 3px !important;
+}
+
+/* Tables */
+table {
+    border: none !important;
+    background: rgba(var(--bg-secondary-rgb), 0.4) !important;
+    border-radius: 4px !important;
+}
+
+th, td {
+    border: none !important;
+    border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
+    color: var(--text-color) !important;
+}
+
+/* Headers */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    color: var(--accent-color) !important;
+    font-family: 'Ubuntu Sans', sans-serif !important;
+    font-weight: 500 !important;
+}
