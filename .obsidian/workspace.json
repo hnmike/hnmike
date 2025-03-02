@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -586,7 +586,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/project/data engineer.md",
+                "file": "vim motion key.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -596,7 +596,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer"
+              "title": "Backlinks for vim motion key"
             }
           }
         ]
@@ -629,12 +629,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "be272041c4d55381",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "conflict-files-obsidian-git.md",
     "Untitled.canvas",
-    "Untitled 2.md",
     "Untitled 1.canvas",
     "PKM-Structure.md",
     "Note-Templates.md",
@@ -654,7 +655,6 @@
     "00-09 system/homepage/Homepage.md",
     "00-09 system/MOC/Last modified.md",
     "00-09 system/MOC/knowledge moc.md",
-    "00-09 system/project/data engineer.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/homepage/DASHBOARD.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
