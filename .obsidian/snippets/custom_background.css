@@ -543,27 +543,3 @@ th, td {
     background: var(--bg-primary) !important;
 }
 
-.workspace-split.mod-root .view-content {
-    background: var(--bg-primary) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-/* Update workspace leaf for main content */
-.workspace-split.mod-root .workspace-leaf {
-    background: var(--bg-primary) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-.workspace-split.mod-root .workspace-leaf-content {
-    background: var(--bg-primary) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-/* Keep sidebars transparent */
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    background: transparent !important;
-}
