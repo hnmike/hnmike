@@ -35,12 +35,12 @@
     /* Custom background settings */
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
     --ef-custom-bg-brightness: 0.85;
-    --ef-custom-bg-blur: 1px;8
+    --ef-custom-bg-blur: 12px;
     --ef-custom-bg-opacity: 0.6;
     
     /* Glass effect variables */
-    --glass-opacity: 0.5;
-    --glass-accent: rgba(var(--accent-rgb), 0.2);
+    --glass-opacity: 0.6;
+    --glass-accent: rgba(var(--accent-rgb), 0.1);
     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
     --glass-border: rgba(var(--text-rgb), 0.2);
 }
