@@ -557,20 +557,28 @@ th, td {
 .plugin-browser-container {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-    background: var(--background-secondary) !important;
+    background: var(--bg-primary) !important;
     border: none !important;
+    box-shadow: none !important;
+}
+
+.modal-container .modal {
+    background-color: var(--bg-primary) !important;
 }
 
 .modal-bg {
     opacity: 0.8 !important;
-    background: var(--background-secondary) !important;
+    background-color: var(--bg-secondary) !important;
 }
 
 .vertical-tab-content-container,
-.vertical-tab-header {
-    background: var(--background-secondary) !important;
+.vertical-tab-nav-container {
+    background: var(--bg-primary) !important;
+    border: none !important;
 }
 
-.setting-editor-extra-setting-button {
-    background: var(--background-secondary-alt) !important;
+.setting-item:hover,
+.dropdown:hover,
+.vertical-tab-nav-item:hover {
+    background-color: var(--bg-secondary) !important;
 }
