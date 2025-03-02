@@ -3,117 +3,119 @@
 ## 1. PARA Note Templates
 
 ### 1.1 Project Note
----
-type: project
-id: PRJ-{{date:YYMMDD}}-{{title}}
-status: active/pending/completed
-created: {{date}}
-modified: {{date}}
-due: YYYY-MM-DD
-tags:
-  - project
-  - {{project_category}}
-related_zettels: []
----
+|--|--|
+|Start Date | `INPUT[datePicker():StartDate]`|
+|Due Date   | `INPUT[datePicker():DueDate]`|
+|Priority   | `INPUT[inlineSelect(option(🔽 Low),option(⏺️ Normal),option(🔼 High),option(⏫ Very High),option(🚩 Urgent),defaultValue(⏺️ Normal), showcase):Priority]`|
+|Status     | `INPUT[inlineSelect(option(🟢 Done),option(🟡 In Progress),option(🟠 Standby),option(🔴 Not Started),defaultValue(🔴 Not Started), showcase):Status]`  `$= const setPage = dv.current().file.name; const value = Math.round(((dv.page(setPage).file.tasks.where(t => t.completed).length) / (dv.page(setPage).file.tasks).length) * 100); "" + "" + value + "%   " + (dv.page(setPage).file.tasks.length - dv.page(setPage).file.tasks.where(t => t.completed).length) + " left"` | <progress value ="20" max="100" class="nyan-cat" ></progress>
+|Archived   | `INPUT[toggle:Archived]`|
+>[!summary]+ Files
+>```dataview
+table this.file.ctime as "Created On", this.file.mtime as "Modified On"
+from "02 Action/02 Projects/test"
+where file.name != this.file.name
+sort file.mtime DESC
+>```>[!kanban]+
+> - Todo
+>  - ```tasks
+>   not done
+>   path includes {{query.file.path}}
+>   (status.type is not IN_PROGRESS)
+>   short mode
+>   hide due date
+>   hide start date
+>   hide scheduled date
+>   hide recurrence rule
+>   sort by urgency, scheduled```
+> - Doing
+>  - ```tasks
+>  not done
+>  path includes {{query.file.path}}
+>  (status.type is IN_PROGRESS)
+>  short mode
+>  hide due date
+>  hide start date
+>  hide scheduled date
+>  hide recurrence rule
+>  sort by urgency, due ```
+> - Done
+>  - ```tasks
+>  done
+>  path includes {{query.file.path}}
+>  short mode
+>  hide due date
+>  hide start date
+>  hide scheduled date
+>  hide recurrence rule
+>  hide priority
+>  sort by done reverse```
+>  
 
-### 1.2 Area Note
----
-type: area
-id: ARE-{{category}}-{{title}}
-status: active
-created: {{date}}
-modified: {{date}}
-tags:
-  - area
-  - {{area_category}}
-related_zettels: []
----
+### 1.2 project management
 
-### 1.3 Resource Note
----
-type: resource
-id: RES-{{type}}-{{title}}
-created: {{date}}
-modified: {{date}}
-tags:
-  - resource
-  - {{resource_category}}
-related_zettels: []
----
+> [!todo]+ Running Projects
+>```dataviewjs
+>const {fieldModifier: f} =
+>this.app.plugins.plugins["metadata-menu"].api;
+>
+>function ProgressBar(note) {
+>    const setPage = note; 
+>    const value = Math.round(((dv.page(setPage).file.tasks.where(t => t.completed).length) / (dv.page(setPage).file.tasks).length) * 100); 
+>    return "<progress value='" + value + "' max='100' class='nyan-cat'></progress>" + "<span style='font-size:smaller;color:var(--text-muted)'>" + value + "%&nbsp;| &nbsp;" + (dv.page(setPage).file.tasks.length - dv.page(setPage).file.tasks.where(t => t.completed).length) + " left</span>"
+>}
+>
+>dv.table(['Name', 'Status', 'Priority', 'Progress', 'Started', 'Due'],
+> dv.pages("#project")
+> .where(p => p.Archived != true)
+> .sort(p => p.file.name, 'asc')
+> .filter(p => !p.file.path.includes('04 Templates'))
+> .filter(p => !p.file.path.includes('fileClass'))
+> .map(p => [
+>  p.file.link,
+>  f(dv,p,"Status"),
+>  f(dv,p,"Priority"),
+>  ProgressBar(p.file.name),
+>  f(dv,p,"StartDate"),
+>  f(dv,p,"DueDate"),
+> ])
+>)
+>````
 
 ## 2. Zettelkasten Templates
 
-### 2.1 Permanent Note
+### 2.1 knowledge Note
 ---
-type: permanent
-id: {{date:YYYYMMDDHHmm}}
-created: {{date}}
-modified: {{date}}
+created-date: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm")
+await tp.file.rename(`(${currentDate})`) %>
+url: 
+related: 
+aliases: 
+tags: 
+summary:
+---
+
+
+### 2.2 zettelks Note
+<%*
+let alpha_keyword = await tp.system.prompt("Enter the alpha keyword for this note:");
+let unique_id = alpha_keyword + tp.date.now("YYYYMMDDHHmm");
+let user_title = await tp.system.prompt("Enter the title for this note:");
+-%>
+---
+id: <%* tR += unique_id %>
+title: <%* tR += unique_id %> <%* tR += user_title %>
+reference-section-title: References
 tags:
-  - permanent
-  - {{topic}}
-related_para: []
-references: []
+
 ---
 
-### 2.2 Literature Note
----
-type: literature
-id: LIT-{{date:YYYYMMDD}}-{{source}}
-created: {{date}}
-modified: {{date}}
-source: {{source_title}}
-author: {{author}}
-tags:
-  - literature
-  - {{topic}}
-related_permanent_notes: []
-related_para: []
----
+# <%* tR += user_title %>
 
-### 2.3 MOC (Map of Content)
----
-type: moc
-id: MOC-{{category}}-{{title}}
-created: {{date}}
-modified: {{date}}
-tags:
-  - moc
-  - {{category}}
----
+## SEE ALSO
 
-## 3. Quy Tắc Liên Kết
+## References
 
-1. Trong PARA Notes:
-   - Liên kết đến Zettel: [[YYYYMMDDHHNN-title]]
-   - Liên kết đến MOC: [[MOC-category-title]]
+<%* tp.file.rename(unique_id); %>
 
-2. Trong Zettel Notes:
-   - Liên kết đến PARA: [[PRJ/ARE/RES-ID-title]]
-   - Liên kết đến MOC: [[MOC-category-title]]
 
-3. Trong MOC:
-   - Index của cả PARA và Zettel notes
-   - Sử dụng Dataview để tự động cập nhật
-
-## 4. Workflow
-
-1. Capture (00-INBOX)
-   - Quick notes
-   - Daily logs
-   - Fleeting thoughts
-
-2. Process
-   - PARA: Phân loại theo dự án/lĩnh vực
-   - Zettel: Chuyển thành permanent notes
-   - Tạo/Cập nhật MOC
-
-3. Connect
-   - Thêm backlinks
-   - Cập nhật metadata
-   - Liên kết với notes liên quan
-
-4. Review
-   - Daily: Inbox processing
-   - Weekly: Project updates
-   - Monthly: Knowledge review 
