@@ -215,6 +215,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":120},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
@@ -225,12 +231,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "2025-03-02"
             }
           },
           {
@@ -1347,6 +1353,9 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "00-09 system/journal/daily/2025/03/2025-03-02.md",
+    "00-09 system/journal/daily/2025/03",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -1357,7 +1366,6 @@
     "Lab opensource mlops devops.md",
     "Chats/New Chat.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
-    "00-09 system/homepage/Homepage.md",
     "what is GNU LINUX.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "00-09 system/inbox/2024-08-02.md",
@@ -1377,7 +1385,6 @@
     "20-30 PARA",
     "10-20 zettelkasten - Copy/Resources",
     "10-20 zettelkasten - Copy/Project",
-    "10-20 zettelkasten - Copy/Area",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
     "90-100 resource archives/Image/IMG-20241114090913093.png",
@@ -1395,7 +1402,6 @@
     "90-100 resource archives/book resources/book metadata.md",
     "90-100 resource archives/book resources/Norwegian Wood.md",
     "90-100 resource archives/book resources/Omniscient Reader's Viewpoint.md",
-    "90-100 resource archives/book resources/book1.md",
     "00-09 system/canvas/DE_project.canvas",
     "00-09 system/canvas/ART.canvas",
     "00-09 system/canvas/ENG.canvas",
