@@ -58,5 +58,6 @@
   "remember-cursor-position",
   "vscode-editor",
   "image-converter",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-clipper"
 ]

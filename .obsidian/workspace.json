@@ -189,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -586,7 +586,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/project/data engineer.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -596,7 +595,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer"
+              "title": "Backlinks"
             }
           }
         ]
@@ -629,7 +628,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "468297bb672f56b0",
+  "active": "a0e166306124e0d1",
   "lastOpenFiles": [
     "cài đặt docker engine & desktop.md",
     "00-09 system/project/data engineer.md",
