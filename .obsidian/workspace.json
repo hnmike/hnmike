@@ -346,7 +346,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -626,25 +626,6 @@
           },
           {
             "id": "a83494f60de983fe",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d44114d041106e70",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1238,6 +1219,25 @@
               "icon": "calendar-clock",
               "title": "Tasks Timeline"
             }
+          },
+          {
+            "id": "d44114d041106e70",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -1269,15 +1269,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0111a2b56f3f50a3",
+  "active": "a158d6c4f0fb2569",
   "lastOpenFiles": [
+    "3D COURSES.md",
     "Untitled 1.canvas",
     "Chats/New Chat.md",
     "Lab opensource mlops devops.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "3D COURSES.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
     "what is GNU LINUX.md",
