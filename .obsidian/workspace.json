@@ -569,7 +569,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1511,13 +1511,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a158d6c4f0fb2569",
+  "active": "aaa978ec7782e79e",
   "lastOpenFiles": [
-    "Chats/New Chat.md",
     "00-09 system/inbox/2024-08-02.md",
+    "Chats/New Chat.md",
+    "Lab opensource mlops devops.md",
     "00-09 system/homepage/dashboard.canvas",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "Lab opensource mlops devops.md",
     "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
