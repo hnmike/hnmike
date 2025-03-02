@@ -267,6 +267,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "data engineer lab 1 (202411160846)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Capstone project for my course",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
@@ -277,12 +283,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
+                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer lab 1 (202411160846)"
+              "title": "Capstone project for my course"
             }
           },
           {
@@ -1269,15 +1275,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a1e06c5da87a077e",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Untitled 1.canvas",
     "Lab opensource mlops devops.md",
     "3D COURSES.md",
     "Chats/New Chat.md",
-    "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
     "what is GNU LINUX.md",
