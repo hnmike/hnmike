@@ -160,9 +160,7 @@
  .workspace-split.mod-left-split .workspace-tab-header-container {
      padding: 0 8px !important;
      margin: 8px !important;
-     background: rgba(var(--bg-primary-rgb), 0.3) !important;
      border-radius: 10px !important;
-     border: 1px solid rgba(255, 255, 255, 0.05) !important;
  }
  
  /* Left sidebar content */
