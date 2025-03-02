@@ -35,7 +35,7 @@
      /* Custom background settings */
      --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
      --ef-custom-bg-brightness: 0.85;
-     --ef-custom-bg-blur: 24px;
+     --ef-custom-bg-blur: 12px;
      --ef-custom-bg-opacity: 0.8;
      
      /* Glass effect variables */
@@ -62,12 +62,13 @@
  
  /* Workspace styling */
  .workspace {
-    background: rgba(var(--bg-primary-rgb), 0.4) !important;
+    background: transparent !important;
      gap: 8px !important;
      padding: 8px !important;
  }
  
  .workspace-split {
+    background: rgba(var(--bg-primary-rgb), 0.2) !important;
      gap: 8px !important;
  }
  
