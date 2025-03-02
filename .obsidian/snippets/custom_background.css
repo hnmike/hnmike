@@ -85,26 +85,39 @@ body.theme-dark {
 .workspace-tabs,
 .view-header,
 .workspace-leaf-content,
-.nav-folder-children {
+.nav-folder-children,
+.workspace-tab-header-container,
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right {
     border: none !important;
+    box-shadow: none !important;
 }
 
 /* Tab headers */
 .workspace-tab-header-container {
     background: transparent !important;
-    border: none !important;
-    padding: 4px 8px !important;
+    padding: 0 8px !important;
 }
 
 .workspace-tab-header {
-    border-radius: 4px !important;
-    padding: 2px 8px !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.7) !important;
+    border-radius: 6px !important;
+    padding: 4px 12px !important;
     margin: 0 2px !important;
     color: var(--text-color) !important;
+    font-weight: 500 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
 }
 
 .workspace-tab-header.is-active {
-    background-color: var(--glass-accent) !important;
+    background-color: rgba(var(--accent-rgb), 0.15) !important;
+    color: var(--accent-color) !important;
+    font-weight: 600 !important;
+}
+
+.workspace-tab-header:hover {
+    background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
     color: var(--accent-color) !important;
 }
 
@@ -195,12 +208,21 @@ code[class*="language-"] {
 
 /* Scrollbars */
 ::-webkit-scrollbar {
-    width: 6px !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(var(--accent-rgb), 0.2) !important;
-    border-radius: 3px !important;
+    background: rgba(var(--text-rgb), 0.2) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--text-rgb), 0.3) !important;
 }
 
 /* Tables */
@@ -356,6 +378,7 @@ th, td {
 /* Search container styling */
 .search-input-container {
     background: transparent !important;
+    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
@@ -418,6 +441,7 @@ th, td {
 /* Update tab header container */
 .workspace-tab-header-container {
     background: transparent !important;
+    border: none !important;
 }
 
 /* Update ribbon styling */
@@ -432,7 +456,7 @@ th, td {
     background: rgba(var(--bg-primary-rgb), 0.2) !important;
     backdrop-filter: blur(8px) brightness(1.1) !important;
     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: none !important;
+    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
 }
 
 .suggestion-item {
@@ -443,20 +467,11 @@ th, td {
     background: rgba(var(--accent-rgb), 0.1) !important;
 }
 
-/* Remove container borders */
+/* Remove blur from containers */
 .workspace-leaf,
-.workspace-tabs,
-.view-header,
 .workspace-leaf-content,
-.nav-folder-children,
-.search-input-container,
-.workspace-tab-header-container,
-.workspace-ribbon.mod-left,
-.workspace-ribbon.mod-right,
-.side-dock-panels-container,
-.nav-files-container,
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    border: none !important;
-    box-shadow: none !important;
+.workspace-split.mod-root .view-content {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(var(--bg-primary-rgb), 0.7) !important;
 }
