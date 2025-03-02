@@ -68,7 +68,6 @@
  }
  
  .workspace-split {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
      gap: 8px !important;
  }
  
@@ -76,9 +75,9 @@
  .workspace-leaf {
      border-radius: 8px !important;
      overflow: hidden !important;
-     background-color: var(--glass-surface) !important;
-     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+     backdrop-filter: blur(24px) !important;
+     -webkit-backdrop-filter: blur(24px) !important;
  }
  
  /* Remove container borders and update scrollbar */
