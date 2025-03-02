@@ -6,50 +6,99 @@ tags:
   - "#type/daily-note"
 ---
 
->**Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
->**Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
->**week::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]], [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD")  %>]]
+># Daily Overview
 
+>[!meta]- Navigation
 
-## Tasks
+>**⬅️ Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
+
+>**➡️ Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
+
+>**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
+
+>**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
+
+  
+
+## 🎯 Today's Focus
+
+<%tp.file.cursor()%>
+
+  
+
+## 📋 Tasks & Activities
 
 > [!multi-column]
-> 
->> [!TODO]
->> - **Todo**
->>   - ```tasks
->>    not done
->> (status. Type is not IN_PROGRESS)
->> Short mode
->>      hide due date
->>    hide start date
->>      hide scheduled date
->>    hide recurrence rule
->>    sort by urgency, scheduled```
+
 >
->> [!DOING]
->> - **Doing**
->>   - ```tasks
->>      not done
->>    (status. Type is IN_PROGRESS)
->>      short mode
->>    hide due date
->>      hide start date
->>    hide scheduled date
->>      hide recurrence rule
->>    sort by urgency, due```
+
+>> [!todo]+ To Do
+
+>> ```tasks
+
+>> not done
+
+>> (status.type is not IN_PROGRESS)
+
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+
+>> short mode
+
+>> hide due date
+
+>> hide start date
+
+>> hide scheduled date
+
+>> hide recurrence rule
+
+>> sort by urgency, scheduled
+
+>> ```
+
 >
->> [!DONE]
->> - **Done**
->>   - ```tasks
->>      done
->>    short mode
->>      hide due date
->>    hide start date
->>    hide scheduled date
 
+>> [!doing]+ In Progress
 
+>> ```tasks
 
+>> not done
+
+>> (status.type is IN_PROGRESS)
+
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+
+>> short mode
+
+>> hide due date
+
+>> hide start date
+
+>> hide scheduled date
+
+>> hide recurrence rule
+
+>> sort by urgency, due
+
+>> ```
+
+>
+
+>> [!done]+ Completed Today
+
+>> ```tasks
+
+>> done on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+
+>> short mode
+
+>> hide due date
+
+>> hide start date
+
+>> hide scheduled date
+
+>> ```
 ## Morning pages
 
 >[!journal]- On this day...
