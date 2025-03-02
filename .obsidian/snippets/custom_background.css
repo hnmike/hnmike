@@ -34,12 +34,12 @@
     
     /* Custom background settings */
     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.95;
-    --ef-custom-bg-blur: 24px;
+    --ef-custom-bg-brightness: 0.85;
+    --ef-custom-bg-blur: 18px;
     --ef-custom-bg-opacity: 0.5;
     
     /* Glass effect variables */
-    --glass-opacity: 0.85;
+    --glass-opacity: 1.0;
     --glass-accent: rgba(var(--accent-rgb), 0.1);
     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
     --glass-border: rgba(var(--text-rgb), 0.2);
@@ -62,23 +62,22 @@ body.theme-dark {
 
 /* Workspace styling */
 .workspace {
-    background: rgba(var(--bg-primary-rgb), 0.4) !important;
+    background: transparent !important;
     gap: 8px !important;
     padding: 8px !important;
 }
 
 .workspace-split {
     gap: 8px !important;
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
 }
 
 /* Workspace cards with glass effect */
 .workspace-leaf {
     border-radius: 8px !important;
     overflow: hidden !important;
-    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
-    backdrop-filter: blur(24px) !important;
-    -webkit-backdrop-filter: blur(24px) !important;
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
 }
 
 /* Remove container borders and update scrollbar */
@@ -136,7 +135,7 @@ body.theme-dark {
 }
 
 .workspace-tab-header.is-active {
-    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+    background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
     color: var(--text-color) !important;
     font-weight: 500 !important;
 }
@@ -156,7 +155,7 @@ body.theme-dark {
 }
 
 .workspace-tab-container {
-    background: rgba(var(--bg-primary-rgb), 0.95) !important;
+    background: rgba(var(--bg-primary-rgb), 0.85) !important;
     border-radius: 0 8px 8px 8px !important;
     margin-top: -1px !important;
     padding-top: 4px !important;
@@ -402,9 +401,9 @@ th, td {
 }
 
 .workspace-leaf-content {
-    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
-    backdrop-filter: blur(24px) brightness(0.95) !important;
-    -webkit-backdrop-filter: blur(24px) brightness(0.95) !important;
+    background-color: var(--glass-surface) !important;
+    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
     border-radius: 10px !important;
 }
 
