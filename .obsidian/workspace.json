@@ -331,7 +331,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1218,7 +1218,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1247,7 +1247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.5
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1273,20 +1273,20 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0111a2b56f3f50a3",
+  "active": "371c1ebb7fc236c3",
   "lastOpenFiles": [
+    "Running Apache Spark on Kubernetes (202412081728).md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "3D COURSES.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
     "what is GNU LINUX.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource mlops devops.md",
     "Chats/New Chat.md",
     "00-09 system/inbox/2024-08-02.md",
     "00-09 system/homepage/dashboard.canvas",
-    "3D COURSES.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Untitled.canvas",
     "00-09 system/journal/daily/2025/01/2025-01-08.md",
