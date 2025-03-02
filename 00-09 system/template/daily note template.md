@@ -16,29 +16,17 @@ tags:
 > [!multi-column]
 > 
 >> [!TODO]
->> [!todo]+ To Do
-
->> ```tasks
-
->> not done
-
->> (status.type is not IN_PROGRESS)
-
->> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
-
->> short mode
-
->> hide due date
-
->> hide start date
-
->> hide scheduled date
-
->> hide recurrence rule
-
->> sort by urgency, scheduled
-
->> ```
+>> - **Todo**
+>>   - ```tasks
+>>    not done
+>> (status. Type is not IN_PROGRESS)
+>> Short mode
+>>      hide due date
+>>    hide start date
+>>      hide scheduled date
+>>    hide recurrence rule
+>>    sort by urgency, scheduled```
+>
 >> [!DOING]
 >> - **Doing**
 >>   - ```tasks
