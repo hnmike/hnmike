@@ -140,6 +140,12 @@
      font-weight: 500 !important;
  }
  
+ .workspace-leaf-content {
+    background-color: rgba(var(--bg-primary-rgb), 0.95) !important;
+    backdrop-filter: blur(24px) brightness(0.95) !important;
+    -webkit-backdrop-filter: blur(24px) brightness(0.95) !important;
+    border-radius: 10px !important;
+}
  .workspace-tab-header:hover {
      background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
  }
