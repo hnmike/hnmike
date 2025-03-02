@@ -538,8 +538,3 @@ th, td {
     background-color: transparent !important;
 }
 
-/* Main workspace background */
-.workspace-split.mod-root {
-    background: var(--bg-primary) !important;
-}
-
