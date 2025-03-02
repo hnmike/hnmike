@@ -88,40 +88,44 @@ body.theme-dark {
 .nav-folder-children,
 .workspace-tab-header-container,
 .workspace-ribbon.mod-left,
-.workspace-ribbon.mod-right {
+.workspace-ribbon.mod-right,
+.workspace-split.mod-root .view-content {
     border: none !important;
     box-shadow: none !important;
 }
 
-/* Update scrollbar styling */
+/* Update scrollbar styling - remove border and make transparent */
 ::-webkit-scrollbar {
     width: 8px !important;
     height: 8px !important;
+    border: none !important;
 }
 
 ::-webkit-scrollbar-track {
     background: transparent !important;
+    border: none !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(var(--text-rgb), 0.2) !important;
+    background: rgba(211, 198, 170, 0.2) !important;
+    border: none !important;
     border-radius: 4px !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(var(--text-rgb), 0.3) !important;
+    background: rgba(211, 198, 170, 0.3) !important;
 }
 
-/* Safari-style tabs */
+/* Safari-style tabs with transparent background */
 .workspace-tab-header-container {
     background: transparent !important;
     padding: 6px 6px 0 6px !important;
-    border-bottom: none !important;
+    border: none !important;
 }
 
 .workspace-tab-header {
     position: relative !important;
-    background-color: rgba(var(--bg-primary-rgb), 0.4) !important;
+    background: rgba(211, 198, 170, 0.05) !important;
     border-radius: 8px 8px 0 0 !important;
     padding: 4px 16px !important;
     margin: 0 2px !important;
@@ -131,50 +135,39 @@ body.theme-dark {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     border: none !important;
-    transition: background-color 0.2s ease !important;
+    transition: all 0.2s ease !important;
 }
 
 .workspace-tab-header.is-active {
-    background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
+    background: rgba(211, 198, 170, 0.1) !important;
     color: var(--text-color) !important;
     font-weight: 500 !important;
 }
 
 .workspace-tab-header:hover {
-    background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
-}
-
-.workspace-tab-header-inner {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.workspace-tab-header-inner-title {
-    text-align: center !important;
-    font-size: 13px !important;
+    background: rgba(211, 198, 170, 0.15) !important;
 }
 
 .workspace-tab-container {
-    background: rgba(var(--bg-primary-rgb), 0.85) !important;
+    background: rgba(211, 198, 170, 0.05) !important;
     border-radius: 0 8px 8px 8px !important;
     margin-top: -1px !important;
     padding-top: 4px !important;
+    border: none !important;
 }
 
-/* Remove blur from tab containers */
-.workspace-tabs {
-    background: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-/* Remove blur from containers */
+/* Remove all borders and make containers transparent */
 .workspace-leaf,
+.workspace-tabs,
+.view-header,
 .workspace-leaf-content,
+.nav-folder-children,
+.workspace-tab-header-container,
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right,
 .workspace-split.mod-root .view-content {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    background: rgba(var(--bg-primary-rgb), 0.7) !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 /* Sidebar styling */
