@@ -28,7 +28,7 @@ summary:
 3. The system is configured to use MinIO as the S3-compatible storage
 4. Presto is configured to work with both Hive tables and Delta Lake format
 
-## S## 1. MinIO Installation
+## ## 1. MinIO Installation
 
 bash
 
@@ -102,7 +102,7 @@ CopyInsert
 
 ## Using Docker Compose (Recommended Method)
 
-Instead of running each container separately, you can use the provided docker-compose.yaml to start all services at once:
+Instead of running each container separately, you can use the provided docker-<mark class="hltr-pink">compose.yaml</mark> to start all services at once:
 
 bash
 

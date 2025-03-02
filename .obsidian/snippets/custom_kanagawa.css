@@ -96,46 +96,218 @@
     --faded-aqua:     #427b58;
     --faded-orange:   #af3a03;
 
+    /* Soft Dark Evergreen Forest Theme Colors */
+    --evergreen-bg: #1a2321;
+    --evergreen-darker: #141c19;
+    --evergreen-lighter: #223029;
+    --evergreen-accent: #4a5d53;
+    --evergreen-text: #d3e1d9;
+    --evergreen-muted: #8fa396;
+    --evergreen-highlight: #2d3832;
+    --evergreen-selection: rgba(77, 94, 84, 0.6);
+    --evergreen-border: #2d3832;
+    --evergreen-link: #7fa98f;
+    --evergreen-hover: #96c0a6;
+
+    /* Halcyon + Gruvbox Combined Theme Colors with Warmer Tones */
+    --hal-gruv-bg: #282828;
+    --hal-gruv-bg-dark: #1d2021;
+    --hal-gruv-bg-darker: #32302f;
+    --hal-gruv-bg-light: #3c3836;
+    
+    /* Text colors */
+    --hal-gruv-fg: #ebdbb2;
+    --hal-gruv-fg-muted: #a89984;
+    --hal-gruv-fg-dark: #928374;
+    
+    /* Warm accent colors */
+    --hal-gruv-yellow: #fabd2f;
+    --hal-gruv-yellow-soft: #d79921;
+    --hal-gruv-yellow-warm: #b57614;
+    --hal-gruv-orange: #fe8019;
+    --hal-gruv-orange-soft: #d65d0e;
+    --hal-gruv-orange-dark: #af3a03;
+    --hal-gruv-red: #fb4934;
+    --hal-gruv-red-soft: #cc241d;
+    
+    /* Cool accent colors */
+    --hal-gruv-blue: #83a598;
+    --hal-gruv-blue-soft: #458588;
+    --hal-gruv-aqua: #8ec07c;
+    --hal-gruv-aqua-soft: #689d6a;
+    --hal-gruv-purple: #d3869b;
+    --hal-gruv-purple-soft: #b16286;
+    
+    /* UI colors */
+    --hal-gruv-bg-selected: #504945;
+    --hal-gruv-bg-highlight: #45403d;
+    --hal-gruv-bg-hover: #3c3836;
+    --hal-gruv-border: #504945;
+    --hal-gruv-selection: rgba(251, 184, 108, 0.2);
+
+    /* Inky Yellow Theme Colors - Combining Halcyon and Gruvbox */
+    --inky-bg: #282521;           /* Darker yellow-tinted background */
+    --inky-darker: #1d1b16;       /* Even darker for contrast */
+    --inky-lighter: #32302a;      /* Lighter shade for highlights */
+    --inky-deep: #1a1814;         /* Deepest shade for special elements */
+    
+    /* Text Colors */
+    --inky-text: #d5c4a1;         /* Main text - muted yellow */
+    --inky-text-bright: #ebdbb2;  /* Brighter text for emphasis */
+    --inky-text-muted: #a89984;   /* Muted text for less emphasis */
+    
+    /* Accent Colors */
+    --inky-yellow: #d79921;       /* Muted yellow */
+    --inky-orange: #d65d0e;       /* Muted orange */
+    --inky-red: #cc241d;          /* Muted red */
+    --inky-purple: #b16286;       /* Muted purple */
+    --inky-blue: #458588;         /* Muted blue */
+    --inky-aqua: #689d6a;         /* Muted aqua */
+    --inky-green: #98971a;        /* Muted green */
+    
+    /* UI Elements */
+    --inky-selection: rgba(189, 174, 147, 0.2);  /* Selection with low opacity */
+    --inky-highlight: rgba(146, 131, 116, 0.2);  /* Highlight with low opacity */
+    --inky-border: #504945;       /* Subtle borders */
+
+    /* Misty Amber Theme - Combining Halcyon, Evergreen and Inky with blur effects */
+    --misty-bg: #282521ee;         /* Slightly transparent dark amber */
+    --misty-darker: #1d1b16f2;     /* Deeper transparent background */
+    --misty-lighter: #32302af0;    /* Lighter transparent shade */
+    --misty-deep: #1a1814f5;       /* Deep transparent background */
+    
+    /* Text Colors with soft glow effect */
+    --misty-text: #d5c4a1ee;       /* Soft amber text */
+    --misty-text-bright: #ebdbb2f0; /* Brighter text with glow */
+    --misty-text-muted: #a89984cc; /* Muted text with transparency */
+    
+    /* Warm Accent Colors with soft blur */
+    --misty-yellow: #d79921ee;     /* Muted yellow with glow */
+    --misty-gold: #b8994fdd;       /* Soft gold */
+    --misty-amber: #e6b455ee;      /* Warm amber */
+    --misty-orange: #d65d0ef0;     /* Soft orange */
+    --misty-peach: #ffa066dd;      /* Peachy tone */
+    --misty-brown: #a89070ee;      /* Warm brown */
+    
+    /* Cool Accent Colors for contrast */
+    --misty-green: #98971acc;      /* Muted green */
+    --misty-blue: #458588dd;       /* Soft blue */
+    --misty-purple: #b16286ee;     /* Muted purple */
+    --misty-aqua: #689d6add;       /* Soft aqua */
+    
+    /* UI Elements with blur effects */
+    --misty-selection: rgba(189, 174, 147, 0.25);
+    --misty-highlight: rgba(146, 131, 116, 0.2);
+    --misty-border: rgba(80, 73, 69, 0.6);
+    --misty-shadow: rgba(26, 24, 20, 0.4);
+
+    /* Halcyon + Gruvbox Combined Theme Colors */
+    --halcyon-bg: #1d2433;
+    --halcyon-darker: #171c28;
+    --halcyon-lighter: #2f3b54;
+    --halcyon-accent: #a2aabc;
+    --halcyon-text: #d7dce2;
+    --halcyon-muted: #8695b7;
+    --halcyon-highlight: #2f3b54;
+    --halcyon-selection: rgba(46, 56, 77, 0.8);
+    --halcyon-border: #2f3b54;
+    
+    /* Accent colors combining Halcyon and Gruvbox */
+    --hal-gruvbox-blue: #5ccfe6;
+    --hal-gruvbox-green: #bae67e;
+    --hal-gruvbox-yellow: #fabd2f;
+    --hal-gruvbox-orange: #fe8019;
+    --hal-gruvbox-purple: #d4bfff;
+    --hal-gruvbox-red: #ef6b73;
+    --hal-gruvbox-aqua: #95e6cb;
+
+    /* Warm Yellow Theme Colors */
+    --warm-bg: #2a2622;
+    --warm-darker: #211f1c;
+    --warm-lighter: #32302c;
+    --warm-accent: #d5c4a1;
+    --warm-text: #ebdbb2;
+    --warm-muted: #a89984;
+    --warm-highlight: #45403d;
+    --warm-selection: rgba(168, 153, 132, 0.3);
+    
+    /* Warm accent colors */
+    --warm-yellow: #fabd2f;
+    --warm-orange: #fe8019;
+    --warm-gold: #d79921;
+    --warm-amber: #ffb938;
+    --warm-sand: #d5c4a1;
+    --warm-cream: #ebdbb2;
+    --warm-peach: #ffa066;
+    --warm-rust: #d65d0e;
+
+    --accent-color: var(--hal-gruv-aqua);
+    --Yellow: #8ec07c;  /* Changed to a green tone */
+
+    /* Halcyon + Everforest Combined Theme Colors */
+    --hal-forest-bg: #1d2433;           /* Halcyon dark background */
+    --hal-forest-darker: #141c19;       /* Everforest darker shade */
+    --hal-forest-lighter: #2f3b54;      /* Halcyon lighter blue */
+    --hal-forest-deep: #1a2321;         /* Everforest base */
+    
+    /* Text colors */
+    --hal-forest-text: #d7dce2;         /* Halcyon text */
+    --hal-forest-text-bright: #d3e1d9;  /* Everforest text */
+    --hal-forest-text-muted: #8695b7;   /* Halcyon muted */
+    
+    /* Accent colors - combining both themes */
+    --hal-forest-green: #bae67e;        /* Halcyon green */
+    --hal-forest-sage: #7fa98f;         /* Everforest link */
+    --hal-forest-aqua: #95e6cb;         /* Halcyon aqua */
+    --hal-forest-blue: #5ccfe6;         /* Halcyon blue */
+    --hal-forest-purple: #d4bfff;       /* Halcyon purple */
+    --hal-forest-red: #ef6b73;          /* Halcyon red */
+    
+    /* UI elements */
+    --hal-forest-border: #2f3b54;       /* Halcyon border */
+    --hal-forest-selection: rgba(77, 94, 84, 0.6);  /* Everforest selection */
+    --hal-forest-highlight: #2d3832;    /* Everforest highlight */
+    --hal-forest-shadow: rgba(20, 28, 25, 0.4);    /* Dark shadow */
 }
 
 .theme-dark
 {
-    --background-primary: rgba(29, 27, 37, 0.7);
-    --background-primary-alt: rgba(29, 27, 37, 0.6);
-    --background-secondary: rgba(22, 22, 29, 0.7);
-    --background-secondary-alt: rgba(36, 36, 54, 0.6);
-    --text-normal:                var(--fujiWhite);
-    --text-faint:                 var(--fujiGray);
-    --text-title-h1:              var(--neutral-red);
-    --text-title-h2:              var(--neutral-orange);
-    --text-title-h3:              var(--neutral-yellow);
-    --text-title-h4:              var(--neutral-green);
-    --text-title-h5:              var(--neutral-aqua);
-    --text-title-h6:              var(--neutral-blue);
-    --text-link:                  var(--springBlue);
-    --text-a:                     var(--dragonBlue);
-    --text-a-hover:               var(--peachRed);
-    --text-a-url:                 var(--dragonBlue); /*hover internal link, graph view link and standalone links*. External Links no*/
-    --text-mark:                  rgba(34, 50, 73, 0.4); /* waveBlue1 */
-    --pre-code:                   var(--sumiInk2);
-    --text-highlight-bg:          var(--waveBlue1);
-    --interactive-accent:         var(--dragonBlue); /* vim cursor background AND highilight on right*/
-    --interactive-before:         var(--sumiInk4);
-    --background-modifier-border: var(--dragonBlue);
-    --text-accent:                var(--autumnGreen);
-    --interactive-accent-rgb:     var(--springGreen);
-    --inline-code:                var(--);
-    --code-block:                 var(--bright-aqua);
-    --vim-cursor-backgroung:      var(--fujiWhite);
-    --vim-cursor-color:           var(--sumiInk1);
-    --text-selection:             rgba(34, 50, 73, 0.5); /* waveBlue1 */
-    --text-tag:                   var(--springViolet1);
-    --task-checkbox:              var(--sumiInk4);
-    --table-header:               hsl(0, 0%, 14%);
-    --table-row-even:             hsl(0, 0%, 17%);
-    --table-row-odd:              hsl(0, 0%, 20%);
-    --table-hover:                var(--sumiInk2);
-    --bold-color:                 var(--light1);
+    --background-primary: var(--hal-forest-bg);
+    --background-primary-alt: var(--hal-forest-darker);
+    --background-secondary: var(--hal-forest-darker);
+    --background-secondary-alt: var(--hal-forest-lighter);
+    
+    --text-normal: var(--hal-forest-text);
+    --text-faint: var(--hal-forest-text-muted);
+    
+    --text-title-h1: var(--hal-forest-red);
+    --text-title-h2: var(--hal-forest-purple);
+    --text-title-h3: var(--hal-forest-blue);
+    --text-title-h4: var(--hal-forest-aqua);
+    --text-title-h5: var(--hal-forest-sage);
+    --text-title-h6: var(--hal-forest-green);
+    
+    --text-link: var(--hal-forest-sage);
+    --text-a: var(--hal-forest-sage);
+    --text-a-hover: var(--hal-forest-aqua);
+    
+    --text-mark: var(--hal-forest-highlight);
+    --pre-code: var(--hal-forest-darker);
+    --text-highlight-bg: var(--hal-forest-highlight);
+    --interactive-accent: var(--hal-forest-sage);
+    --interactive-before: var(--hal-forest-text-muted);
+    --background-modifier-border: var(--hal-forest-border);
+    --text-accent: var(--hal-forest-green);
+    --interactive-accent-rgb: var(--hal-forest-green);
+    --text-selection: var(--hal-forest-selection);
+    --text-tag: var(--hal-forest-purple);
+    --task-checkbox: var(--hal-forest-text-muted);
+    --code-block: var(--hal-forest-aqua);
+    --bold-color: var(--hal-forest-text-bright);
+    --table-header: hsl(0, 0%, 14%);
+    --table-row-even: hsl(0, 0%, 17%);
+    --table-row-odd: hsl(0, 0%, 20%);
+    --table-hover: var(--sumiInk2);
 }
 
 .theme-light,
@@ -202,16 +374,19 @@ strong
 a,
 .cm-hmd-internal-link
 {
-    color: var(--text-a) !important;
-    text-decoration: none !important;
+    color: var(--hal-forest-sage) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 2px rgba(127, 169, 143, 0.2);
 }
 
 a:hover,
 .cm-hmd-internal-link:hover,
 .cm-url
 {
-    color: var(--text-a-url) !important;
-    text-decoration: none !important;
+    color: var(--hal-forest-aqua) !important;
+    opacity: 0.95;
+    text-shadow: 0 0 4px rgba(149, 230, 203, 0.3);
 }
 
 a.tag, a.tag:hover {
@@ -249,15 +424,10 @@ mark
     color: var(--text-a) !important;
 }
 
-.HyperMD-codeblock-bg
-{
-    background-color: var(--pre-code) !important;
-}
-
 .HyperMD-codeblock
 {
     line-height: 1.4em !important;
-    color: var(--code-block) !important;
+    color: var(--evergreen-text) !important;
 }
 
 .HyperMD-codeblock-begin
@@ -273,7 +443,7 @@ mark
 }
 
 table {
-    border: 1px solid var(--background-secondary) !important;
+    border: 1px solid var(--halcyon-border) !important;
     border-collapse: collapse;
 }
   
@@ -281,19 +451,19 @@ th {
     font-weight: 600 !important;
     border: 0px !important;
     text-align: left;
-    background-color: var(--table-header);
-    color: var(--neutral-green);
+    background-color: var(--halcyon-highlight);
+    color: var(--halcyon-text);
 }
 
 td {
     border-left: 0px !important;
     border-right: 0px !important;
-    border-bottom: 1px solid var(--background-secondary) !important;
+    border-bottom: 1px solid var(--halcyon-border) !important;
 }
 
-tr:nth-child(even){ background-color: var(--table-row-even) }
-tr:nth-child(odd){ background-color: var(--table-row-odd) }
-tr:hover { background-color: var(--table-hover); }
+tr:nth-child(even){ background-color: var(--halcyon-bg) }
+tr:nth-child(odd){ background-color: var(--halcyon-darker) }
+tr:hover { background-color: var(--halcyon-highlight); }
   
 thead
 {
@@ -368,7 +538,8 @@ thead
 .markdown-preview-section code
 {
     font-size: 0.9em !important;
-    background-color: var(--pre-code) !important;
+    background-color: var(--warm-darker) !important;
+    color: var(--warm-cream) !important;
 }
 
 .markdown-preview-section pre code
@@ -376,7 +547,6 @@ thead
     padding: 4px !important;
     line-height: 1.4em !important;
     display: block !important;
-    color: var(--code-block) !important;
 }
 
 .markdown-preview-section code
@@ -392,8 +562,8 @@ thead
 
 .cm-inline-code
 {
-    color: var(--inline-code) !important;
-    background-color: var(--pre-code) !important;
+    color: var(--warm-cream) !important;
+    background-color: var(--warm-darker) !important;
     padding: 1px !important;
 }
 
@@ -598,20 +768,21 @@ h6 a
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--task-checkbox);
-    appearance: none;
-    -webkit-appearance: none;
+    border: 1px solid var(--hal-forest-sage);
+    transition: all 0.2s ease;
 }
 
 input.task-list-item-checkbox:checked
 {
-    background-color: var(--task-checkbox);
-    box-shadow: inset 0 0 0 2px var(--background-primary);
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
 }
 
 ::selection
 {
-    background-color: var(--text-selection) !important;
+    background-color: var(--hal-forest-selection) !important;
+    color: var(--hal-forest-text-bright) !important;
 }
 
 .mermaid .note
@@ -621,104 +792,279 @@ input.task-list-item-checkbox:checked
 
 .cm-line .cm-strong
 {
-    color: var(--bold-color) !important;
+    color: var(--hal-forest-sage) !important;
+    opacity: 0.95;
 }                
 
-
-:root {
-    --accent-color: #5C82F5; /* Purple with 80% opacity */
-    --Yellow : #ffde37;
+.HyperMD-codeblock-bg {
+    background-color: var(--evergreen-darker) !important;
 }
 
-.cm-line .cm-strong {
-    color: var(--bright-aqua) !important;
+.HyperMD-codeblock {
+    line-height: 1.4em !important;
+    color: var(--evergreen-text) !important;
+}
+
+/* Update table styles */
+table {
+    border: 1px solid var(--halcyon-border) !important;
+}
+
+th {
+    background-color: var(--halcyon-highlight);
+    color: var(--halcyon-text);
+}
+
+td {
+    border-bottom: 1px solid var(--halcyon-border) !important;
+}
+
+tr:nth-child(even) { 
+    background-color: var(--halcyon-bg);
+}
+
+tr:nth-child(odd) { 
+    background-color: var(--halcyon-darker);
+}
+
+tr:hover { 
+    background-color: var(--halcyon-highlight);
+}
+
+/* Update selection color */
+::selection {
+    background-color: var(--halcyon-selection) !important;
+    color: var(--halcyon-text) !important;
+}
+
+/* Update indent guides */
+.cm-indent::before {
+    border-left: 2px solid var(--halcyon-border);
+    opacity: 0.4;
+}
+
+/* Update link colors */
+a,
+a:hover,
+.internal-link,
+.external-link {
+    color: var(--hal-forest-sage) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 2px rgba(127, 169, 143, 0.2);
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--hal-forest-aqua) !important;
     opacity: 0.95;
+    text-shadow: 0 0 4px rgba(149, 230, 203, 0.3);
 }
 
-/* Additional accent elements with reduced opacity */
+/* Update code blocks */
+.markdown-preview-section pre code,
+.markdown-preview-section code {
+    background-color: var(--hal-forest-darker) !important;
+    color: var(--hal-forest-text-bright) !important;
+    backdrop-filter: blur(2px);
+}
+
+.cm-inline-code {
+    color: var(--hal-forest-text-bright) !important;
+    background-color: var(--hal-forest-darker) !important;
+}
+
+/* Update tags */
+a.tag, a.tag:hover {
+    color: var(--hal-forest-purple) !important;
+    background-color: var(--hal-forest-darker);
+    backdrop-filter: blur(2px);
+}
+
+/* Update checkboxes */
+input.task-list-item-checkbox {
+    border: 1px solid var(--hal-forest-sage);
+    transition: all 0.2s ease;
+}
+
+input.task-list-item-checkbox:checked {
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
+}
+
+/* Update indent guides */
+.cm-indent::before {
+    border-left: 2px solid var(--hal-forest-border);
+    opacity: 0.25;
+    filter: blur(0.3px);
+}
+
+/* Add blur effects to UI elements */
+.markdown-preview-section pre code,
+.markdown-preview-section code {
+    background-color: var(--misty-deep) !important;
+    color: var(--misty-text-bright) !important;
+    backdrop-filter: blur(2px);
+}
+
+.cm-inline-code {
+    color: var(--misty-text-bright) !important;
+    background-color: var(--misty-deep) !important;
+    backdrop-filter: blur(2px);
+}
+
+/* Soft glow effect for links */
+a,
+.internal-link,
+.external-link {
+    color: var(--misty-yellow) !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 2px rgba(215, 153, 33, 0.2);
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+    color: var(--misty-orange) !important;
+    opacity: 0.95;
+    text-shadow: 0 0 4px rgba(214, 93, 14, 0.3);
+}
+
+/* Blur effect for tags */
+a.tag, a.tag:hover {
+    color: var(--misty-purple) !important;
+    background-color: var(--misty-deep);
+    backdrop-filter: blur(2px);
+    opacity: 0.9;
+}
+
+/* Soft shadows for tables */
+table {
+    border: 1px solid var(--misty-border) !important;
+    box-shadow: 0 2px 4px var(--misty-shadow);
+}
+
+th {
+    background-color: var(--misty-deep);
+    color: var(--misty-text-bright);
+    backdrop-filter: blur(2px);
+}
+
+tr:hover { 
+    background-color: var(--misty-lighter);
+    backdrop-filter: blur(1px);
+}
+
+/* Subtle transitions for interactive elements */
+.nav-file-title,
+.nav-folder-title,
+.side-dock-ribbon-tab,
+.workspace-tab-header {
+    transition: all 0.2s ease;
+}
+
+/* Soft glow for headings */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    text-shadow: 0 0 2px rgba(235, 219, 178, 0.2);
+}
+
+/* Checkbox styling with glow */
+input.task-list-item-checkbox {
+    border: 1px solid var(--hal-forest-sage);
+    transition: all 0.2s ease;
+}
+
+input.task-list-item-checkbox:checked {
+    background-color: var(--hal-forest-sage);
+    box-shadow: inset 0 0 0 2px var(--hal-forest-bg),
+                0 0 4px var(--hal-forest-sage);
+}
+
+/* Soft indent guides */
+.cm-indent::before {
+    border-left: 2px solid var(--misty-border);
+    opacity: 0.25;
+    filter: blur(0.3px);
+}
+
+/* Update active elements color */
 .is-active,
 .nav-file-title.is-active,
 .nav-folder-title.is-active,
 .view-header-title:hover,
 .workspace-tab-header.is-active {
-    color: var(--accent-color) !important;
+    color: var(--hal-forest-sage) !important;
     opacity: 0.95;
 }
 
-a,
-a:hover,
-.internal-link,
-.external-link {
-    color: var(--accent-color) !important;
-    opacity: 0.95;
+/* Soft Dark Everforest Theme Colors */
+.theme-dark.anp-theme-ext-dark.ctp-everforest-dark {
+    --ctp-ext-rosewater: 231, 198, 155;
+    --ctp-ext-flamingo: 224, 186, 207;
+    --ctp-ext-pink: 227, 150, 174;
+    --ctp-ext-mauve: 184, 123, 157;
+    --ctp-ext-red: 218, 99, 98;
+    --ctp-ext-maroon: 218, 116, 98;
+    --ctp-ext-peach: 215, 127, 72;
+    --ctp-ext-yellow: 191, 152, 61;
+    --ctp-ext-green: 137, 156, 64;
+    --ctp-ext-teal: 86, 157, 121;
+    --ctp-ext-sky: 86, 157, 144;
+    --ctp-ext-sapphire: 86, 156, 157;
+    --ctp-ext-blue: 90, 147, 162;
+    --ctp-ext-lavender: 180, 144, 202;
+    --ctp-ext-text: 211, 198, 170;
+    --ctp-ext-subtext1: 182, 192, 180;
+    --ctp-ext-subtext0: 154, 167, 157;
+    --ctp-ext-overlay2: 133, 146, 137;
+    --ctp-ext-overlay1: 127, 137, 125;
+    --ctp-ext-overlay0: 81, 91, 97;
+    --ctp-ext-surface2: 74, 85, 91;
+    --ctp-ext-surface1: 64, 76, 81;
+    --ctp-ext-surface0: 55, 66, 71;
+    --ctp-ext-base: 47, 56, 62;
+    --ctp-ext-mantle: 39, 47, 52;
+    --ctp-ext-crust: 34, 40, 44;
 }
 
-
-
-
-/* Edit mode indent guides */
-.cm-indent::before {
-    content: "";
-    display: block;
-    position: absolute;
-    opacity: 0.3;
-    top: 0;
-    height: 100%;
-    border-left: 2px solid var(--accent-color);
+/* Update theme colors */
+.theme-dark {
+    --background-primary: rgb(var(--ctp-ext-base));
+    --background-primary-alt: rgb(var(--ctp-ext-mantle));
+    --background-secondary: rgb(var(--ctp-ext-crust));
+    --background-secondary-alt: rgb(var(--ctp-ext-surface0));
+    
+    --text-normal: rgb(var(--ctp-ext-text));
+    --text-faint: rgb(var(--ctp-ext-subtext0));
+    
+    --text-title-h1: rgb(var(--ctp-ext-red));
+    --text-title-h2: rgb(var(--ctp-ext-peach));
+    --text-title-h3: rgb(var(--ctp-ext-yellow));
+    --text-title-h4: rgb(var(--ctp-ext-green));
+    --text-title-h5: rgb(var(--ctp-ext-teal));
+    --text-title-h6: rgb(var(--ctp-ext-sky));
+    
+    --text-link: rgb(var(--ctp-ext-blue));
+    --text-a: rgb(var(--ctp-ext-blue));
+    --text-a-hover: rgb(var(--ctp-ext-sapphire));
+    
+    --text-mark: rgba(var(--ctp-ext-yellow), 0.3);
+    --pre-code: rgb(var(--ctp-ext-mantle));
+    --text-highlight-bg: rgba(var(--ctp-ext-yellow), 0.2);
+    --interactive-accent: rgb(var(--ctp-ext-green));
+    --interactive-before: rgb(var(--ctp-ext-overlay0));
+    --background-modifier-border: rgb(var(--ctp-ext-surface1));
+    --text-accent: rgb(var(--ctp-ext-green));
+    --interactive-accent-rgb: var(--ctp-ext-green);
+    --text-selection: rgba(var(--ctp-ext-surface2), 0.3);
+    --text-tag: rgb(var(--ctp-ext-lavender));
+    --task-checkbox: rgb(var(--ctp-ext-overlay0));
 }
-
-.cm-indent::before { left: 0.5em; }
-.cm-indent + .cm-indent::before { left: 1.5em; }
-.cm-indent + .cm-indent + .cm-indent::before { left: 2.5em; }
-.cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 3.5em; }
-.cm-indent + .cm-indent + .cm-indent + .cm-indent + .cm-indent::before { left: 4.5em; }
-
-/* Make main containers transparent */
-.workspace-split.mod-root,
-.workspace-leaf,
-.workspace-tabs,
-.workspace-tab-container,
-.workspace-ribbon,
-.view-content,
-.markdown-source-view,
-.markdown-preview-view {
-    background: transparent !important;
-}
-
-/* Style sidebars and panels */
-.side-dock-ribbon,
-.side-dock,
-.sidebar,
-.nav-folder-title,
-.nav-file-title {
-    background: transparent !important;
-}
-
-/* Transparent titlebar and status bar */
-.titlebar,
-.status-bar {
-    background: transparent !important;
-}
-
-/* Semi-transparent scrollbars */
-::-webkit-scrollbar {
-    background-color: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-/* Add subtle backgrounds to important UI elements */
-.suggestion-container,
-.menu,
-.dropdown {
-    background-color: rgba(29, 27, 37, 0.8) !important;
-}
-
-/* Ensure code blocks remain readable */
-pre[class*="language-"],
-code[class*="language-"] {
-    background-color: rgba(36, 36, 54, 0.6) !important;
-}
-

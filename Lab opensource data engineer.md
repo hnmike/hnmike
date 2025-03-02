@@ -7,7 +7,7 @@
 
 HDFS-
 
-1.Architecture
+1.Architecture  
 
 2.hdfs features
 

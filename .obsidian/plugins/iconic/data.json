@@ -16,7 +16,57 @@
   "rememberDeletedItems": false,
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "00-09 system": {
+      "icon": "lucide-pin",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "10-20 zettelkasten": {
+      "icon": "lucide-sprout",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "20-30 PARA": {
+      "icon": "lucide-archive",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "20-30 technical knowledge hub": {
+      "icon": "lucide-terminal-square",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "30-40 creative knowledge hub": {
+      "icon": "lucide-palette",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "50-60 career and education": {
+      "icon": "lucide-school",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    },
+    "90-100 resource archives": {
+      "icon": "lucide-square-dashed-mouse-pointer",
+      "unsynced": [
+        "d2cabb56fefd0520",
+        "955b0a88b2e89fae"
+      ]
+    }
+  },
   "bookmarkIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {}

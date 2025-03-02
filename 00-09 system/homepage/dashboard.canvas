@@ -45,6 +45,16 @@
       "label": "reference"
     },
     {
+      "id": "182e7c38ea932e04",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -140,
+      "y": -1480,
+      "width": 260,
+      "height": 60
+    },
+    {
       "id": "6b23df28dbb2038b",
       "type": "text",
       "text": "ttag cloud\n",
@@ -53,6 +63,26 @@
       "y": 575,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "ab1e60ded8e55770",
+      "type": "file",
+      "file": "00-09 system/template/project metadata.md",
+      "styleAttributes": {},
+      "x": 220,
+      "y": 0,
+      "width": 672,
+      "height": 445
+    },
+    {
+      "id": "5abee2ad6f8bf605",
+      "type": "file",
+      "file": "canvas  moc.md",
+      "styleAttributes": {},
+      "x": 220,
+      "y": 549,
+      "width": 511,
+      "height": 480
     },
     {
       "id": "6e96a8547d4cda17",
@@ -83,36 +113,6 @@
       "y": -478,
       "width": 507,
       "height": 333
-    },
-    {
-      "id": "5abee2ad6f8bf605",
-      "type": "file",
-      "file": "canvas  moc.md",
-      "styleAttributes": {},
-      "x": 220,
-      "y": 549,
-      "width": 511,
-      "height": 480
-    },
-    {
-      "id": "ab1e60ded8e55770",
-      "type": "file",
-      "file": "00-09 system/template/project metadata.md",
-      "styleAttributes": {},
-      "x": 220,
-      "y": 0,
-      "width": 672,
-      "height": 445
-    },
-    {
-      "id": "182e7c38ea932e04",
-      "type": "text",
-      "text": "",
-      "styleAttributes": {},
-      "x": -140,
-      "y": -1480,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "6012eb1899bf69c3",
