@@ -454,7 +454,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 217.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -1338,7 +1338,8 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "a1e06c5da87a077e",
