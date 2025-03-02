@@ -510,23 +510,30 @@ th, td {
 .workspace-leaf,
 .workspace-tab-header,
 .workspace-tab-container,
-.nav-header,
-.search-result-file-title,
-.tree-item-self,
-.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title,
-.workspace-leaf-content[data-type="file-explorer"] .nav-file-title {
+.nav-action-button,
+.side-dock-ribbon-tab,
+.workspace-ribbon-collapse-btn,
+.workspace-tab-header-container::after,
+.workspace-tab-header-inner::after,
+.workspace-leaf-content::after,
+.nav-header::after,
+.nav-buttons-container::after,
+.view-header::after,
+.view-actions::after,
+.workspace-leaf-resize-handle::after,
+.workspace-split::after {
     border-bottom: none !important;
+    border-top: none !important;
     box-shadow: none !important;
 }
 
-.workspace-tab-header-container::after,
-.workspace-tab-header-container::before,
-.workspace-tab-container::after,
-.workspace-tab-container::before {
-    display: none !important;
-}
-
-.workspace-split.mod-root .view-content {
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+    border-left: none !important;
+    border-right: none !important;
     border-top: none !important;
     border-bottom: none !important;
+    background-color: transparent !important;
 }
