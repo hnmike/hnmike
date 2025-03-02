@@ -215,6 +215,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "knowledge base template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.41403509441174957}"
+                },
+                {
                   "title": "project metadata",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
@@ -393,13 +399,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/knowledge base template.md",
+                "file": "00-09 system/template/new zettel note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "knowledge base template"
+              "title": "new zettel note"
             }
           },
           {
@@ -1563,9 +1569,9 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/template/project template 1.md",
-    "00-09 system/template/knowledge base template.md",
     "Untitled 3.md",
     "(202503022134).md",
     "1202503022134.md",
