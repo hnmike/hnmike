@@ -39,7 +39,7 @@
     --ef-custom-bg-opacity: 0.8;
     
     /* Glass effect variables */
-    --glass-opacity: 0.6;
+    --glass-opacity: 0.8;
     --glass-accent: rgba(var(--accent-rgb), 0.1);
     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
     --glass-border: rgba(var(--text-rgb), 0.2);
