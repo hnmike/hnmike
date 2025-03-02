@@ -3,537 +3,537 @@
  * Based on Everforest color scheme
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;300;400;500;700&display=swap');
-
-:root {
-    /* Core colors from Soft Everforest */
-    --accent-rgb: 167, 192, 128;
-    --accent2-rgb: 255, 115, 250;
-    --link-rgb: 127, 187, 179;
-    --mention-rgb: 230, 152, 117;
-    --text-rgb: 211, 198, 170;
-    
-    /* Background colors */
-    --bg-accent-rgb: 61, 72, 77;
-    --bg-primary-rgb: 52, 63, 68;
-    --bg-secondary-rgb: 45, 53, 59;
-    --bg-floating-rgb: 52, 63, 68;
-    
-    /* Theme variables */
-    --accent-color: rgb(var(--accent-rgb));
-    --accent-color-2: rgb(var(--accent2-rgb));
-    --link-color: rgb(var(--link-rgb));
-    --mention-color: rgb(var(--mention-rgb));
-    --text-color: rgb(var(--text-rgb));
-    
-    /* Background variables */
-    --bg-accent: rgb(var(--bg-accent-rgb));
-    --bg-primary: rgb(var(--bg-primary-rgb));
-    --bg-secondary: rgb(var(--bg-secondary-rgb));
-    --bg-floating: rgb(var(--bg-floating-rgb));
-    
-    /* Custom background settings */
-    --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
-    --ef-custom-bg-brightness: 0.85;
-    --ef-custom-bg-blur: 12px;
-    --ef-custom-bg-opacity: 0.8;
-    
-    /* Glass effect variables */
-    --glass-opacity: 0.6;
-    --glass-accent: rgba(var(--accent-rgb), 0.1);
-    --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
-    --glass-border: rgba(var(--text-rgb), 0.2);
-}
-
-/* Main background */
-body.theme-dark {
-    background: var(--ef-background-image) !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-    font-family: 'Ubuntu Sans', sans-serif !important;
-}
-
-/* App container */
-.app-container {
-    background-color: transparent !important;
-}
-
-/* Workspace styling */
-.workspace {
-    background: transparent !important;
-    gap: 8px !important;
-    padding: 8px !important;
-}
-
-.workspace-split {
-    gap: 8px !important;
-}
-
-/* Workspace cards with glass effect */
-.workspace-leaf {
-    border-radius: 8px !important;
-    overflow: hidden !important;
-    background-color: var(--glass-surface) !important;
-    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-}
-
-/* Remove container borders and update scrollbar */
-.workspace-leaf,
-.workspace-tabs,
-.view-header,
-.workspace-leaf-content,
-.nav-folder-children,
-.workspace-tab-header-container,
-.workspace-ribbon.mod-left,
-.workspace-ribbon.mod-right {
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* Update scrollbar styling */
-::-webkit-scrollbar {
-    width: 8px !important;
-    height: 8px !important;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent !important;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgba(var(--text-rgb), 0.2) !important;
-    border-radius: 4px !important;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(var(--text-rgb), 0.3) !important;
-}
-
-/* Safari-style tabs */
-.workspace-tab-header-container {
-    background: transparent !important;
-    padding: 6px 6px 0 6px !important;
-    border-bottom: none !important;
-}
-
-.workspace-tab-header {
-    position: relative !important;
-    background-color: rgba(var(--bg-primary-rgb), 0.4) !important;
-    border-radius: 8px 8px 0 0 !important;
-    padding: 4px 16px !important;
-    margin: 0 2px !important;
-    height: 32px !important;
-    color: var(--text-color) !important;
-    font-weight: 400 !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    border: none !important;
-    transition: background-color 0.2s ease !important;
-}
-
-.workspace-tab-header.is-active {
-    background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
-    color: var(--text-color) !important;
-    font-weight: 500 !important;
-}
-
-.workspace-tab-header:hover {
-    background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
-}
-
-.workspace-tab-header-inner {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.workspace-tab-header-inner-title {
-    text-align: center !important;
-    font-size: 13px !important;
-}
-
-.workspace-tab-container {
-    background: rgba(var(--bg-primary-rgb), 0.85) !important;
-    border-radius: 0 8px 8px 8px !important;
-    margin-top: -1px !important;
-    padding-top: 4px !important;
-}
-
-/* Remove blur from tab containers */
-.workspace-tabs {
-    background: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-/* Remove blur from containers */
-.workspace-leaf,
-.workspace-leaf-content,
-.workspace-split.mod-root .view-content {
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    background: rgba(var(--bg-primary-rgb), 0.7) !important;
-}
-
-/* Sidebar styling */
-.workspace-ribbon.mod-left {
-    background: var(--glass-surface) !important;
-    border: none !important;
-    backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
-    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
-}
-
-/* File explorer */
-.nav-folder-children {
-    padding-left: 0 !important;
-    margin-left: 8px !important;
-}
-
-.nav-file-title,
-.nav-folder-title {
-    border-radius: 4px !important;
-    margin: 1px 0 !important;
-    padding: 4px 8px !important;
-    color: var(--text-color) !important;
-    transition: all 0.2s ease !important;
-}
-
-.nav-file-title:hover,
-.nav-folder-title:hover {
-    background-color: var(--glass-accent) !important;
-    color: var(--accent-color) !important;
-}
-
-.nav-file-title.is-active {
-    background-color: var(--glass-accent) !important;
-    color: var(--accent-color) !important;
-}
-
-/* Links */
-a,
-.internal-link,
-.external-link {
-    color: var(--link-color) !important;
-    opacity: 0.9;
-    transition: all 0.2s ease;
-}
-
-a:hover,
-.internal-link:hover,
-.external-link:hover {
-    color: var(--mention-color) !important;
-    opacity: 0.95;
-}
-
-/* Code blocks */
-pre[class*="language-"],
-code[class*="language-"] {
-    border-radius: 4px !important;
-    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
-    border: none !important;
-    color: var(--text-color) !important;
-}
-
-/* Inline code */
-.cm-inline-code {
-    border-radius: 4px !important;
-    padding: 2px 4px !important;
-    background: rgba(var(--bg-secondary-rgb), 0.6) !important;
-    color: var(--text-color) !important;
-}
-
-/* Theme integration */
-.theme-dark {
-    --background-primary: transparent !important;
-    --background-primary-alt: var(--bg-primary) !important;
-    --background-secondary: var(--bg-secondary) !important;
-    --background-secondary-alt: var(--bg-secondary) !important;
-    --background-tertiary: var(--bg-secondary) !important;
-    --background-floating: var(--bg-floating) !important;
-    
-    --text-normal: var(--text-color) !important;
-    --text-muted: rgba(var(--text-rgb), 0.8) !important;
-    --text-accent: var(--accent-color) !important;
-    
-    --interactive-normal: var(--text-color) !important;
-    --interactive-hover: var(--accent-color) !important;
-    --interactive-accent: var(--accent-color) !important;
-}
-
-/* Tables */
-table {
-    border: none !important;
-    background: rgba(var(--bg-secondary-rgb), 0.4) !important;
-    border-radius: 4px !important;
-}
-
-th, td {
-    border: none !important;
-    border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
-    color: var(--text-color) !important;
-}
-
-/* Headers */
-.markdown-preview-section h1,
-.markdown-preview-section h2,
-.markdown-preview-section h3,
-.markdown-preview-section h4,
-.markdown-preview-section h5,
-.markdown-preview-section h6 {
-    color: var(--accent-color) !important;
-    font-family: 'Ubuntu Sans', sans-serif !important;
-    font-weight: 500 !important;
-}
-
-/* Background image and container settings */
-.anp-background-image-toggle:not(.anp-colorful-frame) {
-    /* Container backgrounds */
-    .app-container,
-    &.anp-bg-fix .app-container {
-        background: var(--ef-background-image) !important;
-        background-size: cover !important;
-        background-color: transparent !important;
-    }
-
-    .horizontal-main-container,
-    &.anp-bg-fix .horizontal-main-container {
-        backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
-        background-color: transparent !important;
-    }
-
-    .workspace {
-        background: transparent !important;
-    }
-
-    /* Card and tab colors */
-    --card-background-color: transparent;
-    --card-foreground-color: rgba(var(--bg-primary-rgb), var(--glass-opacity));
-    --tab-inactive-color: rgba(var(--bg-secondary-rgb), 0.4);
-    --code-background: var(--card-foreground-color);
-
-    /* Card layout settings */
-    &.anp-card-layout .workspace-split.mod-root .view-content {
-        background: transparent !important;
-    }
-
-    /* Tab styling */
-    &.anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked),
-    &.anp-safari-tab-toggle .workspace-tabs:not(.mod-stacked) {
-        --tab-background: var(--tab-inactive-color);
-        --tab-background-active: var(--card-foreground-color);
-        --tab-background-inactive: var(--tab-inactive-color);
-    }
-
-    /* Header and ribbon styling */
-    &.anp-floating-header .nav-folder.mod-root > .nav-folder-title {
-        background-color: var(--tab-inactive-color) !important;
-    }
-
-    /* Transparent backgrounds */
-    &.anp-canvas-dark-bg .canvas-wrapper,
-    .canvas-wrapper,
-    .workspace-ribbon.mod-left:before,
-    .workspace-tab-header-container,
-    .workspace-split.mod-root {
-        background-color: transparent !important;
-    }
-
-    /* Card foreground colors */
-    &:not(.anp-card-layout, .anp-border-layout) {
-        .workspace-tab-header-container,
-        .workspace-tabs .workspace-leaf,
-        .workspace-split.mod-root .view-content,
-        .workspace-ribbon,
-        .workspace-ribbon.mod-left:before,
-        .view-header {
-            background-color: var(--card-foreground-color) !important;
-        }
-    }
-
-    /* Transparent elements */
-    .kanban-plugin__item-title-wrapper,
-    &.anp-card-layout .workspace-ribbon,
-    .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
-    .mod-root .workspace-tabs .workspace-leaf,
-    &.anp-card-layout .view-header {
-        background: transparent !important;
-    }
-
-    /* Border layout */
-    &.anp-border-layout {
-        .workspace-tab-header-container,
-        .workspace-ribbon.mod-left:before {
-            background: transparent !important;
-        }
-
-        &.anp-fixed-status-bar .status-bar {
-            background: transparent !important;
-            backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
-        }
-    }
-
-    /* Status bar */
-    &:not(.anp-border-layout, .anp-card-layout) {
-        &.anp-fixed-status-bar .status-bar {
-            background: var(--card-foreground-color) !important;
-            backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
-        }
-    }
-}
-
-/* Workspace layout adjustments */
-.workspace {
-    padding: 12px !important;
-    gap: 12px !important;
-}
-
-.workspace-split {
-    gap: 12px !important;
-}
-
-/* Card styling */
-.workspace-leaf {
-    border-radius: 10px !important;
-    overflow: hidden !important;
-    margin: 0 !important;
-}
-
-.workspace-leaf-content {
-    background-color: var(--glass-surface) !important;
-    backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-    -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
-    border-radius: 10px !important;
-}
-
-/* Remove header gradients */
-.view-header-title-container:not(.mod-at-end):after {
-    display: none !important;
-}
-
-/* Search container styling */
-.search-input-container {
-    background: transparent !important;
-    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
-}
-
-.search-input {
-    background: transparent !important;
-    border: none !important;
-    color: var(--text-color) !important;
-}
-
-/* Remove container backgrounds */
-.workspace-tab-container,
-.workspace-tab-container-before,
-.workspace-tab-container-after,
-.workspace-split.mod-left-split .workspace-tabs,
-.workspace-split.mod-right-split .workspace-tabs,
-.workspace-leaf-content[data-type="search"] .search-input-container,
-.workspace-leaf-content[data-type="file-explorer"] .nav-files-container {
-    background: transparent !important;
-}
-
-/* Make side panels transparent */
-.side-dock-panels-container {
-    background: transparent !important;
-}
-
-/* Search result styling */
-.search-result-container {
-    background: transparent !important;
-    border-radius: 8px !important;
-}
-
-.search-result-file-title {
-    background: transparent !important;
-    border-radius: 4px !important;
-}
-
-.search-result-file-matches {
-    background: transparent !important;
-}
-
-/* File explorer container */
-.nav-files-container {
-    background: transparent !important;
-}
-
-/* Sidebar panels */
-.workspace-split.mod-left-split,
-.workspace-split.mod-right-split {
-    background: transparent !important;
-}
-
-/* Update workspace leaf content */
-.workspace-leaf-content {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-}
-
-/* Update tab header container */
-.workspace-tab-header-container {
-    background: transparent !important;
-    border: none !important;
-}
-
-/* Update ribbon styling */
-.workspace-ribbon.mod-left,
-.workspace-ribbon.mod-right {
-    background: transparent !important;
-    border: none !important;
-}
-
-/* Update search suggestions */
-.suggestion-container {
-    background: rgba(var(--bg-primary-rgb), 0.2) !important;
-    backdrop-filter: blur(8px) brightness(1.1) !important;
-    -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
-    border: 1px solid rgba(var(--text-rgb), 0.1) !important;
-}
-
-.suggestion-item {
-    background: transparent !important;
-}
-
-.suggestion-item.is-selected {
-    background: rgba(var(--accent-rgb), 0.1) !important;
-}
-
-/* Remove lines from cards */
-.nav-file-title,
-.nav-folder-title,
-.workspace-leaf,
-.workspace-tab-header,
-.workspace-tab-container,
-.nav-action-button,
-.side-dock-ribbon-tab,
-.workspace-ribbon-collapse-btn,
-.workspace-tab-header-container::after,
-.workspace-tab-header-inner::after,
-.workspace-leaf-content::after,
-.nav-header::after,
-.nav-buttons-container::after,
-.view-header::after,
-.view-actions::after,
-.workspace-leaf-resize-handle::after,
-.workspace-split::after {
-    border-bottom: none !important;
-    border-top: none !important;
-    box-shadow: none !important;
-}
-
-.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle,
-.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
-.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
-    border-left: none !important;
-    border-right: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    background-color: transparent !important;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;300;400;500;700&display=swap');
+
+ :root {
+     /* Core colors from Soft Everforest */
+     --accent-rgb: 167, 192, 128;
+     --accent2-rgb: 255, 115, 250;
+     --link-rgb: 127, 187, 179;
+     --mention-rgb: 230, 152, 117;
+     --text-rgb: 211, 198, 170;
+     
+     /* Background colors */
+     --bg-accent-rgb: 61, 72, 77;
+     --bg-primary-rgb: 52, 63, 68;
+     --bg-secondary-rgb: 45, 53, 59;
+     --bg-floating-rgb: 52, 63, 68;
+     
+     /* Theme variables */
+     --accent-color: rgb(var(--accent-rgb));
+     --accent-color-2: rgb(var(--accent2-rgb));
+     --link-color: rgb(var(--link-rgb));
+     --mention-color: rgb(var(--mention-rgb));
+     --text-color: rgb(var(--text-rgb));
+     
+     /* Background variables */
+     --bg-accent: rgb(var(--bg-accent-rgb));
+     --bg-primary: rgb(var(--bg-primary-rgb));
+     --bg-secondary: rgb(var(--bg-secondary-rgb));
+     --bg-floating: rgb(var(--bg-floating-rgb));
+     
+     /* Custom background settings */
+     --ef-background-image: url("https://raw.githubusercontent.com/azurkytheturkey/i3-everforest/main/wallpaper2.png");
+     --ef-custom-bg-brightness: 0.85;
+     --ef-custom-bg-blur: 12px;
+     --ef-custom-bg-opacity: 0.8;
+     
+     /* Glass effect variables */
+     --glass-opacity: 0.6;
+     --glass-accent: rgba(var(--accent-rgb), 0.1);
+     --glass-surface: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+     --glass-border: rgba(var(--text-rgb), 0.2);
+ }
+ 
+ /* Main background */
+ body.theme-dark {
+     background: var(--ef-background-image) !important;
+     background-size: cover !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-attachment: fixed !important;
+     font-family: 'Ubuntu Sans', sans-serif !important;
+ }
+ 
+ /* App container */
+ .app-container {
+     background-color: transparent !important;
+ }
+ 
+ /* Workspace styling */
+ .workspace {
+     background: transparent !important;
+     gap: 8px !important;
+     padding: 8px !important;
+ }
+ 
+ .workspace-split {
+     gap: 8px !important;
+ }
+ 
+ /* Workspace cards with glass effect */
+ .workspace-leaf {
+     border-radius: 8px !important;
+     overflow: hidden !important;
+     background-color: var(--glass-surface) !important;
+     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+ }
+ 
+ /* Remove container borders and update scrollbar */
+ .workspace-leaf,
+ .workspace-tabs,
+ .view-header,
+ .workspace-leaf-content,
+ .nav-folder-children,
+ .workspace-tab-header-container,
+ .workspace-ribbon.mod-left,
+ .workspace-ribbon.mod-right {
+     border: none !important;
+     box-shadow: none !important;
+ }
+ 
+ /* Update scrollbar styling */
+ ::-webkit-scrollbar {
+     width: 8px !important;
+     height: 8px !important;
+ }
+ 
+ ::-webkit-scrollbar-track {
+     background: transparent !important;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+     background: rgba(var(--text-rgb), 0.2) !important;
+     border-radius: 4px !important;
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+     background: rgba(var(--text-rgb), 0.3) !important;
+ }
+ 
+ /* Safari-style tabs */
+ .workspace-tab-header-container {
+     background: transparent !important;
+     padding: 6px 6px 0 6px !important;
+     border-bottom: none !important;
+ }
+ 
+ .workspace-tab-header {
+     position: relative !important;
+     background-color: rgba(var(--bg-primary-rgb), 0.4) !important;
+     border-radius: 8px 8px 0 0 !important;
+     padding: 4px 16px !important;
+     margin: 0 2px !important;
+     height: 32px !important;
+     color: var(--text-color) !important;
+     font-weight: 400 !important;
+     backdrop-filter: none !important;
+     -webkit-backdrop-filter: none !important;
+     border: none !important;
+     transition: background-color 0.2s ease !important;
+ }
+ 
+ .workspace-tab-header.is-active {
+     background-color: rgba(var(--bg-primary-rgb), 0.85) !important;
+     color: var(--text-color) !important;
+     font-weight: 500 !important;
+ }
+ 
+ .workspace-tab-header:hover {
+     background-color: rgba(var(--bg-primary-rgb), 0.6) !important;
+ }
+ 
+ .workspace-tab-header-inner {
+     padding: 0 !important;
+     margin: 0 !important;
+ }
+ 
+ .workspace-tab-header-inner-title {
+     text-align: center !important;
+     font-size: 13px !important;
+ }
+ 
+ .workspace-tab-container {
+     background: rgba(var(--bg-primary-rgb), 0.85) !important;
+     border-radius: 0 8px 8px 8px !important;
+     margin-top: -1px !important;
+     padding-top: 4px !important;
+ }
+ 
+ /* Remove blur from tab containers */
+ .workspace-tabs {
+     background: transparent !important;
+     backdrop-filter: none !important;
+     -webkit-backdrop-filter: none !important;
+ }
+ 
+ /* Remove blur from containers */
+ .workspace-leaf,
+ .workspace-leaf-content,
+ .workspace-split.mod-root .view-content {
+     backdrop-filter: none !important;
+     -webkit-backdrop-filter: none !important;
+     background: rgba(var(--bg-primary-rgb), 0.7) !important;
+ }
+ 
+ /* Sidebar styling */
+ .workspace-ribbon.mod-left {
+     background: var(--glass-surface) !important;
+     border: none !important;
+     backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) !important;
+ }
+ 
+ /* File explorer */
+ .nav-folder-children {
+     padding-left: 0 !important;
+     margin-left: 8px !important;
+ }
+ 
+ .nav-file-title,
+ .nav-folder-title {
+     border-radius: 4px !important;
+     margin: 1px 0 !important;
+     padding: 4px 8px !important;
+     color: var(--text-color) !important;
+     transition: all 0.2s ease !important;
+ }
+ 
+ .nav-file-title:hover,
+ .nav-folder-title:hover {
+     background-color: var(--glass-accent) !important;
+     color: var(--accent-color) !important;
+ }
+ 
+ .nav-file-title.is-active {
+     background-color: var(--glass-accent) !important;
+     color: var(--accent-color) !important;
+ }
+ 
+ /* Links */
+ a,
+ .internal-link,
+ .external-link {
+     color: var(--link-color) !important;
+     opacity: 0.9;
+     transition: all 0.2s ease;
+ }
+ 
+ a:hover,
+ .internal-link:hover,
+ .external-link:hover {
+     color: var(--mention-color) !important;
+     opacity: 0.95;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"],
+ code[class*="language-"] {
+     border-radius: 4px !important;
+     background: rgba(var(--bg-secondary-rgb), 0.6) !important;
+     border: none !important;
+     color: var(--text-color) !important;
+ }
+ 
+ /* Inline code */
+ .cm-inline-code {
+     border-radius: 4px !important;
+     padding: 2px 4px !important;
+     background: rgba(var(--bg-secondary-rgb), 0.6) !important;
+     color: var(--text-color) !important;
+ }
+ 
+ /* Theme integration */
+ .theme-dark {
+     --background-primary: transparent !important;
+     --background-primary-alt: var(--bg-primary) !important;
+     --background-secondary: var(--bg-secondary) !important;
+     --background-secondary-alt: var(--bg-secondary) !important;
+     --background-tertiary: var(--bg-secondary) !important;
+     --background-floating: var(--bg-floating) !important;
+     
+     --text-normal: var(--text-color) !important;
+     --text-muted: rgba(var(--text-rgb), 0.8) !important;
+     --text-accent: var(--accent-color) !important;
+     
+     --interactive-normal: var(--text-color) !important;
+     --interactive-hover: var(--accent-color) !important;
+     --interactive-accent: var(--accent-color) !important;
+ }
+ 
+ /* Tables */
+ table {
+     border: none !important;
+     background: rgba(var(--bg-secondary-rgb), 0.4) !important;
+     border-radius: 4px !important;
+ }
+ 
+ th, td {
+     border: none !important;
+     border-bottom: 1px solid rgba(var(--text-rgb), 0.1) !important;
+     color: var(--text-color) !important;
+ }
+ 
+ /* Headers */
+ .markdown-preview-section h1,
+ .markdown-preview-section h2,
+ .markdown-preview-section h3,
+ .markdown-preview-section h4,
+ .markdown-preview-section h5,
+ .markdown-preview-section h6 {
+     color: var(--accent-color) !important;
+     font-family: 'Ubuntu Sans', sans-serif !important;
+     font-weight: 500 !important;
+ }
+ 
+ /* Background image and container settings */
+ .anp-background-image-toggle:not(.anp-colorful-frame) {
+     /* Container backgrounds */
+     .app-container,
+     &.anp-bg-fix .app-container {
+         background: var(--ef-background-image) !important;
+         background-size: cover !important;
+         background-color: transparent !important;
+     }
+ 
+     .horizontal-main-container,
+     &.anp-bg-fix .horizontal-main-container {
+         backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+         background-color: transparent !important;
+     }
+ 
+     .workspace {
+         background: transparent !important;
+     }
+ 
+     /* Card and tab colors */
+     --card-background-color: transparent;
+     --card-foreground-color: rgba(var(--bg-primary-rgb), var(--glass-opacity));
+     --tab-inactive-color: rgba(var(--bg-secondary-rgb), 0.4);
+     --code-background: var(--card-foreground-color);
+ 
+     /* Card layout settings */
+     &.anp-card-layout .workspace-split.mod-root .view-content {
+         background: transparent !important;
+     }
+ 
+     /* Tab styling */
+     &.anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked),
+     &.anp-safari-tab-toggle .workspace-tabs:not(.mod-stacked) {
+         --tab-background: var(--tab-inactive-color);
+         --tab-background-active: var(--card-foreground-color);
+         --tab-background-inactive: var(--tab-inactive-color);
+     }
+ 
+     /* Header and ribbon styling */
+     &.anp-floating-header .nav-folder.mod-root > .nav-folder-title {
+         background-color: var(--tab-inactive-color) !important;
+     }
+ 
+     /* Transparent backgrounds */
+     &.anp-canvas-dark-bg .canvas-wrapper,
+     .canvas-wrapper,
+     .workspace-ribbon.mod-left:before,
+     .workspace-tab-header-container,
+     .workspace-split.mod-root {
+         background-color: transparent !important;
+     }
+ 
+     /* Card foreground colors */
+     &:not(.anp-card-layout, .anp-border-layout) {
+         .workspace-tab-header-container,
+         .workspace-tabs .workspace-leaf,
+         .workspace-split.mod-root .view-content,
+         .workspace-ribbon,
+         .workspace-ribbon.mod-left:before,
+         .view-header {
+             background-color: var(--card-foreground-color) !important;
+         }
+     }
+ 
+     /* Transparent elements */
+     .kanban-plugin__item-title-wrapper,
+     &.anp-card-layout .workspace-ribbon,
+     .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
+     .mod-root .workspace-tabs .workspace-leaf,
+     &.anp-card-layout .view-header {
+         background: transparent !important;
+     }
+ 
+     /* Border layout */
+     &.anp-border-layout {
+         .workspace-tab-header-container,
+         .workspace-ribbon.mod-left:before {
+             background: transparent !important;
+         }
+ 
+         &.anp-fixed-status-bar .status-bar {
+             background: transparent !important;
+             backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+         }
+     }
+ 
+     /* Status bar */
+     &:not(.anp-border-layout, .anp-card-layout) {
+         &.anp-fixed-status-bar .status-bar {
+             background: var(--card-foreground-color) !important;
+             backdrop-filter: brightness(var(--ef-custom-bg-brightness)) blur(var(--ef-custom-bg-blur)) !important;
+         }
+     }
+ }
+ 
+ /* Workspace layout adjustments */
+ .workspace {
+     padding: 12px !important;
+     gap: 12px !important;
+ }
+ 
+ .workspace-split {
+     gap: 12px !important;
+ }
+ 
+ /* Card styling */
+ .workspace-leaf {
+     border-radius: 10px !important;
+     overflow: hidden !important;
+     margin: 0 !important;
+ }
+ 
+ .workspace-leaf-content {
+     background-color: var(--glass-surface) !important;
+     backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     -webkit-backdrop-filter: blur(var(--ef-custom-bg-blur)) brightness(var(--ef-custom-bg-brightness)) !important;
+     border-radius: 10px !important;
+ }
+ 
+ /* Remove header gradients */
+ .view-header-title-container:not(.mod-at-end):after {
+     display: none !important;
+ }
+ 
+ /* Search container styling */
+ .search-input-container {
+     background: transparent !important;
+     border: 1px solid rgba(var(--text-rgb), 0.1) !important;
+     backdrop-filter: blur(8px) !important;
+     -webkit-backdrop-filter: blur(8px) !important;
+ }
+ 
+ .search-input {
+     background: transparent !important;
+     border: none !important;
+     color: var(--text-color) !important;
+ }
+ 
+ /* Remove container backgrounds */
+ .workspace-tab-container,
+ .workspace-tab-container-before,
+ .workspace-tab-container-after,
+ .workspace-split.mod-left-split .workspace-tabs,
+ .workspace-split.mod-right-split .workspace-tabs,
+ .workspace-leaf-content[data-type="search"] .search-input-container,
+ .workspace-leaf-content[data-type="file-explorer"] .nav-files-container {
+     background: transparent !important;
+ }
+ 
+ /* Make side panels transparent */
+ .side-dock-panels-container {
+     background: transparent !important;
+ }
+ 
+ /* Search result styling */
+ .search-result-container {
+     background: transparent !important;
+     border-radius: 8px !important;
+ }
+ 
+ .search-result-file-title {
+     background: transparent !important;
+     border-radius: 4px !important;
+ }
+ 
+ .search-result-file-matches {
+     background: transparent !important;
+ }
+ 
+ /* File explorer container */
+ .nav-files-container {
+     background: transparent !important;
+ }
+ 
+ /* Sidebar panels */
+ .workspace-split.mod-left-split,
+ .workspace-split.mod-right-split {
+     background: transparent !important;
+ }
+ 
+ /* Update workspace leaf content */
+ .workspace-leaf-content {
+     background: rgba(var(--bg-primary-rgb), 0.2) !important;
+     backdrop-filter: blur(8px) brightness(1.1) !important;
+     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+ }
+ 
+ /* Update tab header container */
+ .workspace-tab-header-container {
+     background: transparent !important;
+     border: none !important;
+ }
+ 
+ /* Update ribbon styling */
+ .workspace-ribbon.mod-left,
+ .workspace-ribbon.mod-right {
+     background: transparent !important;
+     border: none !important;
+ }
+ 
+ /* Update search suggestions */
+ .suggestion-container {
+     background: rgba(var(--bg-primary-rgb), 0.2) !important;
+     backdrop-filter: blur(8px) brightness(1.1) !important;
+     -webkit-backdrop-filter: blur(8px) brightness(1.1) !important;
+     border: 1px solid rgba(var(--text-rgb), 0.1) !important;
+ }
+ 
+ .suggestion-item {
+     background: transparent !important;
+ }
+ 
+ .suggestion-item.is-selected {
+     background: rgba(var(--accent-rgb), 0.1) !important;
+ }
+ 
+ /* Remove lines from cards */
+ .nav-file-title,
+ .nav-folder-title,
+ .workspace-leaf,
+ .workspace-tab-header,
+ .workspace-tab-container,
+ .nav-action-button,
+ .side-dock-ribbon-tab,
+ .workspace-ribbon-collapse-btn,
+ .workspace-tab-header-container::after,
+ .workspace-tab-header-inner::after,
+ .workspace-leaf-content::after,
+ .nav-header::after,
+ .nav-buttons-container::after,
+ .view-header::after,
+ .view-actions::after,
+ .workspace-leaf-resize-handle::after,
+ .workspace-split::after {
+     border-bottom: none !important;
+     border-top: none !important;
+     box-shadow: none !important;
+ }
+ 
+ .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle,
+ .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+ .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+ .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+     border-left: none !important;
+     border-right: none !important;
+     border-top: none !important;
+     border-bottom: none !important;
+     background-color: transparent !important;
+ }
