@@ -2,20 +2,18 @@
   "enabledCssSnippets": [
     "clean-embeds",
     "hide_file_in_filetree",
-    "Cards",
     "Tabs_plugin",
     "MCL Wide Views",
     "MCL Multi Column",
     "nyan-progress",
     "textfontsize",
-    "callout",
     "Indent headings",
     "callout numbers",
     "highlights",
     "mermaid",
-    "bulleththreading",
     "removehighlight",
-    "custom_background"
+    "callout",
+    "bulleththreading"
   ],
   "theme": "obsidian",
   "cssTheme": "",
