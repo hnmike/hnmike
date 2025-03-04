@@ -19,8 +19,7 @@ tags:
 >**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
-## 🎯 Today's Focus
-<%tp.file.cursor()%>
+
 
 ## 📋 Tasks & Activities
 
@@ -72,6 +71,8 @@ WHERE contains(due_date, this.file.name)
 SORT priority DESC
 ```
 
+## Log
+<%tp.file.cursor()%>
 ## 🧠 Knowledge Management
 
 ### 📚 Technical Notes
