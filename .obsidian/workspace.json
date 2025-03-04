@@ -215,6 +215,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":11},\"to\":{\"line\":93,\"ch\":11}},\"scroll\":71.22719522290305}"
+                },
+                {
                   "title": "new zettel note",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
@@ -429,13 +435,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/project/data engineer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "data engineer"
             }
           },
           {
