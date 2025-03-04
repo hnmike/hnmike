@@ -9,7 +9,7 @@
       "startupSection": "day",
       "day": {
         "enabled": true,
-        "openMode": "active",
+        "openMode": "tab",
         "nameTemplate": "",
         "dateFormat": "YYYY/MM/YYYY-MM-DD",
         "folder": "00-09 system/journal/daily",
@@ -23,7 +23,7 @@
       },
       "week": {
         "enabled": true,
-        "openMode": "active",
+        "openMode": "tab",
         "nameTemplate": "",
         "dateFormat": "YYYY/MM/yyyy-[W]ww",
         "folder": "00-09 system/journal/weekly",
