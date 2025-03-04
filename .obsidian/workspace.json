@@ -448,29 +448,29 @@
             "id": "07f5fc979c74de48",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Capstone project for my course",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Running Apache Spark on Kubernetes (202412081728)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Running Apache Spark on Kubernetes (202412081728).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Running Apache Spark on Kubernetes (202412081728)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":21},\"to\":{\"line\":12,\"ch\":21}},\"scroll\":8.275862068965518}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Running Apache Spark on Kubernetes (202412081728).md",
+                "file": "00-09 system/project/project template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Running Apache Spark on Kubernetes (202412081728)"
+              "title": "project template"
             }
           },
           {
@@ -1605,6 +1605,7 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/template/daily note template.md",
@@ -1634,7 +1635,6 @@
     "Lab opensource mlops devops.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/03",
-    "3D COURSES.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "20-30 PARA/Area",
