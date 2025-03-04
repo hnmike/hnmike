@@ -610,7 +610,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1600,13 +1600,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e0763ffd1bf222d5",
+  "active": "07f5fc979c74de48",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/data engineer.md",
+    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/template/daily note template.md",
     "2025-03-03.md",
     "Lab opensource data engineer.md",

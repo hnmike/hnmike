@@ -4,8 +4,11 @@ id:
 url: https://www.youtube.com/watch?v=Vwhaq4ezmaw
 related: 
 aliases: 
-tags: 
-summary:
+tags: []
+summary: 
+sr-due: 2025-03-08
+sr-interval: 4
+sr-ease: 270
 ---
 # **Running Apache Spark on Kubernetes**
 
