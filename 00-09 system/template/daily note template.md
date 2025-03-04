@@ -91,22 +91,7 @@ WHERE contains(created, this.file.name)
 AND type = "permanent"
 ```
 
-## 📝 Daily Log
-
-### 🌅 Morning Review
-- [ ] Review yesterday's notes
-- [ ] Check calendar for today
-- [ ] Set top 3 priorities
-- [ ] Check email inbox
-
-### 📝 Today's Notes & Activities
-
-
-### 🌙 Evening Review
-- [ ] Review completed tasks
-- [ ] Update project status
-- [ ] Plan for tomorrow
-- [ ] Journal reflection
+## New task
 
 ## 🤔 Daily Reflection
 
