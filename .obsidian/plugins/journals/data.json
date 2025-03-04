@@ -40,7 +40,7 @@
         "openMode": "active",
         "nameTemplate": "",
         "dateFormat": "",
-        "folder": "",
+        "folder": "00-09 system/journal/daily",
         "template": "",
         "ribbon": {
           "show": false,
