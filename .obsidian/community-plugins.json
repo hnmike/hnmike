@@ -59,5 +59,6 @@
   "vscode-editor",
   "image-converter",
   "obsidian-image-toolkit",
-  "copilot"
+  "copilot",
+  "obsidian-clipper"
 ]
