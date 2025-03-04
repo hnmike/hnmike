@@ -120,21 +120,21 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "00-09 system/journal/daily/{",
+      "captureTo": "00-09 system/journal/daily/{{DATE:YYYY}}/{{DATE:MM}}/{{DATE:YYYY-MM-DD}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "00-09 system/template/daily note template.md"
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "- {{time}}: {{VALUE}}"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
+        "enabled": true,
+        "after": "## Log",
+        "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
