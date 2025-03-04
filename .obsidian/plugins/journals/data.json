@@ -37,7 +37,7 @@
       },
       "month": {
         "enabled": true,
-        "openMode": "active",
+        "openMode": "tab",
         "nameTemplate": "",
         "dateFormat": "",
         "folder": "00-09 system/journal/daily",
