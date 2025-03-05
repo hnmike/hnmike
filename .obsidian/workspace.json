@@ -1144,10 +1144,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
@@ -1189,7 +1189,26 @@
             }
           },
           {
-            "id": "dd8ee637285520c1",
+            "id": "e25b0b88b77bed41",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "1589c22d4d4904a4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1208,17 +1227,8 @@
             }
           },
           {
-            "id": "e25b0b88b77bed41",
+            "id": "24a35a04f4980b3e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1227,7 +1237,7 @@
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 44
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1279,6 +1289,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
+      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -1299,7 +1312,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "e25b0b88b77bed41",
+  "active": "24a35a04f4980b3e",
   "lastOpenFiles": [
     "00-09 system/project/project template.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
