@@ -18,5 +18,9 @@ summary:
 	 <mark style="background: #ABF7F7A6;">data engineer stacks project include:</mark>![[IMG-20241114084755540.png]]
 ## Tech stack to learn 
 > [!note] Title here
-> Your callout content here\
+> Your callout content here
+> Bior 
+> Bf
+> Bfa
+> 
 
