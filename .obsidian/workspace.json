@@ -255,7 +255,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clippings",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -285,7 +285,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1273,7 +1274,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "Untitled 3.md",
     "00-09 system/project/data engineer.md",
