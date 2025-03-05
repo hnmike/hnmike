@@ -22,8 +22,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "Memos",
-              "title": "Thino"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -56,12 +56,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "CI CD",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CI CD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CI CD\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":76},\"to\":{\"line\":0,\"ch\":76}}}"
                 }
               ]
             },
@@ -81,36 +75,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "dashboard",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"00-09 system/homepage/dashboard.canvas\",\"viewState\":{\"x\":754.5,\"y\":1124.2336956521742,\"zoom\":-2.085616782084967}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"dashboard\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Lab opensource data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":15},\"to\":{\"line\":11,\"ch\":15}},\"scroll\":0}"
-                },
-                {
-                  "title": "2024-12",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-12.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":28},\"to\":{\"line\":6,\"ch\":28}}}"
-                },
-                {
-                  "title": "2024-12-07",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2024/12/2024-12-07.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-12-07\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":18},\"to\":{\"line\":14,\"ch\":18}},\"scroll\":11}"
                 }
               ]
             },
@@ -134,36 +98,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "New Chat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Chats/New Chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"New Chat\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "2024-08-02",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/inbox/2024-08-02.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-02\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Lab opensource data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Khóa học DE Zach Wilson",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Khóa học DE Zach Wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Khóa học DE Zach Wilson\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
@@ -213,222 +147,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":11},\"to\":{\"line\":93,\"ch\":11}},\"scroll\":71.22719522290305}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "project metadata",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":5},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "project template 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":3},\"to\":{\"line\":53,\"ch\":0}},\"scroll\":66.71122197244678}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.41403509441174957}"
-                },
-                {
-                  "title": "project metadata",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":5},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "project template 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":3},\"to\":{\"line\":53,\"ch\":0}},\"scroll\":66.71122197244678}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":9,\"ch\":3}}}"
-                },
-                {
-                  "title": "New note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/New note template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"New note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":11.577778003833911}"
-                },
-                {
-                  "title": "project template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/project template.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":false},\"icon\":\"lucide-file\",\"title\":\"project template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":3},\"to\":{\"line\":53,\"ch\":0}},\"scroll\":69.98089985230243}"
-                },
-                {
-                  "title": "project template 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":0},\"to\":{\"line\":44,\"ch\":0}},\"scroll\":7.946666124131944}"
-                },
-                {
-                  "title": "project metadata",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":5},\"to\":{\"line\":27,\"ch\":5}},\"scroll\":0}"
-                },
-                {
-                  "title": "dashboard",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"00-09 system/homepage/dashboard.canvas\",\"viewState\":{\"x\":556,\"y\":222.5,\"zoom\":0}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"dashboard\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Last modified",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/MOC/Last modified.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Last modified\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":7.839814786557798}"
-                },
-                {
-                  "title": "project template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/project template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":56.233889830821504}"
-                },
-                {
-                  "title": "projeccct",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/projeccct.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"projeccct\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":11},\"to\":{\"line\":29,\"ch\":11}},\"scroll\":86.35072456186109}"
-                },
-                {
-                  "title": "Weekly note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Weekly note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Weekly note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":0},\"to\":{\"line\":86,\"ch\":0}},\"scroll\":48.41961587348038}"
-                },
-                {
-                  "title": "2024-W35",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/weekly/2024/08/2024-W35.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W35\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":18.62037037037037}"
-                },
-                {
-                  "title": "2024-W32",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/weekly/2024/08/2024-W32.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W32\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}},\"scroll\":0}"
-                },
-                {
-                  "title": "Weekly note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Weekly note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Weekly note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":20},\"to\":{\"line\":64,\"ch\":20}},\"scroll\":19.97777642144097}"
-                },
-                {
-                  "title": "project template 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
-                  "eState": "{\"scroll\":14.184615384615384}"
-                },
-                {
-                  "title": "Weekly note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Weekly note template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Weekly note template\"}",
-                  "eState": "{\"scroll\":33.91269841269841}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Weekly note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Weekly note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Weekly note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "view",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/template/view.js\"},\"icon\":\"lucide-file\",\"title\":\"view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "view",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/template/view.css\"},\"icon\":\"lucide-file\",\"title\":\"view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2024-W35",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/weekly/2024/08/2024-W35.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W35\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "2024-W32",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/weekly/2024/08/2024-W32.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W32\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":15.212962962962964}"
-                },
-                {
-                  "title": "2025-03-02",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-02.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-02\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":120},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
@@ -453,12 +171,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Running Apache Spark on Kubernetes (202412081728)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Running Apache Spark on Kubernetes (202412081728).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Running Apache Spark on Kubernetes (202412081728)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":21},\"to\":{\"line\":12,\"ch\":21}},\"scroll\":8.275862068965518}"
                 }
               ]
             },
@@ -482,30 +194,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "data engineer lab 1 (202411160846)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":100},\"to\":{\"line\":29,\"ch\":100}},\"scroll\":10.78904124917505}"
-                },
-                {
-                  "title": "Capstone project for my course",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "data engineer lab 1 (202411160846)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer lab 1 (202411160846)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Capstone project for my course",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 technical knowledge hub/data engineer/Capstone project for my course.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Capstone project for my course\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0}"
                 }
               ]
             },
@@ -529,24 +217,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Untitled.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"Untitled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2025-01-08",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/01/2025-01-08.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-01-08\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":26},\"to\":{\"line\":113,\"ch\":26}},\"scroll\":17.427154823744118}"
                 }
               ]
             },
@@ -584,14 +254,8 @@
             "id": "df3abdb933673704",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -610,7 +274,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -808,8 +472,8 @@
             "state": {
               "type": "journal-calendar",
               "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -827,8 +491,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1463,8 +1127,8 @@
             "state": {
               "type": "react-view",
               "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1482,12 +1146,50 @@
             "state": {
               "type": "graph-analysis",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "e6c6dbf8dc6ac2fb",
+            "id": "ba605302221232bb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "32ad9588144ad848",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "react-view",
+              "state": {},
+              "icon": "microscope",
+              "title": "You and Your Research"
+            }
+          },
+          {
+            "id": "dd8ee637285520c1",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1506,7 +1208,7 @@
             }
           },
           {
-            "id": "ba605302221232bb",
+            "id": "e25b0b88b77bed41",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1525,7 +1227,7 @@
             }
           }
         ],
-        "currentTab": 41
+        "currentTab": 43
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1594,17 +1296,12 @@
       "modalforms:Edit forms": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-memos:Thino": false,
-      "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "07f5fc979c74de48",
-  "ophidian:layout-settings": {
-    "pane-relief:focus-lock": false
-  },
+  "active": "e25b0b88b77bed41",
   "lastOpenFiles": [
+    "00-09 system/project/project template.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -1621,7 +1318,6 @@
     "1202503022134.md",
     "Untitled 4.md",
     "00-09 system/template/New note template.md",
-    "00-09 system/project/project template.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/MOC/Last modified.md",
