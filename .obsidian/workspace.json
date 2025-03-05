@@ -163,52 +163,6 @@
             }
           },
           {
-            "id": "07f5fc979c74de48",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/project/project template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "project template"
-            }
-          },
-          {
-            "id": "a1e06c5da87a077e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capstone project for my course"
-            }
-          },
-          {
             "id": "054905cc42ba9797",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -248,29 +202,6 @@
               },
               "icon": "lucide-file",
               "title": "2025-01-05"
-            }
-          },
-          {
-            "id": "df3abdb933673704",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 3"
             }
           }
         ],
@@ -1004,7 +935,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1014,7 +945,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)"
+              "title": "Backlinks for 2025-01-05"
             }
           },
           {
@@ -1229,15 +1160,45 @@
           {
             "id": "24a35a04f4980b3e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "f8eddcb93ca07468",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 2025-01-05"
+            }
           }
         ],
-        "currentTab": 44
+        "currentTab": 32
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1312,12 +1273,13 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "24a35a04f4980b3e",
+  "active": "aa4d1ed323dcfa1d",
   "lastOpenFiles": [
-    "00-09 system/project/project template.md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
+    "Untitled 3.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+    "00-09 system/project/project template.md",
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "00-09 system/template/daily note template.md",
     "2025-03-03.md",
     "Lab opensource data engineer.md",
@@ -1326,7 +1288,6 @@
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/template/project template 1.md",
-    "Untitled 3.md",
     "(202503022134).md",
     "1202503022134.md",
     "Untitled 4.md",
