@@ -285,8 +285,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1274,7 +1273,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "Untitled 3.md",
     "00-09 system/project/data engineer.md",
