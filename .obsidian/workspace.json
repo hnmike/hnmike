@@ -190,18 +190,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2025-01-05",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/01/2025-01-05.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-01-05\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md",
+                "file": "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-05"
+              "title": "Dagster, dbt, duckdb as new local MDS  Georg Heiler"
             }
           }
         ],
@@ -935,7 +941,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md",
+                "file": "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -945,7 +951,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-05"
+              "title": "Backlinks for Dagster, dbt, duckdb as new local MDS  Georg Heiler"
             }
           },
           {
@@ -1191,10 +1197,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md"
+                "file": "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-01-05"
+              "title": "File properties for Dagster, dbt, duckdb as new local MDS  Georg Heiler"
             }
           }
         ],
@@ -1273,8 +1279,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "aa4d1ed323dcfa1d",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/01/2025-01-05.md",
+    "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
+    "clippings",
     "Untitled 3.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -1302,8 +1311,6 @@
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
     "00-09 system/journal/daily/2025/03/2025-03-02.md",
-    "Lab opensource mlops devops.md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/journal/daily/2025/03",
     "Untitled 1.canvas",
     "Untitled.canvas",
@@ -1313,7 +1320,6 @@
     "Area",
     "20-30 PARA/Project",
     "20-30 PARA/New folder",
-    "20-30 PARA",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
     "90-100 resource archives/Image/IMG-20241114090913093.png",
