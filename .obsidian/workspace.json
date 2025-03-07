@@ -1206,6 +1206,15 @@
           {
             "id": "979869cac6cdc6b7",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1291,6 +1300,7 @@
   },
   "active": "979869cac6cdc6b7",
   "lastOpenFiles": [
+    "2025-03-07.md",
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "clippings",
@@ -1320,7 +1330,6 @@
     "00-09 system/journal/weekly/2024/08/2024-W32.md",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
-    "00-09 system/journal/daily/2025/03/2025-03-02.md",
     "00-09 system/journal/daily/2025/03",
     "Untitled 1.canvas",
     "Untitled.canvas",
