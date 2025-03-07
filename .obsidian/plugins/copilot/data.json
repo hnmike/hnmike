@@ -17,8 +17,8 @@
   "defaultModelKey": "meta-llama/Meta-Llama-3.1-405B-Instruct|openai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
-  "maxTokens": 1000,
-  "contextTurns": 15,
+  "maxTokens": 2600,
+  "contextTurns": 17,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
@@ -150,6 +150,21 @@
       "isBuiltIn": false,
       "enableCors": false,
       "isEmbeddingModel": false
+    },
+    {
+      "name": "mistral-large-2402",
+      "provider": "mistralai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "ag:31d88807:20250307:untitled-agent:28a3491e",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning"
+      ],
+      "stream": true,
+      "enableCors": true,
+      "displayName": "mistral large"
     }
   ],
   "activeEmbeddingModels": [
