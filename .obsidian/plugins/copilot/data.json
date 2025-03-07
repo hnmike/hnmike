@@ -297,5 +297,5 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "embeddingRequestsPerMin": 90,
   "embeddingBatchSize": 16,
-  "mistralApiKey": "jf9l9FAYGq65BPSS5xszju9j5WgqR8Lp"
+  "mistralApiKey": ""
 }
