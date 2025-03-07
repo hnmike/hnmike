@@ -13,7 +13,7 @@
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
   "openRouterAiApiKey": "",
-  "defaultChainType": "llm_chain",
+  "defaultChainType": "copilot_plus",
   "defaultModelKey": "mistral-large-2402|mistralai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.8,
