@@ -1100,10 +1100,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
@@ -1145,25 +1145,6 @@
             }
           },
           {
-            "id": "1589c22d4d4904a4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "24a35a04f4980b3e",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1202,9 +1183,38 @@
               "icon": "lucide-info",
               "title": "File properties for 2025-01-05"
             }
+          },
+          {
+            "id": "ca811bd7ebfe428c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "979869cac6cdc6b7",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 32
+        "currentTab": 46
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1279,7 +1289,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "aa4d1ed323dcfa1d",
+  "active": "979869cac6cdc6b7",
   "lastOpenFiles": [
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
