@@ -296,5 +296,6 @@
   "promptUsageTimestamps": {},
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "embeddingRequestsPerMin": 90,
-  "embeddingBatchSize": 16
+  "embeddingBatchSize": 16,
+  "mistralApiKey": "ag:31d88807:20250307:untitled-agent:28a3491e"
 }
