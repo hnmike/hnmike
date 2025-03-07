@@ -159,11 +159,9 @@
       "baseUrl": "",
       "apiKey": "ag:31d88807:20250307:untitled-agent:28a3491e",
       "isEmbeddingModel": false,
-      "capabilities": [
-        "reasoning"
-      ],
-      "stream": true,
-      "enableCors": true,
+      "capabilities": [],
+      "stream": false,
+      "enableCors": false,
       "displayName": "mistral large"
     }
   ],
