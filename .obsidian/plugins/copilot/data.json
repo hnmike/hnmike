@@ -15,7 +15,7 @@
   "openRouterAiApiKey": "",
   "defaultChainType": "copilot_plus",
   "defaultModelKey": "mistral-large-2402|mistralai",
-  "embeddingModelKey": "mistral-large-2402|openai",
+  "embeddingModelKey": "text-embedding-3-large|openai",
   "temperature": 0.8,
   "maxTokens": 16000,
   "contextTurns": 25,
