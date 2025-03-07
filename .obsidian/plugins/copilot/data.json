@@ -14,7 +14,7 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "meta-llama/Meta-Llama-3.1-405B-Instruct|openai",
+  "defaultModelKey": "mistral-large-2402|mistralai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 2600,
