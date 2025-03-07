@@ -36,7 +36,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 3,
+  "maxSourceChunks": 12,
   "groqApiKey": "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",
   "activeModels": [
     {
