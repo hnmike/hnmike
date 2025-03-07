@@ -312,5 +312,5 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "embeddingRequestsPerMin": 90,
   "embeddingBatchSize": 16,
-  "mistralApiKey": ""
+  "mistralApiKey": "ITDr2h1ufBNrhuvlnXj5n4VFA6MD1MKS"
 }
