@@ -255,7 +255,7 @@
   "disableIndexOnMobile": true,
   "showSuggestedPrompts": true,
   "showRelevantNotes": true,
-  "numPartitions": 1,
+  "numPartitions": 4,
   "enabledCommands": {
     "fix-grammar-prompt": {
       "enabled": true,
