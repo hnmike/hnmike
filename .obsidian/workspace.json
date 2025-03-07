@@ -304,6 +304,7 @@
       {
         "id": "e396fbacad564746",
         "type": "tabs",
+        "dimension": 75.49019607843137,
         "children": [
           {
             "id": "7118331480422942",
@@ -1221,13 +1222,33 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "b4b0a38884dd7fb5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 46
+        "currentTab": 47
       },
       {
         "id": "e23e01481eaf6e93",
         "type": "tabs",
+        "dimension": 24.509803921568626,
         "children": [
           {
             "id": "ccd020d103ff79b8",
@@ -1271,7 +1292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 650.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1298,7 +1319,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "979869cac6cdc6b7",
+  "active": "b4b0a38884dd7fb5",
   "lastOpenFiles": [
     "2025-03-07.md",
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
