@@ -22,8 +22,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
@@ -245,8 +245,7 @@
               "title": "Introduction & Set Up  DE Zoomcamp Notes"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -1430,11 +1429,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "7af539f8ec471159",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources/manus - Reddit Search!.md",
     "resources/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Untitled 1.canvas",
     "resources",
     "2025-03-07.md",
