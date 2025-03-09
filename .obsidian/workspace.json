@@ -219,16 +219,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.8.9",
+                  "icon": "lucide-book-up",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.8.9\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.8.9\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Introduction & Set Up  DE Zoomcamp Notes"
             }
           }
         ],
@@ -1179,10 +1187,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1245,7 +1253,26 @@
             }
           },
           {
-            "id": "d0a97388ed8702aa",
+            "id": "ff1bfc5648d236d4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "f1fb95f60e60cd51",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1264,7 +1291,7 @@
             }
           },
           {
-            "id": "ff1bfc5648d236d4",
+            "id": "aae5c8a610b8a963",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1283,7 +1310,7 @@
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 49
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1359,8 +1386,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "ff1bfc5648d236d4",
+  "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+    "resources",
     "2025-03-07.md",
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
@@ -1387,19 +1417,15 @@
     "00-09 system/MOC/Last modified.md",
     "00-09 system/project/projeccct.md",
     "00-09 system/template/Weekly note template.md",
-    "00-09 system/journal/weekly/2024/08/2024-W35.md",
-    "00-09 system/journal/weekly/2024/08/2024-W32.md",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
     "00-09 system/journal/daily/2025/03",
-    "Untitled 1.canvas",
     "Untitled.canvas",
     "20-30 PARA/Area",
     "20-30 PARA/Archives",
     "20-30 PARA/Resources",
     "Area",
     "20-30 PARA/Project",
-    "20-30 PARA/New folder",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
     "90-100 resource archives/Image/IMG-20241114090913093.png",
