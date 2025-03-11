@@ -256,6 +256,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "para-resource-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-resource-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-resource-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":9.288513492893529}"
+                },
+                {
+                  "title": "PARA-Quick-Start",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PARA-Quick-Start.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PARA-Quick-Start\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":14},\"to\":{\"line\":44,\"ch\":14}},\"scroll\":0}"
+                },
+                {
+                  "title": "para-resource-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-resource-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-resource-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":3.8}"
+                },
+                {
                   "title": "PARA-Templates",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/PARA-Templates.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PARA-Templates\"}",
@@ -326,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-TEMPLATES/para-resource-template.md",
+                "file": "30-TEMPLATES/para-archive-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para-resource-template"
+              "title": "para-archive-template"
             }
           }
         ],
@@ -385,7 +403,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PARA-Quick-Start",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -415,8 +433,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1558,18 +1575,19 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-resource-template.md",
+    "PARA-Quick-Start.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+    "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "30-TEMPLATES/para-resource-template.md",
     "Para-Template-Setup.md",
     "30-TEMPLATES/para-archive-template.md",
-    "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/para-project-template.md",
-    "PARA-Quick-Start.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/note review.md",
@@ -1581,7 +1599,6 @@
     "what is GNU LINUX.md",
     "www.googlecalendar.com.md",
     "2025-03-09.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources/manus - Reddit Search!.md",
     "resources/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "resources",
