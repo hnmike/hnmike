@@ -256,6 +256,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "para-archive-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-archive-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-archive-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "para-area-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-area-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-area-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "para-project-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-project-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-project-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":31.947222886262118}"
+                },
+                {
+                  "title": "PARA-Quick-Start",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PARA-Quick-Start.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PARA-Quick-Start\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6834102134194389}"
+                },
+                {
+                  "title": "Para-Template-Setup",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Para-Template-Setup.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Para-Template-Setup\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.43148139671043}"
+                },
+                {
                   "title": "Task calendar template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Task calendar template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Task calendar template\"}",
@@ -284,12 +314,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Para-Template-Setup.md",
+                "file": "30-TEMPLATES/para-resource-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Para-Template-Setup"
+              "title": "para-resource-template"
             }
           }
         ],
@@ -343,7 +373,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Para-Template-Setup.md",
+                "query": "PARA-Quick-Start",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -373,8 +403,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1518,13 +1547,16 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/template/Task calendar template.md",
+    "30-TEMPLATES/para-archive-template.md",
+    "30-TEMPLATES/para-area-template.md",
+    "30-TEMPLATES/para-project-template.md",
+    "PARA-Quick-Start.md",
     "Para-Template-Setup.md",
+    "00-09 system/template/Task calendar template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/note review.md",
     "2024-08-12.md",
     "nextjs debugging tool vscode.md",
-    "PARA-Quick-Start.md",
     "PARA-Setup-Guide.md",
     "00-09 system/template/project metadata.md",
     "Untitled 1.canvas",
@@ -1544,9 +1576,6 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/project template.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
-    "2025-03-03.md",
-    "Lab opensource data engineer.md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
