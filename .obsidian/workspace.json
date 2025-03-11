@@ -244,8 +244,38 @@
               "icon": "lucide-file",
               "title": "Introduction & Set Up  DE Zoomcamp Notes"
             }
+          },
+          {
+            "id": "8703e9a4ef2a7a53",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "project metadata",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/template/note review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "note review"
+            }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1308,10 +1338,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1334,7 +1364,26 @@
             }
           },
           {
-            "id": "81902c51432029cf",
+            "id": "e84ed3d4f70aa61f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "c28f5841bb682dfa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1353,7 +1402,7 @@
             }
           },
           {
-            "id": "e84ed3d4f70aa61f",
+            "id": "a49afb0ea7e5cba4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1372,7 +1421,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 53
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1448,14 +1497,16 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "e84ed3d4f70aa61f",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/template/project metadata.md",
+    "Untitled 1.canvas",
+    "what is GNU LINUX.md",
     "www.googlecalendar.com.md",
     "2025-03-09.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources/manus - Reddit Search!.md",
     "resources/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
-    "Untitled 1.canvas",
     "resources",
     "2025-03-07.md",
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
@@ -1472,13 +1523,10 @@
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/template/knowledge base template.md",
-    "00-09 system/template/project metadata.md",
     "00-09 system/template/project template 1.md",
     "(202503022134).md",
     "1202503022134.md",
     "Untitled 4.md",
-    "00-09 system/template/New note template.md",
-    "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
