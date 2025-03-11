@@ -1453,10 +1453,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1479,7 +1479,26 @@
             }
           },
           {
-            "id": "c28f5841bb682dfa",
+            "id": "a49afb0ea7e5cba4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "a9a82cd05f5792fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1498,7 +1517,7 @@
             }
           },
           {
-            "id": "a49afb0ea7e5cba4",
+            "id": "b2cef58f914fc2fb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1517,7 +1536,7 @@
             }
           }
         ],
-        "currentTab": 53
+        "currentTab": 54
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1593,7 +1612,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "8703e9a4ef2a7a53",
+  "active": "b2cef58f914fc2fb",
   "lastOpenFiles": [
     "30-TEMPLATES/para-project-template.md",
     "30-TEMPLATES/para-area-template.md",
