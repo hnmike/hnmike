@@ -256,6 +256,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "para-area-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-area-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-area-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":31},\"to\":{\"line\":32,\"ch\":31}},\"scroll\":0}"
+                },
+                {
+                  "title": "para-archive-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-archive-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-archive-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":2},\"to\":{\"line\":34,\"ch\":2}},\"scroll\":59.03243111275338}"
+                },
+                {
                   "title": "para-resource-template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-resource-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-resource-template\"}",
@@ -344,12 +356,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-TEMPLATES/para-area-template.md",
+                "file": "30-TEMPLATES/para-project-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para-area-template"
+              "title": "para-project-template"
             }
           }
         ],
@@ -1577,11 +1589,11 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/para-archive-template.md",
     "30-TEMPLATES/para-resource-template.md",
     "PARA-Quick-Start.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
