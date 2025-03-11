@@ -256,6 +256,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "note review",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/note review.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"note review\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "project metadata",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
@@ -266,12 +278,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/note review.md",
+                "file": "00-09 system/template/Task calendar template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note review"
+              "title": "Task calendar template"
             }
           }
         ],
@@ -1497,8 +1509,14 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "8703e9a4ef2a7a53",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
+    "00-09 system/template/note review.md",
+    "2024-08-12.md",
+    "nextjs debugging tool vscode.md",
+    "PARA-Quick-Start.md",
+    "PARA-Setup-Guide.md",
     "00-09 system/template/project metadata.md",
     "Untitled 1.canvas",
     "what is GNU LINUX.md",
@@ -1517,16 +1535,11 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "00-09 system/project/project template.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
-    "00-09 system/template/daily note template.md",
     "2025-03-03.md",
     "Lab opensource data engineer.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/template/knowledge base template.md",
-    "00-09 system/template/project template 1.md",
-    "(202503022134).md",
-    "1202503022134.md",
-    "Untitled 4.md",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
