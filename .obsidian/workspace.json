@@ -1614,6 +1614,7 @@
   },
   "active": "b2cef58f914fc2fb",
   "lastOpenFiles": [
+    "00-09 system/template/area",
     "30-TEMPLATES/para-project-template.md",
     "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/para-archive-template.md",
@@ -1641,7 +1642,6 @@
     "resources",
     "2025-03-07.md",
     "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
-    "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "clippings",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
