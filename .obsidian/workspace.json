@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-TEMPLATES/para-archive-template.md",
+                "file": "30-TEMPLATES/para-area-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para-archive-template"
+              "title": "para-area-template"
             }
           }
         ],
@@ -1577,6 +1577,7 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-archive-template.md",
     "30-TEMPLATES/para-resource-template.md",
     "PARA-Quick-Start.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
@@ -1586,7 +1587,6 @@
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Para-Template-Setup.md",
-    "30-TEMPLATES/para-archive-template.md",
     "30-TEMPLATES/para-project-template.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/daily note template.md",
