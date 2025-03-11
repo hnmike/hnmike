@@ -379,18 +379,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled 5",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 5.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 5\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 5.md",
+                "file": "202503112134.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 5"
+              "title": "202503112134"
             }
           }
         ],
@@ -1638,6 +1644,7 @@
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
     "Untitled 5.md",
+    "202503112134.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/area_template",
     "00-09 system/template/area",
@@ -1666,7 +1673,6 @@
     "resources/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "resources",
     "2025-03-07.md",
-    "clippings/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
     "clippings",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
