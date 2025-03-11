@@ -256,6 +256,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "para-project-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-project-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-project-template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":96.65900877476611}"
+                },
+                {
                   "title": "para-area-template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-area-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-area-template\"}",
@@ -356,12 +362,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-TEMPLATES/para-project-template.md",
+                "file": "00-09 system/template/daily note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para-project-template"
+              "title": "daily note template"
             }
           }
         ],
@@ -1589,6 +1595,7 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-project-template.md",
     "30-TEMPLATES/para-area-template.md",
     "30-TEMPLATES/para-archive-template.md",
     "30-TEMPLATES/para-resource-template.md",
@@ -1599,7 +1606,6 @@
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Para-Template-Setup.md",
-    "30-TEMPLATES/para-project-template.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/note review.md",
