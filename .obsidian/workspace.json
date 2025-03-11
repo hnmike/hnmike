@@ -367,7 +367,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1509,7 +1510,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "Para-Template-Setup.md",
     "00-09 system/template/daily note template.md",
