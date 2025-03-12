@@ -381,6 +381,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "gd202503112148",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"gd202503112148.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gd202503112148\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}}}"
+                },
+                {
                   "title": "202503112148",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503112148.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503112148\"}",
@@ -397,12 +403,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gd202503112148.md",
+                "file": "202503122135.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gd202503112148"
+              "title": "202503122135"
             }
           }
         ],
@@ -1649,11 +1655,12 @@
   },
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
+    "gd202503112148.md",
+    "202503122135.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/project_family",
     "202503112148.md",
     "Untitled 6.md",
-    "gd202503112148.md",
     "Untitled 5.md",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
@@ -1686,7 +1693,6 @@
     "clippings",
     "00-09 system/homepage/dashboard.canvas",
     "00-09 system/template/view.js",
-    "00-09 system/template/view.css",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
