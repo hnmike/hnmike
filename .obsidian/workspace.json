@@ -381,6 +381,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 7",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 7.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 7\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "202503122135",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503122135.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503122135\"}",
@@ -409,12 +415,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 7.md",
+                "file": "202503122136.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 7"
+              "title": "202503122136"
             }
           }
         ],
@@ -1661,8 +1667,9 @@
   },
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
-    "202503122135.md",
     "Untitled 7.md",
+    "202503122136.md",
+    "202503122135.md",
     "gd202503112148.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/project_family",
@@ -1694,7 +1701,6 @@
     "PARA-Setup-Guide.md",
     "00-09 system/template/project metadata.md",
     "Untitled 1.canvas",
-    "what is GNU LINUX.md",
     "resources",
     "clippings",
     "00-09 system/homepage/dashboard.canvas",
