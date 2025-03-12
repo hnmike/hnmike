@@ -9,9 +9,6 @@ summary:
 tags:
   - type/daily-note
   - journal/daily
-Cssclasses:
-  - Hide-properties_editing
-  - Hide-properties_reading
 ---
 
 # Daily Overview
@@ -21,7 +18,6 @@ Cssclasses:
 >**➡️ Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
 >**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
-
 
 
 ## 📋 Tasks & Activities
@@ -62,6 +58,9 @@ Cssclasses:
 >> hide edit button
 >> ```
 
+## Daily Notes
+
+<%tp.file.cursor()%>
 ## 📊 Project Updates
 
 ```dataview
@@ -74,8 +73,6 @@ WHERE contains(due_date, this.file.name)
 SORT priority DESC
 ```
 
-## Log
-<%tp.file.cursor()%>
 ## 🧠 Knowledge Management
 
 ### 📚 Technical Notes
@@ -94,7 +91,22 @@ WHERE contains(created, this.file.name)
 AND type = "permanent"
 ```
 
-## New task
+## 📝 Daily Log
+
+### 🌅 Morning Review
+- [ ] Review yesterday's notes
+- [ ] Check calendar for today
+- [ ] Set top 3 priorities
+- [ ] Check email inbox
+
+### 📝 Today's Notes & Activities
+
+
+### 🌙 Evening Review
+- [ ] Review completed tasks
+- [ ] Update project status
+- [ ] Plan for tomorrow
+- [ ] Journal reflection
 
 ## 🤔 Daily Reflection
 
