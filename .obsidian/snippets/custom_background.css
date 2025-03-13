@@ -537,3 +537,64 @@
      border-bottom: none !important;
      background-color: transparent !important;
  }
+
+ hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(var(--text-rgb), 0.3),
+        transparent
+    );
+    margin: 2em 0;
+}
+
+/* Update horizontal rule styling */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(var(--accent-rgb), 0.4),
+        transparent
+    );
+    margin: 2em 0;
+}
+
+/* Markdown editor horizontal rule styling - this affects the appearance when typing --- */
+.cm-hr {
+    color: rgba(var(--accent-rgb), 0.6) !important;
+}
+
+/* Preview mode horizontal rule */
+.markdown-rendered hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(var(--accent-rgb), 0.4),
+        transparent
+    );
+    margin: 2em 0;
+}
+
+/* Enhance editor mode horizontal rule appearance */
+.cm-line:has(.cm-hr) {
+    position: relative;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HyperMD-hr-bg {
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(var(--accent-rgb), 0.4),
+        transparent
+    ) !important;
+}
