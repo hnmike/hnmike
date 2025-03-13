@@ -416,7 +416,7 @@
               "type": "markdown",
               "state": {
                 "file": "202503122136.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1639,6 +1639,15 @@
           {
             "id": "017edd8f8316a9df",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1723,7 +1732,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "017edd8f8316a9df",
+  "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "202503122136.md",
