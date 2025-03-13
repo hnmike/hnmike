@@ -1,12 +1,12 @@
 body {
     --callout-border-width: 0 0 0 4px;
     --callout-border-opacity: 1;
-    --callout-radius: 8px;
+    --callout-radius: 0;
     --callout-padding: 0;
     --callout-title-padding: var(--size-4-4) var(--size-4-4);
     --callout-content-padding: var(--size-4-2) var(--size-4-4);
   }
-  .callout-title-inne8px
+  .callout-title-inner {
     color: var(--text-normal);
   }
   .callout-content {
