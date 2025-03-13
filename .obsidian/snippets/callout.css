@@ -11,7 +11,6 @@ body {
 }
 .callout-content {
   background-color: var(--background-primary-alt);
-  border-top: 1px solid rgba(var(--callout-color), 0.3);
 }
 .callout {
   border: 1px solid rgba(var(--callout-color), 0.3);
