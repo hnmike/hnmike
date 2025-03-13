@@ -7,12 +7,12 @@
     "nyan-progress",
     "textfontsize",
     "Indent headings",
-    "callout numbers",
     "highlights",
     "mermaid",
     "removehighlight",
+    "bulleththreading",
     "callout",
-    "bulleththreading"
+    "callout numbers"
   ],
   "theme": "obsidian",
   "cssTheme": "",
