@@ -9,9 +9,9 @@
     "highlights",
     "mermaid",
     "removehighlight",
-    "callout",
     "bulleththreading",
-    "custom_background"
+    "custom_background",
+    "callout"
   ],
   "theme": "obsidian",
   "cssTheme": "",
