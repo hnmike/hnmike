@@ -416,7 +416,7 @@
               "type": "markdown",
               "state": {
                 "file": "202503122136.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1703,7 +1703,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "a16520ceb582b8c9",
+  "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "202503122136.md",
