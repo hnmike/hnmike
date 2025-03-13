@@ -11,8 +11,7 @@
     "mermaid",
     "removehighlight",
     "bulleththreading",
-    "callout",
-    "callout numbers"
+    "callout"
   ],
   "theme": "obsidian",
   "cssTheme": "",
