@@ -416,7 +416,7 @@
               "type": "markdown",
               "state": {
                 "file": "202503122136.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1563,10 +1563,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1589,7 +1589,26 @@
             }
           },
           {
-            "id": "c5f258159258e5ac",
+            "id": "a16520ceb582b8c9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "a6caba59610921a0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1608,17 +1627,8 @@
             }
           },
           {
-            "id": "a16520ceb582b8c9",
+            "id": "9c987edf4140f0d5",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1627,7 +1637,7 @@
             }
           }
         ],
-        "currentTab": 56
+        "currentTab": 57
       },
       {
         "id": "e23e01481eaf6e93",
