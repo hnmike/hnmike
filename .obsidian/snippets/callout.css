@@ -1,27 +1,20 @@
-/* outlined + filled callouts (from minimal theme) */
-.callouts-outlined-filled .callout .callout-title {
-    background-color: var(--background-primary);
-    margin-top: -24px;
-    z-index: 200;
-    width: fit-content;
-    padding: 0 .5em;
-    margin-left: -.75em;
-    letter-spacing: .05em;
-    font-variant-caps: all-small-caps
+.callout {
+    /* so absolute positioning of child elements be relative to this container */
+    position: relative;
 }
+.callout::before {
+    --callout-bar-width: 4px;
+    /* make "pseudo-element" inside callout for our bar */
+    content: '';
+    /* disable regular positioning strategy,
+    let us choose where is element
+    inside container */ 
+    position: absolute;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: calc(100% - var(--callout-bar-width)); 
 
-.callouts-outlined-filled .callout {
-    overflow: visible;
-    --callout-border-width: 1px;
-    --callout-border-opacity: 0.5;
-    --callout-title-size: 0.8em;
-    --callout-blend-mode: normal;
-}
-
-.callouts-outlined-filled .cm-embed-block.cm-callout {
-    padding-top: 12px
-}
-
-.callouts-outlined-filled .callout-content .callout {
-    margin-top: 18px
+    background-color: rgb(var(--callout-color));
 }
