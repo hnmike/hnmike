@@ -15,4 +15,5 @@ body {
 }
 .callout {
   border: 1px solid rgba(var(--callout-color), 0.3);
+  border-left: 4px solid rgb(var(--callout-color));
 }
