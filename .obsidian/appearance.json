@@ -12,7 +12,8 @@
     "removehighlight",
     "bulleththreading",
     "callout",
-    "callout numbers"
+    "callout numbers",
+    "custom_background"
   ],
   "theme": "obsidian",
   "cssTheme": "",
