@@ -1,14 +1,19 @@
 body {
-    --callout-border-width: 0 0 0 4px;
-    --callout-border-opacity: 1;
-    --callout-radius: 0;
-    --callout-padding: 0;
-    --callout-title-padding: var(--size-4-4) var(--size-4-4);
-    --callout-content-padding: var(--size-4-2) var(--size-4-4);
-  }
-  .callout-title-inner {
-    color: var(--text-normal);
-  }
-  .callout-content {
-    background-color: var(--background-primary-alt);
-  }
+  --callout-border-width: 1px;
+  --callout-border-opacity: 1;
+  --callout-radius: 4px;
+  --callout-padding: 0;
+  --callout-title-padding: var(--size-4-4) var(--size-4-4);
+  --callout-content-padding: var(--size-4-2) var(--size-4-4);
+}
+.callout-title-inner {
+  color: var(--text-normal);
+}
+.callout-content {
+  background-color: var(--background-primary-alt);
+  border-top: 1px solid rgba(var(--callout-color), 0.3);
+}
+.callout {
+  border: 1px solid rgba(var(--callout-color), 0.3);
+  border-left: 4px solid rgb(var(--callout-color));
+}
