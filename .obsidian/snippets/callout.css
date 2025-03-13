@@ -1,20 +1,36 @@
-.callout {
-    /* so absolute positioning of child elements be relative to this container */
-    position: relative;
+.callout,
+.markdown-source-view.mod-cm6 .callout {
+  margin: 13px 0px;
+  border-radius: var(--radius-s);
+  border: 1.2px solid rgba(var(--callout-color), 0.7);
 }
-.callout::before {
-    --callout-bar-width: 4px;
-    /* make "pseudo-element" inside callout for our bar */
-    content: '';
-    /* disable regular positioning strategy,
-    let us choose where is element
-    inside container */ 
-    position: absolute;
-    
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: calc(100% - var(--callout-bar-width)); 
 
-    background-color: rgb(var(--callout-color));
+.callout .callout-content,
+transparentmarkdown-source-view.mod-cm6 .callout-content {
+background-color:transparent;
+  /* padding so that the nested callouts have a shadow on the right side also. I don't have the css knowledge to figure out how to also have the right-side shadow for the main callout*/
 }
+
+.theme-light .callout,
+.theme-light .markdown-source-view.mod-cm6 .callout {
+  box-shadow: 8px 8px 0 0 rgb(var(--callout-color)); /*shadow border thing */
+  background-color: transparent; /*floating card callouts */
+}
+
+.theme-light .callout-title,
+.theme-light .markdown-source-view.mod-cm6 .callout-title {
+  background-color: rgba(var(--callout-color), 0.2);
+  padding: 10px 0px 5px 12px;
+  min-width: 100%;
+}
+
+.theme-dark .callout,
+.theme-dark .markdown-source-view.mod-cm6 .callout {
+  box-shadow:
+    8px 8px 0 -2.5px var(--background-primary),
+    8px 8px 0 0 rgb(var(--callout-color)); /*shadow border thing */
+}
+  
+  .theme-dark .markdown-source-view.mod-cm6 .callout{
+    box-shadow: 8px 8px 0 -2.5px var(--background-primary), 8px 8px 0 0 rgb(var(--callout-color)); /*shadow     border thing */
+  }
