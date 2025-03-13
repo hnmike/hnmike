@@ -1,6 +1,5 @@
 {
   "enabledCssSnippets": [
-    "hide_file_in_filetree",
     "Tabs_plugin",
     "MCL Wide Views",
     "MCL Multi Column",
@@ -10,8 +9,9 @@
     "highlights",
     "mermaid",
     "removehighlight",
+    "callout",
     "bulleththreading",
-    "callout"
+    "custom_background"
   ],
   "theme": "obsidian",
   "cssTheme": "",
