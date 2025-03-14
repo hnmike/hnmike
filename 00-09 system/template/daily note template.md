@@ -56,11 +56,13 @@ limit 10
 <%tp.file.cursor()%>
 
 
+````tabs
+
 tab: Today's Notes
 
 ```dataviewjs
 
-// Query tất cả các note được tạo hoặc chỉnh sửa hôm nay
+// Lấy ngày từ tên file daily note
 
 const today = dv.date(dv.current().file.name);
 
@@ -68,51 +70,41 @@ const todayStr = today.toFormat("yyyy-MM-dd");
 
   
 
-// Lấy các note được tạo hôm nay
+// Lấy tất cả các trang từ vault
 
-const createdToday = dv.pages()
-
-    .where(p => p.created && dv.date(p.created).toFormat("yyyy-MM-dd") === todayStr)
-
-    .sort(p => p.created, "desc");
+const pages = dv.pages();
 
   
 
-// Lấy các note được chỉnh sửa hôm nay (nhưng không được tạo hôm nay)
+// Lọc các ghi chú được tạo trong ngày hôm nay
 
-const modifiedToday = dv.pages()
+const notesToday = pages.filter(p => {
 
-    .where(p =>
+    const creationDate = p.file.ctime;
 
-        dv.date(p.file.mtime).toFormat("yyyy-MM-dd") === todayStr &&
+    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
 
-        (!p.created || dv.date(p.created).toFormat("yyyy-MM-dd") !== todayStr)
-
-    )
-
-    .sort(p => p.file.mtime, "desc");
+});
 
   
 
-// Hiển thị các note được tạo hôm nay
+// Hiển thị danh sách ghi chú được tạo
 
-if (createdToday.length > 0) {
+if (notesToday.length > 0) {
 
-    dv.header(3, "📝 Created Today");
+    dv.header(3, "📝 Ghi chú được tạo hôm nay");
 
     dv.table(
 
-        ["Note", "Type", "Time", "Summary"],
+        ["Ghi chú", "Thời gian tạo", "Loại"],
 
-        createdToday.map(p => [
+        notesToday.map(p => [
 
             p.file.link,
 
-            p.type || "-",
+            dv.date(p.file.ctime).toFormat("HH:mm"),
 
-            dv.date(p.created).toFormat("HH:mm"),
-
-            p.summary || "-"
+            p.type || "-"
 
         ])
 
@@ -120,130 +112,10 @@ if (createdToday.length > 0) {
 
 } else {
 
-    dv.paragraph("*No notes created today*");
+    dv.paragraph("*Không có ghi chú nào được tạo hôm nay.*");
 
 }
 
-  
-
-// Hiển thị các note được chỉnh sửa hôm nay
-
-if (modifiedToday.length > 0) {
-
-    dv.header(3, "✏️ Modified Today");
-
-    dv.table(
-
-        ["Note", "Type", "Time", "Summary"],
-
-        modifiedToday.map(p => [
-
-            p.file.link,
-
-            p.type || "-",
-
-            dv.date(p.file.mtime).toFormat("HH:mm"),
-
-            p.summary || "-"
-
-        ])
-
-    );
-
-}
-
-```
-
-  
-
-tab: Projects
-
-```dataviewjs
-
-let pages = dv.pages('"PARA/PROJECTS"')
-
-    .where(p => (p.type == "project_note" || p.type == "project_family") && p.Status != "4 Completed");
-
-  
-
-// Separate pages with and without due dates
-
-let withDueDates = pages.where(p => p.Due_Date != null);
-
-let withoutDueDates = pages.where(p => p.Due_Date == null);
-
-  
-
-// Sort pages with due dates by: Due Date -> Priority Level (A-Z) -> Status (Z-A)
-
-withDueDates = withDueDates.sort(p => p.Due_Date)
-
-    .sort(p => p.Priority_Level)
-
-    .sort(p => p.Status, 'desc');
-
-  
-
-// Sort pages without due dates by: Priority Level (A-Z) -> Status (Z-A)
-
-withoutDueDates = withoutDueDates.sort(p => p.Priority_Level)
-
-    .sort(p => p.Status, 'desc');
-
-  
-
-// Combine both lists
-
-let allPages = withDueDates.concat(withoutDueDates);
-
-  
-
-// Render the table with clickable project links
-
-dv.table(
-
-    ["Days", "Project", "Priority Level", "Status", "Due Date"],
-
-    allPages.map(p => [
-
-        p.Due_Date ? Math.floor(dv.date(p.Due_Date).diff(dv.date("today"), 'days').days) : "-", // Display whole number of days
-
-        p.file.link, // Use p.file.link to render the project name as a clickable link
-
-        p.Priority_Level || "-",
-
-        p.Status || "-",
-
-        p.Due_Date ? dv.date(p.Due_Date).toFormat("MM-dd") : "-"
-
-    ])
-
-);
-
-```
-
-  
-
-tab: Areas
-
-```dataview
-
-TABLE
-
-    area_category as "Area Category",
-
-    summary as "Summary",
-
-    created as "Date Created"
-
-FROM "PARA/AREAS"
-
-WHERE type = "area_family" OR type = "area_note"
-
-SORT area_category ASC
-
-```
-````
 
 
 
