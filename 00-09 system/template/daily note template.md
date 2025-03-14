@@ -121,6 +121,26 @@ tab: New tab
 New tab content
 ````
 
+// Hiển thị projects theo priority
+Const priorities = {
+    "1 Critical": [],
+    "2 High": [],
+    "3 Medium": [],
+    "4 Low": []
+};
+
+// Lấy tất cả projects
+Const projects = dv.Pages ('"20-30 PARA/Project"')
+    .where (p => p.type == "project_family" || p.type == "project_note")
+    .where (p => p.Status != "4 Completed");
+
+// Phân loại theo priority
+Projects.ForEach (project => {
+    Const priority = project. Priority_Level || "4 Low";
+    If (priorities[priority]) {
+        Priorities[priority]. Push (project);
+    }
+});
 
 
 
