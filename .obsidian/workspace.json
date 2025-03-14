@@ -387,6 +387,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "contribution graph template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/contribution graph template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"contribution graph template\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Callout template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Callout template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Callout template\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "checkbox types",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/checkbox types.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"checkbox types\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Callout template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Callout template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Callout template\"}",
@@ -445,12 +463,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/Callout template.md",
+                "file": "00-09 system/template/book template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Callout template"
+              "title": "book template"
             }
           }
         ],
@@ -1784,6 +1802,7 @@
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
     "00-09 system/template/checkbox types.md",
+    "00-09 system/template/contribution graph template.md",
     "00-09 system/template/Callout template.md",
     "00-09 system/template/book template.md",
     "00-09 system/template/block reference.md",
@@ -1815,7 +1834,6 @@
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Para-Template-Setup.md",
     "00-09 system/template/Task calendar template.md",
-    "00-09 system/template/note review.md",
     "Untitled 1.canvas",
     "resources",
     "clippings",
