@@ -1724,7 +1724,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 669.5
+    "width": 307.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1751,7 +1751,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "a116797879038808",
+  "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "202503122136.md",
