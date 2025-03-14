@@ -584,7 +584,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1920,8 +1920,9 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "d2ea7525162abf18",
+  "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer/Untitled.md",
     "Untitled 8.md",
     "python with machine learning.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
@@ -1929,7 +1930,6 @@
     "Draft project cho hai dự án.md",
     "library for infrastructure.md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
-    "20-30 PARA/Project/data engineer/Untitled.md",
     "00-09 system/template/project_family template.md",
     "vim command.md",
     "00-09 system/template/note review.md",
