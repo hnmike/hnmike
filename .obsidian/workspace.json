@@ -548,7 +548,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1875,8 +1875,9 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "e6f81c42224d67f0",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/area_family template.md",
@@ -1909,7 +1910,6 @@
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
-    "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
     "Untitled 1.canvas",
     "resources",
     "clippings",
