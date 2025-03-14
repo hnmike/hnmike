@@ -55,7 +55,6 @@ limit 10
 
 <%tp.file.cursor()%>
 
-
 ```
 tab: Projects
 ```dataviewjs
@@ -96,6 +95,7 @@ table area_category as "Area Category", created as "Date Created" from "PARA/ARE
 WHERE type = "area_family"
 ```
 ````
+
 
 ## 🔗 Related Notes
 ```dataview
