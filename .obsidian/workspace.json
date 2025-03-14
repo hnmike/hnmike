@@ -422,6 +422,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "book template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/book template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book template\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "checkbox types",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/checkbox types.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"checkbox types\"}",
@@ -504,83 +510,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/book template.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "book template"
-            }
-          },
-          {
-            "id": "d2ea7525162abf18",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Untitled 8",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 8.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 8\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":58.61175061374966}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer/Untitled.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "project_family template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_family template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_family template\"}",
-                  "eState": "{\"scroll\":41.975925869411896}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "note review",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/note review.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"note review\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":3},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "area_family template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":0},\"to\":{\"line\":82,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "block reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/block reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "area_family template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":3},\"to\":{\"line\":18,\"ch\":3}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/data engineer/Untitled.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitled 1"
             }
           }
         ],
@@ -1922,7 +1857,9 @@
   },
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer/Untitled.md",
+    "00-09 system/template/book template.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
+    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "Untitled 8.md",
     "python with machine learning.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
@@ -1933,13 +1870,12 @@
     "00-09 system/template/project_family template.md",
     "vim command.md",
     "00-09 system/template/note review.md",
-    "20-30 PARA/Project/data engineer",
+    "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/area_family template.md",
     "00-09 system/template/block reference.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/knowledge base template.md",
-    "00-09 system/template/book template.md",
     "00-09 system/template/checkbox types.md",
     "00-09 system/template/contribution graph template.md",
     "00-09 system/template/Callout template.md",
@@ -1950,7 +1886,6 @@
     "gd202503112148.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/project_family",
-    "202503112148.md",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
     "00-09 system/template/area_family template",
