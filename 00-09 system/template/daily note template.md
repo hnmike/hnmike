@@ -46,6 +46,7 @@ limit 10
 ```
 
 
+
 ## Daily Notes
 
 <%tp.file.cursor()%>
