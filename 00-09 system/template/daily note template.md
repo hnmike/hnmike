@@ -50,6 +50,8 @@ limit 10
 
 
 ---
+## Log
+---
 
 ## Daily Notes
 
