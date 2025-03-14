@@ -416,7 +416,7 @@
               "type": "markdown",
               "state": {
                 "file": "202503122136.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1601,10 +1601,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1615,25 +1615,6 @@
               "state": {},
               "icon": "GA-ICON",
               "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "ac9ba0a9cc70b7aa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
             }
           },
           {
@@ -1654,9 +1635,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "7ecc10014fe6248f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "a116797879038808",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 58
+        "currentTab": 59
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1705,7 +1724,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 650.5
+    "width": 669.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1732,7 +1751,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "679a36ee54d3faa7",
+  "active": "a116797879038808",
   "lastOpenFiles": [
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "202503122136.md",
