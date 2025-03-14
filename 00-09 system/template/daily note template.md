@@ -20,7 +20,33 @@ tags: [type/daily-note, journal/daily, area]
 
 ## 📋 Tasks & Activity
 
-
+```calendar-nav
+```
+````tabs
+tab: Due Today
+```tasks
+not done
+due <% tp.file.title %>
+sort by priority
+hide due date
+limit 10
+```
+tab: Overdue
+```tasks 
+not done 
+due before <% tp.file.title %>
+sort by priority
+hide due date
+limit 10
+```
+tab: Completed
+```tasks
+done <% tp.file.title %>
+hide done date
+hide due date
+limit 10
+```
+````
 
 
 
