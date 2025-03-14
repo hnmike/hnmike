@@ -120,7 +120,8 @@ if (notesToday.length > 0) {
 tab: New tab
 New tab content
 ````
-```dataviewjs
+```
+tab: Projects
 // Hiển thị projects theo priority
 Const priorities = {
     "1 Critical": [],
