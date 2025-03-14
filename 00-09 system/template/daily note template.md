@@ -117,6 +117,8 @@ if (notesToday.length > 0) {
 }
 
 ```
+tab: New tab
+New tab content
 ````
 
 
