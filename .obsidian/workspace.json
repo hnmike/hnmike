@@ -422,6 +422,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "book template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/book template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book template\"}",
@@ -510,12 +516,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled 1.md",
+                "file": "Untitled 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Untitled 9"
             }
           }
         ],
@@ -1857,15 +1863,16 @@
   },
   "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
-    "00-09 system/template/book template.md",
+    "library for infrastructure.md",
+    "Untitled 9.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
+    "00-09 system/template/book template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "Untitled 8.md",
     "python with machine learning.md",
     "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
     "Lab opensource data engineer.md",
     "Draft project cho hai dự án.md",
-    "library for infrastructure.md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
     "00-09 system/template/project_family template.md",
     "vim command.md",
@@ -1883,7 +1890,6 @@
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Untitled 7.md",
     "202503122135.md",
-    "gd202503112148.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/project_family",
     "00-09 system/template/area_note template",
