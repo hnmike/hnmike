@@ -55,51 +55,6 @@ limit 10
 
 <%tp.file.cursor()%>
 
-```` tabs
-tab: Projects
-```dataviewjs
-let pages = dv.pages('"PARA/PROJECTS"')
-    .where(p => (p.type == "project_note" || p.type == "project_family") && p.Status != "4 Completed");
-
-// Separate pages with and without due dates
-let withDueDates = pages.where(p => p.Due_Date != null);
-let withoutDueDates = pages.where(p => p.Due_Date == null);
-
-// Sort pages with due dates by: Due Date -> Priority Level (A-Z) -> Status (Z-A)
-withDueDates = withDueDates.sort(p => p.Due_Date)
-    .sort(p => p.Priority_Level)
-    .sort(p => p.Status, 'desc');
-
-// Sort pages without due dates by: Priority Level (A-Z) -> Status (Z-A)
-withoutDueDates = withoutDueDates.sort(p => p.Priority_Level)
-    .sort(p => p.Status, 'desc');
-
-// Combine both lists
-let allPages = withDueDates.concat(withoutDueDates);
-
-// Render the table with clickable project links
-dv.table(
-    ["Days", "Project", "Priority Level", "Status", "Due Date"],
-    allPages.map(p => [
-        p.Due_Date ? Math.floor(dv.date(p.Due_Date).diff(dv.date("today"), 'days').days) : "-", // Display whole number of days
-        p.file.link, // Use p.file.link to render the project name as a clickable link
-        p.Priority_Level || "-",
-        p.Status || "-",
-        p.Due_Date ? dv.date(p.Due_Date).toFormat("MM-dd") : "-"
-    ])
-);
-```
-tab: Areas
-```dataview
-table area_category as "Area Category", created as "Date Created" from "PARA/AREAS"
-WHERE type = "area_family
-tab: New tab
-New tab content
-````
-
-
-
-```` tabs
 
 tab: Today's Notes
 
