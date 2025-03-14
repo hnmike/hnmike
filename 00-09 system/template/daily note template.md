@@ -17,7 +17,7 @@ tags: [type/daily-note, journal/daily, area]
 >**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
-
+---
 ## 📋 Tasks & Activity
 
 ```calendar-nav
@@ -49,7 +49,7 @@ limit 10
 ````
 
 
-
+---
 
 ## Daily Notes
 
