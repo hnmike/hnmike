@@ -122,6 +122,7 @@ New tab content
 ````
 ```
 tab: Projects
+```dataview
 // Hiển thị projects theo priority
 Const priorities = {
     "1 Critical": [],
