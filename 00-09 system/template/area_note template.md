@@ -1,11 +1,10 @@
 ---
-area: <% tp.file.folder() %>
-Area_category: 
-Summary: 
-Tags:
-Type: area_note
-Id: <%* const currentDate = tp.Date.Now ("YYYYMMDDHHmm")
-Await tp.File.Rename (`${currentDate}`) %>
+area: "<% tp.file.folder() %>"
+Area_category: ""
+Summary: ""
+Tags: []
+Type: "area_note"
+id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm"); await tp.file.rename(`${currentDate}`); tR = currentDate; %>
 ---
  [[<%tp.file.folder() %>]] 
 # Overview
