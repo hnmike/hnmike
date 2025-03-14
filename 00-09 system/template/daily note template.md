@@ -99,7 +99,9 @@ WHERE type = "area_family"
 
 
 
-## 🔗 Related Notes
+
+
+🔗 Related Notes
 ```dataview
 TABLE 
     file.mtime as "Modified",
