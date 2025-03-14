@@ -548,7 +548,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -1875,10 +1875,10 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "8703e9a4ef2a7a53",
+  "active": "e6f81c42224d67f0",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/daily note template.md",
+    "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/area_family template.md",
     "00-09 system/template/block reference.md",
