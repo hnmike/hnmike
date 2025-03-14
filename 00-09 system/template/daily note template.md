@@ -89,7 +89,8 @@ WHERE contains(created, this.file.name)
 AND type = "permanent"
 ```
 
-## > Daily Log
+## >> [!important]
+> Contents Daily Log
 
 ### 🌅 Morning Review
 - [ ] Review yesterday's notes
