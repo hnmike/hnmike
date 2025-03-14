@@ -10,9 +10,13 @@ Due_Date:
 
 connections:
 
-tags: #project
+tags:
+
+  - project
 
 type: project_family
+
+progress: 0
 
 cssclasses:
 
