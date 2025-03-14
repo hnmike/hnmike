@@ -22,7 +22,7 @@ id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm")
 
 <%tp.file.cursor()%>
 
-  ---
+---
 
 ````tabs
 
