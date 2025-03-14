@@ -256,6 +256,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "knowledge base template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.41403509441174957}"
+                },
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":16},\"to\":{\"line\":34,\"ch\":16}},\"scroll\":4.185185185185185}"
+                },
+                {
                   "title": "para-project-template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-project-template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-project-template\"}",
@@ -1842,6 +1854,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/template/knowledge base template.md",
+    "00-09 system/template/daily note template.md",
     "00-09 system/template/area_family template.md",
     "00-09 system/template/block reference.md",
     "00-09 system/template/book template.md",
@@ -1862,7 +1876,6 @@
     "00-09 system/template/e",
     "00-09 system/template/area_family template",
     "202503112134.md",
-    "00-09 system/template/daily note template.md",
     "00-09 system/template/area_template",
     "00-09 system/template/area",
     "30-TEMPLATES/para-project-template.md",
@@ -1874,7 +1887,6 @@
     "00-09 system/project/data engineer.md",
     "20-30 technical knowledge hub/data engineer/end-to-end data engineer projects.md",
     "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "Para-Template-Setup.md",
     "Untitled 1.canvas",
     "resources",
     "clippings",
