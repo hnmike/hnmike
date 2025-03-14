@@ -538,63 +538,64 @@
      background-color: transparent !important;
  }
 
- hr {
-    border: none;
-    height: 1px;
-    background: linear-gradient(
-        to right,
-        transparent,
-        rgba(var(--text-rgb), 0.3),
-        transparent
-    );
-    margin: 2em 0;
-}
-
-/* Update horizontal rule styling */
+ /* Horizontal rule styling - consolidated */
 hr {
     border: none;
     height: 1px;
     background: linear-gradient(
         to right,
         transparent,
-        rgba(var(--accent-rgb), 0.4),
+        rgba(var(--accent-rgb), 0.3),
         transparent
     );
     margin: 2em 0;
+    opacity: 0.8;
 }
 
-/* Markdown editor horizontal rule styling - this affects the appearance when typing --- */
+/* Markdown editor horizontal rule styling (when typing ---) */
 .cm-hr {
-    color: rgba(var(--accent-rgb), 0.6) !important;
+    color: rgba(var(--accent-rgb), 0.5) !important;
 }
 
-/* Preview mode horizontal rule */
+/* Preview mode horizontal rule with subtle glass effect */
 .markdown-rendered hr {
     border: none;
     height: 1px;
     background: linear-gradient(
         to right,
         transparent,
-        rgba(var(--accent-rgb), 0.4),
+        rgba(var(--accent-rgb), 0.35),
         transparent
     );
     margin: 2em 0;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
-/* Enhance editor mode horizontal rule appearance */
+/* Enhanced editor mode horizontal rule appearance */
 .cm-line:has(.cm-hr) {
     position: relative;
-    height: 2em;
+    height: 2.2em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Improved HyperMD horizontal rule background */
 .HyperMD-hr-bg {
     background: linear-gradient(
         to right,
-        transparent,
-        rgba(var(--accent-rgb), 0.4),
-        transparent
+        rgba(var(--accent-rgb), 0.1),
+        rgba(var(--accent-rgb), 0.35),
+        rgba(var(--accent-rgb), 0.1)
     ) !important;
+    height: 1px !important;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+/* Add hover effect to make horizontal rules more visible when focused */
+.cm-line:has(.cm-hr):hover .HyperMD-hr-bg,
+.markdown-rendered hr:hover {
+    opacity: 1;
 }
