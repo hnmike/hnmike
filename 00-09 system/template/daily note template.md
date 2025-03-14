@@ -54,69 +54,48 @@ limit 10
 ## Daily Notes
 
 <%tp.file.cursor()%>
-## 📊 Project Updates
 
-```dataview
-TABLE 
-    status as "Status",
-    priority as "Priority",
-    progress as "Progress"
-FROM "20-30 PARA/Projects"
-WHERE contains(due_date, this.file.name)
-SORT priority DESC
+
 ```
+tab: Projects
+```dataviewjs
+let pages = dv.pages('"PARA/PROJECTS"')
+    .where(p => (p.type == "project_note" || p.type == "project_family") && p.Status != "4 Completed");
 
-## 🧠 Knowledge Management
+// Separate pages with and without due dates
+let withDueDates = pages.where(p => p.Due_Date != null);
+let withoutDueDates = pages.where(p => p.Due_Date == null);
 
-### 📚 Technical Notes
-```dataview
-LIST
-FROM "10-20 zettelkasten"
-WHERE contains(created, this.file.name)
-AND type = "technical"
+// Sort pages with due dates by: Due Date -> Priority Level (A-Z) -> Status (Z-A)
+withDueDates = withDueDates.sort(p => p.Due_Date)
+    .sort(p => p.Priority_Level)
+    .sort(p => p.Status, 'desc');
+
+// Sort pages without due dates by: Priority Level (A-Z) -> Status (Z-A)
+withoutDueDates = withoutDueDates.sort(p => p.Priority_Level)
+    .sort(p => p.Status, 'desc');
+
+// Combine both lists
+let allPages = withDueDates.concat(withoutDueDates);
+
+// Render the table with clickable project links
+dv.table(
+    ["Days", "Project", "Priority Level", "Status", "Due Date"],
+    allPages.map(p => [
+        p.Due_Date ? Math.floor(dv.date(p.Due_Date).diff(dv.date("today"), 'days').days) : "-", // Display whole number of days
+        p.file.link, // Use p.file.link to render the project name as a clickable link
+        p.Priority_Level || "-",
+        p.Status || "-",
+        p.Due_Date ? dv.date(p.Due_Date).toFormat("MM-dd") : "-"
+    ])
+);
 ```
-
-### 💡 Zettelkasten Notes
+Tab: Areas
 ```dataview
-LIST
-FROM "10-20 zettelkasten"
-WHERE contains(created, this.file.name)
-AND type = "permanent"
+table area_category as "Area Category", created as "Date Created" from "PARA/AREAS"
+WHERE type = "area_family"
 ```
-
- > [!log ]+ 
-> Contents Daily Log
-
-### 🌅 Morning Review
-- [ ] Review yesterday's notes
-- [ ] Check calendar for today
-- [ ] Set top 3 priorities
-- [ ] Check email inbox
-
-### 📝 Today's Notes & Activities
-
-
-### 🌙 Evening Review
-- [ ] Review completed tasks
-- [ ] Update project status
-- [ ] Plan for tomorrow
-- [ ] Journal reflection
-
-## 🤔 Daily Reflection
-
-### What Went Well
-- 
-
-### Challenges Faced
-- 
-
-### Key Learnings
-- 
-
-### Tomorrow's Priorities
-1. 
-2. 
-3. 
+````
 
 ## 🔗 Related Notes
 ```dataview
