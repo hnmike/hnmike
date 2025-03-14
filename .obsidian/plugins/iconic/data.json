@@ -71,6 +71,9 @@
   "propertyIcons": {
     "area_category": {
       "icon": "lucide-cat"
+    },
+    "summary": {
+      "icon": "lucide-square-menu"
     }
   },
   "ribbonIcons": {}
