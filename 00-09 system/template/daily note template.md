@@ -18,18 +18,9 @@ tags: [type/daily-note, journal/daily, area]
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
 
-## 📋 Tasks & Activities
-
-> ````tabs
-Tab: Due Today
-Tab: Overdue
+## 📋 Tasks & Activit> 
 ```tasks 
-not done 
-due before <% tp.file.title %>
-sort by priority
-hide due date
-limit 10
-```
+
 Tab: Completed
 ```tasks
 done <% tp.file.title %>
