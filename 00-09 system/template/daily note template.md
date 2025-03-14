@@ -55,7 +55,7 @@ limit 10
 
 <%tp.file.cursor()%>
 
-````
+```` tabs
 tab: Projects
 ```dataviewjs
 let pages = dv.pages('"PARA/PROJECTS"')
