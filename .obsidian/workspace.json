@@ -381,6 +381,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "202503122136",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503122136.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503122136\"}",
+                  "eState": "{\"scroll\":6.164383561643836}"
+                },
+                {
                   "title": "Untitled 7",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 7.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 7\"}",
@@ -415,12 +421,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202503122136.md",
+                "file": "00-09 system/template/block reference.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503122136"
+              "title": "block reference"
             }
           }
         ],
@@ -1751,10 +1757,10 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "679a36ee54d3faa7",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "202503122136.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Untitled 7.md",
     "202503122135.md",
     "gd202503112148.md",
