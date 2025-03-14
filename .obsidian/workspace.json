@@ -523,6 +523,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 8",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 8.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 8\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":58.61175061374966}"
+                },
+                {
                   "title": "Untitled",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer/Untitled.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
@@ -569,12 +575,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 8.md",
+                "file": "20-30 PARA/Project/data engineer/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 8"
+              "title": "Untitled"
             }
           }
         ],
@@ -1916,8 +1922,10 @@
   },
   "active": "d2ea7525162abf18",
   "lastOpenFiles": [
-    "Lab opensource data engineer.md",
     "Untitled 8.md",
+    "python with machine learning.md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "Lab opensource data engineer.md",
     "Draft project cho hai dự án.md",
     "library for infrastructure.md",
     "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
@@ -1943,8 +1951,6 @@
     "00-09 system/template/project_note template",
     "00-09 system/template/project_family",
     "202503112148.md",
-    "Untitled 6.md",
-    "Untitled 5.md",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
     "00-09 system/template/area_family template",
