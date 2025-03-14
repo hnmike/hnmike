@@ -22,6 +22,27 @@
             "color": "52, 162, 160"
           }
         }
+      ],
+      "abstract": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        }
       ]
     }
   },
