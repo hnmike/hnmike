@@ -6,9 +6,7 @@ aliases:
 week: <% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>
 month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
 summary: 
-tags:
-  - type/daily-note
-  - journal/daily
+tags: [type/daily-note, journal/daily, area]
 ---
 
 # Daily Overview
