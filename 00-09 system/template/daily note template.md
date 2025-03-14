@@ -22,13 +22,6 @@ tags: [type/daily-note, journal/daily, area]
 
 > ````tabs
 Tab: Due Today
-```tasks
-not done
-due <% tp.file.title %>
-sort by priority
-hide due date
-limit 10
-```
 Tab: Overdue
 ```tasks 
 not done 
