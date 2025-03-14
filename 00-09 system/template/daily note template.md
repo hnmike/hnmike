@@ -95,6 +95,7 @@ tab: Areas
 table area_category as "Area Category", created as "Date Created" from "PARA/AREAS"
 WHERE type = "area_family
 ```
+```
 
 
 
