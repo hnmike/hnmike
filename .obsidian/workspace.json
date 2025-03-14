@@ -480,6 +480,18 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "block reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/block reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "area_family template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":3},\"to\":{\"line\":18,\"ch\":3}},\"scroll\":0}"
                 }
               ]
             },
@@ -1824,12 +1836,12 @@
   },
   "active": "d2ea7525162abf18",
   "lastOpenFiles": [
+    "00-09 system/template/block reference.md",
     "00-09 system/template/area_family template.md",
     "00-09 system/template/book template.md",
     "00-09 system/template/checkbox types.md",
     "00-09 system/template/contribution graph template.md",
     "00-09 system/template/Callout template.md",
-    "00-09 system/template/block reference.md",
     "202503122136.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Untitled 7.md",
