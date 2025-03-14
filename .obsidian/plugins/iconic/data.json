@@ -68,6 +68,10 @@
     }
   },
   "bookmarkIcons": {},
-  "propertyIcons": {},
+  "propertyIcons": {
+    "area_category": {
+      "icon": "lucide-cat"
+    }
+  },
   "ribbonIcons": {}
 }
