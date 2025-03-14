@@ -58,67 +58,6 @@ limit 10
 
 ````tabs
 
-tab: Today's Notes
-
-```dataviewjs
-
-// Lấy ngày từ tên file daily note
-
-const today = dv.date(dv.current().file.name);
-
-const todayStr = today.toFormat("yyyy-MM-dd");
-
-  
-
-// Lấy tất cả các trang từ vault
-
-const pages = dv.pages();
-
-  
-
-// Lọc các ghi chú được tạo trong ngày hôm nay
-
-const notesToday = pages.filter(p => {
-
-    const creationDate = p.file.ctime;
-
-    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
-
-});
-
-  
-
-// Hiển thị danh sách ghi chú được tạo
-
-if (notesToday.length > 0) {
-
-    dv.header(3, "📝 Ghi chú được tạo hôm nay");
-
-    dv.table(
-
-        ["Ghi chú", "Thời gian tạo", "Loại"],
-
-        notesToday.map(p => [
-
-            p.file.link,
-
-            dv.date(p.file.ctime).toFormat("HH:mm"),
-
-            p.type || "-"
-
-        ])
-
-    );
-
-} else {
-
-    dv.paragraph("*Không có ghi chú nào được tạo hôm nay.*");
-
-}
-
-```
-tab: New tab
-New tab content
 ````
 
 ````tabs
