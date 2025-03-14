@@ -44,7 +44,7 @@ hide done date
 hide due date
 limit 10
 ```
-````
+
 
 ## Daily Notes
 
