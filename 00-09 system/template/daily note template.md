@@ -18,16 +18,10 @@ tags: [type/daily-note, journal/daily, area]
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
 
-## 📋 Tasks & Activit> 
-```tasks 
+## 📋 Tasks & Activity
 
-Tab: Completed
-```tasks
-done <% tp.file.title %>
-hide done date
-hide due date
-limit 10
-```
+
+
 
 
 
