@@ -381,6 +381,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "checkbox types",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/checkbox types.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"checkbox types\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Callout template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Callout template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Callout template\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "book template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/book template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book template\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "block reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/block reference.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block reference\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "202503122136",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503122136.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503122136\"}",
@@ -421,12 +445,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/block reference.md",
+                "file": "00-09 system/template/Callout template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "block reference"
+              "title": "Callout template"
             }
           }
         ],
@@ -1757,8 +1781,12 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "679a36ee54d3faa7",
   "lastOpenFiles": [
+    "00-09 system/template/checkbox types.md",
+    "00-09 system/template/Callout template.md",
+    "00-09 system/template/book template.md",
+    "00-09 system/template/block reference.md",
     "202503122136.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Untitled 7.md",
@@ -1788,10 +1816,6 @@
     "Para-Template-Setup.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/note review.md",
-    "2024-08-12.md",
-    "nextjs debugging tool vscode.md",
-    "PARA-Setup-Guide.md",
-    "00-09 system/template/project metadata.md",
     "Untitled 1.canvas",
     "resources",
     "clippings",
