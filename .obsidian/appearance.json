@@ -10,8 +10,7 @@
     "mermaid",
     "removehighlight",
     "bulleththreading",
-    "callout",
-    "custom_background"
+    "callout"
   ],
   "theme": "obsidian",
   "cssTheme": "",
