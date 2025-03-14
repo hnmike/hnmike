@@ -475,8 +475,14 @@
             "id": "d2ea7525162abf18",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":22},\"to\":{\"line\":16,\"ch\":22}},\"scroll\":7.888888888888889}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -507,7 +513,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1834,10 +1840,10 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "d2ea7525162abf18",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/template/block reference.md",
     "00-09 system/template/area_family template.md",
+    "00-09 system/template/block reference.md",
     "00-09 system/template/book template.md",
     "00-09 system/template/checkbox types.md",
     "00-09 system/template/contribution graph template.md",

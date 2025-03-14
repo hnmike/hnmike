@@ -22,7 +22,7 @@ tags:
 
 ## 📋 Tasks & Activities
 
-> [!multi-column]
+> [!multi-column]+
 > 
 >> [!todo]+ To Do
 >> ```tasks
