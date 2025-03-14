@@ -56,9 +56,6 @@ limit 10
 <%tp.file.cursor()%>
 
 
-````tabs
-
-````
 
 ````tabs
 
