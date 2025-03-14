@@ -20,33 +20,41 @@ tags: [type/daily-note, journal/daily, area]
 
 ## 📋 Tasks & Activities
 
-> ```calendar-nav
-```
-````tabs
-tab: Due Today
-```tasks
-not done
-due <% tp.file.title %>
-sort by priority
-hide due date
-limit 10
-```
-Tab: Overdue
-```tasks 
-not done 
-due before <% tp.file.title %>
-sort by priority
-hide due date
-limit 10
-```
-Tab: Completed
-```tasks
-done <% tp.file.title %>
-hide done date
-hide due date
-limit 10
-```
-````
+> [!multi-column]+
+> 
+>> [!todo]+ To Do
+>> ```tasks
+>> not done
+>> path does not include Daily
+>> (status.type is not IN_PROGRESS)
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
+>
+>> [!doing]+ In Progress
+>> ```tasks
+>> not done
+>> path does not include Daily
+>> (status.type is IN_PROGRESS)
+>> due on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
+>
+>> [!done]+ Completed Today
+>> ```tasks
+>> done on <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+>> path does not include Daily
+>> short mode
+>> hide task count
+>> hide backlink
+>> hide edit button
+>> ```
 
 ## Daily Notes
 
