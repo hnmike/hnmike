@@ -523,6 +523,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "area_family template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":0},\"to\":{\"line\":82,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "block reference",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/block reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block reference\"}",
@@ -539,12 +545,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/area_family template.md",
+                "file": "00-09 system/template/note review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "area_family template"
+              "title": "note review"
             }
           }
         ],
@@ -1877,8 +1883,8 @@
   },
   "active": "d2ea7525162abf18",
   "lastOpenFiles": [
-    "00-09 system/template/block reference.md",
     "00-09 system/template/area_family template.md",
+    "00-09 system/template/block reference.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "00-09 system/template/knowledge base template.md",
