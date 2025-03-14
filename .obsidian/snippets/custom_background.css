@@ -552,9 +552,24 @@ hr {
     opacity: 0.8;
 }
 
+/* Horizontal rule styling - consolidated */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        rgba(var(--accent-rgb), 0.05),
+        rgba(var(--accent-rgb), 0.2),
+        rgba(var(--accent-rgb), 0.05)
+    );
+    margin: 2em 0;
+    opacity: 0.6;
+}
+
 /* Markdown editor horizontal rule styling (when typing ---) */
 .cm-hr {
-    color: rgba(var(--accent-rgb), 0.5) !important;
+    color: rgba(var(--accent-rgb), 0.4) !important;
+    opacity: 0.7;
 }
 
 /* Preview mode horizontal rule with subtle glass effect */
@@ -563,13 +578,14 @@ hr {
     height: 1px;
     background: linear-gradient(
         to right,
-        transparent,
-        rgba(var(--accent-rgb), 0.35),
-        transparent
+        rgba(var(--accent-rgb), 0.03),
+        rgba(var(--accent-rgb), 0.18),
+        rgba(var(--accent-rgb), 0.03)
     );
     margin: 2em 0;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    opacity: 0.6;
 }
 
 /* Enhanced editor mode horizontal rule appearance */
@@ -579,23 +595,24 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.8;
 }
 
 /* Improved HyperMD horizontal rule background */
 .HyperMD-hr-bg {
     background: linear-gradient(
         to right,
-        rgba(var(--accent-rgb), 0.1),
-        rgba(var(--accent-rgb), 0.35),
-        rgba(var(--accent-rgb), 0.1)
+        rgba(var(--accent-rgb), 0.05),
+        rgba(var(--accent-rgb), 0.15),
+        rgba(var(--accent-rgb), 0.05)
     ) !important;
     height: 1px !important;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: opacity 0.2s ease;
 }
 
 /* Add hover effect to make horizontal rules more visible when focused */
 .cm-line:has(.cm-hr):hover .HyperMD-hr-bg,
 .markdown-rendered hr:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
