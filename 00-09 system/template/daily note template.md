@@ -2,11 +2,12 @@
 type: daily-note
 date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
 aliases:
-   - "#type/daily-note"
+  - '- "#type/daily-note"'
 week: <% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>
 month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
 summary: 
-tags: [type/daily-note, journal/daily, area]
+tags:
+  - type/daily-note
 ---
 
 # Daily Overview
