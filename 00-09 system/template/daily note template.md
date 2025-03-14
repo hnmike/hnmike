@@ -120,6 +120,36 @@ if (notesToday.length > 0) {
 tab: New tab
 New tab content
 ````
+
+````tabs
+
+tab: Today's Notes
+
+```dataviewjs
+
+// Lấy ngày từ tên file daily note
+
+const today = dv.date(dv.current().file.name);
+
+const todayStr = today.toFormat("yyyy-MM-dd");
+
+  
+
+// Lấy tất cả các trang từ vault
+
+const pages = dv.pages();
+
+  
+
+// Lọc các ghi chú được tạo trong ngày hôm nay
+
+const notesToday = pages.filter(p => {
+
+    const creationDate = p.file.ctime;
+
+    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
+
+});
 ```
 tab: Projects
 ```dataviewjs
