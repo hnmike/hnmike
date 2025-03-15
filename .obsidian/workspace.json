@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project template 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "project metadata",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
@@ -292,12 +298,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project template 1.md",
+                "file": "00-09 system/template/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project template 1"
+              "title": "Untitled"
             }
           }
         ],
@@ -1677,8 +1683,9 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/template/project metadata.md",
     "00-09 system/template/project template 1.md",
+    "00-09 system/template/Untitled.md",
+    "00-09 system/template/project metadata.md",
     "00-09 system/template/PROJECT NOTE.md",
     "30-TEMPLATES/para-project-template.md",
     "30-TEMPLATES/para-resource-template.md",
@@ -1705,7 +1712,6 @@
     "vim command.md",
     "00-09 system/template/note review.md",
     "20-30 PARA/Project/data engineer 2",
-    "00-09 system/template/block reference.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
