@@ -113,17 +113,23 @@
             "id": "8703e9a4ef2a7a53",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled 14",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":6},\"to\":{\"line\":18,\"ch\":6}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152222",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152222.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152222\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Untitled",
@@ -358,12 +364,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503152222.md",
+                "file": "20-30 PARA/Area/data/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503152222"
+              "title": "Untitled"
             }
           },
           {
@@ -2052,13 +2058,13 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "Untitled 14.md",
+    "20-30 PARA/Area/data/202503152203.md",
     "20-30 PARA/Area/data/202503152222.md",
+    "Untitled 14.md",
     "20-30 PARA/Area/data/Untitled.md",
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
-    "20-30 PARA/Area/data/202503152203.md",
     "20-30 PARA/Area/data/202503152217.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
