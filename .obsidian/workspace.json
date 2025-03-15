@@ -347,7 +347,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/area_note template.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
