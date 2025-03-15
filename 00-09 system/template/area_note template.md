@@ -10,9 +10,10 @@ Id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm"); await tp.file.rename(`$
 # Overview
 <% tp.file.cursor() %>
 
-<%* 
-let task_tag_value = tp.file.folder().toLowerCase().split(" ").join("_");
-await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
-    frontmatter.tags = [`area/${task_tag_value}`];
-});
--%>
+<%* tp.hooks.on_all_templates_executed(async () => { 
+    Const file = tp. File. Find_tfile (tp.File.Path (true)); 
+    Const task_tag_value = tp.File.Folder (). ToLowerCase (). Split (" "). Join ("_");
+    Await app.FileManager.ProcessFrontMatter (file, (frontmatter) => { 
+        Frontmatter["tags"] = `area/${task_tag_value}`; 
+    }); 
+}); -%>
