@@ -1659,6 +1659,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-project-template.md",
+    "00-09 system/template/project metadata.md",
     "30-TEMPLATES/para-resource-template.md",
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/template/project_family template.md",
@@ -1686,8 +1688,6 @@
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/block reference.md",
     "00-09 system/template/knowledge base template.md",
-    "00-09 system/template/checkbox types.md",
-    "00-09 system/template/contribution graph template.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
