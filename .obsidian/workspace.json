@@ -365,6 +365,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
+                },
+                {
                   "title": "project_note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
@@ -411,12 +417,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled.md",
+                "file": "Untitled 14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitled 14"
             }
           },
           {
@@ -1898,8 +1904,9 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
+    "Untitled 14.md",
+    "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Area/data/202503152203.md",
     "data.md",
@@ -1907,7 +1914,6 @@
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/202503152200.md",
     "20-30 PARA/Area/data/Untitled.md",
-    "Untitled 14.md",
     "Untitled 13.md",
     "Untitled 12.md",
     "00-09 system/template/project_family template.md",
