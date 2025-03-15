@@ -5,7 +5,6 @@ Date_Created:
 Due_Date: 
 Connections: 
 tags:
-  - Project
 Type: project_family
 ---
 
@@ -19,7 +18,7 @@ Type: project_family
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -137,7 +136,7 @@ tab: To Do
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -205,7 +204,7 @@ tab: Testing
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -273,7 +272,7 @@ tab: Completed
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -341,7 +340,7 @@ tab: Blocked
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -409,7 +408,7 @@ tab: No Status
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
@@ -515,7 +514,7 @@ tab: Tasks To Do  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "FORMAT";  
+const currentFolder = "<% tp.file.folder() %>";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
@@ -555,7 +554,7 @@ tab: Completed Tasks  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "FORMAT";  
+const currentFolder = "<% tp.file.folder() %>";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
