@@ -317,7 +317,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/project_family template.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
