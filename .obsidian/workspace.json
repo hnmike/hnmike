@@ -417,33 +417,33 @@
             "id": "74b73af5d327e78b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled 13",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 13.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 13\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled 12",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 12.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 12\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 12.md",
+                "file": "Untitled 13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 12"
+              "title": "Untitled 13"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1817,13 +1817,13 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "4e594fb688665036",
+  "active": "74b73af5d327e78b",
   "lastOpenFiles": [
-    "00-09 system/template/project_family template.md",
-    "00-09 system/template/project_note template.md",
-    "00-09 system/template/area_family template.md",
     "Untitled 12.md",
     "Untitled 13.md",
+    "00-09 system/template/project_note template.md",
+    "00-09 system/template/project_family template.md",
+    "00-09 system/template/area_family template.md",
     "Untitled 11.md",
     "00-09 system/template/area_note template.md",
     "Untitled 10.md",
