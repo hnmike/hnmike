@@ -8,6 +8,15 @@ Status:
 Date_Created: <% tp.date.now("YYYY-MM-DD") %>
 
 Due_Date:
+---
+
+Priority_Level:
+
+Status:
+
+Date_Created: <% tp.date.now("YYYY-MM-DD") %>
+
+Due_Date:
 
 connections:
 
@@ -63,5 +72,7 @@ cssclasses:
 -
 
   
+
+## 📈 Progress Tracking
 
 <%* tp.hooks.on_all_templates_executed(async () => { const file = tp.file.find_tfile(tp.file.path(true)); const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_"); await app.fileManager.processFrontMatter(file, (frontmatter) => { frontmatter["tags"] = [`#project/${folder_name}`]; }); }); -%>
