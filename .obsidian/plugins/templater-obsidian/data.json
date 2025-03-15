@@ -20,7 +20,7 @@
     },
     {
       "folder": "20-30 PARA/Project",
-      "template": ""
+      "template": "00-09 system/template/project_note template.md"
     }
   ],
   "syntax_highlighting": true,
