@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project template 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
                   "title": "project metadata",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
@@ -280,12 +286,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/PROJECT NOTE.md",
+                "file": "00-09 system/template/project metadata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROJECT NOTE"
+              "title": "project metadata"
             }
           }
         ],
@@ -1665,13 +1671,14 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/template/project template 1.md",
+    "00-09 system/template/PROJECT NOTE.md",
     "00-09 system/template/project metadata.md",
     "30-TEMPLATES/para-project-template.md",
     "30-TEMPLATES/para-resource-template.md",
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_family",
-    "00-09 system/template/project template 1.md",
     "00-09 system/template/area_family template.md",
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/Untitled.md",
@@ -1693,7 +1700,6 @@
     "00-09 system/template/note review.md",
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/block reference.md",
-    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
