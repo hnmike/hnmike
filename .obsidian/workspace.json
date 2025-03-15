@@ -113,17 +113,17 @@
             "id": "8703e9a4ef2a7a53",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "area_family template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0.03105022877318674}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
                 },
                 {
                   "title": "knowledge base template",
@@ -244,12 +244,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/template/area_family template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "area_family template"
             }
           }
         ],
@@ -1468,10 +1468,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1494,7 +1494,26 @@
             }
           },
           {
-            "id": "9dbfc865d261e2fa",
+            "id": "0f7e6503d8f01ec6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "016edd0c061abff5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1513,7 +1532,7 @@
             }
           },
           {
-            "id": "0f7e6503d8f01ec6",
+            "id": "635d92109703e029",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1532,7 +1551,7 @@
             }
           }
         ],
-        "currentTab": 60
+        "currentTab": 61
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1608,10 +1627,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "635d92109703e029",
   "lastOpenFiles": [
-    "00-09 system/template/area_family template.md",
+    "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/Untitled.md",
+    "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/project_family template.md",
@@ -1631,7 +1651,6 @@
     "00-09 system/template/note review.md",
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/block reference.md",
-    "00-09 system/template/daily note template.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/checkbox types.md",
     "00-09 system/template/contribution graph template.md",
