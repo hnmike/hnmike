@@ -10,10 +10,4 @@ Id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm"); await tp.file.rename(`$
 # Overview
 <% tp.file.cursor() %>
 
-<%* tp.hooks.on_all_templates_executed(async () => { 
-    Const file = tp. File. Find_tfile (tp.File.Path (true)); 
-    Const task_tag_value = tp.File.Folder (). ToLowerCase (). Split (" "). Join ("_");
-    Await app.FileManager.ProcessFrontMatter (file, (frontmatter) => { 
-        Frontmatter["tags"] = `area/${task_tag_value}`; 
-    }); 
-}); -%>
+<%* tp.hooks.on_all_templates_executed(async () => { const file = tp.file.find_tfile(tp.file.path(true)); const value1 = tp.file.folder().split(" ").map(word => word.toLowerCase()).join("_"); const value2 = tp.file.title.split(" ").map(word => word.toLowerCase()).join("_"); await app.fileManager.processFrontMatter(file, (frontmatter) => { frontmatter["tags"] = `area/${value1}/${value2}`; }); }); -%>
