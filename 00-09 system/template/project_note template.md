@@ -8,15 +8,6 @@ Status:
 Date_Created: <% tp.date.now("YYYY-MM-DD") %>
 
 Due_Date:
----
-
-Priority_Level:
-
-Status:
-
-Date_Created: <% tp.date.now("YYYY-MM-DD") %>
-
-Due_Date:
 
 connections:
 
