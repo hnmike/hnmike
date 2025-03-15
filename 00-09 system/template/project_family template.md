@@ -1,21 +1,12 @@
 ---
-
-Priority_Level:
-
-Status:
-
-Date_Created:
-
-Due_Date:
-
-connections:
-
-tags:
-
-  - "#project/format"
-
-type: project_family
-
+Priority_Level: 
+Status: 
+Date_Created: 
+Due_Date: 
+Connections: 
+Tags:
+  - Project
+Type: project_note
 ---
 
   
