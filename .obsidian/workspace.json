@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "area_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":423},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "area_family template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_family template\"}",
@@ -334,12 +340,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/area_note template.md",
+                "file": "00-09 system/template/project_family template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "area_note template"
+              "title": "project_family template"
             }
           }
         ],
@@ -1719,8 +1725,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/template/area_family template.md",
     "00-09 system/template/area_note template.md",
+    "00-09 system/template/area_family template.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project metadata.md",
@@ -1733,7 +1739,6 @@
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/Untitled.md",
     "20-30 PARA/Area/data",
-    "00-09 system/template/area_note template.md",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "Untitled 9.md",
