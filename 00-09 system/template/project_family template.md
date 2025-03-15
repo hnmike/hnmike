@@ -4,9 +4,9 @@ Status:
 Date_Created: 
 Due_Date: 
 Connections: 
-Tags:
+tags:
   - Project
-Type: project_note
+Type: project_family
 ---
 
   
