@@ -12,179 +12,587 @@ connections:
 
 tags:
 
-  - project
+  - "#project/format"
 
 type: project_family
 
-progress: 0
-
-cssclasses:
-
-  - hide-properties_editing
-
-  - hide-properties_reading
-
 ---
 
-# Components
-
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area,#project)):connections]`
-
-**Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
-
-**Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`
-
-**Priority Level:** `INPUT[inlineSelect(option(1 Critical), option(2 High), option(3 Medium), option(4 Low)):Priority_Level]`
-
-**Status:** `INPUT[inlineSelect(option(1 To Do), option(2 In Progress), option(3 Testing), option(4 Completed), option(5 Blocked)):Status]`
-
-# Description
-
-  
-
-````tabs
-
-tab: Components
-
-```dataview
-
-table created AS "Created", summary AS "Summary"
-
-from "20-30 PARA/Project/<% tp.file.folder() %>"
-
-where type = "project_note"
-
-sort created DESC
-
-```
-
-tab: Tasks
-
-```dataview
-
-table type AS "Type", Status AS "Status", Priority_Level AS "Priority_Level"
-
-from "20-30 PARA/Project/<% tp.file.folder() %>"
-
-where contains(connections, this.file.link)
-
-where type = "project/task/<% tp.file.folder() %>"
-
-sort Status ASC
-
-```
-
-tab: Other
-
-```dataview
-
-table type AS "Type"
-
-from "20-30 PARA/Resources" OR "resources"
-
-where contains(connections, this.file.link)
-
-where type = "resources/<% tp.file.folder() %>"
-
-sort type ASC
-
-```
-
-````
-
   
   
-
-````tabs
-
-tab: All Tasks
 
 ```dataviewjs
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
-
-const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");
-
-const projectTag = `#project/${folderName}`;
+const currentFolder = "FORMAT";
 
   
 
-// Lấy tasks từ nhiều nguồn
+// Lấy tất cả project notes trong thư mục này
 
-// 1. Tasks từ các files trong cùng thư mục
+const projectNotes = dv.pages(`"20-30/${currentFolder}"`)
 
-const folderTasks = dv.pages()
-
-    .where(p => p.file.folder.includes(currentFolder))
-
-    .file.tasks;
+    .where(p => p.type === "project_note");
 
   
 
-// 2. Tasks có tag của project này
+// Tính toán tiến độ dựa trên số project notes có trạng thái "4 Completed"
 
-const taggedTasks = dv.pages()
+const totalProjects = projectNotes.length;
 
-    .file.tasks
+const completedProjects = projectNotes.filter(p => p.Status === "4 Completed").length;
 
-    .where(t => t.text.includes(projectTag));
+const progress = totalProjects > 0 ? Math.round((completedProjects / totalProjects) * 100) : 0;
 
-  
-
-// Kết hợp tất cả tasks và loại bỏ trùng lặp
-
-const allTasksArray = [...folderTasks, ...taggedTasks];
-
-const uniqueTasks = Array.from(new Set(allTasksArray.map(t => t.text)))
-
-    .map(text => allTasksArray.find(t => t.text === text));
+const remainingProjects = totalProjects - completedProjects;
 
   
 
-// Hiển thị tasks
+// Hiển thị progress bar và thông tin
 
-dv.taskList(uniqueTasks, false);
+dv.paragraph(`**Tiến độ:** ${progress}% (${completedProjects}/${totalProjects} hoàn thành, ${remainingProjects} còn lại)`);
+
+dv.paragraph(`<progress value="${progress}" max="100" style="width: 100%; height: 20px;" class="nyan-cat"></progress>`);
 
 ```
 
   
 
-tab: Pending Tasks
+---
 
-```tasks
+Description Goal
 
-not done
+  
 
-path includes <% tp.file.folder() %>
+---
 
-OR tag includes #project/<% tp.file.folder().split("/").pop().toLowerCase().replace(/ /g, "_") %>
+  
 
-sort by due date
+````tabs  
+
+tab: In Progress
+
+```dataviewjs
+
+// Lấy thông tin thư mục hiện tại
+
+const currentFolder = "FORMAT";
+
+  
+
+// Lấy project notes có status là "2 In Progress"
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && p.Status === "2 In Progress");
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào có trạng thái In Progress*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
+
+```
+
+tab: To Do
+
+```dataviewjs
+
+// Lấy thông tin thư mục hiện tại
+
+const currentFolder = "FORMAT";
+
+  
+
+// Lấy project notes có status là "1 To Do"
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && p.Status === "1 To Do");
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào có trạng thái To Do*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
 ```
 
   
 
-tab: Completed Tasks
+tab: Testing
 
-```tasks
+```dataviewjs
 
-done
+// Lấy thông tin thư mục hiện tại
 
-path includes <% tp.file.folder() %>
+const currentFolder = "FORMAT";
 
-OR tag includes #project/<% tp.file.folder().split("/").pop().toLowerCase().replace(/ /g, "_") %>
+  
 
-sort by completion date
+// Lấy project notes có status là "3 Testing"
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && p.Status === "3 Testing");
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào có trạng thái Testing*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
+
+```
+
+  
+
+tab: Completed
+
+```dataviewjs
+
+// Lấy thông tin thư mục hiện tại
+
+const currentFolder = "FORMAT";
+
+  
+
+// Lấy project notes có status là "4 Completed"
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && p.Status === "4 Completed");
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào có trạng thái Completed*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
+
+```
+
+  
+
+tab: Blocked
+
+```dataviewjs
+
+// Lấy thông tin thư mục hiện tại
+
+const currentFolder = "FORMAT";
+
+  
+
+// Lấy project notes có status là "5 Blocked"
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && p.Status === "5 Blocked");
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào có trạng thái Blocked*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
+
+```
+
+  
+
+tab: No Status
+
+```dataviewjs
+
+// Lấy thông tin thư mục hiện tại
+
+const currentFolder = "FORMAT";
+
+  
+
+// Lấy project notes không có status
+
+const projectNotes = dv.pages(`"PARA/PROJECTS/${currentFolder}"`)
+
+    .where(p => p.type === "project_note" && p.file.name !== dv.current().file.name && (!p.Status || p.Status === ""));
+
+  
+
+// Sắp xếp notes theo priority và due date
+
+const sortedNotes = projectNotes.sort(n => {
+
+    const priorityOrder = {"1 Critical": 1, "2 High": 2, "3 Medium": 3, "4 Low": 4};
+
+    const priority = priorityOrder[n.Priority_Level] || 999;
+
+    return [priority, n.Due_Date || "9999-12-31"];
+
+});
+
+  
+
+// Tạo danh sách các notes
+
+const listItems = sortedNotes.map(note => {
+
+    const priority = note.Priority_Level ? `(${note.Priority_Level})` : "";
+
+    const dueDate = note.Due_Date ? `- Due: ${dv.date(note.Due_Date).toFormat("dd-MM-yyyy")}` : "";
+
+    return `[[${note.file.name}]] ${priority} ${dueDate}`;
+
+});
+
+  
+
+// Hiển thị danh sách
+
+if (listItems.length > 0) {
+
+    dv.list(listItems);
+
+} else {
+
+    dv.paragraph("*Không có project notes nào không có trạng thái*");
+
+}
+
+  
+
+// Hiển thị tổng số
+
+dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
 ```
 
 ````
 
+---
+
+# Components
+
+  
+
+**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area,#project)):connections]`
+
+  
+
+**Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
+
+  
+
+**Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`
+
+  
+
+**Priority Level:** `INPUT[inlineSelect(option(1 Critical), option(2 High), option(3 Medium), option(4 Low)):Priority_Level]`
+
+  
+
+**Status:** `INPUT[inlineSelect(option(1 To Do), option(2 In Progress), option(3 Testing), option(4 Completed), option(5 Blocked)):Status]`
+
+  
+
+---
+
   
   
   
 
-<%* tp.hooks.on_all_templates_executed(async () => { const file = tp.file.find_tfile(tp.file.path(true)); const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_"); await app.fileManager.processFrontMatter(file, (frontmatter) => { frontmatter["tags"] = [`#project/${folder_name}`]; }); }); -%>
+  
+
+````tabs
+
+```
+
+tab: Tasks To Do  
+
+```dataviewjs  
+
+// Lấy thông tin thư mục hiện tại  
+
+const currentFolder = "FORMAT";  
+
+const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
+
+const projectTag = `#project/${folderName}`;  
+
+// Lấy tasks từ các file trong thư mục  
+
+const folderTasks = dv.pages(`"PARA/PROJECTS/${currentFolder}"`).file.tasks;  
+
+// Lấy tasks có tag của project này từ toàn bộ vault  
+
+const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
+
+// Kết hợp tất cả tasks  
+
+const allTasksArray = [...folderTasks, ...taggedTasks];  
+
+// Lọc chỉ các task chưa hoàn thành  
+
+const pendingTasks = allTasksArray.filter(t => !t.completed);  
+
+// Hiển thị danh sách tasks chưa hoàn thành  
+
+dv.taskList(pendingTasks.map(t => ({  
+
+...t,  
+
+text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
+
+})), false);  
+
+```  
+
+tab: Completed Tasks  
+
+```dataviewjs  
+
+// Lấy thông tin thư mục hiện tại  
+
+const currentFolder = "FORMAT";  
+
+const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
+
+const projectTag = `#project/${folderName}`;  
+
+// Lấy tasks từ các file trong thư mục  
+
+const folderTasks = dv.pages(`"PARA/PROJECTS/${currentFolder}"`).file.tasks;  
+
+// Lấy tasks có tag của project này từ toàn bộ vault  
+
+const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
+
+// Kết hợp tất cả tasks  
+
+const allTasksArray = [...folderTasks, ...taggedTasks];  
+
+// Lọc chỉ các task đã hoàn thành  
+
+const completedTasks = allTasksArray.filter(t => t.completed);  
+
+// Hiển thị danh sách tasks đã hoàn thành  
+
+dv.taskList(completedTasks.map(t => ({  
+
+...t,  
+
+text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
+
+})), false);  
+
+```
+
+````
