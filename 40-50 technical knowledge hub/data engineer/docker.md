@@ -11,7 +11,7 @@ summary:
 ---
 ## Virtual machine vs docker 
 
-![[IMG-20241114072412109.png]]
+![[IMG-20250315221950821.png]]
 
 ## Lý thuyết về docker 
 

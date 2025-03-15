@@ -35,9 +35,9 @@ summary:
 > See more instructions to run locally 
 
 - ~ The coincap_etl DAG in the Airflow UI
-	![[IMG-20241114090914865.png]]
+	![[IMG-20250315221950857.png]]
 - The file structure
-	[[IMG-20241114090915849.png]]
+	[[IMG-20250315221950820.png]]
 ## CI/CD setup
 - [[workflow for CI/CD]]
 		git for version control

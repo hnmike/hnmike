@@ -14,7 +14,7 @@ Tool use : LAB sandbox for linux 24
 ## Linux directory structure
 
 Folder 
-![[IMG-20240910093615026.png]]
+![[IMG-20250315221950822.png]]
 
 history | grep telnet : xem lại 
 cat stats: lệnh truy cập thông tin 
@@ -24,7 +24,7 @@ echo : xem biến môi trường\
 QuestionL: bashzrc vs zshrc
 
 Command for files
-![[IMG-20240910093615182.png]]
+![[IMG-20250315221950859.png]]
 
 ? find 
 ls 

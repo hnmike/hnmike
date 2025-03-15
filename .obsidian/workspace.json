@@ -429,17 +429,47 @@
             "id": "74b73af5d327e78b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "project_note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "202503152217",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152217.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152217\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152217",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152217.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152217\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152217",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152217.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152217\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 },
                 {
                   "title": "area_note template",
@@ -518,22 +548,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503152203.md",
+                "file": "20-30 PARA/Area/data/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503152203"
+              "title": "Untitled"
             }
           },
           {
             "id": "f803eea8031d00df",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "add files to project",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/scripts/add files to project.js\"},\"icon\":\"lucide-file\",\"title\":\"add files to project\"}",
                   "eState": "{}"
                 },
                 {
@@ -565,14 +607,14 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "00-09 system/scripts/add files to project.js"
+                "file": "00-09 system/scripts/project files.js"
               },
               "icon": "lucide-file",
-              "title": "add files to project"
+              "title": "project files"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1966,15 +2008,17 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "74b73af5d327e78b",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/202503152217.md",
+    "20-30 PARA/Area/data/202503152203.md",
+    "00-09 system/scripts/project files.js",
+    "00-09 system/scripts/add files to project.js",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
-    "20-30 PARA/Area/data/202503152217.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
-    "20-30 PARA/Area/data/202503152203.md",
     "data.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/area_family template.md",
@@ -1997,22 +2041,19 @@
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
-    "Untitled 9.md",
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
-    "00-09 system/template/area_family template",
-    "00-09 system/template/area_template",
     "Untitled 1.canvas",
     "00-09 system/homepage/dashboard.canvas",
     "Untitled.canvas",
-    "90-100 resource archives/Image/IMG-20241114090915849.png",
-    "90-100 resource archives/Image/IMG-20241114090914865.png",
+    "90-100 resource archives/Image/IMG-20250315221950820.png",
+    "90-100 resource archives/Image/IMG-20250315221950857.png",
     "90-100 resource archives/Image/IMG-20241114090913093.png",
-    "90-100 resource archives/Image/IMG-20241114084755540.png",
-    "90-100 resource archives/Image/IMG-20241114084754746.png",
-    "90-100 resource archives/Image/IMG-20241114072412109.png",
+    "90-100 resource archives/Image/IMG-20250315221951049.png",
+    "90-100 resource archives/Image/IMG-20250315221950819.png",
+    "90-100 resource archives/Image/IMG-20250315221950821.png",
     "90-100 resource archives/Image/IMG-20241108202153684.png",
     "90-100 resource archives/Image/IMG-20241029163932572.png",
     "90-100 resource archives/Image/IMG-20241023203458768.png",
