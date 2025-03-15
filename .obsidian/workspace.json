@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "para-resource-template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/para-resource-template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"para-resource-template\"}",
+                  "eState": "{\"scroll\":21.693333333333335}"
+                },
+                {
                   "title": "PARA-Templates",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-TEMPLATES/PARA-Templates.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PARA-Templates\"}",
@@ -268,12 +274,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-TEMPLATES/para-resource-template.md",
+                "file": "00-09 system/template/project metadata.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para-resource-template"
+              "title": "project metadata"
             }
           }
         ],
@@ -1653,6 +1659,7 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "30-TEMPLATES/para-resource-template.md",
     "30-TEMPLATES/PARA-Templates.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_family",
@@ -1681,7 +1688,6 @@
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/checkbox types.md",
     "00-09 system/template/contribution graph template.md",
-    "00-09 system/template/Callout template.md",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
     "00-09 system/template/e",
