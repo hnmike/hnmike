@@ -71,7 +71,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "";
 
   
 
