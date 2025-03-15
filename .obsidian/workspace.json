@@ -407,6 +407,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "area_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":10.527315634268302}"
+                },
+                {
                   "title": "Untitled 1",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
@@ -519,12 +525,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/area_note template.md",
+                "file": "20-30 PARA/Area/data/Untitled 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "area_note template"
+              "title": "Untitled 3"
             }
           },
           {
@@ -2136,10 +2142,11 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
+    "00-09 system/template/area_note template.md",
+    "20-30 PARA/Area/data/Untitled 3.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Area/data/Untitled.md",
     "20-30 PARA/Area/data/Untitled 2.md",
-    "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/202503152203.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
@@ -2165,7 +2172,6 @@
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
     "00-09 system/template/project metadata.md",
-    "00-09 system/template/project template 1.md",
     "00-09 system/template/project_family",
     "20-30 PARA/Area/data",
     "20-30 PARA/Project/data engineer 2",
