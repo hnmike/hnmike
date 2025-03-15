@@ -298,12 +298,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/Untitled.md",
+                "file": "00-09 system/template/project_note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "project_note template"
             }
           }
         ],
@@ -1684,7 +1684,7 @@
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
     "00-09 system/template/project template 1.md",
-    "00-09 system/template/Untitled.md",
+    "00-09 system/template/project_note template.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/template/PROJECT NOTE.md",
     "30-TEMPLATES/para-project-template.md",
