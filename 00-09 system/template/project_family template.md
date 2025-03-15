@@ -1,6 +1,6 @@
 ---
-Priority_Level: 
-Status: 
+Priority_Level: 1 Critical
+Status: 3 Testing
 Date_Created: 
 Due_Date: 
 Connections: 
