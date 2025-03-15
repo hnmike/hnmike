@@ -251,7 +251,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/project template 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
