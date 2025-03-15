@@ -1,6 +1,6 @@
 ---
 
-area: <% tp.file.folder() %>
+area: 
 
 area_category:
 
@@ -10,17 +10,17 @@ tags:
 
 type: area_family
 
-created-date: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+created-date: 2025-03-15 21:56
 
-id: <% tp.date.now("YYYYMMDDHHmm") %>
+id: 202503152156
 
 ---
 
-# [[<% tp.file.folder() %>]]
+# [[]]
 
 # Overview
 
-<%tp.file.cursor()%>
+
 
 ---
 
@@ -32,7 +32,7 @@ tab: Files
 
 table created AS "Created", summary AS "Summary"
 
-from "20-30 PARA/Area/<% tp.file.folder() %>"
+from "20-30 PARA/Area/"
 
 where type != "area"
 
@@ -70,7 +70,7 @@ from "20-30 PARA/Resources" OR "resources"
 
 where contains(connections, this.file.link)
 
-where type = "resources/<% tp.file.folder() %>"
+where type = "resources/"
 
 sort type ASC
 
@@ -89,7 +89,7 @@ tab: Ongoing Task
 
 not done
 
-tags include #area/<% tp.file.folder().toLowerCase().split(" ").join("_") %>
+tags include #area/
 
 path does not include "00-09 system"
 
@@ -107,7 +107,7 @@ tab: Completed Tasks
 
 done
 
-tags include #area/<% tp.file.folder().toLowerCase().split(" ").join("_") %>
+tags include #area/
 
 path does not include "00-09 system"
 
@@ -119,9 +119,3 @@ sort by due date
 
   
 
-<%* 
-let task_tag_value = tp.file.folder().toLowerCase().split(" ").join("_");
-await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
-    frontmatter.tags = [`area/${task_tag_value}`];
-});
--%>
