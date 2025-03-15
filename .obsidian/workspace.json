@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}},\"scroll\":11.53872052488178}"
+                },
+                {
                   "title": "project template 1",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
@@ -298,12 +304,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
-                "mode": "source",
+                "file": "00-09 system/template/project metadata.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "project metadata"
             }
           }
         ],
@@ -1683,8 +1689,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/template/project template 1.md",
     "00-09 system/template/project_note template.md",
+    "00-09 system/template/project template 1.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/template/PROJECT NOTE.md",
     "30-TEMPLATES/para-project-template.md",
