@@ -4,7 +4,7 @@ Status: 1 To Do
 Date_Created: 
 Due_Date: 
 Connections: 
-Tags: []
+Tags: 
 Type: project_note
 Cssclasses: 
 ---
