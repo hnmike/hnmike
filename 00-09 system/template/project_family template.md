@@ -71,7 +71,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "";
+const currentFolder = "<% tp.file.folder() %>";
 
   
 
