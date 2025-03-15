@@ -427,6 +427,18 @@
                   "title": "202503152203",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "area_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}},\"scroll\":0}"
+                },
+                {
+                  "title": "202503152203",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152203.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152203\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 },
                 {
@@ -494,12 +506,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/area_note template.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "area_note template"
+              "title": "Untitled"
             }
           }
         ],
@@ -1881,6 +1893,8 @@
   "active": "74b73af5d327e78b",
   "lastOpenFiles": [
     "20-30 PARA/Area/data/202503152203.md",
+    "20-30 PARA/Project/data engineer 2/Untitled.md",
+    "data.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/202503152200.md",
@@ -1904,12 +1918,10 @@
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
-    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "Untitled 9.md",
     "library for infrastructure.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "00-09 system/template/book template.md",
-    "Untitled 8.md",
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
