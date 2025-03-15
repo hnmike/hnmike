@@ -353,9 +353,32 @@
               "icon": "lucide-file",
               "title": "area_note template"
             }
+          },
+          {
+            "id": "4e594fb688665036",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 11"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1729,11 +1752,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "8703e9a4ef2a7a53",
+  "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "Untitled 10.md",
     "Untitled 11.md",
     "00-09 system/template/area_note template.md",
+    "Untitled 10.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
