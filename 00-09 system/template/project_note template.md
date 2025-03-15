@@ -37,7 +37,7 @@ cssclasses:
 
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area)):connections]`
 
-**Date Created:** `INPUT[dateTime(defaultValue(<%"'" + tp.date.now("YYYY-MM-DD") + "'"-%>)):Date_Created]`
+**Date Created:**  `INPUT[dateTime(defaultValue(null)):Date_Created]`
 
 **Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`
 
