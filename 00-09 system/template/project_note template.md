@@ -1,10 +1,18 @@
 
+---
+
 Priority_Level:
+
 Status:
+
 Date_Created: <% tp.date.now("YYYY-MM-DD") %>
+
 Due_Date:
+
 connections:
+
 tags:
+
 type: project_note
 
 cssclasses:
