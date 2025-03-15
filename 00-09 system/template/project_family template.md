@@ -62,7 +62,7 @@ Description Goal
 
   
 
-````tabs  
+````tabs
 
 tab: In Progress
 
@@ -468,7 +468,61 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
 ```
 
-````
+```
+
+tab: Tasks To Do
+```dataviewjs
+// Lấy thông tin thư mục hiện tại
+const currentFolder = "<% tp.file.folder() %>";
+const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");
+const projectTag = `#project/${folderName}`;
+
+// Lấy tasks từ các file trong thư mục
+const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;
+
+// Lấy tasks có tag của project này từ toàn bộ vault
+const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));
+
+// Kết hợp tất cả tasks
+const allTasksArray = [...folderTasks, ...taggedTasks];
+
+// Lọc chỉ các task chưa hoàn thành
+const pendingTasks = allTasksArray.filter(t => !t.completed);
+
+// Hiển thị danh sách tasks chưa hoàn thành
+dv.taskList(pendingTasks.map(t => ({
+    ...t,
+    text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`
+})), false);
+```
+
+tab: Completed Tasks
+```dataviewjs
+// Lấy thông tin thư mục hiện tại
+const currentFolder = "<% tp.file.folder() %>";
+const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");
+const projectTag = `#project/${folderName}`;
+
+// Lấy tasks từ các file trong thư mục
+const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;
+
+// Lấy tasks có tag của project này từ toàn bộ vault
+const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));
+
+// Kết hợp tất cả tasks
+const allTasksArray = [...folderTasks, ...taggedTasks];
+
+// Lọc chỉ các task đã hoàn thành
+const completedTasks = allTasksArray.filter(t => t.completed);
+
+// Hiển thị danh sách tasks đã hoàn thành
+dv.taskList(completedTasks.map(t => ({
+    ...t,
+    text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`
+})), false);
+```
+
+```
 
 ---
 
@@ -502,92 +556,4 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
   
   
 
-  
-
-````tabs
-
-```
-
-tab: Tasks To Do  
-
-```dataviewjs  
-
-// Lấy thông tin thư mục hiện tại  
-
-const currentFolder = "<% tp.file.folder() %>";  
-
-const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
-
-const projectTag = `#project/${folderName}`;  
-
-// Lấy tasks từ các file trong thư mục  
-
-const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;  
-
-// Lấy tasks có tag của project này từ toàn bộ vault  
-
-const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
-
-// Kết hợp tất cả tasks  
-
-const allTasksArray = [...folderTasks, ...taggedTasks];  
-
-// Lọc chỉ các task chưa hoàn thành  
-
-const pendingTasks = allTasksArray.filter(t => !t.completed);  
-
-// Hiển thị danh sách tasks chưa hoàn thành  
-
-dv.taskList(pendingTasks.map(t => ({  
-
-...t,  
-
-text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
-
-})), false);  
-
-```  
-
-tab: Completed Tasks  
-
-```dataviewjs  
-
-// Lấy thông tin thư mục hiện tại  
-
-const currentFolder = "<% tp.file.folder() %>";  
-
-const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
-
-const projectTag = `#project/${folderName}`;  
-
-// Lấy tasks từ các file trong thư mục  
-
-const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;  
-
-// Lấy tasks có tag của project này từ toàn bộ vault  
-
-const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
-
-// Kết hợp tất cả tasks  
-
-const allTasksArray = [...folderTasks, ...taggedTasks];  
-
-// Lọc chỉ các task đã hoàn thành  
-
-const completedTasks = allTasksArray.filter(t => t.completed);  
-
-// Hiển thị danh sách tasks đã hoàn thành  
-
-dv.taskList(completedTasks.map(t => ({  
-
-...t,  
-
-text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
-
-})), false);  
-
-```
-
-````
-  
   
