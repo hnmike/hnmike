@@ -530,17 +530,29 @@
             "id": "f803eea8031d00df",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled 14",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
+                },
+                {
+                  "title": "202503152217",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503152217.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503152217\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled 14 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
@@ -1952,9 +1964,10 @@
   },
   "active": "f803eea8031d00df",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
+    "20-30 PARA/Area/data/202503152217.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Area/data/202503152203.md",
@@ -1981,7 +1994,6 @@
     "20-30 PARA/Area/data",
     "00-09 system/journal/daily/2024/12/2024-12-03.md",
     "Untitled 9.md",
-    "library for infrastructure.md",
     "20-30 PARA/Project/data engineer 2",
     "00-09 system/template/project_note template",
     "00-09 system/template/area_note template",
