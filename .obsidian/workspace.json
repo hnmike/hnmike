@@ -257,7 +257,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/project_family template.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1639,7 +1639,7 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
     "00-09 system/template/project_family",
     "00-09 system/template/project template 1.md",
