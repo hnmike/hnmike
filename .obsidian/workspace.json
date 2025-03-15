@@ -417,17 +417,17 @@
             "id": "74b73af5d327e78b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 14",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":0.6535468810755819}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "area_family template",
@@ -452,12 +452,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 14.md",
+                "file": "20-30 PARA/Area/data/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 14"
+              "title": "Untitled"
             }
           }
         ],
@@ -1838,8 +1838,8 @@
   },
   "active": "74b73af5d327e78b",
   "lastOpenFiles": [
-    "20-30 PARA/Area/data/Untitled.md",
     "Untitled 14.md",
+    "20-30 PARA/Area/data/Untitled.md",
     "00-09 system/template/area_family template.md",
     "Untitled 13.md",
     "Untitled 12.md",
