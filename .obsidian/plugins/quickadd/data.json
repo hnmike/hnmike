@@ -155,6 +155,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "1f2e6af3-6d32-4757-a781-fb86eae049b1"
+    },
+    {
+      "id": "6dcded1b-c533-48c0-bd22-44d9e0369de5",
+      "name": "Flowmo End",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8c049d3a-fdd6-44b7-8f04-4b8491bc0580"
     }
   ],
   "macros": [
