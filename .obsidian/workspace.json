@@ -502,17 +502,29 @@
             "id": "4e594fb688665036",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":77},\"to\":{\"line\":25,\"ch\":77}},\"scroll\":10.687736827109434}"
+                },
+                {
+                  "title": "Untitled 3",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 3.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 3\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":3},\"to\":{\"line\":32,\"ch\":3}},\"scroll\":10.687736827109434}"
                 },
                 {
                   "title": "Untitled 2",
@@ -855,12 +867,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "Untitled 4"
             }
           },
           {
@@ -2355,8 +2367,10 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Untitled.md",
     "00-09 system/template/project_note template.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 4.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 3.md",
+    "20-30 PARA/Project/Untitled.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
@@ -2379,8 +2393,6 @@
     "00-09 system/homepage/Homepage.md",
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Area/data/202503152238.md",
-    "Untitled 12.md",
-    "Untitled 13.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",

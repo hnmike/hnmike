@@ -16,14 +16,5 @@ Cssclasses:
 **Status:** `INPUT[inlineSelect(option(1 To Do), option(2 In Progress), option(3 Testing), option(4 Completed), option(5 Blocked)):Status]`
 # Description
 
-<% tp.file.cursor() %>
 
-<%* 
-// Lấy tên thư mục và chuyển đổi thành tag
-const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_");
 
-// Cập nhật frontmatter
-await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
-    frontmatter.tags = [`project/${folder_name}`];
-});
--%>
