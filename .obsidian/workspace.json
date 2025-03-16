@@ -2422,7 +2422,7 @@
             }
           },
           {
-            "id": "614b554323f5cc97",
+            "id": "c9b1681832710e77",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2506,7 +2506,6 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
-      "omnisearch:Omnisearch": false,
       "callout-manager:Insert Callout": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
