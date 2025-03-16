@@ -113,17 +113,17 @@
             "id": "8703e9a4ef2a7a53",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":217,\"ch\":0},\"to\":{\"line\":217,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"scroll\":8.898305084745763}"
                 },
                 {
                   "title": "Homepage",
@@ -204,9 +204,9 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
                 },
                 {
-                  "title": "Untitled",
+                  "title": "202503161548",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161548.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -622,12 +622,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
-                "mode": "source",
+                "file": "20-30 PARA/Area/data/202503161130.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "202503161130"
             }
           },
           {
@@ -2554,12 +2554,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "535aa5fdc5e8229e",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
-    "00-09 system/homepage/Homepage.md",
+    "20-30 PARA/Area/data/202503161548.md",
     "00-09 system/template/daily note template.md",
+    "00-09 system/homepage/Homepage.md",
     "00-09 system/template/area_note template.md",
-    "20-30 PARA/Area/data/Untitled.md",
     "00-09 system/template/block reference.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Project/data engineer 2/Untitled 3.md",
