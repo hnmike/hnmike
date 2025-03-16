@@ -704,6 +704,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":8},\"to\":{\"line\":67,\"ch\":8}},\"scroll\":163.6184456665136}"
+                },
+                {
                   "title": "Flowmo Log",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
@@ -756,12 +762,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
-                "mode": "preview",
+                "file": "00-09 system/Log/Flowmo Log.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "Flowmo Log"
             }
           }
         ],
@@ -1971,8 +1977,8 @@
   },
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/template/daily note template.md",
+    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
