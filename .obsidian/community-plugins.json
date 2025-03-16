@@ -2,7 +2,6 @@
   "dataview",
   "waypoint",
   "folder-notes",
-  "auto-note-mover",
   "templater-obsidian",
   "multi-properties",
   "attachment-management",
@@ -59,5 +58,6 @@
   "obsidian-image-toolkit",
   "copilot",
   "obsidian-clipper",
-  "omnisearch"
+  "omnisearch",
+  "auto-note-mover"
 ]
