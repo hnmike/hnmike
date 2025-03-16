@@ -697,17 +697,17 @@
             "id": "7f76749690c52c9f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{\"scroll\":228.68656262773112}"
                 },
                 {
                   "title": "2nd lesson of data engineer",
@@ -738,12 +738,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Untitled.md",
-                "mode": "source",
+                "file": "00-09 system/homepage/Homepage.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Homepage"
             }
           }
         ],
@@ -1924,8 +1924,9 @@
   },
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "00-09 system/homepage/Homepage.md",
+    "00-09 system/Log",
     "00-09 system/Untitled.md",
+    "00-09 system/homepage/Homepage.md",
     "Logs/Flowmo Log.md",
     "Logs",
     "00-09 system/journal/daily/2025/03/2025-03-16.md",
@@ -1951,7 +1952,6 @@
     "20-30 PARA/Area/data/202503161557.md",
     "20-30 PARA/Area/data/202503161128.md",
     "20-30 PARA/Area/data/202503161042.md",
-    "202503161550.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
