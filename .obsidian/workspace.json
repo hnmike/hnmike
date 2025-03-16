@@ -113,17 +113,23 @@
             "id": "8703e9a4ef2a7a53",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled 2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled 14 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Untitled 14",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Untitled 14 1",
@@ -394,29 +400,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled 14.md",
+                "file": "20-30 PARA/Area/data/Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 14"
+              "title": "Untitled 2"
             }
           },
           {
             "id": "4e594fb688665036",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 14",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
                 },
                 {
                   "title": "Untitled 1",
@@ -567,7 +573,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled.md",
+                "file": "20-30 PARA/Area/data/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -633,7 +639,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2046,9 +2052,12 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "4e594fb688665036",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "20-30 PARA/Area/data/Untitled.md",
+    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Area/data/Untitled 2.md",
     "20-30 PARA/Area/data/202503152238.md",
@@ -2057,10 +2066,7 @@
     "Untitled 12.md",
     "Untitled 13.md",
     "Untitled 14.md",
-    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Area/data/dgGdg.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/202503152203.md",
