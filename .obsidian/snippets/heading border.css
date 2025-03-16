@@ -1,0 +1,13 @@
+/* Định dạng heading có đường viền trái */
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-header-1 {
+    border-left: 4px solid #ff0000; /* Thay #ff0000 bằng mã màu bạn muốn, ví dụ đỏ */
+    padding-left: 10px; /* Khoảng cách từ đường viền đến chữ */
+}
+
+/* Áp dụng cho các heading khác nếu cần */
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .cm-header-2 {
+    border-left: 4px solid #ff0000;
+    padding-left: 10px;
+}
