@@ -19,13 +19,48 @@ Cssclasses:
 <% tp.file.cursor() %>
 
 <%*
+// Đảm bảo frontmatter được khởi tạo đúng
+const timestamp = tp.date.now("YYYYMMDDHHmm");
+await tp.file.rename(timestamp);
+
+// Đợi file system cập nhật
+await new Promise(resolve => setTimeout(resolve, 500));
+
+// Lấy thông tin thư mục
 const folderName = tp.file.folder().toLowerCase().replace(/ /g, "_");
+const projectTag = `project/${folderName}`;
+
+// Lấy file hiện tại
 const file = tp.file.find_tfile(tp.file.path(true));
 if (!file) {
     console.error("Không tìm thấy tệp hiện tại!");
     return;
 }
-await app.fileManager.processFrontMatter(file, (frontmatter) => {
-    frontmatter.tags = [`project/${folderName}`];
-});
+
+// Cập nhật frontmatter với try-catch
+try {
+    await app.fileManager.processFrontMatter(file, (frontmatter) => {
+        // Đảm bảo các trường cơ bản tồn tại
+        frontmatter.type = frontmatter.type || "project_note";
+        frontmatter.tags = frontmatter.tags || [];
+        frontmatter.status = frontmatter.status || "1 To Do";
+        frontmatter.date_created = frontmatter.date_created || tp.date.now("YYYY-MM-DD HH:mm");
+        
+        // Thêm project tag
+        if (Array.isArray(frontmatter.tags)) {
+            if (!frontmatter.tags.includes(projectTag)) {
+                frontmatter.tags.push(projectTag);
+            }
+        } else {
+            frontmatter.tags = [projectTag];
+        }
+    });
+    
+    console.log("Đã cập nhật frontmatter thành công");
+} catch (error) {
+    console.error("Lỗi khi cập nhật frontmatter:", error);
+}
+
+// Đợi thêm để đảm bảo cập nhật hoàn tất
+await new Promise(resolve => setTimeout(resolve, 500));
 -%>
