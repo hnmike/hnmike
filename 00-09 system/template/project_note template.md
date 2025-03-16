@@ -20,10 +20,10 @@ Cssclasses:
 
 <%* 
 // Lấy tên thư mục và chuyển đổi thành tag
-const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_");
+Const folder_name = tp.File.Folder (). ToLowerCase (). Replace (/ /g, "_");
 
 // Cập nhật frontmatter
-await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
-    frontmatter.tags = [`project/${folder_name}`];
+Await app.FileManager.ProcessFrontMatter (tp.File.Path (true), (frontmatter) => {
+    Frontmatter. Tags = [`project/${folder_name}`];
 });
 -%>
