@@ -738,12 +738,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Untitled.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Flowmo Log"
             }
           }
         ],
@@ -1819,6 +1819,15 @@
           {
             "id": "88782818b9e173ed",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "toggl-report",
               "state": {},
@@ -1925,7 +1934,7 @@
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
     "00-09 system/homepage/Homepage.md",
-    "00-09 system/Log/Untitled.md",
+    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
     "Logs/Flowmo Log.md",
