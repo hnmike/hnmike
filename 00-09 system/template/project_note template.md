@@ -18,12 +18,14 @@ Cssclasses:
 
 <% tp.file.cursor() %>
 
-<%* 
-// Lấy tên thư mục và chuyển đổi thành tag
-Const folder_name = tp.File.Folder (). ToLowerCase (). Replace (/ /g, "_");
-
-// Cập nhật frontmatter
-Await app.FileManager.ProcessFrontMatter (tp.File.Path (true), (frontmatter) => {
-    Frontmatter. Tags = [`project/${folder_name}`];
+<%*
+const folderName = tp.file.folder().toLowerCase().replace(/ /g, "_");
+const file = tp.file.find_tfile(tp.file.path(true));
+if (!file) {
+    console.error("Không tìm thấy tệp hiện tại!");
+    return;
+}
+await app.fileManager.processFrontMatter(file, (frontmatter) => {
+    frontmatter.tags = [`project/${folderName}`];
 });
 -%>
