@@ -1,0 +1,11 @@
+{
+  "format": null,
+  "interval": null,
+  "showHours": true,
+  "showMinutes": true,
+  "showSeconds": true,
+  "trimLeadingZeros": false,
+  "lineBreakAfterInsert": true,
+  "textColor": "",
+  "printFormat": ""
+}
