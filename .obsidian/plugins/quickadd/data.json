@@ -153,7 +153,7 @@
       "id": "e604e945-f973-44f8-bac0-81c41a33d1f7",
       "name": "Flowmo Start",
       "type": "Macro",
-      "command": false,
+      "command": true,
       "macroId": "1f2e6af3-6d32-4757-a781-fb86eae049b1"
     }
   ],
@@ -222,8 +222,49 @@
     {
       "name": "Flowmo Start",
       "id": "1f2e6af3-6d32-4757-a781-fb86eae049b1",
-      "commands": [],
-      "runOnStartup": false
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "032d977e-6445-445a-85f7-b793f6250e70",
+          "choice": {
+            "id": "22ed55d6-78ed-43d1-b3f9-49871bbbffb3",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Logs/Flowmo Log.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- **{{DATE:YYYY-MM-DD}}** | **Công việc:** {{VALUE:task}} | **Bắt đầu:** {{TIME:HH:mm}} "
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "single-line",
