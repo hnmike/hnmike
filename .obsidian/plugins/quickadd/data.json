@@ -148,6 +148,13 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "e604e945-f973-44f8-bac0-81c41a33d1f7",
+      "name": "Flowmo Start",
+      "type": "Macro",
+      "command": false,
+      "macroId": "8c049d3a-fdd6-44b7-8f04-4b8491bc0580"
     }
   ],
   "macros": [
