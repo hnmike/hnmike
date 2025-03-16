@@ -4,7 +4,7 @@ Summary:
 tags: 
 Type: area_note
 created: <% tp.file.creation_date() %>
-id:
+id: <% tp.date.now("YYYYMMDDHHmm") %>
 ---
 # [[<% tp.file.folder() %>]] 
 # Overview
