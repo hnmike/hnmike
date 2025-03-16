@@ -500,3 +500,7 @@ actions:
     command: theme:use-dark
 tooltip: Switch to Dark Mode
 ```
+```toggl
+SUMMARY
+PAST 7 DAYS
+```

@@ -704,6 +704,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2nd lesson of data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2nd lesson of data engineer.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2nd lesson of data engineer\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "project metadata",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
@@ -726,12 +732,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2nd lesson of data engineer.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2nd lesson of data engineer"
+              "title": "Homepage"
             }
           }
         ],
@@ -2120,8 +2126,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3f39602d164f3bd0",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "2nd lesson of data engineer.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/scripts/project files.js",
     "20-30 PARA/Area/data/202503161606.md",
