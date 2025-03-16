@@ -502,11 +502,23 @@
             "id": "4e594fb688665036",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 5",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 5.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 5\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":3.3728812912763178}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "area_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":2},\"to\":{\"line\":42,\"ch\":2}},\"scroll\":0}"
                 },
                 {
                   "title": "Untitled",
@@ -921,12 +933,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/area_note template.md",
+                "file": "00-09 system/template/project_note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "area_note template"
+              "title": "project_note template"
             }
           },
           {
@@ -2419,8 +2431,11 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "4e594fb688665036",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer 2/Untitled 5.md",
+    "00-09 system/template/project_note template.md",
+    "00-09 system/template/area_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/202503161122.md",
     "20-30 PARA/Area/data/dgGdg.md",
@@ -2430,7 +2445,6 @@
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Area/data/202503161119.md",
-    "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/Untitled.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
@@ -2439,14 +2453,12 @@
     "Untitled 1.md",
     "20-30 PARA/Area/data/Untitled 4.md",
     "20-30 PARA/Area/data/Untitled 5.md",
-    "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/Untitled 3.md",
     "20-30 PARA/Area/data/gfdgd.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/202503161042.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/template/project_family template.md",
-    "20-30 PARA/Area/data/202503152238.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
