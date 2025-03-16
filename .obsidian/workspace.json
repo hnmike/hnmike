@@ -509,6 +509,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 3",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 3.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 3\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Untitled 4",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 4.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 4\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":1.9851}"
+                },
+                {
+                  "title": "area_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":7.257568359375}"
+                },
+                {
+                  "title": "Untitled 4",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 4.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 4\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":1.9851116625310175}"
+                },
+                {
                   "title": "Untitled 1",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
@@ -747,12 +771,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/Untitled 4.md",
+                "file": "20-30 PARA/Area/data/Untitled 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 4"
+              "title": "Untitled 5"
             }
           },
           {
@@ -2228,15 +2252,16 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "20-30 PARA/Area/data/Untitled 1.md",
-    "20-30 PARA/Area/data/Untitled 4.md",
     "20-30 PARA/Area/data/Untitled 3.md",
+    "20-30 PARA/Area/data/Untitled 5.md",
+    "20-30 PARA/Area/data/Untitled 4.md",
+    "00-09 system/template/area_note template.md",
+    "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/Untitled 2.md",
     "20-30 PARA/Area/data/dgGdg.md",
-    "00-09 system/template/area_note template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "Untitled 1.md",
@@ -2253,7 +2278,6 @@
     "20-30 PARA/Area/data/202503152203.md",
     "Untitled.md",
     "20-30 PARA/Area/data/202503152222.md",
-    "20-30 PARA/Area/data/202503152217.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
