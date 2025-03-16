@@ -16,11 +16,11 @@
   "folder_templates": [
     {
       "folder": "20-30 PARA/Project",
-      "template": ""
+      "template": "00-09 system/template/project_note template.md"
     },
     {
       "folder": "20-30 PARA/Area",
-      "template": ""
+      "template": "00-09 system/template/area_note template.md"
     }
   ],
   "syntax_highlighting": true,
