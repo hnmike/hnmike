@@ -208,6 +208,12 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "c10d3b65-05d7-4130-884b-69a647c9c29d",
+          "commandId": "timetracker:start-stop-stopwatch"
         }
       ],
       "runOnStartup": false
