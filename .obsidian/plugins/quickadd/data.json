@@ -276,7 +276,48 @@
     {
       "name": "Flowmo End",
       "id": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5",
-      "commands": [],
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "01b25287-b8d1-48cc-acc1-55d45eb1c030",
+          "choice": {
+            "id": "11f6028f-03d4-4a7b-8732-c86af7af2a2b",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Logs/Flowmo Log.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- **{{DATE:YYYY-MM-DD}}** | **Công việc:** {{VALUE:task}} | **Bắt đầu:** {{TIME:HH:mm}}"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
       "runOnStartup": false
     }
   ],
