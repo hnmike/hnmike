@@ -321,24 +321,6 @@ initializeProjectManagement();
 ```
 
 
-```
-
-
-
-
-```meta-bind-button
-label: Map of Contents
-icon: lucide-map-pinned
-hidden: true
-class: ""
-tooltip: Open Map of Content
-id: open_moc
-style: primary
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:HUB/Map of Content.md
-
-```
 ```meta-bind-button
 label: Daily Note
 icon: lucide-calendar
