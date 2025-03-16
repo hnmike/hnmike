@@ -296,14 +296,14 @@
             },
             "format": {
               "enabled": true,
-              "format": " - **End:** {{TIME:HH:mm}}"
+              "format": "- **Kết thúc:** {{TIME:HH:mm}}"
             },
             "insertAfter": {
-              "enabled": true,
+              "enabled": false,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": true,
+              "createIfNotFound": false,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
