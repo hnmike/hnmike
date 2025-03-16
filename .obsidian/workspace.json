@@ -1860,16 +1860,6 @@
             }
           },
           {
-            "id": "013c295bc1daa615",
-            "type": "leaf",
-            "state": {
-              "type": "timetracker-sidebar",
-              "state": {},
-              "icon": "clock",
-              "title": "Timetracker sidebar"
-            }
-          },
-          {
             "id": "eda85848a72349b7",
             "type": "leaf",
             "state": {
@@ -1899,7 +1889,7 @@
             }
           }
         ],
-        "currentTab": 53
+        "currentTab": 52
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1975,7 +1965,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
