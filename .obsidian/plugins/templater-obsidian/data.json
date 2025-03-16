@@ -15,12 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "20-30 PARA/Area",
+      "folder": "20-30 PARA/Project",
       "template": ""
     },
     {
-      "folder": "20-30 PARA/Project",
-      "template": "00-09 system/template/project_note template.md"
+      "folder": "20-30 PARA/Area",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
