@@ -255,14 +255,14 @@
             },
             "format": {
               "enabled": true,
-              "format": "- **{{DATE:YYYY-MM-DD}}** | **Công việc:** {{VALUE:task}} | **Bắt đầu:** {{TIME:HH:mm}} "
+              "format": "- **{{DATE:YYYY-MM-DD}}** | **Task:** {{VALUE:task}} | **Start:** {{TIME:HH:mm}} "
             },
             "insertAfter": {
               "enabled": true,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": false,
+              "createIfNotFound": true,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
