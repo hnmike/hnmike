@@ -277,7 +277,7 @@
           }
         }
       ],
-      "runOnStartup": false
+      "runOnStartup": true
     },
     {
       "name": "Flowmo End",
@@ -330,7 +330,7 @@
           "commandId": "timetracker:start-stop-stopwatch"
         }
       ],
-      "runOnStartup": false
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "single-line",
