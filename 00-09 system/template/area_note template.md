@@ -1,9 +1,10 @@
 ---
 area: <% tp.file.folder() %>
 Summary: 
-Tags: 
+tags: 
 Type: area_note
 created: <% tp.file.creation_date() %>
+id:
 ---
 # [[<% tp.file.folder() %>]] 
 # Overview
