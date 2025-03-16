@@ -1853,6 +1853,16 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "013c295bc1daa615",
+            "type": "leaf",
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "clock",
+              "title": "Timetracker sidebar"
+            }
           }
         ],
         "currentTab": 45
