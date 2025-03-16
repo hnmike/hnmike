@@ -1735,25 +1735,6 @@
             }
           },
           {
-            "id": "ff1bfc5648d236d4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "aae5c8a610b8a963",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1773,45 +1754,7 @@
             }
           },
           {
-            "id": "538b42d295a44b9a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "2620cecc34e532f0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a49afb0ea7e5cba4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1897,7 +1840,7 @@
             }
           }
         ],
-        "currentTab": 54
+        "currentTab": 45
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1973,7 +1916,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "b4b0a38884dd7fb5",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2025/03/2025-03-16.md",
     "00-09 system/homepage/Homepage.md",
