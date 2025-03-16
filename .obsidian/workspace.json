@@ -735,7 +735,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -2120,10 +2120,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled.md",
+    "00-09 system/scripts/project files.js",
     "20-30 PARA/Area/data/202503161606.md",
+    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/202503161607.md",
     "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
@@ -2142,13 +2143,11 @@
     "20-30 PARA/Area/data/202503161128.md",
     "20-30 PARA/Area/data/202503161042.md",
     "00-09 system/template/project metadata.md",
-    "00-09 system/scripts/project files.js",
     "202503161550.md",
     "202503161549.md",
     "20-30 PARA/Area/data/202503161548.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/homepage/Homepage.md",
-    "00-09 system/template/area_note template.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
