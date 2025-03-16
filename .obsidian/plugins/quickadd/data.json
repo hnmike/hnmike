@@ -231,6 +231,12 @@
       "id": "1f2e6af3-6d32-4757-a781-fb86eae049b1",
       "commands": [
         {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "7e7473ea-846b-4ba0-9f63-1662fc8b320a",
+          "commandId": "timetracker:start-stop-stopwatch"
+        },
+        {
           "name": "Untitled Capture Choice",
           "type": "NestedChoice",
           "id": "032d977e-6445-445a-85f7-b793f6250e70",
@@ -269,18 +275,6 @@
             "openFile": false,
             "openFileInMode": "default"
           }
-        },
-        {
-          "name": "Timetracker: Start or stop the stopwatch",
-          "type": "Obsidian",
-          "id": "7e7473ea-846b-4ba0-9f63-1662fc8b320a",
-          "commandId": "timetracker:start-stop-stopwatch"
-        },
-        {
-          "name": "Timetracker: Reset the stopwatch",
-          "type": "Obsidian",
-          "id": "82643b4e-0be2-4590-9fe9-8d4880036a96",
-          "commandId": "timetracker:reset-stopwatch"
         }
       ],
       "runOnStartup": false
