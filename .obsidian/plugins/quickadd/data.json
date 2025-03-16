@@ -218,6 +218,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Flowmo Start",
+      "id": "1f2e6af3-6d32-4757-a781-fb86eae049b1",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
