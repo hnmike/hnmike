@@ -269,12 +269,6 @@
             "openFile": false,
             "openFileInMode": "default"
           }
-        },
-        {
-          "name": "Timetracker: Insert timestamp based on current stopwatch value",
-          "type": "Obsidian",
-          "id": "f34367f9-4e73-4b5a-bbbd-a4fa9960fcf6",
-          "commandId": "timetracker:insert-timestamp"
         }
       ],
       "runOnStartup": true
