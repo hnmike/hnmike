@@ -18,54 +18,12 @@ Cssclasses:
 
 <% tp.file.cursor() %>
 
-<%*
-
-// Đợi một chút để file được tạo hoàn chỉnh
-
-await new Promise(resolve => setTimeout(resolve, 500));
-
-  
-
-// Lấy thông tin file và thư mục
-
-const currentFile = app.workspace.getActiveFile();
-
-const folder_name = tp.file.folder().split("/").pop().toLowerCase().replace(/ /g, "_");
-
-const projectTag = `project/${folder_name}`;
-
-  
+<%* 
+// Lấy tên thư mục và chuyển đổi thành tag
+const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_");
 
 // Cập nhật frontmatter
-
-if (currentFile) {
-
-    try {
-
-        await app.fileManager.processFrontMatter(currentFile, (frontmatter) => {
-
-            // Đảm bảo tags là một mảng
-
-            frontmatter.tags = [projectTag];
-
-            // Cập nhật Date_Created nếu trống
-
-            if (!frontmatter.Date_Created) {
-
-                frontmatter.Date_Created = tp.date.now("YYYY-MM-DD HH:mm");
-
-            }
-
-        });
-
-        console.log("Tags updated successfully:", projectTag);
-
-    } catch (error) {
-
-        console.error("Error updating frontmatter:", error);
-
-    }
-
-}
-
+await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
+    frontmatter.tags = [`project/${folder_name}`];
+});
 -%>
