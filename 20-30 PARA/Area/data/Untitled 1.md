@@ -1,20 +1,3 @@
----
-
-area: data
-
-area_category:
-
-summary:
-
-tags:
-
-type: area_family
-
-created-date: 2025-03-15 22:49
-
-id: 202503152249
-
----
 
 # [[data]]
 
