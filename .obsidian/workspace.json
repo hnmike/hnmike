@@ -116,10 +116,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "202503161549",
+                  "title": "202503161128",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503161549.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161549\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":6},\"to\":{\"line\":16,\"ch\":6}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161128.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161128\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -204,7 +204,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "title": "202503161130",
+                  "title": "202503161549",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161549.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161130\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
@@ -216,7 +216,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "202503161130",
+                  "title": "202503161549",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161549.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161130\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
@@ -228,7 +228,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":2},\"to\":{\"line\":42,\"ch\":2}},\"scroll\":28.80138835200557}"
                 },
                 {
-                  "title": "202503161130",
+                  "title": "202503161549",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161549.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
@@ -644,6 +644,42 @@
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "202503161128",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161128.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161128\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "202503161042",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161042.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161042\"}",
+                  "eState": "{\"scroll\":5.691056910569106}"
+                },
+                {
+                  "title": "202503161128",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161128.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161128\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "202503161042",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161042.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161042\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "202503161107",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161107.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161107\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "202503161128",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161128.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161128\"}",
                   "eState": "{}"
                 },
                 {
@@ -1119,12 +1155,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161128.md",
+                "file": "20-30 PARA/Area/data/202503161549.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503161128"
+              "title": "202503161549"
             }
           },
           {
@@ -1188,8 +1224,14 @@
             "id": "7f76749690c52c9f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "202503161549",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161549.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161549\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1220,7 +1262,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -2595,15 +2637,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/202503161128.md",
+    "20-30 PARA/Area/data/202503161042.md",
+    "20-30 PARA/Area/data/202503161107.md",
+    "20-30 PARA/Area/data/202503161549.md",
+    "00-09 system/template/project metadata.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Area/data/202503161551.md",
-    "20-30 PARA/Area/data/202503161128.md",
-    "20-30 PARA/Area/data/202503161107.md",
     "00-09 system/scripts/project files.js",
     "202503161550.md",
-    "20-30 PARA/Area/data/202503161549.md",
     "202503161549.md",
     "20-30 PARA/Area/data/202503161548.md",
     "00-09 system/template/daily note template.md",
@@ -2616,10 +2660,8 @@
     "20-30 PARA/Area/data/202503161129.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
-    "20-30 PARA/Area/data/202503161042.md",
     "202503161127.md",
     "data.md",
-    "00-09 system/template/project metadata.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/dgGdg.md",
