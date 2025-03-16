@@ -851,8 +851,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1976,7 +1975,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
