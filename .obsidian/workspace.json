@@ -509,6 +509,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 3",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 3.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 3\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
                   "title": "gfdgd",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/gfdgd.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"gfdgd\"}",
@@ -789,12 +795,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/Untitled 3.md",
+                "file": "00-09 system/template/area_note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 3"
+              "title": "area_note template"
             }
           },
           {
@@ -2289,8 +2295,8 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "20-30 PARA/Area/data/gfdgd.md",
     "20-30 PARA/Area/data/Untitled 3.md",
+    "20-30 PARA/Area/data/gfdgd.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/Untitled 4.md",
     "20-30 PARA/Area/data/Untitled 5.md",

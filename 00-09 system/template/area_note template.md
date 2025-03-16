@@ -1,22 +1,43 @@
 ---
+
 area: <% tp.file.folder() %>
-Summary: 
-tags: 
+
+Summary:
+
+tags:
+
 Type: area_note
+
 created: <% tp.file.creation_date() %>
+
 id: <% tp.date.now("YYYYMMDDHHmm") %>
+
 ---
-# [[<% tp.file.folder() %>]] 
+
+# [[<% tp.file.folder() %>]]
+
 # Overview
+
 <% tp.file.cursor() %>
 
-<%* 
-tp.hooks.on_all_templates_executed(async () => { 
-    const file = tp.file.find_tfile(tp.file.path(true)); 
-    const value1 = tp.file.folder().split(" ").map(word => word.toLowerCase()).join("_"); 
-    const value2 = tp.file.title.split(" ").map(word => word.toLowerCase()).join("_"); 
-    await app.fileManager.processFrontMatter(file, (frontmatter) => { 
-        frontmatter["Tags"] = `area/${value1}`; 
-    }); 
+  
+
+<%*
+
+tp.hooks.on_all_templates_executed(async () => {
+
+    const file = tp.file.find_tfile(tp.file.path(true));
+
+    const value1 = tp.file.folder().split(" ").map(word => word.toLowerCase()).join("_");
+
+    const value2 = tp.file.title.split(" ").map(word => word.toLowerCase()).join("_");
+
+    await app.fileManager.processFrontMatter(file, (frontmatter) => {
+
+        frontmatter["Tags"] = `area/${value1}`;
+
+    });
+
 });
+
 %>
