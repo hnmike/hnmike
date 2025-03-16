@@ -1,0 +1,28 @@
+.flowmodoro-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.flowmodoro-table th,
+.flowmodoro-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.flowmodoro-table th {
+    background-color: var(--background-secondary);
+    font-weight: bold;
+}
+
+.flowmodoro-timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--text-accent);
+}
+
+.flowmodoro-break {
+    color: var(--text-muted);
+    font-style: italic;
+} 
