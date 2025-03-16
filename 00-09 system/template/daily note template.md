@@ -60,12 +60,12 @@ limit 10
 
 <%tp.file.cursor()%>
 
-Const file = app.Vault.GetAbstractFileByPath ("Logs/Flowmo Log. Md");
-If (! File) {
-    Dv.Span ("Không tìm thấy Flowmo Log.");
+const file = app.vault.getAbstractFileByPath("Logs/Flowmo Log.md");
+if (!file) {
+    dv.span("Không tìm thấy Flowmo Log.");
 } else {
-    Const content = await app.Vault.Read (file);
-    Const lines = content.Split ("\n");
+    const content = await app.vault.read(file);
+    const lines = content.split("\n");
 
     let sessions = [];
     const today = moment().format("YYYY-MM-DD");
