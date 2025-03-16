@@ -231,6 +231,12 @@
       "id": "1f2e6af3-6d32-4757-a781-fb86eae049b1",
       "commands": [
         {
+          "name": "Timetracker: Reset the stopwatch",
+          "type": "Obsidian",
+          "id": "0cecfe48-7f32-499b-96f1-bcfe8049416c",
+          "commandId": "timetracker:reset-stopwatch"
+        },
+        {
           "name": "Untitled Capture Choice",
           "type": "NestedChoice",
           "id": "032d977e-6445-445a-85f7-b793f6250e70",
@@ -296,7 +302,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "- **{{DATE:YYYY-MM-DD}}** | **Công việc:** {{VALUE:task}} | **Bắt đầu:** {{TIME:HH:mm}}"
+              "format": " - **Kết thúc:** {{TIME:HH:mm}}"
             },
             "insertAfter": {
               "enabled": false,
