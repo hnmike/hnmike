@@ -302,7 +302,7 @@
             },
             "format": {
               "enabled": true,
-              "format": " - **END:** {{TIME:HH:mm}}"
+              "format": " - **End:** {{TIME:HH:mm}}"
             },
             "insertAfter": {
               "enabled": true,
