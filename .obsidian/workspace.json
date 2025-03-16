@@ -509,6 +509,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"scroll\":3.6493151939078556}"
+                },
+                {
+                  "title": "project metadata",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
+                },
+                {
                   "title": "Untitled 14",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14\"}",
@@ -946,7 +964,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 PARA/Project/data engineer 2/Untitled 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -2445,15 +2463,18 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
+    "20-30 PARA/Area/data/Untitled 1.md",
+    "data.md",
+    "20-30 PARA/Area/data/202503161042.md",
+    "00-09 system/template/project metadata.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/202503161122.md",
     "20-30 PARA/Area/data/dgGdg.md",
-    "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 3.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
@@ -2468,9 +2489,6 @@
     "20-30 PARA/Area/data/Untitled 3.md",
     "20-30 PARA/Area/data/gfdgd.md",
     "00-09 system/template/area_family template.md",
-    "20-30 PARA/Area/data/202503161042.md",
-    "00-09 system/homepage/Homepage.md",
-    "00-09 system/template/project_family template.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
