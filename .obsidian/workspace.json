@@ -704,6 +704,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":0},\"to\":{\"line\":62,\"ch\":0}},\"scroll\":46.21696884231703}"
+                },
+                {
                   "title": "Flowmo Log",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
@@ -744,12 +750,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "Flowmo Log"
             }
           }
         ],
@@ -1920,7 +1926,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 749.5
+    "width": 457.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1949,6 +1955,7 @@
   },
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
@@ -1977,7 +1984,6 @@
     "20-30 PARA/Area/data/202503161551.md",
     "20-30 PARA/Area/data/202503161557.md",
     "20-30 PARA/Area/data/202503161128.md",
-    "20-30 PARA/Area/data/202503161042.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
