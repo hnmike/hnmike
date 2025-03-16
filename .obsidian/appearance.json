@@ -11,8 +11,7 @@
     "removehighlight",
     "bulleththreading",
     "callout",
-    "headingsborder",
-    "custom_background"
+    "headingsborder"
   ],
   "theme": "obsidian",
   "cssTheme": "",
