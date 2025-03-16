@@ -18,7 +18,7 @@ tags:
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
 ---
-📋 Tasks & Activity
+##📋 Tasks & Activity
 
 ```calendar-nav
 ```
@@ -123,4 +123,4 @@ TABLE
 FROM ""
 WHERE file.mtime = date(this.file.name)
 SORT file.mtime DESC
-```
+``` 
