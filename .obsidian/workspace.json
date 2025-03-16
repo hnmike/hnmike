@@ -733,15 +733,38 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/homepage/Homepage.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Homepage"
             }
+          },
+          {
+            "id": "7aaad225235beb82",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/03/2025-03-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-16"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -2126,8 +2149,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "7aaad225235beb82",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "00-09 system/journal/daily/2025/03/2025-03-16.md",
     "2nd lesson of data engineer.md",
     "00-09 system/template/project metadata.md",
     "00-09 system/scripts/project files.js",
@@ -2153,8 +2178,6 @@
     "202503161550.md",
     "202503161549.md",
     "20-30 PARA/Area/data/202503161548.md",
-    "00-09 system/template/daily note template.md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
