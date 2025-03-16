@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":56,\"ch\":3},\"to\":{\"line\":56,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Homepage",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
@@ -616,12 +622,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "Homepage"
             }
           },
           {
@@ -2550,6 +2556,7 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/Untitled.md",
@@ -2575,7 +2582,6 @@
     "20-30 PARA/Area/data/202503161119.md",
     "20-30 PARA/Project/Untitled.md",
     "2025-03-16.md",
-    "Untitled 1.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
