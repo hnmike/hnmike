@@ -2014,7 +2014,17 @@
             }
           },
           {
-            "id": "535aa5fdc5e8229e",
+            "id": "88782818b9e173ed",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          },
+          {
+            "id": "3f39602d164f3bd0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2031,19 +2041,9 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
-          },
-          {
-            "id": "88782818b9e173ed",
-            "type": "leaf",
-            "state": {
-              "type": "toggl-report",
-              "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
-            }
           }
         ],
-        "currentTab": 61
+        "currentTab": 62
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2120,7 +2120,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "3f39602d164f3bd0",
   "lastOpenFiles": [
     "00-09 system/template/project metadata.md",
     "00-09 system/scripts/project files.js",
