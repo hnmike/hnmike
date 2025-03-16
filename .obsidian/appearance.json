@@ -12,7 +12,8 @@
     "bulleththreading",
     "callout",
     "headingsborder",
-    "heading border"
+    "heading border",
+    "clean_headings"
   ],
   "theme": "obsidian",
   "cssTheme": "",
