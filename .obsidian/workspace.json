@@ -120,6 +120,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 3",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 3.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 3\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":1.2542}"
+                },
+                {
+                  "title": "Untitled 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":0.2542372881355932}"
+                },
+                {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}}}"
+                },
+                {
                   "title": "202503161600",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161600.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161600\"}",
@@ -664,12 +682,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled.md",
+                "file": "20-30 PARA/Project/data engineer 2/202503161603.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "202503161603"
             }
           },
           {
@@ -781,7 +799,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161602.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -967,7 +985,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161602.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -1057,7 +1075,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161602.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":8.474576271186441}"
                 },
                 {
@@ -1141,7 +1159,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161602.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
                 },
                 {
@@ -1230,7 +1248,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/202503161602.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
                 },
                 {
@@ -2675,6 +2693,11 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer 2/Untitled 3.md",
+    "20-30 PARA/Project/data engineer 2/202503161603.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 2.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
+    "20-30 PARA/Project/data engineer 2/202503161602.md",
     "20-30 PARA/Project/data engineer 2/202503161600.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "20-30 PARA/Area/data/202503161549.md",
@@ -2692,16 +2715,11 @@
     "00-09 system/homepage/Homepage.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/block reference.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 3.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "00-09 system/template/project_note template.md",
     "20-30 PARA/Area/data/202503161129.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "202503161127.md",
     "data.md",
-    "20-30 PARA/Project/data engineer 2/Untitled.md",
-    "20-30 PARA/Area/data/dgGdg.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
