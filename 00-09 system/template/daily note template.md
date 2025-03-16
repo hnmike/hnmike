@@ -7,6 +7,9 @@ month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
 summary: 
 tags:
   - type/daily-note
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 
 # Daily Overview
