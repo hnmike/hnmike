@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":3},\"to\":{\"line\":129,\"ch\":3}},\"scroll\":0}"
+                },
+                {
                   "title": "Untitled 14 1",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 14 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 14 1\"}",
@@ -400,12 +406,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/Untitled 2.md",
+                "file": "20-30 PARA/Area/data/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "a6ec6b53015a15e2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           },
           {
@@ -639,7 +668,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -2052,17 +2081,17 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false
     }
   },
-  "active": "8703e9a4ef2a7a53",
+  "active": "a6ec6b53015a15e2",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/Untitled 1.md",
+    "Untitled 1.md",
+    "20-30 PARA/Area/data/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "20-30 PARA/Area/data/Untitled.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
-    "20-30 PARA/Area/data/Untitled 1.md",
-    "20-30 PARA/Area/data/Untitled 2.md",
     "20-30 PARA/Area/data/202503152238.md",
     "20-30 PARA/Area/data/Untitled 3.md",
-    "Untitled 1.md",
     "Untitled 12.md",
     "Untitled 13.md",
     "Untitled 14.md",
