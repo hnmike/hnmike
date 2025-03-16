@@ -6,6 +6,6 @@
   "showSeconds": true,
   "trimLeadingZeros": false,
   "lineBreakAfterInsert": false,
-  "textColor": "",
+  "textColor": "#dadada",
   "printFormat": ""
 }
