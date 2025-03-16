@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":78},\"to\":{\"line\":25,\"ch\":78}},\"scroll\":10.687736827109434}"
+                },
+                {
                   "title": "area_note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
@@ -562,12 +568,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "Untitled 3"
             }
           },
           {
@@ -2496,6 +2502,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/template/project_note template.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 3.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/202503161128.md",
     "20-30 PARA/Area/data/202503161129.md",
@@ -2509,11 +2517,9 @@
     "data.md",
     "00-09 system/template/project metadata.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
-    "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/dgGdg.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 3.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Area/data/202503161119.md",
