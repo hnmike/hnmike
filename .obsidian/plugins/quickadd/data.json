@@ -272,6 +272,12 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Flowmo End",
+      "id": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5",
+      "commands": [],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
