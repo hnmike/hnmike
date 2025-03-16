@@ -1,13 +1,3 @@
----
-Priority_Level: 
-Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-Tags: 
-Type: project_note
-Cssclasses: 
----
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area)):connections]` 
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
