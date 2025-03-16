@@ -120,6 +120,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":216,\"ch\":0},\"to\":{\"line\":216,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "project_note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
@@ -484,12 +490,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "20-30 PARA/Area/data/Untitled 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "Untitled 2"
             }
           },
           {
@@ -2138,6 +2144,8 @@
   },
   "active": "8703e9a4ef2a7a53",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "20-30 PARA/Area/data/Untitled 3.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/area_note template.md",
@@ -2164,8 +2172,6 @@
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "data.md",
-    "20-30 PARA/Area/data/202503152200.md",
-    "Untitled 11.md",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
     "00-09 system/template/project_family",
