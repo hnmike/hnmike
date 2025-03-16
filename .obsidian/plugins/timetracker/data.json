@@ -5,7 +5,7 @@
   "showMinutes": true,
   "showSeconds": true,
   "trimLeadingZeros": false,
-  "lineBreakAfterInsert": true,
+  "lineBreakAfterInsert": false,
   "textColor": "",
   "printFormat": ""
 }
