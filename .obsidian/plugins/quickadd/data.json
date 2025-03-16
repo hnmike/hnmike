@@ -269,6 +269,12 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Timetracker: Insert timestamp based on current stopwatch value",
+          "type": "Obsidian",
+          "id": "f34367f9-4e73-4b5a-bbbd-a4fa9960fcf6",
+          "commandId": "timetracker:insert-timestamp"
         }
       ],
       "runOnStartup": true
@@ -277,12 +283,6 @@
       "name": "Flowmo End",
       "id": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5",
       "commands": [
-        {
-          "name": "Timetracker: Reset the stopwatch",
-          "type": "Obsidian",
-          "id": "b8791c46-2c7b-440d-83c5-6ad72c6e4832",
-          "commandId": "timetracker:reset-stopwatch"
-        },
         {
           "name": "Untitled Capture Choice",
           "type": "NestedChoice",

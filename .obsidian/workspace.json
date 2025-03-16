@@ -821,7 +821,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:area/data/untitled_1",
+                "query": "flow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -851,7 +851,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1975,7 +1976,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9724b041fbc07aec",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
