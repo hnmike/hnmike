@@ -258,12 +258,12 @@
               "format": "- **{{DATE:YYYY-MM-DD}}** | **Công việc:** {{VALUE:task}} | **Bắt đầu:** {{TIME:HH:mm}} "
             },
             "insertAfter": {
-              "enabled": false,
+              "enabled": true,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
               "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
+              "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
             "task": false,
