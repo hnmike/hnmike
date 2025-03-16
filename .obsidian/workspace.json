@@ -1887,6 +1887,16 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "6432dee803dcd13b",
+            "type": "leaf",
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "clock",
+              "title": "Timetracker sidebar"
+            }
           }
         ],
         "currentTab": 52
