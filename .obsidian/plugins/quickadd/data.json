@@ -284,6 +284,12 @@
       "id": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5",
       "commands": [
         {
+          "name": "Timetracker: Reset the stopwatch",
+          "type": "Obsidian",
+          "id": "b8791c46-2c7b-440d-83c5-6ad72c6e4832",
+          "commandId": "timetracker:reset-stopwatch"
+        },
+        {
           "name": "Untitled Capture Choice",
           "type": "NestedChoice",
           "id": "01b25287-b8d1-48cc-acc1-55d45eb1c030",
