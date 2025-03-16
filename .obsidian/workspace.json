@@ -704,6 +704,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Flowmo Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Homepage",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
@@ -738,12 +744,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "00-09 system/template/daily note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flowmo Log"
+              "title": "daily note template"
             }
           }
         ],
@@ -1943,8 +1949,8 @@
   },
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/Log/Flowmo Log.md",
+    "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
     "Logs/Flowmo Log.md",
