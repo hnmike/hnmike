@@ -509,6 +509,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":3},\"to\":{\"line\":32,\"ch\":3}},\"scroll\":19.198148091634113}"
+                },
+                {
                   "title": "Untitled 2",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
@@ -849,12 +855,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
+                "file": "20-30 PARA/Project/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "Untitled"
             }
           },
           {
@@ -2349,8 +2355,9 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "00-09 system/template/project_note template.md",
+    "20-30 PARA/Project/Untitled.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Area/data/202503161107.md",
@@ -2374,7 +2381,6 @@
     "20-30 PARA/Area/data/202503152238.md",
     "Untitled 12.md",
     "Untitled 13.md",
-    "Untitled 14.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
