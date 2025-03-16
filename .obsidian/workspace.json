@@ -926,25 +926,6 @@
             }
           },
           {
-            "id": "bd5a56a23cfd3559",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "655666d18433a027",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1830,25 +1811,6 @@
             }
           },
           {
-            "id": "e84ed3d4f70aa61f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "a49afb0ea7e5cba4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1869,25 +1831,6 @@
           },
           {
             "id": "b2cef58f914fc2fb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "30c55d8a4b660006",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2049,7 +1992,7 @@
             }
           }
         ],
-        "currentTab": 62
+        "currentTab": 59
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2098,7 +2041,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 749.5
   },
   "left-ribbon": {
     "hiddenItems": {
