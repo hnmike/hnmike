@@ -60,8 +60,54 @@ limit 10
 
 <%tp.file.cursor()%>
 
+---
+```dataviewjs
+Const file = app.Vault.GetAbstractFileByPath ("Logs/Flowmo Log. Md");
+If (! File) {
+    Dv.Span ("Không tìm thấy Flowmo Log.");
+} else {
+    Const content = await app.Vault.Read (file);
+    Const lines = content.Split ("\n");
 
+    let sessions = [];
+    const today = moment().format("YYYY-MM-DD");
 
+    for (let i = 0; i < lines.length; i++) {
+        const matchStart = lines[i].match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
+        if (!matchStart) continue;
+
+        let [_, date, task, startTime] = matchStart;
+        if (date !== today) continue;
+
+        let endTime = null;
+        let duration = "—";
+        let breakTime = "—";
+
+        if (i + 1 < lines.length) {
+            const matchEnd = lines[i + 1].match(/\s*- \*\*Kết thúc:\*\* (\d{2}:\d{2})/);
+            if (matchEnd) {
+                endTime = matchEnd[1];
+                const startMoment = moment(startTime, "HH:mm");
+                const endMoment = moment(endTime, "HH:mm");
+                duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
+                breakTime = Math.round(duration / 5) + " phút";
+            }
+        }
+
+        sessions.push({
+            task,
+            start: startTime,
+            duration: duration !== "—" ? duration + " phút" : "—",
+            breakTime
+        });
+    }
+
+    dv.table(["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
+        sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
+    );
+}
+```
+---
 ````tabs
 
 tab: Today's Notes
