@@ -252,7 +252,7 @@
               "format": "- **{{DATE:YYYY-MM-DD}}** | **Task:** {{VALUE:task}} | **Start:** {{TIME:HH:mm}} "
             },
             "insertAfter": {
-              "enabled": true,
+              "enabled": false,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
@@ -269,6 +269,18 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "7e7473ea-846b-4ba0-9f63-1662fc8b320a",
+          "commandId": "timetracker:start-stop-stopwatch"
+        },
+        {
+          "name": "Timetracker: Reset the stopwatch",
+          "type": "Obsidian",
+          "id": "82643b4e-0be2-4590-9fe9-8d4880036a96",
+          "commandId": "timetracker:reset-stopwatch"
         }
       ],
       "runOnStartup": false
