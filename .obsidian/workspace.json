@@ -502,8 +502,14 @@
             "id": "4e594fb688665036",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "2025-03-16",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2025-03-16.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-16\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -819,12 +825,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161106.md",
+                "file": "20-30 PARA/Area/data/202503161107.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503161106"
+              "title": "202503161107"
             }
           },
           {
@@ -2319,8 +2325,10 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
+    "2025-03-16.md",
+    "20-30 PARA/Area/data/202503161107.md",
+    "Untitled 1.md",
     "20-30 PARA/Area/data/Untitled 4.md",
-    "20-30 PARA/Area/data/202503161106.md",
     "20-30 PARA/Area/data/Untitled 5.md",
     "00-09 system/template/area_note template.md",
     "20-30 PARA/Area/data/Untitled 3.md",
@@ -2333,7 +2341,6 @@
     "20-30 PARA/Area/data/dgGdg.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
-    "Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "20-30 PARA/Area/data/Untitled.md",
     "20-30 PARA/Area/data/202503161042.md",
@@ -2344,7 +2351,6 @@
     "Untitled 12.md",
     "Untitled 13.md",
     "Untitled 14.md",
-    "20-30 PARA/Area/data/202503152203.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
