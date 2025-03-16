@@ -302,15 +302,15 @@
             },
             "format": {
               "enabled": true,
-              "format": " - **Kết thúc:** {{TIME:HH:mm}}"
+              "format": " - **END:** {{TIME:HH:mm}}"
             },
             "insertAfter": {
-              "enabled": false,
+              "enabled": true,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
             "task": false,
@@ -322,6 +322,12 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "ceec2393-453c-480a-acb5-2c29715f55ee",
+          "commandId": "timetracker:start-stop-stopwatch"
         }
       ],
       "runOnStartup": false
