@@ -502,8 +502,14 @@
             "id": "4e594fb688665036",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -2156,10 +2162,11 @@
   },
   "active": "4e594fb688665036",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 14.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Area/data/Untitled.md",
-    "Untitled 1.md",
     "20-30 PARA/Area/data/202503161042.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Area/data/Untitled 2.md",
@@ -2170,7 +2177,6 @@
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/dgGdg.md",
     "20-30 PARA/Area/data/Untitled 1.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 14 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Area/data/202503152238.md",
     "Untitled 12.md",
