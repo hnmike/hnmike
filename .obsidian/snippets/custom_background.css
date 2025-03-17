@@ -282,12 +282,12 @@
  .markdown-preview-section h4,
  .markdown-preview-section h5,
  .markdown-preview-section h6 {
-     color: var(--accent-color) !important;
+     color: none !important;
      font-family: 'Ubuntu Sans', sans-serif !important;
      font-weight: 500 !important;
      border: none !important;
      background: transparent !important;
-     padding: 0 !important;
+     padding: 0none !important;
      margin: 1em 0 !important;
  }
 
