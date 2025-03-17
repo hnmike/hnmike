@@ -12,7 +12,7 @@ cssclasses:
   - hide-properties_reading
 ---
 
-# Daily Overview
+# Nagivation
 
 >[!meta]- Navigation
 >**⬅️ Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
