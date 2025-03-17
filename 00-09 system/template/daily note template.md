@@ -111,3 +111,20 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
   
   
 
+🔗 Related Notes
+
+```dataview
+
+TABLE
+
+    file.mtime as "Modified",
+
+    summary as "Summary"
+
+FROM ""
+
+WHERE file.mtime = date(this.file.name)
+
+SORT file.mtime DESC
+
+```
