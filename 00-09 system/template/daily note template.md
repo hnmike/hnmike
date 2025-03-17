@@ -63,7 +63,7 @@ limit 10
 ---
 ## 🍅 Tasks
 ```dataviewjs
-const file = app.vault.getAbstractFileByPath("00-09 systemFlowmo Log.md");
+const file = app.vault.getAbstractFileByPath("00-09 system/Log/Flowmo Log.md");
 if (!file) return dv.span("No Flowmo Log found.");
 
 const content = await app.vault.read(file);
