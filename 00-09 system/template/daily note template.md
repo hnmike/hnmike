@@ -64,19 +64,19 @@ limit 10
 ## 🍅 Flowmodoro Sessions
 ```dataviewjs
 try {
-    // Đọc trực tiếp nội dung file Flowmo Log.md
-    const filePath = "00-09 system/Log/Flowmo Log.md"; // Thay bằng đường dẫn chính xác nếu file nằm trong thư mục khác (ví dụ: "00-09 system/Log/Flowmo Log.md")
-    const content = await dv.io.load(filePath);
-    if (!content) {
-        dv.paragraph("*Không tìm thấy Flowmo Log hoặc file trống*");
+    // Đọc file từ vault
+    const pages = dv.pages('"00-09 system/Log/Flowmo Log.md"');
+    if (!pages.length) {
+        dv.paragraph("*Không tìm thấy Flowmo Log*");
         return;
     }
 
-    // Tách các dòng
-    const lines = content.split("\n").filter(line => line.trim());
-
-    let sessions = [];
     const today = new Date().toISOString().split('T')[0]; // Định dạng YYYY-MM-DD
+    let sessions = [];
+
+    // Lấy nội dung từ file
+    const content = pages[0].file.content;
+    const lines = content.split("\n").filter(line => line.trim());
 
     for (let i = 0; i < lines.length; i++) {
         // Kiểm tra dòng Start (hỗ trợ cả tiếng Việt và tiếng Anh)
@@ -85,7 +85,7 @@ try {
         );
         if (!matchStart) continue;
 
-        const [_, date, _, task, __, startTime] = matchStart;
+        const [_, date, __, task, ___, startTime] = matchStart;
         if (date !== today) continue;
 
         let endTime = null;
@@ -121,10 +121,19 @@ try {
             ["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
             sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
         );
+
+        // Hiển thị tổng thời gian
+        const totalWork = sessions.reduce((sum, s) => {
+            const duration = s.duration === "—" ? 0 : parseInt(s.duration);
+            return sum + duration;
+        }, 0);
+        
+        dv.paragraph(`**Tổng thời gian làm việc hôm nay:** ${totalWork} phút`);
+        dv.paragraph(`**Tổng thời gian nghỉ đề xuất:** ${Math.round(totalWork / 5)} phút`);
     }
 } catch (error) {
     dv.paragraph("Lỗi khi đọc Flowmo Log: " + error.message);
-    console.log("Error details:", error); // Debug trong Console
+    console.error("Error details:", error);
 }
 ```
 ---
