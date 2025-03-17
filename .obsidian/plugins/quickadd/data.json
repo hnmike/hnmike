@@ -314,14 +314,14 @@
             },
             "format": {
               "enabled": true,
-              "format": "-  **End:** {{TIME:HH:mm}}"
+              "format": "- **End:** {{TIME:HH:mm}}\""
             },
             "insertAfter": {
-              "enabled": false,
+              "enabled": true,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": false,
+              "createIfNotFound": true,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
