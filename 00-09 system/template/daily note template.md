@@ -61,87 +61,84 @@ limit 10
 <%tp.file.cursor()%>
 
 ---
+## 🍅 Flowmodoro Sessions
 ```dataviewjs
-Const file = app.Vault.GetAbstractFileByPath ("00-09 system/Log/Flowmo Log. Md");
-If (! File) {
-    Dv.Span ("Không tìm thấy Flowmo Log.");
-} else {
-    Const content = await app.Vault.Read (file);
-    Const lines = content.Split ("\n");
-
-    let sessions = [];
+try {
+    const pages = dv.pages('"00-09 system/Log/Flowmo Log.md"');
     const today = moment().format("YYYY-MM-DD");
+    let sessions = [];
 
-    for (let i = 0; i < lines.length; i++) {
-        const matchStart = lines[i].match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
-        if (!matchStart) continue;
+    for (const page of pages) {
+        const lists = page.file.lists;
+        if (!lists) continue;
 
-        let [_, date, task, startTime] = matchStart;
-        if (date !== today) continue;
+        for (const item of lists) {
+            const matchStart = item.text.match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
+            if (!matchStart) continue;
 
-        let endTime = null;
-        let duration = "—";
-        let breakTime = "—";
+            const [_, date, task, startTime] = matchStart;
+            if (date !== today) continue;
 
-        if (i + 1 < lines.length) {
-            const matchEnd = lines[i + 1].match(/\s*- \*\*Kết thúc:\*\* (\d{2}:\d{2})/);
-            if (matchEnd) {
-                endTime = matchEnd[1];
-                const startMoment = moment(startTime, "HH:mm");
-                const endMoment = moment(endTime, "HH:mm");
-                duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
-                breakTime = Math.round(duration / 5) + " phút";
+            let endTime = null;
+            let duration = "—";
+            let breakTime = "—";
+
+            if (item.children && item.children.length > 0) {
+                const matchEnd = item.children[0].text.match(/\*\*Kết thúc:\*\* (\d{2}:\d{2})/);
+                if (matchEnd) {
+                    endTime = matchEnd[1];
+                    const startMoment = moment(startTime, "HH:mm");
+                    const endMoment = moment(endTime, "HH:mm");
+                    duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
+                    breakTime = Math.round(duration / 5) + " phút";
+                }
             }
-        }
 
-        sessions.push({
-            task,
-            start: startTime,
-            duration: duration !== "—" ? duration + " phút" : "—",
-            breakTime
-        });
+            sessions.push({
+                task,
+                start: startTime,
+                duration: duration !== "—" ? duration + " phút" : "—",
+                breakTime
+            });
+        }
     }
 
-    dv.table(["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
-        sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
-    );
+    if (sessions.length === 0) {
+        dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
+    } else {
+        dv.table(
+            ["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
+            sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
+        );
+    }
+} catch (error) {
+    dv.paragraph("Lỗi khi đọc Flowmodoro Log: " + error.message);
 }
 ```
 ---
-````tabs
 
 tab: Today's Notes
 
 ```dataviewjs
-
 // Lấy ngày từ tên file daily note
-
 const today = dv.date(dv.current().file.name);
-
 const todayStr = today.toFormat("yyyy-MM-dd");
 
-  
-
 // Lấy tất cả các trang từ vault
-
 const pages = dv.pages();
 
-  
-
 // Lọc các ghi chú được tạo trong ngày hôm nay
-
 const notesToday = pages.filter(p => {
+    const creationDate = p.file.ctime;
+    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
+}).map(p => p.file.link);
 
-    const creationDate = p.file.ctime;
-
-    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
-
-});
+dv.list(notesToday);
 ```
 tab: Projects
 ```dataviewjs
 // Hiển thị projects theo priority
-Const priorities = {
+const priorities = {
     "1 Critical": [],
     "2 High": [],
     "3 Medium": [],
@@ -149,17 +146,25 @@ Const priorities = {
 };
 
 // Lấy tất cả projects
-Const projects = dv.Pages ('"20-30 PARA/Project"')
-    .where (p => p.type == "project_family" || p.type == "project_note")
-    .where (p => p.Status != "4 Completed");
+const projects = dv.pages('"20-30 PARA/Project"')
+    .where(p => p.type === "project_family" || p.type === "project_note")
+    .where(p => p.Status !== "4 Completed");
 
 // Phân loại theo priority
-Projects.ForEach (project => {
-    Const priority = project. Priority_Level || "4 Low";
-    If (priorities[priority]) {
-        Priorities[priority]. Push (project);
+for (const project of projects) {
+    const priority = project.Priority_Level || "4 Low";
+    if (priorities[priority]) {
+        priorities[priority].push(project.file.link);
     }
-});
+}
+
+// Hiển thị projects theo priority
+for (const priority in priorities) {
+    if (priorities[priority].length > 0) {
+        dv.header(3, priority);
+        dv.list(priorities[priority]);
+    }
+}
 ```
 ````
 
