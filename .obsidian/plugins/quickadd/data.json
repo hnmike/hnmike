@@ -308,7 +308,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "  - **End:** {{TIME:HH:mm}}\""
+              "format": "- **End:** {{TIME:HH:mm}}\""
             },
             "insertAfter": {
               "enabled": false,
