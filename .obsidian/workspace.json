@@ -804,8 +804,7 @@
               "title": "2025-03-17"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -960,12 +959,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-09 system/homepage/Homepage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Homepage"
             }
           },
           {
@@ -1272,7 +1272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1282,7 +1282,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for Homepage"
             }
           },
           {
@@ -1706,8 +1706,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/template/New note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
@@ -1736,7 +1737,6 @@
     "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
     "20-30 PARA/Area/data/202503161605.md",
-    "20-30 PARA/Project/data engineer 2/202503161603.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
