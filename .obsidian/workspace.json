@@ -600,7 +600,7 @@
               "type": "markdown",
               "state": {
                 "file": "20-30 PARA/Area/data/202503161128.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -809,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -964,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "20-30 PARA/Area/data/202503161128.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homepage"
+              "title": "Outline of 202503161128"
             }
           },
           {
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "20-30 PARA/Area/data/202503161128.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homepage"
+              "title": "Backlinks for 202503161128"
             }
           },
           {
@@ -1711,11 +1711,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "4e594fb688665036",
   "lastOpenFiles": [
+    "data.md",
+    "20-30 PARA/Area/data/202503161128.md",
+    "00-09 system/Log/Flowmo Log.md",
+    "00-09 system/homepage/Homepage.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
-    "00-09 system/Log/Flowmo Log.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Project/data engineer 2/202503161600.md",
@@ -1724,10 +1727,8 @@
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/scripts/project files.js",
-    "20-30 PARA/Area/data/202503161128.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
-    "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
     "Logs",
@@ -1741,7 +1742,6 @@
     "20-30 PARA/Area/data/202503161605.md",
     "20-30 PARA/Project/data engineer 2/202503161603.md",
     "20-30 PARA/Project/data engineer 2/Untitled 3.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
