@@ -809,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -964,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "file": "00-09 system/template/daily note template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-17"
+              "title": "Outline of daily note template"
             }
           },
           {
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "file": "00-09 system/template/daily note template.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-17"
+              "title": "Backlinks for daily note template"
             }
           },
           {
@@ -1711,12 +1711,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8531cc30a118845e",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
-    "2025-03-17.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 4.md",
+    "20-30 PARA/Project/data engineer 2/202503161600.md",
+    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/template/daily note template.md",
+    "2025-03-17.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
@@ -1735,13 +1737,11 @@
     "20-30 PARA/Area/data/202503161607.md",
     "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Area/data/202503161605.md",
     "20-30 PARA/Project/data engineer 2/202503161603.md",
     "20-30 PARA/Project/data engineer 2/Untitled 3.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
-    "20-30 PARA/Project/data engineer 2/202503161602.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
