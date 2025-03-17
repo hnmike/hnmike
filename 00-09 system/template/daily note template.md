@@ -160,7 +160,7 @@ for (const priority in priorities) {
 ````
 
 
-🔗 Related Notes
+
 ```dataview
 TABLE 
     file.mtime as "Modified",
