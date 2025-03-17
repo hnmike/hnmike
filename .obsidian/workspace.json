@@ -739,7 +739,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logs/Flowmo Log.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "mode": "source",
                 "source": false
               },
@@ -828,8 +828,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1840,6 +1839,15 @@
           {
             "id": "eda85848a72349b7",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "journal-calendar",
               "state": {},
@@ -1850,6 +1858,15 @@
           {
             "id": "6432dee803dcd13b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "timetracker-sidebar",
               "state": {},
@@ -1965,7 +1982,7 @@
     "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
-    "Logs/Flowmo Log.md",
+    "00-09 system/Log/Flowmo Log.md",
     "Logs",
     "00-09 system/journal/daily/2025/03/2025-03-16.md",
     "2nd lesson of data engineer.md",
