@@ -611,17 +611,17 @@
             "id": "f803eea8031d00df",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "2025-03-17",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2025-03-17.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-17\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Flowmo Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":19},\"to\":{\"line\":3,\"ch\":19}},\"scroll\":0}"
                 },
                 {
                   "title": "daily note template",
@@ -688,12 +688,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "2025-03-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flowmo Log"
+              "title": "2025-03-17"
             }
           },
           {
@@ -927,6 +927,30 @@
             }
           },
           {
+            "id": "76e00f65728bb98b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-03-17.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-03-17"
+            }
+          },
+          {
             "id": "a443626541e257cd",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -985,30 +1009,6 @@
               "state": {},
               "icon": "microscope",
               "title": "You and Your Research"
-            }
-          },
-          {
-            "id": "76e00f65728bb98b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Flowmo Log"
             }
           },
           {
@@ -1254,7 +1254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/01/2025-01-05.md",
+                "file": "2025-03-17.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1264,7 +1264,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-05"
+              "title": "Backlinks for 2025-03-17"
             }
           },
           {
@@ -1591,9 +1591,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "1f04370fcd17e1a8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 36
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1642,7 +1661,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 953.5
+    "width": 729.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1671,9 +1690,9 @@
   },
   "active": "f803eea8031d00df",
   "lastOpenFiles": [
-    "00-09 system/template/daily note template.md",
-    "00-09 system/Log/Flowmo Log.md",
     "2025-03-17.md",
+    "00-09 system/Log/Flowmo Log.md",
+    "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "00-09 system/template/project_family template.md",
