@@ -61,7 +61,7 @@ limit 10
 <%tp.file.cursor()%>
 
 ---
-## 🍅 Ta
+## 🍅 Tasks
 ```dataviewjs
 try {
     // Thử tìm file ở các đường dẫn khác nhau
