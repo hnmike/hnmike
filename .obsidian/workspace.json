@@ -809,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -964,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of daily note template"
+              "title": "Outline of Flowmo Log"
             }
           },
           {
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for daily note template"
+              "title": "Backlinks for Flowmo Log"
             }
           },
           {
@@ -1711,10 +1711,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "f803eea8031d00df",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "00-09 system/template/daily note template.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Project/data engineer 2/202503161600.md",
