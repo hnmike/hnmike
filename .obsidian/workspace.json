@@ -983,13 +983,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Flowmo Log"
+              "title": "Outline"
             }
           },
           {
@@ -1165,25 +1164,6 @@
           },
           {
             "id": "6c5b4505059afbc6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a06128f3d9fc0ae4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1688,7 +1668,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 15
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1764,51 +1744,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "floating": {
-    "id": "8ec78897c794d7fd",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ce0e65890613e357",
-        "type": "window",
-        "children": [
-          {
-            "id": "29113f85eb1cceca",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "655666d18433a027",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 576,
-        "y": 68,
-        "width": 638,
-        "height": 603,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "f803eea8031d00df",
+  "active": "c574cb2f1685360b",
   "lastOpenFiles": [
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/template/daily note template.md",
