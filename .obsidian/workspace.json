@@ -1841,7 +1841,17 @@
             }
           },
           {
-            "id": "9724b041fbc07aec",
+            "id": "6432dee803dcd13b",
+            "type": "leaf",
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "clock",
+              "title": "Timetracker sidebar"
+            }
+          },
+          {
+            "id": "1beb8a2b2b34f5f6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1858,19 +1868,9 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
-          },
-          {
-            "id": "6432dee803dcd13b",
-            "type": "leaf",
-            "state": {
-              "type": "timetracker-sidebar",
-              "state": {},
-              "icon": "clock",
-              "title": "Timetracker sidebar"
-            }
           }
         ],
-        "currentTab": 52
+        "currentTab": 53
       },
       {
         "id": "e23e01481eaf6e93",
