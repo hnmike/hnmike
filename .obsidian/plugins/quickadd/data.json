@@ -311,11 +311,11 @@
               "format": "   - **End:** {{TIME:HH:mm}}\""
             },
             "insertAfter": {
-              "enabled": true,
+              "enabled": false,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": true,
+              "createIfNotFound": false,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
