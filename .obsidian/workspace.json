@@ -697,6 +697,29 @@
             }
           },
           {
+            "id": "8531cc30a118845e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-17"
+            }
+          },
+          {
             "id": "7f76749690c52c9f",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -786,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -941,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Flowmo Log"
+              "title": "Outline of 2025-03-17"
             }
           },
           {
@@ -1254,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1264,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Flowmo Log"
+              "title": "Backlinks for 2025-03-17"
             }
           },
           {
@@ -1688,12 +1711,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "8531cc30a118845e",
   "lastOpenFiles": [
-    "2025-03-17.md",
     "00-09 system/Log/Flowmo Log.md",
-    "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
+    "2025-03-17.md",
+    "00-09 system/template/daily note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
