@@ -253,10 +253,10 @@
             },
             "insertAfter": {
               "enabled": true,
-              "after": "",
+              "after": "# Log",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": true,
+              "createIfNotFound": false,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
