@@ -64,70 +64,71 @@ limit 10
 ## 🍅 Flowmodoro Sessions
 ```dataviewjs
 try {
-    // Đọc file từ vault
     const pages = dv.pages('"00-09 system/Log/Flowmo Log.md"');
     if (pages.length === 0) {
         dv.paragraph("*Không tìm thấy Flowmo Log*");
     } else {
-        const today = new Date().toISOString().split('T')[0]; // Định dạng YYYY-MM-DD
+        const today = new Date().toISOString().split('T')[0];
         let sessions = [];
 
-        // Lấy nội dung từ file
-        const content = pages[0].file.content;
-        const lines = content.split("\n").filter(line => line.trim());
+        // Lấy danh sách các mục từ file
+        const lists = pages[0].file.lists;
+        if (!lists) {
+            dv.paragraph("*Không có dữ liệu Flowmodoro*");
+        } else {
+            for (const item of lists) {
+                // Kiểm tra dòng Start
+                const matchStart = item.text.match(
+                    /\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Task:\*\* (.+?) \| \*\*Start:\*\* (\d{2}:\d{2})/
+                );
+                if (!matchStart) continue;
 
-        for (let i = 0; i < lines.length; i++) {
-            // Kiểm tra dòng Start (hỗ trợ cả tiếng Việt và tiếng Anh)
-            const matchStart = lines[i].match(
-                /\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*(Công việc|Task):\*\* (.+?) \| \*\*(Bắt đầu|Start):\*\* (\d{2}:\d{2})/
-            );
-            if (!matchStart) continue;
+                const [_, date, task, startTime] = matchStart;
+                if (date !== today) continue;
 
-            const [_, date, __, task, ___, startTime] = matchStart;
-            if (date !== today) continue;
+                let endTime = null;
+                let duration = "—";
+                let breakTime = "—";
 
-            let endTime = null;
-            let duration = "—";
-            let breakTime = "—";
-
-            // Kiểm tra dòng End ngay sau (hỗ trợ cả tiếng Việt và tiếng Anh)
-            if (i + 1 < lines.length) {
-                const matchEnd = lines[i + 1].match(/\s*- \*\*(Kết thúc|End):\*\* (\d{2}:\d{2})/);
-                if (matchEnd) {
-                    endTime = matchEnd[2];
-                    const startDateTime = new Date(`${today} ${startTime}`);
-                    const endDateTime = new Date(`${today} ${endTime}`);
-                    duration = Math.round((endDateTime - startDateTime) / (1000 * 60)); // Chuyển sang phút
-                    if (duration < 0) duration += 24 * 60; // Xử lý qua ngày
-                    breakTime = Math.round(duration / 5) + " phút";
+                // Kiểm tra End time từ children
+                if (item.children && item.children.length > 0) {
+                    const matchEnd = item.children[0].text.match(/\*\*End:\*\* (\d{2}:\d{2})/);
+                    if (matchEnd) {
+                        endTime = matchEnd[1];
+                        const startDateTime = new Date(`${today} ${startTime}`);
+                        const endDateTime = new Date(`${today} ${endTime}`);
+                        duration = Math.round((endDateTime - startDateTime) / (1000 * 60));
+                        if (duration < 0) duration += 24 * 60;
+                        breakTime = Math.round(duration / 5) + " phút";
+                    }
                 }
+
+                sessions.push({
+                    task,
+                    start: startTime,
+                    duration: duration !== "—" ? duration + " phút" : "—",
+                    breakTime
+                });
             }
 
-            sessions.push({
-                task,
-                start: startTime,
-                duration: duration !== "—" ? duration + " phút" : "—",
-                breakTime
-            });
-        }
+            // Hiển thị kết quả
+            if (sessions.length === 0) {
+                dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
+            } else {
+                dv.table(
+                    ["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
+                    sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
+                );
 
-        // Hiển thị kết quả
-        if (sessions.length === 0) {
-            dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
-        } else {
-            dv.table(
-                ["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
-                sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
-            );
-
-            // Hiển thị tổng thời gian
-            const totalWork = sessions.reduce((sum, s) => {
-                const duration = s.duration === "—" ? 0 : parseInt(s.duration);
-                return sum + duration;
-            }, 0);
-            
-            dv.paragraph(`**Tổng thời gian làm việc hôm nay:** ${totalWork} phút`);
-            dv.paragraph(`**Tổng thời gian nghỉ đề xuất:** ${Math.round(totalWork / 5)} phút`);
+                // Tính tổng thời gian
+                const totalWork = sessions.reduce((sum, s) => {
+                    const duration = s.duration === "—" ? 0 : parseInt(s.duration);
+                    return sum + duration;
+                }, 0);
+                
+                dv.paragraph(`**Tổng thời gian làm việc hôm nay:** ${totalWork} phút`);
+                dv.paragraph(`**Tổng thời gian nghỉ đề xuất:** ${Math.round(totalWork / 5)} phút`);
+            }
         }
     }
 } catch (error) {
