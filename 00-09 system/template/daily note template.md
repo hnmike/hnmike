@@ -63,89 +63,48 @@ limit 10
 ---
 ## 🍅 Tasks
 ```dataviewjs
-try {
-    // Thử tìm file ở các đường dẫn khác nhau
-    let pages = dv.pages('"Logs/Flowmo Log.md"');
-    if (pages.length === 0) {
-        pages = dv.pages('"00-09 system/Log/Flowmo Log.md"');
-    }
-    
-    if (pages.length === 0) {
-        dv.paragraph("*Không tìm thấy Flowmo Log*");
-    } else {
-        const today = new Date().toISOString().split('T')[0];
-        let sessions = [];
-        const flowmoFile = pages[0];
-        const lists = flowmoFile.file.lists;
+const file = app.vault.getAbstractFileByPath("Flowmo Log.md");
+if (!file) return dv.span("No Flowmo Log found.");
 
-        if (!lists || lists.length === 0) {
-            dv.paragraph("*Không có dữ liệu Flowmodoro*");
-        } else {
-            for (const item of lists) {
-                const matchStart = item.text.match(
-                    /\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*(Task|Công việc):\*\* ([^|]+?) \| \*\*(Start|Bắt đầu):\*\* (\d{2}:\d{2})/i
-                );
-                if (!matchStart) {
-                    console.log("Không khớp với item:", item.text);
-                    continue;
-                }
+const content = await app.vault.read(file);
+const lines = content.split("\n");
 
-                const [_, date, taskLabel, task, startLabel, startTime] = matchStart;
-                if (date !== today) continue;
+let sessions = [];
+const today = moment().format("YYYY-MM-DD");
 
-                let endTime = null;
-                let duration = "—";
-                let breakTime = "—";
+for (let i = 0; i < lines.length; i++) {
+    const matchStart = lines[i].match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Task:\*\* (.+?) \| \*\*Start:\*\* (\d{2}:\d{2})/);
+    if (!matchStart) continue;
 
-                if (item.children && item.children.length > 0) {
-                    const childText = item.children[0].text;
-                    const matchEnd = childText.match(/\*\*(End|Kết thúc):\*\* (\d{2}:\d{2})/i);
-                    if (matchEnd) {
-                        endTime = matchEnd[2];
-                        const startDateTime = new Date(`${today}T${startTime}:00`);
-                        const endDateTime = new Date(`${today}T${endTime}:00`);
-                        duration = Math.round((endDateTime - startDateTime) / (1000 * 60));
-                        if (duration < 0) duration += 24 * 60;
-                        breakTime = Math.round(duration / 5) + " phút";
-                    } else {
-                        console.log("Không tìm thấy End trong child:", childText);
-                    }
-                } else {
-                    console.log("Không có children cho item:", item.text);
-                }
+    let [_, date, task, startTime] = matchStart;
+    if (date !== today) continue;
 
-                sessions.push({
-                    task: task.trim(),
-                    start: startTime,
-                    duration: duration !== "—" ? duration + " phút" : "—",
-                    breakTime
-                });
-            }
+    let endTime = null;
+    let duration = "—";
+    let breakTime = "—";
 
-            console.log(`Tìm thấy ${sessions.length} phiên làm việc`, sessions);
-
-            if (sessions.length === 0) {
-                dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
-            } else {
-                dv.table(
-                    ["Công việc", "Thời gian bắt đầu", "Thời gian làm việc", "Thời gian nghỉ"],
-                    sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
-                );
-
-                const totalWork = sessions.reduce((sum, s) => {
-                    const duration = s.duration === "—" ? 0 : parseInt(s.duration);
-                    return sum + duration;
-                }, 0);
-                
-                dv.paragraph(`**Tổng thời gian làm việc hôm nay:** ${totalWork} phút`);
-                dv.paragraph(`**Tổng thời gian nghỉ đề xuất:** ${Math.round(totalWork / 5)} phút`);
-            }
+    if (i + 1 < lines.length) {
+        const matchEnd = lines[i + 1].match(/\*\*End:\*\* (\d{2}:\d{2})/);
+        if (matchEnd) {
+            endTime = matchEnd[1];
+            const startMoment = moment(startTime, "HH:mm");
+            const endMoment = moment(endTime, "HH:mm");
+            duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
+            breakTime = Math.round(duration / 5) + " min"; // rounded to nearest minute
         }
     }
-} catch (error) {
-    dv.paragraph("Lỗi khi đọc Flowmo Log: " + error.message);
-    console.error("Error details:", error);
+
+    sessions.push({
+        task,
+        start: startTime,
+        duration: duration !== "—" ? duration + " min" : "—",
+        breakTime
+    });
 }
+
+dv.table(["Task", "Start Time", "Duration", "Break Time"],
+    sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
+);
 ```
 ---
 ````
