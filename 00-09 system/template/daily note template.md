@@ -53,7 +53,7 @@ limit 10
 
 
 ---
-## Log
+## 🌱 Log
 ---
 
  Daily Notes
