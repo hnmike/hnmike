@@ -258,14 +258,14 @@
               "format": "- **{{DATE:YYYY-MM-DD}}** | **Task:** {{VALUE:task}} | **Start:** {{TIME:HH:mm}} "
             },
             "insertAfter": {
-              "enabled": true,
+              "enabled": false,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
               "createIfNotFound": true,
               "createIfNotFoundLocation": "bottom"
             },
-            "prepend": false,
+            "prepend": true,
             "task": false,
             "openFileInNewTab": {
               "enabled": false,
@@ -318,7 +318,7 @@
               "createIfNotFound": false,
               "createIfNotFoundLocation": "bottom"
             },
-            "prepend": false,
+            "prepend": true,
             "task": false,
             "openFileInNewTab": {
               "enabled": false,
