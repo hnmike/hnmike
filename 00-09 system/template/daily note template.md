@@ -64,45 +64,56 @@ limit 10
 ## 🍅 Flowmodoro Sessions
 ```dataviewjs
 try {
-    const pages = dv.pages('"00-09 system/Log/Flowmo Log.md"');
-    const today = moment().format("YYYY-MM-DD");
-    let sessions = [];
-
-    for (const page of pages) {
-        const lists = page.file.lists;
-        if (!lists) continue;
-
-        for (const item of lists) {
-            const matchStart = item.text.match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
-            if (!matchStart) continue;
-
-            const [_, date, task, startTime] = matchStart;
-            if (date !== today) continue;
-
-            let endTime = null;
-            let duration = "—";
-            let breakTime = "—";
-
-            if (item.children && item.children.length > 0) {
-                const matchEnd = item.children[0].text.match(/\*\*Kết thúc:\*\* (\d{2}:\d{2})/);
-                if (matchEnd) {
-                    endTime = matchEnd[1];
-                    const startMoment = moment(startTime, "HH:mm");
-                    const endMoment = moment(endTime, "HH:mm");
-                    duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
-                    breakTime = Math.round(duration / 5) + " phút";
-                }
-            }
-
-            sessions.push({
-                task,
-                start: startTime,
-                duration: duration !== "—" ? duration + " phút" : "—",
-                breakTime
-            });
-        }
+    // Đọc trực tiếp nội dung file Flowmo Log.md
+    const filePath = "00-09 system/Log/Flowmo Log.md"; // Thay bằng đường dẫn chính xác nếu file nằm trong thư mục khác (ví dụ: "00-09 system/Log/Flowmo Log.md")
+    const content = await dv.io.load(filePath);
+    if (!content) {
+        dv.paragraph("*Không tìm thấy Flowmo Log hoặc file trống*");
+        return;
     }
 
+    // Tách các dòng
+    const lines = content.split("\n").filter(line => line.trim());
+
+    let sessions = [];
+    const today = new Date().toISOString().split('T')[0]; // Định dạng YYYY-MM-DD
+
+    for (let i = 0; i < lines.length; i++) {
+        // Kiểm tra dòng Start (hỗ trợ cả tiếng Việt và tiếng Anh)
+        const matchStart = lines[i].match(
+            /\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*(Công việc|Task):\*\* (.+?) \| \*\*(Bắt đầu|Start):\*\* (\d{2}:\d{2})/
+        );
+        if (!matchStart) continue;
+
+        const [_, date, _, task, __, startTime] = matchStart;
+        if (date !== today) continue;
+
+        let endTime = null;
+        let duration = "—";
+        let breakTime = "—";
+
+        // Kiểm tra dòng End ngay sau (hỗ trợ cả tiếng Việt và tiếng Anh)
+        if (i + 1 < lines.length) {
+            const matchEnd = lines[i + 1].match(/\s*- \*\*(Kết thúc|End):\*\* (\d{2}:\d{2})/);
+            if (matchEnd) {
+                endTime = matchEnd[2];
+                const startDateTime = new Date(`${today} ${startTime}`);
+                const endDateTime = new Date(`${today} ${endTime}`);
+                duration = Math.round((endDateTime - startDateTime) / (1000 * 60)); // Chuyển sang phút
+                if (duration < 0) duration += 24 * 60; // Xử lý qua ngày
+                breakTime = Math.round(duration / 5) + " phút";
+            }
+        }
+
+        sessions.push({
+            task,
+            start: startTime,
+            duration: duration !== "—" ? duration + " phút" : "—",
+            breakTime
+        });
+    }
+
+    // Hiển thị kết quả
     if (sessions.length === 0) {
         dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
     } else {
@@ -112,7 +123,8 @@ try {
         );
     }
 } catch (error) {
-    dv.paragraph("Lỗi khi đọc Flowmodoro Log: " + error.message);
+    dv.paragraph("Lỗi khi đọc Flowmo Log: " + error.message);
+    console.log("Error details:", error); // Debug trong Console
 }
 ```
 ---
