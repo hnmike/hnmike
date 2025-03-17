@@ -969,6 +969,25 @@
             }
           },
           {
+            "id": "1cfcfacecbd380df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "react-view",
+              "state": {},
+              "icon": "microscope",
+              "title": "You and Your Research"
+            }
+          },
+          {
             "id": "76e00f65728bb98b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1126,64 +1145,7 @@
             }
           },
           {
-            "id": "eae27b88c87f6934",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e662dbb4aa561fc8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "6c5b4505059afbc6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "c574cb2f1685360b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1222,25 +1184,6 @@
           },
           {
             "id": "892405f223b8cf91",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "3a6ce679119818af",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1360,25 +1303,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-            }
-          },
-          {
-            "id": "1cfcfacecbd380df",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "react-view",
-              "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
             }
           },
           {
@@ -1669,7 +1593,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 4
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1718,7 +1642,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 953.5
   },
   "left-ribbon": {
     "hiddenItems": {
