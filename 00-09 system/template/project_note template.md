@@ -29,37 +29,40 @@ Cssclasses:
 
 ## 🍅 Flowmodoro Sessions
 ```dataviewjs
-const file = dv.page("Logs/Flowmo Log.md");
-if (!file) {
+// Đọc file Flowmo Log
+const logContent = await dv.io.load("Logs/Flowmo Log.md");
+if (!logContent) {
     dv.paragraph("Không tìm thấy Flowmo Log");
     return;
 }
 
 const today = dv.date("today").toFormat("yyyy-MM-dd");
-const sessions = file.file.lists
-    .filter(t => t.text.includes(today))
-    .map(t => {
-        const match = t.text.match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
-        if (!match) return null;
-        
-        const [_, date, task, start] = match;
-        const end = t.children?.[0]?.text.match(/\*\*Kết thúc:\*\* (\d{2}:\d{2})/)?.[1];
-        
-        if (!end) return null;
-        
-        const duration = moment.duration(
-            moment(end, "HH:mm").diff(moment(start, "HH:mm"))
-        ).asMinutes();
-        
-        return {
-            task,
-            start,
-            end,
-            duration,
-            break: Math.round(duration / 5)
-        };
-    })
-    .filter(s => s !== null);
+const lines = logContent.split("\n");
+const sessions = [];
+
+for (let i = 0; i < lines.length; i++) {
+    const startMatch = lines[i].match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Công việc:\*\* (.+?) \| \*\*Bắt đầu:\*\* (\d{2}:\d{2})/);
+    if (!startMatch || startMatch[1] !== today) continue;
+    
+    const [_, date, task, start] = startMatch;
+    
+    // Tìm thời gian kết thúc trong dòng tiếp theo
+    const endMatch = (lines[i + 1] || "").match(/\s*- \*\*Kết thúc:\*\* (\d{2}:\d{2})/);
+    if (!endMatch) continue;
+    
+    const end = endMatch[1];
+    const duration = moment.duration(
+        moment(end, "HH:mm").diff(moment(start, "HH:mm"))
+    ).asMinutes();
+    
+    sessions.push({
+        task,
+        start,
+        end,
+        duration,
+        break: Math.round(duration / 5)
+    });
+}
 
 if (sessions.length === 0) {
     dv.paragraph("*Chưa có phiên Flowmodoro nào hôm nay*");
