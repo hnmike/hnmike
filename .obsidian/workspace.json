@@ -748,7 +748,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1970,11 +1970,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "4e594fb688665036",
   "lastOpenFiles": [
+    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
-    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/scripts/project files.js",
     "20-30 PARA/Area/data/202503161128.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
@@ -1982,7 +1982,6 @@
     "00-09 system/homepage/Homepage.md",
     "00-09 system/Log",
     "00-09 system/Untitled.md",
-    "00-09 system/Log/Flowmo Log.md",
     "Logs",
     "00-09 system/journal/daily/2025/03/2025-03-16.md",
     "2nd lesson of data engineer.md",
