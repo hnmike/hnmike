@@ -947,8 +947,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -1894,7 +1894,7 @@
             }
           }
         ],
-        "currentTab": 53
+        "currentTab": 4
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1943,7 +1943,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 987.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1970,7 +1970,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "655666d18433a027",
   "lastOpenFiles": [
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
