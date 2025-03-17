@@ -611,16 +611,16 @@
             "id": "f803eea8031d00df",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "202503161107",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161107.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161107\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
-                  "state": "{}",
+                  "title": "project files",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/scripts/project files.js\"},\"icon\":\"lucide-file\",\"title\":\"project files\"}",
                   "eState": "{}"
                 },
                 {
@@ -656,12 +656,14 @@
               ]
             },
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "00-09 system/scripts/project files.js"
+                "file": "00-09 system/template/daily note template.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "project files"
+              "title": "daily note template"
             }
           },
           {
@@ -754,7 +756,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1976,13 +1978,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "f803eea8031d00df",
   "lastOpenFiles": [
+    "00-09 system/scripts/project files.js",
+    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/Log/Flowmo Log.md",
     "20-30 PARA/Area/data/202503161128.md",
-    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
-    "00-09 system/scripts/project files.js",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
