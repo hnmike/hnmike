@@ -801,7 +801,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -809,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -964,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161128.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 202503161128"
+              "title": "Outline of 2025-03-17"
             }
           },
           {
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161128.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 202503161128"
+              "title": "Backlinks for 2025-03-17"
             }
           },
           {
@@ -1711,11 +1711,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4e594fb688665036",
+  "active": "7a3d570af38d0df4",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/homepage/Homepage.md",
-    "20-30 PARA/Area/data/202503161128.md",
     "data.md",
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/template/daily note template.md",
