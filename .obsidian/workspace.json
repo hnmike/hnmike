@@ -675,6 +675,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Flowmo Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":51},\"to\":{\"line\":3,\"ch\":51}},\"scroll\":0}"
+                },
+                {
                   "title": "2025-03-17",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-17.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-17\"}",
@@ -739,12 +745,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flowmo Log"
+              "title": "2025-03-17"
             }
           }
         ],
@@ -1943,7 +1949,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 987.5
+    "width": 910.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1970,10 +1976,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "655666d18433a027",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
-    "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
+    "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/scripts/project files.js",
