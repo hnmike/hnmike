@@ -618,6 +618,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Flowmo Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "daily note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
@@ -682,35 +688,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "2025-03-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flowmo Log"
+              "title": "2025-03-17"
             }
           },
           {
             "id": "7f76749690c52c9f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "2025-03-17",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-17.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-17\"}",
+                  "eState": "{\"scroll\":82.2761867880234}"
                 },
                 {
                   "title": "Flowmo Log",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":51},\"to\":{\"line\":3,\"ch\":51}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "title": "2025-03-17",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-17.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-17\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":52},\"to\":{\"line\":64,\"ch\":52}},\"scroll\":49.898849925895675}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "daily note template",
@@ -769,14 +775,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-03-17"
+              "title": "New tab"
             }
           }
         ],
@@ -1926,7 +1928,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2002,15 +2004,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "d8ac700411aeb803",
   "lastOpenFiles": [
+    "2025-03-17.md",
+    "00-09 system/Log/Flowmo Log.md",
+    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/scripts/project files.js",
-    "00-09 system/journal/daily/2025/03/2025-03-17.md",
-    "00-09 system/Log/Flowmo Log.md",
     "20-30 PARA/Area/data/202503161128.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
@@ -2032,7 +2035,6 @@
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/202503161602.md",
-    "20-30 PARA/Project/data engineer 2/202503161600.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
