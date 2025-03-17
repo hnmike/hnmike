@@ -21,7 +21,7 @@ cssclasses:
 >**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
 ---
-## 📋 Overv8ew
+## 📋 Overview
 
 ```calendar-nav
 ```
