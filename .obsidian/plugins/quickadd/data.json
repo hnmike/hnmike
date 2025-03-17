@@ -134,7 +134,7 @@
       "insertAfter": {
         "enabled": true,
         "after": "## Log",
-        "insertAtEnd": true,
+        "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
