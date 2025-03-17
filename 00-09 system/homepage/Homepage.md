@@ -67,7 +67,7 @@ renderProgressBar();
 >>  - priority
 >> ```
 >
->> [!homepagetodoistoff]+ Add Vault Task
+>> [!homepagetodoistoff]+ Goal
 >> ```dataviewjs
 >> dv.view("SYSTEM/TEMPLATE/CSS/Timeline", {
 >>     pages: "", 
