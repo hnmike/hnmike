@@ -809,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -964,13 +964,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-17"
+              "title": "Outline of Homepage"
             }
           },
           {
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-17"
+              "title": "Backlinks for Homepage"
             }
           },
           {
@@ -1711,12 +1711,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7a3d570af38d0df4",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/homepage/Homepage.md",
-    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "20-30 PARA/Area/data/202503161128.md",
     "data.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
