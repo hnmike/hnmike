@@ -126,7 +126,7 @@ const notesToday = pages.filter(p => {
 
 dv.list(notesToday);
 ```
-tab: Projects
+tab:🐹 Projects
 ```dataviewjs
 // Hiển thị projects theo priority
 const priorities = {
