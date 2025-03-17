@@ -983,13 +983,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git push and create new repository from a project (202412052057).md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git push and create new repository from a project (202412052057)"
+              "title": "Outline of Flowmo Log"
             }
           },
           {
@@ -1737,7 +1737,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1031.5
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1808,7 +1808,7 @@
       }
     ]
   },
-  "active": "892405f223b8cf91",
+  "active": "f803eea8031d00df",
   "lastOpenFiles": [
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/template/daily note template.md",
