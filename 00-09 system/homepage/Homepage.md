@@ -58,16 +58,63 @@ renderProgressBar();
 ```
 
 > [!multi-column]
->> [!homepagetodoiston]+ Tasks from Todoist
->> ```todoist  
->> filter: "#Everyday"
->> project:Inbox limit: 4
->> sorting:
->>  - date
->>  - priority
+>> [!todo]+ Project Tracking
+>> ```dataviewjs
+>> function ProgressBar(note) {
+>>     // Lấy tất cả project notes trong thư mục của project family này
+>>     const folder = note.file.folder;
+>>     const projectNotes = dv.pages(`"${folder}"`)
+>>         .where(p => p.type === "project_note");
+>> 
+>>     // Tính toán tiến độ dựa trên số project notes có trạng thái "4 Completed"
+>>     const totalProjects = projectNotes.length;
+>>     const completedProjects = projectNotes.filter(p => p.Status === "4 Completed").length;
+>>     const projectProgress = totalProjects > 0 ? Math.round((completedProjects / totalProjects) * 100) : 0;
+>>     const remainingProjects = totalProjects - completedProjects;
+>> 
+>>     // Tính toán tiến độ dựa trên tasks trong tất cả project notes
+>>     const allTasks = projectNotes.file.tasks; // Lấy tất cả tasks từ các project notes
+>>     const totalTasks = allTasks.length;
+>>     const completedTasks = allTasks.where(t => t.completed).length;
+>>     const taskProgress = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
+>>     const remainingTasks = totalTasks - completedTasks;
+>> 
+>>     // Tính tiến độ tổng hợp (trung bình của projectProgress và taskProgress)
+>>     const overallProgress = totalProjects > 0 || totalTasks > 0 ? Math.round((projectProgress + taskProgress) / 2) : 0;
+>> 
+>>     return `<div style="font-size:0.9em;">
+>>         ${overallProgress}% (Projects: ${completedProjects}/${totalProjects}, Tasks: ${completedTasks}/${totalTasks})
+>>         <progress value="${overallProgress}" max="100" style="width:100px;" class="nyan-cat"></progress>
+>>     </div>`;
+>> }
+>> 
+>> dv.table(['Project Family', 'Status', 'Priority', 'Progress', 'Created', 'Due'],
+>>  dv.pages()
+>>  .where(p => p.type === "project_family")
+>>  .where(p => !p.file.path.includes('00-09')) // Loại trừ các file trong thư mục 00-09
+>>  .sort(p => {
+>>     const statusOrder = {
+>>         "1 To Do": 1,
+>>         "2 In Progress": 2,
+>>         "3 Testing": 3,
+>>         "4 Completed": 4,
+>>         "5 Blocked": 5,
+>>         "": 6
+>>     };
+>>     return statusOrder[p.Status] || 999;
+>>  })
+>>  .map(p => [
+>>   p.file.link,
+>>   p.Status || "No Status",
+>>   p.Priority_Level || "-",
+>>   ProgressBar(p),
+>>   p.Date_Created ? dv.date(p.Date_Created).toFormat("dd-MM-yyyy") : "-",
+>>   p.Due_Date ? dv.date(p.Due_Date).toFormat("dd-MM-yyyy") : "-"
+>>  ])
+>> )
 >> ```
 >
->> [!homepagetodoistoff]+ Goal
+>> [!homepagetodoistoff]+ Add Vault Task
 >> ```dataviewjs
 >> dv.view("SYSTEM/TEMPLATE/CSS/Timeline", {
 >>     pages: "", 
@@ -79,6 +126,9 @@ renderProgressBar();
 >>     options: "noYear todayFocus todoFilter noFile"
 >> })
 >> ```
+
+
+
 `````````````tabs
 tab: .................................................................
 tab: Development
@@ -215,7 +265,288 @@ New tab content
 `````````````
 
 
-```toggl
-SUMMARY
-PAST 7 DAYS
+
+
+```js-engine
+// Configuration
+const CONFIG = {
+    iconPlugin: 'iconic',
+    defaultCheckedIcon: 'lucide-check-circle',
+    defaultUncheckedIcon: 'lucide-circle',
+    statusProperty: 'Status',
+    closedProperty: 'closed',
+    previousStatusProperty: '_previous_status',
+    completedStatus: '4 Completed',
+    defaultStatus: '1 To Do',
+    projectsFolderPath: 'PARA/PROJECTS/',
+    dateFormat: 'YYYY-MM-DD[T]HH:mm'
+};
+
+// Helper functions
+const isInProjectsFolder = (filePath) => {
+    return filePath.startsWith(CONFIG.projectsFolderPath);
+};
+
+const getIconPlugin = () => app.plugins.getPlugin(CONFIG.iconPlugin);
+
+const updateFrontmatter = async (file, updateFn) => {
+    await app.fileManager.processFrontMatter(file, updateFn);
+};
+
+const applyIcon = (filePath, icon) => {
+    const iconPlugin = getIconPlugin();
+    iconPlugin.saveFileIcon({ id: filePath }, icon, null);
+    iconPlugin.refreshIconManagers();
+};
+
+const getCurrentDate = () => {
+    return moment().format(CONFIG.dateFormat);
+};
+
+// Main function to apply the correct icon based on 'Status'
+const applyIconBasedOnStatus = async () => {
+    const file = app.workspace.getActiveFile();
+    if (!file || !isInProjectsFolder(file.path)) return;
+
+    const fileCache = app.metadataCache.getFileCache(file);
+    const fm = fileCache?.frontmatter || {};
+    const currentStatus = fm[CONFIG.statusProperty];
+    const previousStatus = fm[CONFIG.previousStatusProperty];
+
+    let icon = CONFIG.defaultUncheckedIcon;
+
+    if (currentStatus === CONFIG.completedStatus) {
+        icon = CONFIG.defaultCheckedIcon;
+        await updateCompletedStatus(file, previousStatus);
+    } else {
+        await handleNonCompletedStatus(file, currentStatus, previousStatus);
+    }
+
+    applyIcon(file.path, icon);
+};
+
+const updateCompletedStatus = async (file, previousStatus) => {
+    await updateFrontmatter(file, (fm) => {
+        if (fm[CONFIG.statusProperty] === CONFIG.completedStatus) {
+            fm[CONFIG.closedProperty] = getCurrentDate();
+            if (fm[CONFIG.previousStatusProperty] !== CONFIG.completedStatus) {
+                fm[CONFIG.previousStatusProperty] = fm[CONFIG.previousStatusProperty] || CONFIG.defaultStatus;
+            }
+        }
+        return fm;
+    });
+};
+
+const handleNonCompletedStatus = async (file, currentStatus, previousStatus) => {
+    await updateFrontmatter(file, (fm) => {
+        if (fm.hasOwnProperty(CONFIG.closedProperty)) {
+            delete fm[CONFIG.closedProperty];
+        }
+        if (currentStatus && currentStatus !== CONFIG.completedStatus && currentStatus !== previousStatus) {
+            fm[CONFIG.previousStatusProperty] = currentStatus;
+        }
+        return fm;
+    });
+};
+
+// Event listeners
+const setupEventListeners = () => {
+    app.metadataCache.on('changed', (file) => {
+        if (file.path === app.workspace.getActiveFile()?.path) {
+            applyIconBasedOnStatus();
+        }
+    });
+
+    app.workspace.on('file-open', applyIconBasedOnStatus);
+};
+
+// Initialize project management
+const initializeProjectManagement = () => {
+    setupEventListeners();
+    applyIconBasedOnStatus();
+};
+
+// Run the initialization
+initializeProjectManagement();
+```
+```js-engine
+// Configuration for Meeting Management
+const MEETING_CONFIG = {
+    iconPlugin: 'iconic',
+    defaultCheckedIcon: 'lucide-check-circle',
+    defaultUncheckedIcon: 'lucide-circle',
+    meetingStatusProperty: 'meeting_status',
+    closedProperty: 'closed',
+    meetingsFolderPath: 'PARA/RESOURCES/MEETINGS/',
+    dateFormat: 'YYYY-MM-DD[T]HH:mm'
+};
+
+// Helper functions
+const isInMeetingsFolder = (filePath) => {
+    return filePath.startsWith(MEETING_CONFIG.meetingsFolderPath);
+};
+
+const getMeetingIconPlugin = () => app.plugins.getPlugin(MEETING_CONFIG.iconPlugin);
+
+const updateMeetingFrontmatter = async (file, updateFn) => {
+    await app.fileManager.processFrontMatter(file, updateFn);
+};
+
+const applyMeetingIcon = (filePath, icon) => {
+    const iconPlugin = getMeetingIconPlugin();
+    if (iconPlugin) {
+        iconPlugin.saveFileIcon({ id: filePath }, icon, null);
+        iconPlugin.refreshIconManagers();
+    }
+};
+
+const getCurrentDate = () => {
+    return moment().format(MEETING_CONFIG.dateFormat);
+};
+
+// Main function to apply the correct icon based on 'meeting_status'
+const applyMeetingIconBasedOnStatus = async () => {
+    const file = app.workspace.getActiveFile();
+    if (!file || !isInMeetingsFolder(file.path)) return;
+
+    const fileCache = app.metadataCache.getFileCache(file);
+    const fm = fileCache?.frontmatter || {};
+    const meetingStatus = fm[MEETING_CONFIG.meetingStatusProperty];
+
+    let icon = MEETING_CONFIG.defaultUncheckedIcon;
+
+    if (meetingStatus === true) {
+        icon = MEETING_CONFIG.defaultCheckedIcon;
+        await updateMeetingCompleted(file);
+    } else {
+        await handleUncompletedMeeting(file);
+    }
+
+    applyMeetingIcon(file.path, icon);
+};
+
+const updateMeetingCompleted = async (file) => {
+    await updateMeetingFrontmatter(file, (fm) => {
+        fm[MEETING_CONFIG.closedProperty] = getCurrentDate();
+        return fm;
+    });
+};
+
+const handleUncompletedMeeting = async (file) => {
+    await updateMeetingFrontmatter(file, (fm) => {
+        if (fm.hasOwnProperty(MEETING_CONFIG.closedProperty)) {
+            delete fm[MEETING_CONFIG.closedProperty];
+        }
+        return fm;
+    });
+};
+
+// Event listeners for meetings
+const setupMeetingEventListeners = () => {
+    app.metadataCache.on('changed', (file) => {
+        if (file.path === app.workspace.getActiveFile()?.path) {
+            applyMeetingIconBasedOnStatus();
+        }
+    });
+
+    app.workspace.on('file-open', applyMeetingIconBasedOnStatus);
+};
+
+// Initialize meeting management
+const initializeMeetingManagement = () => {
+    setupMeetingEventListeners();
+    applyMeetingIconBasedOnStatus();
+};
+
+// Run the initialization
+initializeMeetingManagement();
+```
+
+
+
+
+```meta-bind-button
+label: Map of Contents
+icon: lucide-map-pinned
+hidden: true
+class: ""
+tooltip: Open Map of Content
+id: open_moc
+style: primary
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:HUB/Map of Content.md
+
+```
+```meta-bind-button
+label: Daily Note
+icon: lucide-calendar
+hidden: true
+class: ""
+tooltip: Open Daily Note
+id: open_daily_note
+style: primary
+actions:
+  - type: command
+    command: journals:journal:calendar:open-day
+
+```
+```meta-bind-button
+label: Create a Note
+icon: lucide-plus-circle
+hidden: true
+class: ""
+tooltip: Create a New Note
+id: create_new_note
+style: primary
+actions:
+  - type: command
+    command: quickadd:choice:a019f4b7-7f8e-4937-8069-7a9ad8c4b10e
+
+```
+```meta-bind-button
+label: Recent Files
+icon: lucide-navigation
+hidden: true
+class: ""
+tooltip: Open Quick Switcher
+id: quick_switcher
+style: primary
+actions:
+  - type: command
+    command: switcher:open
+
+```
+```meta-bind-button
+label: Mail Box
+icon: lucide-inbox
+hidden: true
+class: ""
+tooltip: Open Inbox
+id: open_inbox
+style: primary
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:HUB/Mail Box.md
+
+```
+```meta-bind-button
+label: Switch to Light Mode
+hidden: true
+id: light_mode
+style: destructive
+actions:
+  - type: command
+    command: theme:use-light
+tooltip: Switch to Light Mode
+```
+```meta-bind-button
+label: Switch to Dark Mode
+hidden: true
+id: dark_mode
+style: primary
+actions:
+  - type: command
+    command: theme:use-dark
+tooltip: Switch to Dark Mode
 ```
