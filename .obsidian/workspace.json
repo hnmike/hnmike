@@ -668,17 +668,17 @@
             "id": "7f76749690c52c9f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Flowmo Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/Log/Flowmo Log.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowmo Log\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":8},\"to\":{\"line\":67,\"ch\":8}},\"scroll\":163.6184456665136}"
                 },
                 {
                   "title": "Flowmo Log",
@@ -733,12 +733,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/Log/Flowmo Log.md",
+                "file": "00-09 system/template/daily note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flowmo Log"
+              "title": "daily note template"
             }
           }
         ],
@@ -1948,11 +1948,11 @@
   },
   "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/scripts/project files.js",
     "20-30 PARA/Area/data/202503161128.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "00-09 system/Log/Flowmo Log.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/homepage/Homepage.md",

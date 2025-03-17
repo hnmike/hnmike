@@ -240,7 +240,7 @@
             "type": "Capture",
             "command": false,
             "appendLink": false,
-            "captureTo": "Logs/Flowmo Log.md",
+            "captureTo": "00-09 system/Log/Flowmo Log.md",
             "captureToActiveFile": false,
             "createFileIfItDoesntExist": {
               "enabled": false,
@@ -253,10 +253,10 @@
             },
             "insertAfter": {
               "enabled": true,
-              "after": "# Log",
+              "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
-              "createIfNotFound": false,
+              "createIfNotFound": true,
               "createIfNotFoundLocation": "bottom"
             },
             "prepend": false,
