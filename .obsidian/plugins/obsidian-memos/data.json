@@ -44,7 +44,7 @@
   "ShowCommentOnMemos": false,
   "ShowLeftSideBar": false,
   "MemoListView": "list",
-  "MemoSaveLocation": "DAILY",
+  "MemoSaveLocation": "CANVAS",
   "MemoOtherSaveLocation": {
     "MemoDefaultCanvasPath": "basic.thino.canvas",
     "MemoDefaultMultiFilePath": "Thino",
