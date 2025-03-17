@@ -275,6 +275,12 @@
           "type": "Obsidian",
           "id": "c555560d-4214-4fdc-8a79-f6aafa04ba16",
           "commandId": "timetracker:reset-stopwatch"
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "5fdb6b48-5de9-466c-94e8-3e0069fd5b55",
+          "commandId": "timetracker:start-stop-stopwatch"
         }
       ],
       "runOnStartup": true
