@@ -108,9 +108,10 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
 ```
 ---
 ````
-```
 
-tab: 🐹 Today's Notes
+tab: Today's Notes
+
+  
 
 ```dataviewjs
 
@@ -144,9 +145,7 @@ dv.list(notesToday);
 
 ```
 
-  
-
-tab: 🐹 Projects
+tab: Projects
 
 ```dataviewjs
 
@@ -210,5 +209,23 @@ for (const priority in priorities) {
 
 ````
 
+  
+  
 
+🔗 Related Notes
 
+```dataview
+
+TABLE
+
+    file.mtime as "Modified",
+
+    summary as "Summary"
+
+FROM ""
+
+WHERE file.mtime = date(this.file.name)
+
+SORT file.mtime DESC
+
+```
