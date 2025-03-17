@@ -786,7 +786,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -990,6 +990,25 @@
             }
           },
           {
+            "id": "d22fe3bb071c24df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "527a38be471c2288",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1143,25 +1162,6 @@
           },
           {
             "id": "e662dbb4aa561fc8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d22fe3bb071c24df",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1932,7 +1932,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 9
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2008,12 +2008,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "a83494f60de983fe",
   "lastOpenFiles": [
     "00-09 system/Log/Flowmo Log.md",
+    "00-09 system/template/daily note template.md",
     "2025-03-17.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
-    "00-09 system/template/daily note template.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
