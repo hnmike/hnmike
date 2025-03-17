@@ -618,6 +618,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "project files",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"vscode-editor\",\"state\":{\"file\":\"00-09 system/scripts/project files.js\"},\"icon\":\"lucide-file\",\"title\":\"project files\"}",
@@ -658,12 +664,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
+                "file": "00-09 system/template/project_note template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "project_note template"
             }
           },
           {
@@ -1980,11 +1986,11 @@
   },
   "active": "f803eea8031d00df",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
     "00-09 system/scripts/project files.js",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/Log/Flowmo Log.md",
     "20-30 PARA/Area/data/202503161128.md",
-    "00-09 system/template/daily note template.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/01/2025-01-05.md",
     "00-09 system/homepage/Homepage.md",
