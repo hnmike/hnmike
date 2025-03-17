@@ -252,7 +252,7 @@
               "format": "- **{{DATE:YYYY-MM-DD}}** | **Task:** {{VALUE:task}} | **Start:** {{TIME:HH:mm}} "
             },
             "insertAfter": {
-              "enabled": false,
+              "enabled": true,
               "after": "",
               "insertAtEnd": false,
               "considerSubsections": false,
@@ -269,6 +269,12 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Timetracker: Reset the stopwatch",
+          "type": "Obsidian",
+          "id": "c555560d-4214-4fdc-8a79-f6aafa04ba16",
+          "commandId": "timetracker:reset-stopwatch"
         }
       ],
       "runOnStartup": true
