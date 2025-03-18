@@ -115,21 +115,11 @@ renderProgressBar();
 >> ```
 >
 >> [!Goal]+ Goal 🦊
->> ```dataviewjs
->> // Get all #goal tags from pages
->> let goalTags = dv.pages()
->>     .file.tags
->>     .distinct()
->>     .filter(tag => tag.startsWith('#goal'))
->>     .sort();
->>
->> dv.table(
->>     ["Goals"],
->>     goalTags.map(tag => [tag])
->> )
+>> ```dataview
+>> LIST
+>> FROM #goal
+>> SORT file.name ASC
 >> ```
-
-
 
 `````````````tabs
 tab: .................................................................
@@ -368,3 +358,4 @@ actions:
     command: theme:use-dark
 tooltip: Switch to Dark Mode
 ```
+
