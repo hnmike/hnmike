@@ -110,37 +110,38 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
 
 
 ```dataviewjs
+// filepath: c:\hnmike\00-09 system\template\daily note template.md
+try {
+    // Get today's date from file name or fallback to current date
+    let today;
+    try {
+        today = dv.date(dv.current().file.name);
+    } catch (e) {
+        today = dv.date(moment().format('YYYY-MM-DD'));
+    }
+    
+    const todayStr = today ? today.toFormat("yyyy-MM-dd") : moment().format('YYYY-MM-DD');
 
-// Lấy ngày từ tên file daily note
+    // Get all pages from vault
+    const pages = dv.pages();
 
-const today = dv.date(dv.current().file.name);
+    // Filter notes created today
+    const notesToday = pages.filter(p => {
+        const creationDate = p.file.ctime;
+        return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
+    }).map(p => p.file.link);
 
-const todayStr = today.toFormat("yyyy-MM-dd");
-
-  
-
-// Lấy tất cả các trang từ vault
-
-const pages = dv.pages();
-
-  
-
-// Lọc các ghi chú được tạo trong ngày hôm nay
-
-const notesToday = pages.filter(p => {
-
-    const creationDate = p.file.ctime;
-
-    return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
-
-}).map(p => p.file.link);
-
-  
-
-dv.list(notesToday);
-
+    // Display the list
+    if (notesToday.length > 0) {
+        dv.header(3, "Notes Created Today");
+        dv.list(notesToday);
+    } else {
+        dv.paragraph("No notes created today");
+    }
+} catch (error) {
+    dv.paragraph("Error: " + error.message);
+}
 ```
-
   
 
 
