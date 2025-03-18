@@ -237,17 +237,17 @@
             "id": "054905cc42ba9797",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":2.1017}"
                 },
                 {
                   "title": "area_note template",
@@ -320,12 +320,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
+                "file": "20-30 PARA/Project/data engineer coursera/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "Untitled"
             }
           },
           {
@@ -1256,8 +1256,8 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "00-09 system/template/project_note template.md",
+    "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "20-30 PARA/Project/data engineer coursera/Untitled 1.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/area_family template.md",
