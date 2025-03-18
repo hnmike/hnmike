@@ -489,7 +489,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
   
 
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),(optionQuery(#reference), optionQuery(#project)):connections]` 
+**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),(optionQuery(#resource), optionQuery(#project)):connections]` 
 
   
 
