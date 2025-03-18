@@ -27,8 +27,6 @@ id: <% tp.date.now("YYYYMMDDHHmm") %>
 // Tạo ID từ timestamp
 const timestamp = tp.date.now("YYYYMMDDHHmm");
 
-// Đổi tên file ngay khi tạo
-await tp.file.rename(timestamp);
 
 // Lấy tên thư mục và tạo tag
 const folder_name = tp.file.folder().split("/").pop().toLowerCase().replace(/ /g, "_");
