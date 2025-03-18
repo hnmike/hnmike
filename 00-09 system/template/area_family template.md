@@ -64,7 +64,7 @@ tab: Other
 
 ```dataview
 
-table type AS "Type"
+table type AS "resource"
 
 from "20-30 PARA/Resources" OR "resources"
 

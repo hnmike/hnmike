@@ -587,6 +587,21 @@ text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
 })), false);  
 
 ```
+tab: Other
+
+```dataview
+
+table type AS "Resource"
+
+from "20-30 PARA/Resources" OR "resources"
+
+where contains(connections, this.file.link)
+
+where tags = "resources/<% tp.file.folder() %>"
+
+sort type ASC
+
+```
 
 ````
   
