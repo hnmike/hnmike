@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "algorithm & design pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm & design pattern\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":6.164383561643835}"
+                },
+                {
                   "title": "project_family template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_family template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_family template\"}",
@@ -482,12 +488,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+                "file": "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm & design pattern"
+              "title": "Untitled"
             }
           },
           {
@@ -1416,10 +1422,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+    "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
+    "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/Untitled.md",
@@ -1431,7 +1438,6 @@
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
     "Untitled 2.md",
-    "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "20-30 PARA/Project/devop lab/Untitled.md",
     "20-30 PARA/Project/data engineer coursera/Untitled 1.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
