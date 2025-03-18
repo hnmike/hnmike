@@ -70,7 +70,7 @@ from "20-30 PARA/Resources" OR "resources"
 
 where contains(connections, this.file.link)
 
-where type = "resources/<% tp.file.folder() %>"
+where tags = "resources/<% tp.file.folder() %>"
 
 sort type ASC
 
