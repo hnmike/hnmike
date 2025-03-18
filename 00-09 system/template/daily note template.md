@@ -56,7 +56,7 @@ limit 10
 ## 🌱 Log
 ---
 
- 🌠Daily Notes 🌠
+## 🌠Daily Notes 🌠
 
 <%tp.file.cursor()%>
 

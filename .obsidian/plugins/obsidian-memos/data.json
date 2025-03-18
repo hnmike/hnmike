@@ -1,7 +1,7 @@
 {
   "FirstLoaded": false,
   "StartDate": "Sunday",
-  "InsertAfter": "#LOG",
+  "InsertAfter": "## LOG",
   "UserName": "hn workspace",
   "ProcessEntriesBelow": "",
   "Language": "en",
@@ -95,7 +95,7 @@
   "ShareToThinoWithTextNewline": "none",
   "hidePinnedGroup": false,
   "DifferentInsertTarget": true,
-  "InsertAfterForTask": "",
+  "InsertAfterForTask": "## ",
   "ProcessContentTarget": "custom",
   "InsertType": "custom",
   "ShareAppendType": "preset",
