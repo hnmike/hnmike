@@ -256,8 +256,14 @@
             "id": "7af539f8ec471159",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":55.592592592592595}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1251,6 +1257,8 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "20-30 PARA/Project/AWS cloud and DE/Untitled 1.md",
+    "00-09 system/template/project_family template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
@@ -1286,8 +1294,6 @@
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
     "Untitled 2.md",
-    "00-09 system/journal/daily/2025/03/2025-03-17.md",
-    "00-09 system/template/New note template.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20250315221950820.png",
