@@ -1,20 +1,33 @@
 ---
-Priority_Level: 
-Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-Tags: 
-Type: project_note
-Cssclasses: 
+
+area: data engineer 2
+
+Summary:
+
+tags:
+
+Type: area_note
+
+created: 2025-03-16 15:58
+
+id: 202503182024
+
 ---
-# Components
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area)):connections]` 
-**Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
-**Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`
-**Priority Level:** `INPUT[inlineSelect(option(1 Critical), option(2 High), option(3 Medium), option(4 Low)):Priority_Level]`
-**Status:** `INPUT[inlineSelect(option(1 To Do), option(2 In Progress), option(3 Testing), option(4 Completed), option(5 Blocked)):Status]`
-# Description
+
+# [[data engineer 2]]
+
+# Overview
+
+
+
+  
+
+---
+id: "202503182024"
+tags:
+  - area/data_engineer_2
+created-date: 2025-03-18 20:24
+---
 
 
 
