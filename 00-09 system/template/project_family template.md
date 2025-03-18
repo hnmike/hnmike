@@ -59,21 +59,27 @@ Description Goal
 ---
 <%*
 
-// Lấy tên thư mục và tạo project tag
+// Get current folder name and create project tag
 
-const folderName = tp.file.folder().toLowerCase().replace(/ /g, "_");
+let folderPath = tp.file.folder();
 
-const projectTag = `project/${folderName}`;
+let folderName = folderPath.split("/").pop().toLowerCase().replace(/ /g, "_");
 
-// Cập nhật frontmatter
+let projectTag = `project/${folderName}`;
 
-const file = tp.file.find_tfile(tp.file.path(true));
+  
+
+// Update frontmatter with the project tag
+
+let file = tp.file.find_tfile(tp.file.path(true));
 
 if (file) {
 
     await app.fileManager.processFrontMatter(file, (frontmatter) => {
 
         frontmatter.tags = [projectTag];
+
+        return frontmatter;
 
     });
 
