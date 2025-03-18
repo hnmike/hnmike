@@ -773,12 +773,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
-                "mode": "source",
+                "file": "00-09 system/homepage/Homepage.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "Homepage"
             }
           },
           {
@@ -810,8 +810,7 @@
               "title": "Flowmo Log"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -1713,12 +1712,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
     "Untitled 2.md",
-    "00-09 system/template/daily note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/homepage/Homepage.md",
     "www.googlecalendar.com.md",
