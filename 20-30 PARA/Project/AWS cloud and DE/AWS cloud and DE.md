@@ -1,10 +1,10 @@
 ---
-Priority_Level: 1 Critical
-Status: 3 Testing
+Priority_Level: 2 High
+Status: 2 In Progress
 Date_Created: 
 Due_Date: 
 Connections: 
-tags:
+tags: 
 Type: project_family
 ---
 
