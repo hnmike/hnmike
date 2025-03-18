@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 5",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 5.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 5\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Untitled 6",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 6.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 6\"}",
@@ -374,12 +380,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled 5.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 5"
+              "title": "Untitled 6"
             }
           },
           {
@@ -486,8 +492,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1309,10 +1314,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 6.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 6.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
