@@ -84,7 +84,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/homepage/Homepage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -1706,7 +1706,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "81d3fc06ee1d7573",
+  "active": "7f76749690c52c9f",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "00-09 system/homepage/Homepage.md",
