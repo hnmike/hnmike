@@ -589,7 +589,7 @@ tab: Other
 TABLE type AS "Resource"
 FROM "20-30 PARA/Resources" OR "resources"
 WHERE contains(connections, this.file.link)
-WHERE contains(file.tags, "project/" + this.file.folder.split("/").pop().toLowerCase().replace(/ /g, "_"))
+WHERE contains(file.tags, "project/" + replace(lower(split(this.file.folder, "/").last), " ", "_"))
 SORT type ASC
 ```
 
