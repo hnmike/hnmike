@@ -804,7 +804,8 @@
               "title": "2025-03-17"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1706,10 +1707,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "7a3d570af38d0df4",
   "lastOpenFiles": [
-    "www.googlecalendar.com.md",
     "00-09 system/homepage/Homepage.md",
+    "www.googlecalendar.com.md",
     "00-09 system/template/New note template.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
