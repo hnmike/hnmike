@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Introduction & Set Up  DE Zoomcamp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "algorithm & design pattern",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm & design pattern\"}",
@@ -500,12 +506,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction & Set Up  DE Zoomcamp Notes"
+              "title": "algorithm & design pattern"
             }
           },
           {
@@ -1434,8 +1440,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "054905cc42ba9797",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
@@ -1461,7 +1468,6 @@
     "Thino/20250318-c9311a15e501ae57.md",
     "20-30 PARA/Project/DE zach wilson/Untitled.md",
     "20-30 PARA/Project/algorithm & design pattern/Untitled 1.md",
-    "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Project/SQL",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm & design pattern",
