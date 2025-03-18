@@ -266,6 +266,18 @@
                   "title": "Introduction & Set Up  DE Zoomcamp Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":2.099236641221374}"
+                },
+                {
+                  "title": "Introduction & Set Up  DE Zoomcamp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":10.2264}"
                 },
                 {
@@ -279,12 +291,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction & Set Up  DE Zoomcamp Notes"
+              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
             }
           },
           {
@@ -1215,9 +1227,9 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/SQL",
     "www.googlecalendar.com.md",
