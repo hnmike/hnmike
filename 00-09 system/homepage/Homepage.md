@@ -88,7 +88,7 @@ renderProgressBar();
 >>     </div>`;
 >> }
 >> 
->> dv.table(['Project Family','Status', 'Priority,'Priority'', 'Due'],
+>> dv.table(['Project Family', 'Status', 'Priority', 'Progress', 'Created', 'Due'],
 >>  dv.pages()
 >>  .where(p => p.type === "project_family")
 >>  .where(p => !p.file.path.includes('00-09')) // Loại trừ các file trong thư mục 00-09
