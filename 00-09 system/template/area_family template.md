@@ -125,3 +125,4 @@ await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
     frontmatter.tags = [`area/${task_tag_value}`];
 });
 -%>
+
