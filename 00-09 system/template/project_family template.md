@@ -57,7 +57,29 @@ Description Goal
   
 
 ---
+<%*
 
+// Lấy tên thư mục và tạo project tag
+
+const folderName = tp.file.folder().toLowerCase().replace(/ /g, "_");
+
+const projectTag = `project/${folderName}`;
+
+// Cập nhật frontmatter
+
+const file = tp.file.find_tfile(tp.file.path(true));
+
+if (file) {
+
+    await app.fileManager.processFrontMatter(file, (frontmatter) => {
+
+        frontmatter.tags = [projectTag];
+
+    });
+
+}
+
+-%>
   
 
 ````tabs  
