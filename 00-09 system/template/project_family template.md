@@ -8,7 +8,15 @@ tags:
 Type: project_family
 ---
 
+<%*
+// Get current folder name and create project tag
+const folder = tp.file.folder();
+const folderName = folder.split("/").pop().toLowerCase().replace(/ /g, "_");
+const projectTag = `#project/${folderName}`;
 
+// Insert the project tag directly in the content
+tR += `Tags: ${projectTag}\n\n`;
+-%>
 ---
 
   
@@ -59,18 +67,6 @@ Description Goal
 ---
 
 
-<%*
-// Get current folder name and create project tag
-const folder = tp.file.folder();
-const folderName = folder.split("/").pop().toLowerCase().replace(/ /g, "_");
-const projectTag = `project/${folderName}`;
-
-// Update frontmatter
-await app.fileManager.processFrontMatter(tp.file.find_tfile(tp.file.path(true)), (frontmatter) => {
-    frontmatter.tags = [projectTag];
-    return frontmatter;
-});
--%>
 
 
   
