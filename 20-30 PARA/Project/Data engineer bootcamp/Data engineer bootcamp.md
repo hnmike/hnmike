@@ -579,11 +579,17 @@ text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
 tab: Other
 
 ```dataview
-TABLE type AS "Resource"
-FROM "20-30 PARA/Resources" OR "resources"
-WHERE contains(connections, this.file.link)
-WHERE contains(file.tags, "project/" + lower(this.file.folder.split("/").pop()))
-SORT type ASC
+
+table type AS "Resource"
+
+from "20-30 PARA/Resources" OR "resources"
+
+where contains(connections, this.file.link)
+
+where tags = "resources/Data engineer bootcamp"
+
+sort type ASC
+
 ```
 
 ````

@@ -9,6 +9,7 @@ tags:
   - "#project/data_engineer_bootcamp"
 ---
 ### 
+[[Data engineer bootcamp]]
 
 🔑 Key for Reading my notes
 
