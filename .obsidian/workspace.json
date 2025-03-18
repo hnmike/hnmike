@@ -256,17 +256,17 @@
             "id": "7af539f8ec471159",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "manus - Reddit Search!",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/manus - Reddit Search!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"manus - Reddit Search!\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Introduction & Set Up  DE Zoomcamp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":10.2264}"
                 },
                 {
                   "title": "Release Notes 1.8.9",
@@ -279,12 +279,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+                "file": "resources/Dagster, dbt, duckdb as new local MDS  Georg Heiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction & Set Up  DE Zoomcamp Notes"
+              "title": "Dagster, dbt, duckdb as new local MDS  Georg Heiler"
             }
           },
           {
@@ -311,7 +311,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1213,11 +1213,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-18.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/SQL",
     "www.googlecalendar.com.md",
-    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm & design pattern",
     "20-30 PARA/Project/DE zach wilson",
@@ -1233,11 +1235,9 @@
     "40-50 technical knowledge hub/data engineer/Tag hub.md",
     "2024-12.md",
     "2024-12-11.md",
-    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Map of content.md",
     "00-09 system/homepage/dashboard.canvas",
     "Thino/20250318-c9311a15e501ae57.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "Thino/20250318-5d88677f117b2ba8.md",
     "Thino/20250318-63bb7ac2be562115.md",
     "Thino",
@@ -1251,7 +1251,6 @@
     "data.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
-    "00-09 system/scripts/project files.js",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20250315221950820.png",
