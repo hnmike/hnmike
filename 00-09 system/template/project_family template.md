@@ -57,8 +57,19 @@ Description Goal
   
 
 ---
+<%*
+// Get current folder name and create project tag
+const file = tp.file.find_tfile(tp.file.path(true));
+const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_");
 
-<%* tp.hooks.on_all_templates_executed(async () => { const file = tp. File. Find_tfile (tp.File.Path (true)); const folder_name = tp.File.Folder (). ToLowerCase (). Replace (/ /g, "_"); await app.FileManager.ProcessFrontMatter (file, (frontmatter) => { frontmatter["tags"] = [` #project/ ${folder_name}`]; }); }); -%>
+// Update frontmatter with project tag
+if (file) {
+    await app.fileManager.processFrontMatter(file, (frontmatter) => {
+        frontmatter.tags = [`project/${folder_name}`];
+        return frontmatter;
+    });
+}
+-%>
   
 ---
 ````tabs  
