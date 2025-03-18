@@ -181,7 +181,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/homepage/Homepage.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -1213,15 +1213,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "05bb6da54e0433ba",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "2024-12-07.md",
     "40-50 technical knowledge hub/data engineer/Tag hub.md",
     "2024-12.md",
-    "00-09 system/homepage/Homepage.md",
     "2024-12-11.md",
     "Lab opensource data engineer.md",
     "Khóa học DE Zach Wilson.md",
-    "2024-12-07.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Map of content.md",
     "00-09 system/homepage/dashboard.canvas",
