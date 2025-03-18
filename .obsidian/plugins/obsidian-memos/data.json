@@ -94,7 +94,7 @@
   "ShareToThinoWithTextPrepend": "",
   "ShareToThinoWithTextNewline": "none",
   "hidePinnedGroup": false,
-  "DifferentInsertTarget": false,
+  "DifferentInsertTarget": true,
   "InsertAfterForTask": "",
   "ProcessContentTarget": "custom",
   "InsertType": "custom",
