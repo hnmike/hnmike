@@ -108,7 +108,7 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
 ```
 ---
 ````
-```
+
 
 tab: 🐹 Today's Notes
 
