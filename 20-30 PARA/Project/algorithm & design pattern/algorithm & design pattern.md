@@ -4,7 +4,7 @@ Status: 3 Testing
 Date_Created: 
 Due_Date: 
 Connections: 
-tags:
+tags: []
 Type: project_family
 ---
 

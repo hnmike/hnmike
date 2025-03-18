@@ -564,7 +564,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "area/data_engineer_2",
+                "query": "tag:project/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -594,7 +594,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
