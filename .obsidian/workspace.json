@@ -263,6 +263,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Introduction & Set Up  DE Zoomcamp Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
@@ -291,12 +297,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Untitled"
             }
           },
           {
@@ -1227,8 +1233,9 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+    "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/SQL",
@@ -1263,7 +1270,6 @@
     "00-09 system/template/New note template.md",
     "data.md",
     "20-30 PARA/Project/data engineer 2/Untitled 1.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 4.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20250315221950820.png",
