@@ -237,11 +237,35 @@
             "id": "054905cc42ba9797",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled 6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 6.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 6\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Untitled 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled 4",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 4.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 4\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled 6",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer 2/Untitled 6.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 6\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Untitled 5",
@@ -380,12 +404,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer 2/Untitled 6.md",
+                "file": "20-30 PARA/Project/data engineer 2/Untitled 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 6"
+              "title": "Untitled 5"
             }
           },
           {
@@ -1316,10 +1340,11 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
+    "20-30 PARA/Project/data engineer 2/Untitled 5.md",
     "20-30 PARA/Project/data engineer 2/Untitled 2.md",
     "20-30 PARA/Project/data engineer 2/Untitled 4.md",
+    "Untitled 2.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/devop lab/Untitled.md",
@@ -1341,7 +1366,6 @@
     "20-30 PARA/Project/AWS cloud and DE/Untitled 1.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/SQL",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm & design pattern",

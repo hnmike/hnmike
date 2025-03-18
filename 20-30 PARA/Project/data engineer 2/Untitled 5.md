@@ -1,8 +1,7 @@
 ---
 area: data engineer 2
 Summary: 
-tags:
-  - a
+tags: []
 Type: area_note
 created: 2025-03-16 15:58
 id: 202503182024
