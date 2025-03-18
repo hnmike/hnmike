@@ -59,5 +59,6 @@
   "obsidian-clipper",
   "omnisearch",
   "obsidian-toggl-integration",
-  "timetracker"
+  "timetracker",
+  "obsidian-meta-bind-plugin"
 ]
