@@ -58,7 +58,7 @@ renderProgressBar();
 ```
 
 > [!multi-column]
->> [!todo]+ Project Tracking
+>> [!todo]+🦊 Project Tracking
 >> ```dataviewjs
 >> function ProgressBar(note) {
 >>     // Lấy tất cả project notes trong thư mục của project family này
