@@ -591,7 +591,14 @@ where tags = "resources/Data engineer bootcamp"
 sort type ASC
 
 ```
-
+TABLE type AS "Resource"
+FROM ""
+WHERE (
+    (file.folder = "20-30 PARA/Resources" OR file.folder = "resources") 
+    AND contains(connections, this.file.link) 
+    AND contains(flatten(file.tags), "project/data_engineer_bootcamp")
+)
+SORT type ASC
 ````
   
   
