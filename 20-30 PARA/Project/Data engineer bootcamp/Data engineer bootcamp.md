@@ -13,8 +13,7 @@ Tags: #project/data_engineer_bootcamp
 ---
 
   
-LIST file.link AS "File"
-FROM #project/data_engineer_bootcamp
+
 
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
