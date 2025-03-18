@@ -57,19 +57,22 @@ Description Goal
   
 
 ---
+
+
 <%*
 // Get current folder name and create project tag
-const file = tp.file.find_tfile(tp.file.path(true));
-const folder_name = tp.file.folder().toLowerCase().replace(/ /g, "_");
+const folder = tp.file.folder();
+const folderName = folder.split("/").pop().toLowerCase().replace(/ /g, "_");
+const projectTag = `project/${folderName}`;
 
-// Update frontmatter with project tag
-if (file) {
-    await app.fileManager.processFrontMatter(file, (frontmatter) => {
-        frontmatter.tags = [`project/${folder_name}`];
-        return frontmatter;
-    });
-}
+// Update frontmatter
+await app.fileManager.processFrontMatter(tp.file.find_tfile(tp.file.path(true)), (frontmatter) => {
+    frontmatter.tags = [projectTag];
+    return frontmatter;
+});
 -%>
+
+
   
 ---
 ````tabs  
@@ -486,7 +489,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
   
 
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area,#project)):connections]`
+**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area):connections]`
 
   
 
