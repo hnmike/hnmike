@@ -811,7 +811,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1713,9 +1713,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "4e594fb688665036",
   "lastOpenFiles": [
     "00-09 system/Log/Flowmo Log.md",
+    "Untitled 2.md",
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
@@ -1743,7 +1744,6 @@
     "20-30 PARA/Area/data/202503161607.md",
     "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
-    "20-30 PARA/Area/data/202503161605.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
