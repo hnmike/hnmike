@@ -5,50 +5,48 @@ Date_Created:
 Due_Date: 
 Connections: 
 tags:
-  - Project
 Type: project_family
 ---
 
+Tags: #project/de_zach_wilson
 
 ---
 
   
-  
+
 
 ```dataviewjs
-
-// Lấy thông tin thư mục hiện tại
-
-const currentFolder = "FORMAT";
-
-  
+// Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
+// Giả sử Templater đã thay thế trước khi Dataview chạy
+const currentFolder = "DE zach wilson"; // Phải được thay thế bởi Templater khi tạo file
 
 // Lấy tất cả project notes trong thư mục này
-
 const projectNotes = dv.pages(`"20-30 PARA/Project/${currentFolder}"`)
-
-    .where(p => p.type === "project_note");
-
-  
+    .where(p => p.type === "project_note");
 
 // Tính toán tiến độ dựa trên số project notes có trạng thái "4 Completed"
-
 const totalProjects = projectNotes.length;
-
 const completedProjects = projectNotes.filter(p => p.Status === "4 Completed").length;
-
-const progress = totalProjects > 0 ? Math.round((completedProjects / totalProjects) * 100) : 0;
-
+const projectProgress = totalProjects > 0 ? Math.round((completedProjects / totalProjects) * 100) : 0;
 const remainingProjects = totalProjects - completedProjects;
 
-  
+// Tính toán tiến độ dựa trên tasks trong tất cả project notes
+const allTasks = projectNotes.file.tasks; // Lấy tất cả tasks từ các project notes
+const totalTasks = allTasks.length;
+const completedTasks = allTasks.where(t => t.completed).length;
+const taskProgress = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
+const remainingTasks = totalTasks - completedTasks;
 
-// Hiển thị progress bar và thông tin
+// Tính tiến độ tổng hợp (trung bình của projectProgress và taskProgress)
+const overallProgress = totalProjects > 0 || totalTasks > 0 ? Math.round((projectProgress + taskProgress) / 2) : 0;
 
-dv.paragraph(`**Tiến độ:** ${progress}% (${completedProjects}/${totalProjects} hoàn thành, ${remainingProjects} còn lại)`);
-
-dv.paragraph(`<progress value="${progress}" max="100" style="width: 100%; height: 20px;" class="nyan-cat"></progress>`);
-
+// Hiển thị progress bar và thông tin gộp trong một ô
+dv.paragraph(
+    `**Tiến độ tổng hợp:** ${overallProgress}% ` +
+    `(Projects: ${completedProjects}/${totalProjects} hoàn thành, ${remainingProjects} còn lại | ` +
+    `Tasks: ${completedTasks}/${totalTasks} hoàn thành, ${remainingTasks} còn lại)` +
+    `<br><progress value="${overallProgress}" max="100" style="width: 100%; height: 20px;" class="nyan-cat"></progress>`
+);
 ```
 
   
@@ -61,8 +59,11 @@ Description Goal
 
 ---
 
-  
 
+
+
+  
+---
 ````tabs  
 
 tab: In Progress
@@ -71,7 +72,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -137,7 +138,7 @@ tab: To Do
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -205,7 +206,7 @@ tab: Testing
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -273,7 +274,7 @@ tab: Completed
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -341,7 +342,7 @@ tab: Blocked
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -409,7 +410,7 @@ tab: No Status
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "FORMAT";
+const currentFolder = "DE zach wilson";
 
   
 
@@ -477,7 +478,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
   
 
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area,#project)):connections]`
+**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]` 
 
   
 
@@ -511,43 +512,30 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
 tab: Tasks To Do  
 
-```dataviewjs  
-
-// Lấy thông tin thư mục hiện tại  
-
-const currentFolder = "FORMAT";  
-
-const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
-
-const projectTag = `#project/${folderName}`;  
-
-// Lấy tasks từ các file trong thư mục  
-
-const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;  
-
-// Lấy tasks có tag của project này từ toàn bộ vault  
-
-const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
-
-// Kết hợp tất cả tasks  
-
-const allTasksArray = [...folderTasks, ...taggedTasks];  
-
-// Lọc chỉ các task chưa hoàn thành  
-
-const pendingTasks = allTasksArray.filter(t => !t.completed);  
-
-// Hiển thị danh sách tasks chưa hoàn thành  
-
-dv.taskList(pendingTasks.map(t => ({  
-
-...t,  
-
-text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
-
-})), false);  
-
-```  
+```dataviewjs  
+// Lấy thông tin thư mục hiện tại  
+const currentFolder = "DE zach wilson";  
+const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
+const projectTag = `#project/${folderName}`;  
+  
+// Lấy tasks từ các file trong thư mục  
+const folderTasks = dv.pages(`"20-30 PARA/Project/${currentFolder}"`).file.tasks;  
+  
+// Lấy tasks có tag của project này từ toàn bộ vault  
+const taggedTasks = dv.pages().file.tasks.where(t => t.text.includes(projectTag));  
+  
+// Kết hợp tất cả tasks  
+const allTasksArray = [...folderTasks, ...taggedTasks];  
+  
+// Lọc chỉ các task chưa hoàn thành  
+const pendingTasks = allTasksArray.filter(t => !t.completed);  
+  
+// Hiển thị danh sách tasks chưa hoàn thành  
+dv.taskList(pendingTasks.map(t => ({  
+...t,  
+text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
+})), false);  
+```  
 
 tab: Completed Tasks  
 
@@ -555,7 +543,7 @@ tab: Completed Tasks  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "FORMAT";  
+const currentFolder = "DE zach wilson";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
@@ -586,6 +574,21 @@ dv.taskList(completedTasks.map(t => ({  
 text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
 
 })), false);  
+
+```
+tab: Other
+
+```dataview
+
+table type AS "Resource"
+
+from "20-30 PARA/Resources" OR "resources"
+
+where contains(connections, this.file.link)
+
+where tags = "resources/DE zach wilson"
+
+sort type ASC
 
 ```
 

@@ -8,6 +8,7 @@ tags:
 Type: project_family
 ---
 
+Tags: #project/algorithm_and_design_pattern
 
 ---
 
@@ -17,7 +18,7 @@ Type: project_family
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
 // Giả sử Templater đã thay thế trước khi Dataview chạy
-const currentFolder = "devop lab"; // Phải được thay thế bởi Templater khi tạo file
+const currentFolder = "algorithm and design pattern"; // Phải được thay thế bởi Templater khi tạo file
 
 // Lấy tất cả project notes trong thư mục này
 const projectNotes = dv.pages(`"20-30 PARA/Project/${currentFolder}"`)
@@ -71,7 +72,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -137,7 +138,7 @@ tab: To Do
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -205,7 +206,7 @@ tab: Testing
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -273,7 +274,7 @@ tab: Completed
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -341,7 +342,7 @@ tab: Blocked
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -409,7 +410,7 @@ tab: No Status
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "devop lab";
+const currentFolder = "algorithm and design pattern";
 
   
 
@@ -477,7 +478,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
 
   
 
-**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area):connections]`
+**Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]` 
 
   
 
@@ -513,7 +514,7 @@ tab: Tasks To Do  
 
 ```dataviewjs  
 // Lấy thông tin thư mục hiện tại  
-const currentFolder = "devop lab";  
+const currentFolder = "algorithm and design pattern";  
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 const projectTag = `#project/${folderName}`;  
   
@@ -542,7 +543,7 @@ tab: Completed Tasks  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "devop lab";  
+const currentFolder = "algorithm and design pattern";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
@@ -573,6 +574,21 @@ dv.taskList(completedTasks.map(t => ({  
 text: `${t.text} (from [[${t.path.split('/').pop().replace('.md', '')}]])`  
 
 })), false);  
+
+```
+tab: Other
+
+```dataview
+
+table type AS "Resource"
+
+from "20-30 PARA/Resources" OR "resources"
+
+where contains(connections, this.file.link)
+
+where tags = "resources/algorithm and design pattern"
+
+sort type ASC
 
 ```
 

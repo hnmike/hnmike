@@ -8,7 +8,7 @@ tags:
 Type: project_family
 ---
 
-Tags: #project/algorithm_&_design_pattern
+Tags: #project/data_engineer_bootcamp
 
 ---
 
@@ -18,7 +18,7 @@ Tags: #project/algorithm_&_design_pattern
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
 // Giả sử Templater đã thay thế trước khi Dataview chạy
-const currentFolder = "algorithm & design pattern"; // Phải được thay thế bởi Templater khi tạo file
+const currentFolder = "Data engineer bootcamp"; // Phải được thay thế bởi Templater khi tạo file
 
 // Lấy tất cả project notes trong thư mục này
 const projectNotes = dv.pages(`"20-30 PARA/Project/${currentFolder}"`)
@@ -72,7 +72,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -138,7 +138,7 @@ tab: To Do
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -206,7 +206,7 @@ tab: Testing
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -274,7 +274,7 @@ tab: Completed
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -342,7 +342,7 @@ tab: Blocked
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -410,7 +410,7 @@ tab: No Status
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "algorithm & design pattern";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -514,7 +514,7 @@ tab: Tasks To Do  
 
 ```dataviewjs  
 // Lấy thông tin thư mục hiện tại  
-const currentFolder = "algorithm & design pattern";  
+const currentFolder = "Data engineer bootcamp";  
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 const projectTag = `#project/${folderName}`;  
   
@@ -543,7 +543,7 @@ tab: Completed Tasks  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "algorithm & design pattern";  
+const currentFolder = "Data engineer bootcamp";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
@@ -586,7 +586,7 @@ from "20-30 PARA/Resources" OR "resources"
 
 where contains(connections, this.file.link)
 
-where tags = "resources/algorithm & design pattern"
+where tags = "resources/Data engineer bootcamp"
 
 sort type ASC
 
