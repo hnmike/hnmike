@@ -263,6 +263,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
@@ -297,7 +303,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+                "file": "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -1231,10 +1237,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7af539f8ec471159",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
-    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+    "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
@@ -1269,7 +1276,6 @@
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/New note template.md",
     "data.md",
-    "20-30 PARA/Project/data engineer 2/Untitled 1.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20250315221950820.png",
