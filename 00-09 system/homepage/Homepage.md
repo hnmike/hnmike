@@ -264,7 +264,12 @@ New tab content
 `````````````
 
 
-
+````
+```toggl
+SUMMARY
+PAST 7 DAYS
+```
+````
 
 
 
