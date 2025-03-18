@@ -279,12 +279,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/202503181708.md",
+                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503181708"
+              "title": "Introduction & Set Up  DE Zoomcamp Notes"
             }
           },
           {
@@ -1215,6 +1215,7 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/homepage/Homepage.md",
