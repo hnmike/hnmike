@@ -59,15 +59,6 @@ Description Goal
 
 ---
 
-```dataview
-TABLE 
-    file.link as "Resource",
-    type as "Type"
-FROM "resources"
-WHERE contains(file.tags, "#project/data_engineer_bootcamp")
-SORT file.name ASC
-```
-
 
   
 ---
@@ -598,14 +589,15 @@ where tags = "resources/Data engineer bootcamp"
 sort type ASC
 
 ```
-TABLE type AS "Resource"
-FROM ""
-WHERE (
-    (file.folder = "20-30 PARA/Resources" OR file.folder = "resources") 
-    AND contains(connections, this.file.link) 
-    AND contains(flatten(file.tags), "project/data_engineer_bootcamp")
-)
-SORT type ASC
+```dataview
+TABLE 
+    file.link as "Resource",
+    type as "Type"
+FROM "resources"
+WHERE contains(file.tags, "#project/data_engineer_bootcamp")
+SORT file.name ASC
+```
+
 ````
   
   
