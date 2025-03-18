@@ -287,7 +287,8 @@
               "title": "2025-03-18"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1189,16 +1190,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
-    "www.googlecalendar.com.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
+    "www.googlecalendar.com.md",
+    "Thino/20250318-c9311a15e501ae57.md",
+    "Thino",
+    "00-09 system/template/daily note template.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Area/data/202503161042.md",
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/homepage/Homepage.md",
-    "00-09 system/template/daily note template.md",
     "Untitled 2.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/New note template.md",
@@ -1219,14 +1222,12 @@
     "2nd lesson of data engineer.md",
     "00-09 system/template/project metadata.md",
     "20-30 PARA/Area/data/202503161606.md",
-    "20-30 PARA/Area/data/202503161607.md",
     "00-09 system/scripts/add files to project.js",
     "00-09 system/template/view.js",
     "00-09 system/template/view.css",
     "00-09 system/template/project_family",
     "20-30 PARA/Area/data",
     "20-30 PARA/Project/data engineer 2",
-    "00-09 system/template/project_note template",
     "Untitled 1.canvas",
     "00-09 system/homepage/dashboard.canvas",
     "Untitled.canvas",
