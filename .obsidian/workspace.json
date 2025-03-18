@@ -311,7 +311,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1213,11 +1213,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "51069430ebf3816e",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
     "00-09 system/homepage/Homepage.md",
-    "Khóa học DE Zach Wilson.md",
     "Lab opensource data engineer.md",
+    "Khóa học DE Zach Wilson.md",
     "2024-12-07.md",
     "40-50 technical knowledge hub/data engineer/Tag hub.md",
     "2024-12.md",
