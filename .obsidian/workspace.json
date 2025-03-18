@@ -456,7 +456,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flowmo",
+                "query": "area/data_engineer_2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -486,7 +486,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1281,7 +1282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 409.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1308,7 +1309,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "054905cc42ba9797",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
     "20-30 PARA/Project/data engineer 2/Untitled 5.md",
