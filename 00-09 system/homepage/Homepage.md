@@ -116,15 +116,17 @@ renderProgressBar();
 >
 >> [!Goal]+ Goal 🦊
 >> ```dataviewjs
->> dv.view("SYSTEM/TEMPLATE/CSS/Timeline", {
->>     pages: "", 
->>     inbox: "Inbox.md", 
->>     dailyNoteFolder: "DAILY/DAILY", 
->>     dailyNoteFormat: "YYYY-MM-DD",
->>     section: "# New Tasks",
->>     forward: true,
->>     options: "noYear todayFocus todoFilter noFile"
->> })
+>> dv.table(
+>>     ["Goal", "Status", "Due Date", "Created"],
+>>     dv.pages("#goal")
+>>         .sort(b => b.file.ctime, 'desc')
+>>         .map(b => [
+>>             b.file.link,
+>>             b.Status || "-",
+>>             b.Due_Date ? dv.date(b.Due_Date).toFormat("dd-MM-yyyy") : "-",
+>>             dv.date(b.file.ctime).toFormat("dd-MM-yyyy")
+>>         ])
+>> )
 >> ```
 
 
