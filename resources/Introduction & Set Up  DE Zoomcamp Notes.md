@@ -1,12 +1,11 @@
 ---
-title: "Introduction & Set Up | DE Zoomcamp Notes"
-source: "https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/introduction/introduction-and-set-up"
-author:
+title: Introduction & Set Up | DE Zoomcamp Notes
+source: https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/introduction/introduction-and-set-up
+author: 
 published: 2025-01-26
 created: 2025-03-09
-description: "Last updated Jan 19, 2025"
-tags:
-  - "clippings"
+description: Last updated Jan 19, 2025
+tags: []
 ---
 ### 
 

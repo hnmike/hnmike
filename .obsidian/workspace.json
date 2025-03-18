@@ -237,17 +237,17 @@
             "id": "054905cc42ba9797",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":7.780320366132723}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "algorithm & design pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm & design pattern\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Untitled",
@@ -500,12 +500,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+                "file": "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm & design pattern"
+              "title": "Introduction & Set Up  DE Zoomcamp Notes"
             }
           },
           {
@@ -1436,8 +1436,8 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+    "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
