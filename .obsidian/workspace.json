@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":25},\"to\":{\"line\":10,\"ch\":25}}}"
+                },
+                {
                   "title": "algorithm & design pattern",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm & design pattern\"}",
@@ -512,12 +518,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "algorithm & design pattern"
             }
           },
           {
@@ -1448,8 +1454,8 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
     "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+    "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
