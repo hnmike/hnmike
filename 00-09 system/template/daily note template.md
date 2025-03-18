@@ -107,9 +107,7 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
 );
 ```
 ---
-````
 
-tab: 🐹 Today's Notes
 
 ```dataviewjs
 
@@ -145,69 +143,7 @@ dv.list(notesToday);
 
   
 
-tab: 🐹 Projects
 
-```dataviewjs
-
-// Hiển thị projects theo priority
-
-const priorities = {
-
-    "1 Critical": [],
-
-    "2 High": [],
-
-    "3 Medium": [],
-
-    "4 Low": []
-
-};
-
-  
-
-// Lấy tất cả projects
-
-const projects = dv.pages('"20-30 PARA/Project"')
-
-    .where(p => p.type === "project_family" || p.type === "project_note")
-
-    .where(p => p.Status !== "4 Completed");
-
-  
-
-// Phân loại theo priority
-
-for (const project of projects) {
-
-    const priority = project.Priority_Level || "4 Low";
-
-    if (priorities[priority]) {
-
-        priorities[priority].push(project.file.link);
-
-    }
-
-}
-
-  
-
-// Hiển thị projects theo priority
-
-for (const priority in priorities) {
-
-    if (priorities[priority].length > 0) {
-
-        dv.header(3, priority);
-
-        dv.list(priorities[priority]);
-
-    }
-
-}
-
-```
-
-````
 
 
 
