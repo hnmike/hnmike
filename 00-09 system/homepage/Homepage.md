@@ -266,12 +266,22 @@ tab: New tab
 New tab content
 `````````````
 
-
+---
 
 ```toggl
 SUMMARY
 PAST 7 DAYS
 ```
+---
+
+
+
+
+
+
+
+
+
 ````
 ```meta-bind-button
 label: Map of Contents
