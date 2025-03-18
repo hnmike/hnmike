@@ -259,10 +259,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Untitled 1",
+                  "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":493,\"ch\":0},\"to\":{\"line\":493,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/devop lab/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -1269,8 +1269,9 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
-    "20-30 PARA/Project/algorithm & design pattern/Untitled 1.md",
+    "20-30 PARA/Project/devop lab/Untitled.md",
     "00-09 system/template/project_family template.md",
+    "20-30 PARA/Project/algorithm & design pattern/Untitled 1.md",
     "20-30 PARA/Project/data engineer 2/Untitled.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled 1.md",
@@ -1305,7 +1306,6 @@
     "Thino",
     "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/202503161042.md",
-    "20-30 PARA/Area/data/202503161128.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "90-100 resource archives/Image/IMG-20250315221950820.png",
