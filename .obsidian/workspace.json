@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "202503161107",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161107.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161107\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":4.651162790697675}"
+                },
+                {
                   "title": "Graph view",
                   "icon": "lucide-git-fork",
                   "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
@@ -254,12 +260,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161107.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503161107"
+              "title": "Untitled"
             }
           },
           {
@@ -1190,9 +1196,10 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/202503161107.md",
+    "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
     "20-30 PARA/Area/data/202503161551.md",
     "20-30 PARA/Area/data/Untitled.md",
-    "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "Thino/20250318-c9311a15e501ae57.md",
@@ -1204,7 +1211,6 @@
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled 1.md",
     "00-09 system/template/area_family template.md",
-    "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "00-09 system/homepage/Homepage.md",
