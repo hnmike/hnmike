@@ -790,18 +790,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2025-03-17",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-17.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-17\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":19},\"to\":{\"line\":80,\"ch\":19}},\"scroll\":72.14708988250248}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "file": "00-09 system/Log/Flowmo Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-17"
+              "title": "Flowmo Log"
             }
           }
         ],
@@ -1709,10 +1715,10 @@
   },
   "active": "7a3d570af38d0df4",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/homepage/Homepage.md",
     "www.googlecalendar.com.md",
     "00-09 system/template/New note template.md",
-    "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/Log/Flowmo Log.md",
     "20-30 PARA/Area/data/202503161128.md",
