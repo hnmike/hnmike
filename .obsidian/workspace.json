@@ -201,9 +201,11 @@
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "thino_view",
               "state": {},
+              "pinned": true,
               "icon": "Memos",
               "title": "Thino"
             }
@@ -819,7 +821,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1721,10 +1723,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
-    "00-09 system/template/daily note template.md",
     "00-09 system/homepage/Homepage.md",
+    "00-09 system/template/daily note template.md",
     "20-30 PARA/Area/data/202503161128.md",
     "00-09 system/Log/Flowmo Log.md",
     "Untitled 2.md",
