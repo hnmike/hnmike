@@ -8,15 +8,8 @@ tags:
 Type: project_family
 ---
 
-<%*
-// Get current folder name and create project tag
-const folder = tp.file.folder();
-const folderName = folder.split("/").pop().toLowerCase().replace(/ /g, "_");
-const projectTag = `#project/${folderName}`;
+Tags: #project/data_engineer_bootcamp
 
-// Insert the project tag directly in the content
-tR += `Tags: ${projectTag}\n\n`;
--%>
 ---
 
   
@@ -25,7 +18,7 @@ tR += `Tags: ${projectTag}\n\n`;
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
 // Giả sử Templater đã thay thế trước khi Dataview chạy
-const currentFolder = "<% tp.file.folder() %>"; // Phải được thay thế bởi Templater khi tạo file
+const currentFolder = "Data engineer bootcamp"; // Phải được thay thế bởi Templater khi tạo file
 
 // Lấy tất cả project notes trong thư mục này
 const projectNotes = dv.pages(`"20-30 PARA/Project/${currentFolder}"`)
@@ -79,7 +72,7 @@ tab: In Progress
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -145,7 +138,7 @@ tab: To Do
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -213,7 +206,7 @@ tab: Testing
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -281,7 +274,7 @@ tab: Completed
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -349,7 +342,7 @@ tab: Blocked
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -417,7 +410,7 @@ tab: No Status
 
 // Lấy thông tin thư mục hiện tại
 
-const currentFolder = "<% tp.file.folder() %>";
+const currentFolder = "Data engineer bootcamp";
 
   
 
@@ -521,7 +514,7 @@ tab: Tasks To Do  
 
 ```dataviewjs  
 // Lấy thông tin thư mục hiện tại  
-const currentFolder = "<% tp.file.folder() %>";  
+const currentFolder = "Data engineer bootcamp";  
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 const projectTag = `#project/${folderName}`;  
   
@@ -550,7 +543,7 @@ tab: Completed Tasks  
 
 // Lấy thông tin thư mục hiện tại  
 
-const currentFolder = "<% tp.file.folder() %>";  
+const currentFolder = "Data engineer bootcamp";  
 
 const folderName = currentFolder.split("/").pop().toLowerCase().replace(/ /g, "_");  
 
