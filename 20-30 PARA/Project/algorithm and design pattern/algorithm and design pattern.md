@@ -60,7 +60,9 @@ Description Goal
 ---
 
 
-
+## Summary
+- Hoc khoa hoc 200 lab ve cac ki thuat design pattern leetcode
+- Khoa hoc 
 
   
 ---
