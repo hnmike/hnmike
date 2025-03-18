@@ -118,7 +118,6 @@ renderProgressBar();
 >> ```dataview
 >> LIST
 >> FROM #goal
->> SORT file.name ASC
 >> ```
 
 `````````````tabs
