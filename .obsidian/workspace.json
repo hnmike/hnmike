@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "project_note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project_note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}},\"scroll\":2.1186440677966103}"
+                },
+                {
                   "title": "area_note template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
@@ -314,12 +320,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/project_note template.md",
+                "file": "20-30 PARA/Project/data engineer coursera/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "project_note template"
+              "title": "Untitled 1"
             }
           },
           {
@@ -1250,6 +1256,8 @@
   },
   "active": "054905cc42ba9797",
   "lastOpenFiles": [
+    "00-09 system/template/project_note template.md",
+    "20-30 PARA/Project/data engineer coursera/Untitled 1.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Project/data engineer 2/Untitled 6.md",
@@ -1278,13 +1286,11 @@
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm & design pattern",
     "20-30 PARA/Project/DE zach wilson",
-    "20-30 PARA/Project/Untitled.md",
     "20-30 PARA/Project/devop labs",
     "20-30 PARA/Project/Data engineer bootcamp",
     "20-30 PARA/Project/data engineer coursera",
     "20-30 PARA/Project/MLop1",
     "20-30 PARA/Project/AWS cloud and DE",
-    "Lab opensource data engineer.md",
     "00-09 system/homepage/dashboard.canvas",
     "Thino",
     "Untitled 1.canvas",
