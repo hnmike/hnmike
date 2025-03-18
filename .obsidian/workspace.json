@@ -482,12 +482,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "algorithm & design pattern"
             }
           },
           {
@@ -1416,10 +1416,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
     "00-09 system/template/project_family template.md",
-    "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+    "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/area_family template.md",
     "20-30 PARA/Area/data/Untitled.md",
