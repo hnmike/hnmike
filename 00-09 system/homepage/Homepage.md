@@ -116,8 +116,10 @@ renderProgressBar();
 >
 >> [!Goal]+ Goal 🦊
 >> ```dataview
->> LIST
+>> LIST WITHOUT ID task.text
 >> FROM #goal
+>> FLATTEN file.tasks AS task
+>> WHERE contains(task.text, "#goal")
 >> ```
 
 `````````````tabs
