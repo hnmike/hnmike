@@ -594,8 +594,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1417,7 +1416,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "054905cc42ba9797",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
