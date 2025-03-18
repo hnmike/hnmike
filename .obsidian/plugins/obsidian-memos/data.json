@@ -97,7 +97,7 @@
   "DifferentInsertTarget": false,
   "InsertAfterForTask": "",
   "ProcessContentTarget": "custom",
-  "InsertType": "end",
+  "InsertType": "custom",
   "ShareAppendType": "preset",
   "SharePrependType": "preset",
   "SetFileNameAfterCreate": false,
