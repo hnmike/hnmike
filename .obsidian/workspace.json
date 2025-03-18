@@ -265,6 +265,18 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "202503161107",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Area/data/202503161107.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161107\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":55.592592592592595}"
                 },
@@ -345,12 +357,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Area/data/202503161107.md",
+                "file": "20-30 PARA/Area/data/202503161551.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202503161107"
+              "title": "202503161551"
             }
           },
           {
@@ -1281,6 +1293,8 @@
   },
   "active": "7af539f8ec471159",
   "lastOpenFiles": [
+    "20-30 PARA/Area/data/Untitled.md",
+    "20-30 PARA/Area/data/202503161107.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "Thino/20250318-c9311a15e501ae57.md",
@@ -1315,8 +1329,6 @@
     "2024-12-11.md",
     "00-09 system/homepage/Map of content.md",
     "00-09 system/homepage/dashboard.canvas",
-    "Thino/20250318-5d88677f117b2ba8.md",
-    "Thino/20250318-63bb7ac2be562115.md",
     "Thino",
     "Untitled 1.canvas",
     "Untitled.canvas",

@@ -20,7 +20,7 @@
     },
     {
       "folder": "20-30 PARA/Area",
-      "template": "00-09 system/template/area_note template.md"
+      "template": "00-09 system/template/area_family template.md"
     }
   ],
   "syntax_highlighting": true,
