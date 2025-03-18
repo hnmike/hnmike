@@ -1592,25 +1592,6 @@
             }
           },
           {
-            "id": "1beb8a2b2b34f5f6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "1f04370fcd17e1a8",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1628,9 +1609,28 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "81d3fc06ee1d7573",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 33
+        "currentTab": 36
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1706,7 +1706,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f76749690c52c9f",
+  "active": "81d3fc06ee1d7573",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "00-09 system/homepage/Homepage.md",
