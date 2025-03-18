@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "algorithm & design pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm & design pattern\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
                   "title": "Introduction & Set Up  DE Zoomcamp Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
@@ -506,12 +512,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+                "file": "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm & design pattern"
+              "title": "Untitled"
             }
           },
           {
@@ -1440,10 +1446,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "054905cc42ba9797",
   "lastOpenFiles": [
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
+    "20-30 PARA/Project/algorithm & design pattern/Untitled.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "20-30 PARA/Project/AWS cloud and DE/Untitled.md",
     "00-09 system/template/project_family template.md",
@@ -1467,7 +1474,6 @@
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "Thino/20250318-c9311a15e501ae57.md",
     "20-30 PARA/Project/DE zach wilson/Untitled.md",
-    "20-30 PARA/Project/algorithm & design pattern/Untitled 1.md",
     "20-30 PARA/Project/SQL",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm & design pattern",
