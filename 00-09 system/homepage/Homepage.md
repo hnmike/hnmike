@@ -117,14 +117,11 @@ renderProgressBar();
 >> [!Goal]+ Goal 🦊
 >> ```dataviewjs
 >> dv.table(
->>     ["Goal", "Status", "Due Date", "Created"],
+>>     ["Goals"],
 >>     dv.pages("#goal")
 >>         .sort(b => b.file.ctime, 'desc')
 >>         .map(b => [
->>             b.file.link,
->>             b.Status || "-",
->>             b.Due_Date ? dv.date(b.Due_Date).toFormat("dd-MM-yyyy") : "-",
->>             dv.date(b.file.ctime).toFormat("dd-MM-yyyy")
+>>             b.file.link
 >>         ])
 >> )
 >> ```
