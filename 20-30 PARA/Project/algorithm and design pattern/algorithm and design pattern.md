@@ -60,9 +60,9 @@ Description Goal
 ---
 
 
-## Summary
+ Summary
 - Hoc khoa hoc 200 lab ve cac ki thuat design pattern leetcode
-- Khoa hoc 
+- Khoa hoc reonin engineer backend va kafka 
 
   
 ---
