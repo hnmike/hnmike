@@ -109,6 +109,10 @@ dv.table(["Task", "Start Time", "Duration", "Break Time"],
 ---
 
 
+
+  
+````
+tab: 🐹 Today's Notes
 ```dataviewjs
 // filepath: c:\hnmike\00-09 system\template\daily note template.md
 try {
