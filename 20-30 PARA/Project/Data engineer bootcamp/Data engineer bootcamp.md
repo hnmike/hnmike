@@ -60,8 +60,11 @@ Description Goal
 ---
 
 ```dataview
-LIST file.link
-FROM "#project/data_engineer_bootcamp"
+TABLE 
+    file.link as "Resource",
+    type as "Type"
+FROM "resources"
+WHERE contains(file.tags, "#project/data_engineer_bootcamp")
 SORT file.name ASC
 ```
 
