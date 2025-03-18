@@ -221,6 +221,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":493.14536998890065}"
+                },
+                {
                   "title": "Untitled 2",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
@@ -459,12 +465,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
-                "mode": "source",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Data engineer bootcamp"
             }
           },
           {
@@ -1395,8 +1401,8 @@
   },
   "active": "581107ca23207b36",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
