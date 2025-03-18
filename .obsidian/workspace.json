@@ -277,10 +277,14 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/03/2025-03-18.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-03-18"
             }
           }
         ],
@@ -1186,7 +1190,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eda85848a72349b7",
+  "active": "be263ea525bf191d",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
