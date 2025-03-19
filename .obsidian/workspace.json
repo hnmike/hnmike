@@ -214,17 +214,17 @@
             "id": "581107ca23207b36",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Data engineer bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":602,\"ch\":2},\"to\":{\"line\":602,\"ch\":2}},\"scroll\":504.21018120094584}"
                 },
                 {
                   "title": "Untitled",
@@ -471,12 +471,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM"
+              "title": "Data engineer bootcamp"
             }
           },
           {
@@ -1407,8 +1407,8 @@
   },
   "active": "581107ca23207b36",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
