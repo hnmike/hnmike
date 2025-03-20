@@ -351,7 +351,7 @@
               "type": "markdown",
               "state": {
                 "file": "resources/Medallion Architecture The Key to Scalable & High-Quality Data Pipelines.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
