@@ -319,7 +319,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:project/data_engineer_bootcamp",
+                "query": "tag:Log",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -349,7 +349,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1171,7 +1172,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe6e89acdfbafedd",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
