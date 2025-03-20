@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "LinkedIn Post",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Clippings/LinkedIn Post.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LinkedIn Post\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":79},\"to\":{\"line\":15,\"ch\":79}},\"scroll\":8}"
+                },
+                {
                   "title": "Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch\"}",
@@ -314,12 +320,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/LinkedIn Post.md",
+                "file": "Clippings/LinkedIn Post333.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinkedIn Post"
+              "title": "LinkedIn Post333"
             }
           }
         ],
@@ -1227,9 +1233,9 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "Clippings/LinkedIn Post.md",
     "Clippings/LinkedIn Post333.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
-    "Clippings/LinkedIn Post.md",
     "Clippings/LinkedIn Post 10.md",
     "Clippings",
     "resources/kraft replacing zookeeper.md",
