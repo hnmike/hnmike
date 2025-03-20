@@ -242,18 +242,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":293.50925064086914}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch"
             }
           }
         ],
@@ -1161,6 +1167,7 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch 1.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
@@ -1188,7 +1195,6 @@
     "20-30 PARA/Project/algorithm & design pattern/algorithm & design pattern.md",
     "20-30 PARA/Area/data/Untitled 1.md",
     "00-09 system/template/project_family template.md",
-    "00-09 system/template/project_note template.md",
     "20-30 PARA/Project/SQL",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm and design pattern",
