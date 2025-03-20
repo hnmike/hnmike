@@ -1310,17 +1310,8 @@
             }
           },
           {
-            "id": "675c6fcb736f5bc5",
+            "id": "c8885447f355268c",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1405,7 +1396,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "581107ca23207b36",
+  "active": "c8885447f355268c",
   "lastOpenFiles": [
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/(18) Post  Feed  LinkedIn.md",
