@@ -224,7 +224,7 @@
                   "title": "Introduction & Set Up  DE Zoomcamp Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "(18) Post  Feed  LinkedIn",
@@ -1420,8 +1420,8 @@
   "active": "581107ca23207b36",
   "lastOpenFiles": [
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "resources/(18) Post  Feed  LinkedIn.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
+    "resources/(18) Post  Feed  LinkedIn.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
