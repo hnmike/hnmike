@@ -11,7 +11,7 @@ tags:
   - ELK
   - Stack
   - Management
-  - Data
+  - data_engineer
 summary: Learn how to build a scalable log management system using the ELK Stack (Elasticsearch, Logstash, Kibana) on Debian-based virtual machines. Perfect for data engineers!
 ---
 # ELK Stack Mastery: Building a Scalable Log Management System
