@@ -247,6 +247,18 @@
                   "title": "LinkedIn Post",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Clippings/LinkedIn Post.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LinkedIn Post\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":37.51744505228178}"
+                },
+                {
+                  "title": "LinkedIn Post33",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Clippings/LinkedIn Post33.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LinkedIn Post33\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":4.157859470533288}"
+                },
+                {
+                  "title": "LinkedIn Post",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Clippings/LinkedIn Post.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LinkedIn Post\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":35.067744320036574}"
                 },
                 {
@@ -1290,14 +1302,4 @@
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950819.png",
     "90-100 resource archives/Image/IMG-20250315221950821.png",
-    "90-100 resource archives/Image/IMG-20241108202153684.png",
-    "90-100 resource archives/Image/IMG-20241029163932572.png",
-    "90-100 resource archives/Image/IMG-20241023203458768.png",
-    "90-100 resource archives/Image/IMG-20241023202611255.png",
-    "00-09 system/canvas/DE_project.canvas",
-    "00-09 system/canvas/ART.canvas",
-    "00-09 system/canvas/ENG.canvas",
-    "00-09 system/canvas/SCHOOL PROJECT.canvas",
-    "00-09 system/canvas/MLOP.canvas"
-  ]
-}
+    "90-100 resou
