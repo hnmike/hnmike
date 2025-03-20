@@ -7,8 +7,11 @@ source: "https://www.youtube.com/watch?v=RQ7nnobb1N0"
 image: "https://i.ytimg.com/vi/RQ7nnobb1N0/maxresdefault.jpg"
 created: 2025-03-20
 tags:
-  - "#youtube. {{\"Identify 3 key tags following description}}"
-summary: "Build a real-time data pipeline with Kafka, Spark, Elasticsearch, & MongoDB. Learn sentiment analysis using Hugging Face & visualize data in Kibana."
+  - "#youtube"
+  - "Data Engineering"
+  - "Kafka"
+  - "Elasticsearch"
+summary: "Learn to build a real-time data pipeline with Kafka, Spark, and Elasticsearch. Analyze sentiment from a 7M record dataset using HuggingFace. #DataEngineering #Kafka"
 ---
 # Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch
 
@@ -57,14 +60,13 @@ summary: "Build a real-time data pipeline with Kafka, Spark, Elasticsearch, & Mo
 
 
  > [!info]
-> - **Real-time sentiment analysis system overview** [0:05]: The system captures live data from Yelp, processes it with Kafka, analyzes sentiment with Hugging Face, and visualizes it in Kibana.
-> - **Setting up Elasticsearch** [2:31]: Create a free trial account, deploy a cluster on AWS (Frankfurt region), and note the Elasticsearch user and password.
-> - **Kaggle Notebook Setup** [4:05]: Enable internet access and add the Yelp dataset to your Kaggle notebook.
-> - **Kafka Producer Configuration** [16:35]: Set up the Kafka producer configuration with bootstrap server, security protocol (SASL SSL), API key, and secret.
-> - **MongoDB Atlas Setup** [29:37]: Sign up for a free account, deploy an m0 cluster on AWS (Frankfurt), and configure network access and database users.
-> - **Spark Streaming Setup** [35:06]: Set up a PySpark streaming notebook, install PySpark, and configure Kafka and MongoDB connections.
-> - **Sentiment Analysis Integration** [40:07]: Integrate Hugging Face's DistilBERT model for sentiment analysis in PySpark.
-> - **Confluent Connectors** [1:00:17]: Configure a MongoDB Atlas source connector and an Elasticsearch sink connector in Confluent Cloud.
-> - **Kibana Dashboard Setup** [1:11:17]: Set up a Kibana dashboard for real-time visualizations of the data, including sentiment distribution, total reviews, average star rating, and location.
-> - **Dashboard Exploration and Data Analysis** [1:20:09]: The dashboard updates in real-time as new documents are inserted, allowing you to filter the data based on sentiment, location, and business.
-> 
+> - **Building a Real-Time Data Streaming Pipeline (0:00)**: The tutorial guides viewers through setting up a system using Yelp data for real-time sentiment analysis.
+> - **Kaggle Setup (1:31)**: Instructions on registering on Kaggle, agreeing to terms, and accessing the Yelp dataset.
+> - **Elasticsearch Setup (2:31)**: Guidance on setting up Elasticsearch, including creating a free trial, configuring a deployment on AWS, and noting user credentials.
+> - **Kaggle Notebook Configuration (4:05)**: Instructions for enabling internet access and adding the Yelp dataset to a Kaggle notebook, installing Elasticsearch, and writing bulk upload code.
+> - **Kafka Producer Setup (14:47)**: Steps for creating a new Kaggle notebook for Kafka producer, installing confluent-kafka, and adjusting file persistence settings.
+> - **Confluent Cloud Setup (12:24)**: Guidance on setting up a Confluent Cloud account, creating a Kafka cluster, generating API keys, and setting up a Kafka topic with Avro schema.
+> - **MongoDB Atlas Setup (29:37)**: Steps to set up a MongoDB Atlas cluster, configure network access, and create database users for Spark and Confluent.
+> - **Spark Streaming Setup (34:53)**: Instructions for setting up a PySpark streaming notebook, integrating Kafka, MongoDB, and Hugging Face for sentiment analysis.
+> - **Elasticsearch Configuration (1:05:12)**: Steps for creating a reviews index with schema, creating an enrichment policy, and assigning an ingestion pipeline.
+> - **Kibana Dashboard Setup (1:11:17)**: Guidance on setting up a dashboard in Kibana for real-time visualizations, including creating visualizations for sentiment, total reviews, average star rating, and business locations.
