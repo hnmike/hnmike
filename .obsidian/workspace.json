@@ -1312,6 +1312,15 @@
           {
             "id": "c8885447f355268c",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1398,6 +1407,7 @@
   },
   "active": "c8885447f355268c",
   "lastOpenFiles": [
+    "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/(18) Post  Feed  LinkedIn.md",
     "resources/Turn any YouTube Channel into your AI Mentor - Obsidian is the ultimate automation workbench for PKM.md",
@@ -1425,7 +1435,6 @@
     "00-09 system/template/project_family template.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/area_family template.md",
-    "20-30 PARA/Area/data/Untitled.md",
     "20-30 PARA/Project/SQL",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm and design pattern",
