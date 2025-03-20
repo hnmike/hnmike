@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":25},\"to\":{\"line\":15,\"ch\":25}},\"scroll\":0.685}"
+                },
+                {
                   "title": "Introduction & Set Up  DE Zoomcamp Notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
@@ -308,12 +314,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
-                "mode": "source",
+                "file": "Clippings/LinkedIn Post 10.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch"
+              "title": "LinkedIn Post 10"
             }
           }
         ],
@@ -1221,6 +1227,7 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "Clippings/LinkedIn Post 10.md",
     "Clippings",
     "resources/kraft replacing zookeeper.md",
@@ -1231,7 +1238,6 @@
     "resources/Running Spark Job on Kubernetes with Docker Step-by-Step Guide.md",
     "resources/End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka….md",
     "resources/(18) Post  Feed  LinkedIn.md",
-    "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "resources/Debezium Testing locally with PG and Docker.md",
     "resources/Quick and Easy Guide Installing Apache Flink for Stream Processing  Part 5.md",
     "resources/Kafka cdc implementation all starting barrier debezium  sink connector  source connector.md",
