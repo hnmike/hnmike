@@ -10,7 +10,7 @@ tags:
   - "#youtube"
 summary: "Build a real-time data pipeline using Kafka, Spark, Elasticsearch, & MongoDB. Perform sentiment analysis on Yelp reviews with Hugging Face & visualize the results!"
 ---
-Data Engineering, Kafka, Elasticsearch
+
 # Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch
 
 ![Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch](https://www.youtube.com/embed/RQ7nnobb1N0)
