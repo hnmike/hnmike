@@ -59,9 +59,9 @@ summary: "Learn to build a real-time data pipeline using Kafka, Spark, and Elast
 > - **Real-time data streaming pipeline using Kafka, Spark, and Elasticsearch** (0:00)
 > - **Utilizing Apache Spark for streaming data from Kafka topics** (0:15)
 > - **Performing real-time sentiment analysis with HuggingFace models** (0:22)
-> - **Enhanced data indexing and search capabilities with Elasticsearch** (0:29)
-> - **Setting up and configuring a Kafka topic for seamless data transmission in Kaggle Notebooks** (0:36)
-> - **Kafka for efficient real-time data ingestion and distribution** (0:43)
+> - **Enhanced dguring a Kafka topic for seamless data transmission in Kaggle Notebooks** (0:36)
+> - **Kafka for efficient rata indexing and search capabilities with Elasticsearch** (0:29)
+> - **Setting up and confieal-time data ingestion and distribution** (0:43)
 > - **GitHub Repository**: [https://github.com/akarce/real-time-data-pipeline-kafka-mongo-elasticsearch-pyspark](https://github.com/akarce/real-time-data-pipeline-kafka-mongo-elasticsearch-pyspark) (0:51)
 > - **Yelp Dataset**: [https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) (0:58)
 > 
