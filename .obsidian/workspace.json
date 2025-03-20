@@ -377,7 +377,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 305.5
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -1168,7 +1168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 531.2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1195,7 +1195,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe6e89acdfbafedd",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "resources/End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka….md",
     "resources/Debezium Testing locally with PG and Docker.md",
