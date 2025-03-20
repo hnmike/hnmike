@@ -1,17 +1,19 @@
 ---
 title: "ELK Stack Mastery: Building a Scalable Log Management System"
 author:
-  - "Cey's Data Hub"
+  - Cey's Data Hub
 published: 2024-11-04
-source: "https://www.youtube.com/watch?v=U1i5sIZzEQM"
-image: "https://i.ytimg.com/vi/U1i5sIZzEQM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYACtAWKAgwIABABGFcgXShlMA8=&rs=AOn4CLARvheDX6AM_05frKE1wIdx8UlGlA"
+source: https://www.youtube.com/watch?v=U1i5sIZzEQM
+image: https://i.ytimg.com/vi/U1i5sIZzEQM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYACtAWKAgwIABABGFcgXShlMA8=&rs=AOn4CLARvheDX6AM_05frKE1wIdx8UlGlA
 created: 2025-03-20
 tags:
   - "#youtube"
-  - "ELK Stack"
-  - "Log Management"
-  - "Data Engineering"
-summary: "Learn how to build a scalable log management system using the ELK Stack (Elasticsearch, Logstash, Kibana) on Debian-based virtual machines. Perfect for data engineers!"
+  - ELK
+  - Stack
+  - Management
+  - Data
+  - Engineering
+summary: Learn how to build a scalable log management system using the ELK Stack (Elasticsearch, Logstash, Kibana) on Debian-based virtual machines. Perfect for data engineers!
 ---
 # ELK Stack Mastery: Building a Scalable Log Management System
 
