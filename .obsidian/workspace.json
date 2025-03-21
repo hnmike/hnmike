@@ -237,16 +237,16 @@
             "id": "fe6e89acdfbafedd",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "20250318-5d88677f117b2ba8",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Thino/20250318-5d88677f117b2ba8.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"20250318-5d88677f117b2ba8\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
                 },
                 {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
@@ -372,14 +372,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thino/20250318-5d88677f117b2ba8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250318-5d88677f117b2ba8"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -1285,7 +1281,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe6e89acdfbafedd",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "resources/When does it pay to ditch Kafka’s Traditional Replication.md",
     "resources/data quality issues.md",
