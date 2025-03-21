@@ -559,9 +559,50 @@
               "icon": "lucide-file",
               "title": "2025-03-21"
             }
+          },
+          {
+            "id": "b215ca20cfaa25a6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AWS cloud and DE",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":2},\"to\":{\"line\":57,\"ch\":2}},\"scroll\":14.940741644965279}"
+                },
+                {
+                  "title": "algorithm and design pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm and design pattern\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "AWS cloud and DE",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":56,\"ch\":0},\"to\":{\"line\":56,\"ch\":0}},\"scroll\":11.296296296296296}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data engineer bootcamp"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1292,13 +1333,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "b215ca20cfaa25a6",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/03/2025-03-21.md",
-    "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "20-30 PARA/Project/data engineer coursera/Untitled.md",
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "00-09 system/journal/daily/2025/03/2025-03-21.md",
     "www.googlecalendar.com.md",
+    "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
+    "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
@@ -1307,7 +1349,6 @@
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "Khóa học DE Zach Wilson.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
