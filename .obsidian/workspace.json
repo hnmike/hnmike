@@ -478,7 +478,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1380,8 +1380,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "980d7d578d9582d0",
+  "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
+    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "00-09 system/homepage/Homepage.md",
@@ -1406,8 +1408,6 @@
     "Clippings/LinkedIn Post 1.md",
     "Clippings/LinkedIn Post33.md",
     "Clippings/LinkedIn Post333.md",
-    "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
-    "Clippings/LinkedIn Post 10.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
