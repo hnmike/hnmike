@@ -244,6 +244,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":602,\"ch\":2},\"to\":{\"line\":602,\"ch\":2}},\"scroll\":501.0842591744882}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":2.322033865977142}"
+                },
+                {
                   "title": "SQL",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/SQL/SQL.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL\"}",
@@ -440,12 +452,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer coursera/Untitled.md",
-                "mode": "source",
+                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "algorithm and design pattern"
             }
           },
           {
@@ -1388,8 +1400,9 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
-    "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
+    "20-30 PARA/Project/SQL/SQL.md",
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
@@ -1400,7 +1413,6 @@
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/algorithm and design pattern/Untitled.md",
     "Clippings/LinkedIn Post.md",
