@@ -28,8 +28,6 @@ url: "https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/m
 
 # Containerization and Infrastructure as Code
 
-
-
 ### Table of contents
 
 - [Introduction](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#introduction)
@@ -49,7 +47,6 @@ url: "https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/m
 
 ## Introduction
 
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#introduction)
 
 **Data Engineering** is the discipline of designing, building, and maintaining the systems and infrastructure needed to collect, process, store, and analyze large volumes of data. It focuses on creating the foundation that enables data scientists, analysts, and other stakeholders to work with clean, organized, and reliable data. Key Responsibilities:
 
@@ -65,8 +62,6 @@ A **data pipeline** is a series of processes and tools that automate the movem
 [![pipeline](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/raw/main/1_Containerization-and-Infrastructure-as-Code/images/pipeline.jpg)](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/blob/main/1_Containerization-and-Infrastructure-as-Code/images/pipeline.jpg)
 
 ## Docker
-
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#docker)
 
 **Docker** is an open-source platform that allows developers to build, package, and deploy applications in isolated environments called containers. It simplifies application deployment by ensuring consistency across different environments (e.g., development, testing, production). With Docker, you can run applications and all their dependencies in a lightweight and portable environment.
 
