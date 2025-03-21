@@ -571,6 +571,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Module 2 Workflow Orchestration with Airflow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 2 Workflow Orchestration with Airflow\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Module 5 Batch Processing with spark",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 5 Batch Processing with spark\"}",
@@ -677,12 +683,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 2 Workflow Orchestration with Airflow"
+              "title": "Module 1 Containerization and Infrastructure as Code"
             }
           }
         ],
@@ -1420,8 +1426,8 @@
   },
   "active": "b215ca20cfaa25a6",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
