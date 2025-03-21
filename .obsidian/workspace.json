@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "When does it pay to ditch Kafka’s Traditional Replication",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/When does it pay to ditch Kafka’s Traditional Replication.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"When does it pay to ditch Kafka’s Traditional Replication\"}",
@@ -366,10 +372,14 @@
               ]
             },
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Thino/20250318-5d88677f117b2ba8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20250318-5d88677f117b2ba8"
             }
           }
         ],
