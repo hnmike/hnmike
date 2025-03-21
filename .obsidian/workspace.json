@@ -1178,17 +1178,8 @@
             }
           },
           {
-            "id": "c8885447f355268c",
+            "id": "cb2cd26b8e459d5e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1273,7 +1264,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe6e89acdfbafedd",
+  "active": "cb2cd26b8e459d5e",
   "lastOpenFiles": [
     "Clippings/LinkedIn Post 2.md",
     "resources/Building a 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗴𝗿𝗮𝗱𝗲 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 (𝗥𝗔𝗚) 𝗯𝗮𝘀𝗲𝗱 𝗔𝗜 𝘀𝘆𝘀𝘁𝗲𝗺.md",
