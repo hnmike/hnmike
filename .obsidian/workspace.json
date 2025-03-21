@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DE zach wilson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
+                  "eState": "{\"scroll\":60.26315789473684}"
+                },
+                {
                   "title": "De project mlop2",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
@@ -464,12 +470,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
+                "file": "20-30 PARA/Project/devop lab/devop lab.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DE zach wilson"
+              "title": "devop lab"
             }
           },
           {
@@ -1412,13 +1418,13 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "20-30 PARA/Project/SQL/SQL.md",
     "www.googlecalendar.com.md",
-    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "00-09 system/homepage/Homepage.md",
     "Khóa học DE Zach Wilson.md",
