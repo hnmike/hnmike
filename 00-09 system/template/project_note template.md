@@ -1,12 +1,13 @@
 ---
+url: 
 Priority_Level: 
 Status: 1 To Do
 Date_Created: 
 Due_Date: 
 Connections: 
-Tags: 
+tags: 
 Type: project_note
-Cssclasses: 
+cssclasses:
 ---
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  

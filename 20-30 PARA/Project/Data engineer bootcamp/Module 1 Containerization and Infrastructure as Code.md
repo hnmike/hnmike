@@ -4,9 +4,10 @@ Status: 1 To Do
 Date_Created: 
 Due_Date: 
 Connections: 
-Tags: 
+tags: 
 Type: project_note
-Cssclasses: 
+cssclasses: 
+url:
 ---
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
