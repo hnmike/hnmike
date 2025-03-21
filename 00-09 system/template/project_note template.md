@@ -1,5 +1,4 @@
 ---
-url: 
 Priority_Level: 
 Status: 1 To Do
 Date_Created: 
