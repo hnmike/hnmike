@@ -56,7 +56,7 @@ dv.paragraph(
 Description Goal
 
   
-
+- Lam cac lab lien quan den DE, elt,... 
 ---
 
 
