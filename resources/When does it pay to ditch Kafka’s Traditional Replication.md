@@ -1,11 +1,11 @@
 ---
-source: "https://www.linkedin.com/feed/update/urn:li:activity:7302698997264052224/"
-author:
-published: <span class="update-components-actor__sub-description text-body-xsmall                t-black--light                                ">              <span aria-hidden="true"><!---->2w •<span class="white-space-pre"> </span><span><li-icon aria-hidden="true" type="globe-americas" class="v-align-bottom" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">      <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>    </svg></li-icon></span><span class="white-space-pre"> </span><!----><!----></span><span class="visually-hidden"><!---->2 weeks ago<!----></span>            </span>
+source: https://www.linkedin.com/feed/update/urn:li:activity:7302698997264052224/
+author: 
+published: 
 created: 2025-03-21
-image: "<img width=\"600\" src=\"https://media.licdn.com/dms/image/v2/D4D22AQGeU_RjQpd69g/feedshare-shrink_800/B4DZVhl5H1G8Ak-/0/1741099107345?e=1745452800&amp;v=beta&amp;t=PZzREzFbx8yL2t1Flw2ZZKkgyYTY_aPWNK0N8tY9kK4\" loading=\"lazy\" height=\"337\" alt=\"Image preview\" id=\"ember280\" class=\"ivm-view-attr__img--centered ivm-view-attr__img--aspect-fill update-components-image__image evi-image lazy-image ember-view\">"
+image: <img width="600" src="https://media.licdn.com/dms/image/v2/D4D22AQGeU_RjQpd69g/feedshare-shrink_800/B4DZVhl5H1G8Ak-/0/1741099107345?e=1745452800&amp;v=beta&amp;t=PZzREzFbx8yL2t1Flw2ZZKkgyYTY_aPWNK0N8tY9kK4" loading="lazy" height="337" alt="Image preview" id="ember280" class="ivm-view-attr__img--centered ivm-view-attr__img--aspect-fill update-components-image__image evi-image lazy-image ember-view">
 tags:
-  - "linkedin"
+  - linkedin
 ---
  When does it pay to ditch Kafka’s Traditional Replication?  
   
@@ -102,7 +102,7 @@ The other big thing for their design is that if you're actually using this Icebe
 
 \\n nice that you can include latency, which is typically tricky to model and predict :-) Paul\\n
 
-"\]
+
 > ![](https://media.licdn.com/dms/image/v2/D4D22AQGeU_RjQpd69g/feedshare-shrink_800/B4DZVhl5H1G8Ak-/0/1741099107345?e=1745452800&v=beta&t=PZzREzFbx8yL2t1Flw2ZZKkgyYTY_aPWNK0N8tY9kK4)
 
 > [!note]- Embed
