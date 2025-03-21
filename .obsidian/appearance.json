@@ -13,7 +13,8 @@
     "callout",
     "headingsborder",
     "heading border",
-    "clean_headings"
+    "clean_headings",
+    "custom_background"
   ],
   "theme": "obsidian",
   "cssTheme": "",

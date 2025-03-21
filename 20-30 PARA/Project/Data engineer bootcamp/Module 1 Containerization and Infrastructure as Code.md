@@ -28,11 +28,9 @@ url: "https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/m
 
 # Containerization and Infrastructure as Code
 
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#containerization-and-infrastructure-as-code)
+
 
 ### Table of contents
-
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#table-of-contents)
 
 - [Introduction](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#introduction)
 - [Docker](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#docker)
@@ -137,7 +135,6 @@ Pull the python:3.9 image from Docker Hub if it's not already available locally.
 
 ## Creating a simple data pipeline in Docker
 
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#creating-a-simple-data-pipeline-in-docker)
 
 Let's create an example pipeline. We will create a dummy pipeline.py Python script that receives an argument and prints it.
 
@@ -199,7 +196,7 @@ job finished successfully for day = <some_number>
 
 ## Running Postgres in a container
 
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#running-postgres-in-a-container)
+
 
 You can run a containerized version of Postgres that doesn't require any installation steps. You only need to provide a few environment variables to it as well as a volume for storing data.
 
@@ -232,8 +229,6 @@ The container needs 3 environment variables:
 POSTGRES_USER is the username for logging into the database POSTGRES_PASSWORD is the password for the database POSTGRES_DB is the name that we will give the database.
 
 #### Volume
-
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#volume)
 
 -v points to the volume directory. The colon : separates the first part (path to the folder in the host computer) from the second part (path to the folder inside the container).
 
@@ -559,8 +554,6 @@ Tools --> Query tool
 [![pgamin](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/raw/main/1_Containerization-and-Infrastructure-as-Code/images/pgadmin2.jpg)](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/blob/main/1_Containerization-and-Infrastructure-as-Code/images/pgadmin2.jpg)
 
 ## Parameterizing the script
-
-[](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#parameterizing-the-script)
 
 - CSV files accessible here: [https://github.com/DataTalksClub/nyc-tlc-data/releases](https://github.com/DataTalksClub/nyc-tlc-data/releases)
 
