@@ -512,16 +512,16 @@
             "id": "980d7d578d9582d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "setup va huong dan",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"setup va huong dan\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":32.8125}"
                 },
                 {
-                  "title": "AWS cloud and DE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
@@ -529,12 +529,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
-                "mode": "source",
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "setup va huong dan"
+              "title": "AWS cloud and DE"
             }
           },
           {
@@ -571,6 +571,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "setup va huong dan",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"setup va huong dan\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":210},\"to\":{\"line\":21,\"ch\":210}},\"scroll\":5.525423470190016}"
+                },
+                {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":0},\"to\":{\"line\":62,\"ch\":0}},\"scroll\":32.8125}"
+                },
+                {
                   "title": "AWS cloud and DE",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
@@ -593,12 +605,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data engineer bootcamp"
+              "title": "Untitled"
             }
           }
         ],
@@ -1335,11 +1347,13 @@
   },
   "active": "b215ca20cfaa25a6",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "00-09 system/journal/daily/2025/03/2025-03-21.md",
     "www.googlecalendar.com.md",
-    "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
@@ -1349,7 +1363,6 @@
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "Khóa học DE Zach Wilson.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
@@ -1361,7 +1374,6 @@
     "resources/data quality issues.md",
     "resources/Building a 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗴𝗿𝗮𝗱𝗲 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 (𝗥𝗔𝗚) 𝗯𝗮𝘀𝗲𝗱 𝗔𝗜 𝘀𝘆𝘀𝘁𝗲𝗺.md",
     "Clippings/LinkedIn Post 2.md",
-    "resources/Medallion Architecture The Key to Scalable & High-Quality Data Pipelines.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",

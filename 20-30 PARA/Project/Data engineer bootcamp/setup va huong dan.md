@@ -8,7 +8,7 @@ Tags:
 Type: project_note
 Cssclasses: 
 ---
-# Components
+ # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
 **Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`
@@ -19,3 +19,4 @@ Cssclasses:
 
 
 Set up va huong dan tao lap data enginener bootcamp 
+[GitHub - ManuelGuerra1987/data-engineering-zoomcamp-notes: Detailed notes and homeworks from 2025 Data Engineering Zoomcamp by Datatalks.Club](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-note

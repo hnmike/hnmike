@@ -56,8 +56,9 @@ dv.paragraph(
 Description Goal
 
   
-
+[GitHub - ManuelGuerra1987/data-engineering-zoomcamp-notes: Detailed notes and homeworks from 2025 Data Engineering Zoomcamp by Datatalks.Club](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes)
 ---
+
 
 
   
