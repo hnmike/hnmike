@@ -1275,6 +1275,7 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "resources/data quality issues.md",
     "resources/Building a 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗴𝗿𝗮𝗱𝗲 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 (𝗥𝗔𝗚) 𝗯𝗮𝘀𝗲𝗱 𝗔𝗜 𝘀𝘆𝘀𝘁𝗲𝗺.md",
     "resources/When does it pay to ditch Kafka’s Traditional Replication.md",
     "Clippings/LinkedIn Post 2.md",
@@ -1301,7 +1302,6 @@
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
     "resources/Spring Boot Debezium - Master Slave Real Life Project Example.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
-    "resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
     "20-30 PARA/Project/SQL",
