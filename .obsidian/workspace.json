@@ -244,6 +244,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "De project mlop2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":55.55555555555556}"
+                },
+                {
+                  "title": "DE lab",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE lab/DE lab.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE lab\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":478,\"ch\":2},\"to\":{\"line\":478,\"ch\":2}},\"scroll\":55.55555555555556}"
+                },
+                {
                   "title": "SQL",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/SQL/SQL.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL\"}",
@@ -488,47 +500,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/DE lab/Untitled.md",
+                "file": "20-30 PARA/Project/DE lab/DE lab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "DE lab"
             }
           },
           {
             "id": "980d7d578d9582d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "DE zach wilson",
+                  "title": "DE lab",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
-                  "eState": "{\"scroll\":60.26315789473684}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE lab/DE lab.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"scroll\":131.1779}"
+                },
+                {
+                  "title": "De project mlop2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
+                  "eState": "{\"scroll\":55.55555555555556}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "AWS cloud and DE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
-                  "eState": "{\"scroll\":6.849315068493151}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/De project mlop2/De project mlop2.md",
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "De project mlop2"
+              "title": "AWS cloud and DE"
             }
           }
         ],
@@ -1436,13 +1448,13 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "20-30 PARA/Project/De project mlop2/De project mlop2.md",
+    "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/SQL/SQL.md",
-    "20-30 PARA/Project/DE lab/Untitled.md",
     "20-30 PARA/Project/DE lab",
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
