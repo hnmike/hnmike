@@ -54,7 +54,7 @@ dv.paragraph(
 ---
 
 Description Goal
-
+[1.2.2 - Ingesting NY Taxi Data to Postgres | DE Zoomcamp Notes](https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/module-1/1.2-docker-and-docker-compose/1.2.2-ingesting-ny-taxi-data-to-postgres)
   
 [GitHub - ManuelGuerra1987/data-engineering-zoomcamp-notes: Detailed notes and homeworks from 2025 Data Engineering Zoomcamp by Datatalks.Club](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes)
 ```embed
