@@ -244,6 +244,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "MLop1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/MLop1/MLop1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"MLop1\"}",
+                  "eState": "{\"scroll\":146.5925925925926}"
+                },
+                {
+                  "title": "Untitled 2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 2\"}",
+                  "eState": "{\"scroll\":476.0561437774123}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":4.7342464499277614}"
+                },
+                {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":602,\"ch\":2},\"to\":{\"line\":602,\"ch\":2}},\"scroll\":9.72592615198206}"
+                },
+                {
                   "title": "Untitled",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
@@ -410,16 +434,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "file": "20-30 PARA/Project/SQL/SQL.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL"
+            }
+          },
+          {
+            "id": "980d7d578d9582d0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data engineer bootcamp"
+              "title": "AWS cloud and DE"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1321,14 +1368,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fe6e89acdfbafedd",
+  "active": "980d7d578d9582d0",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "Khóa học DE Zach Wilson.md",
+    "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/MLop1/MLop1.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/algorithm and design pattern/Untitled.md",
     "Clippings/LinkedIn Post.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
@@ -1345,11 +1397,6 @@
     "Clippings/LinkedIn Post 10.md",
     "Clippings",
     "resources/kraft replacing zookeeper.md",
-    "resources/Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming.md",
-    "resources/Fastest way to build a Real Time ML System.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
-    "resources/Running Spark Job on Kubernetes with Docker Step-by-Step Guide.md",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
     "20-30 PARA/Project/SQL",
