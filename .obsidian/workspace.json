@@ -244,6 +244,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/SQL/SQL.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL\"}",
+                  "eState": "{\"scroll\":2.2831050228310503}"
+                },
+                {
                   "title": "MLop1",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/MLop1/MLop1.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"MLop1\"}",
@@ -434,12 +440,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/SQL/SQL.md",
-                "mode": "preview",
+                "file": "20-30 PARA/Project/data engineer coursera/Untitled.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Untitled"
             }
           },
           {
@@ -1382,6 +1388,8 @@
   },
   "active": "fe6e89acdfbafedd",
   "lastOpenFiles": [
+    "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
@@ -1389,13 +1397,11 @@
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "Khóa học DE Zach Wilson.md",
-    "20-30 PARA/Project/SQL/SQL.md",
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
-    "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "20-30 PARA/Project/algorithm and design pattern/Untitled.md",
     "Clippings/LinkedIn Post.md",
     "Lab/ opensource liên quan đến data engineer/ mlops/ devops.md",
