@@ -716,7 +716,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1448,8 +1448,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "be263ea525bf191d",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
@@ -1467,7 +1468,6 @@
     "00-09 system/journal/daily/2025/03/2025-03-21.md",
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
-    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/SQL/SQL.md",
