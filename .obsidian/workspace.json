@@ -571,6 +571,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":2},\"to\":{\"line\":57,\"ch\":2}},\"scroll\":66.89629787868924}"
+                },
+                {
                   "title": "Module 1 Containerization and Infrastructure as Code",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
@@ -689,12 +695,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data engineer bootcamp"
+              "title": "Untitled"
             }
           }
         ],
@@ -1432,8 +1438,9 @@
   },
   "active": "b215ca20cfaa25a6",
   "lastOpenFiles": [
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
@@ -1458,7 +1465,6 @@
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "Khóa học DE Zach Wilson.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 2.md",
-    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
