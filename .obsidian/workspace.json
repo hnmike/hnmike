@@ -728,10 +728,14 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/03/2025-03-23.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-03-23"
             }
           }
         ],
@@ -1468,6 +1472,7 @@
   },
   "active": "f19762dddb73c6cc",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "resources/Untitled 2.md",
     "resources/Untitled 1.md",
@@ -1494,7 +1499,6 @@
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/SQL/SQL.md",
     "20-30 PARA/Project/DE lab",
-    "20-30 PARA/Project/MLop1/MLop1.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
