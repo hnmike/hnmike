@@ -519,6 +519,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Module 1 Containerization and Infrastructure as Code",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":896,\"ch\":21},\"to\":{\"line\":896,\"ch\":21}},\"scroll\":10}"
+                },
+                {
                   "title": "Module 2 Workflow Orchestration with Kestra",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 2 Workflow Orchestration with Kestra\"}",
@@ -535,12 +541,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 1 Containerization and Infrastructure as Code"
+              "title": "Module 2 Workflow Orchestration with Kestra"
             }
           },
           {
