@@ -719,33 +719,56 @@
             "id": "f19762dddb73c6cc",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Kafka internals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Kafka internals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Kafka internals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "2025-03-23",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-23\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":96.15210289562009}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Kafka internals.md",
+                "file": "00-09 system/journal/daily/2025/03/2025-03-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka internals"
+              "title": "2025-03-23"
+            }
+          },
+          {
+            "id": "c45e58981332442c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1476,13 +1499,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f19762dddb73c6cc",
+  "active": "c45e58981332442c",
   "lastOpenFiles": [
-    "resources/Untitled 2.md",
     "resources/Untitled 1.md",
+    "resources/Untitled 2.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
-    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "resources/Kafka internals.md",
+    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",

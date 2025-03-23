@@ -1,8 +1,7 @@
 ---
-source: "https://www.linkedin.com/feed/"
-created: {[date}}
+source: https://www.linkedin.com/feed/
 tags:
-  - "linkedin"
+  - linkedin
   - "#DataArchitecture"
   - "#MedallionArchitecture"
   - "#DataProducts"
@@ -45,5 +44,5 @@ The article advocates for model-driven Data Products, emphasizing context, seman
 [hashtag#DataEngineering](https://www.linkedin.com/feed/hashtag/?keywords=dataengineering&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#DataProducts](https://www.linkedin.com/feed/hashtag/?keywords=dataproducts&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#DataQuality](https://www.linkedin.com/feed/hashtag/?keywords=dataquality&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904)  
 [hashtag#CloudData](https://www.linkedin.com/feed/hashtag/?keywords=clouddata&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#DataGovernance](https://www.linkedin.com/feed/hashtag/?keywords=datagovernance&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#BronzeSilverGold](https://www.linkedin.com/feed/hashtag/?keywords=bronzesilvergold&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904)  
 [hashtag#DataOps](https://www.linkedin.com/feed/hashtag/?keywords=dataops&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#DataMesh](https://www.linkedin.com/feed/hashtag/?keywords=datamesh&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904) [hashtag#ModelDrivenData](https://www.linkedin.com/feed/hashtag/?keywords=modeldrivendata&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7307006208421371904)
-> [! post] +
+> [!post] 
 > <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7307006207129489408?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
