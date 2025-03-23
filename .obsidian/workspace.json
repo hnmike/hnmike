@@ -519,6 +519,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Module 2 Workflow Orchestration with Kestra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 2 Workflow Orchestration with Kestra\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1296,\"ch\":62},\"to\":{\"line\":1296,\"ch\":62}},\"scroll\":52.02340679542691}"
+                },
+                {
                   "title": "Module 1 Containerization and Infrastructure as Code",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
@@ -541,12 +547,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 2 Workflow Orchestration with Kestra"
+              "title": "Module 3 Data Warehouse with BigQuery"
             }
           },
           {
@@ -618,6 +624,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Untitled 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Module 3 Data Warehouse with BigQuery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 3 Data Warehouse with BigQuery\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":52.02340679542691}"
+                },
+                {
                   "title": "Module 2 Workflow Orchestration with Kestra",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 2 Workflow Orchestration with Kestra\"}",
@@ -626,7 +644,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -754,12 +772,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 3 Data Warehouse with BigQuery"
+              "title": "Module 2 Workflow Orchestration with Airflow"
             }
           },
           {
@@ -786,7 +804,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1517,15 +1535,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "980d7d578d9582d0",
+  "active": "b215ca20cfaa25a6",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/Data engineer bootcamp/Terraform install.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "20-30 PARA/Project/Data engineer bootcamp/setup va huong dan.md",
     "Creating a simple data pipeline in Docker.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "resources/Kafka internals.md",
@@ -1536,7 +1555,7 @@
     "resources/Untitled 1.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Untitled.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
@@ -1546,7 +1565,6 @@
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "00-09 system/journal/daily/2025/03/2025-03-21.md",
-    "www.googlecalendar.com.md",
     "20-30 PARA/Project/DE lab",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
