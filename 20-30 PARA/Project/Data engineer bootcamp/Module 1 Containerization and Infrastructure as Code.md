@@ -894,7 +894,7 @@ Why Use Terraform with GCP?
 - Reproducibility: Share the same configuration files across environments (e.g., dev, staging, prod).
 - Version Control: Store .tf files in a version control system (e.g., Git) to track changes over time.
 
-# Terraform install
+## Terraform install
 
 [](https://github.com/ManuelGuerra1987/data-engineering-zoomcamp-notes/tree/main/1_Containerization-and-Infrastructure-as-Code#terraform-install)
 
