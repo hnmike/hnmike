@@ -766,32 +766,9 @@
               "icon": "lucide-file",
               "title": "2025-W13"
             }
-          },
-          {
-            "id": "3e1e9220d88b1395",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/weekly/2025/03/2025-W14.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-W14"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1522,7 +1499,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3e1e9220d88b1395",
+  "active": "f19762dddb73c6cc",
   "lastOpenFiles": [
     "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "00-09 system/journal/weekly/2025/03/2025-W14.md",
