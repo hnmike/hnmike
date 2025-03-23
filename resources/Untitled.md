@@ -1,6 +1,6 @@
 ---
 source: "https://www.linkedin.com/feed/"
-created: {[date}}
+created: {{}date}}
 tags:
   - "linkedin"
   - "Kafka"
