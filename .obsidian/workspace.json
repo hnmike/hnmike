@@ -234,6 +234,29 @@
             }
           },
           {
+            "id": "12e9c8820f01b897",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/03/2025-03-17.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-17"
+            }
+          },
+          {
             "id": "fe6e89acdfbafedd",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -822,7 +845,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1553,8 +1576,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be263ea525bf191d",
+  "active": "12e9c8820f01b897",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "python pulse testing flow in python.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
@@ -1575,7 +1599,6 @@
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "resources/Untitled 1.md",
-    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
