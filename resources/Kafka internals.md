@@ -1,7 +1,5 @@
 ---
 source: https://www.linkedin.com/feed/
-created-date:
-  "{ date }": 
 tags:
   - linkedin
   - Kafka
