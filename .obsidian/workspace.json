@@ -519,6 +519,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Module 3 Data Warehouse with BigQuery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 3 Data Warehouse with BigQuery\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":587,\"ch\":372},\"to\":{\"line\":587,\"ch\":372}},\"scroll\":10.350610830602173}"
+                },
+                {
                   "title": "Module 2 Workflow Orchestration with Kestra",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 2 Workflow Orchestration with Kestra\"}",
@@ -547,12 +553,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 3 Data Warehouse with BigQuery"
+              "title": "Module 4 Analytics Engineering with dbt"
             }
           },
           {
@@ -1543,9 +1549,9 @@
   },
   "active": "980d7d578d9582d0",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/Data engineer bootcamp/Terraform install.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
