@@ -714,9 +714,28 @@
               "icon": "lucide-file",
               "title": "Module 3 Data Warehouse with BigQuery"
             }
+          },
+          {
+            "id": "f19762dddb73c6cc",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1448,8 +1467,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "14fcd9bc7b276c9f",
+  "active": "f19762dddb73c6cc",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "resources/Untitled 2.md",
     "resources/Untitled 1.md",
     "resources/Untitled.md",
@@ -1476,7 +1496,6 @@
     "20-30 PARA/Project/SQL/SQL.md",
     "20-30 PARA/Project/DE lab",
     "20-30 PARA/Project/MLop1/MLop1.md",
-    "20-30 PARA/Project/devop lab/devop lab.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
