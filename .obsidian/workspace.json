@@ -736,12 +736,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Untitled.md",
+                "file": "resources/Kafka internals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Kafka internals"
             }
           }
         ],
@@ -1482,7 +1482,7 @@
     "resources/Untitled 1.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
-    "resources/Untitled.md",
+    "resources/Kafka internals.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",

@@ -1,6 +1,6 @@
 ---
 source: https://www.linkedin.com/feed/
-created:
+created-date:
   "{ date }": 
 tags:
   - linkedin
