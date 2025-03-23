@@ -519,6 +519,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Module 4 Analytics Engineering with dbt",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 4 Analytics Engineering with dbt\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1828,\"ch\":15},\"to\":{\"line\":1828,\"ch\":15}},\"scroll\":82.80987492314091}"
+                },
+                {
                   "title": "Module 3 Data Warehouse with BigQuery",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 3 Data Warehouse with BigQuery\"}",
@@ -553,12 +559,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 4 Analytics Engineering with dbt"
+              "title": "Module 5 Batch Processing with spark"
             }
           },
           {
@@ -1549,6 +1555,7 @@
   },
   "active": "980d7d578d9582d0",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
@@ -1571,7 +1578,6 @@
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/project_family template.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
