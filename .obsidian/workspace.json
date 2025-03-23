@@ -745,7 +745,7 @@
             }
           },
           {
-            "id": "c45e58981332442c",
+            "id": "dc13c1d97739965c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -759,12 +759,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Untitled 2.md",
+                "file": "resources/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "Untitled 1"
             }
           }
         ],
@@ -1499,12 +1499,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c45e58981332442c",
+  "active": "dc13c1d97739965c",
   "lastOpenFiles": [
-    "resources/Untitled 1.md",
-    "resources/Untitled 2.md",
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/Kafka internals.md",
+    "resources/Data Products A Case Against Medallion Architecture.md",
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
+    "resources/Untitled 1.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",

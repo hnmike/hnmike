@@ -2,9 +2,6 @@
 source: https://www.linkedin.com/feed/
 tags:
   - linkedin
-  - "#DataArchitecture"
-  - "#MedallionArchitecture"
-  - "#DataProducts"
 ---
 🚀 Data Products: A Case Against Medallion Architecture🚀  
 Understanding Medallion Architecture: Key Differences Between Two 3-Tiered Data Flow Models – A Visual Exploration!  
