@@ -769,35 +769,6 @@
           }
         ],
         "currentTab": 8
-      },
-      {
-        "id": "869caa0ee46ca63e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c955eb8e54237989",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Module 1 Containerization and Infrastructure as Code"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -1501,7 +1472,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1528,10 +1499,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c955eb8e54237989",
+  "active": "f19762dddb73c6cc",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "resources/Kafka internals.md",
     "resources/Data Products A Case Against Medallion Architecture.md",
