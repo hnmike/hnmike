@@ -745,7 +745,7 @@
             }
           },
           {
-            "id": "dc13c1d97739965c",
+            "id": "49e4bd12294a0185",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -759,12 +759,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Untitled 1.md",
+                "file": "00-09 system/journal/weekly/2025/03/2025-W13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "2025-W13"
             }
           }
         ],
@@ -1499,12 +1499,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dc13c1d97739965c",
+  "active": "49e4bd12294a0185",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
+    "00-09 system/journal/weekly/2025/03/2025-W13.md",
+    "00-09 system/journal/weekly/2025/03",
+    "00-09 system/journal/weekly/2025",
+    "resources/Untitled 1.md",
     "resources/Kafka internals.md",
     "resources/Data Products A Case Against Medallion Architecture.md",
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
-    "resources/Untitled 1.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
@@ -1526,7 +1529,6 @@
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
-    "20-30 PARA/Project/SQL/SQL.md",
     "20-30 PARA/Project/DE lab",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
@@ -1535,8 +1537,6 @@
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/algorithm and design pattern",
     "20-30 PARA/Project/DE zach wilson",
-    "20-30 PARA/Project/devop labs",
-    "20-30 PARA/Project/Data engineer bootcamp",
     "00-09 system/homepage/dashboard.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
