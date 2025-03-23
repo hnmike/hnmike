@@ -768,7 +768,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1499,10 +1499,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7385acfcd46b5d82",
+  "active": "980d7d578d9582d0",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "Creating a simple data pipeline in Docker.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
