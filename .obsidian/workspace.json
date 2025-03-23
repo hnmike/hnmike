@@ -768,7 +768,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1499,15 +1499,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f19762dddb73c6cc",
+  "active": "49e4bd12294a0185",
   "lastOpenFiles": [
+    "resources/Kafka internals.md",
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "00-09 system/journal/weekly/2025/03/2025-W14.md",
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "resources/Untitled 1.md",
-    "resources/Kafka internals.md",
     "resources/Data Products A Case Against Medallion Architecture.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/homepage/Homepage.md",
