@@ -544,6 +544,29 @@
             }
           },
           {
+            "id": "7385acfcd46b5d82",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creating a simple data pipeline in Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating a simple data pipeline in Docker"
+            }
+          },
+          {
             "id": "fbbdba400263a7ec",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -745,7 +768,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1476,13 +1499,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "980d7d578d9582d0",
+  "active": "7385acfcd46b5d82",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
+    "Creating a simple data pipeline in Docker.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "resources/Kafka internals.md",
     "resources/Data Products A Case Against Medallion Architecture.md",
@@ -1505,7 +1529,6 @@
     "00-09 system/journal/daily/2025/03/2025-03-21.md",
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/data engineer coursera/Untitled.md",
-    "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/DE lab",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
