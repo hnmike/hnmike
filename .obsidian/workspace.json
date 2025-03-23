@@ -737,7 +737,7 @@
               "type": "markdown",
               "state": {
                 "file": "resources/Kafka internals.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
