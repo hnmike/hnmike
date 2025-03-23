@@ -1354,6 +1354,15 @@
           {
             "id": "14fcd9bc7b276c9f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1441,6 +1450,7 @@
   },
   "active": "14fcd9bc7b276c9f",
   "lastOpenFiles": [
+    "resources/Untitled 1.md",
     "resources/Untitled.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
@@ -1467,7 +1477,6 @@
     "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "Khóa học DE Zach Wilson.md",
     "Clippings",
     "20-30 PARA/Project/De project mlop2",
     "20-30 PARA/Project/algorithm and design pattern/Mlop2",
