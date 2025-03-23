@@ -544,29 +544,6 @@
             }
           },
           {
-            "id": "7385acfcd46b5d82",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creating a simple data pipeline in Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Creating a simple data pipeline in Docker"
-            }
-          },
-          {
             "id": "fbbdba400263a7ec",
             "type": "leaf",
             "pane-relief:history-v1": {
