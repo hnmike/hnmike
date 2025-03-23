@@ -1,11 +1,10 @@
 ---
-source: "https://www.linkedin.com/feed/"
-created: {{date}}
+source: https://www.linkedin.com/feed/
+created:
+  "{ date }": 
 tags:
-  - "linkedin"
-  - "Kafka"
-  - "Data Engineering"
-  - "Tiered Storage"
+  - linkedin
+  - Kafka
 ---
 Knowing Kafka internals gets you ahead of 94% of Kafka admins.  
   
