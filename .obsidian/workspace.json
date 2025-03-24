@@ -845,7 +845,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1481,7 +1481,7 @@
             }
           },
           {
-            "id": "14fcd9bc7b276c9f",
+            "id": "23620f1222de6a06",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1495,12 +1495,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 27
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1576,8 +1576,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e57e9f622eeca341",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
@@ -1591,7 +1592,6 @@
     "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
