@@ -211,6 +211,35 @@
             }
           },
           {
+            "id": "7ddb591c2592a270",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2025-03-25",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-25.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-25\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":115.26666570592809}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/Reddit Share your tips and tricks in neovim!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reddit Share your tips and tricks in neovim!"
+            }
+          },
+          {
             "id": "12e9c8820f01b897",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -845,7 +874,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1576,8 +1605,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eda85848a72349b7",
+  "active": "7ddb591c2592a270",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-25.md",
     "vmware trên cloud.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
@@ -1603,7 +1633,6 @@
     "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "python pulse testing flow in python.md",
-    "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
