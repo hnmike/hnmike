@@ -805,29 +805,6 @@
             }
           },
           {
-            "id": "49e4bd12294a0185",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/weekly/2025/03/2025-W13.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-W13"
-            }
-          },
-          {
             "id": "e57e9f622eeca341",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -857,7 +834,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1588,8 +1565,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "49e4bd12294a0185",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
+    "00-09 system/journal/weekly/2025/03/2025-W13.md",
     "20-30 PARA/Project/DE zach wilson/Untitled.md",
     "2025-03-23.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
@@ -1614,8 +1593,6 @@
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
