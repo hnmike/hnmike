@@ -176,16 +176,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.8.9",
+                  "icon": "lucide-book-up",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.8.9\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.8.9\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp"
             }
           }
         ],
@@ -548,6 +556,15 @@
           {
             "id": "41a91e6253c9bf66",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -577,7 +594,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
+                "file": "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -587,7 +604,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Capstone project for my course"
+              "title": "Backlinks for DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp"
             }
           }
         ]
@@ -620,7 +637,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "41a91e6253c9bf66",
+  "active": "befe456602bc2fd2",
   "lastOpenFiles": [
     "00-09 system/project/data engineer.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
