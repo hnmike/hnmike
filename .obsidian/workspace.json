@@ -859,13 +859,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "2025-03-23",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/03/2025-03-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-03-23\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2025/03/2025-03-23.md",
+                "file": "2025-03-23.md",
                 "mode": "source",
                 "source": false
               },
@@ -1607,6 +1613,8 @@
   },
   "active": "e57e9f622eeca341",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/03/2025-03-23.md",
+    "2025-03-23.md",
     "00-09 system/Log/Flowmo Log.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
     "vmware trên cloud.md",
@@ -1621,7 +1629,6 @@
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2025/03/2025-03-25.md",
-    "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
@@ -1632,7 +1639,6 @@
     "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
