@@ -1,0 +1,20 @@
+/* Border left cho headings */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+    border-left: 4px solid var(--interactive-accent);
+    padding-left: 10px;
+    margin-left: -14px;
+    display: flex;
+    align-items: center;
+}
+
+/* Màu border khác nhau cho từng cấp heading */
+.markdown-preview-view h1 { border-left-color: #4CAF50; }
+.markdown-preview-view h2 { border-left-color: #2196F3; }
+.markdown-preview-view h3 { border-left-color: #9C27B0; }
+.markdown-preview-view h4 { border-left-color: #FF9800; }
+.markdown-preview-view h5 { border-left-color: #795548; }
