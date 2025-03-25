@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -594,7 +594,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
+                "file": "web api.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -604,7 +604,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp"
+              "title": "Backlinks for web api"
             }
           }
         ]
@@ -637,8 +637,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "befe456602bc2fd2",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "00-09 system/project/data engineer.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
@@ -665,7 +666,6 @@
     "resources/Mastering Databricks Real-Time Analytics with Spark Structured Streaming.md",
     "resources/Kafka internals.md",
     "resources/Kafka cdc implementation all starting barrier debezium  sink connector  source connector.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
