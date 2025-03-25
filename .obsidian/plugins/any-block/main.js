@@ -219299,8 +219299,8 @@ var ABConvert = class {
 
 // src/ABConverter/ABReg.ts
 var ABReg = {
-  reg_header: /^((\s|>\s|-\s|\*\s|\+\s)*)(%%)?(\[((?!toc|TOC|< )[\|#0-9a-zA-Z\u4e00-\u9fa5].*)\]):?(%%)?\s*$/,
-  reg_header_up: /^((\s|>\s|-\s|\*\s|\+\s)*)(%%)?(\[((?!toc|TOC)< [\|#0-9a-zA-Z\u4e00-\u9fa5].*)\]):?(%%)?\s*$/,
+  reg_header: /^((\s|>\s|-\s|\*\s|\+\s)*)(%%)?(\[((?!toc|TOC|< )[\|#:;\(\)\s0-9a-zA-Z\u4e00-\u9fa5].*)\]):?(%%)?\s*$/,
+  reg_header_up: /^((\s|>\s|-\s|\*\s|\+\s)*)(%%)?(\[((?!toc|TOC)< [\|#:;\(\)\s0-9a-zA-Z\u4e00-\u9fa5].*)\]):?(%%)?\s*$/,
   reg_mdit_head: /^((\s|>\s|-\s|\*\s|\+\s)*)(:::)\s?(.*)/,
   reg_mdit_tail: /^((\s|>\s|-\s|\*\s|\+\s)*)(:::)/,
   reg_list: /^((\s|>\s|-\s|\*\s|\+\s)*)(-\s|\*\s|\+\s)(.*)/,
@@ -219366,17 +219366,19 @@ var ABAlias_json_mdit = [
   { regex: "|::: 140lne|demo|", replacement: "|mditDemo|" },
   { regex: "|::: 140lne|abDemo|", replacement: "|mditABDemo|" },
   { regex: /\|::: 140lne\|(2?col|分栏)\|/, replacement: "|mditCol|" },
-  { regex: /\|::: 140lne\|(2?card|卡片)\|/, replacement: "|mditCard|" }
+  { regex: /\|::: 140lne\|(2?card|卡片)\|/, replacement: "|mditCard|" },
+  { regex: /\|::: 140lne\|(2?chat|聊天)\|/, replacement: "|mditChat|code(chat)|" }
 ];
 var ABAlias_json_title = [
   { regex: "|title2list|", replacement: "|title2listdata|listdata2strict|listdata2list|" },
   { regex: /\|heading 140lne\|2?(timeline|时间线)\|/, replacement: "|title2timeline|" },
   { regex: /\|heading 140lne\|2?(tabs?|标签页?)\||\|title2tabs?\|/, replacement: "|title2c2listdata|c2listdata2tab|" },
   { regex: /\|heading 140lne\|2?(col|分栏)\||\|title2col\|/, replacement: "|title2c2listdata|c2listdata2items|addClass(ab-col)|" },
-  { regex: /\|heading 140lne\|2?(card|卡片)\||\|title2card\|/, replacement: "|title2c2listdata|c2listdata2items|addClass(ab-card)|" },
+  { regex: /\|heading 140lne\|2?(card|卡片)\||\|title2card\|/, replacement: "|title2c2listdata|c2listdata2items|addClass(ab-card)|addClass(ab-lay-vfall)|" },
   { regex: /\|heading 140lne\|2?(nodes?|节点)\||\|(title2node|title2abMindmap)\|/, replacement: "|title2listdata|listdata2strict|listdata2nodes|" },
-  { regex: /\|heading 140lne\|2?(flow|流程图)\|/, replacement: "|title2list|list2mermaid|" },
-  { regex: /\|heading 140lne\|2?(puml)?(mindmap|脑图|思维导图)\|/, replacement: "|title2list|list2pumlMindmap|" },
+  { regex: /\|heading 140lne\|2?(mermaid|flow|流程图)\|/, replacement: "|title2list|list2mermaid|" },
+  { regex: /\|heading 140lne\|2?(mehrmaid|mdmermaid)\|/, replacement: "|title2list|list2mehrmaidText|code(mehrmaid)|" },
+  { regex: /\|heading 140lne\|2?(puml)?(plantuml|mindmap|脑图|思维导图)\|/, replacement: "|title2list|list2pumlMindmap|" },
   { regex: /\|heading 140lne\|2?(markmap|mdMindmap|md脑图|md思维导图)\|/, replacement: "|title2list|list2markmap|" },
   { regex: /\|heading 140lne\|2?(wbs|(工作)?分解(图|结构))\|/, replacement: "|title2list|list2pumlWBS|" },
   { regex: /\|heading 140lne\|2?(table|multiWayTable|multiCrossTable|表格?|多叉表格?|跨行表格?)\|/, replacement: "|title2list|list2table|" },
@@ -219390,10 +219392,11 @@ var ABAlias_json_list = [
   { regex: /\|list 140lne\|2?(timeline|时间线)\|/, replacement: "|list2timeline|" },
   { regex: /\|list 140lne\|2?(tabs?|标签页?)\||\|list2tabs?\|/, replacement: "|list2c2listdata|c2listdata2tab|" },
   { regex: /\|list 140lne\|2?(col|分栏)\||\|list2col\|/, replacement: "|list2c2listdata|c2listdata2items|addClass(ab-col)|" },
-  { regex: /\|list 140lne\|2?(card|卡片)\||\|list2card\|/, replacement: "|list2c2listdata|c2listdata2items|addClass(ab-card)|" },
+  { regex: /\|list 140lne\|2?(card|卡片)\||\|list2card\|/, replacement: "|list2c2listdata|c2listdata2items|addClass(ab-card)|addClass(ab-lay-vfall)|" },
   { regex: /\|list 140lne\|2?(nodes?|节点)\||\|(list2node|list2abMindmap)\|/, replacement: "|list2listdata|listdata2strict|listdata2nodes|" },
-  { regex: /\|list 140lne\|2?(flow|流程图)\|/, replacement: "|list2mermaid|" },
-  { regex: /\|list 140lne\|2?(puml)?(mindmap|脑图|思维导图)\|/, replacement: "|list2pumlMindmap|" },
+  { regex: /\|list 140lne\|2?(mermaid|flow|流程图)\|/, replacement: "|list2mermaid|" },
+  { regex: /\|list 140lne\|2?(mehrmaid|mdmermaid)\|/, replacement: "|list2mehrmaidText|code(mehrmaid)|" },
+  { regex: /\|list 140lne\|2?(puml)?(plantuml|mindmap|脑图|思维导图)\|/, replacement: "|list2pumlMindmap|" },
   { regex: /\|list 140lne\|2?(markmap|mdMindmap|md脑图|md思维导图)\|/, replacement: "|list2markmap|" },
   { regex: /\|list 140lne\|2?(wbs|(工作)?分解(图|结构))\|/, replacement: "|list2pumlWBS|" },
   { regex: /\|list 140lne\|2?(table|multiWayTable|multiCrossTable|表格?|多叉表格?|跨行表格?)\|/, replacement: "|list2table|" },
@@ -219415,7 +219418,7 @@ var ABAlias_json_general = [
   { regex: "|\u6EDA\u52A8|", replacement: "|scroll|" },
   { regex: "|\u8D85\u51FA\u6298\u53E0|", replacement: "|overfold|" },
   { regex: "|\u8F6C\u7F6E|", replacement: "|transpose|" },
-  { regex: "|trs|", replacement: "|trs|" },
+  { regex: "|T|", replacement: "|transpose|" },
   { regex: "|\u7EA2\u5B57|", replacement: "|addClass(ab-custom-text-red)|" },
   { regex: "|\u6A59\u5B57|", replacement: "|addClass(ab-custom-text-orange)|" },
   { regex: "|\u9EC4\u5B57|", replacement: "|addClass(ab-custom-text-yellow)|" },
@@ -219565,7 +219568,7 @@ var ABConvertManager = class {
               prev3.prev_type = typeof prev3.prev_result;
               prev3.prev_type2 = "HTMLElement" /* el */;
               prev3.prev_processor = "md";
-            } else if (abReplaceProcessor.process_param == "string" /* text */ && (prev3.prev_type2 == "array" /* list_strem */ || prev3.prev_type2 == "array2" /* c2list_strem */)) {
+            } else if (abReplaceProcessor.process_param == "string" /* text */ && (prev3.prev_type2 == "array" /* list_stream */ || prev3.prev_type2 == "array2" /* c2list_stream */)) {
               prev3.prev_result = JSON.stringify(prev3.prev_result, null, 2);
               prev3.prev_type = typeof prev3.prev_result;
               prev3.prev_type2 = "string" /* text */;
@@ -219607,7 +219610,7 @@ var ABConvertManager = class {
       prev3.prev_type = "object";
       prev3.prev_type2 = "HTMLElement" /* el */;
       prev3.process = "show_json";
-    } else if (prev3.prev_type == "object" && (prev3.prev_type2 == "array" /* list_strem */ || prev3.prev_type2 == "array2" /* c2list_strem */ || prev3.prev_type2 == "json_string" /* json */)) {
+    } else if (prev3.prev_type == "object" && (prev3.prev_type2 == "array" /* list_stream */ || prev3.prev_type2 == "array2" /* c2list_stream */ || prev3.prev_type2 == "json_string" /* json */)) {
       const code_str = "```json\n" + JSON.stringify(prev3.prev_result, null, 2) + "\n```\n";
       const subEl = document.createElement("div");
       el.appendChild(subEl);
@@ -219629,6 +219632,7 @@ var ABConvertManager = class {
 var abc_quote = ABConvert.factory({
   id: "quote",
   name: "\u589E\u52A0\u5F15\u7528\u5757",
+  detail: "\u5728\u6587\u672C\u7684\u6BCF\u884C\u524D\u9762\u52A0\u4E0A `> `",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -219642,7 +219646,7 @@ var abc_code = ABConvert.factory({
   name: "\u589E\u52A0\u4EE3\u7801\u5757",
   match: /^code(\((.*)\))?$/,
   default: "code()",
-  detail: "\u4E0D\u52A0`()`\u8868\u793A\u7528\u539F\u6587\u672C\u7684\u7B2C\u4E00\u884C\u4F5C\u4E3A\u4EE3\u7801\u7C7B\u578B\uFF0C\u62EC\u53F7\u7C7B\u578B\u4E3A\u7A7A\u8868\u793A\u4EE3\u7801\u7C7B\u578B\u4E3A\u7A7A",
+  detail: "\u5728\u6587\u672C\u7684\u524D\u540E\u5747\u52A0\u4E0A\u4E00\u884C\u4EE3\u7801\u5757\u56F4\u680F\u3002\u4E0D\u52A0`()`\u8868\u793A\u7528\u539F\u6587\u672C\u7684\u7B2C\u4E00\u884C\u4F5C\u4E3A\u4EE3\u7801\u7C7B\u578B\uFF0C\u62EC\u53F7\u7C7B\u578B\u4E3A\u7A7A\u8868\u793A\u4EE3\u7801\u7C7B\u578B\u4E3A\u7A7A",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -219651,12 +219655,13 @@ var abc_code = ABConvert.factory({
       return content3;
     if (matchs[1])
       content3 = matchs[2] + "\n" + content3;
-    return "```" + content3 + "\n```";
+    return "``````" + content3 + "\n``````";
   }
 });
 var abc_Xquote = ABConvert.factory({
   id: "Xquote",
   name: "\u53BB\u9664\u5F15\u7528\u5757",
+  detail: "\u5728\u6587\u672C\u7684\u6BCF\u884C\u524D\u9762\u5220\u9664 `> `",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -219796,6 +219801,7 @@ var abc_listroot = ABConvert.factory({
   name: "\u589E\u52A0\u5217\u8868\u6839",
   match: /^listroot\((.*)\)$/,
   default: "listroot(root)",
+  detail: "\u6BCF\u884C\u524D\u9762\u52A0\u4E24\u7A7A\u683C\uFF0C\u5E76\u5728\u9996\u884C\u63D2\u5165 `- ` \u5F00\u5934\u7684\u6839\u5217\u8868\u9879",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -219815,7 +219821,7 @@ var abc_callout = ABConvert.factory({
   name: "callout\u8BED\u6CD5\u7CD6",
   match: /^\!/,
   default: "!note",
-  detail: "\u9700\u8981obsidian 0.14\u7248\u672C\u4EE5\u4E0A\u6765\u652F\u6301callout\u8BED\u6CD5",
+  detail: "\u5728\u9996\u884C\u63D2\u5165`[!note]`\u7B49\uFF0C\u5E76\u5728\u6BCF\u884C\u524D\u9762\u52A0\u5165 `> `\u3002\u9700\u8981obsidian 0.14\u7248\u672C\u4EE5\u4E0A\u6765\u652F\u6301callout\u8BED\u6CD5",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -220191,7 +220197,7 @@ var abc_list2listdata = ABConvert.factory({
   id: "list2listdata",
   name: "\u5217\u8868\u5230listdata",
   process_param: "string" /* text */,
-  process_return: "array" /* list_strem */,
+  process_return: "array" /* list_stream */,
   detail: "\u5217\u8868\u5230listdata",
   process: (el, header, content3) => {
     return ListProcess.list2data(content3);
@@ -220201,7 +220207,7 @@ var abc_title2listdata = ABConvert.factory({
   id: "title2listdata",
   name: "\u6807\u9898\u5230listdata",
   process_param: "string" /* text */,
-  process_return: "array" /* list_strem */,
+  process_return: "array" /* list_stream */,
   detail: "\u6807\u9898\u5230listdata",
   process: (el, header, content3) => {
     return ListProcess.title2data(content3);
@@ -220210,7 +220216,7 @@ var abc_title2listdata = ABConvert.factory({
 var abc_listdata2list = ABConvert.factory({
   id: "listdata2list",
   name: "listdata\u5230\u5217\u8868",
-  process_param: "array" /* list_strem */,
+  process_param: "array" /* list_stream */,
   process_return: "string" /* text */,
   detail: "listdata\u5230\u5217\u8868",
   process: (el, header, content3) => {
@@ -220219,10 +220225,10 @@ var abc_listdata2list = ABConvert.factory({
 });
 var abc_listdata2nodes = ABConvert.factory({
   id: "listdata2nodes",
-  name: "listdata\u5230\u8282\u70B9",
-  process_param: "array" /* list_strem */,
+  name: "listdata\u5230\u8282\u70B9\u56FE",
+  process_param: "array" /* list_stream */,
   process_return: "HTMLElement" /* el */,
-  detail: "listdata\u5230\u8282\u70B9",
+  detail: "listdata\u5230\u8282\u70B9\u56FE",
   process: (el, header, content3) => {
     return ListProcess.data2nodes(content3, el);
   }
@@ -220230,8 +220236,9 @@ var abc_listdata2nodes = ABConvert.factory({
 var abc_listdata2strict = ABConvert.factory({
   id: "listdata2strict",
   name: "listdata\u4E25\u683C\u5316",
-  process_param: "array" /* list_strem */,
-  process_return: "array" /* list_strem */,
+  process_param: "array" /* list_stream */,
+  process_return: "array" /* list_stream */,
+  detail: "\u5C06\u5217\u8868\u6570\u636E\u8F6C\u5316\u4E3A\u66F4\u89C4\u8303\u7684\u5217\u8868\u6570\u636E\u3002\u7EDF\u4E00\u7F29\u8FDB\u7B26(2\u7A7A\u683C 4\u7A7A\u683C tab\u6DF7\u7528)\u3001\u7981\u6B62\u8DF3\u7B49\u7EA7(h1\u76F4\u63A5\u5C31\u5230h3)",
   process: (el, header, content3) => {
     return ListProcess.data2strict(content3);
   }
@@ -220262,11 +220269,11 @@ var abc_list2json = ABConvert.factory({
 // src/ABConverter/converter/abc_c2list.ts
 var C2ListProcess = class {
   static data_mL_2_2L1B(list_itemInfo) {
-    let list_itemInfo2 = [];
+    const list_itemInfo2 = [];
     const level1 = 0;
     const level2 = 1;
     let flag_leve2 = false;
-    for (let itemInfo of list_itemInfo) {
+    for (const itemInfo of list_itemInfo) {
       if (level1 >= itemInfo.level) {
         list_itemInfo2.push({
           content: itemInfo.content.trim(),
@@ -220284,7 +220291,7 @@ var C2ListProcess = class {
           flag_leve2 = true;
           continue;
         } else {
-          let old_itemInfo = list_itemInfo2.pop();
+          const old_itemInfo = list_itemInfo2.pop();
           if (old_itemInfo) {
             let new_content = itemInfo.content.trim();
             if (itemInfo.level > level2)
@@ -220303,10 +220310,10 @@ var C2ListProcess = class {
     return list_itemInfo2;
   }
   static data_mL_2_2L(list_itemInfo) {
-    let list_itemInfo2 = [];
+    const list_itemInfo2 = [];
     const level1 = 0;
     const level2 = 1;
-    for (let itemInfo of list_itemInfo) {
+    for (const itemInfo of list_itemInfo) {
       if (level1 >= itemInfo.level) {
         list_itemInfo2.push({
           content: itemInfo.content.trim(),
@@ -220321,7 +220328,7 @@ var C2ListProcess = class {
         });
         continue;
       } else {
-        let old_itemInfo = list_itemInfo2.pop();
+        const old_itemInfo = list_itemInfo2.pop();
         if (old_itemInfo) {
           let new_content = itemInfo.content.trim();
           if (itemInfo.level > level2)
@@ -220339,7 +220346,7 @@ var C2ListProcess = class {
     return list_itemInfo2;
   }
   static list2c2data(text7, modeG = true) {
-    let list_itemInfo = [];
+    const list_itemInfo = [];
     const list_text = text7.trimStart().split("\n");
     const first_match = list_text[0].match(ABReg.reg_list_noprefix);
     if (!first_match || first_match[1]) {
@@ -220395,7 +220402,7 @@ var C2ListProcess = class {
     }
   }
   static title2c2data(text7) {
-    let list_itemInfo = [];
+    const list_itemInfo = [];
     const list_text = text7.trimStart().split("\n");
     const first_match = list_text[0].match(ABReg.reg_heading_noprefix);
     if (!first_match || first_match[1]) {
@@ -220404,7 +220411,7 @@ var C2ListProcess = class {
     }
     const root_title_level = first_match[3].length - 1;
     let current_content = "";
-    for (let line2 of list_text) {
+    for (const line2 of list_text) {
       const match_heading = line2.match(ABReg.reg_heading_noprefix);
       if (match_heading && !match_heading[1] && match_heading[3].length - 1 <= root_title_level) {
         add_current_content();
@@ -220486,7 +220493,7 @@ var C2ListProcess = class {
     el.appendChild(el_items);
     el_items.classList.add("ab-items");
     let el_item = null;
-    for (let item of c2listdata) {
+    for (const item of c2listdata) {
       if (item.level == 0) {
         el_item = document.createElement("div");
         el_items.appendChild(el_item);
@@ -220513,7 +220520,7 @@ var abc_list2c2listdata = ABConvert.factory({
   match: "list2c2listdata",
   default: "list2c2listdata",
   process_param: "string" /* text */,
-  process_return: "array2" /* c2list_strem */,
+  process_return: "array2" /* c2list_stream */,
   process: (el, header, content3) => {
     return C2ListProcess.list2c2data(content3);
   }
@@ -220524,7 +220531,7 @@ var abc_title2c2listdata = ABConvert.factory({
   match: "title2c2listdata",
   default: "title2c2listdata",
   process_param: "string" /* text */,
-  process_return: "array2" /* c2list_strem */,
+  process_return: "array2" /* c2list_stream */,
   process: (el, header, content3) => {
     return C2ListProcess.title2c2data(content3);
   }
@@ -220534,7 +220541,7 @@ var abc_c2listdata2tab = ABConvert.factory({
   name: "c2listdata\u8F6C\u6807\u7B7E",
   match: "c2listdata2tab",
   default: "c2listdata2tab",
-  process_param: "array2" /* c2list_strem */,
+  process_param: "array2" /* c2list_stream */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
     return C2ListProcess.c2data2tab(content3, el, false);
@@ -220545,7 +220552,7 @@ var abc_c2listdata2items = ABConvert.factory({
   name: "c2listdata\u8F6C\u5BB9\u5668\u7ED3\u6784",
   match: "c2listdata2items",
   default: "c2listdata2items",
-  process_param: "array2" /* c2list_strem */,
+  process_param: "array2" /* c2list_stream */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
     return C2ListProcess.c2data2items(content3, el);
@@ -220759,15 +220766,15 @@ var DirProcess = class {
     return DirProcess.dtdata2dt(list_itemInfo, div, modeT, true);
   }
   static list2dtdata(text7) {
-    let list_itemInfo = [];
+    const list_itemInfo = [];
     const list_text = text7.split("\n");
     let row_index = -1;
-    for (let line2 of list_text) {
+    for (const line2 of list_text) {
       const m_line = line2.match(ABReg.reg_list_noprefix);
       if (m_line) {
         row_index++;
         const content3 = m_line[4];
-        let level_inline = m_line[1].length;
+        const level_inline = m_line[1].length;
         list_itemInfo.push({
           content: content3.trimStart(),
           level: level_inline,
@@ -220777,7 +220784,7 @@ var DirProcess = class {
           tableRowSpan: 1
         });
       } else {
-        let itemInfo = list_itemInfo.pop();
+        const itemInfo = list_itemInfo.pop();
         if (itemInfo) {
           list_itemInfo.push({
             content: itemInfo.content + "\n" + line2.trim(),
@@ -220790,9 +220797,9 @@ var DirProcess = class {
         }
       }
     }
-    let list_itemInfo2 = [];
-    for (let row_item of list_itemInfo) {
-      let list_column_item = row_item.content.split(ABReg.inline_split);
+    const list_itemInfo2 = [];
+    for (const row_item of list_itemInfo) {
+      const list_column_item = row_item.content.split(ABReg.inline_split);
       for (let column_index = 0; column_index < list_column_item.length; column_index++) {
         let type4 = "";
         if (column_index == 0) {
@@ -220862,11 +220869,11 @@ var DirProcess = class {
           }
           prev_tr = tr;
         }
-        let td = document.createElement(is_head ? "th" : "td");
+        const td = document.createElement(is_head ? "th" : "td");
         tr.appendChild(td);
         td.setAttribute("rowspan", cell_item.tableRowSpan.toString());
         if (cell_item.tableColumn == 0 && is_folder) {
-          let td_svg = document.createElement("div");
+          const td_svg = document.createElement("div");
           td.appendChild(td_svg);
           td_svg.classList.add("ab-list-table-svg");
           if (!is_head) {
@@ -220878,7 +220885,7 @@ var DirProcess = class {
             }
           }
         }
-        let td_cell = document.createElement("div");
+        const td_cell = document.createElement("div");
         td.appendChild(td_cell);
         td_cell.classList.add("ab-list-table-witharrow");
         ABConvertManager.getInstance().m_renderMarkdownFn(cell_item.content, td_cell);
@@ -220978,10 +220985,10 @@ var abc_list2dt = ABConvert.factory({
   }
 });
 function listdata2dirdata(list3) {
-  let is_have_vbar = [];
-  let newlist = [];
+  const is_have_vbar = [];
+  const newlist = [];
   for (let i = 0; i < list3.length; i++) {
-    let item = list3[i];
+    const item = list3[i];
     let type4;
     if (item.content.endsWith("/")) {
       type4 = "folder";
@@ -221036,7 +221043,7 @@ var abc_list2astreeH = ABConvert.factory({
     listdata = ListProcess.data2strict(listdata);
     const dirlistdata = listdata2dirdata(listdata);
     let newContent = "";
-    for (let item of dirlistdata) {
+    for (const item of dirlistdata) {
       if (item.level == 0) {
         newContent += item.content + "\n";
       } else {
@@ -221223,6 +221230,7 @@ var abc_width = ABConvert.factory({
   id: "width",
   name: "\u5BBD\u5EA6\u63A7\u5236",
   match: /^width\(((?:\d*\.?\d+(?:%|px|rem)?,\s*)*\d*\.?\d+(?:%|px|rem)?)\)$/,
+  detail: "\u7528\u4E8E\u63A7\u5236\u8868\u683C\u6216\u5206\u680F\u7684\u6BCF\u5217\u7684\u5BBD\u5EA6",
   process_param: "HTMLElement" /* el */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
@@ -221268,7 +221276,7 @@ var abc_width = ABConvert.factory({
 var abc_addClass = ABConvert.factory({
   id: "addClass",
   name: "\u589E\u52A0class",
-  detail: "\u7ED9\u5F53\u524D\u5757\u589E\u52A0\u4E00\u4E2A\u7C7B\u540D",
+  detail: "\u7ED9\u5F53\u524D\u5757\u589E\u52A0\u4E00\u4E2A\u7C7B\u540D\u3002\u652F\u6301\u6B63\u5E38\u4F7F\u7528\u7A7A\u683C\u6765\u6DFB\u52A0\u591A\u4E2Aclass, \u4E0D\u9700\u8981\u52A0dot\u7B26, \u5C31\u50CF\u5728class=''\u91CC\u5199\u7684\u90A3\u6837",
   match: /^addClass\((.*)\)$/,
   process_param: "HTMLElement" /* el */,
   process_return: "HTMLElement" /* el */,
@@ -221279,7 +221287,28 @@ var abc_addClass = ABConvert.factory({
     if (content3.children.length != 1)
       return content3;
     const sub_el = content3.children[0];
-    sub_el.classList.add(String(matchs[1]));
+    const args = matchs[1].split(" ");
+    for (const arg of args) {
+      sub_el.classList.add(arg);
+    }
+    return content3;
+  }
+});
+var abc_addStyle = ABConvert.factory({
+  id: "addStyle",
+  name: "\u589E\u52A0style",
+  detail: "\u7ED9\u5F53\u524D\u5757\u589E\u52A0\u4E00\u4E2A\u6837\u5F0F, \u6CE8\u610F\u6700\u5916\u7684\u62EC\u53F7\u5F80\u5185\u8981\u7559\u4E00\u4E2A\u7A7A\u683C, \u907F\u514Drotate\u8FD9\u79CD\u7528\u62EC\u53F7\u65F6\u51B2\u7A81\u3002\u6DFB\u52A0\u591A\u4E2A\u5219\u6B63\u5E38\u4F7F\u7528\u5206\u53F7",
+  match: /^addStyle\(\s(.*)\s\)$/,
+  process_param: "HTMLElement" /* el */,
+  process_return: "HTMLElement" /* el */,
+  process: (el, header, content3) => {
+    const matchs = header.match(/^addStyle\(\s(.*)\s\)$/);
+    if (!matchs || !matchs[1])
+      return content3;
+    if (content3.children.length != 1)
+      return content3;
+    const sub_el = content3.children[0];
+    sub_el.style.cssText += String(matchs[1]);
     return content3;
   }
 });
@@ -221415,25 +221444,21 @@ var abc_transpose = ABConvert.factory({
       return content3;
     const origi_rows = origi_table.rows;
     const origi_rowCount = origi_rows.length;
-<<<<<<< HEAD
-    let origi_colCount = origi_rows[0].cells.length;
-=======
     let origi_colCount = 0;
     for (let relRow = 0; relRow < origi_rowCount; relRow++) {
       let colCount = 0;
-      for (let cell of origi_rows[relRow].cells) {
+      for (const cell of origi_rows[relRow].cells) {
         colCount += cell.colSpan || 1;
       }
       if (colCount > origi_colCount) {
         origi_colCount = colCount;
       }
     }
->>>>>>> origin/main
-    let map_table = new Array(origi_rowCount).fill(null).map(() => new Array(origi_colCount).fill(null));
+    const map_table = new Array(origi_rowCount).fill(null).map(() => new Array(origi_colCount).fill(null));
     for (let relRow = 0; relRow < origi_rowCount; relRow++) {
       for (let relCol = 0; relCol < origi_rows[relRow].cells.length; relCol++) {
         const cell = origi_rows[relRow].cells[relCol];
-        let rowIndex = relRow;
+        const rowIndex = relRow;
         let colIndex = relCol;
         while (true) {
           if (colIndex >= map_table[rowIndex].length) {
@@ -221470,10 +221495,10 @@ var abc_transpose = ABConvert.factory({
         };
       }
     }
-    let map_table2 = new Array(origi_colCount).fill(null).map(() => new Array(origi_rowCount).fill(null));
+    const map_table2 = new Array(origi_colCount).fill(null).map(() => new Array(origi_rowCount).fill(null));
     for (let i = 0; i < origi_rowCount; i++) {
       for (let j = 0; j < origi_colCount; j++) {
-        let origi_cell = map_table[i][j];
+        const origi_cell = map_table[i][j];
         if (!origi_cell)
           continue;
         else if (origi_cell == "<") {
@@ -221481,6 +221506,11 @@ var abc_transpose = ABConvert.factory({
         } else if (origi_cell == "^") {
           map_table2[j][i] = "<";
         } else {
+          let content4 = origi_cell.html;
+          if (content4.innerHTML == "<" || content4.innerHTML == "&lt;")
+            content4.innerHTML = "^";
+          else if (content4.innerHTML == "^")
+            content4.innerHTML = "<";
           map_table2[j][i] = {
             html: origi_cell.html,
             rowSpan: origi_cell.colSpan || 1,
@@ -221520,12 +221550,143 @@ var abc_transpose = ABConvert.factory({
     return content3;
   }
 });
+var abc_exTable = ABConvert.factory({
+  id: "exTable",
+  name: "\u8868\u683C\u6269\u5C55",
+  match: "exTable",
+  detail: "\u5C06\u8868\u683C\u5E94\u7528sheet-table\u8BED\u6CD5 (\u4F7F\u7528 `</^` \u6807\u6CE8\u5408\u5E76\u5355\u5143\u683C)",
+  process_param: "HTMLElement" /* el */,
+  process_return: "HTMLElement" /* el */,
+  process: (el, header, content3) => {
+    const origi_table = content3.querySelector("table");
+    if (!origi_table)
+      return content3;
+    const origi_rows = origi_table.rows;
+    const origi_rowCount = origi_rows.length;
+    let origi_colCount = 0;
+    for (let relRow = 0; relRow < origi_rowCount; relRow++) {
+      let colCount = 0;
+      for (const cell of origi_rows[relRow].cells) {
+        colCount += cell.colSpan || 1;
+      }
+      if (colCount > origi_colCount) {
+        origi_colCount = colCount;
+      }
+    }
+    const map_table = new Array(origi_rowCount).fill(null).map(() => new Array(origi_colCount).fill(null));
+    for (let relRow = 0; relRow < origi_rowCount; relRow++) {
+      for (let relCol = 0; relCol < origi_rows[relRow].cells.length; relCol++) {
+        const cell = origi_rows[relRow].cells[relCol];
+        const rowIndex = relRow;
+        let colIndex = relCol;
+        while (true) {
+          if (colIndex >= map_table[rowIndex].length) {
+            console.error("\u8868\u683C\u89E3\u6790\u9519\u8BEF: colIndex\u8D85\u51FA\u8303\u56F4", map_table, rowIndex, colIndex, relRow, relCol);
+            return content3;
+          }
+          if (!map_table[rowIndex][colIndex]) {
+            break;
+          } else
+            colIndex++;
+        }
+        if (cell.rowSpan > 1) {
+          for (let i = 1; i < cell.rowSpan; i++) {
+            if (rowIndex + i >= map_table.length) {
+              break;
+            }
+            map_table[rowIndex + i][colIndex] = "^";
+          }
+        }
+        if (cell.colSpan > 1) {
+          for (let i = 1; i < cell.rowSpan; i++) {
+            if (colIndex + i >= map_table[rowIndex].length) {
+              break;
+            }
+            map_table[rowIndex][colIndex + i] = "<";
+          }
+        }
+        if (cell.rowSpan == 1 && cell.colSpan == 1 && cell.textContent == "^") {
+          map_table[rowIndex][colIndex] = "^";
+          for (let i = rowIndex - 1; i >= 0; i--) {
+            const item = map_table[i][colIndex];
+            if (!item)
+              break;
+            if (item == "<")
+              break;
+            if (item == "^")
+              continue;
+            if (item.html.textContent == "<")
+              break;
+            if (item.html.textContent != "^" || i == 0) {
+              item.rowSpan += 1;
+              break;
+            }
+          }
+        } else if (cell.rowSpan == 1 && cell.colSpan == 1 && cell.textContent == "<") {
+          map_table[rowIndex][colIndex] = "<";
+          for (let j = colIndex - 1; j >= 0; j--) {
+            const item = map_table[rowIndex][j];
+            if (!item)
+              break;
+            if (item == "^")
+              break;
+            if (item == "<")
+              continue;
+            if (item.html.textContent == "^")
+              break;
+            if (item.html.textContent != "<" || j == 0) {
+              item.colSpan += 1;
+              break;
+            }
+          }
+        } else {
+          map_table[rowIndex][colIndex] = {
+            html: cell,
+            rowSpan: cell.rowSpan,
+            colSpan: cell.colSpan,
+            rowIndex,
+            colIndex
+          };
+        }
+      }
+    }
+    const map_table2 = map_table;
+    const trans_table = document.createElement("table");
+    content3.appendChild(trans_table);
+    origi_table.classList.add("ab-transposition");
+    origi_table.classList.add("ab-table");
+    origi_table.classList.forEach((className) => {
+      trans_table.classList.add(className);
+    });
+    const trans_body = document.createElement("tbody");
+    trans_table.appendChild(trans_body);
+    for (let i = 0; i < origi_rowCount; i++) {
+      const newRow = trans_body.insertRow();
+      for (let j = 0; j < origi_colCount; j++) {
+        const cell = map_table2[i][j];
+        if (!cell)
+          continue;
+        if (cell == "<" || cell == "^")
+          continue;
+        const newCell2 = newRow.insertCell();
+        newCell2.innerHTML = cell.html.innerHTML;
+        newCell2.rowSpan = cell.rowSpan;
+        newCell2.colSpan = cell.colSpan;
+        newCell2.setAttribute("rowIndex", String(cell.rowIndex));
+        newCell2.setAttribute("colIndex", String(cell.colIndex));
+      }
+    }
+    origi_table.remove();
+    return content3;
+  }
+});
 
 // src/ABConverter/converter/abc_ex.ts
 var abc_faq = ABConvert.factory({
   id: "faq",
   name: "FAQ",
   match: "FAQ",
+  detail: "\u6E32\u67D3\u5E38\u89C1\u95EE\u9898/\u5BF9\u8BDD\u3002\u6BCF\u4E2A\u9879\u9700\u4EE5 `/^([a-zA-Z])(: |\uFF1A)(.*)/` \u5F00\u5934",
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
@@ -221578,6 +221739,7 @@ var abc_info = ABConvert.factory({
   id: "info",
   name: "INFO",
   match: "info",
+  detail: "\u67E5\u770B\u5F53\u524D\u8F6F\u4EF6\u7248\u672C\u4E0B\u7684\u6CE8\u518C\u5904\u7406\u5668\u8868",
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
@@ -221663,6 +221825,7 @@ var abc_info_alias = ABConvert.factory({
   id: "info_alias",
   name: "INFO_Alias",
   match: "info_alias",
+  detail: "\u67E5\u770B\u5F53\u524D\u8F6F\u4EF6\u7248\u672C\u4E0B\u7684\u6CE8\u518C\u522B\u540D\u8868",
   process_param: "string" /* text */,
   process_return: "json_string" /* json */,
   process: (el, header, content3) => {
@@ -221677,11 +221840,11 @@ var abc_info_alias = ABConvert.factory({
 
 // src/ABConverter/converter/abc_mdit_container.ts
 function mditTabs2listdata(content3, reg) {
-  let list_line = content3.split("\n");
+  const list_line = content3.split("\n");
   let content_item = "";
-  let list_c2listItem = [];
+  const list_c2listItem = [];
   for (let line_index = 0; line_index < list_line.length; line_index++) {
-    let line_content = list_line[line_index];
+    const line_content = list_line[line_index];
     const line_match = line_content.match(reg);
     if (line_match) {
       add_current_content();
@@ -221712,7 +221875,7 @@ var abc_mditTabs = ABConvert.factory({
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
-    let c2listdata = mditTabs2listdata(content3, /^@tab(.*)$/);
+    const c2listdata = mditTabs2listdata(content3, /^@tab(.*)$/);
     C2ListProcess.c2data2tab(c2listdata, el, false);
     return el;
   }
@@ -221758,7 +221921,7 @@ var abc_midt_co = ABConvert.factory({
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
     var _a3;
-    let c2listdata = mditTabs2listdata(content3, /^@col(.*)$/);
+    const c2listdata = mditTabs2listdata(content3, /^@col(.*)$/);
     C2ListProcess.c2data2items(c2listdata, el);
     (_a3 = el.querySelector("div")) == null ? void 0 : _a3.classList.add("ab-col");
     return el;
@@ -221770,11 +221933,35 @@ var abc_midt_card = ABConvert.factory({
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
-    var _a3;
-    let c2listdata = mditTabs2listdata(content3, /^@card(.*)$/);
+    var _a3, _b2;
+    const c2listdata = mditTabs2listdata(content3, /^@card(.*)$/);
     C2ListProcess.c2data2items(c2listdata, el);
     (_a3 = el.querySelector("div")) == null ? void 0 : _a3.classList.add("ab-card");
+    (_b2 = el.querySelector("div")) == null ? void 0 : _b2.classList.add("ab-lay-vfall");
     return el;
+  }
+});
+var abc_midt_chat = ABConvert.factory({
+  id: "mditChat",
+  name: "mdit\u5BF9\u8BDD",
+  detail: "\u663E\u793A\u6E32\u67D3\u5BF9\u8BDD\uFF0C\u9700\u8981\u914D\u5408 obsidian-view-chat-qq \u63D2\u4EF6\u4F7F\u7528",
+  process_param: "string" /* text */,
+  process_return: "string" /* text */,
+  process: (el, header, content3) => {
+    const content_list = content3.split("\n");
+    let newContent = "";
+    for (let i = 0; i < content_list.length; i++) {
+      const line2 = content_list[i];
+      if (/^@chat(.*)$/.test(line2)) {
+        const match3 = line2.match(/^@chat(.*)$/);
+        if (match3 && match3[1]) {
+          newContent += "\n" + match3[1] + ":\n";
+          continue;
+        }
+      }
+      newContent += line2 + "\n";
+    }
+    return newContent;
   }
 });
 
@@ -221900,6 +222087,16 @@ var abc_list2mermaid = ABConvert.factory({
     return el;
   }
 });
+var abc_list2mehrmaid = ABConvert.factory({
+  id: "list2mehrmaidText",
+  name: "\u5217\u8868\u8F6Cmehrmaid\u6587\u672C",
+  detail: "\u9700\u8981\u914D\u5408mehrmaid\u63D2\u4EF6\u548Ccode(mehrmaid)\u4F7F\u7528\uFF0C\u6216\u4F7F\u7528\u522B\u540D\u7B80\u5316",
+  process_param: "string" /* text */,
+  process_return: "string" /* text */,
+  process: (el, header, content3) => {
+    return list2mehrmaid(content3, el);
+  }
+});
 var abc_mermaid = ABConvert.factory({
   id: "mermaid",
   name: "\u65B0mermaid",
@@ -221922,6 +222119,11 @@ function list2mermaid(text7, div) {
   let list_itemInfo = ListProcess.list2data(text7);
   let mermaidText = data2mermaidText(list_itemInfo);
   return render_mermaidText(mermaidText, div);
+}
+function list2mehrmaid(text7, div) {
+  let list_itemInfo = ListProcess.list2data(text7);
+  let mermaidText = data2mehrmaidText(list_itemInfo);
+  return mermaidText;
 }
 function data2mermaidText(list_itemInfo) {
   const html_mode = false;
@@ -221950,6 +222152,43 @@ function data2mermaidText(list_itemInfo) {
   let text7 = list_line_content.join("\n");
   return text7;
 }
+function data2mehrmaidText(list_itemInfo) {
+  const mehrmaidMap = [];
+  for (let i = 0; i < list_itemInfo.length; i++) {
+    mehrmaidMap[i] = list_itemInfo[i].content;
+    list_itemInfo[i].content = i.toString();
+  }
+  const html_mode = false;
+  let list_line_content = ["flowchart LR"];
+  let prev_line_content = "";
+  let prev_level = 999;
+  for (let i = 0; i < list_itemInfo.length; i++) {
+    if (list_itemInfo[i].level > prev_level) {
+      prev_line_content = prev_line_content + " --> " + list_itemInfo[i].content;
+    } else {
+      list_line_content.push(prev_line_content);
+      prev_line_content = "";
+      for (let j = i; j >= 0; j--) {
+        if (list_itemInfo[j].level < list_itemInfo[i].level) {
+          prev_line_content = list_itemInfo[j].content;
+          break;
+        }
+      }
+      if (prev_line_content)
+        prev_line_content = prev_line_content + " --> ";
+      prev_line_content = prev_line_content + list_itemInfo[i].content;
+    }
+    prev_level = list_itemInfo[i].level;
+  }
+  list_line_content.push(prev_line_content);
+  let text7 = list_line_content.join("\n");
+  text7 += "\n\n";
+  for (let i = 0; i < mehrmaidMap.length; i++) {
+    text7 += `${i}(("${mehrmaidMap[i]}"))
+`;
+  }
+  return text7;
+}
 async function data2mindmap(list_itemInfo, div) {
   let list_newcontent = [];
   for (let item of list_itemInfo) {
@@ -221968,7 +222207,6 @@ async function render_mermaidText(mermaidText, div) {
 }
 
 // src/ABConverter/ABConvertEvent.ts
-var import_obsidian = require("obsidian");
 function abConvertEvent(d) {
   var _a3;
   if (d.querySelector(".ab-super-width")) {
@@ -221989,7 +222227,7 @@ function abConvertEvent(d) {
   if (d.querySelector(".ab-nodes-node")) {
     const els_min = document.querySelectorAll(".ab-nodes.min .ab-nodes-node");
     const list_children = d.querySelectorAll(".ab-nodes-node");
-    for (let children3 of list_children) {
+    for (const children3 of list_children) {
       const el_content = children3.querySelector(".ab-nodes-content");
       if (!el_content)
         continue;
@@ -222062,9 +222300,9 @@ function abConvertEvent(d) {
       }
     }
   }
-  if (d.querySelector(".ab-items.ab-card:not(.js-waterfall)")) {
-    const root_el_list = d.querySelectorAll(".ab-items.ab-card:not(.js-waterfall)");
-    for (let root_el of root_el_list) {
+  if (d.querySelector(".ab-items.ab-lay-vfall:not(.js-waterfall):not(.ab-lay-hfall):not(.ab-lay-grid)")) {
+    const root_el_list = d.querySelectorAll(".ab-items.ab-lay-vfall:not(.js-waterfall):not(.ab-lay-hfall):not(.ab-lay-grid)");
+    for (const root_el of root_el_list) {
       root_el.classList.add("js-waterfall");
       const list_children = root_el.querySelectorAll(".ab-items-item");
       const columnCountTmp = parseInt(window.getComputedStyle(root_el).getPropertyValue("column-count"));
@@ -222078,13 +222316,13 @@ function abConvertEvent(d) {
         columnCount = 4;
         root_el.classList.add("ab-col" + columnCount);
       }
-      let height_cache = [];
-      let el_cache = [];
+      const height_cache = [];
+      const el_cache = [];
       for (let i = 0; i < columnCount; i++) {
         height_cache.push(0);
         el_cache.push([]);
       }
-      for (let children3 of list_children) {
+      for (const children3 of list_children) {
         const minValue = Math.min.apply(null, height_cache);
         const minIndex = height_cache.indexOf(minValue);
         const heightTmp = parseInt(window.getComputedStyle(children3).getPropertyValue("height"));
@@ -222105,7 +222343,7 @@ function abConvertEvent(d) {
       }
       root_el.innerHTML = "";
       for (let i = 0; i < columnCount; i++) {
-        for (let j of el_cache[i]) {
+        for (const j of el_cache[i]) {
           root_el.appendChild(j);
         }
       }
@@ -244209,7 +244447,7 @@ function list2markmap(markdown, div) {
 }
 
 // src/ab_manager/abm_code/ABReplacer_CodeBlock.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian = require("obsidian");
 
 // src/ab_manager/abm_cm/ABReplacer_Widget.ts
 var import_view = require("@codemirror/view");
@@ -244327,9 +244565,9 @@ var ABReplacer_CodeBlock = class {
     if (header != "") {
       ABConvertManager.autoABConvert(dom_replaceEl, header, list_src.slice(1).join("\n").trimStart());
     } else {
-      const mdrc = new import_obsidian2.MarkdownRenderChild(dom_replaceEl);
+      const mdrc = new import_obsidian.MarkdownRenderChild(dom_replaceEl);
       ctx.addChild(mdrc);
-      import_obsidian2.MarkdownRenderer.render(app, src, dom_replaceEl, (_d = (_c = (_b2 = (_a3 = app.workspace.activeLeaf) == null ? void 0 : _a3.view) == null ? void 0 : _b2.file) == null ? void 0 : _c.path) != null ? _d : "", mdrc);
+      import_obsidian.MarkdownRenderer.render(app, src, dom_replaceEl, (_d = (_c = (_b2 = (_a3 = app.workspace.activeLeaf) == null ? void 0 : _a3.view) == null ? void 0 : _b2.file) == null ? void 0 : _c.path) != null ? _d : "", mdrc);
     }
     let dom_edit = root_div.createEl("div", {
       cls: ["ab-button", "ab-button-2", "edit-block-button"],
@@ -244356,10 +244594,10 @@ var ABReplacer_CodeBlock = class {
 // src/ab_manager/abm_cm/ABStateManager.ts
 var import_view3 = require("@codemirror/view");
 var import_state = require("@codemirror/state");
-var import_obsidian4 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // src/config/ABSettingTab.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/ab_manager/abm_cm/ABSelector_Md.ts
 function autoMdSelector(mdText = "") {
@@ -244724,16 +244962,12 @@ var AB_SETTINGS = {
   is_debug: false,
   inline_split: "/\\| |,  |\uFF0C |\\.  |\u3002 |:  |\uFF1A /"
 };
-var ABSettingTab = class extends import_obsidian3.PluginSettingTab {
+var ABSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app2, plugin4) {
     super(app2, plugin4);
     this.plugin = plugin4;
     ABCSetting.is_debug = this.plugin.settings.is_debug;
-<<<<<<< HEAD
-    ABReg.inline_split = new RegExp(this.plugin.settings.inline_split);
-=======
     ABReg.inline_split = new RegExp(this.plugin.settings.inline_split.slice(1, -1));
->>>>>>> origin/main
     if (!plugin4.settings.alias_use_default) {
       ABAlias_json.length = 0;
     }
@@ -244773,7 +245007,7 @@ var ABSettingTab = class extends import_obsidian3.PluginSettingTab {
     containerEl.createEl("h2", { text: "AliasSystem Manager (\u522B\u540D\u7CFB\u7EDF\u7684\u7BA1\u7406)" });
     containerEl.createEl("p", { text: "It can also be viewed in the main page using the `[info_alias]` processor (\u8FD9\u90E8\u5206\u5185\u5BB9\u4E5F\u53EF\u4EE5\u4F7F\u7528 `[info_alias]` \u5904\u7406\u5668\u5728\u4E3B\u9875\u9762\u4E2D\u67E5\u770B)" });
     containerEl.createEl("p", { text: "This section can also be modified by opening the `data.json` file in the plugin folder (\u8FD9\u90E8\u5206\u4E5F\u53EF\u4EE5\u6253\u5F00\u63D2\u4EF6\u6587\u4EF6\u5939\u4E2D\u7684 `data.json` \u6587\u4EF6\u4FEE\u6539)" });
-    new import_obsidian3.Setting(containerEl).setName("Add a new registration instruction").setDesc(`\u6DFB\u52A0\u65B0\u7684\u6CE8\u518C\u6307\u4EE4`).addButton((component2) => {
+    new import_obsidian2.Setting(containerEl).setName("Add a new registration instruction").setDesc(`\u6DFB\u52A0\u65B0\u7684\u6CE8\u518C\u6307\u4EE4`).addButton((component2) => {
       component2.setIcon("plus-circle").onClick((e) => {
         new ABModal_alias(this.app, async (result) => {
           let newReg;
@@ -244790,7 +245024,7 @@ var ABSettingTab = class extends import_obsidian3.PluginSettingTab {
         }).open();
       });
     });
-    new import_obsidian3.Setting(containerEl).setName("Add a new registration instruction (old, will not be used)").setDesc(`\u6DFB\u52A0\u65B0\u7684\u6CE8\u518C\u6307\u4EE4 - \u65E7\u7248\uFF0C\u5C06\u5F03\u7528`).addButton((component2) => {
+    new import_obsidian2.Setting(containerEl).setName("Add a new registration instruction (old, will not be used)").setDesc(`\u6DFB\u52A0\u65B0\u7684\u6CE8\u518C\u6307\u4EE4 - \u65E7\u7248\uFF0C\u5C06\u5F03\u7528`).addButton((component2) => {
       component2.setIcon("plus-circle").onClick((e) => {
         new ABProcessorModal(this.app, async (result) => {
           ABConvert.factory(result);
@@ -244813,7 +245047,7 @@ var ABSettingTab = class extends import_obsidian3.PluginSettingTab {
     this.processorPanel = div;
   }
 };
-var ABProcessorModal = class extends import_obsidian3.Modal {
+var ABProcessorModal = class extends import_obsidian2.Modal {
   constructor(app2, onSubmit) {
     super(app2);
     this.args = {
@@ -244828,27 +245062,27 @@ var ABProcessorModal = class extends import_obsidian3.Modal {
     let { contentEl } = this;
     contentEl.setText("Custom processor (\u81EA\u5B9A\u4E49\u5904\u7406\u5668)");
     contentEl.createEl("p", { text: "" });
-    new import_obsidian3.Setting(contentEl).setName("ProcessorId").setDesc("\u5904\u7406\u5668\u552F\u4E00id, \u4E0D\u4E0E\u5176\u4ED6\u5904\u7406\u5668\u51B2\u7A81\u5373\u53EF").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("ProcessorId").setDesc("\u5904\u7406\u5668\u552F\u4E00id, \u4E0D\u4E0E\u5176\u4ED6\u5904\u7406\u5668\u51B2\u7A81\u5373\u53EF").addText((text7) => {
       text7.onChange((value2) => {
         this.args.id = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("ProcessorName").setDesc("\u6CE8\u518C\u5668\u540D\uFF0C\u53EF\u4EE5\u4E71\u586B\uFF0C\u7ED9\u81EA\u5DF1\u770B\u7684").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("ProcessorName").setDesc("\u6CE8\u518C\u5668\u540D\uFF0C\u53EF\u4EE5\u4E71\u586B\uFF0C\u7ED9\u81EA\u5DF1\u770B\u7684").addText((text7) => {
       text7.onChange((value2) => {
         this.args.name = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Processor matching rule").setDesc("\u6CE8\u518C\u5668\u5339\u914D\u540D (\u7528/\u5305\u62EC\u8D77\u6765\u5219\u8868\u793A\u6B63\u5219)").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("Processor matching rule").setDesc("\u6CE8\u518C\u5668\u5339\u914D\u540D (\u7528/\u5305\u62EC\u8D77\u6765\u5219\u8868\u793A\u6B63\u5219)").addText((text7) => {
       text7.onChange((value2) => {
         this.args.match = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Processor replacement").setDesc("\u6CE8\u518C\u5668\u66FF\u6362\u4E3A (\u7528/\u5305\u62EC\u8D77\u6765\u5219\u5224\u65AD\u4E3A\u6B63\u5219)").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("Processor replacement").setDesc("\u6CE8\u518C\u5668\u66FF\u6362\u4E3A (\u7528/\u5305\u62EC\u8D77\u6765\u5219\u5224\u65AD\u4E3A\u6B63\u5219)").addText((text7) => {
       text7.onChange((value2) => {
         this.args.process_alias = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).addButton((btn) => {
+    new import_obsidian2.Setting(contentEl).addButton((btn) => {
       btn.setButtonText("Submit (\u63D0\u4EA4)").setCta().onClick(() => {
         if (this.args.id && this.args.name && this.args.match && this.args.process_alias) {
           this.close();
@@ -244862,7 +245096,7 @@ var ABProcessorModal = class extends import_obsidian3.Modal {
     contentEl.empty();
   }
 };
-var ABModal_alias = class extends import_obsidian3.Modal {
+var ABModal_alias = class extends import_obsidian2.Modal {
   constructor(app2, onSubmit) {
     super(app2);
     this.args = {
@@ -244875,17 +245109,17 @@ var ABModal_alias = class extends import_obsidian3.Modal {
     let { contentEl } = this;
     contentEl.setText("Custom alias (\u81EA\u5B9A\u4E49\u522B\u540D)");
     contentEl.createEl("p", { text: "" });
-    new import_obsidian3.Setting(contentEl).setName("Alias matching rule").setDesc("\u522B\u540D\u5339\u914D\u89C4\u5219 (\u82E5\u7528/\u5305\u62EC\u8D77\u6765\u5219\u8868\u793A\u6B63\u5219)").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("Alias matching rule").setDesc("\u522B\u540D\u5339\u914D\u89C4\u5219 (\u82E5\u7528/\u5305\u62EC\u8D77\u6765\u5219\u8868\u793A\u6B63\u5219)").addText((text7) => {
       text7.onChange((value2) => {
         this.args.regex = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Alias replacement").setDesc("\u522B\u540D\u66FF\u6362\u4E3A").addText((text7) => {
+    new import_obsidian2.Setting(contentEl).setName("Alias replacement").setDesc("\u522B\u540D\u66FF\u6362\u4E3A").addText((text7) => {
       text7.onChange((value2) => {
         this.args.replacement = value2;
       });
     });
-    new import_obsidian3.Setting(contentEl).addButton((btn) => {
+    new import_obsidian2.Setting(contentEl).addButton((btn) => {
       btn.setButtonText("Submit (\u63D0\u4EA4)").setCta().onClick(() => {
         if (this.args.regex && this.args.replacement) {
           this.close();
@@ -244979,7 +245213,7 @@ var ABStateManager = class {
       console.log("<<< ABStateManager, initialFileName:", this.initialFileName);
   }
   init() {
-    const view = this.plugin_this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+    const view = this.plugin_this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
     if (!view)
       return false;
     this.view = view;
@@ -245108,10 +245342,11 @@ var ABStateManager = class {
 
 // src/ab_manager/abm_html/ABSelector_PostHtml.ts
 var import_html_to_md = __toESM(require_dist2());
+var import_obsidian5 = require("obsidian");
 
 // src/ab_manager/abm_html/ABReplacer_Render.ts
-var import_obsidian5 = require("obsidian");
-var ABReplacer_Render = class extends import_obsidian5.MarkdownRenderChild {
+var import_obsidian4 = require("obsidian");
+var ABReplacer_Render = class extends import_obsidian4.MarkdownRenderChild {
   constructor(containerEl, header, content3, selectorName = "replacer_default") {
     super(containerEl);
     this.header = header;
@@ -245139,18 +245374,22 @@ var ABReplacer_Render = class extends import_obsidian5.MarkdownRenderChild {
     dom_edit2.onclick = () => {
       abConvertEvent(div);
     };
-    const dom_edit = div.createEl("select", {
-      cls: ["ab-button", "ab-button-2", "edit-block-button"],
+    const dom_edit = div.createEl("div", {
+      cls: ["ab-button", "ab-button-2", "edit-block-button", "ab-button-select"]
+    });
+    const dom_edit_mask = dom_edit.createEl("button", {});
+    dom_edit_mask.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>`;
+    const dom_edit_select = dom_edit.createEl("select", {
       attr: { "aria-label": "Change the block - " + this.header }
     });
-    const first_dom_option = dom_edit.createEl("option", {
+    const first_dom_option = dom_edit_select.createEl("option", {
       text: "\u590D\u5408\u683C\u5F0F:" + this.header,
-      attr: { "value": this.header }
+      attr: { "value": this.header, "title": this.header }
     });
     first_dom_option.selected = true;
     let header_name_flag = "";
     for (let item of ABConvertManager.getInstance().getConvertOptions()) {
-      const dom_option = dom_edit.createEl("option", {
+      const dom_option = dom_edit_select.createEl("option", {
         text: item.name,
         attr: { "value": item.id }
       });
@@ -245161,8 +245400,8 @@ var ABReplacer_Render = class extends import_obsidian5.MarkdownRenderChild {
     if (header_name_flag != "") {
       first_dom_option.setText(header_name_flag);
     }
-    dom_edit.onchange = () => {
-      const new_header = dom_edit.options[dom_edit.selectedIndex].value;
+    dom_edit_select.onchange = () => {
+      const new_header = dom_edit_select.options[dom_edit_select.selectedIndex].value;
       const new_dom_replaceEl = dom_note.createDiv({
         cls: ["ab-replaceEl"]
       });
@@ -245213,8 +245452,34 @@ var ABSelector_PostHtml = class {
       const is_start = mdSrc.from_line == 0 || mdSrc.content_all.split("\n").slice(0, mdSrc.from_line).join("\n").trim() == "";
       const is_end = mdSrc.to_line == mdSrc.to_line_all;
       let is_newContent = false;
+      let is_subContent = false;
       let cache_item = null;
-      {
+      (() => {
+        const view = app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+        const path4 = view == null ? void 0 : view.file.path;
+        if (path4 && path4 !== ctx.sourcePath) {
+          if (this.settings.is_debug)
+            console.log(` !! Cache check: [${path4}] use ![[${ctx.sourcePath}]] `);
+          cache_item = {
+            name: ctx.sourcePath,
+            content: mdSrc.content_all
+          };
+          is_newContent = false;
+          is_subContent = true;
+          return;
+        }
+        const el2 = view == null ? void 0 : view.containerEl;
+        if (el2 && el2.getAttribute("data-mode") != "preview") {
+          if (this.settings.is_debug)
+            console.log(` !! Cache check: [${path4}] use ![[${ctx.sourcePath}]] in source Mode`);
+          cache_item = {
+            name: ctx.sourcePath,
+            content: mdSrc.content_all
+          };
+          is_newContent = false;
+          is_subContent = true;
+          return;
+        }
         for (let item of cache_map) {
           if (item.name == ctx.sourcePath) {
             cache_item = item;
@@ -245237,7 +245502,7 @@ var ABSelector_PostHtml = class {
             is_newContent = false;
           }
         }
-      }
+      })();
       if (is_newContent || is_start) {
         selected_els = [];
         selected_mdSrc = null;
@@ -245245,7 +245510,7 @@ var ABSelector_PostHtml = class {
       if (this.settings.is_debug) {
         console.log(` -- ABPosthtmlManager.processor, called by 'ReadMode'. [current] [${mdSrc.from_line},${mdSrc.to_line})/${mdSrc.to_line_all}. ${is_start ? "is_start " : ""}${is_end ? "is_end " : ""}[last] ${selected_mdSrc && selected_mdSrc.header ? "in ABBlock: " + selected_mdSrc.header + ". " : ""}`);
       }
-      if (is_newContent) {
+      if (!is_subContent && is_newContent) {
         if (/\n((\s|>\s|-\s|\*\s|\+\s)*)(%%)?(\[((?!toc)(?!TOC)[0-9a-zA-Z\u4e00-\u9fa5].*)\]):?(%%)?\s*\n/.test(cache_item.content) || /\n((\s|>\s|-\s|\*\s|\+\s)*)(:::)\s?(\S*)\n/.test(cache_item.content)) {
           const leaf = app.workspace.activeLeaf;
           if (!leaf) {
