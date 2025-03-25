@@ -872,9 +872,32 @@
               "icon": "lucide-file",
               "title": "2025-03-23"
             }
+          },
+          {
+            "id": "c38b67f6b733d9ed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/Log/Flowmo Log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flowmo Log"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1605,10 +1628,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "c38b67f6b733d9ed",
   "lastOpenFiles": [
-    "vmware trên cloud.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
+    "vmware trên cloud.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
