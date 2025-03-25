@@ -166,9 +166,30 @@
               "icon": "lucide-file",
               "title": "Capstone project for my course"
             }
+          },
+          {
+            "id": "befe456602bc2fd2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -525,17 +546,8 @@
             }
           },
           {
-            "id": "b2256590ae7e5df7",
+            "id": "41a91e6253c9bf66",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -608,7 +620,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "468297bb672f56b0",
+  "active": "41a91e6253c9bf66",
   "lastOpenFiles": [
     "00-09 system/project/data engineer.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
