@@ -565,6 +565,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -574,7 +575,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Capstone project for my course"
             }
           }
         ]
@@ -607,8 +608,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b2256590ae7e5df7",
+  "active": "468297bb672f56b0",
   "lastOpenFiles": [
+    "00-09 system/project/data engineer.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "00-09 system/homepage/dashboard.canvas",
@@ -635,7 +637,6 @@
     "resources/Kafka internals.md",
     "resources/Kafka cdc implementation all starting barrier debezium  sink connector  source connector.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
