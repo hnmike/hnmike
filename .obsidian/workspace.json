@@ -1493,7 +1493,7 @@
             }
           },
           {
-            "id": "d59a63c8e58d4672",
+            "id": "be56b76a4bc712bd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1512,7 +1512,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 27
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1588,7 +1588,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c1d9eb2113537cc",
+  "active": "be56b76a4bc712bd",
   "lastOpenFiles": [
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
     "vmware trên cloud.md",
