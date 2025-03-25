@@ -1481,7 +1481,7 @@
             }
           },
           {
-            "id": "23620f1222de6a06",
+            "id": "d59a63c8e58d4672",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1576,8 +1576,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "d59a63c8e58d4672",
   "lastOpenFiles": [
+    "vmware trên cloud.md",
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
@@ -1603,7 +1604,6 @@
     "python pulse testing flow in python.md",
     "00-09 system/journal/daily/2025/03/2025-03-18.md",
     "20-30 PARA/Project/SQL/SQL.md",
-    "20-30 PARA/Project/devop lab/devop lab.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
