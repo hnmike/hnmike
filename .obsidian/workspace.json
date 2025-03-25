@@ -840,10 +840,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "202503161550",
+                  "title": "202503112148",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503161550.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503161550\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202503112148.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202503112148\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -1618,10 +1618,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "7c1d9eb2113537cc",
   "lastOpenFiles": [
-    "202503161550.md",
+    "202503112148.md",
     "2024-08-14.md",
+    "202503161550.md",
     "2024-08-12.md",
     "2024-08-05.md",
     "2024-08-04.md",
@@ -1645,7 +1646,6 @@
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2025/03/2025-03-25.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
