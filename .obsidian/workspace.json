@@ -893,7 +893,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1643,7 +1643,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c1d9eb2113537cc",
+  "active": "f803eea8031d00df",
   "lastOpenFiles": [
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
     "2024-08-14.md",
