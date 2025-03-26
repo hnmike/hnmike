@@ -1523,25 +1523,6 @@
             }
           },
           {
-            "id": "be56b76a4bc712bd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "717d5862c3fa26a9",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1558,6 +1539,16 @@
               "state": {},
               "icon": "history",
               "title": "History"
+            }
+          },
+          {
+            "id": "729a6365e8d53b7a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -1637,7 +1628,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c1d9eb2113537cc",
+  "active": "729a6365e8d53b7a",
   "lastOpenFiles": [
     "2024-08-14.md",
     "202503112148.md",
