@@ -891,9 +891,32 @@
               "icon": "lucide-file",
               "title": "Diabetes Prediction using Xgboost"
             }
+          },
+          {
+            "id": "abb44654204bb691",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/Log/Flowmo Log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flowmo Log"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -1643,8 +1666,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f803eea8031d00df",
+  "active": "abb44654204bb691",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
     "2024-08-14.md",
     "202503112148.md",
@@ -1670,7 +1694,6 @@
     "resources/Fieldnotesvim.md at main · vbdFieldnotes.md",
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
-    "00-09 system/journal/daily/2025/03/2025-03-25.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
