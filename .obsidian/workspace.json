@@ -844,6 +844,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Diff View (.gitignore)",
+                  "icon": "git-pull-request",
+                  "state": "{\"type\":\"diff-view\",\"state\":{\"file\":\".gitignore\",\"staged\":false,\"hash\":\"f24e948f45a7a7028002fead5d9cd2e170969141\"},\"icon\":\"git-pull-request\",\"title\":\"Diff View (.gitignore)\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "2024-08-14",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-08-14.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-14\"}",
@@ -876,14 +882,14 @@
               ]
             },
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".gitignore",
-                "staged": false,
-                "hash": "f24e948f45a7a7028002fead5d9cd2e170969141"
+                "file": "20-30 PARA/Project/MLop1/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (.gitignore)"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -1544,6 +1550,15 @@
           {
             "id": "729a6365e8d53b7a",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1628,8 +1643,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "729a6365e8d53b7a",
+  "active": "7c1d9eb2113537cc",
   "lastOpenFiles": [
+    "20-30 PARA/Project/MLop1/Untitled.md",
     "2024-08-14.md",
     "202503112148.md",
     "202503161550.md",
@@ -1655,7 +1671,6 @@
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2025/03/2025-03-25.md",
-    "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
