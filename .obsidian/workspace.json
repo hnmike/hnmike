@@ -1571,7 +1571,7 @@
             }
           },
           {
-            "id": "729a6365e8d53b7a",
+            "id": "41ff72ec93f7a1e8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1666,8 +1666,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "41ff72ec93f7a1e8",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "Chats/Review Notes.md",
     "00-09 system/Log/Flowmo Log.md",
     "00-09 system/homepage/Homepage.md",
@@ -1693,7 +1694,6 @@
     "resources/Reddit My List of useful keybinds I dont see mentioned that often.md",
     "resources/Reddit Need a detailed guide for vim motions and ergonomic navigation tips & guides.md",
     "resources/Fieldnotesvim.md at main · vbdFieldnotes.md",
-    "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
