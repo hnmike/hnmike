@@ -1457,25 +1457,6 @@
             }
           },
           {
-            "id": "b4b0a38884dd7fb5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "88782818b9e173ed",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1590,7 +1571,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 27
       },
       {
         "id": "e23e01481eaf6e93",
