@@ -1552,17 +1552,8 @@
             }
           },
           {
-            "id": "41ff72ec93f7a1e8",
+            "id": "bdc2bf085d97d597",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1626,7 +1617,6 @@
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
-      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -1647,8 +1637,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "41ff72ec93f7a1e8",
+  "active": "bdc2bf085d97d597",
   "lastOpenFiles": [
+    "2024-08-25.md",
     "www.googlecalendar.com.md",
     "Chats/Review Notes.md",
     "00-09 system/Log/Flowmo Log.md",
@@ -1674,7 +1665,6 @@
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit My List of useful keybinds I dont see mentioned that often.md",
     "resources/Reddit Need a detailed guide for vim motions and ergonomic navigation tips & guides.md",
-    "resources/Fieldnotesvim.md at main · vbdFieldnotes.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
