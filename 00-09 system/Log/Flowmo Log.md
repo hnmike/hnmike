@@ -28,3 +28,4 @@
 - **2025-03-26** | **Task:** claude mcp | **Start:** 16:15 
 - **2025-03-28** | **Task:** mcp memory server  | **Start:** 16:41 
  - **End:** 18:02
+- **2025-03-29** | **Task:** setup workflow for project | **Start:** 16:51 
