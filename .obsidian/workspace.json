@@ -1552,17 +1552,8 @@
             }
           },
           {
-            "id": "bdc2bf085d97d597",
+            "id": "2fc674b91c57367d",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1620,7 +1611,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 540.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1646,12 +1638,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "2fc674b91c57367d",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "00-09 system/Log/Flowmo Log.md",
     "2024-08-25.md",
     "2025-03-29.md",
-    "www.googlecalendar.com.md",
     "Chats/Review Notes.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
