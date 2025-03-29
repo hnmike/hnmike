@@ -1554,6 +1554,15 @@
           {
             "id": "bdc2bf085d97d597",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1637,8 +1646,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bdc2bf085d97d597",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "2025-03-29.md",
     "2024-08-25.md",
     "www.googlecalendar.com.md",
     "Chats/Review Notes.md",
@@ -1664,7 +1674,6 @@
     "resources/Reddit Is there a more effective way to scroll.md",
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit My List of useful keybinds I dont see mentioned that often.md",
-    "resources/Reddit Need a detailed guide for vim motions and ergonomic navigation tips & guides.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
