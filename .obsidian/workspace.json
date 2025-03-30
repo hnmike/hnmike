@@ -1552,7 +1552,7 @@
             }
           },
           {
-            "id": "2fc674b91c57367d",
+            "id": "150ec437826a387d",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -1638,8 +1638,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2fc674b91c57367d",
+  "active": "150ec437826a387d",
   "lastOpenFiles": [
+    "what is GNU LINUX.md",
     "www.googlecalendar.com.md",
     "00-09 system/Log/Flowmo Log.md",
     "2024-08-25.md",
@@ -1665,7 +1666,6 @@
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Is there a more effective way to scroll.md",
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
-    "resources/Reddit My List of useful keybinds I dont see mentioned that often.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
