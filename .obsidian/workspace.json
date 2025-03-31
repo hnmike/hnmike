@@ -195,9 +195,32 @@
               "icon": "lucide-file",
               "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp"
             }
+          },
+          {
+            "id": "54c6e50009dd6d21",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/homepage/Homepage.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Homepage"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -556,11 +579,30 @@
           {
             "id": "e458b96bd615205d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "60051c0d81e293d6",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
             }
           }
         ],
@@ -585,6 +627,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-09 system/homepage/Homepage.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -594,7 +637,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Homepage"
             }
           }
         ]
@@ -627,7 +670,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e458b96bd615205d",
+  "active": "54c6e50009dd6d21",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
