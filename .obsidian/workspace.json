@@ -1552,8 +1552,17 @@
             }
           },
           {
-            "id": "150ec437826a387d",
+            "id": "037332bab904be0f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1638,8 +1647,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "150ec437826a387d",
+  "active": "037332bab904be0f",
   "lastOpenFiles": [
+    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "what is GNU LINUX.md",
     "www.googlecalendar.com.md",
     "00-09 system/Log/Flowmo Log.md",
@@ -1665,7 +1675,6 @@
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Is there a more effective way to scroll.md",
-    "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
