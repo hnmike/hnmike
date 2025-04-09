@@ -219235,7 +219235,7 @@ var require_dist2 = __commonJS({
   }
 });
 
-// src/main.ts
+// src/Obsidian/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => AnyBlockPlugin
@@ -219359,7 +219359,7 @@ function autoABAlias(header, selectorName, content3) {
   return header;
 }
 var ABAlias_json_withSub = [
-  { regex: /\|::: 140lne\|(info|note|warn|warning|error)\s?(.*?)\|/, replacement: "|add([!$1] $2)|quote|" }
+  { regex: /\|::: 140lne\|(info|note|warning|caution|attention|error|danger|tips|tip|hint|example|abstract|summary|tldr|quote|cite|todo|success|check|done)\s?(.*?)\|/, replacement: "|add([!$1] $2)|quote|" }
 ];
 var ABAlias_json_mdit = [
   { regex: /\|::: 140lne\|(2?tabs?|标签页?)\|/, replacement: "|mditTabs|" },
@@ -219742,8 +219742,8 @@ var abc_X = ABConvert.factory({
 var abc_slice = ABConvert.factory({
   id: "slice",
   name: "\u5207\u7247",
-  match: /^slice\((\s*\d+\s*?)(,\s*-?\d+\s*)?\)$/,
-  detail: "\u548Cjs\u7684slice\u65B9\u6CD5\u662F\u4E00\u6837\u7684",
+  match: /^slice\((\s*\d+\s*)(,\s*-?\d+\s*)?\)$/,
+  detail: "\u548Cjs\u7684slice\u65B9\u6CD5\u662F\u4E00\u6837\u7684\u3002\u4F8B\u5982 `[slice(1, -1)]`",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
@@ -219753,12 +219753,13 @@ var abc_slice = ABConvert.factory({
     const arg1 = Number(list_match[1].trim());
     if (isNaN(arg1))
       return content3;
-    const arg2 = Number(list_match[2].replace(",", "").trim());
-    if (isNaN(arg2)) {
+    if (!list_match[2])
       return content3.split("\n").slice(arg1).join("\n");
-    } else {
+    const arg2 = Number(list_match[2].replace(",", "").trim());
+    if (isNaN(arg2))
+      return content3.split("\n").slice(arg1).join("\n");
+    else
       return content3.split("\n").slice(arg1, arg2).join("\n");
-    }
   }
 });
 var abc_add = ABConvert.factory({
@@ -219993,7 +219994,21 @@ var ListProcess = class {
     let list_itemInfo = [];
     const list_text = text7.split("\n");
     let mul_mode = "";
+    let codeBlockFlag = "";
     for (let line2 of list_text) {
+      if (codeBlockFlag == "") {
+        const match3 = line2.match(/^((\s|>\s|-\s|\*\s|\+\s)*)(````*|~~~~*)(.*)/);
+        if (match3 && match3[3]) {
+          codeBlockFlag = match3[1] + match3[3];
+          list_itemInfo[list_itemInfo.length - 1].content = list_itemInfo[list_itemInfo.length - 1].content + "\n" + line2;
+          continue;
+        }
+      } else {
+        if (line2.indexOf(codeBlockFlag) == 0)
+          codeBlockFlag = "";
+        list_itemInfo[list_itemInfo.length - 1].content = list_itemInfo[list_itemInfo.length - 1].content + "\n" + line2;
+        continue;
+      }
       const match_heading = line2.match(ABReg.reg_heading_noprefix);
       const match_list = line2.match(ABReg.reg_list_noprefix);
       if (match_heading && !match_heading[1]) {
@@ -220411,7 +220426,21 @@ var C2ListProcess = class {
     }
     const root_title_level = first_match[3].length - 1;
     let current_content = "";
+    let codeBlockFlag = "";
     for (const line2 of list_text) {
+      if (codeBlockFlag == "") {
+        const match3 = line2.match(/^((\s|>\s|-\s|\*\s|\+\s)*)(````*|~~~~*)(.*)/);
+        if (match3 && match3[3]) {
+          codeBlockFlag = match3[1] + match3[3];
+          current_content += line2 + "\n";
+          continue;
+        }
+      } else {
+        if (line2.indexOf(codeBlockFlag) == 0)
+          codeBlockFlag = "";
+        current_content += line2 + "\n";
+        continue;
+      }
       const match_heading = line2.match(ABReg.reg_heading_noprefix);
       if (match_heading && !match_heading[1] && match_heading[3].length - 1 <= root_title_level) {
         add_current_content();
@@ -220556,6 +220585,32 @@ var abc_c2listdata2items = ABConvert.factory({
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
     return C2ListProcess.c2data2items(content3, el);
+  }
+});
+var abc_c2listdata2easytimeline = ABConvert.factory({
+  id: "c2listdata2easytimeline",
+  name: "\u9002\u914D\u5230easy_timeline",
+  match: "c2listdata2easytimeline",
+  detail: "\u9002\u914D\u5230easy_timeline\u683C\u5F0F\uFF0C\u9700\u8981\u5B89\u88C5easy timeline\u63D2\u4EF6",
+  process_param: "array2" /* c2list_stream */,
+  process_return: "string" /* text */,
+  process: (el, header, content3) => {
+    let all_line = "";
+    let line2 = "";
+    for (const item of content3) {
+      if (item.level == 0) {
+        if (line2 != "")
+          all_line += line2 + "\n\n";
+        line2 = item.content + ". ";
+      } else {
+        if (line2 == "")
+          line2 = " . ";
+        line2 += item.content;
+      }
+    }
+    if (line2 != "")
+      all_line += line2;
+    return "````timeline\n" + all_line + "\n````";
   }
 });
 
@@ -221323,14 +221378,16 @@ var abc_addDiv = ABConvert.factory({
     const matchs = header.match(/^addDiv\((.*)\)$/);
     if (!matchs || !matchs[1])
       return content3;
-    const arg1 = matchs[1];
     if (content3.children.length != 1)
       return content3;
     const sub_el = content3.children[0];
     sub_el.remove();
     const mid_el = document.createElement("div");
     content3.appendChild(mid_el);
-    mid_el.classList.add(arg1);
+    const args = matchs[1].split(" ");
+    for (const arg of args) {
+      mid_el.classList.add(arg);
+    }
     mid_el.appendChild(sub_el);
     return content3;
   }
@@ -222080,25 +222137,68 @@ var abc_list2mindmap = ABConvert.factory({
 var abc_list2mermaid = ABConvert.factory({
   id: "list2mermaid",
   name: "\u5217\u8868\u8F6Cmermaid\u6D41\u7A0B\u56FE",
+  match: /^list2mermaid(\((.*)\))?$/,
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
-    list2mermaid(content3, el);
+    let matchs = header.match(/^list2mermaid(\((.*)\))?$/);
+    if (!matchs) {
+      console.error("no match", matchs);
+      return el;
+    }
+    let mermaid_head = "graph LR";
+    if (matchs[2])
+      mermaid_head = matchs[2];
+    const list_itemInfo = ListProcess.list2data(content3);
+    const mermaidText = mermaid_head + "\n" + data2mermaidText(list_itemInfo);
+    render_mermaidText(mermaidText, el);
     return el;
+  }
+});
+var abc_list2mermaidText = ABConvert.factory({
+  id: "list2mermaidText",
+  name: "\u5217\u8868\u8F6Cmermaid\u6587\u672C",
+  match: /^list2mermaidText(\((.*)\))?$/,
+  detail: "\u5217\u8868\u8F6Cmermaid\u6587\u672C",
+  process_param: "string" /* text */,
+  process_return: "string" /* text */,
+  process: (el, header, content3) => {
+    let matchs = header.match(/^list2mermaidText(\((.*)\))?$/);
+    if (!matchs) {
+      console.error("no match", matchs);
+      return "error, no match";
+    }
+    let mermaid_head = "graph LR";
+    if (matchs[2])
+      mermaid_head = matchs[2];
+    const list_itemInfo = ListProcess.list2data(content3);
+    const mermaidText = mermaid_head + "\n" + data2mermaidText(list_itemInfo);
+    return mermaidText;
   }
 });
 var abc_list2mehrmaid = ABConvert.factory({
   id: "list2mehrmaidText",
   name: "\u5217\u8868\u8F6Cmehrmaid\u6587\u672C",
+  match: /^list2mehrmaidText(\((.*)\))?$/,
   detail: "\u9700\u8981\u914D\u5408mehrmaid\u63D2\u4EF6\u548Ccode(mehrmaid)\u4F7F\u7528\uFF0C\u6216\u4F7F\u7528\u522B\u540D\u7B80\u5316",
   process_param: "string" /* text */,
   process_return: "string" /* text */,
   process: (el, header, content3) => {
-    return list2mehrmaid(content3, el);
+    let matchs = header.match(/^list2mehrmaidText(\((.*)\))?$/);
+    if (!matchs) {
+      console.error("no match", matchs);
+      return "error, no match";
+    }
+    let mermaid_head = "flowchart LR";
+    if (matchs[2])
+      mermaid_head = matchs[2];
+    const list_itemInfo = ListProcess.list2data(content3);
+    const mermaidText = mermaid_head + "\n" + data2mehrmaidText(list_itemInfo);
+    return mermaidText;
   }
 });
 var abc_mermaid = ABConvert.factory({
-  id: "mermaid",
+  id: "mermaid-with",
   name: "\u65B0mermaid",
   match: /^mermaid(\((.*)\))?$/,
   default: "mermaid(graph TB)",
@@ -222106,28 +222206,18 @@ var abc_mermaid = ABConvert.factory({
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: async (el, header, content3) => {
-    let matchs = content3.match(/^mermaid(\((.*)\))?$/);
+    let matchs = header.match(/^mermaid(\((.*)\))?$/);
     if (!matchs)
       return el;
-    if (matchs[1])
+    if (matchs[2])
       content3 = matchs[2] + "\n" + content3;
     const el2 = render_mermaidText(content3, el);
     return el2;
   }
 });
-function list2mermaid(text7, div) {
-  let list_itemInfo = ListProcess.list2data(text7);
-  let mermaidText = data2mermaidText(list_itemInfo);
-  return render_mermaidText(mermaidText, div);
-}
-function list2mehrmaid(text7, div) {
-  let list_itemInfo = ListProcess.list2data(text7);
-  let mermaidText = data2mehrmaidText(list_itemInfo);
-  return mermaidText;
-}
 function data2mermaidText(list_itemInfo) {
   const html_mode = false;
-  let list_line_content = ["graph LR"];
+  let list_line_content = [];
   let prev_line_content = "";
   let prev_level = 999;
   for (let i = 0; i < list_itemInfo.length; i++) {
@@ -222159,7 +222249,7 @@ function data2mehrmaidText(list_itemInfo) {
     list_itemInfo[i].content = i.toString();
   }
   const html_mode = false;
-  let list_line_content = ["flowchart LR"];
+  let list_line_content = [];
   let prev_line_content = "";
   let prev_level = 999;
   for (let i = 0; i < list_itemInfo.length; i++) {
@@ -244446,10 +244536,10 @@ function list2markmap(markdown, div) {
   return div;
 }
 
-// src/ab_manager/abm_code/ABReplacer_CodeBlock.ts
+// src/Obsidian/ab_manager/abm_code/ABReplacer_CodeBlock.ts
 var import_obsidian = require("obsidian");
 
-// src/ab_manager/abm_cm/ABReplacer_Widget.ts
+// src/Obsidian/ab_manager/abm_cm/ABReplacer_Widget.ts
 var import_view = require("@codemirror/view");
 var _ABReplacer_Widget = class extends import_view.WidgetType {
   constructor(rangeSpec, editor) {
@@ -244540,7 +244630,7 @@ ABReplacer_Widget.str_icon_refresh = `<svg version="1.1" id="Capa_1" xmlns="http
     </g>
   </svg>`;
 
-// src/ab_manager/abm_code/ABReplacer_CodeBlock.ts
+// src/Obsidian/ab_manager/abm_code/ABReplacer_CodeBlock.ts
 var ABReplacer_CodeBlock = class {
   static processor(src, blockEl, ctx) {
     var _a3, _b2, _c, _d;
@@ -244591,15 +244681,15 @@ var ABReplacer_CodeBlock = class {
   }
 };
 
-// src/ab_manager/abm_cm/ABStateManager.ts
+// src/Obsidian/ab_manager/abm_cm/ABStateManager.ts
 var import_view3 = require("@codemirror/view");
 var import_state = require("@codemirror/state");
 var import_obsidian3 = require("obsidian");
 
-// src/config/ABSettingTab.ts
+// src/Obsidian/config/ABSettingTab.ts
 var import_obsidian2 = require("obsidian");
 
-// src/ab_manager/abm_cm/ABSelector_Md.ts
+// src/Obsidian/ab_manager/abm_cm/ABSelector_Md.ts
 function autoMdSelector(mdText = "") {
   let list_mdSelectorRangeSpec = [];
   let list_text = mdText.split("\n");
@@ -244617,7 +244707,7 @@ function autoMdSelector(mdText = "") {
       if (match3 && match3[3]) {
         codeBlockFlag = match3[1] + match3[3];
       }
-    } else if (codeBlockFlag != "") {
+    } else {
       if (line2.indexOf(codeBlockFlag) == 0) {
         codeBlockFlag = "";
       }
@@ -244680,7 +244770,7 @@ function registerMdSelector(simp) {
   });
 }
 
-// src/ab_manager/abm_cm/ABSelector_MdBase.ts
+// src/Obsidian/ab_manager/abm_cm/ABSelector_MdBase.ts
 function easySelector(list_text, from_line, selector, frist_reg) {
   let mdRange = {
     from_line: from_line - 1,
@@ -244741,8 +244831,20 @@ var mdSelector_headtail = {
       return null;
     const mdRange = mdRangeTmp;
     let last_nonempty = from_line;
+    let codeBlockFlag = "";
     for (let i = from_line + 1; i < list_text.length; i++) {
       const line2 = list_text[i];
+      if (codeBlockFlag == "") {
+        const match3 = line2.match(/^((\s|>\s|-\s|\*\s|\+\s)*)(````*|~~~~*)(.*)/);
+        if (match3 && match3[3]) {
+          codeBlockFlag = match3[1] + match3[3];
+          continue;
+        }
+      } else {
+        if (line2.indexOf(codeBlockFlag) == 0)
+          codeBlockFlag = "";
+        continue;
+      }
       if (line2.indexOf(mdRange.prefix) != 0)
         break;
       const line22 = line2.replace(mdRange.prefix, "");
@@ -244904,8 +245006,20 @@ var mdSelector_heading = {
       return null;
     const mdRange = mdRangeTmp;
     let last_nonempty = from_line;
+    let codeBlockFlag = "";
     for (let i = from_line + 1; i < list_text.length; i++) {
       const line2 = list_text[i];
+      if (codeBlockFlag == "") {
+        const match4 = line2.match(/^((\s|>\s|-\s|\*\s|\+\s)*)(````*|~~~~*)(.*)/);
+        if (match4 && match4[3]) {
+          codeBlockFlag = match4[1] + match4[3];
+          continue;
+        }
+      } else {
+        if (line2.indexOf(codeBlockFlag) == 0)
+          codeBlockFlag = "";
+        continue;
+      }
       if (line2.indexOf(mdRange.prefix) != 0)
         break;
       const line22 = line2.replace(mdRange.prefix, "");
@@ -244931,7 +245045,7 @@ var mdSelector_heading = {
 };
 registerMdSelector(mdSelector_heading);
 
-// src/config/ABSettingTab.ts
+// src/Obsidian/config/ABSettingTab.ts
 var AB_SETTINGS = {
   select_list: "ifhead" /* ifhead */,
   select_quote: "ifhead" /* ifhead */,
@@ -245134,7 +245248,7 @@ var ABModal_alias = class extends import_obsidian2.Modal {
   }
 };
 
-// src/ab_manager/abm_cm/ABDecorationManager.ts
+// src/Obsidian/ab_manager/abm_cm/ABDecorationManager.ts
 var import_view2 = require("@codemirror/view");
 var ABDecorationManager = class {
   constructor(r_this, rangeSpec, cursorSpec) {
@@ -245177,7 +245291,7 @@ var ABDecorationManager = class {
   }
 };
 
-// src/ab_manager/abm_cm/ABStateManager.ts
+// src/Obsidian/ab_manager/abm_cm/ABStateManager.ts
 var once_flag = false;
 var ABStateManager = class {
   constructor(plugin_this) {
@@ -245340,11 +245454,11 @@ var ABStateManager = class {
   }
 };
 
-// src/ab_manager/abm_html/ABSelector_PostHtml.ts
+// src/Obsidian/ab_manager/abm_html/ABSelector_PostHtml.ts
 var import_html_to_md = __toESM(require_dist2());
 var import_obsidian5 = require("obsidian");
 
-// src/ab_manager/abm_html/ABReplacer_Render.ts
+// src/Obsidian/ab_manager/abm_html/ABReplacer_Render.ts
 var import_obsidian4 = require("obsidian");
 var ABReplacer_Render = class extends import_obsidian4.MarkdownRenderChild {
   constructor(containerEl, header, content3, selectorName = "replacer_default") {
@@ -245428,7 +245542,7 @@ var ABReplacer_Render = class extends import_obsidian4.MarkdownRenderChild {
 };
 ABReplacer_Render.str_icon_code2 = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg>`;
 
-// src/ab_manager/abm_html/ABSelector_PostHtml.ts
+// src/Obsidian/ab_manager/abm_html/ABSelector_PostHtml.ts
 var ABSelector_PostHtml = class {
   static processor(el, ctx) {
     var _a3, _b2, _c, _d, _e, _f;
@@ -245469,7 +245583,7 @@ var ABSelector_PostHtml = class {
           return;
         }
         const el2 = view == null ? void 0 : view.containerEl;
-        if (el2 && el2.getAttribute("data-mode") != "preview") {
+        if (!el2 || el2.getAttribute("data-mode") != "preview" || el2.getAttribute("data-type") != "excalidraw") {
           if (this.settings.is_debug)
             console.log(` !! Cache check: [${path4}] use ![[${ctx.sourcePath}]] in source Mode`);
           cache_item = {
@@ -245751,7 +245865,7 @@ function getSourceMarkdown(sectionEl, ctx) {
   return range3;
 }
 
-// src/main.ts
+// src/Obsidian/main.ts
 var AnyBlockPlugin = class extends import_obsidian6.Plugin {
   async onload() {
     await this.loadSettings();
