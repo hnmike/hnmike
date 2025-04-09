@@ -4497,7 +4497,9 @@ body {
   color: var(--color-accent);
 }
 
-.callout[data-callout-metadata~=no-bg], .callout[data-callout-metadata~=no-bg] > .callout-content, .callout[data-callout-metadata~=no-bg] > .callout-title,
+.callout[data-callout-metadata~=no-bg],
+.callout[data-callout-metadata~=no-bg] > .callout-content,
+.callout[data-callout-metadata~=no-bg] > .callout-title,
 .callout[data-callout-metadata~=no-background],
 .callout[data-callout-metadata~=no-background] > .callout-content,
 .callout[data-callout-metadata~=no-background] > .callout-title {
@@ -4526,7 +4528,8 @@ body {
   mix-blend-mode: none;
   border-radius: 0;
 }
-.callout[data-callout-metadata~=blank], .callout[data-callout-metadata~=blank] > .callout-content {
+.callout[data-callout-metadata~=blank],
+.callout[data-callout-metadata~=blank] > .callout-content {
   border: none;
   background: none;
   padding: 0;
@@ -4549,12 +4552,14 @@ body {
   float: right;
   clear: right;
   margin: var(--fas-float-inline-margin, 12px) 0 var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px);
+  max-width: 300px;
 }
 
 .markdown-preview-view .callout:is([data-callout-metadata~=left], [data-callout-metadata~=float-left]) {
   float: left;
   clear: left;
   margin: var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px) 0;
+  max-width: 300px;
 }
 
 .callout[data-callout-metadata~=no-blending] {
@@ -10062,6 +10067,29 @@ settings:
                 value: min-content
                 label: Yes
 
+    - 
+        id: typography
+        title: Typography
+        type: heading
+        collapsed: true
+        level: 2
+    -
+        id: bold-color
+        title: Bold text color
+        type: variable-themed-color
+        opacity: false
+        format: rgb
+        default-light: '#000000'
+        default-dark: '#ffffff'
+    -
+        id: italic-color
+        title: Italic text color
+        type: variable-themed-color
+        opacity: false
+        format: rgb
+        default-light: '#000000'
+        default-dark: '#ffffff'
+
 
 
     - 
@@ -10562,13 +10590,13 @@ settings:
         type: info-text
         markdown: true
         title: Additional fonts
-        description: "Multiple elements of this theme can use specific fonts if they are available. To download the required fonts, you can add the file [additional_fonts.css](https://github.com/ElsaTam/obsidian-fancy-a-story/blob/main/css/additional_fonts.css) to your [snippets folder](https://help.obsidian.md/Extending+Obsidian/CSS+snippets). This file can be very heavy. If you don't plan on using all of them, I would recommend deleting the unecessary @font-face from the snippet. You can see how which font is used [in the doc](https://elsatam.github.io/obsidian-fancy-a-story/docs/stylesettings/stylesettings.html#additional-fonts)"
+        description: "Multiple elements of this theme can use specific fonts if they are available. To download the required fonts, you can add the file [additional_fonts.css](https://github.com/ElsaTam/obsidian-fancy-a-story/blob/main/snippets/additional_fonts.css) to your [snippets folder](https://help.obsidian.md/Extending+Obsidian/CSS+snippets). This file can be very heavy. If you don't plan on using all of them, I would recommend deleting the unecessary @font-face from the snippet. You can see how which font is used [in the doc](https://elsatam.github.io/obsidian-fancy-a-story/docs/stylesettings/stylesettings.html#additional-fonts)"
     -
         id: canvas-node-bundle
         type: info-text
         markdown: true
         title: Canvas node tags
-        description: "Usage of tags to define specific styling for canvas card can be very powerful. However, it requires a code that can cause performance issues. Also, such styling come as independant snippets. You can add the file [canvas-node-bundle](https://github.com/ElsaTam/obsidian-fancy-a-story/blob/main/css/canvas/canvas-node-bundle.css) to your [snippets folder](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) to download all the effects. Or choose individual ones from [this list](https://github.com/ElsaTam/obsidian-fancy-a-story/tree/main/css/canvas)."
+        description: "Usage of tags to define specific styling for canvas card can be very powerful. However, it requires a code that can cause performance issues. Also, such styling come as independant snippets. You can add the file [canvas-node-bundle](https://github.com/ElsaTam/obsidian-fancy-a-story/blob/main/snippets/canvas/canvas-node-bundle.css) to your [snippets folder](https://help.obsidian.md/Extending+Obsidian/CSS+snippets) to download all the effects. Or choose individual ones from [this list](https://github.com/ElsaTam/obsidian-fancy-a-story/tree/main/snippets/canvas)."
 
 
 */
