@@ -221955,7 +221955,7 @@ ${content3}
 });
 var abc_mditABDemo = ABConvert.factory({
   id: "mditABDemo",
-  name: "AnyBlock\u8F6C\u7528\u5C55\u793A\u5BF9\u6BD4",
+  name: "AnyBlock\u4E13\u7528\u5C55\u793A\u5BF9\u6BD4",
   process_param: "string" /* text */,
   process_return: "HTMLElement" /* el */,
   process: (el, header, content3) => {
@@ -245583,9 +245583,9 @@ var ABSelector_PostHtml = class {
           return;
         }
         const el2 = view == null ? void 0 : view.containerEl;
-        if (!el2 || el2.getAttribute("data-mode") != "preview" || el2.getAttribute("data-type") != "excalidraw") {
+        if (!el2 || el2.getAttribute("data-mode") != "preview" || el2.getAttribute("data-type") != "markdown") {
           if (this.settings.is_debug)
-            console.log(` !! Cache check: [${path4}] use ![[${ctx.sourcePath}]] in source Mode`);
+            console.log(` !! Cache check: [${path4}] use ![[${ctx.sourcePath}]] in source Mode`, el2);
           cache_item = {
             name: ctx.sourcePath,
             content: mdSrc.content_all
