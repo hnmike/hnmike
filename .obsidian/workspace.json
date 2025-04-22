@@ -600,10 +600,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -617,7 +617,7 @@
             }
           },
           {
-            "id": "0cac2e40a1b05f18",
+            "id": "9a1b35ac77efa832",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -634,9 +634,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "37391eeef740ebe3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -700,7 +719,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "54c6e50009dd6d21",
+  "active": "37391eeef740ebe3",
   "lastOpenFiles": [
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
