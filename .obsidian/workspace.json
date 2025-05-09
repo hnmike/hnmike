@@ -1552,17 +1552,8 @@
             }
           },
           {
-            "id": "037332bab904be0f",
+            "id": "97066199f928ec96",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1647,7 +1638,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "037332bab904be0f",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
     "what is GNU LINUX.md",
