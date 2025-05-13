@@ -1571,9 +1571,28 @@
               "icon": "history",
               "title": "History"
             }
+          },
+          {
+            "id": "bdfa47f1cbc21285",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 26
+        "currentTab": 27
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1649,8 +1668,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "717d5862c3fa26a9",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "Solving ambiguous problems on your own.md",
     "reactblog.md",
     "2025-05-09.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
@@ -1676,7 +1696,6 @@
     "00-09 system/journal/daily/2025/03/2025-03-23.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
-    "resources/Reddit What are your favorite tricks using Neovim.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
