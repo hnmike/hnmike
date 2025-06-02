@@ -97,6 +97,41 @@
             }
           },
           {
+            "id": "1776383bb85e7d9c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Dimensional data modelling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dimensional data modelling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dimensional data modelling\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Khóa học DE Zach Wilson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Khóa học DE Zach Wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Khóa học DE Zach Wilson\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
+            }
+          },
+          {
             "id": "468297bb672f56b0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -250,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -617,25 +652,6 @@
             }
           },
           {
-            "id": "9a1b35ac77efa832",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "37391eeef740ebe3",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -652,6 +668,25 @@
               "state": {},
               "icon": "GA-ICON",
               "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "edb1cf5682c5f346",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -676,7 +711,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -686,7 +721,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           }
         ]
@@ -719,8 +754,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "edb1cf5682c5f346",
   "lastOpenFiles": [
+    "Dimensional data modelling.md",
+    "Khóa học DE Zach Wilson.md",
+    "www.googlecalendar.com.md",
     "2025-04-22.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
@@ -728,7 +766,6 @@
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/homepage/Map of content.md",
-    "www.googlecalendar.com.md",
     "00-09 system/project/data engineer.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
@@ -746,8 +783,6 @@
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit Need a detailed guide for vim motions and ergonomic navigation tips & guides.md",
     "resources/Reddit My List of useful keybinds I dont see mentioned that often.md",
-    "resources/Reddit Is there a more effective way to scroll.md",
-    "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
