@@ -569,6 +569,108 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "postgres (202411162120)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"postgres (202411162120).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"postgres (202411162120)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "plugin for obsidian",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"plugin for obsidian.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"plugin for obsidian\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Note-Templates",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Note-Templates.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Note-Templates\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "nextjs debugging tool vscode",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"nextjs debugging tool vscode.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"nextjs debugging tool vscode\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Lab opensource data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":15},\"to\":{\"line\":11,\"ch\":15}},\"scroll\":65.0296}"
+                },
+                {
+                  "title": "Lab opensource mlops devops",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource mlops devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource mlops devops\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":19.436}"
+                },
+                {
+                  "title": "CONDA LIBRARY",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CONDA LIBRARY.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CONDA LIBRARY\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "cài đặt dual ubuntu",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt dual ubuntu.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt dual ubuntu\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "cài đặt docker engine & desktop",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "Button",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Button.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Button\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "cài đặt docker engine & desktop",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "Building Real-Time Data Pipelines (202412081512)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Building Real-Time Data Pipelines (202412081512).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Building Real-Time Data Pipelines (202412081512)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "basic.thino",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"basic.thino.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic.thino\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2024-W49",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-W49.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-W49\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Module 5 Batch Processing with spark",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 5 Batch Processing with spark\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":95.3509289070412}"
+                },
+                {
                   "title": "Module 4 Analytics Engineering with dbt",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 4 Analytics Engineering with dbt\"}",
@@ -609,12 +711,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
+                "file": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 5 Batch Processing with spark"
+              "title": "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700)"
             }
           },
           {
@@ -1793,34 +1895,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9be0ef77e5b44660",
+  "active": "980d7d578d9582d0",
   "lastOpenFiles": [
+    "postgres (202411162120).md",
+    "plugin for obsidian.md",
+    "Note-Templates.md",
+    "nextjs debugging tool vscode.md",
+    "Lab opensource data engineer.md",
+    "Lab opensource mlops devops.md",
+    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
+    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
+    "CONDA LIBRARY.md",
+    "cài đặt dual ubuntu.md",
+    "cài đặt docker engine & desktop.md",
+    "Button.md",
+    "Building Real-Time Data Pipelines (202412081512).md",
+    "basic.thino.md",
+    "2024-W49.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "20-30 PARA/Project/DE zach wilson/Untitled.md",
-    "basic.thino.md",
     "Bash script.md",
-    "CONDA LIBRARY.md",
     "Công nghệ.md",
-    "Lab opensource data engineer.md",
     "Khóa học DE Zach Wilson.md",
     "placeholder.jpg.md",
-    "postgres (202411162120).md",
     "Lab week 3 de(202412082116).md",
     "Install Apache Spark Using Docker (202412081557).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
-    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
-    "what is GNU LINUX.md",
-    "2025-05-13.md",
-    "Solving ambiguous problems on your own.md",
-    "reactblog.md",
-    "2025-05-09.md",
-    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
-    "www.googlecalendar.com.md",
-    "00-09 system/Log/Flowmo Log.md",
-    "2024-08-25.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
