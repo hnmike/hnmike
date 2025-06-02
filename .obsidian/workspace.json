@@ -935,9 +935,32 @@
               "icon": "lucide-file",
               "title": "Flowmo Log"
             }
+          },
+          {
+            "id": "d60f629626d8911f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825)"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -1573,7 +1596,7 @@
             }
           },
           {
-            "id": "bdfa47f1cbc21285",
+            "id": "41c74939ec684356",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1668,14 +1691,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "d60f629626d8911f",
   "lastOpenFiles": [
+    "what is GNU LINUX.md",
     "2025-05-13.md",
     "Solving ambiguous problems on your own.md",
     "reactblog.md",
     "2025-05-09.md",
     "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
-    "what is GNU LINUX.md",
     "www.googlecalendar.com.md",
     "00-09 system/Log/Flowmo Log.md",
     "2024-08-25.md",
