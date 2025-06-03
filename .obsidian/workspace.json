@@ -1200,7 +1200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1931,8 +1931,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c30aa3981e3e410c",
+  "active": "1814986886c01a54",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
+    "00-09 system/homepage/Homepage.md",
+    "Building Real-Time Data Pipelines (202412081512).md",
     "daily note.md",
     "2025-03-09.md",
     "2024-12-01.md",
@@ -1951,14 +1954,11 @@
     "cài đặt dual ubuntu.md",
     "cài đặt docker engine & desktop.md",
     "Button.md",
-    "Building Real-Time Data Pipelines (202412081512).md",
     "basic.thino.md",
     "2024-W49.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "00-09 system/journal/daily/2025/03/2025-03-17.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
-    "20-30 PARA/Project/DE zach wilson/Untitled.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
