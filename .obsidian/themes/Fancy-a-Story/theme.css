@@ -728,6 +728,11 @@
   --color-pink-rgb: 215, 174, 249;
 }
 
+body {
+  --rainbow-brightness: 1;
+  --rainbow-saturation: 1;
+}
+
 .theme-light {
   --color-rainbow-1: hsl(18, 60%, 40%);
   --color-rainbow-1-rgb: 163, 78, 41;
@@ -1349,6 +1354,15 @@ body {
   font-weight: var(--font-extralight);
 }
 
+.is-flashing,
+.community-item .suggestion-highlight,
+.markdown-rendered mark,
+.cm-s-obsidian span.cm-formatting-highlight,
+.cm-s-obsidian span.cm-highlight,
+.search-result-file-matched-text {
+  color: var(--text-highlight-fg);
+}
+
 p, li {
   text-wrap: pretty;
 }
@@ -1955,15 +1969,14 @@ body {
 }
 
 .callout[data-callout=caption] {
+  --p-spacing: 0;
   border: none;
   background: none;
-  --p-spacing: 0;
   display: flex;
   flex-direction: column-reverse;
 }
 .callout[data-callout=caption] .callout-title {
   font-size: 0.8em;
-  display: block;
   width: fit-content;
   margin-inline-end: auto;
   font-style: italic;
@@ -1981,10 +1994,19 @@ body {
 .callout[data-callout=caption] .callout-icon {
   display: none;
 }
+.callout[data-callout=caption] .callout-fold {
+  order: -1;
+  padding-inline-end: 0;
+}
 .callout[data-callout=caption] .callout-content {
   padding: 0;
   border: none;
   border-left: 1px solid rgb(var(--callout-color));
+  overflow: hidden;
+}
+
+.callout[data-callout=caption].is-collapsed .callout-title {
+  inset-block-start: unset;
 }
 
 .callout[data-callout=caption][data-callout-metadata~=accent] .callout-title {
@@ -3035,6 +3057,7 @@ body {
   --fas-infobox-max-width: 300px;
 }
 
+:where(.fas-callout-infobox) .callout[data-callout=infobox][data-callout-metadata~=full-width],
 .callout[data-callout=fas-infobox][data-callout-metadata~=full-width] {
   --fas-infobox-max-width: 100%;
 }
@@ -4670,7 +4693,7 @@ body {
   box-shadow: 0 2px 8px var(--background-modifier-box-shadow);
   background-color: var(--background-modifier-message);
   border-radius: var(--radius-s);
-  color: #FAFAFA;
+  color: #fafafa;
   font-size: var(--font-ui-smaller);
   font-weight: var(--font-medium);
   line-height: var(--line-height-tight);
@@ -4678,7 +4701,6 @@ body {
   padding: 4px 8px;
   text-align: center;
   z-index: var(--layer-tooltip);
-  pointer-events: none;
   display: none;
 }
 .callout[data-callout=tooltip]:hover .callout-title {
@@ -4696,6 +4718,10 @@ body {
 }
 .callout[data-callout=tooltip] .callout-content > :plast-child {
   margin-bottom: 0;
+}
+.callout[data-callout=tooltip].is-collapsed .callout-title {
+  position: static;
+  display: flex;
 }
 
 body {
@@ -4825,12 +4851,22 @@ body {
   margin: var(--fas-float-inline-margin, 12px) 0 var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px);
   max-width: 300px;
 }
+@container not (style(--image-shadow-offset: 0) or style(--image-shadow-offset: 0px)) {
+  .markdown-preview-view .callout:is([data-callout-metadata~=right], [data-callout-metadata~=float-right]) img {
+    max-width: min(100%, 299px - var(--image-shadow-offset));
+  }
+}
 
 .markdown-preview-view .callout:is([data-callout-metadata~=left], [data-callout-metadata~=float-left]) {
   float: left;
   clear: left;
   margin: var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px) var(--fas-float-inline-margin, 12px) 0;
   max-width: 300px;
+}
+@container not (style(--image-shadow-offset: 0) or style(--image-shadow-offset: 0px)) {
+  .markdown-preview-view .callout:is([data-callout-metadata~=left], [data-callout-metadata~=float-left]) img {
+    max-width: min(100%, 299px - var(--image-shadow-offset));
+  }
 }
 
 .callout[data-callout-metadata~=clear] {
@@ -4984,6 +5020,72 @@ pre.language-poem-floral .copy-code-button {
     -webkit-mask-image: var(--left-ornament-flourish);
   }
 }
+/* Both */
+.fas-compact :is(.markdown-source-view, .markdown-preview-view),
+.compact:is(.markdown-source-view, .markdown-preview-view) {
+  --callout-title-padding: 5px 12px;
+  --callout-content-padding: var(--size-2-3) var(--size-2-3) var(--size-2-3) var(--size-4-3);
+  --table-cell-vertical-alignment: middle;
+  --p-spacing: 0.6rem;
+  --heading-spacing: calc(var(--p-spacing) * 1.5);
+  --line-height-normal: 1.25em;
+  --line-height-tight: 1em;
+  --metadata-padding: var(--size-4-3) var(--size-4-1) var(--size-4-1) var(--size-4-1);
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout {
+  margin-block: 0.3em;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout-icon,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout-icon {
+  --icon-size: 14px;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout-content > *:first-child,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout-content > *:first-child {
+  margin-block-start: 0px;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout-content > *:last-child,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout-content > *:last-child {
+  margin-block-end: 0px;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=grid] > .callout-content,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=grid] > .callout-content {
+  gap: 0.3em;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) :where(.fas-callout-infobox) .callout[data-callout=infobox],
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=fas-infobox],
+.compact:is(.markdown-source-view, .markdown-preview-view) :where(.fas-callout-infobox) .callout[data-callout=infobox],
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=fas-infobox] {
+  --p-spacing: 0;
+  --h1-line-height: 1.4;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) :where(.fas-callout-infobox) .callout[data-callout=infobox] h1,
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=fas-infobox] h1,
+.compact:is(.markdown-source-view, .markdown-preview-view) :where(.fas-callout-infobox) .callout[data-callout=infobox] h1,
+.compact:is(.markdown-source-view, .markdown-preview-view) .callout[data-callout=fas-infobox] h1 {
+  --h1-size: 1.5em;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) audio,
+.compact:is(.markdown-source-view, .markdown-preview-view) audio {
+  height: 32px;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) audio::-webkit-media-controls-current-time-display,
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) audio::-webkit-media-controls-time-remaining-display,
+.compact:is(.markdown-source-view, .markdown-preview-view) audio::-webkit-media-controls-current-time-display,
+.compact:is(.markdown-source-view, .markdown-preview-view) audio::-webkit-media-controls-time-remaining-display {
+  font-size: 12px;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) table,
+.compact:is(.markdown-source-view, .markdown-preview-view) table {
+  line-height: 1;
+}
+.fas-compact :is(.markdown-source-view, .markdown-preview-view) table :is(td, th):empty,
+.compact:is(.markdown-source-view, .markdown-preview-view) table :is(td, th):empty {
+  height: unset;
+}
+
+/* Live preview */
+/* Preview */
 body {
   --image-shadow-offset: var(--size-4-2);
   --image-shadow-stripe-thickness: 2px;
@@ -6060,6 +6162,142 @@ body {
 }
 
 body {
+  --fas-rainbow-lists: disable;
+}
+
+@container style(--fas-rainbow-lists: enable) {
+  .el-ul > ul > li:nth-of-type(10n + 1) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-1);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 1) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 1)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 1) li::marker {
+    --list-marker-color: var(--color-rainbow-1);
+  }
+  .HyperMD-list-line:nth-child(10n+1 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-1);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 2) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-2);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 2) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 2)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 2) li::marker {
+    --list-marker-color: var(--color-rainbow-2);
+  }
+  .HyperMD-list-line:nth-child(10n+2 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-2);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 3) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-3);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 3) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 3)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 3) li::marker {
+    --list-marker-color: var(--color-rainbow-3);
+  }
+  .HyperMD-list-line:nth-child(10n+3 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-3);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 4) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-4);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 4) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 4)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 4) li::marker {
+    --list-marker-color: var(--color-rainbow-4);
+  }
+  .HyperMD-list-line:nth-child(10n+4 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-4);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 5) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-5);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 5) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 5)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 5) li::marker {
+    --list-marker-color: var(--color-rainbow-5);
+  }
+  .HyperMD-list-line:nth-child(10n+5 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-5);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 6) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-6);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 6) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 6)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 6) li::marker {
+    --list-marker-color: var(--color-rainbow-6);
+  }
+  .HyperMD-list-line:nth-child(10n+6 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-6);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 7) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-7);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 7) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 7)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 7) li::marker {
+    --list-marker-color: var(--color-rainbow-7);
+  }
+  .HyperMD-list-line:nth-child(10n+7 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-7);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 8) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-8);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 8) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 8)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 8) li::marker {
+    --list-marker-color: var(--color-rainbow-8);
+  }
+  .HyperMD-list-line:nth-child(10n+8 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-8);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 9) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-9);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 9) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 9)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 9) li::marker {
+    --list-marker-color: var(--color-rainbow-9);
+  }
+  .HyperMD-list-line:nth-child(10n+9 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-9);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ul > ul > li:nth-of-type(10n + 10) .list-bullet::after {
+    --list-marker-color: var(--color-rainbow-10);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+  .el-ol > ol > li:nth-of-type(10n + 10) .list-bullet::after,
+  .el-ol > ol > li:nth-of-type(10n + 10)::marker,
+  .el-ol > ol > li:nth-of-type(10n + 10) li::marker {
+    --list-marker-color: var(--color-rainbow-10);
+  }
+  .HyperMD-list-line:nth-child(10n+10 of .HyperMD-list-line) {
+    --list-marker-color: var(--color-rainbow-10);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
+  }
+}
+body {
   --fas-checkbox-style: doodle;
   --fas-alternative-checkboxes: doodle;
 }
@@ -6900,6 +7138,11 @@ body {
 }
 
 @container style(--fas-rainbow-folders: enable) {
+  .nav-folder-children > .nav-folder:nth-child(10n+1),
+  .nav-files-container > div > .nav-folder:nth-child(10n+1),
+  [data-type=bookmarks] .tree-item:nth-child(10n+1) {
+    --folder-color: var(--color-rainbow-10);
+  }
   .nav-folder-children > .nav-folder:nth-child(10n+2),
   .nav-files-container > div > .nav-folder:nth-child(10n+2),
   [data-type=bookmarks] .tree-item:nth-child(10n+2) {
@@ -6945,19 +7188,15 @@ body {
   [data-type=bookmarks] .tree-item:nth-child(10n+10) {
     --folder-color: var(--color-rainbow-9);
   }
-  .nav-folder-children > .nav-folder:nth-child(10n+1),
-  .nav-files-container > div > .nav-folder:nth-child(10n+1),
-  [data-type=bookmarks] .tree-item:nth-child(10n+1) {
-    --folder-color: var(--color-rainbow-10);
-  }
   .nav-files-container .nav-folder.nav-folder .nav-folder,
   [data-type=bookmarks] .tree-item .tree-item {
     --folder-color: inherit;
   }
   .nav-files-container > div > .nav-folder .nav-folder-title,
-  [data-type=bookmarks] .tree-item {
+  [data-type=bookmarks] .tree-item .mod-collapsible {
     --nav-item-color: var(--folder-color);
     --nav-item-background-hover: color-mix(in srgb, var(--folder-color), transparent 80%);
+    filter: saturate(var(--rainbow-saturation)) brightness(var(--rainbow-brightness));
   }
 }
 @scope (.dataview-cards-deck) to (.markdown-embed .markdown-embed) {
@@ -7338,6 +7577,122 @@ body {
   --icon-opacity: var(--icon-opacity-hover);
 }
 
+body.fas-ribbon-horizontal-floating-hover {
+  --ribbon-background: var(--workspace-background);
+}
+body.fas-ribbon-horizontal-floating-hover .workspace-ribbon.mod-left {
+  --transition-duration: 0.5s;
+  --transition-timing-function: ease;
+  --border-width: max(15px, var(--radius-m));
+  transition-duration: var(--transition-duration), max(0s, var(--transition-duration) - 0.2s);
+  transition-timing-function: var(--transition-timing-function);
+  transition-property: transform, border;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  flex-direction: row;
+  width: unset;
+  height: var(--ribbon-width);
+  flex: unset;
+  box-shadow: var(--shadow-s);
+  border-radius: 0 var(--radius-m) 0 0;
+  border-top: 1px solid var(--color-base-40);
+  border-right: 1px solid var(--color-base-40);
+  margin-top: 0;
+}
+body.fas-ribbon-horizontal-floating-hover .workspace-ribbon.mod-left:not(:hover) {
+  transform: translateX(calc(-100% + var(--border-width)));
+  border-right: var(--color-accent) solid var(--border-width);
+  box-shadow: 4px 0px 8px var(--shadow-color);
+}
+body.fas-ribbon-horizontal-floating-hover .workspace-ribbon.mod-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+  transition-property: left;
+  z-index: -1;
+}
+body.fas-ribbon-horizontal-floating-hover .workspace-ribbon:hover::after {
+  right: 0;
+}
+body.fas-ribbon-horizontal-floating-hover .workspace-ribbon.mod-left::before {
+  position: static;
+  width: var(--ribbon-width);
+  height: unset;
+  border-bottom: none;
+  border-right: var(--tab-outline-width) solid var(--tab-outline-color);
+}
+body.fas-ribbon-horizontal-floating-hover .mod-sidedock.mod-left-split {
+  margin-left: var(--workspace-gap);
+}
+body.fas-ribbon-horizontal-floating-hover .side-dock-settings,
+body.fas-ribbon-horizontal-floating-hover .side-dock-actions {
+  flex-direction: row;
+}
+
+body.fas-ribbon-horizontal-floating {
+  --ribbon-background: var(--workspace-background);
+}
+body.fas-ribbon-horizontal-floating .workspace-ribbon.mod-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  flex-direction: row;
+  width: unset;
+  height: var(--ribbon-width);
+  flex: unset;
+  box-shadow: var(--shadow-s);
+  border-radius: 0 var(--radius-m) 0 0;
+  border-top: 1px solid var(--color-base-40);
+  border-right: 1px solid var(--color-base-40);
+  margin-top: 0;
+}
+body.fas-ribbon-horizontal-floating .workspace-ribbon.mod-left::before {
+  position: static;
+  width: var(--ribbon-width);
+  height: unset;
+  border-bottom: none;
+  border-right: var(--tab-outline-width) solid var(--tab-outline-color);
+}
+body.fas-ribbon-horizontal-floating .mod-sidedock.mod-left-split {
+  margin-left: var(--workspace-gap);
+}
+body.fas-ribbon-horizontal-floating .side-dock-settings,
+body.fas-ribbon-horizontal-floating .side-dock-actions {
+  flex-direction: row;
+}
+
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .mod-root :nth-child(1 of .mod-top) .workspace-tab-header-container {
+  anchor-name: --top-tab-header-container;
+}
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .mod-root :nth-child(1 of .mod-top) .workspace-tab-header-container::before {
+  content: "";
+  display: block;
+  width: var(--ribbon-width);
+  -webkit-app-region: no-drag;
+}
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .mod-root .workspace-tabs.mod-top-left-space .workspace-tab-header-container::before {
+  position: static;
+  width: var(--ribbon-width);
+}
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .workspace-ribbon.mod-left .sidebar-toggle-button {
+  position-anchor: --top-tab-header-container;
+  top: calc(anchor(top) + 4px);
+  left: anchor(left);
+  z-index: 200;
+}
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .workspace-ribbon.mod-left {
+  margin-top: var(--workspace-top-margin);
+}
+body.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos).fas-left-toggle-button-in-root:not(.fas-ribbon-horizontal-floating):not(.fas-ribbon-horizontal-floating-hover) .workspace-ribbon.mod-left::before {
+  content: none;
+}
+
 body {
   --scrollbar-width-base: 10px;
 }
@@ -7605,6 +7960,14 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
     color: var(--workspace-foreground-muted);
   }
 }
+body:not(.is-mobile).fas-vault-menu-top .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+  order: -1;
+  padding-bottom: 0;
+}
+body:not(.is-mobile).fas-vault-menu-top .mod-sidedock.mod-left-split {
+  padding-bottom: 6px;
+}
+
 body.is-hidden-frameless {
   --workspace-top-margin: 6px;
 }
@@ -7807,8 +8170,8 @@ body {
   z-index: -1;
 }
 
-.fas-bg-textures.theme-dark .workspace-leaf-content[data-type=file-explorer]::before {
-  mix-blend-mode: var(--file-explorer-decoration-blend-dark);
+.fas-bg-textures.theme-dark {
+  --file-explorer-decoration-blend: var(--file-explorer-decoration-blend-dark);
 }
 
 .fas-bg-textures:not(.fas-file-explorer-decoration-custom) .workspace-leaf-content[data-type=file-explorer]::before {
@@ -7855,8 +8218,8 @@ body {
   background-position: var(--sidebar-texture-position);
 }
 
-.fas-bg-textures.theme-dark .mod-sidedock .workspace-leaf {
-  background-blend-mode: normal, var(--sidebar-texture-blend-dark);
+.fas-bg-textures.theme-dark {
+  --sidebar-texture-blend: var(--sidebar-texture-blend-dark);
 }
 
 body {
@@ -10409,10 +10772,10 @@ body {
 }
 /* Sidebar backgrounds */
 @container style(--art-deco-style-sidebar-textures: enable) {
-  .fas-skin-art-deco:not(.fas-file-explorer-decoration-custom) .app-container {
+  .fas-skin-art-deco.fas-bg-textures:not(.fas-file-explorer-decoration-custom) .app-container {
     --file-explorer-decoration: ;
   }
-  .fas-skin-art-deco:not(.fas-sidebar-texture-custom) .app-container {
+  .fas-skin-art-deco.fas-bg-textures:not(.fas-sidebar-texture-custom) .app-container {
     --sidebar-texture: var(--art-deco-background);
     --sidebar-texture-size: auto 100%;
     --sidebar-texture-blend: soft-light;
@@ -10695,10 +11058,10 @@ body {
 }
 /* Workspace tabs */
 @container style(--art-deco-style-root-tabs: enable) {
-  .mod-root .workspace-tab-header-container {
+  .fas-skin-art-deco .mod-root .workspace-tab-header-container {
     --tab-text-color-focused-active-current: var(--art-deco-color);
   }
-  @scope (.mod-root .workspace-tabs:not(.mod-stacked)) {
+  @scope (.fas-skin-art-deco .mod-root .workspace-tabs:not(.mod-stacked)) {
     .is-active .workspace-tab-header-inner {
       border-bottom: 1px solid var(--art-deco-color);
       background-image: linear-gradient(-45deg, transparent 0px, var(--art-deco-color) 0px, var(--art-deco-color) 6px, transparent 6px), linear-gradient(45deg, transparent 0px, var(--art-deco-color) 0px, var(--art-deco-color) 6px, transparent 6px);
@@ -10975,6 +11338,29 @@ settings:
                 label: Ribbon
                 value: fas-status-bar-ribbon
     -
+        id: ribbon-position
+        title: Ribbon position
+        type: class-select
+        allowEmpty: true
+        default: none
+        options:
+            - 
+                label: Floating horizontal, bottom
+                value: fas-ribbon-horizontal-floating
+            - 
+                label: Floating horizontal, bottom, on hover
+                value: fas-ribbon-horizontal-floating-hover
+    -
+        id: fas-left-toggle-button-in-root
+        title: Left sidebar toggle button out of ribbon
+        type: class-toggle
+        default: false
+    -
+        id: fas-vault-menu-top
+        title: Vault menu at the top
+        type: class-toggle
+        default: false
+    -
         id: show-note-header-on-hover
         title: Show note header on hover
         type: variable-select
@@ -11229,6 +11615,12 @@ settings:
         type: variable-number
         format: px
         default: 700
+    - 
+        id: fas-compact
+        title: Compact mode
+        description: Enable to use a more compact layout in the editor, reducing multiple spacingg
+        markdown: true
+        type: class-toggle
 
     - 
         id: callouts
@@ -11626,6 +12018,22 @@ settings:
         format: rgb
         default-light: '#000000'
         default-dark: '#ffffff'
+    -
+        id: text-highlight-bg
+        title: Highlight background color
+        type: variable-themed-color
+        opacity: true
+        format: rgb
+        default-light: '#ffd00066'
+        default-dark: '#ffd00066'
+    -
+        id: text-highlight-fg
+        title: Highlight text color
+        type: variable-themed-color
+        opacity: false
+        format: rgb
+        default-light: '#000000'
+        default-dark: '#ffffff'
 
 
 
@@ -11692,6 +12100,28 @@ settings:
             - 
                 value: disable
                 label: Disable
+    - 
+        id: fas-rainbow-lists
+        title: Rainbow lists markers
+        type: variable-select
+        default: disable
+        options:
+            - 
+                value: enable
+                label: Enable
+            - 
+                value: disable
+                label: Disable
+    - 
+        id: rainbow-brightness
+        title: Rainbow text brightness
+        type: variable-number
+        default: 1
+    - 
+        id: rainbow-saturation
+        title: Rainbow text saturation
+        type: variable-number
+        default: 1
 
     -
         id: app-background-image
@@ -12179,13 +12609,22 @@ body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-i
 body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-id=file-explorer-decoration-blend-custom-dark],
 body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-id=file-explorer-decoration-size-custom],
 body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-id=file-explorer-decoration-position-custom],
-body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-id=file-explorer-decoration-opacity-custom] {
+body:not(.fas-file-explorer-decoration-custom) .style-settings-container [data-id=file-explorer-decoration-opacity-custom],
+body.fas-ribbon-horizontal-floating .style-settings-container [data-id=fas-left-toggle-button-in-root],
+body.fas-ribbon-horizontal-floating-hover .style-settings-container [data-id=fas-left-toggle-button-in-root] {
   opacity: 0.5;
   pointer-events: none;
 }
 
 @container not style(--fas-bookmark-tabs: disable) {
   .style-settings-container [data-id=sidedock-tab-header-padding-bottom] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+@container not style(--fas-rainbow-folders: enable) {
+  .style-settings-container [data-id=rainbow-brightness],
+  .style-settings-container [data-id=rainbow-saturation] {
     opacity: 0.5;
     pointer-events: none;
   }
