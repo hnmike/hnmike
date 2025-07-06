@@ -107,6 +107,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Dimensional data modelling",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dimensional data modelling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dimensional data modelling\"}",
@@ -123,12 +129,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp"
             }
           },
           {
@@ -767,7 +773,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -777,7 +783,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp"
             }
           }
         ]
@@ -812,6 +818,7 @@
   },
   "active": "1776383bb85e7d9c",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
@@ -838,7 +845,6 @@
     "resources/Running Spark Job on Kubernetes with Docker Step-by-Step Guide.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
-    "resources/Reddit Share your tips and tricks in neovim!.md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
