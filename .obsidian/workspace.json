@@ -341,7 +341,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -727,7 +727,7 @@
             }
           },
           {
-            "id": "538c8d6d20af3eaf",
+            "id": "8aee7d918abf030a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -741,8 +741,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -767,7 +767,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -777,7 +777,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           }
         ]
@@ -810,14 +810,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "1776383bb85e7d9c",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
+    "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "web api.md",
     "Dimensional data modelling.md",
     "Khóa học DE Zach Wilson.md",
-    "www.googlecalendar.com.md",
     "2025-04-22.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
@@ -838,7 +839,6 @@
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
-    "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
