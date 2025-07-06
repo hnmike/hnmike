@@ -1210,6 +1210,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "algorithm and design pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm and design pattern\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":295.5795279352924}"
+                },
+                {
                   "title": "AWS cloud and DE",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
@@ -1232,12 +1238,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithm and design pattern"
+              "title": "AWS cloud and DE"
             }
           }
         ],
@@ -1974,8 +1980,8 @@
   },
   "active": "d74b4f6aa00fc588",
   "lastOpenFiles": [
-    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "40-50 technical knowledge hub/data engineer/Capstone project for my course.md",
     "www.googlecalendar.com.md",
     "2025-06-10.md",
