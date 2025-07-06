@@ -107,6 +107,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":110},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":17.34947050604077}"
+                },
+                {
                   "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
@@ -153,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
+              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -797,7 +809,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -807,7 +819,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           }
         ]
@@ -842,8 +854,9 @@
   },
   "active": "1776383bb85e7d9c",
   "lastOpenFiles": [
-    "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
@@ -854,7 +867,6 @@
     "2025-04-22.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "00-09 system/homepage/Homepage.md",
     "00-09 system/homepage/Map of content.md",
