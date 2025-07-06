@@ -316,6 +316,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":7.352941176470588}"
+                },
+                {
                   "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
@@ -326,12 +332,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
             }
           }
         ],
@@ -761,7 +767,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -771,7 +777,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
             }
           }
         ]
@@ -806,6 +812,7 @@
   },
   "active": "0186b5b94c8d02e5",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "web api.md",
     "Dimensional data modelling.md",
@@ -832,7 +839,6 @@
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
-    "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
     "90-100 resource archives/Image/IMG-20250315221950859.png",
