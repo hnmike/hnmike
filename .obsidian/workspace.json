@@ -283,9 +283,30 @@
               "icon": "lucide-file",
               "title": "DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp"
             }
+          },
+          {
+            "id": "9b038bd439eeabbb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -671,7 +692,7 @@
             }
           },
           {
-            "id": "edb1cf5682c5f346",
+            "id": "3411c3ee21bfeec0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -711,7 +732,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -721,7 +741,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
+              "title": "Backlinks"
             }
           }
         ]
@@ -754,7 +774,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "edb1cf5682c5f346",
+  "active": "3411c3ee21bfeec0",
   "lastOpenFiles": [
     "Dimensional data modelling.md",
     "Khóa học DE Zach Wilson.md",
