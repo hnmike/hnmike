@@ -1198,9 +1198,32 @@
               "icon": "lucide-file",
               "title": "Running Apache Spark on Kubernetes (202412081728)"
             }
+          },
+          {
+            "id": "d74b4f6aa00fc588",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40-50 technical knowledge hub/data engineer/Capstone project for my course.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capstone project for my course"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -1931,7 +1954,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "81c658aedb61925f",
+  "active": "d74b4f6aa00fc588",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "2025-06-10.md",
