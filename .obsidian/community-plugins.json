@@ -59,5 +59,6 @@
   "obsidian-clipper",
   "obsidian-toggl-integration",
   "obsidian-task-progress-bar",
-  "note-refactor-obsidian"
+  "note-refactor-obsidian",
+  "obsidian-local-rest-api"
 ]
