@@ -987,7 +987,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -997,7 +996,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks"
             }
           }
         ]
@@ -1031,7 +1030,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "0205715ab600aa06",
   "lastOpenFiles": [
     "OLTP & OLAP.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
