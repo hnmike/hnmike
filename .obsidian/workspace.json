@@ -152,8 +152,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "folders",
+              "title": "Projects"
             }
           },
           {
@@ -221,6 +221,29 @@
               },
               "icon": "lucide-file",
               "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+            }
+          },
+          {
+            "id": "7b555409df3c136b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "algorithm and design pattern"
             }
           }
         ],
@@ -724,7 +747,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -734,7 +757,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cài đặt docker engine & desktop"
+              "title": "Backlinks for algorithm and design pattern"
             }
           }
         ]
@@ -768,8 +791,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8c0cbf90f33e4478",
+  "active": "7b555409df3c136b",
   "lastOpenFiles": [
+    "cài đặt docker engine & desktop.md",
     "QuickCapture.md",
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
@@ -796,7 +820,6 @@
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
