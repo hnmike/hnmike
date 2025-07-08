@@ -138,8 +138,14 @@
             "id": "7b555409df3c136b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "data engineer project",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1128,8 +1134,9 @@
   },
   "active": "7b555409df3c136b",
   "lastOpenFiles": [
-    "00-09 system/template/knowledge base template.md",
+    "40-50 technical knowledge hub/data engineer project.md",
     "202507082127.md",
+    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/template/book template.md",
@@ -1153,7 +1160,6 @@
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "mobile-app",
