@@ -393,7 +393,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1016,7 +1016,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1026,7 +1026,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
             }
           }
         ]
@@ -1060,10 +1060,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "OLTP & OLAP.md",
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
@@ -1073,7 +1074,6 @@
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "202507081528.md",
     "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "Data partitioning challenge.md",
     "vim motion key.md",
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
