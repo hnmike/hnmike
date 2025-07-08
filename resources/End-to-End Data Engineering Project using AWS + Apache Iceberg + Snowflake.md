@@ -20,11 +20,9 @@ type :
 
 This article demonstrates building an automated weather data pipeline using **WeatherAPI**, **AWS** services, and **Snowflake**. You’ll see how this system collects and processes both real-time and forecast data from global locations through a scalable, production-ready architecture.
 
-This project is part of my GitHub portfolio showcasing various data engineering architectures to help both experienced and new data software engineers with practical examples. The complete code is available in the repository linked below.
 
-[
 
-## data\_engineering\_projects/AWS/pipeline-weather-data at main · claudiocmm/data\_engineering\_projects
+!data\_engineering\_projects/AWS/pipeline-weather-data at main · claudiocmm/data\_engineering\_projects
 
 ### A collection of Data Engineering projects using different cloud providers. Explore real-world implementations of data…
 
