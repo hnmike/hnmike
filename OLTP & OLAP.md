@@ -78,3 +78,15 @@ Kimball đã phát triển framework để xử lý việc thay đổi dữ li�
 - **Type 4**: Sử dụng history table riêng biệt
     
 - **Type 6**: Kết hợp Type 1, 2, và 3
+
+## 2. Star Schema và Snowflake Schema
+
+**Star Schema** là cấu trúc cơ bản nhất trong dimensional modeling[6](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)[7](https://www.datacamp.com/blog/star-schema-vs-snowflake-schema):
+
+- Fact table ở trung tâm chứa các metrics/measurements
+    
+- Dimension tables xung quanh chứa các thuộc tính mô tả
+    
+- Cấu trúc đơn giản, dễ hiểu và query nhanh
+    
+- Sử dụng denormalized data để tối ưu hóa performance
