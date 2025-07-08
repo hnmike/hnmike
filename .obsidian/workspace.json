@@ -889,7 +889,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 12
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -911,7 +911,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -921,7 +920,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Backlinks"
             }
           }
         ]
@@ -955,10 +954,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "0205715ab600aa06",
   "lastOpenFiles": [
-    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "Data partitioning challenge.md",
     "vim motion key.md",

@@ -52,4 +52,4 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 > - **Historical Analysis (1:57:30):** Historical Analysis can be done on cumlative tables without having to do any group buys.
 
 ---
--
+- [[OLTP & OLAP]] 
