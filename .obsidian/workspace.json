@@ -152,8 +152,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -609,10 +609,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
@@ -632,25 +632,6 @@
               "state": {},
               "icon": "microscope",
               "title": "You and Your Research"
-            }
-          },
-          {
-            "id": "8c7ee196888d40d7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
             }
           },
           {
@@ -681,9 +662,47 @@
               "icon": "clock",
               "title": "Toggl Report"
             }
+          },
+          {
+            "id": "fe89ecc35442592e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "aa409a98a789d3d6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -721,7 +740,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 498.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -748,7 +767,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "38a8ea283e5b6bf5",
+  "active": "aa409a98a789d3d6",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
