@@ -164,4 +164,4 @@ spark.conf.set("spark.sql.adaptive.skewJoin.enabled", "true")
 
 ---
 
-*Tags: #spark #data-engineering #performance-optimization #big-data #etl* 
+*Tags: #spark #data-engineering #performance-optimization #big-data #data_engineer/etl* 

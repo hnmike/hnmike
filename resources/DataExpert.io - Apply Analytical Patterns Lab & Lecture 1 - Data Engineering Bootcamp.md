@@ -9,7 +9,7 @@ created: 2025-03-23
 tags:
   - youtube
   - data_engineer/analytical_patterns
-  - Data_Analysis
+  - data_analysis
 summary: "Data Engineering Bootcamp lecture covering analytical patterns: aggregation, cumulation, and window-based analysis. Learn to build robust data pipelines."
 ---
 # DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp
