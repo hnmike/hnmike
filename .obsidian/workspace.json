@@ -169,6 +169,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!\"}",
@@ -203,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "resources/Debezium Testing locally with PG and Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Debezium Testing locally with PG and Docker"
             }
           },
           {
@@ -426,7 +432,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#spark_code_parameterization",
+                "query": "tag:#debezium_cdc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -456,7 +462,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -509,13 +516,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "resources/Debezium Testing locally with PG and Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Outline of Debezium Testing locally with PG and Docker"
             }
           },
           {
@@ -637,10 +644,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md"
+                "file": "resources/Debezium Testing locally with PG and Docker.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "File properties for Debezium Testing locally with PG and Docker"
             }
           },
           {
@@ -1002,7 +1009,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "resources/Debezium Testing locally with PG and Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1012,7 +1019,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Backlinks for Debezium Testing locally with PG and Docker"
             }
           }
         ]
@@ -1048,6 +1055,7 @@
   },
   "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2024/09/2024-09-20.md",
@@ -1057,7 +1065,6 @@
     "resources/Conclusion.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
