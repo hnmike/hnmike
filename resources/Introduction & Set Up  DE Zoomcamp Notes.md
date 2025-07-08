@@ -37,7 +37,7 @@ tags:
 
 ☑️ Getting Started
 
-To obtain the certificate, you only need to pass the project at the end of the course. To get the most out of the course, completing the homework, #learninginpublic, and helping answer other student's questions is encouraged.
+To obtain the certificate, you only need to pass the project at the end of the course. To get the most out of the course, completing the homework, and helping answer other student's questions is encouraged.
 
 ### 
 

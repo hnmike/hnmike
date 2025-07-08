@@ -9,7 +9,6 @@ created: 2025-03-23
 tags:
   - youtube
   - data_engineer
-  - Bootcamp_Homework
 summary: Data Engineering Bootcamp homework review. SQL queries to analyze actor data and movie ratings. Debugging and problem-solving approach.
 ---
 # DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp

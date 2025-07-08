@@ -169,6 +169,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Introduction & Set Up  DE Zoomcamp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Introduction & Set Up  DE Zoomcamp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Introduction & Set Up  DE Zoomcamp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":146},\"to\":{\"line\":39,\"ch\":146}},\"scroll\":14.155909404395803}"
+                },
+                {
+                  "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp\"}",
@@ -245,12 +257,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -468,7 +480,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Bootcamp_Homework",
+                "query": "tag:#docker_deployment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -552,13 +564,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
+              "title": "Outline of DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -680,10 +692,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md"
+                "file": "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
+              "title": "File properties for DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -1045,7 +1057,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1055,7 +1067,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp"
             }
           }
         ]
@@ -1091,6 +1103,8 @@
   },
   "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
+    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
+    "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "Data_Engineering_Bootcamp.md",
@@ -1115,8 +1129,6 @@
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "202507081528.md",
-    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
-    "Data partitioning challenge.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
