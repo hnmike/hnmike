@@ -1,2 +1,3 @@
 - [ ] Viet cv
 - [?] Hen review cv vs anh dat 📅 2025-07-12
+- [/] Hoan thanh bai 1 📅 2025-07-10
