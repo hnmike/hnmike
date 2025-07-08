@@ -235,10 +235,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Apache Spark Best Practices - Comprehensive Guide",
+                  "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Apache Spark Best Practices - Comprehensive Guide.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Apache Spark Best Practices - Comprehensive Guide\"}",
-                  "eState": "{\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -818,6 +818,9 @@
   },
   "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "resources/Data layers.md",
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Conclusion.md",
     "resources/Serving layer.md",
     "resources/Challenges of DuckDB + dbt.md",
@@ -825,12 +828,9 @@
     "resources/Development.md",
     "resources/dbt and DuckDB.md",
     "resources/Dagster.md",
-    "resources/Data layers.md",
     "resources/Architecture.md",
     "resources/Components.md",
     "resources/Introduction.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "Data partitioning challenge.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
