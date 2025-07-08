@@ -991,10 +991,10 @@
               "type": "backlink",
               "state": {
                 "file": "resources/50 Useful Vim Commands - VimTricks.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
@@ -1034,7 +1034,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "c73acbf79430f06b",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2024/09/2024-09-20.md",
     "OLTP & OLAP.md",
