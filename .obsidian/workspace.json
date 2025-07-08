@@ -741,7 +741,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -768,8 +768,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "aa409a98a789d3d6",
+  "active": "8c0cbf90f33e4478",
   "lastOpenFiles": [
+    "QuickCapture.md",
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "vim motion key.md",
@@ -796,7 +797,6 @@
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
-    "web api.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
