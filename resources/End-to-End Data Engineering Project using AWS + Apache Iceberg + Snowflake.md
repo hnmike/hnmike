@@ -22,6 +22,7 @@ This article demonstrates building an automated weather data pipeline using **We
 
 
 
+
 - ! Link github: data\_engineering\_projects/AWS/pipeline-weather-data at main · claudiocmm/data\_engineering\_projects
 
 ### A collection of Data Engineering projects using different cloud providers. Explore real-world implementations of data…
