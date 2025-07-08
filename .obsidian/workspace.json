@@ -421,10 +421,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cài đặt docker engine & desktop.md"
+                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cài đặt docker engine & desktop"
+              "title": "Outline of Dagster, dbt, duckdb as new local MDS 202503181708"
             }
           },
           {
@@ -806,7 +809,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 1
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -828,7 +831,7 @@
               "type": "backlink",
               "state": {
                 "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -871,7 +874,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c73acbf79430f06b",
+  "active": "76e00f65728bb98b",
   "lastOpenFiles": [
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
