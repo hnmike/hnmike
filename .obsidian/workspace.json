@@ -169,6 +169,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":138.1634562288176}"
+                },
+                {
+                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Reddit What are your favorite tricks using Neovim",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Reddit What are your favorite tricks using Neovim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reddit What are your favorite tricks using Neovim\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":429,\"ch\":30},\"to\":{\"line\":429,\"ch\":30}},\"scroll\":419.6805203810902}"
+                },
+                {
+                  "title": "DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
                   "title": "Spring Boot Debezium - Master Slave Real Life Project Example",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Spring Boot Debezium - Master Slave Real Life Project Example.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Spring Boot Debezium - Master Slave Real Life Project Example\"}",
@@ -281,12 +317,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium"
+              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -454,7 +490,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -504,7 +540,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Outbox_Pattern",
+                "query": "tag:#Tech_Debt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -588,13 +624,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium"
+              "title": "Outline of DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -716,10 +752,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md"
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium"
+              "title": "File properties for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -1081,7 +1117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1091,7 +1127,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium"
+              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           }
         ]
@@ -1125,11 +1161,16 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "1776383bb85e7d9c",
   "lastOpenFiles": [
+    "resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md",
+    "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+    "resources/Reddit What are your favorite tricks using Neovim.md",
+    "resources/DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
+    "resources/Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium.md",
     "resources/Spring Boot Debezium - Master Slave Real Life Project Example.md",
     "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
-    "resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
@@ -1141,7 +1182,6 @@
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
     "resources/Debezium Testing locally with PG and Docker.md",
-    "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2024/09/2024-09-20.md",
@@ -1149,10 +1189,6 @@
     "Untitled 2.md",
     "Real_Time_ML.md",
     "resources/Conclusion.md",
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
-    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
-    "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
-    "Running Apache Spark on Kubernetes (202412081728).md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",

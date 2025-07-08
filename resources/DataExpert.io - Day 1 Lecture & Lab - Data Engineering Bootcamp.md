@@ -1,17 +1,16 @@
 ---
-title: "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+title: DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2024-11-20
-source: "https://www.youtube.com/watch?v=ppBq0amchiI&t=9s"
-image: "https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCsoZxPQJLZe-qMkzWvz3jfu98jYA"
+source: https://www.youtube.com/watch?v=ppBq0amchiI&t=9s
+image: https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCsoZxPQJLZe-qMkzWvz3jfu98jYA
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "data_engineer/data_modeling"
-  - "Cumulative_Tables"
-summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp."
+  - youtube
+  - data_engineer
+  - data_engineer/data_modeling
+summary: Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp.
 ---
 # DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 

@@ -8,7 +8,6 @@ image: https://i.ytimg.com/vi/MgW15TDL34Y/maxresdefault.jpg
 created: 2025-03-20
 tags:
   - youtube
-  - python_kafka_kubernetes
   - microservice_architecture
 summary: Learn how to build a Python, Kafka, and Kubernetes-based microservice architecture for beginners. This event-driven system tutorial covers deployment and more.
 ---
