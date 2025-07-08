@@ -1086,6 +1086,7 @@
   },
   "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
+    "resources/Conclusion.md",
     "OLTP & OLAP.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
@@ -1101,7 +1102,6 @@
     "Data partitioning challenge.md",
     "vim motion key.md",
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
-    "resources/Conclusion.md",
     "resources/Dagster.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Data layers.md",
