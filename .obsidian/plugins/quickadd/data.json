@@ -113,6 +113,55 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "7d4d5e67-f63a-4953-b6e4-100437cf87e9",
+      "name": "log entry",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "00-09 system/journal/daily/{{DATE:YYYY}}/{{DATE:MM}}/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "00-09 system/template/daily note template.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}}: {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Log",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e604e945-f973-44f8-bac0-81c41a33d1f7",
+      "name": "Flowmo Start",
+      "type": "Macro",
+      "command": true,
+      "macroId": "1f2e6af3-6d32-4757-a781-fb86eae049b1"
+    },
+    {
+      "id": "6dcded1b-c533-48c0-bd22-44d9e0369de5",
+      "name": "Flowmo End",
+      "type": "Macro",
+      "command": true,
+      "macroId": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5"
     }
   ],
   "macros": [
@@ -176,6 +225,118 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Flowmo Start",
+      "id": "1f2e6af3-6d32-4757-a781-fb86eae049b1",
+      "commands": [
+        {
+          "name": "Timetracker: Reset the stopwatch",
+          "type": "Obsidian",
+          "id": "c555560d-4214-4fdc-8a79-f6aafa04ba16",
+          "commandId": "timetracker:reset-stopwatch"
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "032d977e-6445-445a-85f7-b793f6250e70",
+          "choice": {
+            "id": "22ed55d6-78ed-43d1-b3f9-49871bbbffb3",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "00-09 system/Log/Flowmo Log.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- **{{DATE:YYYY-MM-DD}}** | **Task:** {{VALUE:task}} | **Start:** {{TIME:HH:mm}} "
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "bottom"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "5fdb6b48-5de9-466c-94e8-3e0069fd5b55",
+          "commandId": "timetracker:start-stop-stopwatch"
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "Flowmo End",
+      "id": "23fe3872-a2d0-44bd-bf9b-a618b74f8dc5",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "01b25287-b8d1-48cc-acc1-55d45eb1c030",
+          "choice": {
+            "id": "11f6028f-03d4-4a7b-8732-c86af7af2a2b",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "00-09 system/Log/Flowmo Log.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": " - **End:** {{TIME:HH:mm}}"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "bottom"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Timetracker: Start or stop the stopwatch",
+          "type": "Obsidian",
+          "id": "ceec2393-453c-480a-acb5-2c29715f55ee",
+          "commandId": "timetracker:start-stop-stopwatch"
+        }
+      ],
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "single-line",

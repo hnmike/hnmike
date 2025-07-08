@@ -11,14 +11,14 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "",
+  "googleApiKey": "AIzaSyDlsuRdop3IaBzIbleW0Y-iNX0_nGzUhdE",
   "openRouterAiApiKey": "",
-  "defaultChainType": "llm_chain",
-  "defaultModelKey": "meta-llama/Meta-Llama-3.1-405B-Instruct|openai",
-  "embeddingModelKey": "text-embedding-3-small|openai",
-  "temperature": 0.1,
-  "maxTokens": 1000,
-  "contextTurns": 15,
+  "defaultChainType": "copilot_plus",
+  "defaultModelKey": "mistral-large-2402|mistralai",
+  "embeddingModelKey": "text-embedding-004|google",
+  "temperature": 0.8,
+  "maxTokens": 16000,
+  "contextTurns": 25,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
@@ -36,7 +36,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 3,
+  "maxSourceChunks": 12,
   "groqApiKey": "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",
   "activeModels": [
     {
@@ -150,6 +150,19 @@
       "isBuiltIn": false,
       "enableCors": false,
       "isEmbeddingModel": false
+    },
+    {
+      "name": "mistral-large-2402",
+      "provider": "mistralai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "ag:31d88807:20250307:untitled-agent:28a3491e",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": false,
+      "enableCors": false,
+      "displayName": "mistral large"
     }
   ],
   "activeEmbeddingModels": [
@@ -224,13 +237,24 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "gemini-exp-1206",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyDlsuRdop3IaBzIbleW0Y-iNX0_nGzUhdE",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "gemini-exp-1206"
     }
   ],
   "embeddingRequestsPerSecond": 10,
   "disableIndexOnMobile": true,
   "showSuggestedPrompts": true,
   "showRelevantNotes": true,
-  "numPartitions": 1,
+  "numPartitions": 8,
   "enabledCommands": {
     "fix-grammar-prompt": {
       "enabled": true,
@@ -296,5 +320,6 @@
   "promptUsageTimestamps": {},
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "embeddingRequestsPerMin": 90,
-  "embeddingBatchSize": 16
+  "embeddingBatchSize": 16,
+  "mistralApiKey": "ITDr2h1ufBNrhuvlnXj5n4VFA6MD1MKS"
 }

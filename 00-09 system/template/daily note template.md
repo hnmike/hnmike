@@ -1,98 +1,154 @@
 ---
-created-date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
+type: daily-note
+date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
 aliases: 
+week: <% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>
+month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
 summary: 
 tags:
-  - "#type/daily-note"
+  - type/daily-note
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 
->**Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
->**Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
->**week::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]], [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD")  %>]]
+## 🐣Nagivation🐣
 
+>[!meta]- Navigation
+>**⬅️ Prev::** [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]]
+>**➡️ Next::** [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]
+>**📅 Week::** [[<% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
+>**📆 Month::** [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
 
-## Tasks
+---
+##  🌼Overview 🌼
 
-> [!multi-column]
-> 
->> [!TODO]
->> - **Todo**
->>   - ```tasks
->>    not done
->> (status. Type is not IN_PROGRESS)
->> Short mode
->>      hide due date
->>    hide start date
->>      hide scheduled date
->>    hide recurrence rule
->>    sort by urgency, scheduled```
->
->> [!DOING]
->> - **Doing**
->>   - ```tasks
->>      not done
->>    (status. Type is IN_PROGRESS)
->>      short mode
->>    hide due date
->>      hide start date
->>    hide scheduled date
->>      hide recurrence rule
->>    sort by urgency, due```
->
->> [!DONE]
->> - **Done**
->>   - ```tasks
->>      done
->>    short mode
->>      hide due date
->>    hide start date
->>    hide scheduled date
-
-
-
-## Morning pages
-
->[!journal]- On this day...
->```dataview
->LIST
-FROM "Journal/ Daily"
-WHERE dataformat(file.day,"MM-DD")= dateformat(this.file.day, "MM-dd")
-
->[!calender]- Note Created This Day
->```dataview
-TABLE created, file.mtime AS modified, tags, summary
-FROM ""
-WHERE !contains(file.folder, "journal") 
-AND !contains(file.folder, "template")
-AND dateformat(file.ctime, "YYYY-MM-DD") = dateformat(this.file.day, "YYYY-MM-DD")
-
->[!task]- Tasks
->```dataview
-TASK
-WHERE !completed
-AND contains(text, "[[" + date(today).format("YYYY-MM-DD") + "-") 
-AND contains(text, "#task")
-GROUP BY file.name AS filename
-SORT file.ctime DESC
->```
-
-task
-```dataview
-Task
-Where !completed
-AND icontains(text, "[[<% moment (tp.file.title, 'YYYY-MM-DD').format("YYYY-MM") %>")
-AND icontains(text, "#task")
-GROUP BY file.name as filename
-SORT rows.file.ctime DESC
+```calendar-nav
 ```
-```dataviewjs 
+````tabs
+tab: Due Today
+```tasks
+not done
+due <% tp.file.title %>
+sort by priority
+hide due date
+limit 10
 ```
+tab: Overdue
+```tasks 
+not done 
+due before <% tp.file.title %>
+sort by priority
+hide due date
+limit 10
+```
+tab: Completed
+```tasks
+done <% tp.file.title %>
+hide done date
+hide due date
+limit 10
+```
+````
+
+
+---
+## 🌱 Log
+---
+
+## 🌠Daily Notes 🌠
+
+<%tp.file.cursor()%>
+
+---
+## 🍅 Tasks
+```dataviewjs
+const file = app.vault.getAbstractFileByPath("00-09 system/Log/Flowmo Log.md");
+if (!file) return dv.span("No Flowmo Log found.");
+
+const content = await app.vault.read(file);
+const lines = content.split("\n");
+
+let sessions = [];
+const today = moment().format("YYYY-MM-DD");
+
+for (let i = 0; i < lines.length; i++) {
+    const matchStart = lines[i].match(/\*\*(\d{4}-\d{2}-\d{2})\*\* \| \*\*Task:\*\* (.+?) \| \*\*Start:\*\* (\d{2}:\d{2})/);
+    if (!matchStart) continue;
+
+    let [_, date, task, startTime] = matchStart;
+    if (date !== today) continue;
+
+    let endTime = null;
+    let duration = "—";
+    let breakTime = "—";
+
+    if (i + 1 < lines.length) {
+        const matchEnd = lines[i + 1].match(/\*\*End:\*\* (\d{2}:\d{2})/);
+        if (matchEnd) {
+            endTime = matchEnd[1];
+            const startMoment = moment(startTime, "HH:mm");
+            const endMoment = moment(endTime, "HH:mm");
+            duration = moment.duration(endMoment.diff(startMoment)).asMinutes();
+            breakTime = Math.round(duration / 5) + " min"; // rounded to nearest minute
+        }
+    }
+
+    sessions.push({
+        task,
+        start: startTime,
+        duration: duration !== "—" ? duration + " min" : "—",
+        breakTime
+    });
+}
+
+dv.table(["Task", "Start Time", "Duration", "Break Time"],
+    sessions.map(s => [s.task, s.start, s.duration, s.breakTime])
+);
+```
+---
 
 
 
-** Morning brain dump **
+  
 
-## LOG
+🐹 Today's Notes
+```dataviewjs
+// filepath: c:\hnmike\00-09 system\template\daily note template.md
+try {
+    // Get today's date from file name or fallback to current date
+    let today;
+    try {
+        today = dv.date(dv.current().file.name);
+    } catch (e) {
+        today = dv.date(moment().format('YYYY-MM-DD'));
+    }
+    
+    const todayStr = today ? today.toFormat("yyyy-MM-dd") : moment().format('YYYY-MM-DD');
+
+    // Get all pages from vault
+    const pages = dv.pages();
+
+    // Filter notes created today
+    const notesToday = pages.filter(p => {
+        const creationDate = p.file.ctime;
+        return dv.date(creationDate).toFormat("yyyy-MM-dd") === todayStr;
+    }).map(p => p.file.link);
+
+    // Display the list
+    if (notesToday.length > 0) {
+        dv.header(3, "Notes Created Today");
+        dv.list(notesToday);
+    } else {
+        dv.paragraph("No notes created today");
+    }
+} catch (error) {
+    dv.paragraph("Error: " + error.message);
+}
+```
+  
+
+
 
 
 

@@ -1,27 +1,19 @@
-/* outlined + filled callouts (from minimal theme) */
-.callouts-outlined-filled .callout .callout-title {
-    background-color: var(--background-primary);
-    margin-top: -24px;
-    z-index: 200;
-    width: fit-content;
-    padding: 0 .5em;
-    margin-left: -.75em;
-    letter-spacing: .05em;
-    font-variant-caps: all-small-caps
+body {
+  --callout-border-width: 1px;
+  --callout-border-opacity: 1;
+  --callout-radius: 4px;
+  --callout-padding: 0;
+  --callout-title-padding: var(--size-4-4) var(--size-4-4);
+  --callout-content-padding: var(--size-4-2) var(--size-4-4);
 }
-
-.callouts-outlined-filled .callout {
-    overflow: visible;
-    --callout-border-width: 1px;
-    --callout-border-opacity: 0.5;
-    --callout-title-size: 0.8em;
-    --callout-blend-mode: normal;
+.callout-title-inner {
+  color: var(--text-normal);
 }
-
-.callouts-outlined-filled .cm-embed-block.cm-callout {
-    padding-top: 12px
+.callout-content {
+  background-color: var(--background-primary-alt);
+  border-top: 1px solid rgba(var(--callout-color), 0.3);
 }
-
-.callouts-outlined-filled .callout-content .callout {
-    margin-top: 18px
+.callout {
+  border: 1px solid rgba(var(--callout-color), 0.3);
+  border-left: 4px solid rgb(var(--callout-color));
 }

@@ -19,3 +19,7 @@ summary:
 ## Tech stack to learn 
 
 
+<<<<<<< HEAD
+=======
+Done nyc-taxi-project 
+>>>>>>> origin/main

@@ -1,50 +1,65 @@
 ---
+type: weekly_note
 date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').add(0,'days').format("YYYY-MM-DD") %>
+week: <% tp.file.title %>
 aliases:
+  - "<% moment(tp.file.title,'YYYY[W]ww').format('YYYY [Week] ww') %>"
 summary:
-tags: "#type/weekly-note"
+tags: 
+  - type/weekly-note
+  - journal/week
+created: <% tp.file.creation_date() %>
+modified: <% tp.file.last_modified_date() %>
+journal-start-date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').format("YYYY-MM-DD") %>
+journal-end-date: <% moment(tp.file.title,'YYYY[W]ww').endOf('week').format("YYYY-MM-DD") %>
 ---
----
-```calender-nav
+
+calendar-timeline
+```calendar-timeline
+mode: week
 ```
----
+````tabs
+tab: Due This Week
+```dataviewjs
+// Extract year and week number from the note title
+const title = dv.current().file.name;
+const [year, monthName, weekLabel] = title.split('-');
+const weekNumber = parseInt(weekLabel.replace('W', ''), 10);
 
-## Week 
-<%*
-let start_of_week = moment(tp.file.title, 'YYYY-[W]WW'.startOf('week');
-let days_in_week = 7;
-tR += `> [! picture]- Picture\n`;
-tR += Array(days_in_week).fill(null).map((x,i) => `> !
-[[${moment(start_of_week).add(i, 'd').format('YYYY-MM-DD[]#YYYY-MM-DD')}]]`).join("\n") + '\n';
-%>
+// Calculate start and end dates for the week
+const startDate = moment().year(year).week(weekNumber).startOf('week').format('YYYY-MM-DD');
+const endDate = moment().year(year).week(weekNumber).endOf('week').format('YYYY-MM-DD');
 
->[!highlilght]- Highlights!
->```dataview
-TASK
-FROM ""
-WHERE icontains(text, "#log/highlight")
-AND (date <= (date(this.date)+dur(6 days))) and (date >= (date(this.date)))
-GROUP BY file.name as filename
-
-
->[!Calender]- Daily Reviews
->```dataview
-TASK
-WHERE icontains(text,"#log/day-review")
-AND (date <= (date(this.date)+dur(6 days))) and (date >= (date(this.date)))
-GROUP BY file.name DESC
-
-### Created 
-```dataview 
-TABLE dateformat(file.cday, "EEE, dd.MM") AS "🗓️", note-type AS "📝", file.folder AS "📂", dateformat(file.mday, "EEE, dd.MM") AS "⏳"
-WHERE dateformat(file.cday, "yyyy-WW") = dateformat(date(today), "yyyy-WW")
-SORT file.cday DESC
+dv.taskList(dv.pages().file.tasks
+    .where(t => !t.completed && t.due && t.due >= dv.date(startDate) && t.due <= dv.date(endDate))
+    .sort(t => t.priority)
+    .limit(10)
+);
 ```
+tab: Completed This Week
+```dataviewjs
+// Extract year and week number from the note title
+const title = dv.current().file.name;
+const [year, monthName, weekLabel] = title.split('-');
+const weekNumber = parseInt(weekLabel.replace('W', ''), 10);
 
+// Calculate start and end dates for the week
+const startDate = moment().year(year).week(weekNumber).startOf('week').format('YYYY-MM-DD');
+const endDate = moment().year(year).week(weekNumber).endOf('week').format('YYYY-MM-DD');
 
-
-
-
-### Edited
-```dataview TABLE (dateformat(file.cday, "EEE, dd.MM")) AS "🗓️", note-type AS "📝", file.folder AS "📂", (dateformat(file.mday, "EEE, dd.MM")) AS "⏳" WHERE dateformat(file.mday, "yyyy-WW") = dateformat(this.file.cday, "yyyy-WW") WHERE dateformat(file.cday, "yyyy-WW") != dateformat(this.file.cday, "yyyy-WW") SORT file.mday DESC
+dv.taskList(dv.pages().file.tasks
+    .where(t => t.completed && t.completion && t.completion >= dv.date(startDate) && t.completion <= dv.date(endDate))
+    .limit(10)
+);
 ```
+````
+# Weekly Goals
+<%tp.file.cursor()%>
+
+# Summary of the Week
+
+
+# Notes & Reflections
+
+  
+# Plan for Next Week

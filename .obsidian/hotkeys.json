@@ -23,15 +23,6 @@
       "key": "M"
     }
   ],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
-  "command-palette:open": [],
   "obsidian-projects:create-project": [
     {
       "modifiers": [

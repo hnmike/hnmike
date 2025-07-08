@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 P
+=======
+
+>>>>>>> origin/main
 
 - **2025-03-17** | **Task:** fgf | **Start:** 17:47 
  - **End:** 17:47"
@@ -20,4 +24,22 @@ P
 - **2025-03-25** | **Task:** vim  | **Start:** 09:59 
  - **End:** 10:29
 - **2025-03-25** | **Task:** mcp server +rooflow | **Start:** 11:09 
+<<<<<<< HEAD
  - **End:** 11:39
+=======
+ - **End:** 11:39
+- **2025-03-25** | **Task:** repomix + llm into knowledge | **Start:** 21:59 
+ - **End:** 09:57
+- **2025-03-26** | **Task:** mcp server | **Start:** 09:57 
+ - **End:** 10:06
+- **2025-03-26** | **Task:** claude mcp | **Start:** 16:15 
+- **2025-03-28** | **Task:** mcp memory server  | **Start:** 16:41 
+ - **End:** 18:02
+- **2025-03-29** | **Task:** setup workflow for project | **Start:** 16:51 
+ - **End:** 10:36
+ - **End:** 10:32
+ - **End:** 12:45
+ - **End:** 12:58
+ - **End:** 13:37
+ - **End:** 18:00
+>>>>>>> origin/main
