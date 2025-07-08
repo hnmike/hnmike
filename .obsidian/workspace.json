@@ -200,6 +200,35 @@
             }
           },
           {
+            "id": "c252d5f919ef98d0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "OLTP & OLAP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"OLTP & OLAP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"OLTP & OLAP\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":18.510786083742282}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+            }
+          },
+          {
             "id": "d7a480c939cb364b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -458,7 +487,7 @@
       {
         "id": "e396fbacad564746",
         "type": "tabs",
-        "dimension": 76.71711292200233,
+        "dimension": 48.77764842840512,
         "children": [
           {
             "id": "7118331480422942",
@@ -970,7 +999,7 @@
       {
         "id": "3ddec1ce2b88068b",
         "type": "tabs",
-        "dimension": 23.28288707799767,
+        "dimension": 51.222351571594885,
         "children": [
           {
             "id": "c73acbf79430f06b",
@@ -987,6 +1016,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -996,7 +1026,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for OLTP & OLAP"
             }
           }
         ]
@@ -1030,8 +1060,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0205715ab600aa06",
+  "active": "0186b5b94c8d02e5",
   "lastOpenFiles": [
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "OLTP & OLAP.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
@@ -1057,7 +1088,6 @@
     "resources/dbt and DuckDB.md",
     "resources/Architecture.md",
     "resources/Components.md",
-    "resources/Introduction.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",

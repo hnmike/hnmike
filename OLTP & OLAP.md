@@ -25,17 +25,7 @@ https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimb
 4. **Identify the facts** (Xác định các fact): Xác định các phép đo có thể tính toán được
     
 
-## 2. Star Schema và Snowflake Schema
-
-**Star Schema** là cấu trúc cơ bản nhất trong dimensional modeling[6](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)[7](https://www.datacamp.com/blog/star-schema-vs-snowflake-schema):
-
-- Fact table ở trung tâm chứa các metrics/measurements
-    
-- Dimension tables xung quanh chứa các thuộc tính mô tả
-    
-- Cấu trúc đơn giản, dễ hiểu và query nhanh
-    
-- Sử dụng denormalized data để tối ưu hóa performance
+[[step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka]]
     
 
 **Snowflake Schema** là phiên bản chuẩn hóa của Star Schema[7](https://www.datacamp.com/blog/star-schema-vs-snowflake-schema)[8](https://www.geeksforgeeks.org/dbms/difference-between-star-schema-and-snowflake-schema/):
