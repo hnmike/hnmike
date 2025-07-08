@@ -935,6 +935,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -944,7 +945,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for OLTP & OLAP"
             }
           }
         ]
@@ -978,7 +979,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0205715ab600aa06",
+  "active": "0186b5b94c8d02e5",
   "lastOpenFiles": [
     "OLTP & OLAP.md",
     "202507081528.md",
