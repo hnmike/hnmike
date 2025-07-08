@@ -192,6 +192,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":16.382826915249638}"
+                },
+                {
                   "title": "AWS cloud and DE",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
@@ -206,14 +212,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -717,7 +719,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -727,7 +728,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp"
+              "title": "Backlinks"
             }
           }
         ]
@@ -763,6 +764,7 @@
   },
   "active": "7b555409df3c136b",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
@@ -789,7 +791,6 @@
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
