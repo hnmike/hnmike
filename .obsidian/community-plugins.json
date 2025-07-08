@@ -2,6 +2,7 @@
   "dataview",
   "waypoint",
   "folder-notes",
+  "auto-note-mover",
   "templater-obsidian",
   "multi-properties",
   "attachment-management",
@@ -12,6 +13,7 @@
   "calendar",
   "heatmap-calendar",
   "obsidian-style-settings",
+  "omnisearch",
   "callout-manager",
   "obsidian-charts",
   "journals",
@@ -33,6 +35,7 @@
   "tabs",
   "progressbar",
   "metadata-menu",
+  "obsidian-meta-bind-plugin",
   "actions-uri",
   "customjs",
   "modalforms",
@@ -48,6 +51,7 @@
   "tag-wrangler",
   "obsidian-advanced-uri",
   "link-with-alias",
+  "graph-analysis",
   "obsidian-git",
   "lapel",
   "tabout",
@@ -56,14 +60,6 @@
   "image-converter",
   "obsidian-image-toolkit",
   "obsidian-clipper",
-<<<<<<< HEAD
-  "obsidian-toggl-integration"
-=======
-  "omnisearch",
   "obsidian-toggl-integration",
-  "timetracker",
-  "obsidian-meta-bind-plugin",
-  "obsidian-link-embed",
-  "note-refactor-obsidian"
->>>>>>> origin/main
+  "obsidian-task-progress-bar"
 ]

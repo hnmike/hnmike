@@ -322,6 +322,25 @@
             }
           },
           {
+            "id": "8c0cbf90f33e4478",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "task-genius-view",
+              "state": {},
+              "icon": "inbox",
+              "title": "Inbox"
+            }
+          },
+          {
             "id": "54c6e50009dd6d21",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -437,7 +456,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -710,11 +729,9 @@
             },
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for data engineer lab 1 (202411160846)"
+              "title": "File properties"
             }
           },
           {
@@ -842,7 +859,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 12
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -879,7 +896,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5
+    "width": 808.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -902,10 +919,11 @@
       "modalforms:Edit forms": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "a443626541e257cd",
+  "active": "8c0cbf90f33e4478",
   "lastOpenFiles": [
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "vim motion key.md",
