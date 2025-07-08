@@ -173,6 +173,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":4.098360343057601}"
+                },
+                {
+                  "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":4.901960410323798}"
+                },
+                {
                   "title": "End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka….md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…\"}",
@@ -231,12 +249,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -398,7 +416,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#leading_lagging_metrics",
+                "query": "tag:#Tech_Debt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -428,8 +446,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -482,13 +499,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "Outline of DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -610,10 +627,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md"
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "File properties for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -979,7 +996,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -989,7 +1006,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           }
         ]
@@ -1023,8 +1040,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "7b555409df3c136b",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
+    "resources/Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming.md",
+    "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
     "resources/End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka….md",
     "orphaned files output.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
@@ -1050,9 +1070,6 @@
     "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
-    "resources/Introduction & Set Up  DE Zoomcamp Notes.md",
-    "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",

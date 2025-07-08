@@ -1,17 +1,16 @@
 ---
 title: "Parameterize Your Spark Code: A Comprehensive Guide to Seamless Production Deployment!"
 author:
-  - "Deesa Technologies"
+  - Deesa Technologies
 published: 2023-04-22
-source: "https://www.youtube.com/watch?v=OT9_dQyzorE&list=LL&index=158"
-image: "https://i.ytimg.com/vi/OT9_dQyzorE/maxresdefault.jpg"
+source: https://www.youtube.com/watch?v=OT9_dQyzorE&list=LL&index=158
+image: https://i.ytimg.com/vi/OT9_dQyzorE/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "spark/spark_code"
-  - "production_deployment"
-  - "typesafe_config"
-summary: "Learn how to parameterize your Spark code for seamless production deployment. Discover techniques to customize your code for different environments using TypeSafe Config."
+  - youtube
+  - spark/spark_code
+  - production_deployment
+summary: Learn how to parameterize your Spark code for seamless production deployment. Discover techniques to customize your code for different environments using TypeSafe Config.
 ---
 # Parameterize Your Spark Code: A Comprehensive Guide to Seamless Production Deployment!
 

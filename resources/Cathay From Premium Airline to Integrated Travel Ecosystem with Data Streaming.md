@@ -1,17 +1,16 @@
 ---
 title: "Cathay: From Premium Airline to Integrated Travel Ecosystem with Data Streaming"
-summary: "Cathay Pacific rebrands, using data streaming with Apache Kafka to transform into a travel ecosystem, enhancing customer experiences and operations."
-source: "https://www.kai-waehner.de/blog/2025/03/10/cathay-from-premium-airline-to-integrated-travel-ecosystem-with-data-streaming/"
+summary: Cathay Pacific rebrands, using data streaming with Apache Kafka to transform into a travel ecosystem, enhancing customer experiences and operations.
+source: https://www.kai-waehner.de/blog/2025/03/10/cathay-from-premium-airline-to-integrated-travel-ecosystem-with-data-streaming/
 author:
-  - "Kai Waehner"
+  - Kai Waehner
 published: 2025-03-10
 created: 2025-03-20
-description: "Blog about architectures, best practices and use cases for data streaming, analytics, hybrid cloud infrastructure, internet of things, crypto, and more"
+description: Blog about architectures, best practices and use cases for data streaming, analytics, hybrid cloud infrastructure, internet of things, crypto, and more
 tags:
-  - "data_streaming"
-  - "apache_kafka"
-  - "travel_ecosystem"
-type :
+  - data_streaming
+  - apache_kafka
+type:
 ---
 >[!summary]+ Cathay Pacific is rebranding to Cathay, evolving from an airline to a comprehensive travel ecosystem powered by real-time data streaming with Apache Kafka. This enables personalized customer experiences, seamless digital integration, and smarter operations.
 ![From Airline to Travel Ecosystem with Data Streaming using Apache Kafka at Cathay Pacific](https://www.kai-waehner.de/wp-content/uploads/2025/03/CleanShot-2025-03-05-at-08.56.26@2x-800x600.png)
