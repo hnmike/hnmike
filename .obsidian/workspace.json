@@ -487,7 +487,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "RAG",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -823,7 +823,7 @@
             }
           },
           {
-            "id": "6294528fbb670185",
+            "id": "6366b909b8d28547",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -837,8 +837,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -906,7 +906,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
