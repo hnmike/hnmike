@@ -406,7 +406,7 @@
       {
         "id": "e396fbacad564746",
         "type": "tabs",
-        "dimension": 51.45518044237486,
+        "dimension": 76.71711292200233,
         "children": [
           {
             "id": "7118331480422942",
@@ -918,7 +918,7 @@
       {
         "id": "3ddec1ce2b88068b",
         "type": "tabs",
-        "dimension": 48.544819557625146,
+        "dimension": 23.28288707799767,
         "children": [
           {
             "id": "c73acbf79430f06b",
@@ -935,7 +935,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -945,7 +944,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks"
             }
           }
         ]
@@ -979,10 +978,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "0205715ab600aa06",
   "lastOpenFiles": [
-    "202507081528.md",
     "OLTP & OLAP.md",
+    "202507081528.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
