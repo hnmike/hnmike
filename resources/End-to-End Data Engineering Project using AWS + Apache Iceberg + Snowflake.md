@@ -74,7 +74,7 @@ Data Model Diagram
 
 [**Apache Iceberg**](https://iceberg.apache.org/) was chosen as the table format for structured storage in Amazon S3 due to its ability to handle large-scale data efficiently while maintaining strong consistency. Unlike traditional Hive tables, Iceberg provides:
 
-- **ACID transactions**, ensuring reliable updates and deletions.
+- <mark class="hltr-green">**ACID transactions**</mark>, ensuring reliable updates and deletions.
 - **Schema evolution**, allowing flexibility as data changes over time.
 - **Partition pruning**, improving query performance by reading only relevant data.
 
