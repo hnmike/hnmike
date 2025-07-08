@@ -152,8 +152,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -223,7 +223,8 @@
               "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
