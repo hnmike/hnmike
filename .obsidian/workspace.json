@@ -750,8 +750,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -835,8 +835,7 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "84e54f7e3690a962",
