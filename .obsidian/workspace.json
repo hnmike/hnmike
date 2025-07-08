@@ -239,6 +239,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"scroll\":108.55}"
+                },
+                {
                   "title": "Homepage",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
@@ -273,12 +279,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "Apache Spark Best Practices - Comprehensive Guide.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Apache Spark Best Practices - Comprehensive Guide"
             }
           }
         ],
@@ -821,7 +827,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "Apache Spark Best Practices - Comprehensive Guide.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -831,7 +837,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Backlinks for Apache Spark Best Practices - Comprehensive Guide"
             }
           }
         ]
@@ -865,8 +871,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+    "40-50 technical knowledge hub/data engineer/Spark Performance Optimization Techniques.md",
+    "Apache Spark Best Practices - Comprehensive Guide.md",
     "Lab opensource data engineer.md",
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
@@ -891,9 +900,6 @@
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "mobile-app",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
-    "40-50 technical knowledge hub/data engineer/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
-    "2025-06-03.md",
-    "2025-05-13.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
