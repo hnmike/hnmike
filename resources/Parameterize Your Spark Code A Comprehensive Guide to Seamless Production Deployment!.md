@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/OT9_dQyzorE/maxresdefault.jpg"
 created: 2025-03-20
 tags:
   - "youtube"
-  - "spark_code_parameterization"
+  - "spark/spark_code"
   - "production_deployment"
   - "typesafe_config"
 summary: "Learn how to parameterize your Spark code for seamless production deployment. Discover techniques to customize your code for different environments using TypeSafe Config."
