@@ -640,6 +640,18 @@
                 {
                   "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
                   "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=t\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=r\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
+                  "icon": "globe-2",
                   "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw\"},\"type\":\"webviewer\"}",
                   "eState": "null"
                 },
@@ -696,7 +708,7 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=r",
+                "url": "https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=d",
                 "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
                 "mode": "webview"
               },
