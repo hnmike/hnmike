@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/hXIf1HT-Dfk/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "SQL_Analysis"
   - "Bootcamp_Homework"
 summary: "Data Engineering Bootcamp homework review. SQL queries to analyze actor data and movie ratings. Debugging and problem-solving approach."

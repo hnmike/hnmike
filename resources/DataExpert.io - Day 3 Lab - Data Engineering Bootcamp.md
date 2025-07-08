@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/2EqdEVHI-dc/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "data_engineering"
+  - "data_engineer"
   - "graph_database"
   - "postgresql"
 summary: "Day 3 Lab of a Data Engineering Bootcamp focusing on graph data modeling using PostgreSQL to analyze relationships between NBA players and games."

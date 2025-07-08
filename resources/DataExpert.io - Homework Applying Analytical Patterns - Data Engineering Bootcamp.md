@@ -8,7 +8,7 @@ image: https://i.ytimg.com/vi/yQRANtuP1-I/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF
 created: 2025-03-23
 tags:
   - youtube
-  - data_engineering
+  - data_engineer
   - analytical_patterns
 summary: Data Engineering Bootcamp homework review, applying analytical patterns. Learn about data analysis, player state tracking, and query validation.
 ---

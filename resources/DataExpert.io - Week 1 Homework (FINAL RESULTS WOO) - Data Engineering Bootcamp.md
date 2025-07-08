@@ -8,9 +8,9 @@ image: "https://i.ytimg.com/vi/aT5Ntv-ogqA/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "SQL_Bootcamp"
-  - "Data_Modeling"
+  - "data_engineer/data_modeling"
 summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL queries, data modeling, and incremental backfills. Learn from a real-world example!"
 ---
 # DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp

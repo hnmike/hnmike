@@ -8,8 +8,8 @@ image: "https://i.ytimg.com/vi/8LgRIZJv-is/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "data_engineering"
-  - "data_modeling"
+  - "data_engineer"
+  - "data_engineer/data_modeling"
   - "data_quality"
 summary: "DataExpert.io - Fact Data Modeling Day 1 Lab & Lecture - Data Engineering Bootcamp. Thank you for joining me on my Data Engineering Bootcamp journey! "
 ---

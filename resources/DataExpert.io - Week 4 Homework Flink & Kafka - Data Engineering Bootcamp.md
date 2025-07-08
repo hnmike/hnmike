@@ -9,7 +9,7 @@ created: 2025-03-23
 tags:
   - "youtube"
   - "flink_kafka"
-  - "data_engineering"
+  - "data_engineer"
   - "data_aggregation"
 summary: "Data Engineering Bootcamp Week 4 homework review focusing on Flink & Kafka. Aggregating data by IP and host using session windows and SQL queries."
 ---

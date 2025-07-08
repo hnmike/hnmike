@@ -8,8 +8,8 @@ image: "https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
-  - "Data_Modeling"
+  - "data_engineer"
+  - "data_engineer/data_modeling"
   - "Cumulative_Tables"
 summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp."
 ---

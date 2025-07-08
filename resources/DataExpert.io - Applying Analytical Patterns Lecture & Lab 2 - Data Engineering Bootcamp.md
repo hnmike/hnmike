@@ -10,7 +10,7 @@ tags:
   - "youtube"
   - "data_engineering_bootcamp"
   - "analytical_patterns"
-  - "data_modeling"
+  - "data_engineer/data_modeling"
 summary: "Data Engineering Bootcamp Lecture & Lab 2 focuses on analytical patterns, SQL optimization, and the importance of data modeling for efficient analytics. "
 ---
 # DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp

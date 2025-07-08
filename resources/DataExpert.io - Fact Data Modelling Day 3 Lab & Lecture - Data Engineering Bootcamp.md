@@ -8,8 +8,8 @@ image: https://i.ytimg.com/vi/dJZ6h0ISQVo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF
 created: 2025-03-23
 tags:
   - youtube
-  - data_engineering
-  - data_modeling
+  - data_engineer
+  - data_engineer/data_modeling
 summary: DataExpert.io Bootcamp Day 3 covers Fact Data Modeling, minimizing Shuffle, and using array metrics for efficient long-term analysis. Practical lab included!
 ---
 # DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp

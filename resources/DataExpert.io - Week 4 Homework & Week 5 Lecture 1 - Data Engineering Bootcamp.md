@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/el8PzdD7zqM/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "Metrics_and_KPIs"
   - "Experimentation_Frameworks"
 summary: "DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engineering Bootcamp. Key topics include metrics, KPIs, and experimentation frameworks."

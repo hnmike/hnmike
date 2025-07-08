@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/wNQHWdCC6O4/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "Apache_Spark"
   - "Data_Engineering_Bootcamp"
 summary: "Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering Bootcamp. Learn to disable broadcast joins, use bucket joins, and optimize data size."

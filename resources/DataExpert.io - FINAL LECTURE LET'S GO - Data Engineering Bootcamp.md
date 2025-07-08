@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/Rl07R8asoaE/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "Tech_Debt"
   - "Pipeline_Optimization"
 summary: "Final lecture of a data engineering bootcamp covering identifying and addressing tech debt, optimizing pipelines, cloud cost management, and on-call best practices."
