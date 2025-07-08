@@ -159,53 +159,6 @@
             }
           },
           {
-            "id": "0186b5b94c8d02e5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":11},\"to\":{\"line\":76,\"ch\":11}},\"scroll\":68.5074}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":11},\"to\":{\"line\":54,\"ch\":11}},\"scroll\":49.05380338911521}"
-                },
-                {
-                  "title": "OLTP & OLAP",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"OLTP & OLAP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"OLTP & OLAP\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":18},\"to\":{\"line\":54,\"ch\":12}},\"scroll\":45.61878602507707}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OLTP & OLAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OLTP & OLAP"
-            }
-          },
-          {
             "id": "c252d5f919ef98d0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -479,8 +432,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1022,7 +974,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1032,14 +984,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 721.5
+    "width": 411.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1066,11 +1018,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
-    "OLTP & OLAP.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+    "OLTP & OLAP.md",
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "Running Apache Spark on Kubernetes (202412081728).md",

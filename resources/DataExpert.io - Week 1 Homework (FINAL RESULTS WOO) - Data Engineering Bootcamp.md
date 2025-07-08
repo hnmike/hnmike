@@ -51,4 +51,3 @@ summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL qu
 > - **Incremental Backfills:** Create separate queries for full and incremental backfills. This allows you to efficiently update the table with new data (1:00:53).
 
 ---
-[[]]

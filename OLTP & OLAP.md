@@ -42,7 +42,7 @@ https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimb
 ## Fact Tables và Dimension Tables
 
 **Fact Tables**[9](https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-fact-tables)[10](https://www.simplilearn.com/fact-table-vs-dimension-table-article):
->
+
 - Lưu trữ measurements, metrics hoặc facts về quy trình kinh doanh
     
 - Chứa foreign keys liên kết đến dimension tables
