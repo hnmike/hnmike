@@ -70,8 +70,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "folders",
-              "title": "Projects"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -700,10 +700,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -714,25 +714,6 @@
               "state": {},
               "icon": "clock",
               "title": "Toggl Report"
-            }
-          },
-          {
-            "id": "fe89ecc35442592e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
             }
           },
           {
@@ -753,9 +734,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "fecee8ba2eb58b42",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "84e54f7e3690a962",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -797,7 +816,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-task-progress-bar:Open Task Genius view": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -817,10 +835,11 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8ac445bc3c4098a6",
+  "active": "84e54f7e3690a962",
   "lastOpenFiles": [
     "Lab opensource data engineer.md",
     "00-09 system/homepage/Homepage.md",
