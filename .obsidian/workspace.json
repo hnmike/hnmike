@@ -162,29 +162,29 @@
             "id": "c252d5f919ef98d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "OLTP & OLAP",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"OLTP & OLAP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"OLTP & OLAP\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":15},\"to\":{\"line\":76,\"ch\":15}},\"scroll\":69.1091736042977}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "file": "OLTP & OLAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "OLTP & OLAP"
             }
           },
           {
@@ -485,13 +485,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+                "file": "OLTP & OLAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
+              "title": "Outline of OLTP & OLAP"
             }
           },
           {
@@ -510,7 +510,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -554,8 +556,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -573,8 +575,8 @@
             "state": {
               "type": "journal-calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-days",
+              "title": "Calendar"
             }
           },
           {
@@ -592,8 +594,8 @@
             "state": {
               "type": "tasks_timeline_view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-clock",
+              "title": "Tasks Timeline"
             }
           },
           {
@@ -610,9 +612,11 @@
             },
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "OLTP & OLAP.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for OLTP & OLAP"
             }
           },
           {
@@ -952,7 +956,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -974,7 +978,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -984,7 +988,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "Backlinks for OLTP & OLAP"
             }
           }
         ]
@@ -1018,11 +1022,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "76e00f65728bb98b",
   "lastOpenFiles": [
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "OLTP & OLAP.md",
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
