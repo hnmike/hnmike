@@ -368,8 +368,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -836,7 +835,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8ac445bc3c4098a6",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
     "Data partitioning challenge.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
