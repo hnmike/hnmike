@@ -239,6 +239,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Map of content",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Map of content.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map of content\"}",
@@ -267,12 +273,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homepage"
+              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
             }
           }
         ],
@@ -729,29 +735,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "fecee8ba2eb58b42",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
@@ -772,9 +759,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "ebab3f1055088213",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "379e8adebb680949",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -795,7 +820,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/homepage/Homepage.md",
+                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -805,7 +830,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homepage"
+              "title": "Backlinks for Dagster, dbt, duckdb as new local MDS 202503181708"
             }
           }
         ]
@@ -835,10 +860,11 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "84e54f7e3690a962",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
     "Lab opensource data engineer.md",
     "00-09 system/homepage/Homepage.md",
