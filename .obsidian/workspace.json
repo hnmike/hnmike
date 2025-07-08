@@ -143,17 +143,23 @@
             "id": "c252d5f919ef98d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Untitled.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"Untitled\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":16},\"to\":{\"line\":123,\"ch\":16}},\"scroll\":113.61506795838605}"
+                },
+                {
+                  "title": "Data partitioning challenge",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Data partitioning challenge.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data partitioning challenge\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.2571}"
                 },
                 {
                   "title": "PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM",
@@ -304,12 +310,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data partitioning challenge.md",
+                "file": "orphaned files output.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data partitioning challenge"
+              "title": "orphaned files output"
             }
           },
           {
@@ -610,13 +616,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data partitioning challenge.md",
+                "file": "orphaned files output.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data partitioning challenge"
+              "title": "Outline of orphaned files output"
             }
           },
           {
@@ -738,10 +744,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Data partitioning challenge.md"
+                "file": "orphaned files output.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Data partitioning challenge"
+              "title": "File properties for orphaned files output"
             }
           },
           {
@@ -757,10 +763,14 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "orphaned files output.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "orphaned files output"
             }
           },
           {
@@ -1103,9 +1113,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data partitioning challenge.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "orphaned files output.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -1113,7 +1123,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Data partitioning challenge"
+              "title": "Backlinks for orphaned files output"
             }
           }
         ]
@@ -1147,11 +1157,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+    "Data partitioning challenge.md",
+    "orphaned files output.md",
     "empty files.md",
     "Untitled.canvas",
-    "Data partitioning challenge.md",
     "resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md",
     "OLTP & OLAP.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
@@ -1174,8 +1186,6 @@
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
     "resources/Debezium Testing locally with PG and Docker.md",
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
-    "resources/50 Useful Vim Commands - VimTricks.md",
-    "00-09 system/journal/daily/2024/09/2024-09-20.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
