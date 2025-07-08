@@ -168,7 +168,7 @@
                   "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":11},\"to\":{\"line\":76,\"ch\":11}},\"scroll\":68.5074}"
                 },
                 {
                   "state": "{}",
@@ -399,7 +399,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1022,7 +1022,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1032,7 +1032,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
             }
           }
         ]
@@ -1066,10 +1066,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
-    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "OLTP & OLAP.md",
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
