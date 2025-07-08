@@ -227,9 +227,32 @@
               "icon": "lucide-file",
               "title": "algorithm and design pattern"
             }
+          },
+          {
+            "id": "8ac445bc3c4098a6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS cloud and DE"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -729,7 +752,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -739,7 +762,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for algorithm and design pattern"
+              "title": "Backlinks for AWS cloud and DE"
             }
           }
         ]
@@ -773,11 +796,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c95cb407d8581392",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "vim motion key.md",
     "QuickCapture.md",
