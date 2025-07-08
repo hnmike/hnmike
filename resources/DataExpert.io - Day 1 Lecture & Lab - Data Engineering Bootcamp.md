@@ -15,9 +15,8 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 ---
 # DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 
-^1b68e3
 
-![DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/ppBq0amchiI&t=9s) ^e8dcd3
+![DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/ppBq0amchiI&t=9s)
 
 > [!summary]- Description
 > Thank you for joining me on my Data Engineering Bootcamp journey!

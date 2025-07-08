@@ -356,7 +356,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Data Engineer Bootcamp - Main Project.md",
+                "query": "tag:Data_Modeling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -386,7 +386,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -954,7 +955,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
