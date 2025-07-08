@@ -16,30 +16,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Lab week 3 de(202412082116)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab week 3 de(202412082116).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab week 3 de(202412082116)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":48},\"to\":{\"line\":20,\"ch\":48}},\"scroll\":10.147312394087132}"
-                },
-                {
-                  "title": "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":103.78093043865698}"
-                },
-                {
-                  "title": "Lab opensource data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Lab opensource data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lab opensource data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":9.110219243102648}"
-                },
-                {
-                  "title": "FASTAPI LAB(202412081602)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"FASTAPI LAB(202412081602).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"FASTAPI LAB(202412081602)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
                 }
               ]
             },
@@ -92,79 +68,19 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "Memos",
-              "title": "Thino"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "1776383bb85e7d9c",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":110},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":17.34947050604077}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.088811422971645}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":110},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":45.6776}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                },
-                {
-                  "title": "DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":12.540849423875995}"
-                },
-                {
-                  "title": "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Dimensional data modelling",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dimensional data modelling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dimensional data modelling\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Khóa học DE Zach Wilson",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Khóa học DE Zach Wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Khóa học DE Zach Wilson\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
                 }
               ]
             },
@@ -183,58 +99,10 @@
             "id": "468297bb672f56b0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                },
-                {
                   "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Last modified",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/MOC/Last modified.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Last modified\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "knowledge moc",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/MOC/knowledge moc.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge moc\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/project/data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":13.01839571099041}"
-                },
-                {
-                  "title": "dashboard",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"00-09 system/homepage/dashboard.canvas\",\"viewState\":{\"x\":246.86723349750912,\"y\":118.35740418365043,\"zoom\":-2.041222662726513}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"dashboard\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "DASHBOARD",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/DASHBOARD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DASHBOARD\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "meeting_note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_FileOrganizer2000/Templates/meeting_note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"meeting_note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.366086768878245}"
-                },
-                {
-                  "title": "Release Notes 1.8.7",
-                  "icon": "lucide-book-up",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.8.7\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.8.7\"}",
                   "eState": "{}"
                 }
               ]
@@ -254,58 +122,10 @@
             "id": "befe456602bc2fd2",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":12.5408}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.4629}"
-                },
-                {
                   "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.462860623662586}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":12.254901212804457}"
-                },
-                {
-                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.0106783260515}"
-                },
-                {
-                  "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                },
-                {
-                  "title": "Release Notes 1.8.9",
-                  "icon": "lucide-book-up",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.8.9\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.8.9\"}",
                   "eState": "{}"
                 }
               ]
@@ -336,8 +156,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -349,36 +169,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp\"}",
-                  "eState": "{\"scroll\":13.824884792626728}"
-                },
-                {
-                  "title": "DE zach wilson",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Map of content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Map of content.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map of content\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
@@ -423,24 +213,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.4629}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":15.125861651344605}"
-                },
-                {
-                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":110},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":45.67764895003218}"
                 }
               ]
             },
@@ -654,8 +426,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -673,8 +445,8 @@
             "state": {
               "type": "journal-calendar",
               "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -692,8 +464,8 @@
             "state": {
               "type": "react-view",
               "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -711,8 +483,8 @@
             "state": {
               "type": "tasks_timeline_view",
               "state": {},
-              "icon": "calendar-clock",
-              "title": "Tasks Timeline"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -813,11 +585,20 @@
           {
             "id": "60051c0d81e293d6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "toggl-report",
               "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -835,12 +616,31 @@
             "state": {
               "type": "graph-analysis",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "6366b909b8d28547",
+            "id": "2db29568727ce09e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "react-view",
+              "state": {},
+              "icon": "microscope",
+              "title": "You and Your Research"
+            }
+          },
+          {
+            "id": "8c7ee196888d40d7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -857,9 +657,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "c2dfb2226b058336",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 17
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -900,8 +719,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "obsidian-memos:Thino": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -918,12 +735,12 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "modalforms:Edit forms": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c0cbf90f33e4478",
+  "active": "c2dfb2226b058336",
   "lastOpenFiles": [
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "vim motion key.md",
