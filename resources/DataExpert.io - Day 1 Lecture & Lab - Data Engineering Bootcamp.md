@@ -49,3 +49,6 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 > - **Arrays of Structs (53:07):** Structs allows you to group your data to avoid duplication.
 > - **Seed Query (1:13:52):** Seed query is the first step to building your cumlative data to look at what's to come in the future.
 > - **Historical Analysis (1:57:30):** Historical Analysis can be done on cumlative tables without having to do any group buys.
+
+---
+[[^CTE]]
