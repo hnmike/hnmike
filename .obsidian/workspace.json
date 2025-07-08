@@ -170,6 +170,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "OLTP & OLAP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"OLTP & OLAP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"OLTP & OLAP\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":49},\"to\":{\"line\":45,\"ch\":49}},\"scroll\":0}"
+                },
+                {
                   "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
@@ -180,12 +186,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/Conclusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OLTP & OLAP"
+              "title": "Conclusion"
             },
             "group": "f1623496786a5a58"
           },
@@ -376,7 +382,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/Conclusion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -404,7 +410,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of OLTP & OLAP"
+              "title": "Graph of Conclusion"
             },
             "group": "f1623496786a5a58"
           }
@@ -541,13 +547,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/Conclusion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OLTP & OLAP"
+              "title": "Outline of Conclusion"
             }
           },
           {
@@ -669,10 +675,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "OLTP & OLAP.md"
+                "file": "resources/Conclusion.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for OLTP & OLAP"
+              "title": "File properties for Conclusion"
             }
           },
           {
@@ -1034,7 +1040,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
+                "file": "resources/Conclusion.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1044,7 +1050,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks for Conclusion"
             }
           }
         ]
@@ -1078,11 +1084,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "6657980366f3fef5",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
+    "OLTP & OLAP.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
-    "OLTP & OLAP.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
