@@ -8,14 +8,13 @@ summary:
 ---
 
 ---
-Reference: KIMBALL
-
+# OLTP OLAP  TRONG KIMBALL 
 ## Nguyên Lý Cốt Lõi của Dimensional Modeling
 
 ## 1. Quy Trình 4 Bước Thiết Kế Dimensional Model
 
 Kimball đề xuất quy trình 4 bước chuẩn để thiết kế dimensional model
-(https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/:
+https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/:
 [Dimensional Modeling Techniques - Kimball Group](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
 1. **Choose the business process** (Chọn quy trình kinh doanh): Xác định hoạt động kinh doanh cần phân tích
     

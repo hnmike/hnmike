@@ -200,6 +200,29 @@
             }
           },
           {
+            "id": "d7a480c939cb364b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/",
+                "title": "Kimball's Dimensional Data Modeling | The Analytics Setup Guidebook",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Kimball's Dimensional Data Modeling | The Analytics Setup Guidebook"
+            }
+          },
+          {
             "id": "f6bfd4a21f4f070d",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -341,7 +364,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -964,7 +987,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -974,7 +996,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OLTP & OLAP"
+              "title": "Backlinks"
             }
           }
         ]
@@ -1008,7 +1030,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "d7a480c939cb364b",
   "lastOpenFiles": [
     "OLTP & OLAP.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
