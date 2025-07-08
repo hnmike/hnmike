@@ -437,7 +437,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -863,7 +863,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "2025-06-10.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -873,7 +873,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Backlinks for 2025-06-10"
             }
           }
         ]
@@ -906,10 +906,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0186b5b94c8d02e5",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+    "conflict-files-obsidian-git.md",
     "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "resources/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
     "mobile-app",
