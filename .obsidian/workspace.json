@@ -165,10 +165,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Conclusion",
+                  "title": "Real_Time_ML",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Conclusion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conclusion\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":512},\"to\":{\"line\":2,\"ch\":512}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Real_Time_ML.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Real_Time_ML\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -408,7 +408,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Data_Modeling",
+                "query": "tag:#Real_Time_ML",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -438,7 +438,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1028,10 +1029,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "76e00f65728bb98b",
   "lastOpenFiles": [
-    "resources/Conclusion.md",
+    "Real_Time_ML.md",
     "OLTP & OLAP.md",
+    "resources/Conclusion.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
@@ -1055,7 +1057,6 @@
     "resources/Development.md",
     "resources/dbt and DuckDB.md",
     "resources/Architecture.md",
-    "resources/Components.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
