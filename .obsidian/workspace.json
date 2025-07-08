@@ -94,7 +94,7 @@
             }
           },
           {
-            "id": "1776383bb85e7d9c",
+            "id": "468297bb672f56b0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -108,31 +108,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
+                "file": "empty files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
-            }
-          },
-          {
-            "id": "468297bb672f56b0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "empty files"
             }
           },
           {
@@ -162,8 +143,14 @@
             "id": "c252d5f919ef98d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"Untitled.canvas\",\"viewState\":{\"x\":0,\"y\":0,\"zoom\":0}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"Untitled\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -317,12 +304,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
+                "file": "Data partitioning challenge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+              "title": "Data partitioning challenge"
             }
           },
           {
@@ -490,7 +477,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -540,7 +527,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tech_Debt",
+                "query": "tag:#vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -570,8 +557,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -624,13 +610,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
+                "file": "Data partitioning challenge.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+              "title": "Outline of Data partitioning challenge"
             }
           },
           {
@@ -752,10 +738,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md"
+                "file": "Data partitioning challenge.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+              "title": "File properties for Data partitioning challenge"
             }
           },
           {
@@ -1117,7 +1103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
+                "file": "Data partitioning challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1127,7 +1113,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+              "title": "Backlinks for Data partitioning challenge"
             }
           }
         ]
@@ -1161,9 +1147,14 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "1776383bb85e7d9c",
+  "active": "dcb7ad7c38d25e01",
   "lastOpenFiles": [
+    "empty files.md",
+    "Untitled.canvas",
+    "Data partitioning challenge.md",
     "resources/PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS  EVENT-DRIVEN SYSTEM.md",
+    "OLTP & OLAP.md",
+    "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp.md",
@@ -1185,10 +1176,6 @@
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2024/09/2024-09-20.md",
-    "OLTP & OLAP.md",
-    "Untitled 2.md",
-    "Real_Time_ML.md",
-    "resources/Conclusion.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
@@ -1207,7 +1194,6 @@
     "20-30 PARA/Project/data engineer coursera",
     "20-30 PARA/Project/algorithm and design pattern",
     "20-30 PARA/Project/SQL",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",

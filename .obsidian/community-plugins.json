@@ -60,5 +60,6 @@
   "obsidian-toggl-integration",
   "obsidian-task-progress-bar",
   "note-refactor-obsidian",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "find-unlinked-files"
 ]
