@@ -14,8 +14,9 @@ Reference: KIMBALL
 
 ## 1. Quy Trình 4 Bước Thiết Kế Dimensional Model
 
-Kimball đề xuất quy trình 4 bước chuẩn để thiết kế dimensional model[1](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)[5](https://en.wikipedia.org/wiki/Dimensional_modeling):
-[[[Fetching Title#019w](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)]]
+Kimball đề xuất quy trình 4 bước chuẩn để thiết kế dimensional model
+(https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/:
+[Dimensional Modeling Techniques - Kimball Group](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
 1. **Choose the business process** (Chọn quy trình kinh doanh): Xác định hoạt động kinh doanh cần phân tích
     
 2. **Declare the grain** (Xác định độ chi tiết): Quyết định mức độ chi tiết của dữ liệu trong fact table

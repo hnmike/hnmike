@@ -200,6 +200,29 @@
             }
           },
           {
+            "id": "f6bfd4a21f4f070d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Dimensional_modeling",
+                "title": "Dimensional modeling - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Dimensional modeling - Wikipedia"
+            }
+          },
+          {
             "id": "7b555409df3c136b",
             "type": "leaf",
             "pane-relief:history-v1": {
