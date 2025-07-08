@@ -232,17 +232,17 @@
             "id": "8ac445bc3c4098a6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Data layers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":242},\"to\":{\"line\":65,\"ch\":242}},\"scroll\":81.11355598769899}"
                 },
                 {
                   "title": "Homepage",
@@ -279,12 +279,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "resources/Dagster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Dagster"
             }
           }
         ],
@@ -420,13 +420,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "resources/Dagster.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Outline of Dagster"
             }
           },
           {
@@ -772,7 +772,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "file": "resources/Dagster.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -782,7 +782,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dagster, dbt, duckdb as new local MDS 202503181708"
+              "title": "Backlinks for Dagster"
             }
           }
         ]
@@ -818,9 +818,9 @@
   },
   "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Data layers.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Conclusion.md",
     "resources/Serving layer.md",
     "resources/Challenges of DuckDB + dbt.md",
