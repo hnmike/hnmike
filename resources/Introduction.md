@@ -1,0 +1,3 @@
+## Introduction
+
+In today’s fast-paced data landscape, a streamlined and robust data stack is paramount for any organization’s infrastructure. This article explores an integrated setup utilizing DuckDB, Dagster, and dbt - three critical tools in modern data engineering. Following the newest development in the data ecosystem, we argue that we can rethink the current state of data transformation pipelines and gain various benefits such as reduced PaaS costs, increased development experience and overall implementation quality.
