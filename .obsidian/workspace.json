@@ -399,7 +399,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1022,7 +1022,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1032,7 +1032,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "Backlinks for OLTP & OLAP"
             }
           }
         ]
@@ -1066,10 +1066,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "0186b5b94c8d02e5",
   "lastOpenFiles": [
-    "OLTP & OLAP.md",
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+    "OLTP & OLAP.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
