@@ -50,3 +50,5 @@ summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL qu
 > - **Reuse Proven Solutions:** Don't reinvent the wheel. If a solution works well, reuse it. The speaker reuses CTEs and query patterns from the labs (47:48).
 > - **Incremental Backfills:** Create separate queries for full and incremental backfills. This allows you to efficiently update the table with new data (1:00:53).
 
+---
+[[]]
