@@ -515,7 +515,7 @@
     "showRewardType": "modal"
   },
   "habit": {
-    "enableHabits": false,
+    "enableHabits": true,
     "habits": []
   },
   "filterConfig": {
