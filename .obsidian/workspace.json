@@ -514,25 +514,6 @@
             }
           },
           {
-            "id": "94e8ecf2c1f17948",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "react-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "2ba7f905e652d2af",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -682,25 +663,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-            }
-          },
-          {
-            "id": "2db29568727ce09e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "react-view",
-              "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
             }
           },
           {
@@ -874,7 +836,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "76e00f65728bb98b",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
