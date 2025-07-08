@@ -4,8 +4,7 @@ Status: 1 To Do
 Date_Created: 2025-04-01T10:17
 Due_Date: 
 Connections: 
-tags:
-  - "#project"
+tags: []
 Type: project_family
 ---
 

@@ -138,25 +138,6 @@
             }
           },
           {
-            "id": "8c0cbf90f33e4478",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "task-genius-view",
-              "state": {},
-              "icon": "folders",
-              "title": "Projects"
-            }
-          },
-          {
             "id": "54c6e50009dd6d21",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -177,27 +158,6 @@
               },
               "icon": "lucide-file",
               "title": "DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp"
-            }
-          },
-          {
-            "id": "9b038bd439eeabbb",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
             }
           },
           {
@@ -747,7 +707,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -757,7 +717,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for algorithm and design pattern"
+              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp"
             }
           }
         ]
@@ -768,6 +728,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-task-progress-bar:Open Task Genius view": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -787,17 +748,18 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "7b555409df3c136b",
+  "active": "54c6e50009dd6d21",
   "lastOpenFiles": [
-    "cài đặt docker engine & desktop.md",
     "QuickCapture.md",
+    "vim motion key.md",
+    "cài đặt docker engine & desktop.md",
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
-    "vim motion key.md",
     "2025-06-10.md",
     "2025-07-08.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
@@ -818,8 +780,6 @@
     "resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
