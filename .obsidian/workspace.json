@@ -280,7 +280,7 @@
               "type": "markdown",
               "state": {
                 "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -838,6 +838,7 @@
   },
   "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "Data partitioning challenge.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
@@ -863,7 +864,6 @@
     "2025-07-08.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "conflict-files-obsidian-git.md",
-    "resources/ELK Stack Mastery Building a Scalable Log Management System.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
