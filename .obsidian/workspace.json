@@ -421,12 +421,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "resources/Dagster.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Dagster"
             }
           },
           {
@@ -637,6 +638,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "Perplexity",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/new/fda90ba2-4fe8-42ec-ab12-88e3f18cecc5\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "Perplexity",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/?login-source=loginButton&login-new=false\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "Perplexity",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://accounts.google.com.vn/accounts/SetSID\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "Đang chuyển hướng",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://accounts.google.com/v3/signin/challenge/pwd?TL=ALgCv6zkkgmftrH1lT231gMRT2jjWZ_LHue3sr7HYwAPOH_lae6CjvdS4UPPJgZ2&app_domain=https://www.perplexity.ai&cid=2&client_id=60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com&code_challenge=lh63iZcAYdRY6JwNyfJF-6yiCDHYSAx5h1OkaSpXqpk&code_challenge_method=S256&continue=https://accounts.google.com/signin/oauth/legacy/consent?authuser%3Dunknown%26part%3DAJi8hAOWBgGWMeKqLz9wbcRVWP4ghELWHkOCyRY1kxpFcpXeo7vbm0sxkBiVEVDWGlIc8dn_crD0nvutE19B1tZxv3kPDYFfI3ZNE1lov4XBoV_TDYwYavwCJJYtBGFE-knZ4rw1QRnR4BkaGBShyIDOKgskDATGj96nuXGhz1KKFI_0KR2T48cjLWDR7IQPl2zBqGp7ELgkf6wdwn_zeIsVB9pnXcJOs9Lw5ekGagtOUu9z3YyYqvy8olBID-zGLSU3_2nPgd_tS1jV9vtinfOSXSE7Ymfvv62qaBxL17g0fk88G0-Jbqs0fZTz7Es4vNk7GqO07d8yYFYC69f1k-VaxP9UL2_gX2dsJtZx1sESYnmG8sc7svEL7ZotBXQFu428BBMBO06jPuNyB8fDSZ1egB-UUPLImRSe6fZzkVmQbr5avgeBxUvQ4mxqY_UBiriCVthINrYFp5yRU9zITdyY_VDhEdMwtQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1240975199%253A1751962197846975%26client_id%3D60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com%23&dsh=S-1240975199:1751962197846975&flowName=GeneralOAuthLite&o2v=2&opparams=%253F&rart=ANgoxceXWreimS0dGxy0W-LqsfNl62jE_Iql5pxKQIwBYJaCRfGgRCRRs9BOPmCs5Ko2ml5XCuFTi2ZaT1baQC5BeNM-khCxJqZ0huQRCCTYV1jRTjm3iIQ&redirect_uri=https://www.perplexity.ai/api/auth/callback/google&response_type=code&scope=openid+email+profile&service=lso&state=AGvNdU5JJIGO3mQ8IktzlLII4qWbRPyxCAsBysJ7pIM\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
                   "title": "Sign in - Google Accounts",
                   "icon": "globe-2",
                   "state": "{\"state\":{\"url\":\"https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1240975199%3A1751962197846975&client_id=60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com&code_challenge=lh63iZcAYdRY6JwNyfJF-6yiCDHYSAx5h1OkaSpXqpk&code_challenge_method=S256&o2v=2&redirect_uri=https%3A%2F%2Fwww.perplexity.ai%2Fapi%2Fauth%2Fcallback%2Fgoogle&response_type=code&scope=openid+email+profile&service=lso&state=AGvNdU5JJIGO3mQ8IktzlLII4qWbRPyxCAsBysJ7pIM&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOWBgGWMeKqLz9wbcRVWP4ghELWHkOCyRY1kxpFcpXeo7vbm0sxkBiVEVDWGlIc8dn_crD0nvutE19B1tZxv3kPDYFfI3ZNE1lov4XBoV_TDYwYavwCJJYtBGFE-knZ4rw1QRnR4BkaGBShyIDOKgskDATGj96nuXGhz1KKFI_0KR2T48cjLWDR7IQPl2zBqGp7ELgkf6wdwn_zeIsVB9pnXcJOs9Lw5ekGagtOUu9z3YyYqvy8olBID-zGLSU3_2nPgd_tS1jV9vtinfOSXSE7Ymfvv62qaBxL17g0fk88G0-Jbqs0fZTz7Es4vNk7GqO07d8yYFYC69f1k-VaxP9UL2_gX2dsJtZx1sESYnmG8sc7svEL7ZotBXQFu428BBMBO06jPuNyB8fDSZ1egB-UUPLImRSe6fZzkVmQbr5avgeBxUvQ4mxqY_UBiriCVthINrYFp5yRU9zITdyY_VDhEdMwtQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1240975199%253A1751962197846975%26client_id%3D60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fwww.perplexity.ai&rart=ANgoxceXWreimS0dGxy0W-LqsfNl62jE_Iql5pxKQIwBYJaCRfGgRCRRs9BOPmCs5Ko2ml5XCuFTi2ZaT1baQC5BeNM-khCxJqZ0huQRCCTYV1jRTjm3iIQ\"},\"type\":\"webviewer\"}",
@@ -665,12 +696,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://accounts.google.com/v3/signin/challenge/pwd?TL=ALgCv6zkkgmftrH1lT231gMRT2jjWZ_LHue3sr7HYwAPOH_lae6CjvdS4UPPJgZ2&app_domain=https://www.perplexity.ai&cid=2&client_id=60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com&code_challenge=lh63iZcAYdRY6JwNyfJF-6yiCDHYSAx5h1OkaSpXqpk&code_challenge_method=S256&continue=https://accounts.google.com/signin/oauth/legacy/consent?authuser%3Dunknown%26part%3DAJi8hAOWBgGWMeKqLz9wbcRVWP4ghELWHkOCyRY1kxpFcpXeo7vbm0sxkBiVEVDWGlIc8dn_crD0nvutE19B1tZxv3kPDYFfI3ZNE1lov4XBoV_TDYwYavwCJJYtBGFE-knZ4rw1QRnR4BkaGBShyIDOKgskDATGj96nuXGhz1KKFI_0KR2T48cjLWDR7IQPl2zBqGp7ELgkf6wdwn_zeIsVB9pnXcJOs9Lw5ekGagtOUu9z3YyYqvy8olBID-zGLSU3_2nPgd_tS1jV9vtinfOSXSE7Ymfvv62qaBxL17g0fk88G0-Jbqs0fZTz7Es4vNk7GqO07d8yYFYC69f1k-VaxP9UL2_gX2dsJtZx1sESYnmG8sc7svEL7ZotBXQFu428BBMBO06jPuNyB8fDSZ1egB-UUPLImRSe6fZzkVmQbr5avgeBxUvQ4mxqY_UBiriCVthINrYFp5yRU9zITdyY_VDhEdMwtQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1240975199%253A1751962197846975%26client_id%3D60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com%23&dsh=S-1240975199:1751962197846975&flowName=GeneralOAuthLite&o2v=2&opparams=%253F&rart=ANgoxceXWreimS0dGxy0W-LqsfNl62jE_Iql5pxKQIwBYJaCRfGgRCRRs9BOPmCs5Ko2ml5XCuFTi2ZaT1baQC5BeNM-khCxJqZ0huQRCCTYV1jRTjm3iIQ&redirect_uri=https://www.perplexity.ai/api/auth/callback/google&response_type=code&scope=openid+email+profile&service=lso&state=AGvNdU5JJIGO3mQ8IktzlLII4qWbRPyxCAsBysJ7pIM",
-                "title": "Sign in - Google Accounts",
+                "url": "https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=r",
+                "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Sign in - Google Accounts"
+              "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as..."
             }
           },
           {
@@ -820,6 +851,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "resources/Dagster.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -829,7 +861,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Dagster"
             }
           }
         ]
@@ -863,7 +895,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0205715ab600aa06",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
     "resources/Dagster.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
