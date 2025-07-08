@@ -239,6 +239,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Conclusion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Conclusion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conclusion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dagster",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":60},\"to\":{\"line\":4,\"ch\":60}},\"scroll\":25.887544786202064}"
+                },
+                {
                   "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
@@ -279,12 +291,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Dagster.md",
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dagster"
+              "title": "End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           }
         ],
@@ -381,7 +393,7 @@
       {
         "id": "e396fbacad564746",
         "type": "tabs",
-        "dimension": 74.88372093023256,
+        "dimension": 44.470314318975554,
         "children": [
           {
             "id": "7118331480422942",
@@ -421,13 +433,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/Dagster.md",
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dagster"
+              "title": "Outline of End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           },
           {
@@ -846,7 +858,7 @@
       {
         "id": "3ddec1ce2b88068b",
         "type": "tabs",
-        "dimension": 25.116279069767444,
+        "dimension": 55.529685681024446,
         "children": [
           {
             "id": "c73acbf79430f06b",
@@ -863,7 +875,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Dagster.md",
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -873,7 +885,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dagster"
+              "title": "Backlinks for End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           }
         ]
@@ -909,11 +921,11 @@
   },
   "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "resources/Conclusion.md",
     "resources/Dagster.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Data layers.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "resources/Conclusion.md",
     "resources/Serving layer.md",
     "resources/Challenges of DuckDB + dbt.md",
     "resources/Synergy of the PaaS and modern data stack.md",
