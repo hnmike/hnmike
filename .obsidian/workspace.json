@@ -332,7 +332,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RAG",
+                "query": "Data Engineer Bootcamp - Main Project.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -362,11 +362,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 642.5026054382324
   },
   "right": {
     "id": "f875aae102cbc164",
@@ -864,7 +865,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8ac445bc3c4098a6",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "Lab opensource data engineer.md",
     "00-09 system/homepage/Homepage.md",
