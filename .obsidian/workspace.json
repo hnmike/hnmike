@@ -162,17 +162,17 @@
             "id": "c252d5f919ef98d0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Conclusion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Conclusion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conclusion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":512},\"to\":{\"line\":2,\"ch\":512}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "OLTP & OLAP",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"OLTP & OLAP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"OLTP & OLAP\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":49},\"to\":{\"line\":45,\"ch\":49}},\"scroll\":0}"
                 },
                 {
                   "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
@@ -185,12 +185,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Conclusion.md",
+                "file": "OLTP & OLAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conclusion"
+              "title": "OLTP & OLAP"
             }
           },
           {
@@ -491,13 +491,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/Conclusion.md",
+                "file": "OLTP & OLAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Conclusion"
+              "title": "Outline of OLTP & OLAP"
             }
           },
           {
@@ -619,10 +619,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/Conclusion.md"
+                "file": "OLTP & OLAP.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Conclusion"
+              "title": "File properties for OLTP & OLAP"
             }
           },
           {
@@ -984,7 +984,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Conclusion.md",
+                "file": "OLTP & OLAP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -994,7 +994,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Conclusion"
+              "title": "Backlinks for OLTP & OLAP"
             }
           }
         ]
