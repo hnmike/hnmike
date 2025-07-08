@@ -15,7 +15,9 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 ---
 # DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 
-![DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/ppBq0amchiI&t=9s)
+^1b68e3
+
+![DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/ppBq0amchiI&t=9s) ^e8dcd3
 
 > [!summary]- Description
 > Thank you for joining me on my Data Engineering Bootcamp journey!
@@ -51,4 +53,4 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 > - **Historical Analysis (1:57:30):** Historical Analysis can be done on cumlative tables without having to do any group buys.
 
 ---
-[[^CTE]]
+[[DataExpert.io - Day 3 Lab - Data Engineering Bootcamp]] 

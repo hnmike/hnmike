@@ -167,18 +167,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":53},\"to\":{\"line\":55,\"ch\":53}},\"scroll\":48.181412465203906}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp"
             }
           },
           {
@@ -904,7 +910,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -914,7 +920,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - Day 3 Lab - Data Engineering Bootcamp"
             }
           }
         ]
@@ -950,6 +956,7 @@
   },
   "active": "0186b5b94c8d02e5",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "Data partitioning challenge.md",
     "vim motion key.md",
@@ -975,7 +982,6 @@
     "00-09 system/homepage/Homepage.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "Khóa học DE Zach Wilson.md",
-    "00-09 system/homepage/Map of content.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
