@@ -237,18 +237,42 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Map of content",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Map of content.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map of content\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Homepage",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Last modified",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/MOC/Last modified.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Last modified\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AWS cloud and DE",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
+                  "eState": "{\"scroll\":6.849315068493151}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
+                "file": "00-09 system/homepage/Homepage.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS cloud and DE"
+              "title": "Homepage"
             }
           }
         ],
@@ -752,7 +776,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
+                "file": "Lab opensource data engineer.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -762,7 +786,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AWS cloud and DE"
+              "title": "Backlinks for Lab opensource data engineer"
             }
           }
         ]
@@ -798,9 +822,12 @@
   },
   "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "00-09 system/homepage/Homepage.md",
+    "00-09 system/homepage/Map of content.md",
+    "00-09 system/MOC/Last modified.md",
+    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
-    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "vim motion key.md",
     "QuickCapture.md",
@@ -822,9 +849,6 @@
     "2025-05-09.md",
     "2025-03-29.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
-    "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
