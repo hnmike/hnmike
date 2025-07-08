@@ -9,8 +9,8 @@ created: 2025-03-20
 tags:
   - "youtube"
   - "debezium_cdc"
-  - "docker_testing"
-  - "kafka_postgresql"
+  - "docker"
+  - "kafka"
 summary: "Run Debezium locally for testing with Docker, Kafka, PostgreSQL, and a Java consumer. Capture data changes and stream them to Kafka. Easy setup guide!"
 ---
 # Debezium Testing locally with PG and Docker

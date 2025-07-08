@@ -432,7 +432,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#debezium_cdc",
+                "query": "tag:kafka_postgresql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1053,7 +1053,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c252d5f919ef98d0",
+  "active": "38712ad03cc2f83c",
   "lastOpenFiles": [
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
