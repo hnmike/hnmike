@@ -70,8 +70,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "folders",
+              "title": "Projects"
             }
           },
           {
@@ -300,7 +300,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -433,13 +433,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
+                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
+              "title": "Outline of DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
             }
           },
           {
@@ -875,7 +875,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
+                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -885,7 +885,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
+              "title": "Backlinks for DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
             }
           }
         ]
@@ -919,8 +919,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8ac445bc3c4098a6",
+  "active": "befe456602bc2fd2",
   "lastOpenFiles": [
+    "Data partitioning challenge.md",
+    "vim motion key.md",
+    "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
     "resources/Conclusion.md",
     "resources/Dagster.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
@@ -934,7 +937,6 @@
     "resources/Architecture.md",
     "resources/Components.md",
     "resources/Introduction.md",
-    "Data partitioning challenge.md",
     "Apache Spark Best Practices - Comprehensive Guide.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
@@ -945,8 +947,6 @@
     "Khóa học DE Zach Wilson.md",
     "00-09 system/homepage/Map of content.md",
     "00-09 system/MOC/Last modified.md",
-    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
