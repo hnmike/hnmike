@@ -8,8 +8,8 @@ image: "https://i.ytimg.com/vi/biaaA9GfNPw/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "data_engineering_bootcamp"
-  - "analytical_patterns"
+  - "Data_Engineering_Bootcamp"
+  - "data_engineer/analytical_patterns"
   - "data_engineer/data_modeling"
 summary: "Data Engineering Bootcamp Lecture & Lab 2 focuses on analytical patterns, SQL optimization, and the importance of data modeling for efficient analytics. "
 ---

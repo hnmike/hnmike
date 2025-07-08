@@ -9,7 +9,7 @@ created: 2025-03-23
 tags:
   - youtube
   - data_engineer
-  - analytical_patterns
+  - data_engineer/analytical_patterns
 summary: Data Engineering Bootcamp homework review, applying analytical patterns. Learn about data analysis, player state tracking, and query validation.
 ---
 # DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp
