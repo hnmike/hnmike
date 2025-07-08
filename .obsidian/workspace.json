@@ -68,8 +68,8 @@
             "state": {
               "type": "thino_view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "Memos",
+              "title": "Thino"
             }
           },
           {
@@ -108,14 +108,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 technical knowledge hub/data engineer/Capstone project for my course.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Capstone project for my course"
+              "title": "New tab"
             }
           },
           {
@@ -156,8 +152,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -227,8 +223,7 @@
               "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -676,6 +671,16 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "f1b2aa8c59c9af75",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
           }
         ],
         "currentTab": 17
@@ -699,6 +704,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cài đặt docker engine & desktop.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -708,7 +714,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for cài đặt docker engine & desktop"
             }
           }
         ]
@@ -737,11 +743,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c2dfb2226b058336",
+  "active": "38a8ea283e5b6bf5",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "vim motion key.md",
     "2025-06-10.md",
@@ -767,7 +776,6 @@
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
-    "www.googlecalendar.com.md",
     "web api.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
