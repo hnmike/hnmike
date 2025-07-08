@@ -70,8 +70,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "folders",
-              "title": "Projects"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -722,7 +722,7 @@
               "state": {
                 "url": "https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=d",
                 "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
-                "mode": "webview"
+                "mode": "blank"
               },
               "icon": "globe-2",
               "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as..."
@@ -915,8 +915,7 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "befe456602bc2fd2",
