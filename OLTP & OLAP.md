@@ -26,8 +26,7 @@ https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimb
 4. **Identify the facts** (Xác định các fact): Xác định các phép đo có thể tính toán được
     
 
-[[step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka]]
-    
+
 
 **Snowflake Schema** là phiên bản chuẩn hóa của Star Schema[7](https://www.datacamp.com/blog/star-schema-vs-snowflake-schema)[8](https://www.geeksforgeeks.org/dbms/difference-between-star-schema-and-snowflake-schema/):
 
