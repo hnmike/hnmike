@@ -284,27 +284,35 @@
             "id": "568ea719066cf9b5",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Reddit Share your tips and tricks in neovim!",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Reddit Share your tips and tricks in neovim!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reddit Share your tips and tricks in neovim!\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -437,13 +445,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "Outline of End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           },
           {
@@ -565,10 +573,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md"
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "File properties for End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           },
           {
@@ -934,7 +942,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
+                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -944,7 +952,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+              "title": "Backlinks for End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
             }
           }
         ]
@@ -978,8 +986,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "568ea719066cf9b5",
+  "active": "8ac445bc3c4098a6",
   "lastOpenFiles": [
+    "resources/Reddit Share your tips and tricks in neovim!.md",
+    "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "OLTP & OLAP.md",
     "www.googlecalendar.com.md",
@@ -1006,8 +1016,6 @@
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "Data_Engineering_Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
