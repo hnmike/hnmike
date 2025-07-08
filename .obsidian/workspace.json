@@ -6,6 +6,7 @@
       {
         "id": "815fb7939ab0c7a9",
         "type": "tabs",
+        "dimension": 77.92494481236203,
         "children": [
           {
             "id": "38a8ea283e5b6bf5",
@@ -185,7 +186,8 @@
               },
               "icon": "lucide-file",
               "title": "OLTP & OLAP"
-            }
+            },
+            "group": "f1623496786a5a58"
           },
           {
             "id": "d7a480c939cb364b",
@@ -353,6 +355,60 @@
           }
         ],
         "currentTab": 7
+      },
+      {
+        "id": "f218c0d58893e7a6",
+        "type": "tabs",
+        "dimension": 22.075055187637968,
+        "children": [
+          {
+            "id": "6657980366f3fef5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "OLTP & OLAP.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of OLTP & OLAP"
+            },
+            "group": "f1623496786a5a58"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -1022,7 +1078,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "76e00f65728bb98b",
+  "active": "6657980366f3fef5",
   "lastOpenFiles": [
     "resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
