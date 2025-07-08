@@ -1,17 +1,16 @@
 ---
-title: "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp"
+title: DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2025-01-09
-source: "https://www.youtube.com/watch?v=yQRANtuP1-I&t=7031s"
-image: "https://i.ytimg.com/vi/yQRANtuP1-I/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLBlPjMfcJjeeQQBWT16yWqk5Qo3Ww"
+source: https://www.youtube.com/watch?v=yQRANtuP1-I&t=7031s
+image: https://i.ytimg.com/vi/yQRANtuP1-I/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLBlPjMfcJjeeQQBWT16yWqk5Qo3Ww
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineering"
-  - "analytical_patterns"
-  - "data_bootcamp"
-summary: "Data Engineering Bootcamp homework review, applying analytical patterns. Learn about data analysis, player state tracking, and query validation."
+  - youtube
+  - data_engineering
+  - analytical_patterns
+summary: Data Engineering Bootcamp homework review, applying analytical patterns. Learn about data analysis, player state tracking, and query validation.
 ---
 # DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp
 

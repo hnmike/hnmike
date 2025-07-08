@@ -169,6 +169,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":2.307692131629357}"
+                },
+                {
+                  "title": "Debezium Testing locally with PG and Docker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Debezium Testing locally with PG and Docker.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Debezium Testing locally with PG and Docker\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":2.688171837919502}"
+                },
+                {
                   "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
@@ -209,12 +227,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Debezium Testing locally with PG and Docker.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Debezium Testing locally with PG and Docker"
+              "title": "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           },
           {
@@ -432,7 +450,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:kafka_postgresql",
+                "query": "tag:#fact_data_modeling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -516,13 +534,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resources/Debezium Testing locally with PG and Docker.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Debezium Testing locally with PG and Docker"
+              "title": "Outline of DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           },
           {
@@ -644,10 +662,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "resources/Debezium Testing locally with PG and Docker.md"
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Debezium Testing locally with PG and Docker"
+              "title": "File properties for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           },
           {
@@ -1009,7 +1027,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/Debezium Testing locally with PG and Docker.md",
+                "file": "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1019,7 +1037,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Debezium Testing locally with PG and Docker"
+              "title": "Backlinks for DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
             }
           }
         ]
@@ -1053,8 +1071,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "38712ad03cc2f83c",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
+    "resources/Debezium Testing locally with PG and Docker.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
@@ -1078,9 +1099,6 @@
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
     "resources/Dagster.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-    "resources/Data layers.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "resources/Serving layer.md",
     "mobile-app",
     "00-09 system/homepage/dashboard.canvas",
     "resources",

@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/V_RjthHydKs/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-20
 tags:
   - "youtube"
-  - "debezium_cdc"
+  - "debezium"
   - "docker"
   - "kafka"
 summary: "Run Debezium locally for testing with Docker, Kafka, PostgreSQL, and a Java consumer. Capture data changes and stream them to Kafka. Easy setup guide!"
