@@ -437,7 +437,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -842,7 +842,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 3
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -863,7 +863,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-06-10.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -873,14 +872,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-06-10"
+              "title": "Backlinks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 881.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -906,8 +905,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "a443626541e257cd",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+    "vim motion key.md",
+    "2025-06-10.md",
     "2025-07-08.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "conflict-files-obsidian-git.md",
@@ -916,7 +918,6 @@
     "mobile-app",
     "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
     "40-50 technical knowledge hub/data engineer/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
-    "2025-06-10.md",
     "2025-06-03.md",
     "2025-05-13.md",
     "2025-05-09.md",
@@ -925,7 +926,6 @@
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
@@ -934,7 +934,6 @@
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
     "www.googlecalendar.com.md",
     "web api.md",
-    "Dimensional data modelling.md",
     "00-09 system/homepage/dashboard.canvas",
     "resources",
     "90-100 resource archives/Image/IMG-20250315221951049.png",
