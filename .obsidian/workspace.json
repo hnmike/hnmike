@@ -732,25 +732,6 @@
             }
           },
           {
-            "id": "ebab3f1055088213",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "379e8adebb680949",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -770,7 +751,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 17
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -808,7 +789,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.5
+    "width": 721.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -835,7 +816,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "8ac445bc3c4098a6",
+  "active": "84e54f7e3690a962",
   "lastOpenFiles": [
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
