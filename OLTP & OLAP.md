@@ -7,3 +7,5 @@ tags:
 summary:
 ---
 
+---
+Reference: KIMBALL
