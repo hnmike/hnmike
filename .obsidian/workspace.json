@@ -359,47 +359,6 @@
           }
         ],
         "currentTab": 7
-      },
-      {
-        "id": "436a5e9ebcc51321",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "24939540c0b6832e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Real_Time_ML",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Real_Time_ML.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Real_Time_ML\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":15},\"to\":{\"line\":76,\"ch\":15}},\"scroll\":69.1091736042977}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OLTP & OLAP.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OLTP & OLAP"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -1070,7 +1029,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "24939540c0b6832e",
+  "active": "c252d5f919ef98d0",
   "lastOpenFiles": [
     "Untitled 2.md",
     "OLTP & OLAP.md",
