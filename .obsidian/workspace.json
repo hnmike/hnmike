@@ -1251,32 +1251,9 @@
               "icon": "lucide-file",
               "title": "lab 1"
             }
-          },
-          {
-            "id": "9aa623ea8f3d4d81",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -2007,7 +1984,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9aa623ea8f3d4d81",
+  "active": "d60f629626d8911f",
   "lastOpenFiles": [
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "conflict-files-obsidian-git.md",
