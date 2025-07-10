@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "folders",
-              "title": "Projects"
+              "icon": "calendar",
+              "title": "Events"
             }
           },
           {
@@ -476,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1135,7 +1135,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for algorithm and design pattern"
             }
           }
         ]
@@ -1169,8 +1169,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "c95cb407d8581392",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "00-09 system/template/new zettel note.md",
     "vim motion key.md",
@@ -1178,7 +1179,6 @@
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "00-09 system/template/knowledge base template.md",
-    "www.googlecalendar.com.md",
     "202507082127.md",
     "40-50 technical knowledge hub/data engineer project.md",
     "00-09 system/template/daily note template.md",
