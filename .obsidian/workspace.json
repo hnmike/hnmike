@@ -551,7 +551,7 @@
       {
         "id": "e396fbacad564746",
         "type": "tabs",
-        "dimension": 48.77764842840512,
+        "dimension": 48.777648428405115,
         "children": [
           {
             "id": "7118331480422942",
@@ -1021,29 +1021,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "b7947420ba37f9a7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1064,9 +1045,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "4e9fee1c624e6e56",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "0b186d67edff61fa",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 22
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1132,7 +1151,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "7b555409df3c136b",
+  "active": "0b186d67edff61fa",
   "lastOpenFiles": [
     "202507082127.md",
     "40-50 technical knowledge hub/data engineer project.md",
