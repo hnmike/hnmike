@@ -6,5 +6,7 @@ url:
 related: 
 aliases: 
 tags: 
+type:
+topic:
 summary:
 ---

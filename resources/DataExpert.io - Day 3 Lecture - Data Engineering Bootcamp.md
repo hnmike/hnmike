@@ -8,9 +8,9 @@ image: "https://i.ytimg.com/vi/XSIg26KcQi4/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "data_engineering"
+  - "data_engineer"
   - "graph_databases"
-  - "data_modeling"
+  - "data_engineer/data_modeling"
 summary: "Day 3 of a Data Engineering Bootcamp covers additive vs. non-additive dimensions, enums, flexible schemas, and graph data modeling for building scalable data pipelines."
 ---
 # DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp

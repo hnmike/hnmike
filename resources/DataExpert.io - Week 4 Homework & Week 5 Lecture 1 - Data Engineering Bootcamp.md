@@ -1,17 +1,15 @@
 ---
-title: "DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp"
+title: DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2025-01-15
-source: "https://www.youtube.com/watch?v=el8PzdD7zqM&t=3467s"
-image: "https://i.ytimg.com/vi/el8PzdD7zqM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLCtDOFCwgAuLRy83WhUT4QllnWsxQ"
+source: https://www.youtube.com/watch?v=el8PzdD7zqM&t=3467s
+image: https://i.ytimg.com/vi/el8PzdD7zqM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLCtDOFCwgAuLRy83WhUT4QllnWsxQ
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering"
-  - "Metrics_and_KPIs"
-  - "Experimentation_Frameworks"
-summary: "DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engineering Bootcamp. Key topics include metrics, KPIs, and experimentation frameworks."
+  - youtube
+  - data_engineer
+summary: DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engineering Bootcamp. Key topics include metrics, KPIs, and experimentation frameworks.
 ---
 # DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp
 

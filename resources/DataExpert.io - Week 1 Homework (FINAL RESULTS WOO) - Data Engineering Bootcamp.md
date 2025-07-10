@@ -8,9 +8,9 @@ image: "https://i.ytimg.com/vi/aT5Ntv-ogqA/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "SQL_Bootcamp"
-  - "Data_Modeling"
+  - "data_engineer/data_modeling"
 summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL queries, data modeling, and incremental backfills. Learn from a real-world example!"
 ---
 # DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp
@@ -49,3 +49,5 @@ summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL qu
 > - **Understand the Logic:** Focus on understanding the underlying logic of the problem rather than just copying code. The speaker explains the thought process behind each step (32:28).
 > - **Reuse Proven Solutions:** Don't reinvent the wheel. If a solution works well, reuse it. The speaker reuses CTEs and query patterns from the labs (47:48).
 > - **Incremental Backfills:** Create separate queries for full and incremental backfills. This allows you to efficiently update the table with new data (1:00:53).
+
+---

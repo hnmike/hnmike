@@ -1,17 +1,16 @@
 ---
-title: "DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp"
+title: DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2024-12-31
-source: "https://www.youtube.com/watch?v=Addr237IWsI&t=6600s"
-image: "https://i.ytimg.com/vi/Addr237IWsI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZSg_MA8=&rs=AOn4CLDe68nuKNq68Np8S40xCsgXvQN1LA"
+source: https://www.youtube.com/watch?v=Addr237IWsI&t=6600s
+image: https://i.ytimg.com/vi/Addr237IWsI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggZSg_MA8=&rs=AOn4CLDe68nuKNq68Np8S40xCsgXvQN1LA
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering"
-  - "Streaming_Architecture"
-  - "Flink_Bootcamp"
-summary: "Week 4 of the Data Engineering Bootcamp covers real-time data pipelines, Lambda & Kappa architectures, Flink windows (tumbling, sliding, session), UDFs, watermarking, and parallelism."
+  - youtube
+  - Data_Engineering
+  - Streaming_Architecture
+summary: Week 4 of the Data Engineering Bootcamp covers real-time data pipelines, Lambda & Kappa architectures, Flink windows (tumbling, sliding, session), UDFs, watermarking, and parallelism.
 ---
 # DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp
 

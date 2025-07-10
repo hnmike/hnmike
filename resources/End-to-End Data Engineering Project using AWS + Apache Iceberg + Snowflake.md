@@ -20,11 +20,10 @@ type :
 
 This article demonstrates building an automated weather data pipeline using **WeatherAPI**, **AWS** services, and **Snowflake**. You’ll see how this system collects and processes both real-time and forecast data from global locations through a scalable, production-ready architecture.
 
-This project is part of my GitHub portfolio showcasing various data engineering architectures to help both experienced and new data software engineers with practical examples. The complete code is available in the repository linked below.
 
-[
 
-## data\_engineering\_projects/AWS/pipeline-weather-data at main · claudiocmm/data\_engineering\_projects
+
+- ! Link github: data\_engineering\_projects/AWS/pipeline-weather-data at main · claudiocmm/data\_engineering\_projects
 
 ### A collection of Data Engineering projects using different cloud providers. Explore real-world implementations of data…
 
@@ -74,7 +73,7 @@ Data Model Diagram
 
 [**Apache Iceberg**](https://iceberg.apache.org/) was chosen as the table format for structured storage in Amazon S3 due to its ability to handle large-scale data efficiently while maintaining strong consistency. Unlike traditional Hive tables, Iceberg provides:
 
-- **ACID transactions**, ensuring reliable updates and deletions.
+- <mark class="hltr-green">**ACID transactions**</mark>, ensuring reliable updates and deletions.
 - **Schema evolution**, allowing flexibility as data changes over time.
 - **Partition pruning**, improving query performance by reading only relevant data.
 

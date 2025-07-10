@@ -428,7 +428,7 @@ tags:
 > local current\_index = 1
 > 
 > function toggle\_numbering()
->   current\_index = current\_index % #cmds + 1
+>   current\_index = current\_index % + 1
 >   vim.cmd("set " .. cmds\[current\_index\])
 >   local signcolumn\_setting = "auto"
 >   if cmds\[current\_index\] == "nonu!" then

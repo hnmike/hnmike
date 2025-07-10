@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/wYkyjEeKUzo/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "data_engineering"
+  - "data_engineer"
   - "spark_fundamentals"
   - "bootcamp_testing"
 summary: "Week 3 homework testing Spark Fundamentals in a Data Engineering Bootcamp. See the process of code and testing."

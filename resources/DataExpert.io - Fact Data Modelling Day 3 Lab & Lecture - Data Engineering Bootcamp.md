@@ -1,17 +1,16 @@
 ---
-title: "DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp"
+title: DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2024-11-30
-source: "https://www.youtube.com/watch?v=dJZ6h0ISQVo&t=4078s"
-image: "https://i.ytimg.com/vi/dJZ6h0ISQVo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDwgWihyMA8=&rs=AOn4CLAc273FjLiMNBv1HvugnjQM1v15xQ"
+source: https://www.youtube.com/watch?v=dJZ6h0ISQVo&t=4078s
+image: https://i.ytimg.com/vi/dJZ6h0ISQVo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDwgWihyMA8=&rs=AOn4CLAc273FjLiMNBv1HvugnjQM1v15xQ
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering"
-  - "Fact_Data_Modeling"
-  - "Data_Bootcamp"
-summary: "DataExpert.io Bootcamp Day 3 covers Fact Data Modeling, minimizing Shuffle, and using array metrics for efficient long-term analysis. Practical lab included!"
+  - youtube
+  - data_engineer
+  - data_engineer/data_modeling
+summary: DataExpert.io Bootcamp Day 3 covers Fact Data Modeling, minimizing Shuffle, and using array metrics for efficient long-term analysis. Practical lab included!
 ---
 # DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp
 

@@ -9,7 +9,7 @@ created: 2025-03-20
 tags:
   - "youtube"
   - "spark_kubernetes"
-  - "docker_deployment"
+  - "docker"
   - "pyspark_tutorial"
 summary: "Deploy a PySpark job on Kubernetes using Docker. Create, tag, push the image to Docker Hub, and deploy it on Kubernetes. Learn to check the job status and logs."
 ---

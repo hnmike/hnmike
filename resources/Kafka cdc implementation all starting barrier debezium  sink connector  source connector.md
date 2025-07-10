@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/b678O1o5Auw/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8qu
 created: 2025-03-20
 tags:
   - "youtube"
-  - "kafka_cdc"
+  - "data_engineer/kafka"
   - "debezium_implementation"
   - "sink_connector"
 summary: "This video discusses Kafka CDC implementation, addressing initial complexities and solutions with Debezium, sink connectors, and source connectors. "

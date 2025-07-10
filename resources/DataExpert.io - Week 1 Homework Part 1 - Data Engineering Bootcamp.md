@@ -8,7 +8,7 @@ image: "https://i.ytimg.com/vi/YTSQSKXbKsE/maxresdefault.jpg?sqp=-oaymwEmCIAKENA
 created: 2025-03-23
 tags:
   - "youtube"
-  - "Data_Engineering"
+  - "data_engineer"
   - "Dimensional_Modeling"
   - "DataExpert.io"
 summary: "A Data Engineering Bootcamp homework walkthrough, focusing on dimensional modeling and actress data. Includes creating tables and querying for active actors."

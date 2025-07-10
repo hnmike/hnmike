@@ -1,14 +1,15 @@
 ---
-title: "50 Useful Vim Commands - VimTricks"
-summary: "50 useful Vim commands for all skill levels. Learn tips & tricks to improve your Vim workflow. Includes navigation, editing, and more."
-source: "https://vimtricks.com/p/50-useful-vim-commands/"
+title: 50 Useful Vim Commands - VimTricks
+summary: 50 useful Vim commands for all skill levels. Learn tips & tricks to improve your Vim workflow. Includes navigation, editing, and more.
+source: https://vimtricks.com/p/50-useful-vim-commands/
 author:
   - "[[@vim_tricks]]"
-published:
+published: 
 created: 2025-03-25
-description: "Here are 50 use Vim commands for Vim users of all proficiency levels. From beginner to advanced, everyone is sure to find a useful tip."
+description: Here are 50 use Vim commands for Vim users of all proficiency levels. From beginner to advanced, everyone is sure to find a useful tip.
 tags:
-type :
+  - vim
+type:
 ---
 >[!summary]+ This webpage provides a list of 50 useful Vim commands for users of all levels, designed to improve their Vim workflow. It includes commands for navigation, editing, and more.
 4.8 ( 301 )
@@ -71,3 +72,6 @@ How useful was this tip?
 Average rating 4.8 / 5. Vote count: 301
 
 No votes so far! Be the first to rate this tip.
+
+
+

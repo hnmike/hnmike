@@ -1251,9 +1251,32 @@
               "icon": "lucide-file",
               "title": "lab 1"
             }
+          },
+          {
+            "id": "9aa623ea8f3d4d81",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -1984,34 +2007,34 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ce9257e6c5e8fb2c",
+  "active": "9aa623ea8f3d4d81",
   "lastOpenFiles": [
+    "20-30 PARA/Project/DE zach wilson/lab 1.md",
+    "conflict-files-obsidian-git.md",
+    "resources/dbt and DuckDB.md",
+    "resources/Synergy of the PaaS and modern data stack.md",
+    "resources/Serving layer.md",
+    "resources/Introduction.md",
+    "resources/Development.md",
+    "resources/Data layers.md",
+    "resources/Dagster.md",
+    "resources/Components.md",
+    "resources/Challenges of DuckDB + dbt.md",
+    "resources/Architecture.md",
+    "orphaned files output.md",
+    "empty files.md",
+    "QuickCapture.md",
+    "OLTP & OLAP.md",
+    "Data partitioning challenge.md",
+    "40-50 technical knowledge hub/data engineer/ELK Stack Mastery Building a Scalable Log Management System.md",
+    "40-50 technical knowledge hub/data engineer/Building a Real-Time Data Streaming Pipeline  End to End Project with Kafka Spark and Elasticsearch.md",
+    "202503122136.md",
+    "202503122135.md",
+    "202503112148.md",
+    "2025-07-08.md",
+    "2025-04-22.md",
+    "20-30 PARA/Project/DE zach wilson/Untitled.md",
     "resources/BW 122 Economic growth (solution).md",
-    "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "40-50 technical knowledge hub/data engineer/Capstone project for my course.md",
-    "www.googlecalendar.com.md",
-    "2025-06-10.md",
-    "2025-06-03.md",
-    "00-09 system/template/daily note template.md",
-    "00-09 system/homepage/Homepage.md",
-    "Building Real-Time Data Pipelines (202412081512).md",
-    "daily note.md",
-    "2025-03-09.md",
-    "2024-12-01.md",
-    "2024-08-29.md",
-    "Using Kubernetes Pods as Jenkins Pipeline Build Agents (202412051700).md",
-    "postgres (202411162120).md",
-    "plugin for obsidian.md",
-    "Note-Templates.md",
-    "nextjs debugging tool vscode.md",
-    "Lab opensource data engineer.md",
-    "Lab opensource mlops devops.md",
-    "Distributed data pipeline using Airflow and Spark on kubernetes (202412081825).md",
-    "Design and Implementation of Data Warehouse using Spark and Data Lake (202412081748).md",
-    "CONDA LIBRARY.md",
-    "cài đặt dual ubuntu.md",
-    "cài đặt docker engine & desktop.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",

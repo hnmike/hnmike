@@ -1,17 +1,17 @@
 ---
-title: "End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…"
-summary: "End-to-end data engineering project using Python, Docker, Airflow, Spark, Kafka, and Cassandra for real-time streaming data processing."
-source: "https://medium.com/towards-data-engineering/end-to-end-realtime-streaming-data-engineering-project-using-python-docker-airflow-spark-kafka-ab1568c2ad13"
+title: End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…
+summary: End-to-end data engineering project using Python, Docker, Airflow, Spark, Kafka, and Cassandra for real-time streaming data processing.
+source: https://medium.com/towards-data-engineering/end-to-end-realtime-streaming-data-engineering-project-using-python-docker-airflow-spark-kafka-ab1568c2ad13
 author:
-  - "Ceyhun Akar"
+  - Ceyhun Akar
 published: 2024-09-17
 created: 2025-03-20
-description: "In the world of data engineering, real-time data pipelines are crucial for processing and analyzing streaming data. In this article, we’ll walk through a data engineering project that demonstrates a…"
+description: In the world of data engineering, real-time data pipelines are crucial for processing and analyzing streaming data. In this article, we’ll walk through a data engineering project that demonstrates a…
 tags:
-  - "realtime_data_pipeline"
-  - "spark_structured_streaming"
-  - "data_engineering_project"
-type :
+  - realtime_data_pipeline
+  - spark_structured_streaming
+  - project/data_engineer
+type:
 ---
 >[!summary]+ This article provides a walkthrough of a real-time data engineering project using Python, Docker, Airflow, Spark, Kafka, and Cassandra. It details setting up a data pipeline that retrieves random user data from an API, streams it to Kafka, processes it with Spark, and stores it in Cassandra. The project emphasizes containerization with Docker for easy deployment and includes code snippets and setup instructions.
 In the world of data engineering, real-time data pipelines are crucial for processing and analyzing streaming data. In this article, we’ll walk through a data engineering project that demonstrates a comprehensive pipeline using Apache Spark Structured Streaming, Apache Kafka, Apache Cassandra, and Apache Airflow. This pipeline retrieves random user data from an API, processes it in real-time, and stores it for further analysis. We’ll also use Docker to containerize the entire setup for seamless deployment.

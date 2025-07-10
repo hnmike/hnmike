@@ -1,19 +1,19 @@
 ---
-title: "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp"
+title: DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2024-11-20
-source: "https://www.youtube.com/watch?v=ppBq0amchiI&t=9s"
-image: "https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCsoZxPQJLZe-qMkzWvz3jfu98jYA"
+source: https://www.youtube.com/watch?v=ppBq0amchiI&t=9s
+image: https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCsoZxPQJLZe-qMkzWvz3jfu98jYA
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering"
-  - "Data_Modeling"
-  - "Cumulative_Tables"
-summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp."
+  - youtube
+  - data_engineer
+  - data_engineer/data_modeling
+summary: Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp.
 ---
 # DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
+
 
 ![DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/ppBq0amchiI&t=9s)
 
@@ -49,3 +49,6 @@ summary: "Lecture and lab on data modeling principles, covering OLTP vs. OLAP, c
 > - **Arrays of Structs (53:07):** Structs allows you to group your data to avoid duplication.
 > - **Seed Query (1:13:52):** Seed query is the first step to building your cumlative data to look at what's to come in the future.
 > - **Historical Analysis (1:57:30):** Historical Analysis can be done on cumlative tables without having to do any group buys.
+
+---
+- [[OLTP & OLAP]] 

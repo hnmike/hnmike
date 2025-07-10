@@ -1,16 +1,15 @@
 ---
-title: "DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp"
+title: DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2024-12-17
-source: "https://www.youtube.com/watch?v=wNQHWdCC6O4&t=681s"
-image: "https://i.ytimg.com/vi/wNQHWdCC6O4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDcgUChyMA8=&rs=AOn4CLCRBQCoH59Hx7CaRcBxJKCOEJewBw"
+source: https://www.youtube.com/watch?v=wNQHWdCC6O4&t=681s
+image: https://i.ytimg.com/vi/wNQHWdCC6O4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDcgUChyMA8=&rs=AOn4CLCRBQCoH59Hx7CaRcBxJKCOEJewBw
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering"
-  - "Apache_Spark"
-  - "Data_Engineering_Bootcamp"
+  - youtube
+  - data_engineer
+  - Apache_Spark
 summary: "Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering Bootcamp. Learn to disable broadcast joins, use bucket joins, and optimize data size."
 ---
 # DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp

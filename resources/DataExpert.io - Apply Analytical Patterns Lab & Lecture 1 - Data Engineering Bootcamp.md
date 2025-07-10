@@ -1,16 +1,15 @@
 ---
-title: "DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp"
+title: DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+  - Jade Codes
 published: 2025-01-06
-source: "https://www.youtube.com/watch?v=OZnWihgeIQk&t=1112s"
-image: "https://i.ytimg.com/vi/OZnWihgeIQk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCIgZShHMA8=&rs=AOn4CLDwU62Yeb_H9CgwO46hOAcz_aDalA"
+source: https://www.youtube.com/watch?v=OZnWihgeIQk&t=1112s
+image: https://i.ytimg.com/vi/OZnWihgeIQk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCIgZShHMA8=&rs=AOn4CLDwU62Yeb_H9CgwO46hOAcz_aDalA
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "Data_Engineering_Bootcamp"
-  - "Analytical_Patterns"
-  - "Data_Analysis"
+  - youtube
+  - data_engineer/analytical_patterns
+  - data_analysis
 summary: "Data Engineering Bootcamp lecture covering analytical patterns: aggregation, cumulation, and window-based analysis. Learn to build robust data pipelines."
 ---
 # DataExpert.io - Apply Analytical Patterns Lab & Lecture 1 - Data Engineering Bootcamp

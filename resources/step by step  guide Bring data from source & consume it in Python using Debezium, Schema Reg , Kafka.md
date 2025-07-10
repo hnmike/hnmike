@@ -73,3 +73,5 @@ summary: "Learn how to build a data pipeline using Debezium, Schema Registry, an
 > - **Run Python producer to insert data:**  Messages will be inserted into the PostgreSQL database. (4:16)
 > - **Run Python consumer to consume data:**  Messages are captured in near real-time. (5:46)
 > - **Register the schema:** A python file is provided to feed the schema. (4:54)
+
+[[OLTP & OLAP]]
