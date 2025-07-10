@@ -1889,7 +1889,7 @@
             }
           },
           {
-            "id": "a865ab6bed289c02",
+            "id": "ce9257e6c5e8fb2c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1984,8 +1984,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a865ab6bed289c02",
+  "active": "ce9257e6c5e8fb2c",
   "lastOpenFiles": [
+    "resources/BW 122 Economic growth (solution).md",
     "20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "40-50 technical knowledge hub/data engineer/Capstone project for my course.md",
@@ -2011,7 +2012,6 @@
     "CONDA LIBRARY.md",
     "cài đặt dual ubuntu.md",
     "cài đặt docker engine & desktop.md",
-    "Button.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
