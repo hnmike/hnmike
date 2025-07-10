@@ -88,8 +88,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "folders",
-              "title": "Projects"
+              "icon": "calendar",
+              "title": "Events"
             }
           },
           {
@@ -458,7 +458,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1107,7 +1107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/template/knowledge base template.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1117,7 +1117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for knowledge base template"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
@@ -1151,11 +1151,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "7b555409df3c136b",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
+    "00-09 system/template/knowledge base template.md",
     "202507082127.md",
     "40-50 technical knowledge hub/data engineer project.md",
-    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/template/book template.md",
