@@ -88,8 +88,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "calendar",
-              "title": "Events"
+              "icon": "kanban",
+              "title": "Status"
             }
           },
           {
@@ -458,7 +458,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1107,7 +1107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "00-09 system/template/knowledge base template.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1117,7 +1117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for knowledge base template"
             }
           }
         ]
@@ -1151,8 +1151,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "c95cb407d8581392",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "00-09 system/template/knowledge base template.md",
     "202507082127.md",
     "40-50 technical knowledge hub/data engineer project.md",
@@ -1178,7 +1179,6 @@
     "orphaned files output.md",
     "resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "resources/Reddit Share your tips and tricks in neovim!.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "mobile-app",
