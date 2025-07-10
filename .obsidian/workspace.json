@@ -1085,6 +1085,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Running Apache Spark on Kubernetes (202412081728)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Running Apache Spark on Kubernetes (202412081728).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Running Apache Spark on Kubernetes (202412081728)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
                   "title": "Untitled",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/lab 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
@@ -1191,12 +1197,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Running Apache Spark on Kubernetes (202412081728).md",
+                "file": "resources/BW 122 Economic growth (solution).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Running Apache Spark on Kubernetes (202412081728)"
+              "title": "BW 122 Economic growth (solution)"
             }
           },
           {
@@ -1986,6 +1992,7 @@
   },
   "active": "d60f629626d8911f",
   "lastOpenFiles": [
+    "Running Apache Spark on Kubernetes (202412081728).md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "conflict-files-obsidian-git.md",
     "resources/dbt and DuckDB.md",
@@ -2011,7 +2018,6 @@
     "2025-07-08.md",
     "2025-04-22.md",
     "20-30 PARA/Project/DE zach wilson/Untitled.md",
-    "resources/BW 122 Economic growth (solution).md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
