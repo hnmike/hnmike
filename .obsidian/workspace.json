@@ -88,8 +88,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "folders",
+              "title": "Projects"
             }
           },
           {
@@ -458,7 +458,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1151,7 +1151,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "0b186d67edff61fa",
+  "active": "7b555409df3c136b",
   "lastOpenFiles": [
     "202507082127.md",
     "40-50 technical knowledge hub/data engineer project.md",
