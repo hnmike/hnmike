@@ -476,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1125,7 +1125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1135,7 +1135,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for algorithm and design pattern"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
@@ -1169,10 +1169,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "64fbe3466089d104",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
-    "00-09 system/template/new zettel note.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "00-09 system/template/new zettel note.md",
     "vim motion key.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
