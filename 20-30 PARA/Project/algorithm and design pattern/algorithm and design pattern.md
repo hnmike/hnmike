@@ -14,7 +14,7 @@ Tags: #project/algorithm_and_design_pattern
 
   - [ ] #project/devop_lab 
 
-
+- [ ] Hoc #project/devop_lab 
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
 // Giả sử Templater đã thay thế trước khi Dataview chạy
