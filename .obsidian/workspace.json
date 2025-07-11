@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "calendar",
-              "title": "Events"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -1058,29 +1058,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "4e9fee1c624e6e56",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1101,9 +1082,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "de4b5a5565c82752",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "996ce4cf8cd71be1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1125,7 +1144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1135,7 +1153,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for algorithm and design pattern"
+              "title": "Backlinks"
             }
           }
         ]
@@ -1169,7 +1187,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c95cb407d8581392",
+  "active": "996ce4cf8cd71be1",
   "lastOpenFiles": [
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
