@@ -1486,8 +1486,8 @@
             "state": {
               "type": "react-view",
               "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1761,8 +1761,8 @@
             "state": {
               "type": "react-view",
               "state": {},
-              "icon": "microscope",
-              "title": "You and Your Research"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1858,8 +1858,8 @@
             "state": {
               "type": "timetracker-sidebar",
               "state": {},
-              "icon": "clock",
-              "title": "Timetracker sidebar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -1901,26 +1901,27 @@
             }
           },
           {
-            "id": "ce9257e6c5e8fb2c",
+            "id": "1f734760b1ca37e0",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "ec2a66dd9dc3d598",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1996,7 +1997,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d60f629626d8911f",
+  "active": "ec2a66dd9dc3d598",
   "lastOpenFiles": [
     "resources/BW 122 Economic growth (solution).md",
     "resources/Primer on Python Decorators.md",
