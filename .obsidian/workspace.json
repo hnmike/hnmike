@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "c95cb407d8581392",
+            "id": "395fc14e80eb218c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -60,13 +60,11 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "pinned": true,
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "table",
+              "title": "Table"
             }
           },
           {
@@ -1279,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
+                "file": "00-09 system/template/new zettel note.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1289,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-07-13"
+              "title": "Backlinks for new zettel note"
             }
           }
         ]
@@ -1323,7 +1321,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c95cb407d8581392",
+  "active": "395fc14e80eb218c",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "00-09 system/journal/daily/2025/07",
