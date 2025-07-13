@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "eye",
-              "title": "Review"
+              "icon": "flag",
+              "title": "Flagged"
             }
           },
           {
@@ -532,9 +532,38 @@
               "icon": "lucide-file",
               "title": "lab 1"
             }
+          },
+          {
+            "id": "01bd918075427a8a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "De project mlop2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":33},\"to\":{\"line\":58,\"ch\":33}},\"scroll\":11.296959795586107}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "data engineer coursera"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -1221,7 +1250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/DE zach wilson/lab 1.md",
+                "file": "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1231,7 +1260,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for lab 1"
+              "title": "Backlinks for data engineer coursera"
             }
           }
         ]
@@ -1265,10 +1294,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b579b8098c7b308c",
+  "active": "01bd918075427a8a",
   "lastOpenFiles": [
-    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
+    "20-30 PARA/Project/DE zach wilson/lab 1.md",
+    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "www.googlecalendar.com.md",
     "00-09 system/journal/daily/2024/09/2024-09-16.md",
@@ -1294,7 +1324,6 @@
     "00-09 system/template/project template 1.md",
     "00-09 system/template/project metadata.md",
     "blender project.md",
-    "basic.thino.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",

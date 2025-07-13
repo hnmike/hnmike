@@ -2,11 +2,11 @@
 Priority_Level: 
 Status: 1 To Do
 Date_Created: 
-Due_Date: 
+Due_Date: 2025-07-31T09:55
 Connections: 
 tags: 
 Type: project_note
-cssclasses:
+cssclasses: 
 ---
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
