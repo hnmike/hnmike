@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "table",
-              "title": "Table"
+              "icon": "eye",
+              "title": "Review"
             }
           },
           {
@@ -484,6 +484,18 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "De project mlop2",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":65.7778}"
+                },
+                {
+                  "title": "DE zach wilson",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":2},\"to\":{\"line\":14,\"ch\":2}},\"scroll\":4.109588727559129}"
                 }
               ]
             },
@@ -497,9 +509,32 @@
               "icon": "lucide-file",
               "title": "DE zach wilson"
             }
+          },
+          {
+            "id": "b579b8098c7b308c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/DE zach wilson/lab 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab 1"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -1186,7 +1221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
+                "file": "20-30 PARA/Project/DE zach wilson/lab 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1196,7 +1231,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DE zach wilson"
+              "title": "Backlinks for lab 1"
             }
           }
         ]
@@ -1230,8 +1265,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "019dddee086950a0",
+  "active": "b579b8098c7b308c",
   "lastOpenFiles": [
+    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
+    "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "www.googlecalendar.com.md",
     "00-09 system/journal/daily/2024/09/2024-09-16.md",
@@ -1258,8 +1295,6 @@
     "00-09 system/template/project metadata.md",
     "blender project.md",
     "basic.thino.md",
-    "Bash script.md",
-    "2024-08-26.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
