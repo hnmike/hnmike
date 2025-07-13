@@ -1,4 +1,4 @@
-- [ ] Viet cv
+- [x] Viet cv
 - [x] Hen review cv vs anh dat 📅 2025-07-12 ✅ 2025-07-13
 - [x] Hoan thanh bai 1 📅 2025-07-10 ✅ 2025-07-10
 - [x] Bai test compa 📅 2025-07-11 ✅ 2025-07-13

@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "table",
+              "title": "Table"
             }
           },
           {
@@ -474,9 +474,32 @@
               "icon": "lucide-file",
               "title": "algorithm and design pattern"
             }
+          },
+          {
+            "id": "019dddee086950a0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DE zach wilson"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -1163,7 +1186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1173,7 +1196,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for DE zach wilson"
             }
           }
         ]
@@ -1207,9 +1230,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "019dddee086950a0",
   "lastOpenFiles": [
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "www.googlecalendar.com.md",
     "00-09 system/journal/daily/2024/09/2024-09-16.md",
     "demo tasks.md",
     "conflict-files-obsidian-git.md",
@@ -1217,7 +1241,6 @@
     "resources/BW 122 Economic growth (solution).md",
     "mobile-app",
     "20-30 PARA/Project/practical python",
-    "www.googlecalendar.com.md",
     "00-09 system/template/new zettel note.md",
     "vim motion key.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
