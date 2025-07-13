@@ -65,8 +65,31 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "calendar-clock",
+              "title": "Habit"
+            }
+          },
+          {
+            "id": "1045806dbd3f3072",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-13"
             }
           },
           {
@@ -569,7 +592,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1234,7 +1257,7 @@
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 5
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1256,7 +1279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/SQL/SQL.md",
+                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1266,14 +1289,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SQL"
+              "title": "Backlinks for 2025-07-13"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1300,10 +1323,12 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c95cb407d8581392",
+  "active": "1045806dbd3f3072",
   "lastOpenFiles": [
-    "www.googlecalendar.com.md",
+    "00-09 system/journal/daily/2025/07/2025-07-13.md",
+    "00-09 system/journal/daily/2025/07",
     "20-30 PARA/Project/SQL/SQL.md",
+    "www.googlecalendar.com.md",
     "20-30 PARA/Project/Leetcode",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
@@ -1346,7 +1371,6 @@
     "40-50 technical knowledge hub/data engineer",
     "40-50 technical knowledge hub",
     "20-30 PARA/Project/devop lab",
-    "20-30 PARA/Project/data engineer coursera",
     "Untitled 1.canvas",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
