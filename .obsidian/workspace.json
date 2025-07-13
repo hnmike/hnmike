@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "calendar-days",
-              "title": "Forecast"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -476,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1163,7 +1163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1173,14 +1173,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for algorithm and design pattern"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 618.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1207,10 +1207,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "64fbe3466089d104",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2024/09/2024-09-16.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "00-09 system/journal/daily/2024/09/2024-09-16.md",
     "demo tasks.md",
     "conflict-files-obsidian-git.md",
     "resources/Primer on Python Decorators.md",
