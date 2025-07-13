@@ -1263,9 +1263,32 @@
               "icon": "lucide-file",
               "title": "lab 1"
             }
+          },
+          {
+            "id": "3937e7d67e5246c0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -1901,8 +1924,27 @@
             }
           },
           {
-            "id": "1f734760b1ca37e0",
+            "id": "ec2a66dd9dc3d598",
             "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8db62fd74fbc8adc",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -1911,8 +1953,17 @@
             }
           },
           {
-            "id": "ec2a66dd9dc3d598",
+            "id": "1fc2b59f0b2c1df6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1921,7 +1972,7 @@
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       },
       {
         "id": "e23e01481eaf6e93",
@@ -1994,16 +2045,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "ec2a66dd9dc3d598",
+  "active": "3937e7d67e5246c0",
   "lastOpenFiles": [
+    "20-30 PARA/Project/DE zach wilson/lab 1.md",
+    "conflict-files-obsidian-git.md",
+    "resources/Spring Boot Debezium - Master Slave Real Life Project Example.md",
     "resources/BW 122 Economic growth (solution).md",
     "resources/Primer on Python Decorators.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
-    "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "conflict-files-obsidian-git.md",
     "resources/dbt and DuckDB.md",
     "resources/Synergy of the PaaS and modern data stack.md",
     "resources/Serving layer.md",
@@ -2024,7 +2077,6 @@
     "202503122136.md",
     "202503122135.md",
     "202503112148.md",
-    "2025-07-08.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
