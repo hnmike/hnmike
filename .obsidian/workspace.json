@@ -569,7 +569,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1256,7 +1256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "20-30 PARA/Project/SQL/SQL.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1266,7 +1266,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for SQL"
             }
           }
         ]
@@ -1300,15 +1300,16 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "c95cb407d8581392",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/Leetcode",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "www.googlecalendar.com.md",
     "00-09 system/journal/daily/2024/09/2024-09-16.md",
     "demo tasks.md",
     "conflict-files-obsidian-git.md",
@@ -1329,7 +1330,6 @@
     "cài đặt docker engine & desktop.md",
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
-    "00-09 system/template/project template 1.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
@@ -1347,7 +1347,6 @@
     "40-50 technical knowledge hub",
     "20-30 PARA/Project/devop lab",
     "20-30 PARA/Project/data engineer coursera",
-    "20-30 PARA/Project/algorithm and design pattern",
     "Untitled 1.canvas",
     "90-100 resource archives/Image/IMG-20241114090915849.png",
     "90-100 resource archives/Image/IMG-20241114090914865.png",
