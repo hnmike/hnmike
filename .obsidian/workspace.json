@@ -63,8 +63,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "table",
-              "title": "Table"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -1255,7 +1255,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1321,7 +1321,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "395fc14e80eb218c",
+  "active": "a57edcfdf0f41e4a",
   "lastOpenFiles": [
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "00-09 system/journal/daily/2025/07",
