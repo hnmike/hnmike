@@ -55,7 +55,8 @@ dv.paragraph(
 
 Description Goal
 
-  
+  - Done
+  - Thuc hien review lai bai tap 
 
 ---
 

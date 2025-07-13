@@ -2,11 +2,11 @@
 Priority_Level: 
 Status: 1 To Do
 Date_Created: 
-Due_Date: 2025-07-31T09:55
+Due_Date: 
 Connections: 
 tags: 
 Type: project_note
-cssclasses: 
+cssclasses:
 ---
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
@@ -16,6 +16,5 @@ cssclasses:
 **Status:** `INPUT[inlineSelect(option(1 To Do), option(2 In Progress), option(3 Testing), option(4 Completed), option(5 Blocked)):Status]`
 # Description
 
+<% tp.file.cursor() %>
 
-
-Hom nay  
