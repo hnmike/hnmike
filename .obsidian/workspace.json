@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "flag",
-              "title": "Flagged"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -544,6 +544,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "data engineer coursera",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/data engineer coursera.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer coursera\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "De project mlop2",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
@@ -554,16 +560,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
+                "file": "20-30 PARA/Project/SQL/SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data engineer coursera"
+              "title": "SQL"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1250,7 +1256,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1260,7 +1266,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for data engineer coursera"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
@@ -1294,8 +1300,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "01bd918075427a8a",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
+    "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/De project mlop2/De project mlop2.md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
@@ -1322,8 +1330,6 @@
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "00-09 system/template/project template 1.md",
-    "00-09 system/template/project metadata.md",
-    "blender project.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
