@@ -562,7 +562,7 @@
     "cancelledDateMarker": "❌"
   },
   "betaTest": {
-    "enableBaseView": false
+    "enableBaseView": true
   },
   "icsIntegration": {
     "sources": [],
