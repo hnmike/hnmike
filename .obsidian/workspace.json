@@ -63,8 +63,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "calendar-clock",
+              "title": "Habit"
             }
           },
           {
@@ -83,7 +83,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -590,7 +590,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"

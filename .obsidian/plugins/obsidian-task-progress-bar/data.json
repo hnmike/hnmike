@@ -521,7 +521,7 @@
         "id": "1752375633509ump4r5l",
         "name": "leetcode and sql",
         "icon": "lucide-puzzle",
-        "type": "daily",
+        "type": "count",
         "property": "leetcode and sql"
       }
     ]
