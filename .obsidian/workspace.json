@@ -65,8 +65,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "calendar-days",
+              "title": "Forecast"
             }
           },
           {
@@ -476,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1163,7 +1163,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -1172,7 +1173,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for algorithm and design pattern"
             }
           }
         ]
@@ -1206,15 +1207,17 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "1074d0becf8a3924",
+  "active": "64fbe3466089d104",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2024/09/2024-09-16.md",
+    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
+    "demo tasks.md",
     "conflict-files-obsidian-git.md",
     "resources/Primer on Python Decorators.md",
     "resources/BW 122 Economic growth (solution).md",
     "mobile-app",
     "20-30 PARA/Project/practical python",
     "www.googlecalendar.com.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
     "00-09 system/template/new zettel note.md",
     "vim motion key.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
@@ -1234,8 +1237,6 @@
     "basic.thino.md",
     "Bash script.md",
     "2024-08-26.md",
-    "00-09 system/template/note review.md",
-    "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
