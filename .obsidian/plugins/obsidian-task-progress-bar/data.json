@@ -516,7 +516,15 @@
   },
   "habit": {
     "enableHabits": true,
-    "habits": []
+    "habits": [
+      {
+        "id": "1752375633509ump4r5l",
+        "name": "leetcode and sql",
+        "icon": "lucide-puzzle",
+        "type": "daily",
+        "property": "leetcode and sql"
+      }
+    ]
   },
   "filterConfig": {
     "enableSavedFilters": true,
