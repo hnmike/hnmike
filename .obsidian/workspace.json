@@ -70,29 +70,6 @@
             }
           },
           {
-            "id": "07b2ec6800f0b158",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "b3f043571f39b551",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -499,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1167,7 +1144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1177,7 +1153,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks"
             }
           }
         ]
@@ -1211,7 +1187,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "07b2ec6800f0b158",
+  "active": "c95cb407d8581392",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "resources/Primer on Python Decorators.md",
