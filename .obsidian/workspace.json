@@ -590,7 +590,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1255,7 +1255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1277,7 +1277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/template/new zettel note.md",
+                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1287,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for new zettel note"
+              "title": "Backlinks for 2025-07-13"
             }
           }
         ]
@@ -1321,11 +1321,12 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "a57edcfdf0f41e4a",
+  "active": "e3e822e4a538a603",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/07/2025-07-13.md",
-    "00-09 system/journal/daily/2025/07",
     "20-30 PARA/Project/SQL/SQL.md",
+    "00-09 system/journal/daily/2025/07/2025-07-13.md",
+    "00-09 system/template/new zettel note.md",
+    "00-09 system/journal/daily/2025/07",
     "www.googlecalendar.com.md",
     "20-30 PARA/Project/Leetcode",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
@@ -1340,7 +1341,6 @@
     "resources/BW 122 Economic growth (solution).md",
     "mobile-app",
     "20-30 PARA/Project/practical python",
-    "00-09 system/template/new zettel note.md",
     "vim motion key.md",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
