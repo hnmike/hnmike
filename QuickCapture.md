@@ -4,3 +4,4 @@
 - [x] Bai test compa 📅 2025-07-11 ✅ 2025-07-13
 - [ ] Merchandise analysis project 📅 2025-07-11
 - [ ] lab 2 dab 📅 2025-07-14
+- [ ] Data engineer/analyst profile in vscode
