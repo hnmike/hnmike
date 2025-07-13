@@ -76,18 +76,30 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "practical python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/practical python/practical python.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"practical python\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "2025-07-13",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-13.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-13\"}",
+                  "eState": "{\"scroll\":2.945736209366673}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
+                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-13"
+              "title": "Diabetes Prediction using Xgboost"
             }
           },
           {
@@ -1277,7 +1289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
+                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1287,7 +1299,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-07-13"
+              "title": "Backlinks for Diabetes Prediction using Xgboost"
             }
           }
         ]
@@ -1323,8 +1335,9 @@
   },
   "active": "1045806dbd3f3072",
   "lastOpenFiles": [
-    "20-30 PARA/Project/SQL/SQL.md",
+    "20-30 PARA/Project/practical python/practical python.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
+    "20-30 PARA/Project/SQL/SQL.md",
     "00-09 system/template/new zettel note.md",
     "00-09 system/journal/daily/2025/07",
     "www.googlecalendar.com.md",
@@ -1352,7 +1365,6 @@
     "00-09 system/template/book template.md",
     "cài đặt docker engine & desktop.md",
     "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
-    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
