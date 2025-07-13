@@ -1,5 +1,6 @@
 - [ ] Viet cv
-- [ ] Hen review cv vs anh dat 📅 2025-07-12
+- [x] Hen review cv vs anh dat 📅 2025-07-12 ✅ 2025-07-13
 - [x] Hoan thanh bai 1 📅 2025-07-10 ✅ 2025-07-10
-- [ ] Bai test compa 📅 2025-07-11
+- [x] Bai test compa 📅 2025-07-11 ✅ 2025-07-13
 - [ ] Merchandise analysis project 📅 2025-07-11
+- [ ] lab 2 dab 📅 2025-07-14
