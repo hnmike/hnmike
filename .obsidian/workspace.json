@@ -63,8 +63,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "layout-grid",
+              "title": "Matrix"
             }
           },
           {
@@ -602,7 +602,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -1308,7 +1308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "www.googlecalendar.com.md",
+                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1318,7 +1318,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for www.googlecalendar.com"
+              "title": "Backlinks for Diabetes Prediction using Xgboost"
             }
           }
         ]
@@ -1352,10 +1352,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "b3f043571f39b551",
+  "active": "395fc14e80eb218c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "www.googlecalendar.com.md",
+    "conflict-files-obsidian-git.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
     "20-30 PARA/Project/practical python/practical python.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",

@@ -3,5 +3,5 @@
 - [x] Hoan thanh bai 1 📅 2025-07-10 ✅ 2025-07-10
 - [x] Bai test compa 📅 2025-07-11 ✅ 2025-07-13
 - [ ] Merchandise analysis project 📅 2025-07-11
-- [ ] lab 2 dab 📅 2025-07-14
+- [x] lab 2 dab 📅 2025-07-14 ✅ 2025-07-18
 - [ ] Data engineer/analyst profile in vscode
