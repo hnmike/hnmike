@@ -61,5 +61,6 @@
   "obsidian-task-progress-bar",
   "note-refactor-obsidian",
   "obsidian-local-rest-api",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "smart-connections"
 ]
