@@ -602,7 +602,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1222,29 +1222,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "332e1313621a004d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "New tab"
             }
           },
           {
@@ -1265,9 +1246,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "f60295e026e692d4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "7adbf8926cb5079c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 25
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1289,7 +1308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1299,7 +1318,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Diabetes Prediction using Xgboost"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
@@ -1329,11 +1348,13 @@
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "1045806dbd3f3072",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
+    "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
     "20-30 PARA/Project/practical python/practical python.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "20-30 PARA/Project/SQL/SQL.md",
@@ -1363,7 +1384,6 @@
     "00-09 system/template/daily note template.md",
     "00-09 system/template/book template.md",
     "cài đặt docker engine & desktop.md",
-    "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
