@@ -1911,7 +1911,26 @@
             }
           },
           {
-            "id": "8db62fd74fbc8adc",
+            "id": "1fc2b59f0b2c1df6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4fedb5ef0b33a614",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1930,17 +1949,8 @@
             }
           },
           {
-            "id": "1fc2b59f0b2c1df6",
+            "id": "34a330b4440d7a4a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "graph-analysis",
               "state": {},
@@ -1949,7 +1959,7 @@
             }
           }
         ],
-        "currentTab": 29
+        "currentTab": 30
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2022,11 +2032,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-memos:Thino": false,
       "obsidian-spaced-repetition-recall:Review flashcards": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "dcb7ad7c38d25e01",
+  "active": "34a330b4440d7a4a",
   "lastOpenFiles": [
     "20-30 PARA/The software design mindset",
     "conflict-files-obsidian-git.md",
