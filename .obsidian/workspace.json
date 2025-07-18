@@ -122,29 +122,6 @@
             }
           },
           {
-            "id": "bcfae30f763217f8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "befe456602bc2fd2",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -625,7 +602,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1331,7 +1308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "www.googlecalendar.com.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1341,7 +1318,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks for www.googlecalendar.com"
             }
           }
         ]
@@ -1375,10 +1352,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "bcfae30f763217f8",
+  "active": "b3f043571f39b551",
   "lastOpenFiles": [
-    "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md",
+    "www.googlecalendar.com.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
     "20-30 PARA/Project/practical python/practical python.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
