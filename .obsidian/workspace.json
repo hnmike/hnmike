@@ -1267,6 +1267,15 @@
           {
             "id": "b91d042bad70e536",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "smart-release-notes-view",
               "state": {},
@@ -1980,6 +1989,15 @@
           {
             "id": "8efc90487a654fb3",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "smart-connections-view",
               "state": {},
