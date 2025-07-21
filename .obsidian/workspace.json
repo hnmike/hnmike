@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "439cb7b1a5c2e150",
+        "id": "691a93c37fa2a0a4",
         "type": "tabs",
         "children": [
           {
-            "id": "62f9d7e26644d688",
+            "id": "5474c0604719da73",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -19,9 +19,11 @@
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "thino_view",
               "state": {},
+              "pinned": true,
               "icon": "Memos",
               "title": "Thino"
             }
@@ -42,6 +44,15 @@
           {
             "id": "81a51b5314bffc61",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -292,8 +303,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "62f9d7e26644d688",
+  "active": "81a51b5314bffc61",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md"
   ]
 }
