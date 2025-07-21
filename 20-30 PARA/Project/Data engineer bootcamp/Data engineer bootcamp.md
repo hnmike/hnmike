@@ -7,15 +7,12 @@ Connections:
 tags:
 Type: project_family
 ---
-
-Tags: #project/data_engineer_bootcamp
-
----
+ Tags: #project/data_engineer_bootcamp ---
 Module 1 
 Module 2 
-
-  
-
+Module 3
+Module 4
+Module 5 
 
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)
