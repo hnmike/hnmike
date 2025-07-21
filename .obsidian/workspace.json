@@ -27,8 +27,38 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "f9ad368ac468abac",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Module 1 Containerization and Infrastructure as Code",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data engineer bootcamp"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,8 +333,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "81a51b5314bffc61",
+  "active": "f9ad368ac468abac",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md"
   ]
