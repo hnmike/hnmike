@@ -63,8 +63,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "layout-grid",
-              "title": "Matrix"
+              "icon": "calendar",
+              "title": "Events"
             }
           },
           {
@@ -600,9 +600,38 @@
               "icon": "lucide-file",
               "title": "SQL"
             }
+          },
+          {
+            "id": "58b12c0e3e26673d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Module 3 Data Warehouse with BigQuery",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 3 Data Warehouse with BigQuery\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":8.474575624627581}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -1241,29 +1270,10 @@
               ]
             },
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "f60295e026e692d4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -1284,9 +1294,47 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "52f23884f37b9317",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "efaae80bc9ac4d5f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       },
       {
         "id": "3ddec1ce2b88068b",
@@ -1308,7 +1356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -1318,7 +1366,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Diabetes Prediction using Xgboost"
+              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           }
         ]
@@ -1352,8 +1400,9 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "395fc14e80eb218c",
+  "active": "58b12c0e3e26673d",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
     "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md",
     "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
@@ -1383,7 +1432,6 @@
     "40-50 technical knowledge hub/data engineer project.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/book template.md",
-    "cài đặt docker engine & desktop.md",
     "90-100 resource archives/Image/IMG-20241021121010805.jpg",
     "Untitled.canvas",
     "00-09 system/homepage/dashboard.canvas",
