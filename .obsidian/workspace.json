@@ -56,6 +56,35 @@
               "icon": "lucide-file",
               "title": "Data engineer bootcamp"
             }
+          },
+          {
+            "id": "fe9316a32807e9a0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Introduction to Module 6 | DE Zoomcamp Notes",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/module-1/1.2-docker-and-docker-compose/1.2.2-ingesting-ny-taxi-data-to-postgres\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/module-6/introduction-to-module-6",
+                "title": "Introduction to Module 6 | DE Zoomcamp Notes",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Introduction to Module 6 | DE Zoomcamp Notes"
+            }
           }
         ],
         "currentTab": 1
@@ -335,6 +364,7 @@
   },
   "active": "f9ad368ac468abac",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
     "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md"
