@@ -13,7 +13,8 @@ Tags: #project/de_zach_wilson
 ---
 
 - Week 1 dimensional data modeling 
-- Week 2 fact data modeli
+- Week 2 fact data modeling 
+- Week 3 apache flink trainign
   
 
 

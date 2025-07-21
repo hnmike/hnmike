@@ -39,6 +39,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":18.286703415669894}"
+                },
+                {
                   "title": "Module 1 Containerization and Infrastructure as Code",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
@@ -49,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data engineer bootcamp"
+              "title": "DE zach wilson"
             }
           },
           {
@@ -109,8 +115,14 @@
             "id": "d9dc138d632282d3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Data engineer bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":1},\"to\":{\"line\":60,\"ch\":1}},\"scroll\":11.334}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -201,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -461,7 +473,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -494,11 +506,12 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d9dc138d632282d3",
+  "active": "f9ad368ac468abac",
   "lastOpenFiles": [
+    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
     "20-30 PARA/Project/DE lab/DE lab.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
@@ -507,7 +520,6 @@
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Kestra.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 2 Workflow Orchestration with Airflow.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "www.googlecalendar.com.md",
     "conflict-files-obsidian-git.md"
   ]
