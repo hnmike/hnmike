@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2ab78c600c7f8cea",
+        "id": "439cb7b1a5c2e150",
         "type": "tabs",
         "children": [
           {
-            "id": "d991181ac08d16cc",
+            "id": "62f9d7e26644d688",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -20,37 +20,13 @@
               ]
             },
             "state": {
-              "type": "task-genius-view",
+              "type": "thino_view",
               "state": {},
-              "icon": "table",
-              "title": "Table"
-            }
-          },
-          {
-            "id": "644d44a224de5e37",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "Memos",
+              "title": "Thino"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +292,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "644d44a224de5e37",
+  "active": "62f9d7e26644d688",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md"
   ]
