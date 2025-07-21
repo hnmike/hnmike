@@ -5,3 +5,5 @@
 - [ ] Merchandise analysis project 📅 2025-07-11
 - [x] lab 2 dab 📅 2025-07-14 ✅ 2025-07-18
 - [ ] Data engineer/analyst profile in vscode
+- [ ] Nop cv devop etl 📅 2025-07-22
+- [ ] Hen gap TA + project 📅 2025-07-26

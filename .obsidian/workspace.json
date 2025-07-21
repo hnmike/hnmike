@@ -1,55 +1,14 @@
 {
   "main": {
-    "id": "05f47e0d3cff8976",
+    "id": "7d8da475a03f7c93",
     "type": "split",
     "children": [
       {
-        "id": "815fb7939ab0c7a9",
+        "id": "2ab78c600c7f8cea",
         "type": "tabs",
         "children": [
           {
-            "id": "38a8ea283e5b6bf5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "book template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/book template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "cài đặt docker engine & desktop",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/template/new zettel note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "new zettel note"
-            }
-          },
-          {
-            "id": "395fc14e80eb218c",
+            "id": "d991181ac08d16cc",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -63,66 +22,12 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "calendar",
-              "title": "Events"
+              "icon": "table",
+              "title": "Table"
             }
           },
           {
-            "id": "1045806dbd3f3072",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "practical python",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/practical python/practical python.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"practical python\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "2025-07-13",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-13.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-13\"}",
-                  "eState": "{\"scroll\":2.945736209366673}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diabetes Prediction using Xgboost"
-            }
-          },
-          {
-            "id": "b3f043571f39b551",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "befe456602bc2fd2",
+            "id": "644d44a224de5e37",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -136,526 +41,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
-            }
-          },
-          {
-            "id": "7b555409df3c136b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "data engineer project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/data engineer project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer project\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "202507082127",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202507082127.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507082127\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":17},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "project template 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project template 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project template 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "project metadata",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/project metadata.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"project metadata\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "blender project",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"blender project.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"blender project\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "basic.thino",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"basic.thino.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"basic.thino\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Bash script",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Bash script.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Bash script\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":1.9851115110790167}"
-                },
-                {
-                  "title": "2024-08-26",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2024-08-26.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2024-08-26\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "note review",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/note review.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"note review\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "note review",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/note review.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"note review\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
-                },
-                {
-                  "title": "Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Parameterize Your Spark Code A Comprehensive Guide to Seamless Production Deployment!\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cathay From Premium Airline to Integrated Travel Ecosystem with Data Streaming\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":4.098360343057601}"
-                },
-                {
-                  "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":4.901960410323798}"
-                },
-                {
-                  "title": "End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka….md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"End-to-End Realtime Streaming Data Engineering Project using Python, Docker, Airflow, Spark, Kafka…\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "orphaned files output",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"orphaned files output.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orphaned files output\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":26},\"to\":{\"line\":0,\"ch\":26}},\"scroll\":27.8799490139236}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":16.382826915249638}"
-                },
-                {
-                  "title": "AWS cloud and DE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":2},\"to\":{\"line\":14,\"ch\":2}},\"scroll\":2.0547943637795645}"
-                },
-                {
-                  "title": "algorithm and design pattern",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm and design pattern\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/template/knowledge base template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "knowledge base template"
-            }
-          },
-          {
-            "id": "8ac445bc3c4098a6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "algorithm and design pattern",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"algorithm and design pattern\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":2.0491801715288007}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Conclusion",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Conclusion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conclusion\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Dagster",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":60},\"to\":{\"line\":4,\"ch\":60}},\"scroll\":25.887544786202064}"
-                },
-                {
-                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":242},\"to\":{\"line\":65,\"ch\":242}},\"scroll\":81.11355598769899}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Map of content",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Map of content.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map of content\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Homepage",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/homepage/Homepage.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Homepage\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Last modified",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/MOC/Last modified.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Last modified\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "AWS cloud and DE",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/AWS cloud and DE/AWS cloud and DE.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS cloud and DE\"}",
-                  "eState": "{\"scroll\":6.849315068493151}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
-            }
-          },
-          {
-            "id": "568ea719066cf9b5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Reddit Share your tips and tricks in neovim!",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Reddit Share your tips and tricks in neovim!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reddit Share your tips and tricks in neovim!\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "64fbe3466089d104",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Data engineer bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":15.001736613603473}"
-                },
-                {
-                  "title": "Untitled 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Module 1 Containerization and Infrastructure as Code",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "algorithm and design pattern"
-            }
-          },
-          {
-            "id": "019dddee086950a0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "De project mlop2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":65.7778}"
-                },
-                {
-                  "title": "DE zach wilson",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":2},\"to\":{\"line\":14,\"ch\":2}},\"scroll\":4.109588727559129}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DE zach wilson"
-            }
-          },
-          {
-            "id": "b579b8098c7b308c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/DE zach wilson/lab 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lab 1"
-            }
-          },
-          {
-            "id": "01bd918075427a8a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "data engineer coursera",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/data engineer coursera.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer coursera\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "De project mlop2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/De project mlop2/De project mlop2.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"De project mlop2\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":33},\"to\":{\"line\":58,\"ch\":33}},\"scroll\":11.296959795586107}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/SQL/SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL"
-            }
-          },
-          {
-            "id": "58b12c0e3e26673d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Module 3 Data Warehouse with BigQuery",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 3 Data Warehouse with BigQuery\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":8.474575624627581}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "74fd4da3e0c97de9",
+    "id": "722083386f467ae9",
     "type": "split",
     "children": [
       {
-        "id": "09f6f4f0a32bda3b",
+        "id": "ecdaba9cf25221aa",
         "type": "tabs",
         "children": [
           {
-            "id": "dcb7ad7c38d25e01",
+            "id": "81a51b5314bffc61",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -667,21 +77,12 @@
             }
           },
           {
-            "id": "38712ad03cc2f83c",
+            "id": "2c028fff4036bc9e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tech_Debt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -693,17 +94,8 @@
             }
           },
           {
-            "id": "c03018e15baf7338",
+            "id": "2e9c52ff729f3552",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "bookmarks",
               "state": {},
@@ -715,76 +107,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.50260543823242
+    "width": 300
   },
   "right": {
-    "id": "f875aae102cbc164",
+    "id": "00142749685159b1",
     "type": "split",
     "children": [
       {
-        "id": "e396fbacad564746",
+        "id": "68016a932a6daf54",
         "type": "tabs",
-        "dimension": 48.777648428405115,
         "children": [
           {
-            "id": "7118331480422942",
+            "id": "0b0bef76edd7e8ab",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "c897e9808a3178d7",
+            "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-30 technical knowledge hub/data engineer/data engineer lab 1 (202411160846).md",
-                "linksCollapsed": true,
+                "file": "conflict-files-obsidian-git.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from data engineer lab 1 (202411160846)"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
-            "id": "76e00f65728bb98b",
+            "id": "3b0a283d6b39abe6",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00-09 system/template/knowledge base template.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of knowledge base template"
-            }
-          },
-          {
-            "id": "2a1f968c61760117",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -798,17 +166,8 @@
             }
           },
           {
-            "id": "a443626541e257cd",
+            "id": "fc9060803471d34c",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -821,17 +180,23 @@
             }
           },
           {
-            "id": "a57edcfdf0f41e4a",
+            "id": "01ade1e99df51a05",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of conflict-files-obsidian-git"
+            }
+          },
+          {
+            "id": "592cb668c3d7ebbd",
+            "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
@@ -840,17 +205,8 @@
             }
           },
           {
-            "id": "e3e822e4a538a603",
+            "id": "2836ab52e74b57fb",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "journal-calendar",
               "state": {},
@@ -859,70 +215,7 @@
             }
           },
           {
-            "id": "2ba7f905e652d2af",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "tasks_timeline_view",
-              "state": {},
-              "icon": "calendar-clock",
-              "title": "Tasks Timeline"
-            }
-          },
-          {
-            "id": "b5c993dba463ad5a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "00-09 system/template/knowledge base template.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for knowledge base template"
-            }
-          },
-          {
-            "id": "f70e4007b3f4c440",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "orphaned files output.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "orphaned files output"
-            }
-          },
-          {
-            "id": "1786d6ad87b74725",
+            "id": "82c087d36ef592f9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -941,201 +234,8 @@
             }
           },
           {
-            "id": "1fe3d1f6ee4fbd8d",
+            "id": "d9d9a0ce96767706",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "3367041ddb1ec0df",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "0205715ab600aa06",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=t\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=r\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Perplexity",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/search/new/fda90ba2-4fe8-42ec-ab12-88e3f18cecc5\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Perplexity",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/?login-source=loginButton&login-new=false\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Perplexity",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://accounts.google.com.vn/accounts/SetSID\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Đang chuyển hướng",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://accounts.google.com/v3/signin/challenge/pwd?TL=ALgCv6zkkgmftrH1lT231gMRT2jjWZ_LHue3sr7HYwAPOH_lae6CjvdS4UPPJgZ2&app_domain=https://www.perplexity.ai&cid=2&client_id=60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com&code_challenge=lh63iZcAYdRY6JwNyfJF-6yiCDHYSAx5h1OkaSpXqpk&code_challenge_method=S256&continue=https://accounts.google.com/signin/oauth/legacy/consent?authuser%3Dunknown%26part%3DAJi8hAOWBgGWMeKqLz9wbcRVWP4ghELWHkOCyRY1kxpFcpXeo7vbm0sxkBiVEVDWGlIc8dn_crD0nvutE19B1tZxv3kPDYFfI3ZNE1lov4XBoV_TDYwYavwCJJYtBGFE-knZ4rw1QRnR4BkaGBShyIDOKgskDATGj96nuXGhz1KKFI_0KR2T48cjLWDR7IQPl2zBqGp7ELgkf6wdwn_zeIsVB9pnXcJOs9Lw5ekGagtOUu9z3YyYqvy8olBID-zGLSU3_2nPgd_tS1jV9vtinfOSXSE7Ymfvv62qaBxL17g0fk88G0-Jbqs0fZTz7Es4vNk7GqO07d8yYFYC69f1k-VaxP9UL2_gX2dsJtZx1sESYnmG8sc7svEL7ZotBXQFu428BBMBO06jPuNyB8fDSZ1egB-UUPLImRSe6fZzkVmQbr5avgeBxUvQ4mxqY_UBiriCVthINrYFp5yRU9zITdyY_VDhEdMwtQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1240975199%253A1751962197846975%26client_id%3D60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com%23&dsh=S-1240975199:1751962197846975&flowName=GeneralOAuthLite&o2v=2&opparams=%253F&rart=ANgoxceXWreimS0dGxy0W-LqsfNl62jE_Iql5pxKQIwBYJaCRfGgRCRRs9BOPmCs5Ko2ml5XCuFTi2ZaT1baQC5BeNM-khCxJqZ0huQRCCTYV1jRTjm3iIQ&redirect_uri=https://www.perplexity.ai/api/auth/callback/google&response_type=code&scope=openid+email+profile&service=lso&state=AGvNdU5JJIGO3mQ8IktzlLII4qWbRPyxCAsBysJ7pIM\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Sign in - Google Accounts",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1240975199%3A1751962197846975&client_id=60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com&code_challenge=lh63iZcAYdRY6JwNyfJF-6yiCDHYSAx5h1OkaSpXqpk&code_challenge_method=S256&o2v=2&redirect_uri=https%3A%2F%2Fwww.perplexity.ai%2Fapi%2Fauth%2Fcallback%2Fgoogle&response_type=code&scope=openid+email+profile&service=lso&state=AGvNdU5JJIGO3mQ8IktzlLII4qWbRPyxCAsBysJ7pIM&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOWBgGWMeKqLz9wbcRVWP4ghELWHkOCyRY1kxpFcpXeo7vbm0sxkBiVEVDWGlIc8dn_crD0nvutE19B1tZxv3kPDYFfI3ZNE1lov4XBoV_TDYwYavwCJJYtBGFE-knZ4rw1QRnR4BkaGBShyIDOKgskDATGj96nuXGhz1KKFI_0KR2T48cjLWDR7IQPl2zBqGp7ELgkf6wdwn_zeIsVB9pnXcJOs9Lw5ekGagtOUu9z3YyYqvy8olBID-zGLSU3_2nPgd_tS1jV9vtinfOSXSE7Ymfvv62qaBxL17g0fk88G0-Jbqs0fZTz7Es4vNk7GqO07d8yYFYC69f1k-VaxP9UL2_gX2dsJtZx1sESYnmG8sc7svEL7ZotBXQFu428BBMBO06jPuNyB8fDSZ1egB-UUPLImRSe6fZzkVmQbr5avgeBxUvQ4mxqY_UBiriCVthINrYFp5yRU9zITdyY_VDhEdMwtQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1240975199%253A1751962197846975%26client_id%3D60244564555-30175ip7vg79fobh0rk1sur3pdutj9l1.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fwww.perplexity.ai&rart=ANgoxceXWreimS0dGxy0W-LqsfNl62jE_Iql5pxKQIwBYJaCRfGgRCRRs9BOPmCs5Ko2ml5XCuFTi2ZaT1baQC5BeNM-khCxJqZ0huQRCCTYV1jRTjm3iIQ\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Sign in - Google Accounts",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.perplexity.ai/\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "Perplexity",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.google.com/search?q=perplexity&sei=QtJsaPepFuXq1e8P9qeBqAE\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                },
-                {
-                  "title": "perplexity - Tìm trên Google",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://www.google.com/search?q=perplexity\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                }
-              ]
-            },
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.perplexity.ai/search/hay-giai-thich-giup-toi-va-tim-GpjtZKhzRUaiYqwRgYmwgw?0=d",
-                "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as...",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "hay giai thich giup toi va tim dan chung cho cai statement nay ### Dagster as..."
-            }
-          },
-          {
-            "id": "60051c0d81e293d6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "toggl-report",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "37391eeef740ebe3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "c2dfb2226b058336",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f1b2aa8c59c9af75",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "toggl-report",
               "state": {},
@@ -1144,159 +244,7 @@
             }
           },
           {
-            "id": "aa409a98a789d3d6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "84e54f7e3690a962",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "379e8adebb680949",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "628ddb4787d6d85a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "0b186d67edff61fa",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "996ce4cf8cd71be1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "1074d0becf8a3924",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "7adbf8926cb5079c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "52f23884f37b9317",
+            "id": "8ce345462bc2ae0f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1315,7 +263,7 @@
             }
           },
           {
-            "id": "efaae80bc9ac4d5f",
+            "id": "5ae1e9dbae4a00d6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1334,46 +282,12 @@
             }
           }
         ],
-        "currentTab": 26
-      },
-      {
-        "id": "3ddec1ce2b88068b",
-        "type": "tabs",
-        "dimension": 51.222351571594885,
-        "children": [
-          {
-            "id": "c73acbf79430f06b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
-            }
-          }
-        ]
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1397,64 +311,13 @@
       "obsidian-spaced-repetition-recall:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "58b12c0e3e26673d",
+  "active": "644d44a224de5e37",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Module 3 Data Warehouse with BigQuery.md",
-    "www.googlecalendar.com.md",
-    "conflict-files-obsidian-git.md",
-    "20-30 PARA/Project/MLop1/Diabetes Prediction using Xgboost.md",
-    "20-30 PARA/Project/practical python/practical python.md",
-    "00-09 system/journal/daily/2025/07/2025-07-13.md",
-    "20-30 PARA/Project/SQL/SQL.md",
-    "00-09 system/template/new zettel note.md",
-    "00-09 system/journal/daily/2025/07",
-    "20-30 PARA/Project/Leetcode",
-    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
-    "20-30 PARA/Project/De project mlop2/De project mlop2.md",
-    "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "20-30 PARA/Project/algorithm and design pattern/algorithm and design pattern.md",
-    "00-09 system/journal/daily/2024/09/2024-09-16.md",
-    "demo tasks.md",
-    "resources/Primer on Python Decorators.md",
-    "resources/BW 122 Economic growth (solution).md",
-    "mobile-app",
-    "20-30 PARA/Project/practical python",
-    "vim motion key.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Untitled 1.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md",
-    "00-09 system/template/knowledge base template.md",
-    "202507082127.md",
-    "40-50 technical knowledge hub/data engineer project.md",
-    "00-09 system/template/daily note template.md",
-    "00-09 system/template/book template.md",
-    "90-100 resource archives/Image/IMG-20241021121010805.jpg",
-    "Untitled.canvas",
-    "00-09 system/homepage/dashboard.canvas",
-    "resources",
-    "90-100 resource archives/Image/IMG-20250315221951049.png",
-    "90-100 resource archives/Image/IMG-20250315221950859.png",
-    "90-100 resource archives/Image/IMG-20250315221950857.png",
-    "90-100 resource archives/Image/IMG-20250315221950822.png",
-    "90-100 resource archives/Image/IMG-20250315221950821.png",
-    "90-100 resource archives/Image/IMG-20250315221950820.png",
-    "90-100 resource archives/Image/IMG-20250315221950819.png",
-    "40-50 technical knowledge hub/mlops mle/fundamental mlops1",
-    "40-50 technical knowledge hub/mlops mle",
-    "40-50 technical knowledge hub/data engineer",
-    "40-50 technical knowledge hub",
-    "20-30 PARA/Project/devop lab",
-    "Untitled 1.canvas",
-    "90-100 resource archives/Image/IMG-20241114090915849.png",
-    "90-100 resource archives/Image/IMG-20241114090914865.png",
-    "00-09 system/canvas/DE_project.canvas",
-    "00-09 system/canvas/ART.canvas",
-    "00-09 system/canvas/ENG.canvas",
-    "00-09 system/canvas/SCHOOL PROJECT.canvas",
-    "00-09 system/canvas/MLOP.canvas"
+    "conflict-files-obsidian-git.md"
   ]
 }
