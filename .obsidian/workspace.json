@@ -39,6 +39,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "evergreen note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/evergreen note/evergreen note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"evergreen note\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "DE zach wilson",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
@@ -61,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/evergreen note/evergreen note.md",
+                "file": "resources/Reddit Share your tips and tricks in (neo)vim!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "evergreen note"
+              "title": "Reddit Share your tips and tricks in (neo)vim!"
             }
           },
           {
@@ -78,77 +84,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-09 system/journal/daily/2025/07/2025-07-13.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-13"
-            }
-          },
-          {
-            "id": "19a7b5ed279acecf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "vim",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":5},\"to\":{\"line\":0,\"ch\":5}}}"
-                },
-                {
-                  "title": "50 Useful Vim Commands - VimTricks",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/50 Useful Vim Commands - VimTricks.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"50 Useful Vim Commands - VimTricks\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
-                },
-                {
-                  "title": "vim",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}}}"
-                },
-                {
-                  "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "molecule notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/fleeting note/molecule notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"molecule notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "2025-07-13",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-13.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-13\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":16},\"to\":{\"line\":66,\"ch\":16}},\"scroll\":19.0843567251462}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":26},\"to\":{\"line\":66,\"ch\":26}},\"scroll\":31.180510276399716}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/50 Useful Vim Commands - VimTricks.md",
+                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "50 Useful Vim Commands - VimTricks"
+              "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
             }
           },
           {
@@ -301,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -410,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/50 Useful Vim Commands - VimTricks.md",
+                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -420,7 +373,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 50 Useful Vim Commands - VimTricks"
+              "title": "Backlinks for You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
             }
           },
           {
@@ -438,12 +391,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "resources/50 Useful Vim Commands - VimTricks.md",
+                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 50 Useful Vim Commands - VimTricks"
+              "title": "Outgoing links from You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
             }
           },
           {
@@ -670,7 +623,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -703,14 +656,14 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c7aad8719b02e82e",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
-    "10-20 zettelkasten/topics/vim/vim.md",
+    "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
+    "10-20 zettelkasten/topics/vim/vim.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/evergreen note/evergreen note.md",
-    "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "10-20 zettelkasten/fleeting note/molecule notes.md",
     "{{date}}.md",
     "Draft project cho hai dự án.md",
