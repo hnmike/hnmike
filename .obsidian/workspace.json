@@ -2045,7 +2045,7 @@
             }
           }
         ],
-        "currentTab": 32
+        "currentTab": 4
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2094,7 +2094,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 871.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2123,10 +2123,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d74b4f6aa00fc588",
+  "active": "a83494f60de983fe",
   "lastOpenFiles": [
-    "www.googlecalendar.com.md",
     "10-20 zettelkasten/reference note/topic notes ideas.md",
+    "www.googlecalendar.com.md",
     "2025-07-22.md",
     "10-20 zettelkasten/index/alloy notes.md",
     "10-20 zettelkasten/evergreen note/evergreen note.md",
