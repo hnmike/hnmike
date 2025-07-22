@@ -1295,7 +1295,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -2123,9 +2123,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "1814986886c01a54",
+  "active": "d74b4f6aa00fc588",
   "lastOpenFiles": [
+    "www.googlecalendar.com.md",
     "10-20 zettelkasten/reference note/ideas.md",
+    "2025-07-22.md",
     "10-20 zettelkasten/index/alloy notes.md",
     "10-20 zettelkasten/evergreen note/evergreen note.md",
     "10-20 zettelkasten/fleeting note/molecule notes.md",
@@ -2152,8 +2154,6 @@
     "resources/Architecture.md",
     "orphaned files output.md",
     "empty files.md",
-    "QuickCapture.md",
-    "OLTP & OLAP.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
     "20-30 PARA/Project/DE lab",
