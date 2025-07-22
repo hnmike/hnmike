@@ -12,7 +12,7 @@ tags:
   - vscode
   - editor_configs
 summary: Learn how to configure VS Code with Vim motions, extensions, and keybindings to replicate the speed and efficiency of a Neovim workflow, without the complex setup.
-topic:
+topic: Vim
 ---
 # You Don’t Need Neovim: My VSCode Setup Does 95% of the Same Stuff
 
