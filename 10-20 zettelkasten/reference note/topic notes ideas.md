@@ -1,3 +1,4 @@
 - Co them ca MOC
 - Type note : molecules, atom ,alloy
-- Note has a rela
+- Note has a relationship : subtopic or subtags 
+- Note " is a": 
