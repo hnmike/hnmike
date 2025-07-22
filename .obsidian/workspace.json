@@ -80,6 +80,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "molecule notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/fleeting note/molecule notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"molecule notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "2025-07-13",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-13.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-13\"}",
@@ -90,12 +96,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/fleeting note/molecule notes.md",
+                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "molecule notes"
+              "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
             }
           },
           {
@@ -569,10 +575,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c7aad8719b02e82e",
+  "active": "19a7b5ed279acecf",
   "lastOpenFiles": [
-    "{{date}}.md",
     "10-20 zettelkasten/fleeting note/molecule notes.md",
+    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
+    "{{date}}.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "Draft project cho hai dự án.md",
     "20-30 PARA/Project/practical python/practical python.md",
