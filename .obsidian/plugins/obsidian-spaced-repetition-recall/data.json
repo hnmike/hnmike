@@ -98,7 +98,15 @@
     },
     "previousRelease": "1.12.5.17"
   },
+<<<<<<< HEAD
   "buryDate": "2025-07-22",
+=======
+<<<<<<< HEAD
+  "buryDate": "2025-07-22",
+=======
+  "buryDate": "2025-07-21",
+>>>>>>> origin/main
+>>>>>>> origin/main
   "buryList": [],
   "historyDeck": null
 }
