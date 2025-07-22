@@ -76,6 +76,29 @@
             }
           },
           {
+            "id": "149966c94029a33f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.reddit.com/r/vim/comments/1ixyy73/share_your_tips_and_tricks_in_neovim/",
+                "title": "Share your tips and tricks in (neo)vim! : r/vim",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Share your tips and tricks in (neo)vim! : r/vim"
+            }
+          },
+          {
             "id": "88f7c5cc422b3cde",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -375,7 +398,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-20 zettelkasten/topics/vim/vim.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -385,7 +407,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vim"
+              "title": "Backlinks"
             }
           },
           {
@@ -403,12 +425,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-20 zettelkasten/topics/vim/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from vim"
+              "title": "Outgoing links"
             }
           },
           {
@@ -667,7 +688,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "88f7c5cc422b3cde",
+  "active": "149966c94029a33f",
   "lastOpenFiles": [
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "10-20 zettelkasten/topics/vim/vim.md",
