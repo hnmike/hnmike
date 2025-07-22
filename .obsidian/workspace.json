@@ -375,8 +375,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -697,7 +696,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "19a7b5ed279acecf",
+  "active": "81a51b5314bffc61",
   "lastOpenFiles": [
     "resources/50 Useful Vim Commands - VimTricks.md",
     "10-20 zettelkasten/topics/vim/vim.md",
