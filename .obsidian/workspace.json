@@ -103,6 +103,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "50 Useful Vim Commands - VimTricks",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/50 Useful Vim Commands - VimTricks.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"50 Useful Vim Commands - VimTricks\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
                   "title": "vim",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
@@ -131,12 +137,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/50 Useful Vim Commands - VimTricks.md",
+                "file": "10-20 zettelkasten/topics/vim/vim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "50 Useful Vim Commands - VimTricks"
+              "title": "vim"
             }
           },
           {
@@ -399,7 +405,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "10-20 zettelkasten/topics/vim/vim.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -409,7 +415,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks for vim"
             }
           },
           {
@@ -427,12 +433,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "10-20 zettelkasten/topics/vim/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "Outgoing links from vim"
             }
           },
           {
@@ -658,8 +664,7 @@
               "title": "Graph Analysis"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -694,6 +699,7 @@
   },
   "active": "19a7b5ed279acecf",
   "lastOpenFiles": [
+    "resources/50 Useful Vim Commands - VimTricks.md",
     "10-20 zettelkasten/topics/vim/vim.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/topics/vim",

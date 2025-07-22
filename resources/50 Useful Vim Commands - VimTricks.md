@@ -9,7 +9,8 @@ created: 2025-03-25
 description: Here are 50 use Vim commands for Vim users of all proficiency levels. From beginner to advanced, everyone is sure to find a useful tip.
 tags:
   - vim
-topic:
+type: atomic
+topic: "[[vim]]"
 ---
 >[!summary]+ This webpage provides a list of 50 useful Vim commands for users of all levels, designed to improve their Vim workflow. It includes commands for navigation, editing, and more.
 4.8 ( 301 )
