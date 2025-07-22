@@ -1,2 +1,3 @@
 - Co them ca MOC
-- 
+- Type note : molecules, atom ,alloy
+- Note has a rela
