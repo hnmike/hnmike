@@ -12,6 +12,13 @@ Tags: #project/de_zach_wilson
 
 ---
 
+- [ ] Week 1 dimensional data modeling #project/de_zach_wilson 
+- [ ] Week 2 fact data modeling #project/de_zach_wilson 
+- [ ] Week 3 apache-flink training #project/de_zach_wilson 
+- [ ] Week 4 applying analytical patterns #project/de_zach_wilson 
+- [ ] Week 5 kips and experiments #project/de_zach_wilson 
+- [ ] Week 6 data impact training #project/de_zach_wilson 
+- [ ] Week 7 data pipeline maintainence #project/de_zach_wilson 
   
 
 

@@ -12,8 +12,12 @@ Tags: #project/data_engineer_bootcamp
 
 ---
 
-  
-
+- [ ] Module 1  #project/data_engineer_bootcamp  
+- [ ] Module 2  #project/data_engineer_bootcamp  
+- [ ] Module 3  #project/data_engineer_bootcamp  
+- [ ] Module 4  #project/data_engineer_bootcamp  
+- [ ] Module 5  #project/data_engineer_bootcamp  
+             
 
 ```dataviewjs
 // Lấy thông tin thư mục hiện tại (dùng Templater trong file, không trực tiếp trong DataviewJS)

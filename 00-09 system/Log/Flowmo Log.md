@@ -77,4 +77,10 @@ P
 >>>>>>> origin/main
 >>>>>>> origin/main
 
+<<<<<<< HEAD
  - **End:** 10:25
+=======
+ - **End:** 17:02
+ - **End:** 19:11
+ - **End:** 20:46
+>>>>>>> origin/main
