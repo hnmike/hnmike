@@ -9,3 +9,4 @@
 "smart_blocks:2024-11-13.md##{1}": {"path":null,"last_embed":{"hash":null},"embeddings":{"TaylorAI/bge-micro-v2":{"vec":null}},"text":null,"length":0,"last_read":{"hash":null,"at":0},"class_name":"SmartBlock","key":"2024-11-13.md##{1}","outlinks":[],"size":45,"hash":"8c6445c1a61200bb17f55ce7a10d47fe5d9dc8714a523450d32bba3a3c006451"},
 
 "smart_sources:2024-11-13.md": {"path":"2024-11-13.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1tmowp3","at":1753160636128},"class_name":"SmartSource","last_import":{"mtime":1731668277087,"size":46,"at":1753160636135,"hash":"1tmowp3"},"blocks":{"#":[2,2],"##{1}":[2,2]},"outlinks":[]},
+"smart_sources:2024-11-13.md": {"path":"2024-11-13.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1tmowp3","at":1753238469781},"class_name":"SmartSource","last_import":{"mtime":1731668277087,"size":46,"at":1753238469792,"hash":"1tmowp3"},"blocks":{"#":[2,2],"##{1}":[2,2]},"outlinks":[]},

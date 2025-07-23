@@ -147,10 +147,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "50 Useful Vim Commands - VimTricks",
+                  "title": "2025-07-22",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/50 Useful Vim Commands - VimTricks.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"50 Useful Vim Commands - VimTricks\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2025-07-22.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-22\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
                 },
                 {
                   "state": "{}",
@@ -179,6 +179,35 @@
               },
               "icon": "lucide-file",
               "title": "vim"
+            }
+          },
+          {
+            "id": "00c096223e5a2f19",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2025-07-23",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-23\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":11},\"to\":{\"line\":64,\"ch\":11}},\"scroll\":56.21775054269175}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "job scan match jd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "job scan match jd"
             }
           },
           {
@@ -331,7 +360,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -381,7 +410,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:reddit",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -441,7 +470,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-20 zettelkasten/topics/vim/vim.md",
+                "file": "job scan match jd.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -451,7 +480,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vim"
+              "title": "Backlinks for job scan match jd"
             }
           },
           {
@@ -663,7 +692,26 @@
             }
           },
           {
-            "id": "46c33c4bbfe6dc23",
+            "id": "c7aad8719b02e82e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f500966b48e4d9b6",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -677,12 +725,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
-            "id": "c7aad8719b02e82e",
+            "id": "90b8f3589f904474",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -699,8 +747,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "40f0fcb2a8698912",
+            "type": "leaf",
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "clock",
+              "title": "Timetracker sidebar"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -729,18 +788,22 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "88f7c5cc422b3cde",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
+    "00-09 system/journal/daily/2025/07/2025-07-23.md",
+    "job scan match jd.md",
+    "10-20 zettelkasten/topics/vim/vim.md",
+    "2025-07-22.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
     "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
-    "10-20 zettelkasten/topics/vim/vim.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
@@ -752,7 +815,6 @@
     "20-30 PARA/Project/practical python/practical python.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
     "conflict-files-obsidian-git.md",
-    "2025-07-22.md",
     "10-20 zettelkasten/topics/topic notes ideas.md",
     "10-20 zettelkasten/index/alloy notes.md",
     "10-20 zettelkasten/topics",
@@ -763,8 +825,6 @@
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md",
-    "20-30 PARA/Project/DE lab/DE lab.md",
-    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md"
+    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md"
   ]
 }

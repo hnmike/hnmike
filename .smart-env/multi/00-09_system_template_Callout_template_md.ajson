@@ -11,3 +11,4 @@
 >>>>>>> origin/main
 
 "smart_sources:00-09 system/template/Callout template.md": {"path":"00-09 system/template/Callout template.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"97bal3","at":1753160636138},"class_name":"SmartSource","last_import":{"mtime":1731668277086,"size":102,"at":1753160636141,"hash":"97bal3"},"blocks":{"#":[1,7]},"outlinks":[{"title":"DE_project.canvas","target":"DE_project.canvas","line":7}]},
+"smart_sources:00-09 system/template/Callout template.md": {"path":"00-09 system/template/Callout template.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"97bal3","at":1753238469796},"class_name":"SmartSource","last_import":{"mtime":1731668277086,"size":102,"at":1753238469813,"hash":"97bal3"},"blocks":{"#":[1,7]},"outlinks":[{"title":"DE_project.canvas","target":"DE_project.canvas","line":7}]},
