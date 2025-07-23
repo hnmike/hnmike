@@ -12,6 +12,11 @@
       "folder": "20-30 technical knowledge hub/data engineer",
       "tag": "#data_engineer",
       "pattern": ""
+    },
+    {
+      "folder": "10-20 zettelkasten/fleeting note",
+      "tag": "#atomic",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,
