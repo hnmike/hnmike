@@ -192,6 +192,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "job scan match jd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"job scan match jd.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"job scan match jd\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "2025-07-23",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-23\"}",
@@ -202,12 +208,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "job scan match jd.md",
+                "file": "202507230942.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "job scan match jd"
+              "title": "202507230942"
             }
           },
           {
@@ -470,7 +476,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "job scan match jd.md",
+                "file": "202507230942.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -480,7 +486,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for job scan match jd"
+              "title": "Backlinks for 202507230942"
             }
           },
           {
@@ -751,6 +757,15 @@
           {
             "id": "40f0fcb2a8698912",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "timetracker-sidebar",
               "state": {},
@@ -794,8 +809,9 @@
   },
   "active": "00c096223e5a2f19",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "job scan match jd.md",
+    "202507230942.md",
+    "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "10-20 zettelkasten/topics/vim/vim.md",
     "2025-07-22.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
@@ -824,7 +840,6 @@
     "10-20 zettelkasten",
     "20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
-    "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 5 Batch Processing with spark.md"
+    "20-30 PARA/Project/DE zach wilson/lab 1.md"
   ]
 }
