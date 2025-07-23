@@ -677,8 +677,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -729,8 +729,7 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "smart-connections:Open: View Smart Connections": false
     }
   },
   "active": "88f7c5cc422b3cde",
