@@ -401,29 +401,6 @@
             }
           },
           {
-            "id": "efd61d66fc33678e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.topcv.vn/viec-lam/data-engineer-fresher/1808181.html?ta_source=JobSearchList_LinkDetail&u_sr_id=Yx04OqoMxrCTq5BcZaL8BXWezDO84aS4EyyU6U28_1753238414",
-                "title": "Tuyển Data Engineer Fresher làm việc tại CÔNG TY TNHH NGÔI SAO DŨNG CẢM",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Tuyển Data Engineer Fresher làm việc tại CÔNG TY TNHH NGÔI SAO DŨNG CẢM"
-            }
-          },
-          {
             "id": "fe9316a32807e9a0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -554,7 +531,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -663,6 +640,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -672,7 +650,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 202507230956 job data engineer"
             }
           },
           {
@@ -690,11 +668,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 202507230956 job data engineer"
             }
           },
           {
@@ -991,7 +970,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "efd61d66fc33678e",
+  "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
