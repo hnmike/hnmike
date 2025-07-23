@@ -144,7 +144,7 @@
             "id": "88f7c5cc422b3cde",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
                   "title": "2025-07-22",
@@ -153,14 +153,14 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "vim",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":5},\"to\":{\"line\":0,\"ch\":5}},\"scroll\":0}"
                 },
                 {
-                  "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "2025-07-13",
@@ -173,12 +173,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/topics/vim/vim.md",
+                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vim"
+              "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
             }
           },
           {
@@ -267,6 +267,18 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "job",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/job/job.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"job\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}},\"scroll\":0}"
+                },
+                {
+                  "title": "job scan match jd",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"job scan match jd.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"job scan match jd\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "2025-07-23",
@@ -555,12 +567,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-20 zettelkasten/topics/vim/vim.md",
+                "file": "job scan match jd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from vim"
+              "title": "Outgoing links from job scan match jd"
             }
           },
           {
@@ -824,8 +836,7 @@
               "title": "Timetracker sidebar"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -860,7 +871,12 @@
   },
   "active": "9c297decbc8b8ce9",
   "lastOpenFiles": [
+    "10-20 zettelkasten/topics/job/job.md",
     "job scan match jd.md",
+    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
+    "10-20 zettelkasten/topics/vim/vim.md",
+    "10-20 zettelkasten/topics/jon/Untitled",
+    "10-20 zettelkasten/topics/job",
     "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "00-09 system/template/atomic template.md",
     "00-09 system/template/area_note template.md",
@@ -868,7 +884,6 @@
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/daily note template.md",
     "202507230942.md",
-    "10-20 zettelkasten/topics/vim/vim.md",
     "2025-07-22.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
@@ -877,7 +892,6 @@
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
-    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/evergreen note/evergreen note.md",
@@ -886,7 +900,6 @@
     "Draft project cho hai dự án.md",
     "20-30 PARA/Project/practical python/practical python.md",
     "20-30 PARA/Project/DE zach wilson/DE zach wilson.md",
-    "conflict-files-obsidian-git.md",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/fleeting note",
     "10-20 zettelkasten/index",
