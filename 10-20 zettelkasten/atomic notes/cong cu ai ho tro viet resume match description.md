@@ -100,8 +100,8 @@ Cách này kết hợp điểm mạnh gợi ý keyword của Rezi với máy qu�
     - Jobscan/Teal Match Score ≥75, ATS parsability 100%.
     - Tải PDF/Docx, rename theo “Họ-VịTrí-CôngTy”.
 
-## Rezi co tot khong? Tham khao nhung trang de xuat khac 
-[Is this really how Jobscan is supposed to work? : r/resumes](https://www.reddit.com/r/resumes/comments/1fd2jsf/is_this_really_how_jobscan_is_supposed_to_work/)
+
+##  [Is this really how Jobscan is supposed to work? : r/resumes](https://www.reddit.com/r/resumes/comments/1fd2jsf/is_this_really_how_jobscan_is_supposed_to_work/)
 
 
 
