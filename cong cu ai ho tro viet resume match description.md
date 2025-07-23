@@ -2,8 +2,9 @@
 url: 
 related: 
 aliases: 
-tags: 
-type: atomic
+tags:
+  - "#atom"
+type: area_family
 topic: "[[job]]"
 summary:
 ---
