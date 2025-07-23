@@ -364,6 +364,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":16.35325833799474}"
+                },
+                {
                   "title": "DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp\"}",
@@ -410,12 +416,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -658,7 +664,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -668,7 +674,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
+              "title": "Backlinks for DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp"
             }
           },
           {
@@ -1010,6 +1016,7 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
@@ -1037,7 +1044,6 @@
     "resources/Reddit Send full project search to qflist without plugins (required ripgrep).md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources/50 Useful Vim Commands - VimTricks.md",
-    "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",
