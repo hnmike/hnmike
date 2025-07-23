@@ -58,7 +58,7 @@ Thị trường tuyển dụng ngày càng cạnh tranh khiến việc tối ưu
 - **Khi nào chọn**: Chỉnh sửa CV sẵn có, cần phân tích ATS đa tiêu chí.
 
 
-### Teal
+### Teal 
 
 - **Điểm mạnh**:
     - “Resume Match Score” màu—đỏ/vàng/xanh dễ hiểu[^10].
