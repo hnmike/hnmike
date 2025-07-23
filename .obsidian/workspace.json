@@ -364,6 +364,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "202507230956 job data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
                   "title": "atomic notes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/atomic notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic notes\"}",
@@ -392,12 +410,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202507230956 job data engineer"
+              "title": "DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -640,7 +658,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+                "file": "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -650,7 +668,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 202507230956 job data engineer"
+              "title": "Backlinks for DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -881,7 +899,45 @@
             }
           },
           {
-            "id": "f500966b48e4d9b6",
+            "id": "90b8f3589f904474",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "40f0fcb2a8698912",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "03f4d5e72c89073d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -900,7 +956,7 @@
             }
           },
           {
-            "id": "90b8f3589f904474",
+            "id": "22ed5d446ed495b1",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -917,27 +973,9 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
-          },
-          {
-            "id": "40f0fcb2a8698912",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "timetracker-sidebar",
-              "state": {},
-              "icon": "clock",
-              "title": "Timetracker sidebar"
-            }
           }
-        ]
+        ],
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -972,6 +1010,8 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
@@ -999,8 +1039,6 @@
     "resources/50 Useful Vim Commands - VimTricks.md",
     "00-09 system/journal/daily/2025/07/2025-07-13.md",
     "10-20 zettelkasten/topics/vim",
-    "{{date}}.md",
-    "Draft project cho hai dự án.md",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",
     "10-20 zettelkasten/index",
