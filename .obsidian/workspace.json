@@ -829,7 +829,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -860,8 +860,8 @@
   },
   "active": "9c297decbc8b8ce9",
   "lastOpenFiles": [
-    "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "job scan match jd.md",
+    "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "00-09 system/template/atomic template.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/block reference.md",
