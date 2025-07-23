@@ -259,6 +259,35 @@
             }
           },
           {
+            "id": "9c297decbc8b8ce9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2025-07-23",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-23\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":11},\"to\":{\"line\":64,\"ch\":11}},\"scroll\":58.409741316931985}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "job scan match jd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "job scan match jd"
+            }
+          },
+          {
             "id": "fe9316a32807e9a0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -389,7 +418,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -498,7 +527,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-09 system/template/atomic template.md",
+                "file": "job scan match jd.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -508,7 +537,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for atomic template"
+              "title": "Backlinks for job scan match jd"
             }
           },
           {
@@ -829,16 +858,16 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "00c096223e5a2f19",
+  "active": "9c297decbc8b8ce9",
   "lastOpenFiles": [
-    "00-09 system/template/area_note template.md",
+    "00-09 system/journal/daily/2025/07/2025-07-23.md",
+    "job scan match jd.md",
     "00-09 system/template/atomic template.md",
+    "00-09 system/template/area_note template.md",
     "00-09 system/template/block reference.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/daily note template.md",
     "202507230942.md",
-    "job scan match jd.md",
-    "00-09 system/journal/daily/2025/07/2025-07-23.md",
     "10-20 zettelkasten/topics/vim/vim.md",
     "2025-07-22.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
