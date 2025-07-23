@@ -8,6 +8,5 @@ tags:
   - atom
 type: atom
 topic: "[[job]]"
-summary: 
-type_tag: "#atom"
+summary:
 ---
