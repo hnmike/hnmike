@@ -104,7 +104,7 @@ Cách này kết hợp điểm mạnh gợi ý keyword của Rezi với máy qu�
 ##  [Is this really how Jobscan is supposed to work? : r/resumes](https://www.reddit.com/r/resumes/comments/1fd2jsf/is_this_really_how_jobscan_is_supposed_to_work/)
 
 - Teal co nhieu template nhung cach viet lai khong phu hop voi nhieu job descriptions 
-- Dung ai ra sao de toi uu match duoc voi cac jd nhat va can nhieu bo 
+- Dung ai ra sao de toi uu match duoc voi cac jd nhat va can xu ly cho nhieu bo resume ? #ideas 
 
 <div style="text-align: center">⁂</div>
 

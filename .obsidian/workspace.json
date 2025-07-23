@@ -569,7 +569,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ideas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -599,7 +599,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -958,7 +959,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "9831e2ff3f1ce214",
+  "active": "2c028fff4036bc9e",
   "lastOpenFiles": [
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
