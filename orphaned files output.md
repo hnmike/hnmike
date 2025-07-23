@@ -145,7 +145,7 @@
 - [[TASK TEMPLATE.md]]
 - [[book template.md]]
 - [[Synergy of the PaaS and modern data stack.md]]
-- [[Untitled 1.md]]
+- [[202507230956 job data engineer]]
 - [[lab 1.md]]
 - [[new file.md]]
 - [[20-30 PARA/Project/DE zach wilson/Untitled.md]]
