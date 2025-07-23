@@ -364,6 +364,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "atomic notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/atomic notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "cong cu ai ho tro viet resume match description",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cong cu ai ho tro viet resume match description\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":96},\"to\":{\"line\":106,\"ch\":96}},\"scroll\":6.8483575784935145}"
+                },
+                {
                   "title": "202507230956 job data engineer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
@@ -380,12 +392,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
+                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cong cu ai ho tro viet resume match description"
+              "title": "202507230956 job data engineer"
+            }
+          },
+          {
+            "id": "efd61d66fc33678e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.topcv.vn/viec-lam/data-engineer-fresher/1808181.html?ta_source=JobSearchList_LinkDetail&u_sr_id=Yx04OqoMxrCTq5BcZaL8BXWezDO84aS4EyyU6U28_1753238414",
+                "title": "Tuyển Data Engineer Fresher làm việc tại CÔNG TY TNHH NGÔI SAO DŨNG CẢM",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Tuyển Data Engineer Fresher làm việc tại CÔNG TY TNHH NGÔI SAO DŨNG CẢM"
             }
           },
           {
@@ -519,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -599,8 +634,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -629,7 +663,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -639,7 +672,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cong cu ai ho tro viet resume match description"
+              "title": "Backlinks"
             }
           },
           {
@@ -657,12 +690,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cong cu ai ho tro viet resume match description"
+              "title": "Outgoing links"
             }
           },
           {
@@ -959,13 +991,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "2c028fff4036bc9e",
+  "active": "efd61d66fc33678e",
   "lastOpenFiles": [
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+    "10-20 zettelkasten/atomic notes/atomic notes.md",
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
     "00-09 system/template/atomic template.md",
     "Untitled.md",
-    "10-20 zettelkasten/atomic notes/atomic notes.md",
     "10-20 zettelkasten/molecules notes/molecule notes.md",
     "10-20 zettelkasten/topics/job/job.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
