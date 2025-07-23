@@ -185,17 +185,17 @@
             "id": "00c096223e5a2f19",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "atomic template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/atomic template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "area_note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
                 },
                 {
                   "title": "atomic template",
@@ -234,7 +234,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
                 },
                 {
-                  "title": "job scan match jd",
+                  "title": "cong cu ai ho tro viet resume match description",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"job scan match jd\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
@@ -250,12 +250,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/atomic template.md",
+                "file": "00-09 system/template/area_note template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "atomic template"
+              "title": "area_note template"
             }
           },
           {
@@ -357,8 +357,14 @@
             "id": "9831e2ff3f1ce214",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "atomic template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/atomic template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -374,12 +380,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202507230956.md",
+                "file": "202507230956 job data engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202507230956"
+              "title": "202507230956 job data engineer"
             }
           },
           {
@@ -622,7 +628,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202507230956.md",
+                "file": "202507230956 job data engineer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -632,7 +638,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 202507230956"
+              "title": "Backlinks for 202507230956 job data engineer"
             }
           },
           {
@@ -650,12 +656,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "202507230956.md",
+                "file": "202507230956 job data engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 202507230956"
+              "title": "Outgoing links from 202507230956 job data engineer"
             }
           },
           {
@@ -954,11 +960,11 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
+    "00-09 system/template/atomic template.md",
+    "202507230956 job data engineer.md",
     "Untitled.md",
-    "202507230956.md",
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
-    "00-09 system/template/atomic template.md",
     "10-20 zettelkasten/molecules notes/molecule notes.md",
     "10-20 zettelkasten/topics/job/job.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
