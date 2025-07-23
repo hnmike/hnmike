@@ -10,6 +10,7 @@ summary:
 ---
 # Những Công Cụ AI Hỗ Trợ Viết CV/Resume “Match” Nhất Với Job Description
 
+
 **Tổng quan**
 Thị trường tuyển dụng ngày càng cạnh tranh khiến việc tối ưu hóa CV theo từng tin tuyển dụng (Job Description – JD) trở nên bắt buộc. Hàng loạt nền tảng AI đã ra đời để tự động gợi ý từ khóa, cấu trúc, thậm chí chấm điểm mức độ “match” giữa CV và JD. Báo cáo dưới đây tổng hợp chi tiết 11 công cụ AI nổi bật, đánh giá điểm mạnh–điểm yếu, chi phí, chỉ số người dùng, đồng thời gợi ý chiến lược chọn “ứng cử viên số 1” cho nhu cầu cá nhân.
 
