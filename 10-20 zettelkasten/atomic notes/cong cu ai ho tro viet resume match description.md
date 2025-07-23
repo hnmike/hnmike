@@ -103,7 +103,7 @@ Cách này kết hợp điểm mạnh gợi ý keyword của Rezi với máy qu�
 
 ##  [Is this really how Jobscan is supposed to work? : r/resumes](https://www.reddit.com/r/resumes/comments/1fd2jsf/is_this_really_how_jobscan_is_supposed_to_work/)
 
-
+- Teal co nhieu template nhung cach viet lai khong phu hop voi cv 
 
 
 <div style="text-align: center">⁂</div>
