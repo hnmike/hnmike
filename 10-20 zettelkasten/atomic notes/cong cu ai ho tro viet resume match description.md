@@ -100,17 +100,11 @@ Cách này kết hợp điểm mạnh gợi ý keyword của Rezi với máy qu�
     - Jobscan/Teal Match Score ≥75, ATS parsability 100%.
     - Tải PDF/Docx, rename theo “Họ-VịTrí-CôngTy”.
 
-## Phụ lục A – Phân tích chi tiết công cụ 4–11
+## Rezi co tot khong? Tham khao nhung trang de xuat khac 
+[Is this really how Jobscan is supposed to work? : r/resumes](https://www.reddit.com/r/resumes/comments/1fd2jsf/is_this_really_how_jobscan_is_supposed_to_work/)
 
-*(bao gồm ưu/nhược điểm, giá, case study, mẹo sử dụng – 11 trang)*
 
-## Phụ lục B – Từ khóa ATS phổ biến theo ngành
 
-*(Tech, Marketing, Finance, HR, Design – 5 trang)*
-
-## Phụ lục C – Câu hỏi thường gặp (FAQ) về ATS \& AI Resume
-
-*(khái niệm ATS, tỷ lệ CV vượt ATS, cách tránh “keyword stuffing”, độ bảo mật dữ liệu – 4 trang)*
 
 <div style="text-align: center">⁂</div>
 
