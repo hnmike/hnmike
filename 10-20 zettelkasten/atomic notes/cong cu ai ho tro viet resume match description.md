@@ -4,7 +4,7 @@ related:
 aliases: 
 tags:
   - "#atom"
-type: area_family
+note_type: " #atom"
 topic: "[[job]]"
 summary:
 ---
