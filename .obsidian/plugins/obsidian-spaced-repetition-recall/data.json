@@ -96,13 +96,9 @@
         "maxLinkFactor": 1
       }
     },
-    "previousRelease": "1.12.5.17"
+    "previousRelease": "0.0.0"
   },
-<<<<<<< HEAD
-  "buryDate": "2025-07-22",
-=======
-  "buryDate": "2025-07-21",
->>>>>>> origin/main
+  "buryDate": "2025-07-24",
   "buryList": [],
   "historyDeck": null
 }

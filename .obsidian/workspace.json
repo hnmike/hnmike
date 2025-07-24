@@ -2007,7 +2007,26 @@
             }
           },
           {
-            "id": "4c2e614e5b8df367",
+            "id": "c49c3c9ad12a9574",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ee2cc6c5c19a4b73",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2026,7 +2045,7 @@
             }
           },
           {
-            "id": "c49c3c9ad12a9574",
+            "id": "d382ce0d7357e4cb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -2045,7 +2064,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 33
       },
       {
         "id": "e23e01481eaf6e93",
@@ -2123,7 +2142,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "a83494f60de983fe",
+  "active": "d382ce0d7357e4cb",
   "lastOpenFiles": [
     "10-20 zettelkasten/reference note/topic notes ideas.md",
     "www.googlecalendar.com.md",
