@@ -1293,9 +1293,32 @@
               "icon": "lucide-file",
               "title": "topic notes ideas"
             }
+          },
+          {
+            "id": "6139fcd4f9284cba",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -2152,16 +2175,32 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d382ce0d7357e4cb",
+  "active": "6139fcd4f9284cba",
   "lastOpenFiles": [
     "10-20 zettelkasten/reference note/topic notes ideas.md",
+    "conflict-files-obsidian-git.md",
+    "{{date}}.md",
+    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
+    "Untitled.md",
+    "202507230942.md",
+    "10-20 zettelkasten/topics/vim/vim.md",
+    "10-20 zettelkasten/topics/job/job.md",
+    "10-20 zettelkasten/topics/vim",
+    "10-20 zettelkasten/topics/topic notes ideas.md",
+    "10-20 zettelkasten/topics/job",
+    "10-20 zettelkasten/topics",
+    "10-20 zettelkasten/molecules notes/molecule notes.md",
+    "10-20 zettelkasten/molecules notes",
+    "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
+    "10-20 zettelkasten/atomic notes/atomic notes.md",
+    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+    "10-20 zettelkasten/atomic notes",
     "www.googlecalendar.com.md",
     "2025-07-22.md",
     "10-20 zettelkasten/index/alloy notes.md",
     "10-20 zettelkasten/evergreen note/evergreen note.md",
     "10-20 zettelkasten/fleeting note/molecule notes.md",
     "20-30 PARA/Project/DE zach wilson/lab 1.md",
-    "conflict-files-obsidian-git.md",
     "20-30 PARA/The software design mindset",
     "20-30 PARA/Project/practical python/practical python.md",
     "20-30 PARA/Project/practical python",
@@ -2172,24 +2211,8 @@
     "resources/Primer on Python Decorators.md",
     "Running Apache Spark on Kubernetes (202412081728).md",
     "resources/dbt and DuckDB.md",
-    "resources/Synergy of the PaaS and modern data stack.md",
-    "resources/Serving layer.md",
-    "resources/Introduction.md",
-    "resources/Development.md",
-    "resources/Data layers.md",
-    "resources/Dagster.md",
-    "resources/Components.md",
-    "resources/Challenges of DuckDB + dbt.md",
-    "resources/Architecture.md",
-    "orphaned files output.md",
-    "empty files.md",
     "00-09 system/journal/weekly/2025/03",
     "00-09 system/journal/weekly/2025",
-    "20-30 PARA/Project/DE lab",
-    "Clippings",
-    "20-30 PARA/Project/De project mlop2",
-    "20-30 PARA/Project/algorithm and design pattern/Mlop2",
-    "20-30 PARA/Project/SQL",
     "00-09 system/homepage/dashboard.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
