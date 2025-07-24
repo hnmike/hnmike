@@ -2062,6 +2062,16 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "b9274c32cd0837b6",
+            "type": "leaf",
+            "state": {
+              "type": "timetracker-sidebar",
+              "state": {},
+              "icon": "clock",
+              "title": "Timetracker sidebar"
+            }
           }
         ],
         "currentTab": 33
