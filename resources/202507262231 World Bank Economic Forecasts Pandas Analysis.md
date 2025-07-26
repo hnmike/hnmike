@@ -13,6 +13,7 @@ type :
 >[!summary]+ This Bamboo Weekly issue (#122) explores global economic growth using World Bank data. It focuses on data cleaning with Pandas, multi-indexes, window functions, and plotting. It analyzes economic forecasts, identifying countries with the largest forecast downgrades and comparing growth projections across different regions. The analysis involves reading Excel files, handling missing data, and creating visualizations to understand economic trends.
 13 min read · Tags:
 
+
 Get better at: Excel files, cleaning data, working with multi-indexes, window functions, and plotting
 
 ![BW #122: Economic growth (solution)](https://www.bambooweekly.com/content/images/size/w320/format/webp/2025/06/ChatGPT-Image-Jun-12--2025--02_07_15-AM.png)
