@@ -628,7 +628,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1087,11 +1087,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d0416ea4201a115b",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
     "resources/Data layers.md",
-    "00-09 system/template/title.md",
     "00-09 system/template/summary.md",
+    "00-09 system/template/title.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "00-09 system/template/tag.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
