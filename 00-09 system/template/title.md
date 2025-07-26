@@ -1,8 +1,9 @@
 <%*
-RequestUrl ({
+window.Fetch ("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o", {
     Method: "POST",
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o",
-    ContentType: "application/json",
+    Headers: {
+        "Content-Type": "application/json"
+    },
     Body: JSON.Stringify ({
         Contents: [{
             Parts: [
@@ -12,6 +13,8 @@ RequestUrl ({
         }]
     })
 }). Then (function (response) {
-    Tp.File.Rename (response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ());
+    Return response.Json ();
+}). Then (function (data) {
+    Tp.File.Rename (data. Candidates[0]. Content. Parts[0]. Text.Trim ());
 });
 %> 
