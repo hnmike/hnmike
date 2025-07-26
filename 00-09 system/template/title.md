@@ -29,7 +29,11 @@ parts: [
 
 }).then(function(r){
 
+// Add date prefix
+
 tp.file.rename(
+
+tp.date.now("YYYYMMDDHHmm") + " " +
 
 r.json.candidates[0].content.parts[0].text
 

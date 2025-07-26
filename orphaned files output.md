@@ -138,7 +138,7 @@
 - [[Data partitioning challenge.md]]
 - [[field playlist.md]]
 - [[setup va huong dan.md]]
-- [[data quality issues.md]]
+- [[202507262132 Shift-Left Data Quality]]
 - [[area_note template.md]]
 - [[Review Notes.md]]
 - [[2024-W32.md]]
