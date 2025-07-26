@@ -323,6 +323,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "note review",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/note review.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"note review\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Data layers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
                   "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
@@ -339,12 +351,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Data layers.md",
+                "file": "00-09 system/template/summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data layers"
+              "title": "summary"
             }
           },
           {
@@ -1183,10 +1195,11 @@
   },
   "active": "d0416ea4201a115b",
   "lastOpenFiles": [
+    "00-09 system/template/note review.md",
+    "resources/Data layers.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Components.md",
     "00-09 system/template/tag.md",
-    "resources/Data layers.md",
     "resources/data quality issues.md",
     "00-09 system/template/area_note template.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
@@ -1210,7 +1223,6 @@
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "00-09 system/journal/daily/2025/07/2025-07-23.md",
-    "00-09 system/template/block reference.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",

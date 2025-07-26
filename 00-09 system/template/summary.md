@@ -1,6 +1,5 @@
 <%*
-// IMPORTANT: Replace with your actual API key!
-Const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+<%* ConstGEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 
 // --- English Summary Prompt ---
 Const summary_prompt = `You are an expert document summarizer. Your task is to thoroughly summarize the provided text to extract its core message and central themes. The summary should be written so that the target audience can clearly understand the text's content without reading the original.
