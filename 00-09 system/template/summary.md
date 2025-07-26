@@ -1,6 +1,6 @@
 <%*
 Function generateSummary () {
-    Var apiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+    Var apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
     Var summaryPrompt = "You are a content summarizer. Create a concise Vietnamese summary of the following text. Focus on key points and main ideas.";
     Var fileContent = tp. File. Content;
     var apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
