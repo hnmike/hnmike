@@ -1,6 +1,6 @@
 <%*
 // IMPORTANT: Replace with your actual API key!
-Const GEMINI_API_KEY="YOUR_API_KEY_HERE";
+Const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 
 // --- English Summary Prompt ---
 Const summary_prompt = `You are an expert document summarizer. Your task is to thoroughly summarize the provided text to extract its core message and central themes. The summary should be written so that the target audience can clearly understand the text's content without reading the original.
@@ -18,7 +18,7 @@ Const fileContent = tp. File. Content;
 // Send request to Gemini API
 Const response = await tp.Obsidian.RequestUrl ({
     Method: "POST",
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" + GEMINI_API_KEY,
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" + AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o,
     ContentType: "application/json",
     Body: JSON.Stringify ({
         Contents: [{
