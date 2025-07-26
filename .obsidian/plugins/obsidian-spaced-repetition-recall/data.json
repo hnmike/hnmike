@@ -66,6 +66,9 @@
     "autoNextNote": false,
     "mixDue": 3,
     "mixNew": 2,
+    "mixCardNote": false,
+    "mixCard": 4,
+    "mixNote": 1,
     "reviewResponseFloatBar": false,
     "responseBarPositionPercentage": 5,
     "reviewingNoteDirectly": false,
@@ -96,13 +99,9 @@
         "maxLinkFactor": 1
       }
     },
-    "previousRelease": "1.12.5.17"
+    "previousRelease": "0.0.0"
   },
-<<<<<<< HEAD
-  "buryDate": "2025-07-26",
-=======
-  "buryDate": "2025-07-24",
->>>>>>> origin/main
+  "buryDate": "",
   "buryList": [],
   "historyDeck": null
 }
