@@ -88,7 +88,7 @@ const response = await requestUrl({
 
 method: "POST",
 
-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + GEMINI_API_KEY,
+url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o",
 
 contentType: "application/json",
 
