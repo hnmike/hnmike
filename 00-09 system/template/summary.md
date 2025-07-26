@@ -1,3 +1,6 @@
+---
+aliases:
+---
 <%*
 // IMPORTANT: Replace with your actual API key!
 Const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
