@@ -4,7 +4,7 @@ tags: []
 
 
 
-> [!summary] Tóm tắt
+> [!summary]  Tóm tắt
 > This text describes a paradigm shift in data processing, moving from traditional "Big Data" solutions to more scalable "Big RAM" tools like DuckDB, DataFusion, and Polars, leveraging multicore processors. It highlights the utility of the dbt extension for DuckDB in building complex data pipelines, structured into three distinct layers:
 > 
 > 1.  **Source Layer:** Defines the initial ingress points for data, whether local or remote.
