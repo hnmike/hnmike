@@ -1,53 +1,27 @@
 <%*
+Async function generateTitle () {
+    Const apiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+    Const titlePrompt = "You are a title generator. You will give a succinct and compelling title for the following text. The title must not contain invalid filename characters like backslashes, forward slashes, or colons. Generate only the title as your response. The response language is Vietnamese.";
+    Const fileContent = tp. File. Content;
+    const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
-async function generateTitle() {
+    Const response = await requestUrl ({
+        Method: "POST",
+        Url: apiUrl,
+        ContentType: "application/json",
+        Body: JSON.Stringify ({
+            Contents: [{
+                Parts: [
+                    {text: titlePrompt},
+                    {text: fileContent}
+                ]
+            }]
+        })
+    });
 
-const apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
-
-const titlePrompt = "You are a title generator. You will give a succinct and compelling title for the following text. The title must not contain invalid filename characters like backslashes, forward slashes, or colons. Generate only the title as your response. The response language is Vietnamese.";
-
-const fileContent = tp.file.content;
-
-const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
-
-  
-
-const response = await requestUrl({
-
-method: "POST",
-
-url: apiUrl,
-
-contentType: "application/json",
-
-body: JSON.stringify({
-
-contents: [{
-
-parts: [
-
-{text: titlePrompt},
-
-{text: fileContent}
-
-]
-
-}]
-
-})
-
-});
-
-  
-
-const title = response.json.candidates[0].content.parts[0].text.trim();
-
-await tp.file.rename(title);
-
+    Const title = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
+    Await tp.File.Rename (title);
 }
 
-  
-
-await generateTitle();
-
-%>
+Await generateTitle ();
+%> 
