@@ -192,6 +192,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2460},\"to\":{\"line\":0,\"ch\":2460}},\"scroll\":0.7635674907163913}"
+                },
+                {
                   "title": "Data layers",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
@@ -274,12 +280,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/tag.md",
+                "file": "resources/Data layers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "Data layers"
             }
           },
           {
@@ -1118,9 +1124,9 @@
   },
   "active": "00c096223e5a2f19",
   "lastOpenFiles": [
+    "00-09 system/template/tag.md",
     "resources/Data layers.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-    "00-09 system/template/tag.md",
     "00-09 system/template/area_note template.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/title.md",
