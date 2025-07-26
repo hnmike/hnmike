@@ -65,13 +65,5 @@
       ],
       "key": "I"
     }
-  ],
-  "templater-obsidian:00-09 system/template/summary.md": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "I"
-    }
   ]
 }
