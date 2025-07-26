@@ -1,16 +1,5 @@
-<%*
-<%* ConstGEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 
-// --- English Summary Prompt ---
-Const summary_prompt = `You are an expert document summarizer. Your task is to thoroughly summarize the provided text to extract its core message and central themes. The summary should be written so that the target audience can clearly understand the text's content without reading the original.
-
-- **Focus:** Concentrate on effectively conveying the key ideas.
-- **Length:** Keep it clear and concise, around 200 words or 20% of the original's length.
-- **Include:** You must include the main research findings, key arguments, and supporting evidence.
-- **Exclude:** Do not include personal opinions or redundant explanations.
-- **Quality:** The final summary must be accurate, complete, logically coherent, and highly readable.
-- **Language:** Respond in Vietnamese. Do not include a title.`;
-
+<%* const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 // Get the content of the current note
 Const fileContent = tp. File. Content;
 
