@@ -63,5 +63,6 @@
   "obsidian-local-rest-api",
   "find-unlinked-files",
   "smart-connections",
-  "better-export-pdf"
+  "better-export-pdf",
+  "cmdr"
 ]
