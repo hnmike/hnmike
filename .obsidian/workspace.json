@@ -651,7 +651,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1110,11 +1110,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "fc2f26914254514a",
+  "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
+    "00-09 system/template/tag.md",
     "resources/Data layers.md",
     "00-09 system/template/summary.md",
-    "00-09 system/template/tag.md",
     "00-09 system/template/title.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/note review.md",
