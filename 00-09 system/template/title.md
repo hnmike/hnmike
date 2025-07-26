@@ -1,12 +1,11 @@
 
 <%*
 FileText = tp.File.Content;
-ApiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla 96 MNzekSSC 7 o";
+ApiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 Prompt = "Generate Vietnamese title for this text";
 
 fetch ("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + apiKey, {
   Method: "POST",
-  Headers: {"Content-Type": "application/json"},
   Body: '{"contents":[{"parts":[{"text": "' + prompt + '"},{"text": "' + fileText + '"}]}]}'
 })
 .then (res => res.Json ())

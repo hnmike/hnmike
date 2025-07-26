@@ -632,7 +632,7 @@
               "type": "markdown",
               "state": {
                 "file": "resources/data quality issues.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -640,7 +640,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1099,20 +1099,20 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d9dc138d632282d3",
+  "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
-    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
-    "resources/Data layers.md",
-    "00-09 system/template/summary.md",
     "00-09 system/template/title.md",
     "00-09 system/template/tag.md",
+    "00-09 system/template/summary.md",
+    "resources/data quality issues.md",
+    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
+    "resources/Data layers.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/note review.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Components.md",
-    "resources/data quality issues.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/book template.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
