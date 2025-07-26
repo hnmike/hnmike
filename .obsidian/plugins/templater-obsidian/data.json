@@ -26,7 +26,9 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "00-09 system/template/tag.md"
+    "00-09 system/template/tag.md",
+    "00-09 system/template/summary.md",
+    "00-09 system/template/title.md"
   ],
   "startup_templates": [
     "",
