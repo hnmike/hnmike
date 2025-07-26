@@ -1058,7 +1058,7 @@
             }
           },
           {
-            "id": "a8a992efd5988708",
+            "id": "fc2f26914254514a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1110,7 +1110,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "00c096223e5a2f19",
+  "active": "fc2f26914254514a",
   "lastOpenFiles": [
     "resources/Data layers.md",
     "00-09 system/template/summary.md",

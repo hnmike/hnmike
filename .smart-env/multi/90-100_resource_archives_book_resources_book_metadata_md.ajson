@@ -23,3 +23,5 @@
 =======
 >>>>>>> origin/main
 >>>>>>> origin/main
+
+"smart_sources:90-100 resource archives/book resources/book metadata.md": {"path":"90-100 resource archives/book resources/book metadata.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1828z2u","at":1753533526025},"class_name":"SmartSource","last_import":{"mtime":1731668277087,"size":3717,"at":1753533526037,"hash":"1828z2u"},"blocks":{"#---frontmatter---":[1,4],"#":[5,122]},"outlinks":[{"title":"coverimg|100","target":"\" + cover + \"","line":8},{"title":"coverimg|100","target":"\" + cover + \"","line":29},{"title":"coverimg|100","target":"\" + cover + \"","line":50},{"title":"coverimg|100","target":"\" + cover + \"","line":71},{"title":"coverimg|100","target":"\" + cover + \"","line":92}],"metadata":{"cssclasses":["cards"]}},

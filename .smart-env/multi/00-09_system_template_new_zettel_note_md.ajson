@@ -26,3 +26,5 @@
 =======
 >>>>>>> origin/main
 >>>>>>> origin/main
+
+"smart_sources:00-09 system/template/new zettel note.md": {"path":"00-09 system/template/new zettel note.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"hve8p2","at":1753533525969},"class_name":"SmartSource","last_import":{"mtime":1731668277086,"size":453,"at":1753533526014,"hash":"hve8p2"},"blocks":{"#":[1,13],"#---frontmatter---":[6,12],"#<%* tR += user_title %>":[14,22],"#<%* tR += user_title %>#SEE ALSO":[16,17],"#<%* tR += user_title %>#References":[18,22],"#<%* tR += user_title %>#References#{1}":[20,22]},"outlinks":[]},
