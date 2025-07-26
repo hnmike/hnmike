@@ -62,7 +62,7 @@ const processTags = async (file, newTags) => {
 
 const normalizeTags = tags => [...new Set(tags.map(tag => tag.trim().replace(/#/g, '')))];
 
-await tp.app.fileManager.processFrontMatter(file, (frontmatter) => {
+await app.fileManager.processFrontMatter(file, (frontmatter) => {
 
 const existingTags = frontmatter?.tags || [];
 
@@ -84,7 +84,7 @@ const existingTags = tp.file.tags.join(', ');
 
   
 
-const response = await tp.obsidian.requestUrl({
+const response = await requestUrl({
 
 method: "POST",
 
