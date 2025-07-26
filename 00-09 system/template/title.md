@@ -1,67 +1,32 @@
-<%*
-
-// IMPORTANT: Replace with your actual API key!
-
-const GEMINI_API_KEY = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
-
-  
+<%* const GEMINI_API_KEY = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
 
 // --- English Title Generation Prompt ---
-
-const title_prompt = `You are a title generator.
-
+Const title_prompt = `You are a title generator.
 You will give a succinct and compelling title for the following text.
-
 The title must not contain invalid filename characters like backslashes (\), forward slashes (/), or colons (:).
-
 Generate only the title as your response.
-
 The response language is Vietnamese.`;
 
-  
-
 // Get the content of the current note
-
-const fileContent = tp.file.content;
-
-  
+Const fileContent = tp. File. Content;
 
 // Send request to Gemini API
-
-const response = await requestUrl({
-
-method: "POST",
-
-// MODIFIED URL FOR GEMINI 2.0 FLASH
-
-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + GEMINI_API_KEY,
-
-contentType: "application/json",
-
-body: JSON.stringify({
-
-contents: [{
-
-parts: [
-
-{text: title_prompt},
-
-{text: fileContent}
-
-]
-
-}]
-
-})
-
+Const response = await requestUrl ({
+    Method: "POST",
+    // MODIFIED URL FOR GEMINI 2.0 FLASH
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + GEMINI_API_KEY,
+    ContentType: "application/json",
+    Body: JSON.Stringify ({
+        Contents: [{
+            Parts: [
+                {text: title_prompt},
+                {text: fileContent}
+            ]
+        }]
+    })
 });
 
-  
-
 // Extract title and rename the file
-
-const title = response.json.candidates[0].content.parts[0].text.trim();
-
-await tp.file.rename(title);
-
+Const title = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
+Await tp.File.Rename (title);
 %>
