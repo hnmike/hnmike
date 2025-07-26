@@ -10,6 +10,8 @@ const fileContent = tp.file.content;
 
 const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
+  
+
 const response = await requestUrl({
 
 method: "POST",
@@ -35,6 +37,8 @@ parts: [
 })
 
 });
+
+  
 
 const title = response.json.candidates[0].content.parts[0].text.trim();
 
