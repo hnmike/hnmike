@@ -364,6 +364,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":153},\"to\":{\"line\":52,\"ch\":153}},\"scroll\":38.9193}"
+                },
+                {
+                  "title": "summary",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/summary.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"summary\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":105},\"to\":{\"line\":21,\"ch\":146}},\"scroll\":12.7075}"
+                },
+                {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":153},\"to\":{\"line\":52,\"ch\":153}},\"scroll\":38.91934243849494}"
+                },
+                {
+                  "title": "summary",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/summary.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"summary\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":146},\"to\":{\"line\":21,\"ch\":105}},\"scroll\":12.707524195007236}"
+                },
+                {
                   "title": "book template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/book template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"book template\"}",
@@ -470,12 +494,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/summary.md",
+                "file": "00-09 system/template/title.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "summary"
+              "title": "title"
             }
           },
           {
@@ -1070,13 +1094,13 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
+    "00-09 system/template/tag.md",
+    "00-09 system/template/summary.md",
     "00-09 system/template/book template.md",
     "resources/Data layers.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "00-09 system/template/title.md",
-    "00-09 system/template/tag.md",
-    "00-09 system/template/summary.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
