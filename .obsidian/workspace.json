@@ -548,8 +548,14 @@
             "id": "d9dc138d632282d3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Callout template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Callout template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Callout template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":20},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -1107,13 +1113,14 @@
   },
   "active": "d9dc138d632282d3",
   "lastOpenFiles": [
+    "00-09 system/template/Callout template.md",
+    "resources/202507262132 Shift-Left Data Quality.md",
     "00-09 system/template/summary.md",
     "00-09 system/template/knowledge base template.md",
     "00-09 system/template/title.md",
     "00-09 system/template/new zettel note.md",
     "resources/Big RAM Data Engineering with DuckDB.md",
     "00-09 system/template/tag.md",
-    "resources/202507262132 Shift-Left Data Quality.md",
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
@@ -1132,7 +1139,6 @@
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
     "00-09 system/template/atomic template.md",
     "Untitled.md",
-    "10-20 zettelkasten/molecules notes/molecule notes.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
