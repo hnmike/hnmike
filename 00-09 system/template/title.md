@@ -14,32 +14,22 @@ let fileContent = tp.file.content;
 
 let apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
-  
-
-let response = await requestUrl({
-
-method: "POST",
-
-url: apiUrl,
-
-contentType: "application/json",
-
-body: JSON.stringify({
-
-contents: [{
-
-parts: [
-
-{text: titlePrompt},
-
-{text: fileContent}]
-}]
-
-})
-
+Let response = await requestUrl ({
+    Method: "POST",
+    Url: apiUrl,
+    ContentType: "application/json",
+    Body: JSON.Stringify ({
+        Contents: [{
+            Parts: [
+                {text: titlePrompt},
+                {text: fileContent}
+            ]
+        }]
+    })
 });
 
-  
+
+
 
 let title = response.json.candidates[0].content.parts[0].text.trim();
 
