@@ -1,4 +1,4 @@
-%*
+<%*
 
 let apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 
@@ -32,10 +32,7 @@ parts: [
 
 {text: titlePrompt},
 
-{text: fileContent}
-
-]
-
+{text: fileContent}]
 }]
 
 })
