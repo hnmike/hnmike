@@ -1,7 +1,6 @@
 
 <%*
-// Use Templater's built-in HTTP helper
-Tp.Obsidian.RequestUrl ({
+Let res = await tp.Obsidian.RequestUrl ({
     Method: "POST",
     url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o",
     ContentType: "application/json",
@@ -13,12 +12,12 @@ Tp.Obsidian.RequestUrl ({
             ]
         }]
     })
-}). Then (function (res){
-    // Rename file with generated title (sanitize / \ :)
-    Tp.File.Rename (
-        Res. Json. Candidates[0]. Content. Parts[0]. Text
-            .trim ()
-            .replace (/[\\/:]/g, " - ")
-    );
 });
+
+// Sanitize and rename
+Tp.File.Rename (
+    Res. Json. Candidates[0]. Content. Parts[0]. Text
+        .trim ()
+        .replace (/[\/\\:]/g, " - ")
+);
 %> 
