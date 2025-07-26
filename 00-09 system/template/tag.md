@@ -1,1 +1,61 @@
-<%* const GEMINI_API_KEY = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o"; const tag_prompt = `You are an Information Architecture expert. Your role is to analyze the provided document and generate tags based on its content. Your goal is to create tags that accurately reflect the core content to improve document classification and search efficiency. ## Analysis Process 1. Read and analyze the document carefully. 2. Consider the following: - Core topics and sub-topics. - Main concepts and themes. - The document's context and domain. - Potential target audience. - Document type and purpose. ## Tagging Rules 1. **From Existing Tags:** - From the provided list of existing tags, select 1-5 tags that best represent the document's main theme or frequently mentioned concepts. - Only use tags that are an **exact match** from the existing tag list. 2. **New Tags:** - Generate 1-3 new tags. - Format: #<category> (e.g., #machine-learning, #natural-language-processing) - The new tag's category should reflect the document's main topic, type, or purpose. - It should capture unique aspects of the document not covered by existing tags. - Avoid duplicating existing tags. ## Important: - All tags must include the # prefix. - Use specific tags, avoid generic ones. - **Output Format: Display all generated tags on a single line, separated by commas. ONLY output the tags.**`; const processTags = async (file, newTags) => { const normalizeTags = tags => [...new Set(tags.map(tag => tag.trim().replace(/#/g, '')))]; await tp.app.fileManager.processFrontMatter(file, (frontmatter) => { const existingTags = frontmatter?.tags || []; const cleanedExistingTags = Array.isArray(existingTags) ? existingTags.map(t => t.replace(/#/g, '')) : []; const cleanedNewTags = normalizeTags(newTags); frontmatter.tags = [...new Set([...cleanedExistingTags, ...cleanedNewTags])]; }); }; const fileContent = tp.file.content; const existingTags = tp.file.tags.join(', '); const response = await tp.obsidian.requestUrl({ method: "POST", url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + GEMINI_API_KEY, contentType: "application/json", body: JSON.stringify({ contents: [{ parts: [ {text: tag_prompt}, {text: `**Existing Tags:**\n${existingTags}\n\n**Document:**\n${fileContent}`} ] }] }) }); const tags = response.json.candidates[0].content.parts[0].text.split(","); const file = tp.config.target_file; await processTags(file, tags); %>
+<%* const GEMINI_API_KEY = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+
+Const tag_prompt = `You are an Information Architecture expert. Your role is to analyze the provided document and generate tags based on its content. Your goal is to create tags that accurately reflect the core content to improve document classification and search efficiency.
+
+## Analysis Process
+1.  Read and analyze the document carefully.
+2.  Consider the following:
+    - Core topics and sub-topics.
+    - Main concepts and themes.
+    - The document's context and domain.
+    - Potential target audience.
+    - Document type and purpose.
+
+## Tagging Rules
+1.  **From Existing Tags:**
+    - From the provided list of existing tags, select 1-5 tags that best represent the document's main theme or frequently mentioned concepts.
+    - Only use tags that are an **exact match** from the existing tag list.
+2.  **New Tags:**
+    - Generate 1-3 new tags.
+    - Format: #<category> (e.g., #machine-learning , #natural-language-processing )
+    - The new tag's category should reflect the document's main topic, type, or purpose.
+    - It should capture unique aspects of the document not covered by existing tags.
+    - Avoid duplicating existing tags.
+
+## Important:
+- All tags must include the # prefix.
+- Use specific tags, avoid generic ones.
+- **Output Format: Display all generated tags on a single line, separated by commas. ONLY output the tags.**`;
+
+Const processTags = async (file, newTags) => {
+  const normalizeTags = tags => [... New Set (tags.Map (tag => tag.Trim (). Replace (/ #/g , '')))];
+  
+  Await tp.App.FileManager.ProcessFrontMatter (file, (frontmatter) => {
+    Const existingTags = frontmatter?. Tags || [];
+    const cleanedExistingTags = Array.IsArray (existingTags) ? ExistingTags.Map (t => t.replace (/ #/g , '')) : [];
+    Const cleanedNewTags = normalizeTags (newTags);
+    Frontmatter. Tags = [... New Set ([... CleanedExistingTags, ... CleanedNewTags])];
+  });
+};
+
+Const fileContent = tp. File. Content;
+Const existingTags = tp.File.Tags.Join (', ');
+
+Const response = await tp.Obsidian.RequestUrl ({
+    Method: "POST",
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + GEMINI_API_KEY,
+    ContentType: "application/json",
+    Body: JSON.Stringify ({
+        Contents: [{
+            Parts: [
+                {text: tag_prompt},
+                {text: `**Existing Tags:**\n${existingTags}\n\n**Document:**\n${fileContent}`}
+            ]
+        }]
+    })
+});
+
+Const tags = response. Json. Candidates[0]. Content. Parts[0]. Text.Split (",");
+Const file = tp. Config. Target_file;
+Await processTags (file, tags);
+%>
