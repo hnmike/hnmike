@@ -144,23 +144,17 @@
             "id": "88f7c5cc422b3cde",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "2025-07-22",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"2025-07-22.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-22\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
-                },
-                {
-                  "title": "vim",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":5},\"to\":{\"line\":0,\"ch\":5}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
                 },
                 {
                   "title": "2025-07-13",
@@ -173,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
+                "file": "00-09 system/template/title.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff"
+              "title": "title"
             }
           },
           {
@@ -533,35 +527,6 @@
             }
           },
           {
-            "id": "fe9316a32807e9a0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Introduction to Module 6 | DE Zoomcamp Notes",
-                  "icon": "globe-2",
-                  "state": "{\"state\":{\"url\":\"https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/module-1/1.2-docker-and-docker-compose/1.2.2-ingesting-ny-taxi-data-to-postgres\"},\"type\":\"webviewer\"}",
-                  "eState": "null"
-                }
-              ]
-            },
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/module-6/introduction-to-module-6",
-                "title": "Introduction to Module 6 | DE Zoomcamp Notes",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Introduction to Module 6 | DE Zoomcamp Notes"
-            }
-          },
-          {
             "id": "d9dc138d632282d3",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -663,7 +628,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1122,12 +1087,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "9831e2ff3f1ce214",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
-    "00-09 system/template/tag.md",
-    "00-09 system/template/title.md",
-    "resources/Data layers.md",
     "00-09 system/template/summary.md",
+    "resources/Data layers.md",
+    "00-09 system/template/title.md",
+    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
+    "00-09 system/template/tag.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/note review.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
@@ -1147,7 +1113,6 @@
     "Untitled.md",
     "10-20 zettelkasten/molecules notes/molecule notes.md",
     "10-20 zettelkasten/topics/job/job.md",
-    "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/topics/vim/vim.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
