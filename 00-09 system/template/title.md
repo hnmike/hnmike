@@ -1,5 +1,5 @@
 <%*
-ApiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+ApiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 FileContent = tp. File. Content;
 apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
