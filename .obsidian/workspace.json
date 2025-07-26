@@ -192,6 +192,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "Data layers",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
@@ -304,12 +310,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/tag.md",
+                "file": "00-09 system/template/title.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "title"
             }
           },
           {
@@ -369,7 +375,7 @@
                   "title": "tag",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "state": "{}",
@@ -651,7 +657,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -701,7 +707,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:data-engineering",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -731,8 +737,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -1111,7 +1116,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "2c028fff4036bc9e",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
     "00-09 system/template/tag.md",
     "resources/Data layers.md",
