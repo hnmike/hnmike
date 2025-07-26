@@ -212,7 +212,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -230,7 +230,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -242,7 +242,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":34},\"to\":{\"line\":6,\"ch\":34}}}"
                 },
                 {
@@ -260,7 +260,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":34},\"to\":{\"line\":6,\"ch\":34}},\"scroll\":0}"
                 },
                 {
@@ -349,7 +349,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
@@ -432,7 +432,7 @@
                 {
                   "title": "Data layers",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":34},\"to\":{\"line\":6,\"ch\":34}}}"
                 },
                 {
@@ -530,12 +530,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Data layers.md",
+                "file": "resources/Big RAM Data Engineering with DuckDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data layers"
+              "title": "Big RAM Data Engineering with DuckDB"
             }
           },
           {
@@ -1102,7 +1102,7 @@
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
     "00-09 system/template/title.md",
-    "resources/Data layers.md",
+    "resources/Big RAM Data Engineering with DuckDB.md",
     "00-09 system/template/tag.md",
     "resources/data quality issues.md",
     "00-09 system/template/summary.md",
