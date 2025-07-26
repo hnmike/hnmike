@@ -1,26 +1,71 @@
+<%*
 
-<%* const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+// IMPORTANT: Replace with your actual API key!
+
+let apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+
+  
+
+// --- Title Generation Prompt ---
+
+let titlePrompt = `You are a title generator.
+
+You will give a succinct and compelling title for the following text.
+
+The title must not contain invalid filename characters like backslashes (\), forward slashes (/), or colons (:).
+
+Generate only the title as your response.
+
+The response language is Vietnamese.`;
+
+  
+
 // Get the content of the current note
-Const fileContent = tp. File. Content;
+
+let fileContent = tp.file.content;
+
+  
+
+// Build the API URL
+
+let apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
+
+  
 
 // Send request to Gemini API
-Const response = await tp.Obsidian.RequestUrl ({
-    Method: "POST",
-    // MODIFIED URL FOR GEMINI 2.5 PRO
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o" ,
-    ContentType: "application/json",
-    Body: JSON.Stringify ({
-        Contents: [{
-            Parts: [
-                {text: summary_prompt},
-                {text: "Dưới đây là văn bản cần tóm tắt:\n\n" + fileContent}
-            ]
-        }]
-    })
+
+let response = await requestUrl({
+
+method: "POST",
+
+url: apiUrl,
+
+contentType: "application/json",
+
+body: JSON.stringify({
+
+contents: [{
+
+parts: [
+
+{text: titlePrompt},
+
+{text: fileContent}
+
+]
+
+}]
+
+})
+
 });
 
-// Extract and format the summary
-Const summary = response. Json. Candidates[0]. Content. Parts[0]. Text;
-tR = `> [!summary] Tóm tắt
-> ${summary.Split ("\n"). Join ("\n> ")}`;
+  
+
+// Extract title and rename the file
+
+let title = response.json.candidates[0].content.parts[0].text.trim();
+
+await tp.file.rename(title);
+
 %>
