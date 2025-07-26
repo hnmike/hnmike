@@ -1,4 +1,4 @@
-<%*
+%*
 
 let apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
 
