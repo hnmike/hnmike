@@ -50,7 +50,7 @@ Const existingTags = tp.File.Tags.Join (', ');
 Const response = await tp.Obsidian.RequestUrl ({
     Method: "POST",
     // MODIFIED URL FOR GEMINI 2.5 PRO
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + GEMINI_API_KEY,
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o,
     ContentType: "application/json",
     Body: JSON.Stringify ({
         Contents: [{

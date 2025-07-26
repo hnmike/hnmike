@@ -364,6 +364,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":6},\"to\":{\"line\":61,\"ch\":6}},\"scroll\":49.462803002894354}"
+                },
+                {
                   "title": "summary",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/summary.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"summary\"}",
@@ -434,12 +440,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/tag.md",
+                "file": "00-09 system/template/title.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "title"
             }
           },
           {
@@ -1034,8 +1040,9 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
-    "00-09 system/template/summary.md",
     "00-09 system/template/tag.md",
+    "00-09 system/template/title.md",
+    "00-09 system/template/summary.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
@@ -1061,7 +1068,6 @@
     "2025-07-22.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
-    "resources/Reddit Share your tips and tricks in neovim!.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",
