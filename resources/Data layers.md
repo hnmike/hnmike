@@ -1,6 +1,8 @@
 ---
 tags: []
 ---
+
+
 ## Data layers
 
 The rise of “Big RAM” and multicore utilization has started to eclipse “Big Data”, leading to the popularity of [simple, scalable data processing engines](https://georgheiler.com/post/making-bigdata-small-again/) like DuckDB, [DataFusion](https://github.com/apache/arrow-datafusion), and [Polars](https://pola.rs/). The [dbt extension for DuckDB](https://github.com/duckdb/dbt-duckdb) facilitates the implementation of complex pipelines and integration through a flexible plugin ecosystem. The accompanying diagram provides a blueprint for engineers to navigate data transformation, emphasizing crucial decisions within each layer. The diagram is a representation of a dbt project divided into three layers from left to right: source, transformations and serving layer.
