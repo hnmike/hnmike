@@ -14,8 +14,11 @@ Tp.Obsidian.RequestUrl ({
         }]
     })
 }). Then (function (res){
-    // Get title, trim and make sure no forbidden chars remain
-    Var title = res. Json. Candidates[0]. Content. Parts[0]. Text.Trim (). Replace (/[\\/:]/g, " - ");
-    Tp.File.Rename (title);
+    // Rename file with generated title (sanitize / \ :)
+    Tp.File.Rename (
+        Res. Json. Candidates[0]. Content. Parts[0]. Text
+            .trim ()
+            .replace (/[\\/:]/g, " - ")
+    );
 });
 %> 
