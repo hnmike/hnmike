@@ -1,27 +1,28 @@
 <%*
-Async function generateTitle () {
-    Const apiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
-    Const titlePrompt = "You are a title generator. You will give a succinct and compelling title for the following text. The title must not contain invalid filename characters like backslashes, forward slashes, or colons. Generate only the title as your response. The response language is Vietnamese.";
-    Const fileContent = tp. File. Content;
-    const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
+Function generateSummary () {
+    Var apiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+    Var summaryPrompt = "You are a content summarizer. Create a concise Vietnamese summary of the following text. Focus on key points and main ideas.";
+    Var fileContent = tp. File. Content;
+    var apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
-    Const response = await requestUrl ({
+    RequestUrl ({
         Method: "POST",
         Url: apiUrl,
         ContentType: "application/json",
         Body: JSON.Stringify ({
             Contents: [{
                 Parts: [
-                    {text: titlePrompt},
+                    {text: summaryPrompt},
                     {text: fileContent}
                 ]
             }]
         })
+    }). Then (function (response) {
+        Var summary = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
+        // Thêm tóm tắt vào cuối file thay vì rename
+        Tp. File. Cursor_append ("\n\n## Tóm tắt\n" + summary);
     });
-
-    Const title = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
-    Await tp.File.Rename (title);
 }
 
-Await generateTitle ();
+GenerateSummary ();
 %> 
