@@ -1,31 +1,5 @@
 <%* const GEMINI_API_KEY = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
 
-Const tag_prompt = `You are an Information Architecture expert. Your role is to analyze the provided document and generate tags based on its content. Your goal is to create tags that accurately reflect the core content to improve document classification and search efficiency.
-
-## Analysis Process
-1.  Read and analyze the document carefully.
-2.  Consider the following:
-    - Core topics and sub-topics.
-    - Main concepts and themes.
-    - The document's context and domain.
-    - Potential target audience.
-    - Document type and purpose.
-
-## Tagging Rules
-1.  **From Existing Tags:**
-    - From the provided list of existing tags, select 1-5 tags that best represent the document's main theme or frequently mentioned concepts.
-    - Only use tags that are an **exact match** from the existing tag list.
-2.  **New Tags:**
-    - Generate 1-3 new tags.
-    - Format: #<category> (e.g., #machine-learning , #natural-language-processing )
-    - The new tag's category should reflect the document's main topic, type, or purpose.
-    - It should capture unique aspects of the document not covered by existing tags.
-    - Avoid duplicating existing tags.
-
-## Important:
-- All tags must include the # prefix.
-- Use specific tags, avoid generic ones.
-- **Output Format: Display all generated tags on a single line, separated by commas. ONLY output the tags.**`;
 
 Const processTags = async (file, newTags) => {
   const normalizeTags = tags => [... New Set (tags.Map (tag => tag.Trim (). Replace (/ #/g , '')))];
@@ -38,7 +12,7 @@ Const processTags = async (file, newTags) => {
   });
 };
 
-Const fileContent = tp. File. Content;
+Const fileContent = tp.File.Content;
 Const existingTags = tp.File.Tags.Join (', ');
 
 Const response = await tp.Obsidian.RequestUrl ({

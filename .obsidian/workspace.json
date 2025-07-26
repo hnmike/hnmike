@@ -651,7 +651,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1110,16 +1110,16 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "9831e2ff3f1ce214",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
-    "00-09 system/template/summary.md",
     "resources/Data layers.md",
+    "00-09 system/template/tag.md",
+    "00-09 system/template/summary.md",
     "00-09 system/template/title.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/note review.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Components.md",
-    "00-09 system/template/tag.md",
     "resources/data quality issues.md",
     "00-09 system/template/area_note template.md",
     "00-09 system/template/book template.md",
