@@ -6,7 +6,8 @@ related:
 aliases: 
 tags:
   - atom
+  - job
 type: atom
 topic: "[[job]]"
-summary:
+summary: 
 ---

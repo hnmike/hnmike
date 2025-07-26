@@ -151,6 +151,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "202507230956 job data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "title",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":8.075180614598407}"
+                },
+                {
                   "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff\"}",
@@ -1090,8 +1102,9 @@
   "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
     "resources/Data layers.md",
-    "00-09 system/template/summary.md",
     "00-09 system/template/title.md",
+    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+    "00-09 system/template/summary.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "00-09 system/template/tag.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
@@ -1102,7 +1115,6 @@
     "00-09 system/template/area_note template.md",
     "00-09 system/template/book template.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
-    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",

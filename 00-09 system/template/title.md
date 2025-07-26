@@ -1,37 +1,48 @@
 <%*
 
-let apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+var apiKey = "AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+
+var titlePrompt = "You are a title generator. You will give a succinct and compelling title for the following text. The title must not contain invalid filename characters like backslashes, forward slashes, or colons. Generate only the title as your response. The response language is Vietnamese.";
+
+var fileContent = tp.file.content;
+
+var apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
 
   
 
-let titlePrompt = "You are a title generator. You will give a succinct and compelling title for the following text. The title must not contain invalid filename characters like backslashes, forward slashes, or colons. Generate only the title as your response. The response language is Vietnamese.";
+var requestBody = JSON.stringify({
 
-  
+contents: [{
 
-let fileContent = tp.file.content;
+parts: [
 
-  
+{text: titlePrompt},
 
-let apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
+{text: fileContent}
 
-Let response = await requestUrl ({
-    Method: "POST",
-    Url: apiUrl,
-    ContentType: "application/json",
-    Body: JSON.Stringify ({
-        Contents: [{
-            Parts: [
-                {text: titlePrompt},
-                {text: fileContent}
-            ]
-        }]
-    })
+]
+
+}]
+
 });
 
+  
 
+var response = await requestUrl({
 
+method: "POST",
 
-let title = response.json.candidates[0].content.parts[0].text.trim();
+url: apiUrl,
+
+contentType: "application/json",
+
+body: requestBody
+
+});
+
+  
+
+var title = response.json.candidates[0].content.parts[0].text.trim();
 
 await tp.file.rename(title);
 
