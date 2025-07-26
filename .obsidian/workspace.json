@@ -384,10 +384,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "title",
+                  "title": "summary",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/summary.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"summary\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -640,7 +640,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1099,13 +1099,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "9831e2ff3f1ce214",
+  "active": "d0416ea4201a115b",
   "lastOpenFiles": [
-    "00-09 system/template/title.md",
     "resources/Data layers.md",
+    "00-09 system/template/summary.md",
+    "00-09 system/template/title.md",
     "00-09 system/template/tag.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
-    "00-09 system/template/summary.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/note review.md",
