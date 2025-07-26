@@ -364,6 +364,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "summary",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/summary.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"summary\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":35},\"to\":{\"line\":14,\"ch\":35}},\"scroll\":0}"
+                },
+                {
                   "title": "202507230956 job data engineer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
@@ -428,12 +434,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/summary.md",
+                "file": "00-09 system/template/tag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "summary"
+              "title": "tag"
             }
           },
           {
@@ -1028,8 +1034,9 @@
   },
   "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
-    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "00-09 system/template/summary.md",
+    "00-09 system/template/tag.md",
+    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
@@ -1055,7 +1062,6 @@
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Reddit What are some plugins you think should be included in neovim core.md",
     "resources/Reddit Share your tips and tricks in neovim!.md",
-    "resources/Reddit Share your tips and tricks in (neo)vim!.md",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",
