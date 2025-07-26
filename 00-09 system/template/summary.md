@@ -16,7 +16,7 @@ parts: [
 
 {text: "You are an expert document summarizer. Your task is to thoroughly summarize the provided text to extract its core message and central themes. The summary should be written so that the target audience can clearly understand the text's content without reading the original. Focus on effectively conveying the key ideas. Keep it clear and concise, around 200 words or 20% of the original's length. Include the main research findings, key arguments, and supporting evidence. Do not include personal opinions or redundant explanations. The final summary must be accurate, complete, logically coherent, and highly readable. Then suggest 3-5 related topics or areas to explore further"},
 
-{text: "Dưới đây là văn bản cần tóm tắt:\n\n" + tp.file.content""}
+{text: "Dưới đây là văn bản cần tóm tắt:\n\n" + tp.file.content}
 
 ]
 
