@@ -1,6 +1,7 @@
 
 <%*
-RequestUrl ({
+// Use Templater's built-in HTTP helper
+Tp.Obsidian.RequestUrl ({
     Method: "POST",
     url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o",
     ContentType: "application/json",
@@ -12,8 +13,9 @@ RequestUrl ({
             ]
         }]
     })
-}). Then (function (response) {
-    TR = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
-    Tp.File.Rename (tR);
+}). Then (function (res){
+    // Get title, trim and make sure no forbidden chars remain
+    Var title = res. Json. Candidates[0]. Content. Parts[0]. Text.Trim (). Replace (/[\\/:]/g, " - ");
+    Tp.File.Rename (title);
 });
 %> 
