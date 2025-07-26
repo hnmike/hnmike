@@ -3,10 +3,6 @@ tags: []
 ---
 
 
-> [!summary] Tóm tắt
-> Xu hướng "Big RAM" và tận dụng đa lõi đang dần thay thế mô hình "Big Data", thúc đẩy sự phổ biến của các công cụ xử lý dữ liệu đơn giản, có khả năng mở rộng như DuckDB, DataFusion và Polars. Sự kết hợp giữa tiện ích dbt và DuckDB tạo điều kiện thuận lợi cho việc xây dựng các pipeline dữ liệu phức tạp. Văn bản mô tả một kiến trúc dữ liệu gồm ba lớp: Lớp Nguồn là điểm khởi đầu, bao gồm dữ liệu cục bộ và từ xa; Lớp Biến đổi là nơi dữ liệu được chuyển đổi trong tệp DuckDB, tận dụng hiệu suất tối ưu của công cụ; và Lớp Phục vụ là nơi dữ liệu trở nên sẵn sàng cho người dùng, có thể xuất sang nhiều định dạng hoặc chuyển đến máy chủ cơ sở dữ liệu.
-> 
-> Một thách thức chính được nêu bật là quản lý dữ liệu tích lũy theo thời gian thông qua phân vùng. Một chiến lược phân vùng hiệu quả đảm bảo dữ liệu không bị xử lý hai lần, từ đó chuyển vấn đề từ giới hạn bộ nhớ RAM sang thời gian tính toán. Mặc dù DuckDB đã có những cải tiến đáng kể trong xử lý ngoài bộ nhớ, các hạn chế về RAM của một máy vẫn tồn tại. Do đó, cần áp dụng các chiến lược giảm thiểu bộ nhớ như lưu trữ theo cột, nén dữ liệu và xử lý các tập con dữ liệu một cách tăng dần để tránh các biến đổi dư thừa.
 
 ## Data layers
 
