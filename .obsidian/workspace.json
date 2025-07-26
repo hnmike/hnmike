@@ -640,7 +640,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -1099,10 +1099,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "88f7c5cc422b3cde",
+  "active": "9831e2ff3f1ce214",
   "lastOpenFiles": [
-    "resources/Data layers.md",
     "00-09 system/template/title.md",
+    "resources/Data layers.md",
     "00-09 system/template/tag.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "00-09 system/template/summary.md",

@@ -1,18 +1,17 @@
 <%*
-Const content = tp. File. Content;
-Const prompt = "You are a title generator. Generate a Vietnamese title for this text without special characters";
+ApiKey = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
+FileContent = tp. File. Content;
+apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=" + apiKey;
+
+RequestBody = '{"contents":[{"parts":[{"text": "Generate a Vietnamese title for this text"},{"text": "' + fileContent.Replace (/"/g, '\\"') + '"}]}]}';
 
 RequestUrl ({
-    Method: "POST",
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o",
-    ContentType: "application/json",
-    Body: JSON.Stringify ({
-        Contents: [{
-            Parts: [{text: prompt}, {text: content}]
-        }]
-    })
-}). Then (response => {
-    Const title = response. Json. Candidates[0]. Content. Parts[0]. Text.Trim ();
-    Tp.File.Rename (title);
+  Method: "POST",
+  Url: apiUrl,
+  ContentType: "application/json",
+  Body: requestBody
+}). Then (function (response) {
+  Title = response. Json. Candidates[0]. Content. Parts[0]. Text;
+  Tp.File.Rename (title);
 });
 %> 
