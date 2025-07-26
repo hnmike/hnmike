@@ -1,6 +1,7 @@
 <%*
 // IMPORTANT: Replace with your actual API key!
-Const GEMINI_API_KEY="AIzaSyCOzcUDtQ8HDdivhEWxUla96MNzekSSC7o";
+// SỬA LỖI: "const" phải viết thường
+Const GEMINI_API_KEY = "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o";
 
 // --- English Tag Generation Prompt ---
 Const tag_prompt = `You are an Information Architecture expert. Your role is to analyze the provided document and generate tags based on its content. Your goal is to create tags that accurately reflect the core content to improve document classification and search efficiency.
@@ -31,7 +32,9 @@ Const tag_prompt = `You are an Information Architecture expert. Your role is to 
 - **Output Format: Display all generated tags on a single line, separated by commas. ONLY output the tags.**`;
 
 // Function to process and add tags to frontmatter
+// SỬA LỖI: "async" và "const" phải viết thường
 Const processTags = async (file, newTags) => {
+  // SỬA LỖI: "new Set" viết liền, "map" và "trim" viết thường, và các tên thuộc tính khác
   const normalizeTags = tags => [... New Set (tags.Map (tag => tag.Trim (). Replace (/ #/g , '')))];
   
   Await tp.App.FileManager.ProcessFrontMatter (file, (frontmatter) => {
@@ -49,8 +52,9 @@ Const existingTags = tp.File.Tags.Join (', ');
 // Send request to Gemini API
 Const response = await tp.Obsidian.RequestUrl ({
     Method: "POST",
-    // MODIFIED URL FOR GEMINI 2.5 PRO
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + "AIzaSyCOzcUDtQ 8 HDdivhEWxUla 96 MNzekSSC 7 o",
+    // SỬA LỖI QUAN TRỌNG: Dùng biến GEMINI_API_KEY đã khai báo ở trên.
+    // Không viết key trực tiếp và có khoảng trắng vào đây.
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + GEMINI_API_KEY,
     ContentType: "application/json",
     Body: JSON.Stringify ({
         Contents: [{
@@ -63,6 +67,7 @@ Const response = await tp.Obsidian.RequestUrl ({
 });
 
 // Extract tags and update the file
+// SỬA LỖI: Tất cả các thuộc tính phải viết thường (json, candidates, content,...)
 Const tags = response. Json. Candidates[0]. Content. Parts[0]. Text.Split (",");
 Const file = tp. Config. Target_file;
 Await processTags (file, tags);

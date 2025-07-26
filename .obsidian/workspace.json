@@ -192,6 +192,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":0}"
+                },
+                {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":2},\"to\":{\"line\":73,\"ch\":2}},\"scroll\":54.044957489146164}"
+                },
+                {
                   "title": "Data layers",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Data layers.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
@@ -256,12 +268,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/tag.md",
+                "file": "resources/Data layers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "Data layers"
             }
           },
           {
@@ -1100,15 +1112,15 @@
   },
   "active": "00c096223e5a2f19",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+    "00-09 system/template/tag.md",
     "resources/Data layers.md",
     "00-09 system/template/area_note template.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "00-09 system/template/title.md",
-    "00-09 system/template/tag.md",
     "00-09 system/template/summary.md",
     "00-09 system/template/book template.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
-    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "conflict-files-obsidian-git.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
