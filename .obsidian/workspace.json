@@ -323,7 +323,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-09 system/template/tag.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -1201,7 +1201,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "33ceda820f69de1a",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
     "00-09 system/template/project_note template.md",
     "00-09 system/template/tag.md",
