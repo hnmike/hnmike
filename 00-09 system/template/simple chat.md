@@ -18,7 +18,7 @@ const HOST_URL = "https://api.dify.ai";
 
 // Get this from your Dify account: Settings -> API Keys
 
-const DIFY_API_KEY = "PASTE_YOUR_DIFY_API_KEY_HERE";
+const DIFY_API_KEY = "app-1GVkq0ZbOz19WCxBsL3fGr3e";
 
   
 

@@ -198,6 +198,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":42.5391612748202}"
+                },
+                {
+                  "title": "202507262132 Shift-Left Data Quality",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507262132 Shift-Left Data Quality.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507262132 Shift-Left Data Quality\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":11.8733}"
+                },
+                {
+                  "title": "simple chat",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/simple chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"simple chat\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":157,\"ch\":31},\"to\":{\"line\":157,\"ch\":31}},\"scroll\":144.6726483357453}"
+                },
+                {
                   "title": "tag",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
@@ -328,12 +346,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/simple chat.md",
+                "file": "resources/Dagster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "simple chat"
+              "title": "Dagster"
             }
           },
           {
@@ -1190,8 +1208,10 @@
   },
   "active": "00c096223e5a2f19",
   "lastOpenFiles": [
-    "00-09 system/template/tag.md",
+    "resources/AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink.md",
+    "resources/202507262132 Shift-Left Data Quality.md",
     "00-09 system/template/simple chat.md",
+    "00-09 system/template/tag.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/summary.md",
@@ -1206,7 +1226,6 @@
     "00-09 system/template/note review.md",
     "00-09 system/template/Callout template.md",
     "00-09 system/template/block reference.md",
-    "resources/202507262132 Shift-Left Data Quality.md",
     "00-09 system/template/title.md",
     "00-09 system/template/new zettel note.md",
     "resources/Big RAM Data Engineering with DuckDB.md",
@@ -1215,7 +1234,6 @@
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-    "resources/Components.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
