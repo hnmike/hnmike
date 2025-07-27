@@ -331,25 +331,6 @@
             }
           },
           {
-            "id": "dd8410ec56a38785",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "modal-form-manage-forms-view",
-              "state": {},
-              "icon": "documents",
-              "title": "Manage forms"
-            }
-          },
-          {
             "id": "d0416ea4201a115b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -761,7 +742,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1035,25 +1016,6 @@
             }
           },
           {
-            "id": "d9d9a0ce96767706",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "toggl-report",
-              "state": {},
-              "icon": "clock",
-              "title": "Toggl Report"
-            }
-          },
-          {
             "id": "5ae1e9dbae4a00d6",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1187,7 +1149,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
@@ -1220,7 +1182,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "dd8410ec56a38785",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
     "00-09 system/template/project_note template.md",
     "00-09 system/template/tag.md",
