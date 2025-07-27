@@ -64,5 +64,6 @@
   "find-unlinked-files",
   "smart-connections",
   "better-export-pdf",
-  "cmdr"
+  "cmdr",
+  "editor-width-slider"
 ]
