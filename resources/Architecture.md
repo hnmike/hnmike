@@ -1,3 +1,4 @@
+
 ## Architecture
 
 ![Simple architecture diagram depicting compute and storage segregation](https://georgheiler.com/post/dbt-duckdb-production/simple-architecture_hu1158680292631202955.webp)
