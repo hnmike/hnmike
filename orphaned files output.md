@@ -97,7 +97,7 @@
 - [[Lab week 3 de(202412082116).md]]
 - [[2024-12-11.md]]
 - [[project task.js]]
-- [[Architecture.md]]
+- [[202507271003 Dagster dbt DuckDB Architecture]]
 - [[FASTAPI LAB(202412081602).md]]
 - [[00-09 system/journal/daily/2024/12/2024-12-07.md]]
 - [[Introduction & Set Up  DE Zoomcamp Notes.md]]
