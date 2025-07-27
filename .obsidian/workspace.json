@@ -198,6 +198,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "tag",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "title",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
@@ -322,12 +328,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/tag.md",
-                "mode": "preview",
+                "file": "00-09 system/template/simple chat.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tag"
+              "title": "simple chat"
             }
           },
           {
@@ -1184,8 +1190,9 @@
   },
   "active": "00c096223e5a2f19",
   "lastOpenFiles": [
-    "00-09 system/template/project_note template.md",
     "00-09 system/template/tag.md",
+    "00-09 system/template/simple chat.md",
+    "00-09 system/template/project_note template.md",
     "00-09 system/template/Task calendar template.md",
     "00-09 system/template/summary.md",
     "00-09 system/template/project_family template.md",
@@ -1209,7 +1216,6 @@
     "10-20 zettelkasten/atomic notes/atomic notes.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "resources/Components.md",
-    "00-09 system/template/area_note template.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
