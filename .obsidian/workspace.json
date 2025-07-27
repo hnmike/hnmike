@@ -1149,7 +1149,7 @@
             }
           },
           {
-            "id": "1ef7b3cfbd328df0",
+            "id": "33ceda820f69de1a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1201,7 +1201,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "00c096223e5a2f19",
+  "active": "33ceda820f69de1a",
   "lastOpenFiles": [
     "00-09 system/template/project_note template.md",
     "00-09 system/template/tag.md",
