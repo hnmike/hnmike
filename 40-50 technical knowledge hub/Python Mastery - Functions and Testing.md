@@ -377,9 +377,6 @@ class TestStockProperties(unittest.TestCase):
 
 ### **Related Concepts**
 - [[Python Testing Strategies]]
-- [[Type Hints Reference]]
-- [[Error Handling Patterns]]
-- [[Property-Based Testing]]
 
 ---
 

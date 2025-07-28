@@ -130,7 +130,7 @@ graph TD
 
 ---
 
-## 🎯 Practice Ideas
+##  Practice Ideas
 
 - [ ] **Random Password Generator** - Ex 1.1 variation
 - [ ] **CSV Validator** - Ex 1.4 variation  
@@ -140,11 +140,6 @@ graph TD
 ---
 
 ## 📎 Related Notes
-
-- [[Data Structures]] - Builds on list/dict from Ex 1.2
-- [[Classes and Objects]] - Extends Stock class from Ex 1.5  
-- [[Functions and Testing]] - Advanced error handling
-- [[Module Organization]] - Advanced import patterns
 
 ---
 
