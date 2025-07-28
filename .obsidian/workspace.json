@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Data Engineering Practice Repository",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data Engineering Practice Repository\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":28.733784382024773}"
+                },
+                {
                   "title": "Python Mastery - Data Structures",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
@@ -144,12 +150,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
+                "file": "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Engineering Practice Repository"
+              "title": "Docker-based Workflow"
             }
           },
           {
@@ -1005,13 +1011,14 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
     "20-30 PARA/Project/data engineer practices/Intermediate Exercises.md",
     "20-30 PARA/Project/data engineer practices/Beginner Exercises.md",
     "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
-    "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
     "20-30 PARA/Project/data engineer practices",
     "resources/202507271003 Dagster dbt DuckDB Architecture.md",
     "resources/Reddit What are your favorite tricks using Neovim.md",
@@ -1032,7 +1039,6 @@
     "40-50 technical knowledge hub/Python Mastery - Stock Class Evolution.md",
     "Development Workflow.md",
     "40-50 technical knowledge hub/Python Mastery - Metaprogramming.md",
-    "Python Testing Strategies.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
