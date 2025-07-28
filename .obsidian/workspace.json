@@ -151,6 +151,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Python Mastery - Functions and Testing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Functions and Testing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Functions and Testing\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":379,\"ch\":0},\"to\":{\"line\":379,\"ch\":0}},\"scroll\":363.9435}"
+                },
+                {
                   "title": "Python Mastery - Data Structures",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
@@ -329,12 +335,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
+                "file": "resources/202507271003 Dagster dbt DuckDB Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Mastery - Functions and Testing"
+              "title": "202507271003 Dagster dbt DuckDB Architecture"
             },
             "group": "e6bd4629833f7c1a"
           },
@@ -771,7 +777,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
+                "file": "resources/202507271003 Dagster dbt DuckDB Architecture.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -799,7 +805,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Python Mastery - Functions and Testing"
+              "title": "Graph of 202507271003 Dagster dbt DuckDB Architecture"
             },
             "group": "e6bd4629833f7c1a"
           }
@@ -1244,13 +1250,13 @@
   },
   "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
+    "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
     "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Code Structure.md",
     "40-50 technical knowledge hub/Memory Optimization Techniques.md",
     "40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
     "Data Structures.md",
-    "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
     "Type Hints Reference.md",
     "Error Handling Patterns.md",
     "Data Processing Patterns.md",
