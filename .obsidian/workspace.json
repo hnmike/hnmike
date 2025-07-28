@@ -85,17 +85,17 @@
             "id": "c1f32a22e12ad538",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "vim",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/topics/vim/vim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"vim\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Reddit What are your favorite tricks using Neovim",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Reddit What are your favorite tricks using Neovim.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reddit What are your favorite tricks using Neovim\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":0},\"to\":{\"line\":120,\"ch\":0}}}"
                 },
                 {
                   "title": "Reddit What are some plugins you think should be included in neovim core",
@@ -132,229 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/Reddit What are your favorite tricks using Neovim.md",
+                "file": "resources/202507271003 Dagster dbt DuckDB Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reddit What are your favorite tricks using Neovim"
+              "title": "202507271003 Dagster dbt DuckDB Architecture"
             }
-          },
-          {
-            "id": "88f7c5cc422b3cde",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "orphaned files output",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"orphaned files output.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"orphaned files output\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "202507271003 Dagster dbt DuckDB Architecture",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507271003 Dagster dbt DuckDB Architecture.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507271003 Dagster dbt DuckDB Architecture\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery - Functions and Testing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Functions and Testing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Functions and Testing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":379,\"ch\":0},\"to\":{\"line\":379,\"ch\":0}},\"scroll\":363.9435}"
-                },
-                {
-                  "title": "Python Mastery - Data Structures",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":197,\"ch\":0},\"to\":{\"line\":197,\"ch\":0}},\"scroll\":188.86401442871158}"
-                },
-                {
-                  "title": "Python Mastery - Code Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Code Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Code Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":188.2370748321281}"
-                },
-                {
-                  "title": "Memory Optimization Techniques",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Memory Optimization Techniques.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Memory Optimization Techniques\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":144.80438587683565}"
-                },
-                {
-                  "title": "Python Mastery - Code Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Code Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Code Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery - Generators and Iterators",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Generators and Iterators\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":96.1609315276343}"
-                },
-                {
-                  "title": "Python Mastery - Code Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Code Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Code Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":339,\"ch\":0},\"to\":{\"line\":339,\"ch\":0}},\"scroll\":322.69133572684643}"
-                },
-                {
-                  "title": "Python Mastery - Generators and Iterators",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Generators and Iterators\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":379.1062124072902}"
-                },
-                {
-                  "title": "Python Mastery - Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Fundamentals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":138,\"ch\":0},\"to\":{\"line\":138,\"ch\":0}},\"scroll\":109.2977288208891}"
-                },
-                {
-                  "title": "Python Mastery - Functions and Testing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Functions and Testing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Functions and Testing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":379,\"ch\":0},\"to\":{\"line\":379,\"ch\":0}},\"scroll\":394.55863508599833}"
-                },
-                {
-                  "title": "Python Mastery - Data Structures",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":0},\"to\":{\"line\":204,\"ch\":0}},\"scroll\":181.1305580422147}"
-                },
-                {
-                  "title": "Python Mastery - Code Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Code Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Code Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":168,\"ch\":0},\"to\":{\"line\":168,\"ch\":0}},\"scroll\":140.54867478631513}"
-                },
-                {
-                  "title": "Python Mastery - Metaprogramming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Metaprogramming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Metaprogramming\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":412.25531551160543}"
-                },
-                {
-                  "title": "Python Mastery - Functions and Testing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Functions and Testing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Functions and Testing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":217.035661264635}"
-                },
-                {
-                  "title": "Python Testing Strategies",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Python Testing Strategies.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Testing Strategies\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Python Mastery - Functions and Testing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Functions and Testing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Functions and Testing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Python Mastery - Generators and Iterators",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Generators and Iterators\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery - Data Structures",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":30},\"to\":{\"line\":204,\"ch\":30}},\"scroll\":194.2501621116647}"
-                },
-                {
-                  "title": "Python Mastery - Object-Oriented Programming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Object-Oriented Programming\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":282.2688311529196}"
-                },
-                {
-                  "title": "Python Mastery - Metaprogramming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Metaprogramming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Metaprogramming\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery - Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Fundamentals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":97.7845132282263}"
-                },
-                {
-                  "title": "Memory Optimization Techniques",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Memory Optimization Techniques.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Memory Optimization Techniques\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Python Mastery - Data Structures",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":30},\"to\":{\"line\":204,\"ch\":30}},\"scroll\":192.10389893291986}"
-                },
-                {
-                  "title": "Python Mastery - Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Fundamentals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":122.69239647209507}"
-                },
-                {
-                  "title": "Python Mastery - Data Structures",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":195,\"ch\":26},\"to\":{\"line\":195,\"ch\":26}},\"scroll\":190.71219353461922}"
-                },
-                {
-                  "title": "202507230956 job data engineer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":7.073320483985097}"
-                },
-                {
-                  "title": "title",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":8.075180614598407}"
-                },
-                {
-                  "title": "You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-                },
-                {
-                  "title": "2025-07-13",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-13.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-13\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":26},\"to\":{\"line\":66,\"ch\":26}},\"scroll\":31.180510276399716}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/Development.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Development"
-            },
-            "group": "e6bd4629833f7c1a"
           },
           {
             "id": "d0416ea4201a115b",
@@ -768,60 +552,7 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "682cae8f6f7ade46",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "135d5633987925d3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "resources/Development.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754721991965,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Development"
-            },
-            "group": "e6bd4629833f7c1a"
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -1228,11 +959,11 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 754.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1260,8 +991,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "88f7c5cc422b3cde",
+  "active": "ee070a3c8e42a598",
   "lastOpenFiles": [
+    "resources/Reddit What are your favorite tricks using Neovim.md",
+    "resources/Development.md",
     "orphaned files output.md",
     "resources/202507271003 Dagster dbt DuckDB Architecture.md",
     "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
@@ -1286,8 +1019,6 @@
     "40-50 technical knowledge hub/Python Mastery - Inheritance.md",
     "Memory Optimization Techniques.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
-    "00-09 system/template/simple chat.md",
-    "resources/Dagster.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
