@@ -1,189 +1,236 @@
 ---
 title: Exercise 9: Polars Lazy Computation
-tags: [polars, lazy-evaluation, data-processing, rust-dataframe, memory-efficient]
+tags: [polars, lazy-computation, memory-efficient, rust-dataframe, temporal-aggregation]
 ---
 
 # Exercise 9: Polars Lazy Computation
 
 ## Overview
 
-Exercise 9 focuses on using Polars, a Rust-based DataFrame library, for high-performance, memory-efficient data manipulation with lazy evaluation. This exercise demonstrates how to process large datasets efficiently by leveraging Polars' lazy computation capabilities, which allows for query optimization and memory-efficient processing.
+Exercise 9 focuses on using Polars' lazy computation functionality for efficient processing of large datasets. Polars is a Rust-based DataFrame library that provides high-performance, memory-efficient data manipulation with lazy evaluation capabilities. This exercise specifically works with bike trip data and demonstrates temporal aggregations and comparisons.
 
 ## Exercise Workflow
 
-The exercise follows a structured workflow for processing large datasets:
+The exercise follows a structured workflow for processing bike trip data:
 
-1. **data/large_dataset.csv**: Input large dataset file
-2. **polars.read_csv()**: Load data with lazy evaluation
-3. **LazyFrame Operations**: Apply transformations lazily
-   - Filter operations
-   - Column selections
-   - Aggregations
-   - Joins
-4. **collect()**: Execute the lazy computation
-5. **Output Results**: Processed data or analytics
+1. **data/bike-trips.csv**: Input bike trip dataset
+2. **polars.read_csv()**: Load data with Polars
+3. **lazy()**: Convert to lazy DataFrame for optimization
+4. **Temporal Aggregations**: Perform time-based calculations
+5. **Comparisons**: Compare different time periods
+6. **collect()**: Execute the lazy computation
+7. **write_parquet()**: Output results to Parquet format
+
+## Data Description
+
+The exercise uses a bike trip dataset that contains information about individual bike rides. The data includes:
+
+- **Trip timestamps**: When trips started and ended
+- **Trip duration**: Length of each trip
+- **Geographic information**: Start and end locations
+- **User information**: Rider details and membership types
+- **Bike information**: Bike IDs and types
+
+### Sample Data Structure
+
+```
+trip_id,start_time,end_time,duration_minutes,start_station,end_station,user_type,bike_id
+1,2023-01-01 08:00:00,2023-01-01 08:15:00,15.0,Station A,Station B,member,BIKE001
+2,2023-01-01 09:30:00,2023-01-01 09:45:00,15.0,Station C,Station D,casual,BIKE002
+```
 
 ## Polars Lazy Computation Benefits
 
-### Memory Efficiency
+Polars' lazy computation provides several advantages for this exercise:
 
-Polars lazy computation provides significant memory benefits:
+### Performance Optimization
 
-- **Deferred Execution**: Operations are not executed until explicitly requested
-- **Query Optimization**: Polars can optimize the entire query plan before execution
-- **Memory Management**: Only necessary data is loaded into memory
-- **Streaming Processing**: Large datasets can be processed in chunks
+- **Query Optimization**: Lazy evaluation allows Polars to optimize the entire computation graph before execution
+- **Memory Efficiency**: Only loads and processes data when needed
+- **Parallel Processing**: Automatic parallelization of operations
+- **Reduced Memory Footprint**: Avoids creating intermediate DataFrames
 
-### Performance Advantages
+### Key Lazy Operations
 
-- **Query Optimization**: Polars analyzes the entire query and optimizes execution
-- **Parallel Processing**: Operations can be parallelized across multiple cores
-- **Vectorized Operations**: Efficient vectorized computations using Rust
-- **Minimal Memory Footprint**: Only intermediate results are stored
+| Operation | Description | Use Case |
+|-----------|-------------|----------|
+| lazy() | Convert eager DataFrame to lazy | Start lazy computation chain |
+| with_columns() | Add or modify columns | Create derived columns |
+| filter() | Filter rows based on conditions | Subset data by criteria |
+| group_by() | Group data for aggregations | Temporal grouping |
+| agg() | Perform aggregations | Calculate statistics |
+| sort() | Sort data by columns | Order results |
+| collect() | Execute lazy computation | Get final results |
 
-## Data Processing Pipeline
+## Implementation Requirements
 
-### LazyFrame Operations
+### 1. Data Loading and Lazy Conversion
 
-The exercise demonstrates various lazy operations:
-
-| Operation Type | Description | Example |
-|----------------|-------------|---------|
-| **Filtering** | Select rows based on conditions | `df.lazy().filter(pl.col("column") > 100)` |
-| **Selection** | Choose specific columns | `df.lazy().select(["col1", "col2"])` |
-| **Aggregation** | Group and aggregate data | `df.lazy().groupby("group_col").agg([pl.sum("value")])` |
-| **Joins** | Combine datasets | `df1.lazy().join(df2.lazy(), on="key")` |
-| **Window Functions** | Apply window operations | `df.lazy().with_columns([pl.col("value").over("group")])` |
-
-### Execution Flow
-
-1. **Create LazyFrame**: Convert DataFrame to LazyFrame
-2. **Chain Operations**: Apply multiple transformations
-3. **Optimize Query**: Polars optimizes the execution plan
-4. **Execute**: Call `.collect()` to execute the lazy computation
-5. **Process Results**: Handle the final DataFrame
-
-## Implementation Structure
-
-### Code Organization
-
-The exercise should be structured with clear separation of concerns:
+The first step involves loading the CSV data and converting it to a lazy DataFrame:
 
 ```python
-def main():
-    # Initialize Polars session
-    # Load data lazily
-    # Apply transformations
-    # Execute and collect results
-    # Output or analyze results
+import polars as pl
 
-def load_data_lazily(file_path):
-    # Load CSV with lazy evaluation
-    # Return LazyFrame
-
-def apply_transformations(lazy_df):
-    # Apply various lazy operations
-    # Return transformed LazyFrame
-
-def execute_and_collect(lazy_df):
-    # Execute lazy computation
-    # Return final DataFrame
+# Load data and convert to lazy
+df = pl.read_csv("data/bike-trips.csv")
+lazy_df = df.lazy()
 ```
 
-## Key Polars Concepts
+### 2. Temporal Aggregations
 
-### LazyFrame vs DataFrame
+The exercise requires performing various temporal aggregations:
 
-- **DataFrame**: Immediate execution, data loaded into memory
-- **LazyFrame**: Deferred execution, operations stored as query plan
+#### Daily Aggregations
+- **Average trip duration by day**: Calculate mean trip duration for each day
+- **Trip count by day**: Count total trips per day
+- **Peak usage times**: Identify hours with highest trip counts
 
-### Lazy Operations
+#### Weekly Aggregations
+- **Weekly trip patterns**: Analyze usage patterns across days of the week
+- **Weekend vs weekday comparisons**: Compare usage between weekends and weekdays
 
-Common lazy operations include:
+#### Monthly Aggregations
+- **Monthly growth trends**: Track usage growth over months
+- **Seasonal patterns**: Identify seasonal variations in usage
 
-- **pl.lazy()**: Convert DataFrame to LazyFrame
-- **.filter()**: Filter rows based on conditions
-- **.select()**: Choose specific columns
-- **.groupby()**: Group data for aggregations
-- **.join()**: Combine datasets
-- **.with_columns()**: Add or modify columns
-- **.collect()**: Execute the lazy computation
+### 3. Comparative Analysis
 
-### Query Optimization
+The exercise includes comparing different time periods:
 
-Polars automatically optimizes lazy queries by:
+- **Week-over-week comparisons**: Compare consecutive weeks
+- **Month-over-month growth**: Analyze monthly trends
+- **Year-over-year analysis**: Compare same periods across years
 
-- **Pushing down filters**: Moving filters as early as possible
-- **Column pruning**: Only loading necessary columns
-- **Predicate pushdown**: Optimizing join conditions
-- **Expression simplification**: Combining operations efficiently
+### 4. Advanced Lazy Operations
+
+Implement complex lazy operations:
+
+#### Window Functions
+```python
+# Example: Rolling average of daily trips
+daily_trips = lazy_df.group_by("date").agg(pl.count().alias("trip_count"))
+rolling_avg = daily_trips.with_columns(
+    pl.col("trip_count").rolling_mean(window_size=7).alias("weekly_avg")
+)
+```
+
+#### Conditional Aggregations
+```python
+# Example: Separate aggregations for members vs casual users
+user_analysis = lazy_df.group_by("user_type").agg([
+    pl.count().alias("total_trips"),
+    pl.mean("duration_minutes").alias("avg_duration"),
+    pl.std("duration_minutes").alias("duration_std")
+])
+```
+
+## Code Organization
+
+The implementation should follow a modular structure:
+
+### Function Structure
+
+- **main()**: Entry point and orchestration
+- **PolarsOperations**: Encapsulated lazy computation operations
+  - load_and_prepare_data()
+  - perform_daily_aggregations()
+  - perform_weekly_aggregations()
+  - perform_monthly_aggregations()
+  - compare_time_periods()
+  - write_results()
+
+### Lazy Computation Chain
+
+The exercise demonstrates building complex lazy computation chains:
+
+```python
+# Example lazy computation chain
+result = (lazy_df
+    .filter(pl.col("duration_minutes") > 0)
+    .with_columns([
+        pl.col("start_time").dt.date().alias("trip_date"),
+        pl.col("start_time").dt.hour().alias("trip_hour")
+    ])
+    .group_by(["trip_date", "trip_hour"])
+    .agg([
+        pl.count().alias("trip_count"),
+        pl.mean("duration_minutes").alias("avg_duration")
+    ])
+    .sort(["trip_date", "trip_hour"])
+    .collect()
+)
+```
 
 ## Docker Environment
 
 The exercise provides a Docker environment for consistent execution:
 
-- **Base Image**: Python 3.8 with Polars dependencies
-- **Volume Mount**: Local code mounted to container
-- **Build Command**: `docker build --tag=exercise-9 .`
-- **Run Command**: `docker-compose up run`
-- **Test Command**: `docker-compose up test`
+- **Build the Docker image**: `docker build --tag=exercise-9 .`
+- **Run the code**: `docker-compose up run`
+- **Run tests** (if implemented): `docker-compose up test`
+
+The Docker setup includes:
+- Ubuntu 18.04 base image
+- Python 3.8
+- Polars library
+- Volume mounting for local directory access
 
 ## Performance Considerations
 
 ### Memory Management
 
-- **Lazy evaluation reduces memory usage** by not materializing intermediate results
-- **Streaming operations** allow processing datasets larger than available memory
-- **Column pruning** ensures only necessary data is loaded
-- **Efficient data types** minimize memory footprint
+- **Lazy evaluation**: Only execute when collect() is called
+- **Chunked processing**: Handle large datasets efficiently
+- **Memory monitoring**: Track memory usage during processing
 
 ### Optimization Strategies
 
-- **Chain operations efficiently**: Minimize the number of collect() calls
-- **Use appropriate data types**: Choose efficient column types
-- **Leverage query optimization**: Let Polars optimize the execution plan
-- **Monitor memory usage**: Track memory consumption during processing
-
-## Best Practices
-
-### Lazy Computation Best Practices
-
-- **Minimize collect() calls**: Only collect when necessary
-- **Chain operations**: Build complete query before execution
-- **Use appropriate filters**: Apply filters early in the pipeline
-- **Monitor performance**: Use Polars' built-in profiling tools
-- **Handle errors gracefully**: Implement proper exception handling
-
-### Code Organization
-
-- **Modular design**: Separate data loading, transformation, and execution
-- **Clear documentation**: Document complex transformations
-- **Error handling**: Implement robust error handling for large datasets
-- **Testing**: Validate transformations with smaller datasets first
+- **Column selection**: Only load necessary columns
+- **Early filtering**: Filter data as early as possible
+- **Efficient aggregations**: Use appropriate aggregation functions
+- **Parallel processing**: Leverage Polars' built-in parallelism
 
 ## Key Learning Outcomes
 
-Exercise 9 provides hands-on experience with modern data processing techniques:
+Exercise 9 provides hands-on experience with Polars' lazy computation capabilities, teaching:
 
-- **Lazy Evaluation**: Understanding deferred execution benefits
-- **Memory Efficiency**: Processing large datasets with limited memory
-- **Query Optimization**: Leveraging automatic query optimization
-- **Performance Tuning**: Optimizing data processing pipelines
-- **Modern Data Processing**: Using Rust-based high-performance libraries
+- **Lazy Evaluation**: Understanding the benefits of lazy computation
+- **Temporal Analysis**: Working with time-series data
+- **Memory Efficiency**: Processing large datasets efficiently
+- **Query Optimization**: Building optimized computation chains
+- **Comparative Analysis**: Comparing data across time periods
 
 ## Technical Skills Developed
 
-- **Lazy Computation**: Deferred execution patterns
-- **Memory Management**: Efficient handling of large datasets
-- **Query Optimization**: Understanding execution plan optimization
-- **Performance Profiling**: Monitoring and optimizing data processing
-- **Modern Data Engineering**: Using cutting-edge data processing tools
+- **Lazy Computation**: Building optimized computation graphs
+- **Temporal Aggregations**: Time-based data analysis
+- **Memory Optimization**: Efficient data processing
+- **Comparative Analysis**: Multi-period data comparisons
+- **Performance Tuning**: Optimizing computation chains
+
+## Best Practices
+
+### Polars Lazy Computation Best Practices
+
+- **Build complete chains**: Design the entire computation before execution
+- **Use appropriate data types**: Leverage Polars' efficient data types
+- **Filter early**: Apply filters as early as possible in the chain
+- **Monitor memory**: Track memory usage during large computations
+- **Test with subsets**: Validate logic on smaller datasets first
+
+### Performance Best Practices
+
+- **Avoid eager operations**: Stay in lazy mode until final collection
+- **Use efficient aggregations**: Choose appropriate aggregation functions
+- **Leverage parallel processing**: Let Polars handle parallelism
+- **Optimize column selection**: Only process necessary columns
+- **Monitor execution time**: Profile performance of computation chains
 
 ## Related Exercises
 
 - **[[Exercise 8: DuckDB Analytics]]**: SQL-based analytical processing
-- **[[Exercise 10: Data Quality with Great Expectations]]**: Data validation and quality
+- **[[Exercise 10: Data Quality with Great Expectations]]**: Production data pipeline practices
 
 ## Conclusion
 
-Exercise 9 demonstrates the power of lazy computation in modern data processing. By using Polars' lazy evaluation capabilities, users can efficiently process large datasets while maintaining high performance and low memory usage. This exercise prepares users for real-world scenarios where memory constraints and performance requirements are critical considerations in data engineering workflows.
+Exercise 9 demonstrates the power of Polars' lazy computation for efficient processing of large datasets. By working through temporal aggregations and comparative analysis, users gain practical experience with modern data processing techniques that prioritize memory efficiency and performance optimization. The lazy computation paradigm prepares users for real-world scenarios where processing large datasets efficiently is crucial.
