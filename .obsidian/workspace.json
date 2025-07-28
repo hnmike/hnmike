@@ -1160,7 +1160,7 @@
             }
           },
           {
-            "id": "673b77b1c7d4e737",
+            "id": "573f2c90c2b71e24",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1211,7 +1211,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "673b77b1c7d4e737",
+  "active": "573f2c90c2b71e24",
   "lastOpenFiles": [
     "resources/Dagster.md",
     "00-09 system/template/title.md",
