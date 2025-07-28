@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Python Mastery - Data Structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":197,\"ch\":0},\"to\":{\"line\":197,\"ch\":0}},\"scroll\":188.864}"
+                },
+                {
                   "title": "202507271003 Dagster dbt DuckDB Architecture",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507271003 Dagster dbt DuckDB Architecture.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507271003 Dagster dbt DuckDB Architecture\"}",
@@ -138,12 +144,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+                "file": "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Mastery - Data Structures"
+              "title": "Data Engineering Practice Repository"
             }
           },
           {
@@ -997,8 +1003,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "81a51b5314bffc61",
+  "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+    "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
     "20-30 PARA/Project/data engineer practices",
@@ -1007,7 +1015,6 @@
     "resources/Development.md",
     "orphaned files output.md",
     "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
-    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Code Structure.md",
     "40-50 technical knowledge hub/Memory Optimization Techniques.md",
     "40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md",
