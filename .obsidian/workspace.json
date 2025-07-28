@@ -151,6 +151,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Python Mastery - Metaprogramming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Metaprogramming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Metaprogramming\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Python Mastery - Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Fundamentals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":97.7845132282263}"
+                },
+                {
                   "title": "Memory Optimization Techniques",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Memory Optimization Techniques.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Memory Optimization Techniques\"}",
@@ -203,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Mastery - Fundamentals"
+              "title": "Python Mastery - Object-Oriented Programming"
             },
             "group": "e7f53bd9e5ec32f8"
           },
@@ -645,7 +657,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -673,7 +685,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Python Mastery - Fundamentals"
+              "title": "Graph of Python Mastery - Object-Oriented Programming"
             },
             "group": "e7f53bd9e5ec32f8"
           }
@@ -1116,12 +1128,12 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "f2572a0318a83539",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
-    "Memory Optimization Techniques.md",
-    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Metaprogramming.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
+    "Memory Optimization Techniques.md",
+    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "40-50 technical knowledge hub/Python Mastery MOC.md",
