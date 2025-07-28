@@ -151,6 +151,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Memory Optimization Techniques",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Memory Optimization Techniques.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Memory Optimization Techniques\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Python Mastery - Data Structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":30},\"to\":{\"line\":204,\"ch\":30}},\"scroll\":192.10389893291986}"
+                },
+                {
                   "title": "Python Mastery - Fundamentals",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Fundamentals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Fundamentals\"}",
@@ -191,13 +203,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Mastery - Data Structures"
-            }
+              "title": "Python Mastery - Fundamentals"
+            },
+            "group": "e7f53bd9e5ec32f8"
           },
           {
             "id": "d0416ea4201a115b",
@@ -612,6 +625,59 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "3635da24d7edadde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2572a0318a83539",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Python Mastery - Fundamentals"
+            },
+            "group": "e7f53bd9e5ec32f8"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -1022,7 +1088,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1050,11 +1116,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "88f7c5cc422b3cde",
+  "active": "f2572a0318a83539",
   "lastOpenFiles": [
+    "Memory Optimization Techniques.md",
+    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+    "40-50 technical knowledge hub/Python Mastery - Metaprogramming.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
     "40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md",
-    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "40-50 technical knowledge hub/Python Mastery MOC.md",
     "00-09 system/template/simple chat.md",
@@ -1076,8 +1144,6 @@
     "resources/Fastest way to build a Real Time ML System.md",
     "00-09 system/template/note review.md",
     "00-09 system/template/Callout template.md",
-    "00-09 system/template/block reference.md",
-    "00-09 system/template/new zettel note.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
