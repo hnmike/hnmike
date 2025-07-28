@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Exercise 10: Data Quality with Great Expectations",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 10: Data Quality with Great Expectations\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":351.5324413634183}"
+                },
+                {
                   "title": "Exercise 5: PostgreSQL Data Modeling",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 5: PostgreSQL Data Modeling\"}",
@@ -168,12 +174,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
+                "file": "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 10: Data Quality with Great Expectations"
+              "title": "Repository Architecture"
             }
           },
           {
@@ -1029,10 +1035,10 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
     "20-30 PARA/Project/data engineer practices/Exercise 9: Polars Lazy Computation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 8: DuckDB Analytics.md",
     "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
