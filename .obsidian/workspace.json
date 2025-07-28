@@ -1191,7 +1191,7 @@
             }
           },
           {
-            "id": "7f8312a87ddd694b",
+            "id": "525f2830002c8857",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1205,8 +1205,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -1238,7 +1238,8 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
   "active": "88f7c5cc422b3cde",
