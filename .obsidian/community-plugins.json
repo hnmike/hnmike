@@ -63,5 +63,6 @@
   "better-export-pdf",
   "cmdr",
   "editor-width-slider",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-local-rest-api"
 ]
