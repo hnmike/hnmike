@@ -198,6 +198,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "simple chat",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/simple chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"simple chat\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.891172214182344}"
+                },
+                {
                   "title": "Dagster",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster\"}",
@@ -352,12 +358,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/simple chat.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "simple chat"
+              "title": "Python Mastery - Fundamentals"
             }
           },
           {
@@ -1211,13 +1217,14 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "573f2c90c2b71e24",
+  "active": "00c096223e5a2f19",
   "lastOpenFiles": [
+    "00-09 system/template/simple chat.md",
+    "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
     "resources/Dagster.md",
     "00-09 system/template/title.md",
     "resources/AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink.md",
     "resources/202507262132 Shift-Left Data Quality.md",
-    "00-09 system/template/simple chat.md",
     "00-09 system/template/tag.md",
     "00-09 system/template/project_note template.md",
     "00-09 system/template/Task calendar template.md",
@@ -1238,7 +1245,6 @@
     "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
     "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "resources/You Don’t Need Neovim My VSCode Setup Does 95% of the Same Stuff.md",
-    "10-20 zettelkasten/atomic notes/atomic notes.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
