@@ -1017,6 +1017,7 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
     "20-30 PARA/Project/data engineer practices/Exercise 6: PySpark Aggregation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
@@ -1044,7 +1045,6 @@
     "Type Hints Reference.md",
     "Error Handling Patterns.md",
     "Data Processing Patterns.md",
-    "Python Performance Profiling.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
