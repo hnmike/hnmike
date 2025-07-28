@@ -188,185 +188,6 @@
             }
           },
           {
-            "id": "00c096223e5a2f19",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "simple chat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/simple chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"simple chat\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.891172214182344}"
-                },
-                {
-                  "title": "Dagster",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":42.5391612748202}"
-                },
-                {
-                  "title": "202507262132 Shift-Left Data Quality",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507262132 Shift-Left Data Quality.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507262132 Shift-Left Data Quality\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":11.8733}"
-                },
-                {
-                  "title": "simple chat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/simple chat.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"simple chat\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":157,\"ch\":31},\"to\":{\"line\":157,\"ch\":31}},\"scroll\":144.6726483357453}"
-                },
-                {
-                  "title": "tag",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "title",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}},\"scroll\":0}"
-                },
-                {
-                  "title": "tag",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Data layers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "data quality issues",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507262132 Shift-Left Data Quality.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data quality issues\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}},\"scroll\":20.7507932418397}"
-                },
-                {
-                  "title": "tag",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2460},\"to\":{\"line\":0,\"ch\":2460}},\"scroll\":0}"
-                },
-                {
-                  "title": "Data layers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "tag",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2460},\"to\":{\"line\":0,\"ch\":2460}},\"scroll\":0.7635674907163913}"
-                },
-                {
-                  "title": "Data layers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":34},\"to\":{\"line\":6,\"ch\":34}}}"
-                },
-                {
-                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":0}"
-                },
-                {
-                  "title": "tag",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/tag.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"tag\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":2},\"to\":{\"line\":73,\"ch\":2}},\"scroll\":54.044957489146164}"
-                },
-                {
-                  "title": "Data layers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Big RAM Data Engineering with DuckDB.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data layers\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":34},\"to\":{\"line\":6,\"ch\":34}},\"scroll\":0}"
-                },
-                {
-                  "title": "area_note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/area_note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"area_note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":17.44505443876628}"
-                },
-                {
-                  "title": "atomic template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/atomic template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "block reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/block reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"block reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "knowledge base template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "atomic template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/atomic template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"atomic template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "202507230942",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"202507230942.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230942\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "cong cu ai ho tro viet resume match description",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"job scan match jd\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "2025-07-23",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/journal/daily/2025/07/2025-07-23.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2025-07-23\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":11},\"to\":{\"line\":64,\"ch\":11}},\"scroll\":56.21775054269175}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python Mastery - Fundamentals"
-            }
-          },
-          {
             "id": "d0416ea4201a115b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -778,7 +599,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1217,10 +1038,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "00c096223e5a2f19",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
-    "00-09 system/template/simple chat.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
+    "00-09 system/template/simple chat.md",
     "resources/Dagster.md",
     "00-09 system/template/title.md",
     "resources/AWS Data Engineering  Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink.md",
