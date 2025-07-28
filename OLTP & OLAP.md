@@ -1,11 +1,12 @@
 ---
 created-date: 2025-07-08
-up: 
-related: 
-aliases: 
+up: null
+related: null
+aliases: null
 tags:
-  - data_warehouse
-summary:
+- data_warehouse
+summary: null
+permalink: oltp-olap
 ---
 
 ---

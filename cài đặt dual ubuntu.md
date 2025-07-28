@@ -1,11 +1,13 @@
 ---
 created-date: 2024-09-08 13:08
 url: https://linuxsimply.com/linux-basics/os-installation/dual-boot/windows-11-and-ubuntu/
-related: 
-aliases: 
-tags: 
-summary:
+related: null
+aliases: null
+tags: null
+summary: null
+permalink: cai-at-dual-ubuntu
 ---
+
 #### Dual Booting Ubuntu with Windows
 
 Dual booting Ubuntu with Windows involves downloading the latest version of Ubuntu, creating a bootable USB drive, creating a partition on the hard drive, and installing Ubuntu on the partition. The exact steps may vary depending on the Windows version. 

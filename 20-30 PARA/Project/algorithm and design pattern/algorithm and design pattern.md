@@ -2,10 +2,11 @@
 Priority_Level: 3 Medium
 Status: 1 To Do
 Date_Created: 2025-04-01T10:17
-Due_Date: 
-Connections: 
+Due_Date: null
+Connections: null
 tags: []
 Type: project_family
+permalink: 20-30-para/project/algorithm-and-design-pattern/algorithm-and-design-pattern
 ---
 
 Tags: #project/algorithm_and_design_pattern
@@ -595,5 +596,3 @@ sort type ASC
 ```
 
 ````
-  
-  

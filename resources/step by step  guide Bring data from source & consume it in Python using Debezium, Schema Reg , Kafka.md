@@ -1,18 +1,22 @@
 ---
-title: "step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka"
+title: step by step  guide Bring data from source & consume it in Python using Debezium,
+  Schema Reg , Kafka
 author:
-  - "Soumil Shah"
+- Soumil Shah
 published: 2022-12-26
-source: "https://www.youtube.com/watch?v=AwXSjIMUa1M&list=LL&index=151"
-image: "https://i.ytimg.com/vi/AwXSjIMUa1M/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE8gZSg3MA8=&rs=AOn4CLBOlpKbfipI3vd1LChDuaojAhfzjw"
+source: https://www.youtube.com/watch?v=AwXSjIMUa1M&list=LL&index=151
+image: https://i.ytimg.com/vi/AwXSjIMUa1M/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE8gZSg3MA8=&rs=AOn4CLBOlpKbfipI3vd1LChDuaojAhfzjw
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "data_streaming"
-  - "cdc_pipeline"
-  - "debezium_kafka"
-summary: "Learn how to build a data pipeline using Debezium, Schema Registry, and Kafka to capture database changes and consume them in Python. Step-by-step guide included!"
+- youtube
+- data_streaming
+- cdc_pipeline
+- debezium_kafka
+summary: Learn how to build a data pipeline using Debezium, Schema Registry, and Kafka
+  to capture database changes and consume them in Python. Step-by-step guide included!
+permalink: resources/step-by-step-guide-bring-data-from-source-consume-it-in-python-using-debezium-schema-reg-kafka
 ---
+
 # step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka
 
 ![step by step  guide Bring data from source & consume it in Python using Debezium, Schema Reg , Kafka](https://www.youtube.com/embed/AwXSjIMUa1M&list=LL&index=151)

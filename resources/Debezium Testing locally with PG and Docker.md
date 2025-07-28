@@ -1,18 +1,21 @@
 ---
-title: "Debezium Testing locally with PG and Docker"
+title: Debezium Testing locally with PG and Docker
 author:
-  - "Juan"
+- Juan
 published: 2024-08-25
-source: "https://www.youtube.com/watch?v=V_RjthHydKs&list=LL&index=165"
-image: "https://i.ytimg.com/vi/V_RjthHydKs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgVChlMA8=&rs=AOn4CLBDdPlpPCOLSdPml4oIsxmsE7WmSw"
+source: https://www.youtube.com/watch?v=V_RjthHydKs&list=LL&index=165
+image: https://i.ytimg.com/vi/V_RjthHydKs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgVChlMA8=&rs=AOn4CLBDdPlpPCOLSdPml4oIsxmsE7WmSw
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "debezium"
-  - "docker"
-  - "kafka"
-summary: "Run Debezium locally for testing with Docker, Kafka, PostgreSQL, and a Java consumer. Capture data changes and stream them to Kafka. Easy setup guide!"
+- youtube
+- debezium
+- docker
+- kafka
+summary: Run Debezium locally for testing with Docker, Kafka, PostgreSQL, and a Java
+  consumer. Capture data changes and stream them to Kafka. Easy setup guide!
+permalink: resources/debezium-testing-locally-with-pg-and-docker
 ---
+
 # Debezium Testing locally with PG and Docker
 
 ![Debezium Testing locally with PG and Docker](https://www.youtube.com/embed/V_RjthHydKs&list=LL&index=165)

@@ -1,15 +1,22 @@
 ---
-title: "Primer on Python Decorators"
-summary: "Learn Python decorators! Understand how they wrap functions/classes to modify behavior, add logging, timing, caching, and more, enhancing code readability and reusability."
-source: "https://realpython.com/primer-on-python-decorators/"
+title: Primer on Python Decorators
+summary: Learn Python decorators! Understand how they wrap functions/classes to modify
+  behavior, add logging, timing, caching, and more, enhancing code readability and
+  reusability.
+source: https://realpython.com/primer-on-python-decorators/
 author:
-  - "[[Real Python]]"
+- '[[Real Python]]'
 published: 2024-12-14
 created: 2025-07-10
-description: "In this tutorial, you'll look at what Python decorators are and how you define and use them. Decorators can make your code more readable and reusable. Come take a look at how decorators work under the hood and practice writing your own decorators."
-tags:
-type :
+description: In this tutorial, you'll look at what Python decorators are and how you
+  define and use them. Decorators can make your code more readable and reusable. Come
+  take a look at how decorators work under the hood and practice writing your own
+  decorators.
+tags: null
+type: null
+permalink: resources/primer-on-python-decorators
 ---
+
 >[!summary]+ This tutorial provides a comprehensive guide to Python decorators. It starts by explaining foundational concepts like first-class functions, inner functions, and functions as return values. It then introduces simple decorators, the `@` syntax, handling arguments and return values, and using `functools.wraps`. The tutorial covers practical examples like timing, debugging, and registration. Finally, it delves into advanced topics such as decorating classes, nesting decorators, decorators with arguments (including optional ones), stateful decorators, class-based decorators, singletons, caching (`lru_cache`), adding units, and JSON validation.
 ![Python Decorators](https://files.realpython.com/media/Primer-on-Python-Decorators_Watermarked.d0da542fa3fc.jpg)
 

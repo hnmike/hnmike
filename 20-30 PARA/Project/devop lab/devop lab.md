@@ -1,11 +1,12 @@
 ---
 Priority_Level: 2 High
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/devop-lab/devop-lab
 ---
 
 Tags: #project/devop_lab
@@ -593,5 +594,3 @@ sort type ASC
 ```
 
 ````
-  
-  

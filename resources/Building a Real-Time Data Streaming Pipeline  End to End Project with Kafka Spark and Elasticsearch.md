@@ -1,18 +1,22 @@
 ---
-title: Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch
+title: Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka
+  Spark and Elasticsearch
 author:
-  - Cey's Data Hub
+- Cey's Data Hub
 published: 2024-10-03
 source: https://www.youtube.com/watch?v=RQ7nnobb1N0
 image: https://i.ytimg.com/vi/RQ7nnobb1N0/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "#youtube"
-  - Kafka
-  - Elasticsearch
-  - data_engineer
-summary: "Learn to build a real-time data pipeline with Kafka, Spark, and Elasticsearch. Analyze sentiment from a 7M record dataset using HuggingFace. #DataEngineering #Kafka"
+- '#youtube'
+- Kafka
+- Elasticsearch
+- data_engineer
+summary: 'Learn to build a real-time data pipeline with Kafka, Spark, and Elasticsearch.
+  Analyze sentiment from a 7M record dataset using HuggingFace. #DataEngineering #Kafka'
+permalink: resources/building-a-real-time-data-streaming-pipeline-end-to-end-project-with-kafka-spark-and-elasticsearch
 ---
+
 # Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch
 
 ![Building a Real-Time Data Streaming Pipeline | End to End Project with Kafka Spark and Elasticsearch](https://www.youtube.com/embed/RQ7nnobb1N0)

@@ -1,9 +1,11 @@
 ---
 source: https://www.linkedin.com/feed/
 tags:
-  - linkedin
-  - Kafka
+- linkedin
+- Kafka
+permalink: resources/kafka-internals
 ---
+
 Knowing Kafka internals gets you ahead of 94% of Kafka admins.  
   
 But reading the code takes a lot of effort. Thankfully? I read it so you don't have to. 😇  

@@ -1,12 +1,14 @@
 ---
 created-date: 2024-12-05 20:57
-id: 
-url: 
-related: 
-aliases: 
-tags: 
-summary:
+id: null
+url: null
+related: null
+aliases: null
+tags: null
+summary: null
+permalink: git-push-and-create-new-repository-from-a-project-202412052057
 ---
+
 ## Steps to Create and Push the MMT 3 Project to a New GitHub Repository
 
 1. **Initialize the Git Repository:**

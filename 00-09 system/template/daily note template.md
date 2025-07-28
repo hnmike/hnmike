@@ -1,15 +1,16 @@
 ---
 type: daily-note
 date: <% moment(tp.file.title, 'YYYY-MM-DD').format("YYYY-MM-DD") %>
-aliases: 
+aliases: null
 week: <% tp.date.now("YYYY-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>
 month: <% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>
-summary: 
+summary: null
 tags:
-  - type/daily-note
+- type/daily-note
 cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
+- hide-properties_editing
+- hide-properties_reading
+permalink: 00-09-system/template/daily-note-template
 ---
 
 ## 🐣Nagivation🐣
@@ -146,9 +147,3 @@ try {
     dv.paragraph("Error: " + error.message);
 }
 ```
-  
-
-
-
-
-

@@ -1,16 +1,19 @@
 ---
 title: DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2025-01-15
 source: https://www.youtube.com/watch?v=el8PzdD7zqM&t=3467s
 image: https://i.ytimg.com/vi/el8PzdD7zqM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLCtDOFCwgAuLRy83WhUT4QllnWsxQ
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineer
-summary: DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engineering Bootcamp. Key topics include metrics, KPIs, and experimentation frameworks.
+- youtube
+- data_engineer
+summary: DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engineering
+  Bootcamp. Key topics include metrics, KPIs, and experimentation frameworks.
+permalink: resources/data-expert-io-week-4-homework-week-5-lecture-1-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp](https://www.youtube.com/embed/el8PzdD7zqM&t=3467s)
@@ -70,4 +73,4 @@ summary: DataExpert.io week 4 homework and week 5 lecture 1 from the Data Engine
 > - **57:56** Just because something is statistically significant doesn't mean that it's valuable.
 > - **59:38** If you have extreme outliers, you want to be careful, winsorization is a technique to clip them to a less extreme value.
 > - **1:00:49** As a data engineer, you're often going to be adding new metrics into experimentation platforms.
-> 
+>

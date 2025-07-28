@@ -1,14 +1,16 @@
 ---
 created-date: 2024-11-16 08:46
-id: 
-url: 
-related: 
-aliases: 
+id: null
+url: null
+related: null
+aliases: null
 tags:
-  - "#project_note"
-  - "#data_engineer"
-summary:
+- '#project_note'
+- '#data_engineer'
+summary: null
+permalink: 40-50-technical-knowledge-hub/data-engineer/data-engineer-lab-1-202411160846
 ---
+
 # Simple prerequisite for settings and basic tech stacks 
 
 ## Data Modeling
@@ -168,4 +170,4 @@ postgres=# \\i data.dump
 - To inspect the Postgres container, run **`make inspect`**.
 - To find the port Postgres is running on, run **`make ip`*
 
-To 
+To

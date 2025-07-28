@@ -1,11 +1,13 @@
 ---
 created-date: 2024-11-12 21:09
 url: https://www.startdataengineering.com/post/parts-of-dataengineering/
-related: 
+related: null
 aliases: []
-tags: 
-summary:
+tags: null
+summary: null
+permalink: requirements-for-data-engineer-project-202411121714
 ---
+
 ## Key parts of a data project 
 
 ![[IMG-20241114090913093.png]]

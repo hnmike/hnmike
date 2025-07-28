@@ -1,15 +1,17 @@
 ---
 created-date: 2024-12-08 17:28
-id: 
+id: null
 url: https://www.youtube.com/watch?v=Vwhaq4ezmaw
-related: 
-aliases: 
+related: null
+aliases: null
 tags: []
-summary: 
+summary: null
 sr-due: 2025-03-08
 sr-interval: 4
 sr-ease: 270
+permalink: running-apache-spark-on-kubernetes-202412081728
 ---
+
 # **Running Apache Spark on Kubernetes**
 
 ## **Summary**

@@ -1,13 +1,13 @@
 ---
 created-date: 2024-12-08 18:25
-id: 
+id: null
 url: https://www.youtube.com/watch?v=l0egjWc2rRw
-related: 
-aliases: 
-tags: 
-summary:
+related: null
+aliases: null
+tags: null
+summary: null
+permalink: distributed-data-pipeline-using-airflow-and-spark-on-kubernetes-202412081825
 ---
-
 
 # Distributed data pipeline using Airflow and Spark on kubernetes
 
@@ -42,4 +42,4 @@ In this tutorial, we walked through how to scale data pipelines using Airflow an
 
 
 ## RESOURCES
-[GitHub - arezamoosavi/theLastPersecution: Airflow and Spark-Kubernetes at Scale](https://github.com/arezamoosavi/theLastPersecution) 
+[GitHub - arezamoosavi/theLastPersecution: Airflow and Spark-Kubernetes at Scale](https://github.com/arezamoosavi/theLastPersecution)

@@ -1,15 +1,17 @@
 ---
 created-date: 2024-11-12 20:55
 url: https://www.startdataengineering.com/post/data-engineering-projects-with-free-template/#set-up-data-infrastructure
-related: 
+related: null
 aliases:
-  - data engineer
+- data engineer
 tags:
-  - data_engineer
-  - "#project"
-  - project_note
-summary:
+- data_engineer
+- '#project'
+- project_note
+summary: null
+permalink: 40-50-technical-knowledge-hub/data-engineer/end-to-end-data-engineer-projects
 ---
+
 # Building data project template 
 - Define some [[requirements for data engineer project (202411121714)]]
 	![[IMG-20241113171737544.png]]

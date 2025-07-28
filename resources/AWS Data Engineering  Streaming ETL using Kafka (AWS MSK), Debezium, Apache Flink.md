@@ -1,18 +1,22 @@
 ---
-title: "AWS Data Engineering | Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink"
+title: AWS Data Engineering | Streaming ETL using Kafka (AWS MSK), Debezium, Apache
+  Flink
 author:
-  - "Parth Soni - Data Engineering Enthusiast"
+- Parth Soni - Data Engineering Enthusiast
 published: 2024-03-29
-source: "https://www.youtube.com/watch?v=5CP_zuvwkGw&list=LL&index=103"
-image: "https://i.ytimg.com/vi/5CP_zuvwkGw/maxresdefault.jpg"
+source: https://www.youtube.com/watch?v=5CP_zuvwkGw&list=LL&index=103
+image: https://i.ytimg.com/vi/5CP_zuvwkGw/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "AWS_Data_Engineering"
-  - "Streaming_ETL"
-  - "Apache_Flink"
-summary: "Learn how to build a streaming ETL pipeline using Kafka, Debezium, and Flink on AWS! This workshop covers CDC implementation and real-time data processing."
+- youtube
+- AWS_Data_Engineering
+- Streaming_ETL
+- Apache_Flink
+summary: Learn how to build a streaming ETL pipeline using Kafka, Debezium, and Flink
+  on AWS! This workshop covers CDC implementation and real-time data processing.
+permalink: resources/aws-data-engineering-streaming-etl-using-kafka-aws-msk-debezium-apache-flink
 ---
+
 # AWS Data Engineering | Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink
 
 ![AWS Data Engineering | Streaming ETL using Kafka (AWS MSK), Debezium, Apache Flink](https://www.youtube.com/embed/5CP_zuvwkGw&list=LL&index=103)

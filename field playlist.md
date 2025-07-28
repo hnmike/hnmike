@@ -1,7 +1,8 @@
 ---
 reviewed: 2024-10-05
-
+permalink: field-playlist
 ---
+
 [[stackflow 'deep aura clearing-torsion-healing stack-five elements-acupressure-grounding]
 - brain stack 
       primer(boost/pump) field

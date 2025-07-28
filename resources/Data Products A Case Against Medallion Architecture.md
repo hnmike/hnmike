@@ -1,8 +1,10 @@
 ---
 source: https://www.linkedin.com/feed/
 tags:
-  - linkedin
+- linkedin
+permalink: resources/data-products-a-case-against-medallion-architecture
 ---
+
 🚀 Data Products: A Case Against Medallion Architecture🚀  
 Understanding Medallion Architecture: Key Differences Between Two 3-Tiered Data Flow Models – A Visual Exploration!  
 If this is going to be a case against the Medallion architecture, we need to lawyer up on both ends and make a case for Medallion first — its significance, reasons behind its emergence, impact, and why it worked or didn’t work. And don’t worry, we’ll keep the defence short so we have the stage for what’s coming.  

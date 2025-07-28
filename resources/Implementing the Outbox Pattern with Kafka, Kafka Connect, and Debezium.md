@@ -1,17 +1,20 @@
 ---
 title: Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium
 author:
-  - Mohammad Al-Ali
+- Mohammad Al-Ali
 published: 2023-09-09
 source: https://www.youtube.com/watch?v=D63LsapPwfw&list=LL&index=159
 image: https://i.ytimg.com/vi/D63LsapPwfw/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - youtube
-  - Kafka_Connect_Debezium
-  - data_engineer/stream_processing
-summary: Learn how to implement the Outbox Pattern with Kafka, Kafka Connect, and Debezium in a Spring Boot application for reliable data streaming.
+- youtube
+- Kafka_Connect_Debezium
+- data_engineer/stream_processing
+summary: Learn how to implement the Outbox Pattern with Kafka, Kafka Connect, and
+  Debezium in a Spring Boot application for reliable data streaming.
+permalink: resources/implementing-the-outbox-pattern-with-kafka-kafka-connect-and-debezium
 ---
+
 # Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium
 
 ![Implementing the Outbox Pattern with Kafka, Kafka Connect, and Debezium](https://www.youtube.com/embed/D63LsapPwfw&list=LL&index=159)
@@ -43,4 +46,4 @@ summary: Learn how to implement the Outbox Pattern with Kafka, Kafka Connect, an
 > - **Outbox Event Router Transformation (9:03):** The video uses Outbox Event Router transformation.
 > - **Setting up Kafka Connect using the tool (6:17)\"
 > 
-> 
+>

@@ -1,13 +1,15 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_note
-cssclasses:
+cssclasses: null
+permalink: 00-09-system/template/project-note-template
 ---
+
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`

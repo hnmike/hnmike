@@ -1,18 +1,23 @@
 ---
-title: "End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake"
-summary: "Build an automated weather data pipeline using WeatherAPI, AWS, Apache Iceberg, & Snowflake. Ingest, process, store & analyze data for BI & reporting."
-source: "https://medium.com/@claudiofilho22/end-to-end-data-engineering-project-using-aws-apache-iceberg-snowflake-90b76e7a1082"
+title: End-to-End Data Engineering Project using AWS + Apache Iceberg + Snowflake
+summary: Build an automated weather data pipeline using WeatherAPI, AWS, Apache Iceberg,
+  & Snowflake. Ingest, process, store & analyze data for BI & reporting.
+source: https://medium.com/@claudiofilho22/end-to-end-data-engineering-project-using-aws-apache-iceberg-snowflake-90b76e7a1082
 author:
-  - "Claudiocmm"
+- Claudiocmm
 published: 2025-03-14
 created: 2025-03-20
-description: "This article demonstrates building an automated weather data pipeline using WeatherAPI, AWS services, and Snowflake. You’ll see how this system collects and processes both real-time and forecast data…"
+description: This article demonstrates building an automated weather data pipeline
+  using WeatherAPI, AWS services, and Snowflake. You’ll see how this system collects
+  and processes both real-time and forecast data…
 tags:
-  - "aws_data_pipeline"
-  - "apache_iceberg"
-  - "snowflake_integration"
-type :
+- aws_data_pipeline
+- apache_iceberg
+- snowflake_integration
+type: null
+permalink: resources/end-to-end-data-engineering-project-using-aws-apache-iceberg-snowflake
 ---
+
 >[!summary]+ This article describes an end-to-end data engineering project using AWS services, Apache Iceberg, and Snowflake to build an automated weather data pipeline. It covers data ingestion from WeatherAPI, processing with AWS Glue, storage in S3 with Apache Iceberg, orchestration with Airflow, and analysis in Snowflake, including infrastructure setup with Terraform and data visualization with Tableau.
 ![](https://miro.medium.com/v2/resize:fit:875/1*F0T-aMeF01XugCOor2qkAg.png)
 

@@ -1,13 +1,15 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_note
-cssclasses:
+cssclasses: null
+permalink: 20-30-para/project/data-engineer-bootcamp/module-2-workflow-orchestration-with-kestra
 ---
+
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
@@ -1295,4 +1297,3 @@ Lets load all data from Green Taxi:
 If everything was executed correctly, you should have all the 2019-2020-2021 data for Green Taxi loaded in BigQuery in the green_tripdata table
 
 Head over to GCP, green_tripdata table should looks like this:
-

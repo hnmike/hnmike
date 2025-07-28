@@ -1,18 +1,21 @@
 ---
-title: "Running Spark Job on Kubernetes with Docker: Step-by-Step Guide"
+title: 'Running Spark Job on Kubernetes with Docker: Step-by-Step Guide'
 author:
-  - "UKAR BigData Solutions"
+- UKAR BigData Solutions
 published: 2024-03-02
-source: "https://www.youtube.com/watch?v=4YdfmbrGNUQ&list=LL&index=163"
-image: "https://i.ytimg.com/vi/4YdfmbrGNUQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBqgFETGnQsvwFrXKEEZe6di8FjvQ"
+source: https://www.youtube.com/watch?v=4YdfmbrGNUQ&list=LL&index=163
+image: https://i.ytimg.com/vi/4YdfmbrGNUQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBqgFETGnQsvwFrXKEEZe6di8FjvQ
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "spark_kubernetes"
-  - "docker"
-  - "pyspark_tutorial"
-summary: "Deploy a PySpark job on Kubernetes using Docker. Create, tag, push the image to Docker Hub, and deploy it on Kubernetes. Learn to check the job status and logs."
+- youtube
+- spark_kubernetes
+- docker
+- pyspark_tutorial
+summary: Deploy a PySpark job on Kubernetes using Docker. Create, tag, push the image
+  to Docker Hub, and deploy it on Kubernetes. Learn to check the job status and logs.
+permalink: resources/running-spark-job-on-kubernetes-with-docker-step-by-step-guide
 ---
+
 # Running Spark Job on Kubernetes with Docker: Step-by-Step Guide
 
 ![Running Spark Job on Kubernetes with Docker: Step-by-Step Guide](https://www.youtube.com/embed/4YdfmbrGNUQ&list=LL&index=163)
@@ -85,4 +88,4 @@ summary: "Deploy a PySpark job on Kubernetes using Docker. Create, tag, push the
 > - **Check the status of the pods:** Use `kubectl get pods`. (15:18)
 > - **View logs of the pods:** Use `kubectl logs pod-name` to troubleshoot issues. (15:34)
 > - **Delete the Job**: Use `kubectl delete job job-name` to delete the deployment (16:04)
-> 
+>

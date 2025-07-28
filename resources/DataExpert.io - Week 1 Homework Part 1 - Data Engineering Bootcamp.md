@@ -1,18 +1,21 @@
 ---
-title: "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp"
+title: DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-11-23
-source: "https://www.youtube.com/watch?v=YTSQSKXbKsE&t=3829s"
-image: "https://i.ytimg.com/vi/YTSQSKXbKsE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAF9Oswa4utQIrkzjYd20INjiNhCQ"
+source: https://www.youtube.com/watch?v=YTSQSKXbKsE&t=3829s
+image: https://i.ytimg.com/vi/YTSQSKXbKsE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAF9Oswa4utQIrkzjYd20INjiNhCQ
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "Dimensional_Modeling"
-  - "DataExpert.io"
-summary: "A Data Engineering Bootcamp homework walkthrough, focusing on dimensional modeling and actress data. Includes creating tables and querying for active actors."
+- youtube
+- data_engineer
+- Dimensional_Modeling
+- DataExpert.io
+summary: A Data Engineering Bootcamp homework walkthrough, focusing on dimensional
+  modeling and actress data. Includes creating tables and querying for active actors.
+permalink: resources/data-expert-io-week-1-homework-part-1-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp](https://www.youtube.com/embed/YTSQSKXbKsE&t=3829s)

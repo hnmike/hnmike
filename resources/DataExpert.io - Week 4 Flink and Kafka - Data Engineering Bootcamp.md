@@ -1,17 +1,21 @@
 ---
 title: DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2024-12-30
 source: https://www.youtube.com/watch?v=KokIFO_k02I&t=4770s
 image: https://i.ytimg.com/vi/KokIFO_k02I/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBipUQFH1aIcScI5eAUqhD69O1Q3g
 created: 2025-03-23
 tags:
-  - youtube
-  - flink_and_kafka
-  - streaming_data_pipelines
-summary: Week 4 of the Data Engineering Bootcamp covers Flink and Kafka. Explore real-time data processing, streaming pipelines, and key concepts for building efficient data workflows.
+- youtube
+- flink_and_kafka
+- streaming_data_pipelines
+summary: Week 4 of the Data Engineering Bootcamp covers Flink and Kafka. Explore real-time
+  data processing, streaming pipelines, and key concepts for building efficient data
+  workflows.
+permalink: resources/data-expert-io-week-4-flink-and-kafka-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 4 Flink and Kafka - Data Engineering Bootcamp](https://www.youtube.com/embed/KokIFO_k02I&t=4770s)

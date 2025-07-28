@@ -1,14 +1,16 @@
 ---
 created-date: 2024-12-05 17:00
-id: 
+id: null
 url: https://www.youtube.com/watch?v=wQxahZUwYoM&list=LL&index=6&t=1546s
-related: 
-aliases: 
+related: null
+aliases: null
 tags:
-  - todoproject
-  - reference_note
+- todoproject
+- reference_note
 summary: youtube labs ci/cd
+permalink: using-kubernetes-pods-as-jenkins-pipeline-build-agents-202412051700
 ---
+
 # **Using Kubernetes Pods as Jenkins Pipeline Build Agents**
 
 ## **Takeaway Notes**

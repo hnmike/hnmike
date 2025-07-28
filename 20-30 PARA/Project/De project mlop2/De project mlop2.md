@@ -3,9 +3,10 @@ Priority_Level: 2 High
 Status: 1 To Do
 Date_Created: 2025-03-21T10:18
 Due_Date: 2025-05-21T10:18
-Connections: 
-tags: 
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/de-project-mlop2/de-project-mlop2
 ---
 
 Tags: #project/de_project_mlop2
@@ -594,5 +595,3 @@ sort type ASC
 ```
 
 ````
-  
-  

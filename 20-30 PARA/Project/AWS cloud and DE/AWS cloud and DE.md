@@ -3,9 +3,10 @@ Priority_Level: 2 High
 Status: 2 In Progress
 Date_Created: 2025-03-21T10:11
 Due_Date: 2025-05-31T10:11
-Connections: 
-tags: 
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/aws-cloud-and-de/aws-cloud-and-de
 ---
 
 Tags: #project/aws_cloud_and_de
@@ -595,5 +596,3 @@ sort type ASC
 ```
 
 ````
-  
-  

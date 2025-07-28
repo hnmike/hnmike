@@ -1,26 +1,27 @@
 ---
 tags:
-  - book
+- book
 aliases:
-  - 전지적 독자 시점
-year: "2015"
+- 전지적 독자 시점
+year: '2015'
 author:
-  - Haruki Murakami
+- Haruki Murakami
 series: ORV
-series_part: "1"
+series_part: '1'
 started: 2023-10-10
-finished: 
+finished: null
 genres:
-  - Fiction
-  - Fantasy
-  - Novell
+- Fiction
+- Fantasy
+- Novell
 volume: 350
 timestamp: 350
 units: pages
 status: done
 rate: []
 cover: https://avatars.dzeninfra.ru/get-zen_doc/1708203/pub_5e81a33b8ccb2b5864348c56_5e81a3ffe76e9e2043c7fb93/scale_1200
-cssclasses:
+cssclasses: null
+permalink: 90-100-resource-archives/book-resources/norwegian-wood
 ---
 
 # ANNOTATION

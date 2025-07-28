@@ -2,13 +2,18 @@
 title: Dagster, dbt, duckdb as new local MDS | Georg Heiler
 source: https://georgheiler.com/post/dbt-duckdb-production/
 author:
-  - "[[Georg Heiler]]"
+- '[[Georg Heiler]]'
 published: 2023-12-11
 created: 2025-03-09
-description: "Lean and efficient MDS experience: Delivers better software engineering practices to the data ecosystem with the new local MDS stack comprised of Dagster, dbt and DuckDB which offers better developer productivity by enhancing testability of the E2E pipeline."
+description: 'Lean and efficient MDS experience: Delivers better software engineering
+  practices to the data ecosystem with the new local MDS stack comprised of Dagster,
+  dbt and DuckDB which offers better developer productivity by enhancing testability
+  of the E2E pipeline.'
 tags:
-  - clippings
+- clippings
+permalink: resources/dagster-dbt-duckdb-as-new-local-mds-202503181708
 ---
+
 ---
 
 area: resources

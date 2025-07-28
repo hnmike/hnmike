@@ -1,10 +1,11 @@
 ---
 created-date: 2024-09-20 20:20
-url:
-related:
-alias:
-tags:
-summary:
+url: null
+related: null
+alias: null
+tags: null
+summary: null
+permalink: web-api
 ---
 
 crawl data
@@ -24,4 +25,4 @@ API architecture styles
 
 streaming response
 
-redis 
+redis

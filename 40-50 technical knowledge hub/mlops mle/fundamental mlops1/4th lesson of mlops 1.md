@@ -1,11 +1,13 @@
 ---
 created-date: 2024-09-16 20:07
-url:
-related:
-alias:
-tags:
-summary:
+url: null
+related: null
+alias: null
+tags: null
+summary: null
+permalink: 40-50-technical-knowledge-hub/mlops-mle/fundamental-mlops1/4th-lesson-of-mlops-1
 ---
+
 elinear regression
 
 
@@ -20,4 +22,4 @@ Sử dụng linear regression cho training database của house price prediction
 	- mlops services
 	- chạy multiprocess cho task có khối lượng lớn về CPU, dùng multithread cho I/O
 	- Gil python
-	- 
+	-

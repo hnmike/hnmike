@@ -1,15 +1,19 @@
 ---
-title: "Fieldnotes/vim.md at main · vbd/Fieldnotes"
-summary: "Vim tips and tricks: learning resources, commands, navigation, exporting, unicode, encryption, regex, folding, buffers, macros, scripting, and more."
-source: "https://github.com/vbd/Fieldnotes/blob/main/vim.md#general"
+title: Fieldnotes/vim.md at main · vbd/Fieldnotes
+summary: 'Vim tips and tricks: learning resources, commands, navigation, exporting,
+  unicode, encryption, regex, folding, buffers, macros, scripting, and more.'
+source: https://github.com/vbd/Fieldnotes/blob/main/vim.md#general
 author:
-  - "[[GitHub]]"
-published:
+- '[[GitHub]]'
+published: null
 created: 2025-03-25
-description: "Public repository of my field notes from 25+ years as computer guy - Fieldnotes/vim.md at main · vbd/Fieldnotes"
-tags:
-type :
+description: Public repository of my field notes from 25+ years as computer guy -
+  Fieldnotes/vim.md at main · vbd/Fieldnotes
+tags: null
+type: null
+permalink: resources/fieldnotesvim-md-at-main-vbd-fieldnotes
 ---
+
 >[!summary]+ This is a collection of notes and tips for using the Vim text editor. It includes resources for learning Vim, general commands, navigation techniques, exporting options, dealing with unicode, encryption, troubleshooting, regular expressions, folding, buffer management, marks, macro execution, scripting, and various tips for specific tasks like converting German umlauts, using Languagetool, working with Python, searching and replacing, appending text, moving text, and performing simple calculations.
 ## Vim
 

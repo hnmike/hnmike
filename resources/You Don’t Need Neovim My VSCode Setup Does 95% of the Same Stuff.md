@@ -1,19 +1,23 @@
 ---
-title: "You Don’t Need Neovim: My VSCode Setup Does 95% of the Same Stuff"
+title: 'You Don’t Need Neovim: My VSCode Setup Does 95% of the Same Stuff'
 author:
-  - Levi Wilkerson
+- Levi Wilkerson
 published: 2025-05-29
 source: https://www.youtube.com/watch?v=l7CMlJRE5Hw&t=168s
 image: https://i.ytimg.com/vi/l7CMlJRE5Hw/maxresdefault.jpg
 created: 2025-07-22
 tags:
-  - youtube
-  - neovim
-  - vscode
-  - editor_configs
-summary: Learn how to configure VS Code with Vim motions, extensions, and keybindings to replicate the speed and efficiency of a Neovim workflow, without the complex setup.
+- youtube
+- neovim
+- vscode
+- editor_configs
+summary: Learn how to configure VS Code with Vim motions, extensions, and keybindings
+  to replicate the speed and efficiency of a Neovim workflow, without the complex
+  setup.
 topic: Vim
+permalink: resources/you-don-t-need-neovim-my-vscode-setup-does-95-of-the-same-stuff
 ---
+
 # You Don’t Need Neovim: My VSCode Setup Does 95% of the Same Stuff
 
 ![You Don’t Need Neovim: My VSCode Setup Does 95% of the Same Stuff](https://www.youtube.com/embed/l7CMlJRE5Hw&t=168s)

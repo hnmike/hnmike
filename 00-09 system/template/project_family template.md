@@ -1,11 +1,12 @@
 ---
 Priority_Level: 1 Critical
 Status: 3 Testing
-Date_Created: 
-Due_Date: 
-Connections: 
-tags:
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_family
+permalink: 00-09-system/template/project-family-template
 ---
 
 <%*
@@ -592,5 +593,3 @@ WHERE contains(flatten(file.tags), "#project/" + replace(lower(split(this.file.f
 SORT type ASC
 
 ````
-  
-  

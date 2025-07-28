@@ -1,17 +1,21 @@
 ---
 title: DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2025-01-16
 source: https://www.youtube.com/watch?v=Eqn3wNqclXY&t=7026s
 image: https://i.ytimg.com/vi/Eqn3wNqclXY/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCMgZShGMA8=&rs=AOn4CLD_PrWEkWq7Vfpegss5X4mwdhPcmw
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineering
-  - product_analytics
-summary: DataExpert.io's Week 5 Lecture 2 & Lab 1 from their Data Engineering Bootcamp. Covers leading/lagging metrics, product analytics, and experimentation with StatSig for data-driven decisions.
+- youtube
+- data_engineering
+- product_analytics
+summary: DataExpert.io's Week 5 Lecture 2 & Lab 1 from their Data Engineering Bootcamp.
+  Covers leading/lagging metrics, product analytics, and experimentation with StatSig
+  for data-driven decisions.
+permalink: resources/data-expert-io-week-5-lecture-2-lab-1-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp](https://www.youtube.com/embed/Eqn3wNqclXY&t=7026s)

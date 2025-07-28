@@ -1,14 +1,16 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-Tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+Tags: null
 Type: project_note
-Cssclasses: 
+Cssclasses: null
+permalink: 20-30-para/project/data-engineer-bootcamp/setup-va-huong-dan
 ---
- # Components
+
+# Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
 **Due Date:** `INPUT[dateTime(defaultValue(null)):Due_Date]`

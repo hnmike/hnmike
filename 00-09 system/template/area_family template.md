@@ -1,19 +1,12 @@
 ---
-
 area: <% tp.file.folder() %>
-
-area_category:
-
-summary:
-
-tags:
-
+area_category: null
+summary: null
+tags: null
 type: area_family
-
 created-date: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-
 id: <% tp.date.now("YYYYMMDDHHmm") %>
-
+permalink: 00-09-system/template/area-family-template
 ---
 
 # [[<% tp.file.folder() %>]]
@@ -125,4 +118,3 @@ await app.fileManager.processFrontMatter(tp.file.path(true), (frontmatter) => {
     frontmatter.tags = [`area/${task_tag_value}`];
 });
 -%>
-

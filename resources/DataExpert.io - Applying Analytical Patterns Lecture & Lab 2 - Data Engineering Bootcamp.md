@@ -1,17 +1,21 @@
 ---
-title: DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp
+title: DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering
+  Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2025-01-08
 source: https://www.youtube.com/watch?v=biaaA9GfNPw&t=4749s
 image: https://i.ytimg.com/vi/biaaA9GfNPw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVChOMA8=&rs=AOn4CLDRFdgE-3yiUQDUAPumiTuXtm9RAQ
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineer/analytical_patterns
-  - data_engineer/data_modeling
-summary: "Data Engineering Bootcamp Lecture & Lab 2 focuses on analytical patterns, SQL optimization, and the importance of data modeling for efficient analytics. "
+- youtube
+- data_engineer/analytical_patterns
+- data_engineer/data_modeling
+summary: 'Data Engineering Bootcamp Lecture & Lab 2 focuses on analytical patterns,
+  SQL optimization, and the importance of data modeling for efficient analytics. '
+permalink: resources/data-expert-io-applying-analytical-patterns-lecture-lab-2-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp
 
 ![DataExpert.io - Applying Analytical Patterns Lecture & Lab 2 - Data Engineering Bootcamp](https://www.youtube.com/embed/biaaA9GfNPw&t=4749s)

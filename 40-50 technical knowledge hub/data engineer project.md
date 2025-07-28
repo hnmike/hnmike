@@ -1,14 +1,16 @@
 ---
 created-date: 2024-10-21 20:17
-url: 
-related: 
+url: null
+related: null
 aliases:
-  - data engineer
+- data engineer
 tags:
-  - evergreen_note
-  - "#project"
-summary:
+- evergreen_note
+- '#project'
+summary: null
+permalink: 40-50-technical-knowledge-hub/data-engineer-project
 ---
+
 ## Reference 
 Một số kênh youtube về [[end-to-end data engineer projects|data engineer]]:
 [[basic.thino#^8bac10]] 
@@ -22,6 +24,4 @@ Một số kênh youtube về [[end-to-end data engineer projects|data engineer]
 	- [[ end-to-end data engineer projects]] 
 
 
-Data warehouse 
-
-
+Data warehouse

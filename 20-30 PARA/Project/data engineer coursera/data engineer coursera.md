@@ -1,11 +1,12 @@
 ---
 Priority_Level: 1 Critical
 Status: 3 Testing
-Date_Created: 
-Due_Date: 
-Connections: 
-tags:
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/data-engineer-coursera/data-engineer-coursera
 ---
 
 Tags: #project/data_engineer_coursera
@@ -593,5 +594,3 @@ sort type ASC
 ```
 
 ````
-  
-  

@@ -1,13 +1,15 @@
 ---
 created-date: 2024-11-12 19:48
-url: 
-related: 
+url: null
+related: null
 aliases:
-  - docker
+- docker
 tags:
-  - "#reference_note"
-summary:
+- '#reference_note'
+summary: null
+permalink: cai-at-docker-engine-desktop
 ---
+
 # Cai dat docker 
 ---
 ## Reference

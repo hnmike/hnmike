@@ -1,13 +1,15 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_note
-cssclasses:
+cssclasses: null
+permalink: 20-30-para/project/data-engineer-bootcamp/module-3-data-warehouse-with-big-query
 ---
+
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
@@ -586,4 +588,3 @@ BigQuery uses a columnar storage format. Data is stored according to the columns
 When performing queries, Dremel modifies them in order to create an execution tree: parts of the query are assigned to different mixers which in turn assign even smaller parts to different slots which will access Colossus and retrieve the data.
 
 The columnar storage format is perfect for this workflow as it allows very fast data retrieval from colossus by multiple workers, which then perform any needed computation on the retrieved datapoints and return them to the mixers, which will perform any necessary aggregation before returning that data to the root server, which will compose the final output of the query.
-

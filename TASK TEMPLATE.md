@@ -1,10 +1,11 @@
 ---
 created-date: 2024-08-31 22:25
-up:
-related:
-alias:
-tags:
-summary:
+up: null
+related: null
+alias: null
+tags: null
+summary: null
+permalink: task-template
 ---
 
 > [!multi-column]
@@ -47,4 +48,4 @@ summary:
 >>      sort by done reverse```
 
 
-- [ 
+- [

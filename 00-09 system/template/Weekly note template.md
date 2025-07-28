@@ -1,17 +1,21 @@
 ---
 type: weekly_note
-date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').add(0,'days').format("YYYY-MM-DD") %>
+date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').add(0,'days').format("YYYY-MM-DD")
+  %>
 week: <% tp.file.title %>
 aliases:
-  - "<% moment(tp.file.title,'YYYY[W]ww').format('YYYY [Week] ww') %>"
-summary:
-tags: 
-  - type/weekly-note
-  - journal/week
+- <% moment(tp.file.title,'YYYY[W]ww').format('YYYY [Week] ww') %>
+summary: null
+tags:
+- type/weekly-note
+- journal/week
 created: <% tp.file.creation_date() %>
 modified: <% tp.file.last_modified_date() %>
-journal-start-date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').format("YYYY-MM-DD") %>
-journal-end-date: <% moment(tp.file.title,'YYYY[W]ww').endOf('week').format("YYYY-MM-DD") %>
+journal-start-date: <% moment(tp.file.title,'YYYY[W]ww').startOf('week').format("YYYY-MM-DD")
+  %>
+journal-end-date: <% moment(tp.file.title,'YYYY[W]ww').endOf('week').format("YYYY-MM-DD")
+  %>
+permalink: 00-09-system/template/weekly-note-template
 ---
 
 calendar-timeline

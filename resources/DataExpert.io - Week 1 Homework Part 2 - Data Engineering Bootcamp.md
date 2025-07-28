@@ -1,16 +1,19 @@
 ---
 title: DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2024-11-23
 source: https://www.youtube.com/watch?v=hXIf1HT-Dfk&t=5512s
 image: https://i.ytimg.com/vi/hXIf1HT-Dfk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBQjKpZmzl3stCDJ2t1qfKvDnQ7CQ
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineer
-summary: Data Engineering Bootcamp homework review. SQL queries to analyze actor data and movie ratings. Debugging and problem-solving approach.
+- youtube
+- data_engineer
+summary: Data Engineering Bootcamp homework review. SQL queries to analyze actor data
+  and movie ratings. Debugging and problem-solving approach.
+permalink: resources/data-expert-io-week-1-homework-part-2-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp](https://www.youtube.com/embed/hXIf1HT-Dfk&t=5512s)

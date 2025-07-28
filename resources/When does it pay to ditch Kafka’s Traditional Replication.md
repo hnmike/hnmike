@@ -1,13 +1,18 @@
 ---
 source: https://www.linkedin.com/feed/update/urn:li:activity:7302698997264052224/
-author: 
-published: 
+author: null
+published: null
 created: 2025-03-21
-image: <img width="600" src="https://media.licdn.com/dms/image/v2/D4D22AQGeU_RjQpd69g/feedshare-shrink_800/B4DZVhl5H1G8Ak-/0/1741099107345?e=1745452800&amp;v=beta&amp;t=PZzREzFbx8yL2t1Flw2ZZKkgyYTY_aPWNK0N8tY9kK4" loading="lazy" height="337" alt="Image preview" id="ember280" class="ivm-view-attr__img--centered ivm-view-attr__img--aspect-fill update-components-image__image evi-image lazy-image ember-view">
+image: <img width="600" src="https://media.licdn.com/dms/image/v2/D4D22AQGeU_RjQpd69g/feedshare-shrink_800/B4DZVhl5H1G8Ak-/0/1741099107345?e=1745452800&amp;v=beta&amp;t=PZzREzFbx8yL2t1Flw2ZZKkgyYTY_aPWNK0N8tY9kK4"
+  loading="lazy" height="337" alt="Image preview" id="ember280" class="ivm-view-attr__img--centered
+  ivm-view-attr__img--aspect-fill update-components-image__image evi-image lazy-image
+  ember-view">
 tags:
-  - linkedin
+- linkedin
+permalink: resources/when-does-it-pay-to-ditch-kafka-s-traditional-replication
 ---
- When does it pay to ditch Kafka’s Traditional Replication?  
+
+When does it pay to ditch Kafka’s Traditional Replication?  
   
 I built a tool to help you visualize just that.  
   

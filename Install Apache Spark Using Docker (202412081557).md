@@ -1,13 +1,15 @@
 ---
 created-date: 2024-12-08 15:57
-id: 
+id: null
 url: https://youtu.be/jrv7J40Qs9A?si=Je1Lm4LKLE2YyBd8
-related: 
-aliases: 
+related: null
+aliases: null
 tags:
-  - "#reference_note"
-summary:
+- '#reference_note'
+summary: null
+permalink: install-apache-spark-using-docker-202412081557
 ---
+
 # Install Apache Spark Using Docker
 
 ## Step 1: Download Docker Image

@@ -1,13 +1,15 @@
 ---
-url: 
-related: 
-aliases: 
+url: null
+related: null
+aliases: null
 tags:
-  - "#atom"
-note_type: 
-topic: "[[job]]"
-summary:
+- '#atom'
+note_type: null
+topic: '[[job]]'
+summary: null
+permalink: 10-20-zettelkasten/atomic-notes/cong-cu-ai-ho-tro-viet-resume-match-description
 ---
+
 # Những Công Cụ AI Hỗ Trợ Viết CV/Resume “Match” Nhất Với Job Description
 
 

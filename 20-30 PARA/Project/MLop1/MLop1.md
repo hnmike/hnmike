@@ -3,9 +3,10 @@ Priority_Level: 1 Critical
 Status: 2 In Progress
 Date_Created: 2025-03-21T10:12
 Due_Date: 2025-04-30T10:12
-Connections: 
-tags: 
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/mlop1/mlop1
 ---
 
 Tags: #project/mlop1
@@ -593,5 +594,3 @@ sort type ASC
 ```
 
 ````
-  
-  

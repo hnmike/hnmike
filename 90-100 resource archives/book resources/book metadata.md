@@ -1,7 +1,9 @@
 ---
 cssclasses:
-  - cards
+- cards
+permalink: 90-100-resource-archives/book-resources/book-metadata
 ---
+
 ````tabs
 tab: Currently Reading
 ```dataview
@@ -105,17 +107,3 @@ volume)*100) + "%" + ")" as Progress
 FROM #book 
 ```
 ````
-
-
-
-
-
-
-
-
-
-
-
-
-
-

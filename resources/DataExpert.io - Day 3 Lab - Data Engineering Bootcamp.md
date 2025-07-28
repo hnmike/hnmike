@@ -1,18 +1,21 @@
 ---
-title: "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp"
+title: DataExpert.io - Day 3 Lab - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-11-27
-source: "https://www.youtube.com/watch?v=2EqdEVHI-dc&t=5239s"
-image: "https://i.ytimg.com/vi/2EqdEVHI-dc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDMMUBUiPrpIBkbBwZbwjhc5tCLSw"
+source: https://www.youtube.com/watch?v=2EqdEVHI-dc&t=5239s
+image: https://i.ytimg.com/vi/2EqdEVHI-dc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDMMUBUiPrpIBkbBwZbwjhc5tCLSw
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "graph_database"
-  - "postgresql"
-summary: "Day 3 Lab of a Data Engineering Bootcamp focusing on graph data modeling using PostgreSQL to analyze relationships between NBA players and games."
+- youtube
+- data_engineer
+- graph_database
+- postgresql
+summary: Day 3 Lab of a Data Engineering Bootcamp focusing on graph data modeling
+  using PostgreSQL to analyze relationships between NBA players and games.
+permalink: resources/data-expert-io-day-3-lab-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Day 3 Lab - Data Engineering Bootcamp
 
 ![DataExpert.io - Day 3 Lab - Data Engineering Bootcamp](https://www.youtube.com/embed/2EqdEVHI-dc&t=5239s)

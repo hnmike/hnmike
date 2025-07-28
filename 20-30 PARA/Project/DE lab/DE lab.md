@@ -1,11 +1,12 @@
 ---
 Priority_Level: 2 High
 Status: 2 In Progress
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_family
+permalink: 20-30-para/project/de-lab/de-lab
 ---
 
 Tags: #project/de_lab
@@ -585,5 +586,3 @@ WHERE contains(flatten(file.tags), "#project/" + replace(lower(split(this.file.f
 SORT type ASC
 
 ````
-  
-  

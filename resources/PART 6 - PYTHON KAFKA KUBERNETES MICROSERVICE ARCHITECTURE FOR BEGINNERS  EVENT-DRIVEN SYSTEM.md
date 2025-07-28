@@ -1,16 +1,20 @@
 ---
-title: PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS | EVENT-DRIVEN SYSTEM
+title: PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS |
+  EVENT-DRIVEN SYSTEM
 author:
-  - GoDataProf
+- GoDataProf
 published: 2022-12-23
 source: https://www.youtube.com/watch?v=MgW15TDL34Y&list=LL&index=115
 image: https://i.ytimg.com/vi/MgW15TDL34Y/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - youtube
-  - microservice_architecture
-summary: Learn how to build a Python, Kafka, and Kubernetes-based microservice architecture for beginners. This event-driven system tutorial covers deployment and more.
+- youtube
+- microservice_architecture
+summary: Learn how to build a Python, Kafka, and Kubernetes-based microservice architecture
+  for beginners. This event-driven system tutorial covers deployment and more.
+permalink: resources/part-6-python-kafka-kubernetes-microservice-architecture-for-beginners-event-driven-system
 ---
+
 # PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS | EVENT-DRIVEN SYSTEM
 
 ![PART 6 - PYTHON KAFKA KUBERNETES MICROSERVICE ARCHITECTURE FOR BEGINNERS | EVENT-DRIVEN SYSTEM](https://www.youtube.com/embed/MgW15TDL34Y&list=LL&index=115)

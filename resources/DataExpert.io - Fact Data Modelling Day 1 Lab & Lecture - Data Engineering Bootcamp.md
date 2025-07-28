@@ -1,18 +1,22 @@
 ---
-title: "DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp"
+title: DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering
+  Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-11-28
-source: "https://www.youtube.com/watch?v=8LgRIZJv-is&t=1350s"
-image: "https://i.ytimg.com/vi/8LgRIZJv-is/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLD0RQ_o2sH7NjSPQbaBou_lYucrEg"
+source: https://www.youtube.com/watch?v=8LgRIZJv-is&t=1350s
+image: https://i.ytimg.com/vi/8LgRIZJv-is/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLD0RQ_o2sH7NjSPQbaBou_lYucrEg
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "data_engineer/data_modeling"
-  - "data_quality"
-summary: "DataExpert.io - Fact Data Modeling Day 1 Lab & Lecture - Data Engineering Bootcamp. Thank you for joining me on my Data Engineering Bootcamp journey! "
+- youtube
+- data_engineer
+- data_engineer/data_modeling
+- data_quality
+summary: 'DataExpert.io - Fact Data Modeling Day 1 Lab & Lecture - Data Engineering
+  Bootcamp. Thank you for joining me on my Data Engineering Bootcamp journey! '
+permalink: resources/data-expert-io-fact-data-modelling-day-1-lab-lecture-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp
 
 ![DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp](https://www.youtube.com/embed/8LgRIZJv-is&t=1350s)
@@ -54,4 +58,4 @@ summary: "DataExpert.io - Fact Data Modeling Day 1 Lab & Lecture - Data Engineer
 > - **Importance of Data Modeling (55:54, 2:00:02):** Proper fact data modeling allows for answering complex questions quickly and efficiently.
 > - **Transforming Raw Data (56:35, 1:20:20):** Take raw data and convert it into an actionable, useful format. Cleaning and standardizing the data is essential for analysis.
 > - **Importance of Useful Columns (1:36:51):** Ensure the columns provided are useful and in a format that analysts can readily use, such as converting string-based time to numerical formats.
-> 
+>

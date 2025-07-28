@@ -1,7 +1,8 @@
 ---
 reviewed: 2024-10-05
-
+permalink: solving-ambiguous-problems-on-your-own
 ---
+
 [00:00](https://www.youtube.com/watch?v=lXpj4R4pUhE&t=0s) Introduction to Debugging
 def mentor
 
@@ -9,4 +10,4 @@ def mentor
 
 [07:38](https://www.youtube.com/watch?v=lXpj4R4pUhE&t=458s) Conclusion and Final Thoughts
 happy 
-nonew other iwwand the key and now the  
+nonew other iwwand the key and now the

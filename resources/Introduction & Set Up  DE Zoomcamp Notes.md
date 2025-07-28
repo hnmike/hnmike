@@ -1,13 +1,15 @@
 ---
 title: Introduction & Set Up | DE Zoomcamp Notes
 source: https://data-engineering-zoomcamp-2025-t.gitbook.io/tinker0425/introduction/introduction-and-set-up
-author: 
+author: null
 published: 2025-01-26
 created: 2025-03-09
 description: Last updated Jan 19, 2025
 tags:
-  - "#project/data_engineer_bootcamp"
+- '#project/data_engineer_bootcamp'
+permalink: resources/introduction-set-up-de-zoomcamp-notes
 ---
+
 ### 
 [[Data engineer bootcamp]]
 

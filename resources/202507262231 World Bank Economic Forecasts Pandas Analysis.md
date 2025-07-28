@@ -1,15 +1,19 @@
 ---
-title: "BW #122: Economic growth (solution)"
-summary: "Analyze World Bank economic data with Pandas: clean, multi-index, plot growth forecasts. Find top downgrades, regional trends. Excel skills++"
-source: "https://www.bambooweekly.com/bw-122-economic-growth-solution/"
+title: 'BW #122: Economic growth (solution)'
+summary: 'Analyze World Bank economic data with Pandas: clean, multi-index, plot growth
+  forecasts. Find top downgrades, regional trends. Excel skills++'
+source: https://www.bambooweekly.com/bw-122-economic-growth-solution/
 author:
-  - "[[Reuven M. Lerner]]"
+- '[[Reuven M. Lerner]]'
 published: 2025-06-13
 created: 2025-07-10
-description: "Get better at: Excel files, cleaning data, working with multi-indexes, window functions, and plotting"
-tags:
-type :
+description: 'Get better at: Excel files, cleaning data, working with multi-indexes,
+  window functions, and plotting'
+tags: null
+type: null
+permalink: resources/202507262231-world-bank-economic-forecasts-pandas-analysis
 ---
+
 >[!summary]+ This Bamboo Weekly issue (#122) explores global economic growth using World Bank data. It focuses on data cleaning with Pandas, multi-indexes, window functions, and plotting. It analyzes economic forecasts, identifying countries with the largest forecast downgrades and comparing growth projections across different regions. The analysis involves reading Excel files, handling missing data, and creating visualizations to understand economic trends.
 13 min read · Tags:
 

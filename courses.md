@@ -1,7 +1,9 @@
 ---
 reviewed: 2024-10-05
-cssclasses:
+cssclasses: null
+permalink: courses
 ---
+
 [[boot.dev]]
 
 csc DATA SCIENCE

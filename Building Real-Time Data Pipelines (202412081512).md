@@ -1,13 +1,15 @@
 ---
 created-date: 2024-12-08 15:12
-id: 
+id: null
 url: https://www.youtube.com/watch?v=RlNb_-R4Iho&list=LL&index=17&t=1775s
-related: 
-aliases: 
+related: null
+aliases: null
 tags:
-  - "#reference_note"
-summary:
+- '#reference_note'
+summary: null
+permalink: building-real-time-data-pipelines-202412081512
 ---
+
 ## **Instructions**
 
 ### Step 1: Install Spark and Kafka

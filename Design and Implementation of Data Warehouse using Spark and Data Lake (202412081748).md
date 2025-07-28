@@ -1,12 +1,14 @@
 ---
 created-date: 2024-12-08 17:48
-id: 
+id: null
 url: https://www.youtube.com/watch?v=C4UiqIc_gWA&t=840s
-related: 
-aliases: 
-tags: 
-summary:
+related: null
+aliases: null
+tags: null
+summary: null
+permalink: design-and-implementation-of-data-warehouse-using-spark-and-data-lake-202412081748
 ---
+
 # Design and Implementation of Data Warehouse using Spark and Data Lake
 
 ## Introduction
@@ -111,4 +113,4 @@ CopyInsert
 `# Build all images docker-compose build # Start all services docker-compose up -d # Check all running containers docker-compose ps # View logs docker-compose logs -f [service-name] # Stop all services docker-compose down`
 
 # Resources 
-[GitHub - arezamoosavi/AcidOnSpark-ETL: Delta-Lake, ETL, Spark, Airflow](https://github.com/arezamoosavi/AcidOnSpark-ETL) 
+[GitHub - arezamoosavi/AcidOnSpark-ETL: Delta-Lake, ETL, Spark, Airflow](https://github.com/arezamoosavi/AcidOnSpark-ETL)

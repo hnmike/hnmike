@@ -1,18 +1,21 @@
 ---
-title: "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp"
+title: DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-11-26
-source: "https://www.youtube.com/watch?v=aT5Ntv-ogqA&t=3436s"
-image: "https://i.ytimg.com/vi/aT5Ntv-ogqA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gZyhyMA8=&rs=AOn4CLAuHTep0wp06VSbvPDSkrzIKKeieg"
+source: https://www.youtube.com/watch?v=aT5Ntv-ogqA&t=3436s
+image: https://i.ytimg.com/vi/aT5Ntv-ogqA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gZyhyMA8=&rs=AOn4CLAuHTep0wp06VSbvPDSkrzIKKeieg
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "SQL_Bootcamp"
-  - "data_engineer/data_modeling"
-summary: "A walkthrough of a Data Engineering Bootcamp homework, covering SQL queries, data modeling, and incremental backfills. Learn from a real-world example!"
+- youtube
+- data_engineer
+- SQL_Bootcamp
+- data_engineer/data_modeling
+summary: A walkthrough of a Data Engineering Bootcamp homework, covering SQL queries,
+  data modeling, and incremental backfills. Learn from a real-world example!
+permalink: resources/data-expert-io-week-1-homework-final-results-woo-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp](https://www.youtube.com/embed/aT5Ntv-ogqA&t=3436s)

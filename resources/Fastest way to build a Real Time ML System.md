@@ -1,18 +1,21 @@
 ---
-title: "Fastest way to build a Real Time ML System"
+title: Fastest way to build a Real Time ML System
 author:
-  - "Real-World ML by Pau Labarta Bajo"
+- Real-World ML by Pau Labarta Bajo
 published: 2025-03-18
-source: "https://www.youtube.com/watch?v=LtYKld5zVd0"
-image: "https://i.ytimg.com/vi/LtYKld5zVd0/maxresdefault.jpg"
+source: https://www.youtube.com/watch?v=LtYKld5zVd0
+image: https://i.ytimg.com/vi/LtYKld5zVd0/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "Real_Time_ML"
-  - "Machine_Learning"
-  - "Fraud_Detection"
-summary: "Learn the fastest way to build a real-time ML system for fraud detection using feature pipelines, online retraining, and model versioning with TurboML."
+- youtube
+- Real_Time_ML
+- Machine_Learning
+- Fraud_Detection
+summary: Learn the fastest way to build a real-time ML system for fraud detection
+  using feature pipelines, online retraining, and model versioning with TurboML.
+permalink: resources/fastest-way-to-build-a-real-time-ml-system
 ---
+
 # Fastest way to build a Real Time ML System
 
 ![Fastest way to build a Real Time ML System](https://www.youtube.com/embed/LtYKld5zVd0)
@@ -38,4 +41,4 @@ summary: "Learn the fastest way to build a real-time ML system for fraud detecti
 > - Use model versioning for easy rollbacks if issues arise (12:24)
 > - Compare models to ensure new versions are better before deploying to production (17:11)
 > 
-> 
+>

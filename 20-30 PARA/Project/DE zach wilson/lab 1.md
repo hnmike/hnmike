@@ -1,13 +1,15 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
+Date_Created: null
 Due_Date: 2025-07-31T09:55
-Connections: 
-tags: 
+Connections: null
+tags: null
 Type: project_note
-cssclasses: 
+cssclasses: null
+permalink: 20-30-para/project/de-zach-wilson/lab-1
 ---
+
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
@@ -18,4 +20,4 @@ cssclasses:
 
 
 
-Hom nay  
+Hom nay

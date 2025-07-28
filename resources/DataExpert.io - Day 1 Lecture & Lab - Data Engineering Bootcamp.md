@@ -1,17 +1,20 @@
 ---
 title: DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2024-11-20
 source: https://www.youtube.com/watch?v=ppBq0amchiI&t=9s
 image: https://i.ytimg.com/vi/ppBq0amchiI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCsoZxPQJLZe-qMkzWvz3jfu98jYA
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineer
-  - data_engineer/data_modeling
-summary: Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative tables, and run-length encoding. Day 1 of Data Engineering Bootcamp.
+- youtube
+- data_engineer
+- data_engineer/data_modeling
+summary: Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cumulative
+  tables, and run-length encoding. Day 1 of Data Engineering Bootcamp.
+permalink: resources/data-expert-io-day-1-lecture-lab-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Day 1 Lecture & Lab - Data Engineering Bootcamp
 
 
@@ -51,4 +54,4 @@ summary: Lecture and lab on data modeling principles, covering OLTP vs. OLAP, cu
 > - **Historical Analysis (1:57:30):** Historical Analysis can be done on cumlative tables without having to do any group buys.
 
 ---
-- [[OLTP & OLAP]] 
+- [[OLTP & OLAP]]

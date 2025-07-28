@@ -1,17 +1,20 @@
 ---
 title: Spring Boot Debezium - Master Slave Real Life Project Example
 author:
-  - Java Puzzle
+- Java Puzzle
 published: 2024-02-10
 source: https://www.youtube.com/watch?v=n0m6r0kXZh8&list=LL&index=152
 image: https://i.ytimg.com/vi/n0m6r0kXZh8/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - youtube
-  - Spring_Boot_Debezium
-  - Change_Data_Capture
-summary: Learn how to implement Change Data Capture (CDC) in a master-slave architecture using Spring Boot and Debezium. Step-by-step tutorial with real-world scenarios.
+- youtube
+- Spring_Boot_Debezium
+- Change_Data_Capture
+summary: Learn how to implement Change Data Capture (CDC) in a master-slave architecture
+  using Spring Boot and Debezium. Step-by-step tutorial with real-world scenarios.
+permalink: resources/spring-boot-debezium-master-slave-real-life-project-example
 ---
+
 # Spring Boot Debezium - Master Slave Real Life Project Example
 
 ![Spring Boot Debezium - Master Slave Real Life Project Example](https://www.youtube.com/embed/n0m6r0kXZh8&list=LL&index=152)

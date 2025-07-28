@@ -1,12 +1,14 @@
 ---
 created-date: 2024-09-09 20:17
-url:
-related:
-aliases:
-tags:
+url: null
+related: null
+aliases: null
+tags: null
 summary: Learning fundamental of GNU/LINUX
 Completed: false
+permalink: 40-50-technical-knowledge-hub/mlops-mle/fundamental-mlops1/1st-lesson-of-mlops1
 ---
+
 [[what is GNU LINUX]] 
 
 Tool use : LAB sandbox for linux 24 
@@ -47,4 +49,4 @@ workflow: linux neovim tmux
 
 
 user trong 1 server
-sudo 
+sudo

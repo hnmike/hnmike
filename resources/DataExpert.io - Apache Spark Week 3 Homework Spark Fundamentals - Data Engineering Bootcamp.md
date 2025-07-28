@@ -1,17 +1,21 @@
 ---
-title: DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp
+title: DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering
+  Bootcamp
 author:
-  - Jade Codes
+- Jade Codes
 published: 2024-12-17
 source: https://www.youtube.com/watch?v=wNQHWdCC6O4&t=681s
 image: https://i.ytimg.com/vi/wNQHWdCC6O4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDcgUChyMA8=&rs=AOn4CLCRBQCoH59Hx7CaRcBxJKCOEJewBw
 created: 2025-03-23
 tags:
-  - youtube
-  - data_engineer
-  - Apache_Spark
-summary: "Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering Bootcamp. Learn to disable broadcast joins, use bucket joins, and optimize data size."
+- youtube
+- data_engineer
+- Apache_Spark
+summary: 'Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering Bootcamp.
+  Learn to disable broadcast joins, use bucket joins, and optimize data size.'
+permalink: resources/data-expert-io-apache-spark-week-3-homework-spark-fundamentals-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp
 
 ![DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp](https://www.youtube.com/embed/wNQHWdCC6O4&t=681s)
@@ -47,4 +51,4 @@ summary: "Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering
 > - **Measure file sizes and execution times:** Compare different partitioning strategies to optimize performance (1:07:53).
 > - **Verify partitioning correctness:** Use `explain` to check the partitioning plan (1:47:11).
 > - **Use PySpark methods:** Utilize PySpark methods instead of defaulting to SQL for better performance (1:19:51).
-> 
+>

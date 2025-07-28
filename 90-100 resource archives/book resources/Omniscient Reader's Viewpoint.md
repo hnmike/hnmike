@@ -1,27 +1,28 @@
 ---
 tags:
-  - book
+- book
 aliases:
-  - 전지적 독자 시점
-year: "2018"
+- 전지적 독자 시점
+year: '2018'
 author:
-  - Sing-Shong
+- Sing-Shong
 series: ORV
-series_part: "1"
+series_part: '1'
 started: 2023-10-10
-finished: 
+finished: null
 genres:
-  - Fiction
-  - Fantasy
-  - Novell
+- Fiction
+- Fantasy
+- Novell
 volume: 551
 timestamp: 67
 units: chapters
 status: ongoing
 rate:
-  - ★★★★★
-cover: "[[ONWcover.jpg]]"
-cssclasses:
+- ★★★★★
+cover: '[[ONWcover.jpg]]'
+cssclasses: null
+permalink: 90-100-resource-archives/book-resources/omniscient-readers-viewpoint
 ---
 
 # ANNOTATION

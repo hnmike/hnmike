@@ -1,18 +1,22 @@
 ---
-title: "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp"
+title: DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering
+  Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-12-20
-source: "https://www.youtube.com/watch?v=wYkyjEeKUzo&t=13126s"
-image: "https://i.ytimg.com/vi/wYkyjEeKUzo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLB3UVURwIRQzmbc588v0kuma8xZPw"
+source: https://www.youtube.com/watch?v=wYkyjEeKUzo&t=13126s
+image: https://i.ytimg.com/vi/wYkyjEeKUzo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLB3UVURwIRQzmbc588v0kuma8xZPw
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "spark_fundamentals"
-  - "bootcamp_testing"
-summary: "Week 3 homework testing Spark Fundamentals in a Data Engineering Bootcamp. See the process of code and testing."
+- youtube
+- data_engineer
+- spark_fundamentals
+- bootcamp_testing
+summary: Week 3 homework testing Spark Fundamentals in a Data Engineering Bootcamp.
+  See the process of code and testing.
+permalink: resources/data-expert-io-week-3-homework-testing-spark-fundamentals-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp](https://www.youtube.com/embed/wYkyjEeKUzo&t=13126s)

@@ -1,18 +1,22 @@
 ---
-title: "Quick and Easy Guide: Installing Apache Flink for Stream Processing | Part 5"
+title: 'Quick and Easy Guide: Installing Apache Flink for Stream Processing | Part
+  5'
 author:
-  - "Indeed Inspiring Infotech"
+- Indeed Inspiring Infotech
 published: 2023-06-22
-source: "https://www.youtube.com/watch?v=E00RQ-dNHEQ&list=LL&index=162"
-image: "https://i.ytimg.com/vi/E00RQ-dNHEQ/maxresdefault.jpg"
+source: https://www.youtube.com/watch?v=E00RQ-dNHEQ&list=LL&index=162
+image: https://i.ytimg.com/vi/E00RQ-dNHEQ/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "apache_flink"
-  - "stream_processing"
-  - "data_engineering"
-summary: "Learn to install Apache Flink for stream processing with this quick and easy guide. Get Flink up and running for your data streaming projects!"
+- youtube
+- apache_flink
+- stream_processing
+- data_engineering
+summary: Learn to install Apache Flink for stream processing with this quick and easy
+  guide. Get Flink up and running for your data streaming projects!
+permalink: resources/quick-and-easy-guide-installing-apache-flink-for-stream-processing-part-5
 ---
+
 # Quick and Easy Guide: Installing Apache Flink for Stream Processing | Part 5
 
 ![Quick and Easy Guide: Installing Apache Flink for Stream Processing | Part 5](https://www.youtube.com/embed/E00RQ-dNHEQ&list=LL&index=162)

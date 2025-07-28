@@ -1,19 +1,12 @@
 ---
-
 area: data
-
-area_category:
-
-summary:
-
-tags:
-
+area_category: null
+summary: null
+tags: null
 type: area_family
-
 created-date: 2025-03-18 20:29
-
 id: 202503182029
-
+permalink: 20-30-para/area/data/untitled
 ---
 
 # [[data]]
@@ -116,7 +109,3 @@ sort by due date
 ```
 
 ````
-
-  
-
-

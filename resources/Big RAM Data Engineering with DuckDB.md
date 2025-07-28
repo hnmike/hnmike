@@ -1,8 +1,7 @@
 ---
 tags: []
+permalink: resources/big-ram-data-engineering-with-duck-db
 ---
-
-
 
 > [!summary] 
  Tóm tắt

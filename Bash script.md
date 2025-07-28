@@ -1,11 +1,13 @@
 ---
 created-date: 2024-09-18 20:07
-url:
-related:
-alias:
-tags:
-summary:
+url: null
+related: null
+alias: null
+tags: null
+summary: null
+permalink: bash-script
 ---
+
 review buoi 4: multi process/thread
 	multi process chạy parallel 
 	 i/o cho multi thread 
@@ -38,6 +40,3 @@ A basic script
 	 SHEBAN
 	 cronjob
 	 CRONTAB.GURU WEBSITE
-
-
-

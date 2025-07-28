@@ -1,18 +1,22 @@
 ---
-title: "Kafka cdc implementation all starting barrier|| debezium || sink connector || source connector"
+title: Kafka cdc implementation all starting barrier|| debezium || sink connector
+  || source connector
 author:
-  - "AnirbanIT"
+- AnirbanIT
 published: 2022-10-30
-source: "https://www.youtube.com/watch?v=b678O1o5Auw&list=LL&index=161"
-image: "https://i.ytimg.com/vi/b678O1o5Auw/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEEgXihyMA8=&rs=AOn4CLBUB1Be-pM0zvvIbNDN5Jx18gGKEA"
+source: https://www.youtube.com/watch?v=b678O1o5Auw&list=LL&index=161
+image: https://i.ytimg.com/vi/b678O1o5Auw/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEEgXihyMA8=&rs=AOn4CLBUB1Be-pM0zvvIbNDN5Jx18gGKEA
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "data_engineer/kafka"
-  - "debezium_implementation"
-  - "sink_connector"
-summary: "This video discusses Kafka CDC implementation, addressing initial complexities and solutions with Debezium, sink connectors, and source connectors. "
+- youtube
+- data_engineer/kafka
+- debezium_implementation
+- sink_connector
+summary: 'This video discusses Kafka CDC implementation, addressing initial complexities
+  and solutions with Debezium, sink connectors, and source connectors. '
+permalink: resources/kafka-cdc-implementation-all-starting-barrier-debezium-sink-connector-source-connector
 ---
+
 # Kafka cdc implementation all starting barrier|| debezium || sink connector || source connector
 
 ![Kafka cdc implementation all starting barrier|| debezium || sink connector || source connector](https://www.youtube.com/embed/b678O1o5Auw&list=LL&index=161)

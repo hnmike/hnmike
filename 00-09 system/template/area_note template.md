@@ -1,17 +1,11 @@
 ---
-
 area: <% tp.file.folder() %>
-
-Summary:
-
-tags:
-
+Summary: null
+tags: null
 Type: area_note
-
 created: <% tp.file.creation_date() %>
-
 id: <% tp.date.now("YYYYMMDDHHmm") %>
-
+permalink: 00-09-system/template/area-note-template
 ---
 
 # [[<% tp.file.folder() %>]]

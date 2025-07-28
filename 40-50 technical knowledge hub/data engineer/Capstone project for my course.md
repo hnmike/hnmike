@@ -1,15 +1,17 @@
 ---
 created-date: 2024-11-12 20:37
 url: https://docs.google.com/document/d/13YXC7jstQA5NVG6h9esy-EbJ8f8CdUZO/edit
-related: 
+related: null
 aliases:
-  - data engineer
+- data engineer
 tags:
-  - "#data_engineer"
-  - "#project"
-  - "#todoproject"
-summary:
+- '#data_engineer'
+- '#project'
+- '#todoproject'
+summary: null
+permalink: 40-50-technical-knowledge-hub/data-engineer/capstone-project-for-my-course
 ---
+
 ## Reference 
  Tham khảo một số project 
 -  [GitHub - HungNguyenDev1511/Capstone-Project-Data-Engineer](https://github.com/HungNguyenDev1511/Capstone-Project-Data-Engineer)

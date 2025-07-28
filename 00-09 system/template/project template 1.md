@@ -1,6 +1,7 @@
 ---
-StartDate: 
-DueDate: 
+StartDate: null
+DueDate: null
+permalink: 00-09-system/template/project-template-1
 ---
 
 # test

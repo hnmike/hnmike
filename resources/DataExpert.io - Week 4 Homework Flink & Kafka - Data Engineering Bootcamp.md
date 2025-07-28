@@ -1,18 +1,21 @@
 ---
-title: "DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp"
+title: DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2025-01-03
-source: "https://www.youtube.com/watch?v=tcBPjWMpqW4&t=3256s"
-image: "https://i.ytimg.com/vi/tcBPjWMpqW4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAwJNOot1nb4wf6ra7QK95ACE17VQ"
+source: https://www.youtube.com/watch?v=tcBPjWMpqW4&t=3256s
+image: https://i.ytimg.com/vi/tcBPjWMpqW4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAwJNOot1nb4wf6ra7QK95ACE17VQ
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "flink_kafka"
-  - "data_engineer"
-  - "data_aggregation"
-summary: "Data Engineering Bootcamp Week 4 homework review focusing on Flink & Kafka. Aggregating data by IP and host using session windows and SQL queries."
+- youtube
+- flink_kafka
+- data_engineer
+- data_aggregation
+summary: Data Engineering Bootcamp Week 4 homework review focusing on Flink & Kafka.
+  Aggregating data by IP and host using session windows and SQL queries.
+permalink: resources/data-expert-io-week-4-homework-flink-kafka-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp
 
 ![DataExpert.io - Week 4 Homework Flink & Kafka - Data Engineering Bootcamp](https://www.youtube.com/embed/tcBPjWMpqW4&t=3256s)
@@ -53,4 +56,4 @@ summary: "Data Engineering Bootcamp Week 4 homework review focusing on Flink & K
 > - **Addressing Feedback (1:46:03):** Include specific SQL queries tailored to compare sessions for hosts Zach Tech Creator.
 > - **LLM for Guidance (1:46:50):** Using the LLM for feedback and guidance on what to do.
 > - **Specific SQL Queries (1:47:12):** Adding additional queries focusing on specific hosts to address the feedback.
-> 
+>

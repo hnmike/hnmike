@@ -1,12 +1,14 @@
 ---
-source: "https://www.linkedin.com/feed/update/urn:li:activity:7308049347881930752/"
-author:
-published:
+source: https://www.linkedin.com/feed/update/urn:li:activity:7308049347881930752/
+author: null
+published: null
 created: 2025-03-20
-image:
+image: null
 tags:
-  - "linkedin"
+- linkedin
+permalink: resources/kraft-replacing-zookeeper
 ---
+
 > [!quote] Post by  - 1d
 > \["
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7307999413157642241" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

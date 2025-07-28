@@ -1,13 +1,15 @@
 ---
-Priority_Level: 
+Priority_Level: null
 Status: 1 To Do
-Date_Created: 
-Due_Date: 
-Connections: 
-tags: 
+Date_Created: null
+Due_Date: null
+Connections: null
+tags: null
 Type: project_note
-cssclasses:
+cssclasses: null
+permalink: 20-30-para/project/data-engineer-bootcamp/untitled-1
 ---
+
 # Components
 **Select Connection:** `INPUT[inlineListSuggester(optionQuery(#area),optionQuery(#resource), optionQuery(#project)):connections]`  
 **Date Created:** `INPUT[dateTime(defaultValue(null)):Date_Created]`
@@ -17,4 +19,3 @@ cssclasses:
 # Description
 
 <% tp.file.cursor() %>
-

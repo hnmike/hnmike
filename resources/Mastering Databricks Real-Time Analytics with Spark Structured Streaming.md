@@ -1,18 +1,21 @@
 ---
-title: "Mastering Databricks Real-Time Analytics with Spark Structured Streaming"
+title: Mastering Databricks Real-Time Analytics with Spark Structured Streaming
 author:
-  - "Fikrat Azizov"
+- Fikrat Azizov
 published: 2025-01-31
-source: "https://www.youtube.com/watch?v=hpjsWfPjJyI&list=LL&index=105"
-image: "https://i.ytimg.com/vi/hpjsWfPjJyI/maxresdefault.jpg"
+source: https://www.youtube.com/watch?v=hpjsWfPjJyI&list=LL&index=105
+image: https://i.ytimg.com/vi/hpjsWfPjJyI/maxresdefault.jpg
 created: 2025-03-20
 tags:
-  - "youtube"
-  - "Spark_Structured_Streaming"
-  - "Real-Time_Analytics"
-  - "Databricks"
-summary: "Learn Databricks Spark Structured Streaming for real-time analytics. This tutorial covers building, managing, and monitoring streaming pipelines in Databricks."
+- youtube
+- Spark_Structured_Streaming
+- Real-Time_Analytics
+- Databricks
+summary: Learn Databricks Spark Structured Streaming for real-time analytics. This
+  tutorial covers building, managing, and monitoring streaming pipelines in Databricks.
+permalink: resources/mastering-databricks-real-time-analytics-with-spark-structured-streaming
 ---
+
 # Mastering Databricks Real-Time Analytics with Spark Structured Streaming
 
 ![Mastering Databricks Real-Time Analytics with Spark Structured Streaming](https://www.youtube.com/embed/hpjsWfPjJyI&list=LL&index=105)

@@ -1,9 +1,11 @@
 ---
-source: "https://www.linkedin.com/feed/"
-image:
+source: https://www.linkedin.com/feed/
+image: null
 tags:
-  - "linkedin"
+- linkedin
+permalink: resources/medallion-architecture-the-key-to-scalable-high-quality-data-pipelines
 ---
+
 > Medallion Architecture: The Key to Scalable & High-Quality Data Pipelines  
 Medallion Architecture also known as Multi-Hop Architecture is a structured approach that improves data quality in stages, making it easier to manage, govern, and scale.  
 Think of it as three layers of data refinement:  

@@ -1,6 +1,8 @@
 ---
-url: "[[GNU Operating System]]"
+url: '[[GNU Operating System]]'
+permalink: 90-100-resource-archives/gnu-operating-system
 ---
+
 The GNU Operating System is supported by the Free Software Foundation. It is a nonprofit with a worldwide mission to promote computer user freedom.
 
 > **GNU** Operating System

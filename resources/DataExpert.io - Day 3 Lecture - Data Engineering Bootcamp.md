@@ -1,18 +1,21 @@
 ---
-title: "DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp"
+title: DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp
 author:
-  - "Jade Codes"
+- Jade Codes
 published: 2024-11-26
-source: "https://www.youtube.com/watch?v=XSIg26KcQi4&t=1s"
-image: "https://i.ytimg.com/vi/XSIg26KcQi4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC0gZihyMA8=&rs=AOn4CLBX00QeEhx8I7nK7p7l0IdmLl0siA"
+source: https://www.youtube.com/watch?v=XSIg26KcQi4&t=1s
+image: https://i.ytimg.com/vi/XSIg26KcQi4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC0gZihyMA8=&rs=AOn4CLBX00QeEhx8I7nK7p7l0IdmLl0siA
 created: 2025-03-23
 tags:
-  - "youtube"
-  - "data_engineer"
-  - "graph_databases"
-  - "data_engineer/data_modeling"
-summary: "Day 3 of a Data Engineering Bootcamp covers additive vs. non-additive dimensions, enums, flexible schemas, and graph data modeling for building scalable data pipelines."
+- youtube
+- data_engineer
+- graph_databases
+- data_engineer/data_modeling
+summary: Day 3 of a Data Engineering Bootcamp covers additive vs. non-additive dimensions,
+  enums, flexible schemas, and graph data modeling for building scalable data pipelines.
+permalink: resources/data-expert-io-day-3-lecture-data-engineering-bootcamp
 ---
+
 # DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp
 
 ![DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp](https://www.youtube.com/embed/XSIg26KcQi4&t=1s)
@@ -49,4 +52,4 @@ summary: "Day 3 of a Data Engineering Bootcamp covers additive vs. non-additive 
 > - **Graph Data Modeling (32:07):** Shift focus from entities to relationships. The key is to identify subjects, objects, edge types, and properties of relationships.
 > - **Standard Graph Schema (32:46):** Vertices have an identifier, type, and properties. Edges have subject/object identifiers and types, edge type, and properties.
 > - **Edge Types as Verbs (36:04):** Edge types are often verbs describing the relationship between nodes.
-> 
+>
