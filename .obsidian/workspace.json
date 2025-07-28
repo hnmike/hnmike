@@ -92,6 +92,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Exercise 5: PostgreSQL Data Modeling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 5: PostgreSQL Data Modeling\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Exercise 2: Web Scraping and Pandas",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 2: Web Scraping and Pandas\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":289},\"to\":{\"line\":9,\"ch\":289}},\"scroll\":148.35433969677098}"
+                },
+                {
                   "title": "Docker-based Workflow",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Docker-based Workflow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Docker-based Workflow\"}",
@@ -156,12 +168,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
+                "file": "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 2: Web Scraping and Pandas"
+              "title": "Exercise 10: Data Quality with Great Expectations"
             }
           },
           {
@@ -1017,17 +1029,17 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
     "20-30 PARA/Project/data engineer practices/Exercise 9: Polars Lazy Computation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 8: DuckDB Analytics.md",
     "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
     "20-30 PARA/Project/data engineer practices/Exercise 6: PySpark Aggregation.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
     "20-30 PARA/Project/data engineer practices/Exercise 3: AWS S3 and Boto3.md",
     "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
     "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
