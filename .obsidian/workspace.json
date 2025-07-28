@@ -144,17 +144,23 @@
             "id": "88f7c5cc422b3cde",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "title",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/title.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"title\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Python Mastery - Data Structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":195,\"ch\":26},\"to\":{\"line\":195,\"ch\":26}},\"scroll\":190.71219353461922}"
+                },
+                {
+                  "title": "202507230956 job data engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/202507230956 job data engineer.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507230956 job data engineer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":7.073320483985097}"
                 },
                 {
                   "title": "title",
@@ -179,12 +185,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202507230956 job data engineer"
+              "title": "Python Mastery - Fundamentals"
             }
           },
           {
@@ -1038,8 +1044,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "7f8312a87ddd694b",
+  "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
+    "40-50 technical knowledge hub/Python Mastery - Object-Oriented Programming.md",
+    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "40-50 technical knowledge hub/Python Mastery MOC.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
     "00-09 system/template/simple chat.md",
@@ -1063,9 +1072,6 @@
     "00-09 system/template/Callout template.md",
     "00-09 system/template/block reference.md",
     "00-09 system/template/new zettel note.md",
-    "resources/Big RAM Data Engineering with DuckDB.md",
-    "20-30 PARA/Project/Data engineer bootcamp/Module 4 Analytics Engineering with dbt.md",
-    "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
