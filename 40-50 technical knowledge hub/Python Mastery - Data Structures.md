@@ -194,6 +194,7 @@ def data_processing_pipeline(filename):
 
 ### **Builds On**
 - [[Python Mastery - Fundamentals]] - File I/O, basic classes
+- [[Error Handling Patterns]] - Graceful degradation
 
 ### **Leads To**
 - [[Python Mastery - Object-Oriented Programming]] - Custom containers
@@ -202,6 +203,9 @@ def data_processing_pipeline(filename):
 
 ### **Related Concepts**
 - [[Memory Optimization Techniques]]
+- [[Python Performance Profiling]]
+- [[Data Processing Patterns]]
+- [[Custom Container Design]]
 
 ---
 

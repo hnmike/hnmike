@@ -151,6 +151,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Python Mastery - Data Structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Data Structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Data Structures\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":197,\"ch\":0},\"to\":{\"line\":197,\"ch\":0}},\"scroll\":188.86401442871158}"
+                },
+                {
                   "title": "Python Mastery - Code Structure",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"40-50 technical knowledge hub/Python Mastery - Code Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python Mastery - Code Structure\"}",
@@ -323,12 +329,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Mastery - Data Structures"
+              "title": "Python Mastery - Functions and Testing"
             },
             "group": "e6bd4629833f7c1a"
           },
@@ -765,7 +771,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
+                "file": "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -793,7 +799,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Python Mastery - Data Structures"
+              "title": "Graph of Python Mastery - Functions and Testing"
             },
             "group": "e6bd4629833f7c1a"
           }
@@ -1238,6 +1244,7 @@
   },
   "active": "88f7c5cc422b3cde",
   "lastOpenFiles": [
+    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Code Structure.md",
     "40-50 technical knowledge hub/Memory Optimization Techniques.md",
     "40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md",
@@ -1245,7 +1252,6 @@
     "Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
     "Type Hints Reference.md",
-    "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "Error Handling Patterns.md",
     "Data Processing Patterns.md",
     "Python Performance Profiling.md",
