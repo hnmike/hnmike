@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Repository Architecture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Repository Architecture.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Repository Architecture\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":21.613442691374217}"
+                },
+                {
                   "title": "Exercise 10: Data Quality with Great Expectations",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 10: Data Quality with Great Expectations\"}",
@@ -174,12 +180,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
+                "file": "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repository Architecture"
+              "title": "Exercise 4: JSON to CSV Conversion"
             }
           },
           {
@@ -1035,10 +1041,10 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
-    "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
     "20-30 PARA/Project/data engineer practices/Exercise 9: Polars Lazy Computation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 8: DuckDB Analytics.md",
     "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
