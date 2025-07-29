@@ -92,6 +92,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 3 Lab - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":20.36946231138715}"
+                },
+                {
                   "title": "DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp\"}",
@@ -210,12 +222,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp"
             }
           },
           {
@@ -1090,10 +1102,11 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 3 Lab & Lecture - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Fact Data Modelling Day 1 Lab & Lecture - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
@@ -1117,7 +1130,6 @@
     "resources/Reddit What are your favorite tricks using Neovim.md",
     "resources/Development.md",
     "orphaned files output.md",
-    "40-50 technical knowledge hub/Python Mastery - Functions and Testing.md",
     "10-20 zettelkasten/topics/jon/Untitled",
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
