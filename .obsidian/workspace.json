@@ -92,6 +92,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":21.25131843047739}"
+                },
+                {
                   "title": "DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp\"}",
@@ -336,12 +342,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
+                "file": "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp"
+              "title": "DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp"
             }
           },
           {
@@ -1216,10 +1222,10 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - FINAL LECTURE LET'S GO - Data Engineering Bootcamp.md",
