@@ -997,7 +997,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-20 zettelkasten/atomic notes/202507230956 job data engineer.md",
+                "file": "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1007,7 +1007,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 202507230956 job data engineer"
+              "title": "Backlinks for Advanced Exercises"
             }
           },
           {
@@ -1332,8 +1332,7 @@
               "title": "Graph Analysis"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "horizontal",
