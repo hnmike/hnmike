@@ -1,11 +1,11 @@
 ---
-url: null
-related: null
-aliases: null
-tags: null
-type: null
-topic: null
-summary: null
+url: 
+related: 
+aliases: 
+tags: 
+type: atom
+topic: 
+summary: 
 permalink: 00-09-system/template/knowledge-base-template
 ---
 

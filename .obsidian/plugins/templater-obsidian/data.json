@@ -28,7 +28,8 @@
   "enabled_templates_hotkeys": [
     "00-09 system/template/tag.md",
     "00-09 system/template/summary.md",
-    "00-09 system/template/title.md"
+    "00-09 system/template/title.md",
+    "00-09 system/template/knowledge base template.md"
   ],
   "startup_templates": [
     "",
