@@ -1,9 +1,16 @@
 ---
 title: Data Engineering MOC
-tags: [moc, data-engineering, learning-path, skills-progression]
-aliases: [DE MOC, Data Engineering Map of Content]
+tags:
+- moc
+- data-engineering
+- learning-path
+- skills-progression
+aliases:
+- DE MOC
+- Data Engineering Map of Content
 created: 2025-01-20
 updated: 2025-01-20
+permalink: 20-30-para/project/data-engineer-practices/data-engineering-moc
 ---
 
 # Data Engineering MOC (Map of Content)
