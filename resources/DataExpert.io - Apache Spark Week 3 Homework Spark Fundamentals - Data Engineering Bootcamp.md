@@ -12,7 +12,7 @@ tags:
   - Apache_Spark
 summary: "Apache Spark Week 3 Homework: Spark Fundamentals from Data Engineering Bootcamp. Learn to disable broadcast joins, use bucket joins, and optimize data size."
 permalink: resources/data-expert-io-apache-spark-week-3-homework-spark-fundamentals-data-engineering-bootcamp
-type: "#atom"
+tag:
 ---
 
 # DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp
