@@ -92,6 +92,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "data engineer coursera",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer coursera/data engineer coursera.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"data engineer coursera\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "devop lab",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/devop lab/devop lab.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"devop lab\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "MLop1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/MLop1/MLop1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"MLop1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "practical python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/practical python/practical python.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"practical python\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/SQL/SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "knowledge base template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
                   "title": "new zettel note",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
@@ -396,12 +432,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/knowledge base template.md",
+                "file": "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "knowledge base template"
+              "title": "Advanced Exercises"
             }
           },
           {
@@ -1325,6 +1361,12 @@
   },
   "active": "c1f32a22e12ad538",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
+    "20-30 PARA/Project/devop lab/devop lab.md",
+    "20-30 PARA/Project/MLop1/MLop1.md",
+    "20-30 PARA/Project/practical python/practical python.md",
+    "20-30 PARA/Project/SQL/SQL.md",
+    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/new zettel note.md",
     "40-50 technical knowledge hub/Python Mastery - Fundamentals.md",
     "10-20 zettelkasten/atomic notes/cong cu ai ho tro viet resume match description.md",
@@ -1335,7 +1377,6 @@
     "00-09 system/template/project template 1.md",
     "00-09 system/template/block reference.md",
     "00-09 system/template/note review.md",
-    "00-09 system/template/knowledge base template.md",
     "00-09 system/template/daily note template.md",
     "00-09 system/template/Callout template.md",
     "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
@@ -1346,11 +1387,6 @@
     "resources/DataExpert.io - Week 1 Homework (FINAL RESULTS WOO) - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 2 - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 1 Homework Part 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 5 Lecture 2 & Lab 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 4 Lecture & Lab 2 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Week 4 Homework & Week 5 Lecture 1 - Data Engineering Bootcamp.md",
-    "resources/DataExpert.io - Homework Applying Analytical Patterns - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
