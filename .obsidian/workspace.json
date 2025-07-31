@@ -1174,25 +1174,6 @@
             }
           },
           {
-            "id": "3953deb5c2756ee8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "39c9f60978b9de3f",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1209,6 +1190,25 @@
               "state": {},
               "icon": "GA-ICON",
               "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "79997bca68feb303",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
