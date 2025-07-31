@@ -85,11 +85,23 @@
             "id": "c1f32a22e12ad538",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":29},\"to\":{\"line\":18,\"ch\":29}},\"scroll\":10.2442}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Exercise 1: Downloading Files",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 1: Downloading Files\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Python Mastery - Data Structures",
@@ -384,12 +396,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
+                "file": "00-09 system/template/new zettel note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 1: Downloading Files"
+              "title": "new zettel note"
             }
           },
           {
@@ -509,17 +521,17 @@
             "id": "9831e2ff3f1ce214",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "knowledge base template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":41},\"to\":{\"line\":2,\"ch\":4}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "new zettel note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/new zettel note.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"new zettel note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.593197980734443}"
                 },
                 {
                   "title": "Big RAM Data Engineering with DuckDB",
@@ -664,34 +676,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/knowledge base template.md",
+                "file": "00-09 system/template/new zettel note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "knowledge base template"
+              "title": "new zettel note"
             }
           },
           {
             "id": "d9dc138d632282d3",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "202507262231 World Bank Economic Forecasts Pandas Analysis",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/202507262231 World Bank Economic Forecasts Pandas Analysis.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"202507262231 World Bank Economic Forecasts Pandas Analysis\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Callout template",
+                  "title": "knowledge base template",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/Callout template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Callout template\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/knowledge base template.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"knowledge base template\"}",
                   "eState": "{}"
                 },
                 {
@@ -795,16 +801,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-09 system/template/daily note template.md",
-                "mode": "source",
+                "file": "00-09 system/template/note review.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily note template"
+              "title": "note review"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -1281,8 +1287,15 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c1f32a22e12ad538",
+  "active": "ee2fd35c76e8e1d0",
   "lastOpenFiles": [
+    "00-09 system/template/note review.md",
+    "00-09 system/template/knowledge base template.md",
+    "00-09 system/template/daily note template.md",
+    "00-09 system/template/block reference.md",
+    "00-09 system/template/Callout template.md",
+    "00-09 system/template/new zettel note.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "40-50 technical knowledge hub/Python Mastery - Data Structures.md",
     "40-50 technical knowledge hub/Python Mastery - Generators and Iterators.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
@@ -1302,13 +1315,6 @@
     "resources/DataExpert.io - Day 3 Lecture - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 9: Polars Lazy Computation.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 8: DuckDB Analytics.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 6: PySpark Aggregation.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",

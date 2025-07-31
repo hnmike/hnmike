@@ -1,12 +1,11 @@
 ---
-created-date: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-id: <%* const currentDate = tp.date.now("YYYYMMDDHHmm")
-await tp.file.rename(`${currentDate}`) %>
-url: 
-related: 
-aliases: 
-tags: 
-type:
-topic:
-summary:
+url: null
+related: null
+aliases: null
+tags: null
+type: null
+topic: null
+summary: null
+permalink: 00-09-system/template/knowledge-base-template
 ---
+
