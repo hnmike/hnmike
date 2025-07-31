@@ -74,6 +74,9 @@
     },
     "summary": {
       "icon": "lucide-square-menu"
+    },
+    "type": {
+      "icon": "lucide-tags"
     }
   },
   "ribbonIcons": {}
