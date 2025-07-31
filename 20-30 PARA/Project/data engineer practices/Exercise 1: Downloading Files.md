@@ -3,6 +3,21 @@ title: Exercise 1: Downloading Files
 tags: [file-downloads, http-requests, python, zip-processing, data-acquisition]
 ---
 
+
+> [!summary] Tóm tắt
+> Exercise 1 focuses on establishing fundamental data acquisition skills essential for data engineering pipelines. The core task involves implementing Python code to automate the download of multiple ZIP files from HTTP sources, manage potential errors, extract their contents, and store the processed data locally.
+> 
+> The exercise outlines a detailed process: iterating through a list of download URIs (e.g., Divvy trip data), using the `requests` library for HTTP GET requests, validating HTTP response status codes, efficiently streaming and saving downloaded ZIP files to disk, and then utilizing the `zipfile` module to extract and organize the compressed data. Key technical components required include `requests` for HTTP client functionality, built-in file I/O operations, `zipfile` for archive handling, and `try/except` blocks for comprehensive error management.
+> 
+> A significant challenge highlighted is gracefully handling invalid URLs within the provided list and optimizing memory usage for large files via streaming downloads (`requests.get(uri, stream=True)`). The exercise emphasizes robust error handling, logical data organization, and ensuring the extracted files are correctly verified. Successful completion demonstrates proficiency in automating network data acquisition, processing compressed file formats, managing system errors, and structuring acquired data for subsequent use in more complex data pipelines.
+> 
+> **Related Topics for Further Exploration:**
+> 
+> 1.  **Advanced Web Scraping and Parsing**: Extending beyond simple file downloads to extract data from HTML content using libraries like Beautiful Soup or Scrapy.
+> 2.  **Cloud Storage Integration**: Learning to interact with cloud object storage services (e.g., AWS S3, Google Cloud Storage) for scalable data acquisition and storage.
+> 3.  **Data Transformation with Pandas**: Integrating the downloaded raw data with Python's Pandas library for cleaning, manipulating, and preparing it for analysis or loading into databases.
+> 4.  **ETL Pipeline Orchestration**: Exploring tools like Apache Airflow or Prefect to schedule, monitor, and manage complex data extraction, transformation, and loading (ETL) workflows.
+> 5.  **Data Quality and Validation**: Implementing checks and assertions to ensure the integrity, completeness, and accuracy of data post-download and extraction.
 # Exercise 1: Downloading Files
 
 ## Overview
