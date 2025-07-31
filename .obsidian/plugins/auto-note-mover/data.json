@@ -17,6 +17,21 @@
       "folder": "10-20 zettelkasten/atomic notes",
       "tag": "#atom",
       "pattern": ""
+    },
+    {
+      "folder": "",
+      "tag": "#",
+      "pattern": ""
+    },
+    {
+      "folder": "",
+      "tag": "",
+      "pattern": ""
+    },
+    {
+      "folder": "",
+      "tag": "",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,
