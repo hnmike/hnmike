@@ -4,4 +4,4 @@
 Need to know more about scraping find more on 
 - Some technical patterns from [[Exercise 1: Downloading Files#Data Sources |patterns]]
 - Implementation steps 
-- 
+- E
