@@ -6,7 +6,7 @@
       {
         "id": "691a93c37fa2a0a4",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 33.333333333333336,
         "children": [
           {
             "id": "5474c0604719da73",
@@ -986,10 +986,47 @@
       {
         "id": "64a37828e68d00b0",
         "type": "tabs",
-        "dimension": 45.02164502164502,
+        "dimension": 22.51082251082251,
         "children": [
           {
             "id": "d87bcae08ed14e31",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "automated web data flow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"automated web data flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"automated web data flow\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecules 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "molecules 1"
+            },
+            "group": "f3a45d5d8c27a540"
+          }
+        ]
+      },
+      {
+        "id": "8c22ce3dddd149be",
+        "type": "tabs",
+        "dimension": 22.51082251082251,
+        "children": [
+          {
+            "id": "843da3803810d9fd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -997,12 +1034,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "molecules 1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"molecules 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"molecules 1\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":73},\"to\":{\"line\":3,\"ch\":73}},\"scroll\":0}"
                 }
               ]
             },
@@ -1015,15 +1046,14 @@
               },
               "icon": "lucide-file",
               "title": "automated web data flow"
-            },
-            "group": "f3a45d5d8c27a540"
+            }
           }
         ]
       },
       {
         "id": "21beac24e681b73b",
         "type": "tabs",
-        "dimension": 21.645021645021643,
+        "dimension": 21.645021645021647,
         "children": [
           {
             "id": "184833fd4713f62f",
@@ -1040,7 +1070,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "automated web data flow.md",
+                "file": "molecules 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -1068,7 +1098,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of automated web data flow"
+              "title": "Graph of molecules 1"
             },
             "group": "f3a45d5d8c27a540"
           }
@@ -1550,7 +1580,7 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "d87bcae08ed14e31",
+  "active": "843da3803810d9fd",
   "lastOpenFiles": [
     "molecules 1.md",
     "automated web data flow.md",
