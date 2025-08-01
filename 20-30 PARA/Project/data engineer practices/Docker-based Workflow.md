@@ -1,12 +1,13 @@
 ---
 title: Docker-based Workflow
 tags:
-- docker
-- workflow
-- environment
-- containerization
-- development
+  - docker
+  - workflow
+  - environment
+  - containerization
+  - development
 permalink: 20-30-para/project/data-engineer-practices/docker-based-workflow
+type: project_note
 ---
 
 # Docker-based Workflow

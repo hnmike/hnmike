@@ -85,16 +85,16 @@
             "id": "c1f32a22e12ad538",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Docker-based Workflow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Docker-based Workflow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Docker-based Workflow\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":8.908045275457974}"
                 },
                 {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
@@ -460,14 +460,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker-based Workflow"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -929,9 +925,56 @@
               "icon": "lucide-file",
               "title": "project_family template"
             }
+          },
+          {
+            "id": "d998768580d0bbb7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Exercise 5: PostgreSQL Data Modeling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 5: PostgreSQL Data Modeling\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Data Engineering Practice Repository",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data Engineering Practice Repository\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Exercise 1: Downloading Files",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 1: Downloading Files\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "alloy notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/index/alloy notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"alloy notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker-based Workflow"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1404,17 +1447,20 @@
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Open: View Smart Connections": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false
+      "obsidian-task-progress-bar:Open Task Genius view": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "8f60804ccaa2ae70",
+  "active": "d998768580d0bbb7",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
+    "10-20 zettelkasten/index/alloy notes.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering MOC.md",
     "20-30 PARA/Project/data engineer practices/Beginner Exercises.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Exercise 4: JSON to CSV Conversion.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "20-30 PARA/Project/data engineer practices/Exercise 3: AWS S3 and Boto3.md",
     "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
     "20-30 PARA/Project/data engineer practices/Skill Progression Tracker.md",
@@ -1430,12 +1476,10 @@
     "20-30 PARA/Project/data engineer practices/Exercise 6: PySpark Aggregation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
-    "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/_TOC_.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/MLop1/MLop1.md",
-    "20-30 PARA/Project/practical python/practical python.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
