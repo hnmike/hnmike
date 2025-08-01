@@ -937,6 +937,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Docker-based Workflow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Docker-based Workflow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Docker-based Workflow\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":4.680850706709192}"
+                },
+                {
                   "title": "Exercise 5: PostgreSQL Data Modeling",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Exercise 5: PostgreSQL Data Modeling\"}",
@@ -965,12 +971,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
+                "file": "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker-based Workflow"
+              "title": "Exercise 1: Downloading Files"
             }
           }
         ],
@@ -1083,7 +1089,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
+                "file": "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1093,7 +1099,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Docker-based Workflow"
+              "title": "Backlinks for Exercise 1: Downloading Files"
             }
           },
           {
