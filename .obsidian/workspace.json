@@ -471,6 +471,25 @@
             }
           },
           {
+            "id": "8f60804ccaa2ae70",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
+          },
+          {
             "id": "d0416ea4201a115b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -912,7 +931,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -1388,7 +1407,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c1f32a22e12ad538",
+  "active": "8f60804ccaa2ae70",
   "lastOpenFiles": [
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering MOC.md",
