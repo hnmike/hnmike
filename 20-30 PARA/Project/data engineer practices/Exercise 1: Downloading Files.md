@@ -24,7 +24,7 @@ tags: [file-downloads, http-requests, python, zip-processing, data-acquisition]
 
 Exercise 1 focuses on implementing file downloads from HTTP sources using Python, handling errors, extracting ZIP file contents, and storing data locally. This represents a fundamental data acquisition skill for data engineering pipelines.
 
-De thuc hien bai 1 ta can biet [[http ]]
+De thuc hien bai 1 ta c
 ## System Overview
 
 The exercise tests your ability to write Python code that can download multiple ZIP files from an HTTP source, process them, and store their contents locally. This functionality serves as a foundation for more complex data pipelines covered in later exercises.
