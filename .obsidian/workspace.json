@@ -981,6 +981,35 @@
           }
         ],
         "currentTab": 7
+      },
+      {
+        "id": "64a37828e68d00b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d87bcae08ed14e31",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -1089,7 +1118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
+                "file": "Untitled 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1099,7 +1128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exercise 1: Downloading Files"
+              "title": "Backlinks for Untitled 1"
             }
           },
           {
@@ -1428,7 +1457,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 754.5
+    "width": 646.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1457,12 +1486,13 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "d998768580d0bbb7",
+  "active": "d87bcae08ed14e31",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
+    "Untitled 1.md",
     "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "10-20 zettelkasten/index/alloy notes.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering MOC.md",
     "20-30 PARA/Project/data engineer practices/Beginner Exercises.md",
@@ -1485,7 +1515,6 @@
     "20-30 PARA/Project/data engineer practices/_TOC_.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/devop lab/devop lab.md",
-    "20-30 PARA/Project/MLop1/MLop1.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
