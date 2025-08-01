@@ -64,6 +64,5 @@
   "cmdr",
   "editor-width-slider",
   "editing-toolbar",
-  "obsidian-local-rest-api",
-  "smart-composer"
+  "obsidian-local-rest-api"
 ]
