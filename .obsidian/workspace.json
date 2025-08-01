@@ -997,18 +997,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "molecules 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"molecules 1.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"molecules 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":73},\"to\":{\"line\":3,\"ch\":73}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules 1.md",
+                "file": "automated web data flow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "molecules 1"
+              "title": "automated web data flow"
             },
             "group": "f3a45d5d8c27a540"
           }
@@ -1034,7 +1040,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "molecules 1.md",
+                "file": "automated web data flow.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -1062,7 +1068,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of molecules 1"
+              "title": "Graph of automated web data flow"
             },
             "group": "f3a45d5d8c27a540"
           }
@@ -1176,7 +1182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molecules 1.md",
+                "file": "automated web data flow.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1186,7 +1192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for molecules 1"
+              "title": "Backlinks for automated web data flow"
             }
           },
           {
@@ -1546,8 +1552,9 @@
   },
   "active": "d87bcae08ed14e31",
   "lastOpenFiles": [
-    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "molecules 1.md",
+    "automated web data flow.md",
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
@@ -1572,7 +1579,6 @@
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
     "20-30 PARA/Project/data engineer practices/_TOC_.md",
     "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
-    "20-30 PARA/Project/devop lab/devop lab.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
