@@ -6,7 +6,7 @@
       {
         "id": "691a93c37fa2a0a4",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 59.689922480620154,
         "children": [
           {
             "id": "5474c0604719da73",
@@ -986,121 +986,42 @@
       {
         "id": "64a37828e68d00b0",
         "type": "tabs",
-        "dimension": 22.510822510822507,
+        "dimension": 40.310077519379846,
         "children": [
           {
             "id": "d87bcae08ed14e31",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "automated web data flow",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"automated web data flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"automated web data flow\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp"
-            },
-            "group": "f3a45d5d8c27a540"
-          }
-        ]
-      },
-      {
-        "id": "8c22ce3dddd149be",
-        "type": "tabs",
-        "dimension": 22.510822510822507,
-        "children": [
-          {
-            "id": "843da3803810d9fd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                  "title": "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 3 Lab - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":14.913152976114242}"
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":19.14292907615043}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "automated web data flow.md",
+                "file": "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "automated web data flow"
+              "title": "DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp"
             }
-          }
-        ]
-      },
-      {
-        "id": "21beac24e681b73b",
-        "type": "tabs",
-        "dimension": 21.645021645021647,
-        "children": [
-          {
-            "id": "184833fd4713f62f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp"
-            },
-            "group": "f3a45d5d8c27a540"
           }
         ]
       }
@@ -1528,25 +1449,6 @@
             }
           },
           {
-            "id": "0ac02c7efef18bf3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "2b8bbbdf99852e40",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1563,6 +1465,25 @@
               "state": {},
               "icon": "GA-ICON",
               "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "2cfc04fdbe2ac89d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -1594,11 +1515,14 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
   "active": "d87bcae08ed14e31",
   "lastOpenFiles": [
+    "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
+    "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
     "molecules 1.md",
     "automated web data flow.md",
     "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
@@ -1624,8 +1548,6 @@
     "20-30 PARA/Project/data engineer practices/Exercise 6: PySpark Aggregation.md",
     "20-30 PARA/Project/data engineer practices/Exercise 2: Web Scraping and Pandas.md",
     "20-30 PARA/Project/data engineer practices/Exercise 10: Data Quality with Great Expectations.md",
-    "20-30 PARA/Project/data engineer practices/_TOC_.md",
-    "20-30 PARA/Project/data engineer coursera/data engineer coursera.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
