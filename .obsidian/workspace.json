@@ -1468,7 +1468,7 @@
             }
           },
           {
-            "id": "2cfc04fdbe2ac89d",
+            "id": "da74399cf3cb6166",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1482,8 +1482,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -1515,17 +1515,18 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d998768580d0bbb7",
+  "active": "d87bcae08ed14e31",
   "lastOpenFiles": [
+    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md",
     "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
     "molecules 1.md",
     "automated web data flow.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
     "20-30 PARA/Project/data engineer practices/Docker-based Workflow.md",
     "20-30 PARA/Project/data engineer practices/Exercise 5: PostgreSQL Data Modeling.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.md",
