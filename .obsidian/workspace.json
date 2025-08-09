@@ -986,7 +986,7 @@
       {
         "id": "64a37828e68d00b0",
         "type": "tabs",
-        "dimension": 22.51082251082251,
+        "dimension": 22.510822510822507,
         "children": [
           {
             "id": "d87bcae08ed14e31",
@@ -1023,7 +1023,7 @@
       {
         "id": "8c22ce3dddd149be",
         "type": "tabs",
-        "dimension": 22.51082251082251,
+        "dimension": 22.510822510822507,
         "children": [
           {
             "id": "843da3803810d9fd",
@@ -1510,7 +1510,26 @@
             }
           },
           {
-            "id": "e7608f9d7c545fc2",
+            "id": "23b314fe0d6bc093",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0ac02c7efef18bf3",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1529,7 +1548,7 @@
             }
           },
           {
-            "id": "23b314fe0d6bc093",
+            "id": "2b8bbbdf99852e40",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1547,7 +1566,8 @@
               "title": "Graph Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 17
       }
     ],
     "direction": "horizontal",
@@ -1576,8 +1596,7 @@
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Open: View Smart Connections": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false,
-      "smart-composer:Open smart composer": false
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
   "active": "d87bcae08ed14e31",
