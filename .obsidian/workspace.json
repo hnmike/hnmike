@@ -1466,28 +1466,9 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
-          },
-          {
-            "id": "4c1a16f266813dc8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
@@ -1519,7 +1500,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "4c1a16f266813dc8",
+  "active": "2b8bbbdf99852e40",
   "lastOpenFiles": [
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
