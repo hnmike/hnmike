@@ -108,12 +108,12 @@
         "maxLinkFactor": 1
       }
     },
-    "previousRelease": "1.12.5.18",
+    "previousRelease": "1.12.5.19",
     "openViewAsTab": false,
     "showDebugMessages": false,
     "showPaserDebugMessages": false
   },
-  "buryDate": "2025-08-10",
+  "buryDate": "2025-08-11",
   "buryList": [],
   "historyDeck": null
 }
