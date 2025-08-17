@@ -1004,6 +1004,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "daily note template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":106.09353271989544}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+                },
+                {
+                  "title": "cài đặt docker engine & desktop",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
                   "title": "DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp\"}",
@@ -1026,12 +1044,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cài đặt docker engine & desktop.md",
+                "file": "resources/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cài đặt docker engine & desktop"
+              "title": "Untitled"
             }
           }
         ]
@@ -1479,7 +1497,7 @@
             }
           },
           {
-            "id": "27ad23bab98eee10",
+            "id": "a59dc0891988412e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1493,8 +1511,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -1526,11 +1544,15 @@
       "obsidian-git:Open Git source control": false,
       "vscode-editor:Create Code File": false,
       "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
   "active": "d87bcae08ed14e31",
   "lastOpenFiles": [
+    "00-09 system/template/daily note template.md",
+    "resources/Untitled.md",
+    "cài đặt docker engine & desktop.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
     "{{date}}.md",
     "2025-08-12.md",
@@ -1555,9 +1577,6 @@
     "20-30 PARA/Project/data engineer practices/templates",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
     "20-30 PARA/Project/data engineer practices/Intermediate Exercises.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 9: Polars Lazy Computation.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 8: DuckDB Analytics.md",
-    "20-30 PARA/Project/data engineer practices/Exercise 7: Advanced PySpark Functions.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
