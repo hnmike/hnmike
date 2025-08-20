@@ -69,9 +69,9 @@
               "type": "bases",
               "state": {
                 "file": "10-20 zettelkasten/BASES/Untitled.base",
-                "viewName": "Table"
+                "viewName": "View"
               },
-              "icon": "lucide-table",
+              "icon": "lucide-layout-grid",
               "title": "Untitled"
             }
           }
@@ -575,6 +575,7 @@
   },
   "active": "781816fc20a54fad",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "{{date}}.md",
     "10-20 zettelkasten/BASES/Untitled.base",
@@ -602,7 +603,6 @@
     "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
     "20-30 PARA/Project/data engineer practices/Skill Progression Tracker.md",
     "20-30 PARA/Project/data engineer practices/Implementation Plan.md",
-    "20-30 PARA/Project/data engineer practices/Linking Strategy.md",
     "20-30 PARA/Project/data engineer practices/templates",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",

@@ -1,6 +1,13 @@
+formulas:
+  tag: ""
 views:
   - type: table
     name: Table
     order:
       - file.name
-      - file.folder
+  - type: cards
+    name: View
+    order:
+      - file.name
+      - tag
+      - formula.tag
