@@ -6,7 +6,6 @@
       {
         "id": "691a93c37fa2a0a4",
         "type": "tabs",
-        "dimension": 59.689922480620154,
         "children": [
           {
             "id": "5474c0604719da73",
@@ -27,59 +26,6 @@
               "pinned": true,
               "icon": "Memos",
               "title": "Thino"
-            }
-          },
-          {
-            "id": "f9ad368ac468abac",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Reddit Share your tips and tricks in (neo)vim!",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Reddit Share your tips and tricks in (neo)vim!.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Reddit Share your tips and tricks in (neo)vim!\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":9.589040364304633}"
-                },
-                {
-                  "title": "evergreen note",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10-20 zettelkasten/atomic notes/atomic notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"evergreen note\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "DE zach wilson",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/DE zach wilson/DE zach wilson.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DE zach wilson\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":0},\"to\":{\"line\":22,\"ch\":0}},\"scroll\":2.831807780320366}"
-                },
-                {
-                  "title": "Data engineer bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Data engineer bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Data engineer bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":18.286703415669894}"
-                },
-                {
-                  "title": "Module 1 Containerization and Infrastructure as Code",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-30 PARA/Project/Data engineer bootcamp/Module 1 Containerization and Infrastructure as Code.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Module 1 Containerization and Infrastructure as Code\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier"
             }
           },
           {
@@ -987,72 +933,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "64a37828e68d00b0",
-        "type": "tabs",
-        "dimension": 40.310077519379846,
-        "children": [
-          {
-            "id": "d87bcae08ed14e31",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "daily note template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-09 system/template/daily note template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"daily note template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":106.09353271989544}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Untitled.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
-                },
-                {
-                  "title": "cài đặt docker engine & desktop",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cài đặt docker engine & desktop.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"cài đặt docker engine & desktop\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
-                },
-                {
-                  "title": "DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-                },
-                {
-                  "title": "DataExpert.io - Day 3 Lab - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Day 3 Lab - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Day 3 Lab - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":14.913152976114242}"
-                },
-                {
-                  "title": "DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":19.14292907615043}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -1497,7 +1377,7 @@
             }
           },
           {
-            "id": "a59dc0891988412e",
+            "id": "96bae29f798dfd70",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1548,13 +1428,14 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "d87bcae08ed14e31",
+  "active": "81a51b5314bffc61",
   "lastOpenFiles": [
-    "00-09 system/template/daily note template.md",
+    "{{date}}.md",
+    "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources/Untitled.md",
+    "00-09 system/template/daily note template.md",
     "cài đặt docker engine & desktop.md",
     "resources/DataExpert.io - Apache Spark Week 3 Homework Spark Fundamentals - Data Engineering Bootcamp.md",
-    "{{date}}.md",
     "2025-08-12.md",
     "resources/DataExpert.io - Week 3 Homework Testing Spark Fundamentals - Data Engineering Bootcamp.md",
     "20-30 PARA/Project/data engineer practices/Exercise 1: Downloading Files.md",
@@ -1576,7 +1457,6 @@
     "20-30 PARA/Project/data engineer practices/templates/Exercise Template.md",
     "20-30 PARA/Project/data engineer practices/templates",
     "20-30 PARA/Project/data engineer practices/Repository Architecture.md",
-    "20-30 PARA/Project/data engineer practices/Intermediate Exercises.md",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
     "10-20 zettelkasten/topics/jon/Untitled",
