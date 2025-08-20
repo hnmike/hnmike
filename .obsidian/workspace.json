@@ -56,18 +56,23 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dagster, dbt, duckdb as new local MDS 202503181708",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"resources/Dagster, dbt, duckdb as new local MDS 202503181708.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Dagster, dbt, duckdb as new local MDS 202503181708\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":43.80404913056259}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-                "mode": "source",
-                "source": false
+                "file": "10-20 zettelkasten/BASES/Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -570,6 +575,7 @@
   },
   "active": "781816fc20a54fad",
   "lastOpenFiles": [
+    "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "{{date}}.md",
     "10-20 zettelkasten/BASES/Untitled.base",
     "10-20 zettelkasten/BASES",
