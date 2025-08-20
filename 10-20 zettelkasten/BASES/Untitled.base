@@ -9,5 +9,5 @@ views:
     name: View
     order:
       - file.name
-      - tag
       - formula.tag
+      - tag
