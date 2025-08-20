@@ -43,12 +43,31 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "folders",
-              "title": "Projects"
+              "icon": "inbox",
+              "title": "Inbox"
+            }
+          },
+          {
+            "id": "5cac8c8a8362d21e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -544,7 +563,7 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "81a51b5314bffc61",
+  "active": "5cac8c8a8362d21e",
   "lastOpenFiles": [
     "{{date}}.md",
     "resources/Big RAM Data Engineering with DuckDB.md",

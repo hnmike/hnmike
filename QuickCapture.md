@@ -6,4 +6,5 @@
 - [x] lab 2 dab 📅 2025-07-14 ✅ 2025-07-18
 - [ ] Data engineer/analyst profile in vscode
 - [x] Nop cv devop etl 📅 2025-07-22 ✅ 2025-08-20
-- [ ] Hen gap TA + project 📅 2025-07-26
+- [x] Hen gap TA + project 📅 2025-07-26 ✅ 2025-08-20
+- [ ] Nop datathon prj 📅 2025-08-24
