@@ -46,8 +46,32 @@
               "icon": "inbox",
               "title": "Inbox"
             }
+          },
+          {
+            "id": "781816fc20a54fad",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dagster, dbt, duckdb as new local MDS 202503181708"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -544,11 +568,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "5474c0604719da73",
+  "active": "781816fc20a54fad",
   "lastOpenFiles": [
+    "{{date}}.md",
     "10-20 zettelkasten/BASES/Untitled.base",
     "10-20 zettelkasten/BASES",
-    "{{date}}.md",
     "resources/Big RAM Data Engineering with DuckDB.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
     "resources/Untitled.md",
@@ -580,7 +604,6 @@
     "10-20 zettelkasten/topics/job",
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
-    "10-20 zettelkasten/molecules notes",
-    "10-20 zettelkasten/index"
+    "10-20 zettelkasten/molecules notes"
   ]
 }
