@@ -46,28 +46,8 @@
               "icon": "inbox",
               "title": "Inbox"
             }
-          },
-          {
-            "id": "5cac8c8a8362d21e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -431,8 +411,8 @@
             "state": {
               "type": "timetracker-sidebar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "timetracker-sidebar"
             }
           },
           {
@@ -512,7 +492,7 @@
             }
           },
           {
-            "id": "96bae29f798dfd70",
+            "id": "2566acde844efc4f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -539,6 +519,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -563,8 +544,10 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "5cac8c8a8362d21e",
+  "active": "5474c0604719da73",
   "lastOpenFiles": [
+    "10-20 zettelkasten/BASES/Untitled.base",
+    "10-20 zettelkasten/BASES",
     "{{date}}.md",
     "resources/Big RAM Data Engineering with DuckDB.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
@@ -590,7 +573,6 @@
     "20-30 PARA/Project/data engineer practices/Skill Progression Tracker.md",
     "20-30 PARA/Project/data engineer practices/Implementation Plan.md",
     "20-30 PARA/Project/data engineer practices/Linking Strategy.md",
-    "20-30 PARA/Project/data engineer practices/templates/Exercise Template.md",
     "20-30 PARA/Project/data engineer practices/templates",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
@@ -599,7 +581,6 @@
     "10-20 zettelkasten/topics/vim",
     "10-20 zettelkasten/topics",
     "10-20 zettelkasten/molecules notes",
-    "10-20 zettelkasten/index",
-    "10-20 zettelkasten/atomic notes"
+    "10-20 zettelkasten/index"
   ]
 }
