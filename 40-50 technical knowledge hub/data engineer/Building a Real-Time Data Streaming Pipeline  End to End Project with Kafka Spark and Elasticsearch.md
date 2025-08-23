@@ -74,3 +74,4 @@ permalink: 40-50-technical-knowledge-hub/data-engineer/building-a-real-time-data
 > - **Spark Streaming Setup (34:53)**: Instructions for setting up a PySpark streaming notebook, integrating Kafka, MongoDB, and Hugging Face for sentiment analysis.
 > - **Elasticsearch Configuration (1:05:12)**: Steps for creating a reviews index with schema, creating an enrichment policy, and assigning an ingestion pipeline.
 > - **Kibana Dashboard Setup (1:11:17)**: Guidance on setting up a dashboard in Kibana for real-time visualizations, including creating visualizations for sentiment, total reviews, average star rating, and business locations.
+
