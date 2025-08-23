@@ -69,9 +69,9 @@
               "type": "bases",
               "state": {
                 "file": "10-20 zettelkasten/BASES/Untitled.base",
-                "viewName": "View"
+                "viewName": "Table"
               },
-              "icon": "lucide-layout-grid",
+              "icon": "lucide-table",
               "title": "Untitled"
             }
           }

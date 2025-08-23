@@ -5,6 +5,7 @@ views:
     name: Table
     order:
       - file.name
+      - file.links
   - type: cards
     name: View
     filters:
