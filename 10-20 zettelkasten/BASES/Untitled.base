@@ -7,6 +7,12 @@ views:
       - file.name
   - type: cards
     name: View
+    filters:
+      and:
+        - file.folder.contains("resources")
     order:
       - file.name
       - formula.tag
+    cardSize: 270
+  - type: cards
+    name: View 2

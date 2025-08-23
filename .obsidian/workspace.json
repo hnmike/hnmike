@@ -75,7 +75,8 @@
               "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -572,13 +573,13 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "5474c0604719da73",
+  "active": "781816fc20a54fad",
   "lastOpenFiles": [
+    "{{date}}.md",
     "2025-08-23.md",
     "10-20 zettelkasten/BASES/Untitled.base",
     "Untitled 1.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
-    "{{date}}.md",
     "10-20 zettelkasten/BASES",
     "resources/Big RAM Data Engineering with DuckDB.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
