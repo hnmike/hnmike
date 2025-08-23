@@ -506,9 +506,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
   
   
 
- 
-![[Untitled 1.base]]
- 
+  
 
   
 

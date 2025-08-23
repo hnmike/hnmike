@@ -1,6 +1,3 @@
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.basename == null
