@@ -3,4 +3,4 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("20-30 PARA/Project/algorithm and design pattern")
+        - file.basename == null
