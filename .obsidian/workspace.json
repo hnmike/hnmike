@@ -43,8 +43,8 @@
             "state": {
               "type": "task-genius-view",
               "state": {},
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "lucide-ghost",
+              "title": "task-genius-view"
             }
           },
           {
@@ -75,8 +75,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -521,7 +520,7 @@
             }
           },
           {
-            "id": "2566acde844efc4f",
+            "id": "b56097251626498e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -573,12 +572,12 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "781816fc20a54fad",
+  "active": "5474c0604719da73",
   "lastOpenFiles": [
+    "10-20 zettelkasten/BASES/Untitled.base",
     "Untitled 1.md",
     "resources/Dagster, dbt, duckdb as new local MDS 202503181708.md",
     "{{date}}.md",
-    "10-20 zettelkasten/BASES/Untitled.base",
     "10-20 zettelkasten/BASES",
     "resources/Big RAM Data Engineering with DuckDB.md",
     "resources/Reddit 13 Neovim Tips and Life Hacks that Significantly improved my productivity that I wish I had known about them earlier.md",
@@ -602,7 +601,6 @@
     "20-30 PARA/Project/data engineer practices/Exercise 3: AWS S3 and Boto3.md",
     "20-30 PARA/Project/data engineer practices/Advanced Exercises.md",
     "20-30 PARA/Project/data engineer practices/Skill Progression Tracker.md",
-    "20-30 PARA/Project/data engineer practices/Implementation Plan.md",
     "20-30 PARA/Project/data engineer practices/templates",
     "20-30 PARA/Project/data engineer practices/Data Engineering Practice Repository.tmp",
     "20-30 PARA/Project/data engineer practices",
