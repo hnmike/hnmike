@@ -507,7 +507,7 @@ dv.paragraph(`**Tổng số:** ${projectNotes.length}`);
   
 
  
-![[MOC1.base]]
+
  
 
   
